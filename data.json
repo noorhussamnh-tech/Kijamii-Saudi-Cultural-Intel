@@ -344,13 +344,13 @@
     },
     {
      "rank": 6,
-     "text": "ابو الشامات",
+     "text": "صن داونز",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 7,
-     "text": "صن داونز",
+     "text": "ابو الشامات",
      "cat": "General",
      "pts": 6
     },
@@ -392,37 +392,37 @@
     },
     {
      "rank": 14,
-     "text": "ميندي",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 15,
-     "text": "بيلي بيلي",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 16,
      "text": "فاز الاهلي",
      "cat": "Football",
      "pts": 4
     },
     {
-     "rank": 17,
+     "rank": 15,
+     "text": "ميندي",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 16,
      "text": "للأهلي",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 17,
+     "text": "الكاس الاحمر",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 18,
-     "text": "الامه الاهلاويه",
+     "text": "جود بيلينغهام",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 19,
-     "text": "الكاس الاحمر",
+     "text": "الامه الاهلاويه",
      "cat": "General",
      "pts": 4
     },
@@ -459,7 +459,7 @@
     {
      "icon": "📌",
      "label": "General (18)",
-     "items": "#لفل_ون_بنهايي_QB · #روتانا_سبورت__مع_وليد · #وليد__الفراج · #طيبها_سعودي · ابو الشامات · صن داونز · مدريد · محمد عبدالرحمن · مورينهو · سفير الوطن"
+     "items": "#لفل_ون_بنهايي_QB · #روتانا_سبورت__مع_وليد · #وليد__الفراج · #طيبها_سعودي · صن داونز · ابو الشامات · مدريد · محمد عبدالرحمن · مورينهو · سفير الوطن"
     },
     {
      "icon": "⚽",
@@ -510,20 +510,20 @@
   "#روتانا_سبورت__مع_وليد": 10,
   "#وليد__الفراج": 8,
   "#طيبها_سعودي": 7,
-  "ابو الشامات": 6,
   "صن داونز": 6,
+  "ابو الشامات": 6,
   "مدريد": 6,
   "محمد عبدالرحمن": 6,
   "مورينهو": 6,
   "سفير الوطن": 4,
   "جنوب افريقيا": 4,
   "فالفيردي": 4,
-  "ميندي": 4,
-  "بيلي بيلي": 4,
   "فاز الاهلي": 4,
+  "ميندي": 4,
   "للأهلي": 4,
-  "الامه الاهلاويه": 4,
   "الكاس الاحمر": 4,
+  "جود بيلينغهام": 4,
+  "الامه الاهلاويه": 4,
   "19 سبتمبر": 4
  },
  "news": {
@@ -543,7 +543,7 @@
     "summary": "Trump admin sends Saudi nuclear deal that includes enrichment pathway to Congress CNN",
     "source": "CNN",
     "date": "26 Aug 2026",
-    "tag": "economy",
+    "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UX1ZJQjZLVkZ1eUNDazZiaUtBU05HTjVaU3VDeU51eFM3TEN5cXRoNVEyY1lzYWxOVG9vaV9QekhFLTBZcWhVSGJ2Y2VValFPSldZek0wek80ektzeWlqLTNzclNJcjAtbmxRWjg3bUpEQm5IWmJiLWhPbw?oc=5",
     "rank": 2
    },
@@ -552,9 +552,18 @@
     "summary": "Trump sends Saudi Arabia nuclear deal to Congress The Hill",
     "source": "The Hill",
     "date": "26 Aug 2026",
-    "tag": "economy",
+    "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUUFKUzNWQVVnOEhXYVRwYXcxMS1RVkJ1cVJWNE1nNVp5WFZWSzZGZXVVcWtIZ2pNWkw1Yk4zcHdqQVBZelU3Rl9VODlLcFBCX3ZOaUtEVmNqUmR4LUVmWDlRUTA4TWdNZ3VmS3FmVHNvVU8ybUVTZmJLWVl4bzNsbkJUUHIzYm5ZS1HSAY8BQVVfeXFMTnVDZ1hSOWZJQW5yQV9CYl94a0dVdEJDczE1TXNpLUtMaXgyWDczTHRfanpMWkp3YWFZaFlyMi1fWjlncHY5eFQ1MExLRmVQRTM0SzgxOFc1NGhTWDZIWjViYkhBRVlqOUFBTzgzTjNWdld0ZTNSZUp4OHc5ZFJ0dmIzdWxMOUJLblcwTzczZWs?oc=5",
     "rank": 3
+   },
+   {
+    "headline": "How Saudi Arabia is Turning Great-Power Rivalry to Its Advantage - Manara Magazine",
+    "summary": "How Saudi Arabia is Turning Great-Power Rivalry to Its Advantage Manara Magazine",
+    "source": "Manara Magazine",
+    "date": "26 Aug 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pR3FLYjVMYk9IVVdPOUNmTlBkbkM1MjZ4UU5YZ1IxOFMxMVRaNmNtZGJXTi11NzFtNTVCSFJxX3JsY2RVcnE2WTVidEpyYnhpYTVINTBNMlZIbF9zUF95MnJIZm9IMGdHTDNGX0hZYmVYbmU3VnBj?oc=5",
+    "rank": 4
    },
    {
     "headline": "Saudi brothers mint billion-dollar fortune from AI boom - Fortune",
@@ -563,7 +572,7 @@
     "date": "26 Aug 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96OEVBZk5sQkJvSlo5RlV1a1Y5TVZZQ3dhUDQyMmxsQ3gxSmFvY0ZxOVdGU3duS2dhekhjdFRBYjNIYUNXaFhlNVh4M3k4dFE1N2JNQjZOZDZQOENhLVFnT2h5Vl9wbHhJWno4?oc=5",
-    "rank": 4
+    "rank": 5
    },
    {
     "headline": "Why Lionsgate Vet’s Saudi Arabia-Backed Game Studio Picked ‘1,001 Arabian Nights’ Adaptation as Its Debut Title - Variety",
@@ -572,7 +581,16 @@
     "date": "26 Aug 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd3dPalZBdlUya1ljZ1R1TjgxdFdOVl92RTJQd2FqYkVNMkV0dEFzNFhXYVpFNjI5NUtIRDd0N09oQkQwRU5id2FQVHNGMm1RbTBpOUxBSFpKNkJ3VVgxeTVWSkZESmE1dlVtcUJydXVoQ0hMQlBaaVNHRGNlZ2NLWnZfYjRvWFh0eWd4TkpmR2xGWmJGeDdnNXdncmc?oc=5",
-    "rank": 5
+    "rank": 6
+   },
+   {
+    "headline": "Exclusive | Trump Sends Nuclear Agreement With Saudi Arabia to Congress - WSJ",
+    "summary": "Exclusive | Trump Sends Nuclear Agreement With Saudi Arabia to Congress WSJ",
+    "source": "WSJ",
+    "date": "25 Aug 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ3lMNk41ZjNONEZiVmpqRFVXTmVIeGU0bjIxbHNheWlHLVNqSFNvMEstQ0hGUlpLOW5FQWhlZjU5Sl90TnhPSWhQY3JrdFZkYmR6ZURGOUVNVGRqWFdCVjdINl9vbXg1S1RId3NpdzczMG5Vc1N0ejVCaVZid0ZVamtRZ0xWRVNkNHZfSnNZMkJvdnZIQ19jMFFZMWttcmFGOFFldTM3dXU3dw?oc=5",
+    "rank": 7
    },
    {
     "headline": "News | Saudi Arabia's new hotel staffing rules require up to three employees per room - CoStar",
@@ -581,42 +599,24 @@
     "date": "26 Aug 2026",
     "tag": "tourism",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNY2M5bW9QRS1Ycms1enNSd0RlZUZLVi1mTEZlT2l0WE9vM1NxdnMxSnJsRkg2djJsazg5dlZkbDhzZnY1VThhd1pIa1l5Q3lTY0pMRzQtRDNNdFZLa3dURnN2aFJROTlkQm95VUx2SE5JLVdVRWlRUmNJcmh2UjZDYWJNMUx0LVFvQ2d5S2c1d1pReUc1NXFMWjJUbGlheWpVSEllb2ZZenZ4TXRiaHlxQXhhcjlIRGVU?oc=5",
-    "rank": 6
+    "rank": 8
    },
    {
     "headline": "Trump's Saudi nuclear deal reaches Congress as experts warn of proliferation risk - CNBC",
     "summary": "Trump's Saudi nuclear deal reaches Congress as experts warn of proliferation risk CNBC",
     "source": "CNBC",
     "date": "26 Aug 2026",
-    "tag": "economy",
+    "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONzZralc3UG1GY09LMjZTQjBUdGdJMktxRE1acVRCQ21hRkQ2ejgxQ2h0ZVZwb0lIalZUV0ZMTDJmMUx2bFl1RXpNV2RXLUtCakloRkxUeWhzSHUxTEtjSUJjbmhXWDUyS0hlRGlucFAwTjFhTDZUXzRUeXRWdmg4UjB6aEo4bHhYYl8zWFMzTdIBlAFBVV95cUxNdHRZeUk0bnByYlNkYmwwbzhmblpFNWpzRFhCZ20zQmxyd200dmszU2RhSVVCVEFXYk5HQk53cUo0bkh4dmZlaW9fQ1pDZkVwSk9hbHNydFl6VjZua2RhYnM5SFNsUWhUZ1RCN2hrU2JILU1DQXhlM1FUbURxYm9QY0xFVURqUkh2YXNhOVdwR2lHenJ2?oc=5",
-    "rank": 7
-   },
-   {
-    "headline": "Exclusive | Trump Sends Nuclear Agreement With Saudi Arabia to Congress - WSJ",
-    "summary": "Exclusive | Trump Sends Nuclear Agreement With Saudi Arabia to Congress WSJ",
-    "source": "WSJ",
-    "date": "25 Aug 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ3lMNk41ZjNONEZiVmpqRFVXTmVIeGU0bjIxbHNheWlHLVNqSFNvMEstQ0hGUlpLOW5FQWhlZjU5Sl90TnhPSWhQY3JrdFZkYmR6ZURGOUVNVGRqWFdCVjdINl9vbXg1S1RId3NpdzczMG5Vc1N0ejVCaVZid0ZVamtRZ0xWRVNkNHZfSnNZMkJvdnZIQ19jMFFZMWttcmFGOFFldTM3dXU3dw?oc=5",
-    "rank": 8
+    "rank": 9
    },
    {
     "headline": "Saudi Arabia considers introducing cheaper insurance to increase shipping in Middle East - report - The Jerusalem Post",
     "summary": "Saudi Arabia considers introducing cheaper insurance to increase shipping in Middle East - report The Jerusalem Post",
     "source": "The Jerusalem Post",
     "date": "26 Aug 2026",
-    "tag": "economy",
+    "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CaHdrbXFXR1VRVEFFSjdyYVRtTUg0d1BLN0dYNUVzcWkwOGMwajRydWdZSmZqQnM3b3phaUllMTRGSHJkT1BfclF3ZjhXbk5qenIzYmxVb1gyM1Fq?oc=5",
-    "rank": 9
-   },
-   {
-    "headline": "Trump administration sends Saudi nuclear deal to Congress, but says still contingent on Saudi joining Abraham Accords - ABC News - Breaking News, Latest News and Videos",
-    "summary": "Trump administration sends Saudi nuclear deal to Congress, but says still contingent on Saudi joining Abraham Accords ABC News - Breaking News, Latest News and Videos",
-    "source": "ABC News - Breaking News",
-    "date": "26 Aug 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQXzlxVF9ldVhwOXZJcHFpdlpzZXFsaXZVZFQ0bFg2M1BQRDR1WGFWZ1dZeklWR0hydUtON3I0UFBOc2tCNUFzTFVhenlXZ1B2akx1WjZkemZhOTVOb2E5cUduVXVJZmwtb29oSm1IX1Q0Z05OMlBleXBDcEg1bTVCN3R1dHRDRmFZNUsxTFg0Q3J6WkI1WUhpdkg3UUhQRkM0MzMwOUtneFR3MnlvTUhVVFZFT2dMWnZVOGfSAb8BQVVfeXFMTnFwLWl4ZGQ0WTEwdkljTTUwZGg0eklvcXlfcFBOQnhpdExRdDZxdGR5dGpndWk5UXdRZmR3aGt6c3BBaHl4WnlYdXdSczN4Z2F0Mno5QjRVQ05YRGhHVjFIRGhqc0FSZTFrYWhoWWFUTl9vRThNZUJ0cVhuY0N3VWxXZG1MWjhhWEpRVnRsdFlpdENHbGRwZ1k0NHZyZUw2UUk0YW5sRjVuVk1LQ0FseGpTZmNHYkN5ODNLRlRlY1k?oc=5",
     "rank": 10
    },
    {
@@ -624,63 +624,18 @@
     "summary": "الأقمار الصناعية ترصد زيادة تحميل النفط السعودي في الخليج الشرق بلومبرغ",
     "source": "الشرق بلومبرغ",
     "date": "26 Aug 2026",
-    "tag": "economy",
+    "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxPc0NHMEZiOEFEaTRid0NtTTZHY0lzLXp5MVgtZ2xDV3V5emVlZnBLazU2YXZCb29ORmliSXZGNzUzOTZhQVZjWjZyZTlBcU1NOWlkQ3YxMlVPb0lsOS1YOXdEVHZydWZYcm91N2VjN1Z2bmhlQmUtemdxeTBtZFJpcmtaZTBZZ2FvWjNoNlZhSGIxeUpNeDY2VXNGSHNDYzZwS21HOTVtVWNGcHc4cXM1cHhKY2Q5RHUtQUFKWFJiZmZSQ0dJX0ZZS1RsRVEyNkEzdXp6TzAwdXdTQUdKTGhFNmNhcW00SmphMzZvV21tNlAtWFhxNnlmZVZMQkpORjlhMnlsaXBXODlPb0JWT3dGM0pYNHh3VDlzeHBPejE2Z2FUZk4xb1ZPU1hwNVNmcllad0tETXJrNjg0V1kxSS05WGZLVlE0RDdPQjN0X0poOUJUa3BxTkVqSlVJSVVPM1FNbVNWZkhYd29oYWVCWGwzcU9JcVFsMl9XbURUaUtZck85eXYtZmpnenQzVkl4TGQtdEFNZ2Z3b1VmbWR3MWp2Q19hRHZ4Rzk0clJLYWhSdDRDOHVRY0dYLTUyX3ZoekktYUFJdk9wWEZOd244QmpwbzB1TFV3SWpzS0xyOXRFMW1PQkhPNUE?oc=5",
     "rank": 11
    },
    {
-    "headline": "رسالة خطية من رئيس الإمارات إلى ملك السعودية.. ماذا تضمنت؟ - CNN Arabic",
-    "summary": "رسالة خطية من رئيس الإمارات إلى ملك السعودية.. ماذا تضمنت؟ CNN Arabic",
-    "source": "CNN Arabic",
+    "headline": "ذاكرة فرنسا الغنيّة عن السعودية - الشرق الأوسط",
+    "summary": "ذاكرة فرنسا الغنيّة عن السعودية الشرق الأوسط",
+    "source": "الشرق الأوسط",
     "date": "25 Aug 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOanFLckxwYzlsZVR1NUYxdG80d3VldE5tbmMwMHdTa3F5Y3hnV0ROa3hUM052ckdrMGE4UTBTallxRE5uQVIwekZtMXdIb0Z2Ul9oUnE5WlBUZUtOTUhQUnM1UC0wdzl0ZlNGVjV5alBaeG1SMEM0aXFtd1l4UFdpZ2JxTmRIVERwQmV4cGRpZjctdndnbnFPdHVyd1pZNnJTMVNJUVB4cWZjckN6T1RZSUlwd3kxQdIBwAFBVV95cUxNNzVwTUhwbnljNVVFODFpSUN4bndGQXpUWWpLZkxPYXpQUjc4R3dqNFRwT3Z4MHZyTGpSOGJUVE9sNzJqYzUwVWE3UHc5bDRocFF5SHdjYUhlQ3lPNXZXRmZjZWZFcG45RVZpeVJ0dHJsN01QTHJMNDctdzBjYnlLT3VmejE1V2pKdFBBMmFoazBpOE1qX1VhRmNUMFIyVl8tY2xWZEx0dUpaR0tVU3FXZG4tSXZDaVB3V0c2VjZSOHI?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNWVI0c1VFWTVRcjJPU1pHSnM3NUh4TEpoTWk4MGRqdnQ3ZEZTV0I3Z0NVZlZlU2lwaDB4amphRjV0WlhiaXVpUlFDRkVzQ3V1bkVWT0lCOVZxZlV2elhsbnlhWXEzeDJRRjRGdDhLQTlfMEFzVDBESkd0bEN1cDJrbklwdmdGWURiVTJWeHdMR1ZJSjZXM1c3QUZSUk44Q18yQzVPU3RMZ3pqUzRkakhvMk9yV19EQWhjVFFBQWt3V2F3ZEZsWHF0aV93NkR5cE0zdjRhT00xck02aE5kTUFKV0F0YWZDNnFzTEJxMHduQmw3MWtHTm93M0dYd3hzS3RGdHlGeU53MHlNTm9ieTIxZWVrNG5kMFphblNGbWhHeEQ4NWp2cGt6ZnVfQ1lWa2RPMVg0TXVaUWRwODZjQVVNYmZzTFByY3M?oc=5",
     "rank": 12
-   },
-   {
-    "headline": "السعودية ترحب باندماج «قسد» في المؤسسات العسكرية السورية - العربية",
-    "summary": "السعودية ترحب باندماج «قسد» في المؤسسات العسكرية السورية العربية",
-    "source": "العربية",
-    "date": "26 Aug 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMi4ANBVV95cUxQVlh0eEZER0luZVM2bFA3OXFhUkVnaHVrVUFxM2pPbURKSnZsSWZkcmFXcDJHXzRnV0tTX2ExVi1FTnRkeGhrQXY3RWhWZktFRVd2ajRxRVVEeF9iY1F0cEVqeGtGVmU5NUhaVFkzckxWR296MlBpVk5SMjVfS3VlV2F1YUZxNU9aWVl3X0tSQ25pNXA1T0JWZnotWFVFTldYZnVkLVZKMjNzUWVrN283ZHZDS05qUjhUbVhJUkRwcWJIcFo2UjJJcy1BREgxc2U3UlRNTGZ1RmhHMzhVMXo0bklDVXpwekx4TWhvbnJwXzRETFpTdWJ6cVduN1Y4REV6TTlhZVZfYVdOYlBrazdXbmtONmhDNXdEaHVrS3BWZWtxbWFiZHF6RXlGNGFwRG1WQzFlNUJqbDlXV2hma0ViWlk5MUxmRko3emctSDBzTXZMQ3ctcDVtZmZ3bF95a2Uzd1pSUEUxa01Vam5hdXZXaDFRRUxjMm94MGRuSkhBQzdZX2tkMFVIZkV5VkdGYTNMVG5kV3lQX3R1RWp6bkNJcENFemZfZnZXeWFmLTZ1ZGcxZWFKbWp2ckMyT1JkRzl6VmJYTU1Eak1vR0VnWEREaTIwc1FaNDFOYjlqMndzZDjSAeYDQVVfeXFMTzJ1MW1Bc0VjMDJJbkVIUnhaVVFlZW1PempQanktdGN2WTRSTzRObnZaRmJTVlhvVnRHVHV4OHB0MVAzdFdBYTNlUnc3LU9ZcmI0dER2Q24yN0pCRmpBMV9QamstZ1NQVXNaRWg0WGtiRTUwdVhITGtwb0pVUGUxOVZDXzhGNFdCQkhyQno4cHZRZjd3TlNISTNVa1NVY2k1c2dKTy1LNWItM3FZN25XRlFJWTlPZ2ZERnlkaVRWWF9ZcjIzV3dDa2EtX0UxeWQ4YUFycm5teHpzTzFNeDg0OGQ5ZnFrdmVTWE5EV2hUSzl1WGl5Yy1XNi1VZEpNXzNqOFZ1by1xbzdOX2FLUXRJSXQzNmJIZjhwRjdPckxtcVFTbmlQOU9wMVhJQ3ZEdnN2LUYwaGxQeHdFa1F6dDRzeDl3TkswbkJ6MkpaOTVOX1Iwck5uWjJCZ3JvMTRUVHNnQzVkWjZUY2dhQ3Z4b3kzQzdnbDZ4Y2d3RGF5TkYyaDJrYUdOdFZqUzN0OXJkRGFyZVVyN1kydVZXSlkxem9QZW11SGVoYTd6b0M3OGdnelRPeWFaZ2dGNENRU3JyeUlXNEdjaks3WHNVSEFOZVdzMHh6ZkxsZGttWnVXNkdfZXZvMUp6cldB?oc=5",
-    "rank": 13
-   },
-   {
-    "headline": "انتقادات من جماعات صحفية فرنسية لزيارة ولي العهد السعودي محمد بن سلمان لباريس - BBC",
-    "summary": "انتقادات من جماعات صحفية فرنسية لزيارة ولي العهد السعودي محمد بن سلمان لباريس BBC",
-    "source": "BBC",
-    "date": "23 Aug 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5vSzdZU2QzR01UX0NQWDZYN0czTE40RHR2YWhTenlnVHV2SnJaR2VkS0V5TzhBWkFrV2lLU0E0SWZqMWlBMHc4RVlzMW9Ra3RlMHRpTU92X1VQcDZk0gFiQVVfeXFMT09XS2g1S2YzUVprb1lWLVZnYTJHSWFYaF9xeXBkdklLVGNwV3c2LXJzbm5DblNNbXRiVUhfaFJFMVZab2pGaFZqUE1kX3RGWVRCd0RPZHZGQW5MVUF0WmVqaUE?oc=5",
-    "rank": 14
-   },
-   {
-    "headline": "هل استهدفت طهران قواعد أمريكية فى المملكة العربية السعودية؟ - المصري اليوم",
-    "summary": "هل استهدفت طهران قواعد أمريكية فى المملكة العربية السعودية؟ المصري اليوم",
-    "source": "المصري اليوم",
-    "date": "26 Aug 2026",
-    "tag": "sports",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PU0pqVGlHTXlhZ0V3c2NfaXo1NnpFMGcwY1RZdzdrTDRNMTdsMFY2dkFKSEZONjJJV1V4YUZRVlBWRFVOWjFoWnpINEs4ZkJLV2swakVkczEtMlZ0LTM0?oc=5",
-    "rank": 15
-   },
-   {
-    "headline": "فرنسا والسعودية تتفقان على بناء مدينة ترفيهية ضخمة قرب باريس - Reuters",
-    "summary": "فرنسا والسعودية تتفقان على بناء مدينة ترفيهية ضخمة قرب باريس Reuters",
-    "source": "Reuters",
-    "date": "24 Aug 2026",
-    "tag": "housing",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WNXZCUTRLMEFIZXhObjVTejJlVWtKazR4dnlQYi1za05ZSXR0MUh4T2tlX0dOVEF2MWp0UmRzSVBvd0k3QWstZU1hMk9HWUJWcDFxQzdQTEg4MGF2dTV6cUtubkVHRlE5ODVuMlp6c0lkR0JuVHJ5Z1JTd1B5V1U?oc=5",
-    "rank": 16
-   },
-   {
-    "headline": "هل تقترب السعودية من صفقة رافال؟ محمد بن سلمان في باريس لبحث ملفات استراتيجية - موقع الدفاع العربي",
-    "summary": "هل تقترب السعودية من صفقة رافال؟ محمد بن سلمان في باريس لبحث ملفات استراتيجية موقع الدفاع العربي",
-    "source": "موقع الدفاع العربي",
-    "date": "24 Aug 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxOTFVteHFON1JYMmFFWDIybzV2RnV0Z3k2LU5OY202blFnNkdpVWltRFFQVXdDZFNkaE4zYm1KOG5ZMEVXcHlSN2c2eVB0Q1FfelJfRW9tU2dfQlBBS2ZlX0RzdWJPVlhBRWpjZXhKelRIMTNXWDF1OFpHVGpURGdQV3V0dnh3WGlKNS1mQXZKRkktVlBzb21CZGRORF96NEhaOERjQW5HaUJvd1E1dTJhRUQ1NWJlaDJseGNzM1N3S0VDeERpWTZhcEFVQVJheGJ4d3JBT3lGdW5GUGxnc042Zl8xb1dSTjh0SmI2LTlzenNRNEVobWFoVGVoY3J3bVVYLWcwOF9iYi1OQW1HZnQzbHlfQlE4eWkxNW85cFpOSmpXVzhreVJkTHNJRmNIQmltZ01SdEdmaUxUTHRZX3I2cVFEUlpXWkxPY0hkR2xneTJqS2VwOU1xVUtoeVQ0WlU?oc=5",
-    "rank": 17
    },
    {
     "headline": "تصريح تريزيجيه عن العيش في السعودية يلقى رواجاً - CNN Arabic",
@@ -689,16 +644,25 @@
     "date": "25 Aug 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeDgycEZpeDA4aE9lemNYTWFlS05WVklpdGkxVkZhNUxtYVlLTm9lbEg0R0oxc1FPMVZiUEs2ajFYZ2JyWjM1Q21ncVlUMGNYdFpQS29nLTZuZnlWZFJZS0QxMEoxXzhUZGFoM282LUF6TTNpSHpoQXUtLUVFQ0FhR0szcTRRSXfSAZIBQVVfeXFMTXA3ZnFONVpWQ0xWMGlRRmFEWUFrakFHb1dTYUk2Ylo3NVAyaXVKaGJnVllESVg4d1o1aklrOWN4SXBXVy1uWDByY2RYeDROX09FdjJIV3JhQ2c4NTZhZDBVbVJMRnhxbjFXcHZaeWN2LTFMRnNLdWFGYVFXbVNGZmloemY4TWJ6OUpIMnlVSm16Umc?oc=5",
-    "rank": 18
+    "rank": 13
    },
    {
-    "headline": "بيان سعودي حول استهداف الناقلة \"أمزان\" في البحر الأحمر - CNN Arabic",
-    "summary": "بيان سعودي حول استهداف الناقلة \"أمزان\" في البحر الأحمر CNN Arabic",
-    "source": "CNN Arabic",
-    "date": "24 Aug 2026",
+    "headline": "السعودية ترحب باندماج «قسد» في المؤسسات العسكرية السورية - العربية",
+    "summary": "السعودية ترحب باندماج «قسد» في المؤسسات العسكرية السورية العربية",
+    "source": "العربية",
+    "date": "26 Aug 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOc3ZQSW9ZaHczOXhCUS12ZE53aGVBd3BGVUV0VFF4RXpxd1pLWE1hcjRzM3U1dEJ6UHVmYzAzcTNaUTNhSnFoM2pGZ3pYZkxqRXhuLXNMTExRQV9oeEg1cjJ2dG5iQWNDRWU0YWhTQnZTMHRnVG1pTnJtV1VsYWlwVGd2YWV3QU9uYTUwVGNfTkNWd1ZQazhNM2J2U21SYVBxaW9IcnRjZ3ltcS12XzdUWmcxNFd2UkxsTVRWNVMwQUQ1UmtkLURv0gHSAUFVX3lxTE9GTW9IVlREWV9uMjVmbzhFaExRSk9tLXhJQ2tuamRnT1kxUmZrcXNxa21nS2JiWHBYalhKYXpXR2xKd2VWazh3cmo4SUExSUd2VVMwRkxxa1JBNG1MdzJmUUZLM01iZ09nRnBkSVJ4TW91d3NlRnI1WDFOUUtUOU1TZ3ppcWItY0Z6QjIzeUIzUFhhd0ROOEFLaVpMX0U3eGI0TW5ZbGE1UWlqdFBRN3FaanZkcmxxdllSZnQ0cVlDa0stYTNtemtyWnRRY0RCamRCUQ?oc=5",
-    "rank": 19
+    "url": "https://news.google.com/rss/articles/CBMi4ANBVV95cUxQVlh0eEZER0luZVM2bFA3OXFhUkVnaHVrVUFxM2pPbURKSnZsSWZkcmFXcDJHXzRnV0tTX2ExVi1FTnRkeGhrQXY3RWhWZktFRVd2ajRxRVVEeF9iY1F0cEVqeGtGVmU5NUhaVFkzckxWR296MlBpVk5SMjVfS3VlV2F1YUZxNU9aWVl3X0tSQ25pNXA1T0JWZnotWFVFTldYZnVkLVZKMjNzUWVrN283ZHZDS05qUjhUbVhJUkRwcWJIcFo2UjJJcy1BREgxc2U3UlRNTGZ1RmhHMzhVMXo0bklDVXpwekx4TWhvbnJwXzRETFpTdWJ6cVduN1Y4REV6TTlhZVZfYVdOYlBrazdXbmtONmhDNXdEaHVrS3BWZWtxbWFiZHF6RXlGNGFwRG1WQzFlNUJqbDlXV2hma0ViWlk5MUxmRko3emctSDBzTXZMQ3ctcDVtZmZ3bF95a2Uzd1pSUEUxa01Vam5hdXZXaDFRRUxjMm94MGRuSkhBQzdZX2tkMFVIZkV5VkdGYTNMVG5kV3lQX3R1RWp6bkNJcENFemZfZnZXeWFmLTZ1ZGcxZWFKbWp2ckMyT1JkRzl6VmJYTU1Eak1vR0VnWEREaTIwc1FaNDFOYjlqMndzZDjSAeYDQVVfeXFMTzJ1MW1Bc0VjMDJJbkVIUnhaVVFlZW1PempQanktdGN2WTRSTzRObnZaRmJTVlhvVnRHVHV4OHB0MVAzdFdBYTNlUnc3LU9ZcmI0dER2Q24yN0pCRmpBMV9QamstZ1NQVXNaRWg0WGtiRTUwdVhITGtwb0pVUGUxOVZDXzhGNFdCQkhyQno4cHZRZjd3TlNISTNVa1NVY2k1c2dKTy1LNWItM3FZN25XRlFJWTlPZ2ZERnlkaVRWWF9ZcjIzV3dDa2EtX0UxeWQ4YUFycm5teHpzTzFNeDg0OGQ5ZnFrdmVTWE5EV2hUSzl1WGl5Yy1XNi1VZEpNXzNqOFZ1by1xbzdOX2FLUXRJSXQzNmJIZjhwRjdPckxtcVFTbmlQOU9wMVhJQ3ZEdnN2LUYwaGxQeHdFa1F6dDRzeDl3TkswbkJ6MkpaOTVOX1Iwck5uWjJCZ3JvMTRUVHNnQzVkWjZUY2dhQ3Z4b3kzQzdnbDZ4Y2d3RGF5TkYyaDJrYUdOdFZqUzN0OXJkRGFyZVVyN1kydVZXSlkxem9QZW11SGVoYTd6b0M3OGdnelRPeWFaZ2dGNENRU3JyeUlXNEdjaks3WHNVSEFOZVdzMHh6ZkxsZGttWnVXNkdfZXZvMUp6cldB?oc=5",
+    "rank": 14
+   },
+   {
+    "headline": "هل استهدفت طهران قواعد أمريكية فى المملكة العربية السعودية؟ - المصري اليوم",
+    "summary": "هل استهدفت طهران قواعد أمريكية فى المملكة العربية السعودية؟ المصري اليوم",
+    "source": "المصري اليوم",
+    "date": "26 Aug 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PU0pqVGlHTXlhZ0V3c2NfaXo1NnpFMGcwY1RZdzdrTDRNMTdsMFY2dkFKSEZONjJJV1V4YUZRVlBWRFVOWjFoWnpINEs4ZkJLV2swakVkczEtMlZ0LTM0?oc=5",
+    "rank": 15
    },
    {
     "headline": "سعر الذهب في المملكة العربية السعودية وعيار 21 اليوم الأربعاء 26 أغسطس 2026 - المصري اليوم",
@@ -707,6 +671,42 @@
     "date": "25 Aug 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pREcyNXBXR29oeUlzdlhZckptU0Jrck9xODFmY0FsS2lpQk1NQUNFOEZQMGNjeGFZTnVqWVB1RnFHVlR3RjNiUlBVWktqcXA0ejZEb3lsVGkzaFowS25F?oc=5",
+    "rank": 16
+   },
+   {
+    "headline": "الرئيس الفرنسي يلتقي ولي العهد السعودي في القصر الكبير - العربية",
+    "summary": "الرئيس الفرنسي يلتقي ولي العهد السعودي في القصر الكبير العربية",
+    "source": "العربية",
+    "date": "23 Aug 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiwAVBVV95cUxNS05QUVlyVmRrc0wxcVNkOHJOWGRTdW1RQ1FodEJOaGpabUEyS3ZlTFRrcUpBMnZJalFPWmZEMGpaX1FBc1lDQ0NyS05PUmYwWVdiUHFuODYtMWxIaFpJeUhaaVUwdk1qeFFSMUZOdWFEd3pmSEpxSFNHWVVfOWx5RVI0NW01VVBMbjdtaFRXYmtCSWRmZDY5Vm0tWDFlQ2MwYjZ6TW8tdzlKVHUzQy1YTmxKeDlTdVZsWnFhX3l2RlpvMTlKNmVaNHVKOE90aVhtTVFGVnZJTVJxcDhMMHlzT3cySWZPN0xJajdka3BCc2dIaXI1cUVZbzRnYjVYMERyQ09Kb1JmOHZ1emxqNy1YMmx1V2tWSlJRMW5FU1RnYkVydzMwVFNkdENsa1JMdUpjZ2UwMzFFSHdVR1VhWGg4eGhiOUp5TVRLbjl5RHphb1hHcjFfSjNTSVpvX0JPdkgyNkRkMHdNTUtxQmdWOVd6MXFNcVlFSGp1VGlkZFdrVDlybXJWeVlzSGtCZ2NMM2dpYXA3S1lsSEt0eWhJUjItTTRFeTA5TzJsY2VpNkF4dFd5MmtuYjhxSVcxOU9BaDZmdXVCZ3ZURkptTlNXYTVTbzBQS1NBbGQ2VzhYZ1c3dkFxSkRXdFhGN3luaGZReDhTZzJTOV9GSG8tQWo2VW5ESG9fREZjQURHbnh2ekhVeE8zNmVPQUc4TDNVaUpzNU83YmVQZjNrRHdLbkt3QTlFaUpxTU5oVVMwWjlETEpVZEduSkwtTGIzVDJiQUFpVjZiclBleHRaOVJxdUd1enFrUGQyYXNIVVgwUWpMMHNJOWs0ZVRoNndJaERDU21NMGJCcTBwTW8xTC1QemppaFl0UzhHRm1laUR2cHAxYXFtZkRaZHNXZXI2WS1yYzgwMUFKVjR1YlByMkhrUjN3UVJ2ZA?oc=5",
+    "rank": 17
+   },
+   {
+    "headline": "رسالة خطية من رئيس الإمارات إلى ملك السعودية.. ماذا تضمنت؟ - CNN Arabic",
+    "summary": "رسالة خطية من رئيس الإمارات إلى ملك السعودية.. ماذا تضمنت؟ CNN Arabic",
+    "source": "CNN Arabic",
+    "date": "25 Aug 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOanFLckxwYzlsZVR1NUYxdG80d3VldE5tbmMwMHdTa3F5Y3hnV0ROa3hUM052ckdrMGE4UTBTallxRE5uQVIwekZtMXdIb0Z2Ul9oUnE5WlBUZUtOTUhQUnM1UC0wdzl0ZlNGVjV5alBaeG1SMEM0aXFtd1l4UFdpZ2JxTmRIVERwQmV4cGRpZjctdndnbnFPdHVyd1pZNnJTMVNJUVB4cWZjckN6T1RZSUlwd3kxQdIBwAFBVV95cUxNNzVwTUhwbnljNVVFODFpSUN4bndGQXpUWWpLZkxPYXpQUjc4R3dqNFRwT3Z4MHZyTGpSOGJUVE9sNzJqYzUwVWE3UHc5bDRocFF5SHdjYUhlQ3lPNXZXRmZjZWZFcG45RVZpeVJ0dHJsN01QTHJMNDctdzBjYnlLT3VmejE1V2pKdFBBMmFoazBpOE1qX1VhRmNUMFIyVl8tY2xWZEx0dUpaR0tVU3FXZG4tSXZDaVB3V0c2VjZSOHI?oc=5",
+    "rank": 18
+   },
+   {
+    "headline": "تحقيق المساواة بين الجنسين في مكان العمل في المملكة العربية السعودية - الموارد البشرية والتنمية الاجتماعية",
+    "summary": "تحقيق المساواة بين الجنسين في مكان العمل في المملكة العربية السعودية الموارد البشرية والتنمية الاجتماعية",
+    "source": "الموارد البشرية والتنمية",
+    "date": "26 Aug 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbEhnaW9fU0hNMjJibkZYcTR6TDluQjJKYjBENXJuNmtEay1famxmeXRkMnFTS1E4TGFhTzlDNGROM1RSaGtCQVhTblFsdF9pMFV0QVViWnByc0pLMEYxb1JBaE8yYVktakxUSHEwOWt1bHpDS0lkYW1ZcHFVQnhfYmxudl94T0E?oc=5",
+    "rank": 19
+   },
+   {
+    "headline": "السعودية وفرنسا... توافق استراتيجي على استقلالية القرار في زمن التحوّلات - مجلة المجلة",
+    "summary": "السعودية وفرنسا... توافق استراتيجي على استقلالية القرار في زمن التحوّلات مجلة المجلة",
+    "source": "مجلة المجلة",
+    "date": "26 Aug 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi4gRBVV95cUxOX1VCTnZ0QkxvNGdBa0FZbUlDOHZwMXpBOVQtWXI0SnhNdmhKNXA1TWk2bno1ekJCNE1DTmpLS0xGbWtpMGdDelhtd3lXSUx4M2tSenZRU2pXMl85cERndlBqQlh6X05IN1pvNkJaS3JVSUxRSkJSVzgyaWpfR0ZMeDk2ODM1ZTJvUVZxc2dxUDdTWTNfcXE5N2JjN1o5THBHakc2b0oxRzBtRGk4N29sbzFSdlBnb1pJMFBKZFEtWVAyNjY1U18tV21VZmlJWXp3ckV1cE14YVNOdHM2U09CZ0lWNUYwcVAzRXVUWkZzZlIzMHJnSEtaVnR6dnJhc0R6ZWRvU2JkYnh1LVRSaUZ1ZGxPM1E0MG1SN2tqVzVvMVlGVE9tUF9ERUgyVVpzUGMwRk0xcWNGc1NqOTdJaXBkV290SVlaeVpDNjRzNURxMVdaYlRpNEdGNk1qek5STHVYN0VEZHBfTjVxbWFjci1fRnFqSzZvcFVnbDZXUHJ6blM5dy02Y2lxRUJLTHlFUnNZVVozRFNTeEhRWk9xX3RTWFdyaUF6Rl9WUkpmTDJaYW03LXBvazlURV9EUXM5QkY0YWVpUUxXbHFsUjZBOFVkUThBMTkzbUE0Zk9wZlh1QW8wSThiYk15eWZJZDlCczZXTGl3UFVkQzN5Z3FsOWNxaVJnN3VnYnFZcTZYM1VkaGxzQ0h0b0djdU81TFZweG5JdlBGY2lDVl9ZWUtUVmVfTWI0Y2l0cG55Y2xpRk9xUFdYMHR1dTVDb1B1N0VUTjAza0s0dGNnT29QUjEzMHdSeG1R?oc=5",
     "rank": 20
    }
   ],
@@ -730,12 +730,12 @@
     "rank": 22
    },
    {
-    "headline": "France and Saudi Arabia showcase deepening strategic alignment, from Iran to Gaza - arabnews.jp",
-    "summary": "France and Saudi Arabia showcase deepening strategic alignment, from Iran to Gaza arabnews.jp",
-    "source": "arabnews.jp",
+    "headline": "Microsoft Is Quietly Deepening Its AI Bet in the Middle East - TradingView",
+    "summary": "Microsoft Is Quietly Deepening Its AI Bet in the Middle East TradingView",
+    "source": "TradingView",
     "date": "26 Aug 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5acXRZOFBtbXdwTXd2ZGtiS2xZWW5vTlNiRVZyUVV6OXhEMXV6dVdRVjdVdjE1eGRORExmT2xTZEJiNlFFNGJrWE55QnRFdzNOQ2cyTUtWaUZ2TDJqY01ZTTBZR04?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPM1FJdzJ1RUxLOFNjOVlZcXRBN1VqZ1dKcXVEcXM4ME9pZEhTUjZvaEg2X25ZMHdpbmRXNGxYeW5Ebl93NlhYWG5yc3lXMEtlSDdiTUZ3NFlqWVF0d0lraHhnT2VfXzU0Tmk0QnFwU2M5U1RkQ2hoSE5US2N6bi14SmxMVzFtMXVvZFJwdnNUMjA4NUo3UVJTaks1YTEzcTQ3WWJ2aG9zNDZHZ09LTlhjS1pMR3VRXzk0SXR2Mw?oc=5",
     "rank": 23
    },
    {
@@ -748,30 +748,30 @@
     "rank": 24
    },
    {
+    "headline": "France and Saudi Arabia showcase deepening strategic alignment, from Iran to Gaza - arabnews.jp",
+    "summary": "France and Saudi Arabia showcase deepening strategic alignment, from Iran to Gaza arabnews.jp",
+    "source": "arabnews.jp",
+    "date": "26 Aug 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5acXRZOFBtbXdwTXd2ZGtiS2xZWW5vTlNiRVZyUVV6OXhEMXV6dVdRVjdVdjE1eGRORExmT2xTZEJiNlFFNGJrWE55QnRFdzNOQ2cyTUtWaUZ2TDJqY01ZTTBZR04?oc=5",
+    "rank": 25
+   },
+   {
     "headline": "Saudi diversification drive on display in France as US reach shows limits - Al-Monitor",
     "summary": "Saudi diversification drive on display in France as US reach shows limits Al-Monitor",
     "source": "Al-Monitor",
     "date": "26 Aug 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVjVZZGxyMVJhVXhaUl9hVWF2REZaY1Vkc0VZMjRrRnZ4LTBhTnBqdGdJOFF5YzdjSEgtNms1TzQ3VVNTMGZEeHBYT09HMFlNNDNycXFUZ2pPTk1CT0F4enRNdng1NGFEYzRxZHk2RHdnWEhtbXVaamNWNjRnWExMUzJETDJURFNkNHgxY2NRUEFFd2kyRDA3ZWZ0Sml0Z09BejdqQWFLS053TmJabmc?oc=5",
-    "rank": 25
-   },
-   {
-    "headline": "US starts returning staff to Middle East missions after Iran war evacuations, sources say - Reuters",
-    "summary": "US starts returning staff to Middle East missions after Iran war evacuations, sources say Reuters",
-    "source": "Reuters",
-    "date": "25 Aug 2026",
-    "tag": "culture",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOS253amNScVNTdFF4SjVlU1RQVGFzVjBZalVKYUpUckZOX1FzdklkcDI4NlRoc0x5VXZtaUgxNW5wN092R05HRVRHMU51VG5iOU9SblF6d2VxU2ZTVnZmTWw3eVNnZEFRRExHcmlQRmhoWXBvOGRPcEdUeXphX2lMZnZSektOcHVjUEd1dFNLUURsb0dVcXF4WElkcE5yOGFxbl94dUdJYmFuZjBZWk85UjRGaXpaaUtzZnFmX2NXcTgwVXdjdDBrVFF4RmZEWmc?oc=5",
     "rank": 26
    },
    {
-    "headline": "Microsoft Is Making a Bigger AI Bet on the Middle East - TradingView",
-    "summary": "Microsoft Is Making a Bigger AI Bet on the Middle East TradingView",
-    "source": "TradingView",
+    "headline": "Markey Urges Congress to Block Trump-Saudi Deal, a 'Starting Gun for a Middle East Nuclear Arms Race' - Common Dreams",
+    "summary": "Markey Urges Congress to Block Trump-Saudi Deal, a 'Starting Gun for a Middle East Nuclear Arms Race' Common Dreams",
+    "source": "Common Dreams",
     "date": "26 Aug 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZm5VVU5pSWFCRFRTemNPb21jRGFyTWlnME1hamwzbXZGNnVtUGJ2ZnZPNmpROG1oaTAyM2YxUXpqU2YzZG5IZnVaZkxmNmMyTHlXenFqNWhoQUZsd0I5YzNVVnhfZU1jVkN3bDJrbHpId0pnLVZuMVFKR3pfWUNMWmZKLU03V2F4bWN3R1VCYW13MTJqRm04WnRGSGRMYU9UVk1lb0Vta1pjcmdtMW9Id1dCWi0?oc=5",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sOXBPaHhSU3k5bFowczV3YzBMUVFWdDRXYjlWckNHWGg2WkdRM0E0REVEN1hkRjRoWlhfWkJ3QnFjU25QWkpCZ2dwWG9YcVhiSWh5Rjh5NjBoS1AzSWExeHFR?oc=5",
     "rank": 27
    },
    {
@@ -824,18 +824,9 @@
     "summary": "السعودية وفرنسا تعمّقان الشراكة الدفاعية في تقنيات المستقبل الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "26 Aug 2026",
-    "tag": "security",
+    "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi_gRBVV95cUxNWWNSRGdqUUoxNlM2ZjlYZUhWYjIzTE5KdXNFdHZwZWhxbTZETDAzeHpzYWJJYnE2THZLUC1kQlVPbXZaT0FuMzlrY1NYaUJXejVuc2FOOTZVZld3djUyMzcxYWtDMHhhWlF4MWdsODR1QlpEN050dVZnY09uRnRkM3Z3U2pQTUFUUWJjSWVTY1FNZHRSS21KNUNCVkVrYUlVNHdnd0VlM20wN19ZLUUwcEsxNVJ3S0tFdWxUMWRkRFRNX0xxMVVvemxyUGo2clFQanFZVEVjNnliUTFlWlMxVmsyRXZCUk82YUVDQ0FlOUx6YWMzdE9FLVFWczR3blktLTBNYU1SY0I3c09yMThNLUVvek5WcHB3YXd0UmZqN2kweXd6bjhlU0RGbnRhMmVJT0VGUGFsT0s3SmxQRmFadGNtNlE4eEpQQlJ4YnFod0k3YU9mWlh0aVJvVWdCQTZVZG5HU01TQmZpWkkyRFc2aUU3SlNyeTZHSmtCNXVralZpWUcwdUl5LU1ScXdRR0VMcnRDa3dRSEdKZUs4UzBReklLcnZoYk9QVldWeFloR0JKYXA4cVlzeS1JdERTTUJFMVRqQmhfd19WOV9HMGlwUEtsZ0pzUm1XQ2EzZW5lZTQ1d21GRUFYOVYzOG81aVQ5Zzg2YlB2dUpaZFpsdHlENk90N3RSQ2pVUEUxOXBURDJjcFp4RGI2N0pLLTlkWENTSm5CZ3VBYlBDUndLcVN0MHJrb1BoOUFncTFVTFZkTXpVZU41MWJuM21qMUV6OHM0V19saDc3Ynl6X3pJRkRIY0NjMmxSMUo1MUxZZlJBbF9lSlZrSHBUeVlOV0lUQQ?oc=5",
     "rank": 33
-   },
-   {
-    "headline": "كيف تساعد شراكة الرياض وباريس في تعزيز الأمن الإقليمي؟ - الشرق الأوسط",
-    "summary": "كيف تساعد شراكة الرياض وباريس في تعزيز الأمن الإقليمي؟ الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "25 Aug 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMizwRBVV95cUxPdE5Gc2pFemt3czZuX2UxUk5QRnhXUWVRU20yM0ZrNE4xVEVtdXhSdWx6TUdZU1lBS2dMbUN1MkxQUndFQlRSdTVKRjdxdXhEemw2MHlpUkFsRWY2NHJJN2JfSEJZTXdJekNUTHgyTmx6a0NsQXZTczhMYVZyN05qS3ppZ2ZROXc1X3M0XzR6OFRYYUV2ZzFDeVlQZzVFMlpfTnJoWG90WFY0cU5rcDBPbW9aX0NBUzdyblRlVlIzdzF2cGY4Uk12TDdRSkowbXh3RlF3U2tLYVNHcWZCN1E2NEZUZGk3a0FwVlRKZUs1bTdBTUZiZ21HT1VySHNiM21GX0pWc0xxMm80Mzl5UV9EeHdSQmM3aTVaQjNseFFVRXFIUGFmWjVtVTY0UXhzZkZvR3hlUXBCdXBVYkZIVFpWUG9FVE9NUFlhTnVhbFNwWXRZY3VzODl0SjF2eXhfR1VOeERBTEdsUjVSUFFRMUJ6ZnVnV3RVLXBKX3VMX2lkeHAzZ2ktVE0yQjJPbDJQSXlXR1JjQmh0djVnUmVJelNQeWZsUkxXMFNNd3ZPWkViUDRjR3dnVTNXblRBQTk1MTRTVVFmVEhCSk45bEcxUTNodTNmak9YNHA2Mmo5RjYweXAzWWVZc2ZCdFZETnp6Z29ySHZHa0dtUzhrN0loSDVoeWVuaUtveEwxTF9EODdIVlVQOTM3X0RGQ2I0SWJxVlYzNXozdmUzbjUwem93RS15ZkJLSDVkcjFqV0VRYkMwWDl1TzdtWHZRLVRONFhydjg?oc=5",
-    "rank": 34
    },
    {
     "headline": "شركات الطيران السعودية تنافس ركود ما بعد الصيف بعروض خافضة للتكاليف - الشرق الأوسط",
@@ -844,7 +835,7 @@
     "date": "25 Aug 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxOT0NBZ3o5TEd0NWhfMVE4WHEzbFNacXdNTkdxOExTeDkyZ1pabms0d3g0c191UE11OGVJUF9rZ1hUc2RsRUVoOERTX092ZFRGdU1Ra0doVGxpSkRGQ0lqZDJ4cGVBcXE2T0tZWmhJMkk2TUxkMW9sUjNhc3pDU2dqd0N6SkwxS0tzdGZ4R0xWU254bGkzSDVLcjV1cHZXSkNWVm84cDhhZmgzSVEzQjk5ZS11anQyUUhjTFJYT0dtN3QyUkxTS1VIdEt6STVrSFNCTHhWVk5LMFVBbjhlajNjcEctMHA5STdOcmwzbFNoZWNLZlBHaHltdDNqb3dyUFZsaUZ6N2trUE01X0hKdWI0RkllUkptTTVCR2xCOU5uT2hmeDZMaWpKQjBpMWV2ZmY0NzFOU2RmdXQtTVZBM2NLMUJKUkQ4YjNVNjlvQW9RQVV2bVFpOWViT25hV1RUSW5FcmVZQkZLaXAzcnotWG01MWVOWXN4dnpFWTNtcGkzRFZ1ZXVFcFFKNVB2UEt6a2J6NjExZ2Q1TDgyQ1ExQWYyX2llaVM0TkVxdE9aNzZhQnlOV3NMSHEyMHFCQ19aWlViYTUxZHQ0dDh5ek40ZzRpeURIYlh6MExoNThONE5JcXRfWllZQjlLRlh3OHRHcHpoQXJoTGR3NHI5bnZLRF9rNTVRZ2c5UHNqc1lEZ3h4bGxNWVRaaUZWZHNKemlfa3FtMG1wTUYza1RXVFZMQ1RIejZrc2hialRjNllHeWVyQkNrSHRxUTJCYVg4UDhNY1h5M2MwbDJfVQ?oc=5",
-    "rank": 35
+    "rank": 34
    },
    {
     "headline": "العلاقات السعودية ــ الفرنسية إلى «آفاق أبعد» - الشرق الأوسط",
@@ -853,7 +844,7 @@
     "date": "26 Aug 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMihARBVV95cUxQcXB0MDNEaFAwZlhnTlN2S2l5NXhPc0hSSFFwSVktTnp1a1FpUFprMWhtbGNsNDdZN1EzQU5WMzJfN3ZRcTBZcjgwWXVheUphX0ZWdkk2YUFKbVNLdGxqdTEySkVwanB0SWgyckJVNnk3cldDWW54OVF3ZjZvY2ZtMHlkSllVTy1LYVVJc1R5V3F5bEYwVUlOaUdSS2lRMXJKa1c5MTJ0b3Z1QndacDFHT3NreWdTTmctcjRLc0FSZnlRaUoyS1pyTlU4d0tvOENyT2dra1dFOEtVT05tWE41ay1EUzB1X0dSUnNKYldUZVB3NVNMSWV3cWt1WF9MblNoaWczQnItT1h1U3dIbWR1bzVTMVRQby0yQXROZmlLVTNJaVVqTWc0cUgySXZyeXh4bGJ5aFM2XzhhZ00zTlhIY3QxUWJuWW5zZEhvSWlqWXJJS1FXV2RJS0VlRUE5WHdaWjBPaXMtRUxqMkt0Mm0zM3lTSUZ6b3E1ejhOdjdlT2JLd3hCckttREktUmRwVV9YVFRjWlV2aFZTYXQtSjNTSkZ2cVVlOVFZZVJBempsazVUNFRDdEdsUE1nZjVOS0Y5LVhObVdqQlNBQjlDYzRpVUdGc3BHRHBxYm1peDh0eEEzOFZMTjZ2Yl9wVlc2dUJYd3pCb0VncVk2YUUxWWZlSVIyQ2I?oc=5",
-    "rank": 36
+    "rank": 35
    },
    {
     "headline": "الذكاء الاصطناعي يفتح سوقاً جديدة أمام شركات التقنية السعودية - الشرق الأوسط",
@@ -862,6 +853,15 @@
     "date": "26 Aug 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMitARBVV95cUxNOTFYcmdaeUluNjhSZEsya2NDcWk1VXJZb2NCdDNZOE9vTTN4aE1PcDd2Y1k0UDJodXZrSVRRZlRTOGFPWjJCbUgwMjczdXNZUGNYakl5Y2lZMFpxbHE4WFRhVzZpQk1JSmpXMDlrbkJkYW5BWC1BWXd2SWtTakNjM1A2N0J0bXpXRzlTS05nTXdmOHpjTmZEX0lfbTRTdThYcWFIS1htcnN2U2xoZjYzaTdQWUZ1SDU3R3J5ang0Z0RYS0FvLVdxMEdiTnl1RUxBamo5eWVnZ05rRHlXRUJucTBoVHRSWHdUQzV2cmVqRXBmOUUzM0xkaVVCWDZXdHdhSldNZHlmYVZFM0d6V2oyS2FvWG5JTTN6VWM2R0JrcHhOR1dQY1Z4X1pYalBBV3FHSWl3ak81Tm5VSDdHNEFLQ2E4YjBabTNWMWduU1dGVnI0VllBZDg4YjMwVzN0ZkhvUHk4eDV5SDJzRFppYWVDb0IxQkpwWlRZcUR0UHZOa1hXZ1FCMEpYWGwyWHJiQWlKaHFJWkhPLVZWTktPaTBJQXJjbVlXUmhVbW42ZnduZUhvTk5HWUxOM3hOendfV05fT2M1c0hGUWxaSVNjVFh3ZGRva1ZOWVE3RTF5czNaTS1TUlNNcTFhcVJybmpPa21BbVdXM2ZKM1FGMWhRbnZUQm9sUlByaXZFR1lDOTZYX3J1MFNnMDJocC04cUhOS2tsdUk3ZFVWMjRUcFcta3BTaVNqSms?oc=5",
+    "rank": 36
+   },
+   {
+    "headline": "السوق السعودية تغلق مرتفعة 0.25 % وسط تداولات بـ5.7 مليار ريال - الشرق الأوسط",
+    "summary": "السوق السعودية تغلق مرتفعة 0.25 % وسط تداولات بـ5.7 مليار ريال الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "26 Aug 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMi9ANBVV95cUxPYnctYUpXNHV2c0Y0RHMwbXBCUXFFaV84c2xMbFpLZEVMdWk5aEoxSEZYYU9hV2xXQ2xDVW5zM05qRlA2Wm1ueFItYUxTeVY5VGoxZFZzTkhGY1NNRERzbmhJZDQ5QlM2T1c5ZURQN2s4WFd5VGZ3ZU16dE5qR2I5OXN5bmRkZUlheUlSZnZBUGwwV2FTMzhNaDNwUEFmX2RFaHpRRllCVTlLQkdxTUdoZFRzMXFBdC1hM0pwRnl4QWNJdDdESEhoTWowZGt2OGlFQnBTTjdRTDd1SXV2NTRBVnN2UmNjYTQyODFXRjBGZTY1czRZalZxLXI0QkNGS0FoTjR5WjJ5d3ZPYzE2YWY3VVZpSUkxTFN6bFl5SEVpc3E5eEVzaEVPamZsaFFmeHEtREJWNFhZMUsybk5XMkZ6STRKQi1haHp5SWFTT1lEekg2N0ZEcXZjTHl1eFJ5TUNydUI4QW92aXQzYXpwYllmWVdNS09fdGtvTkdsN0IzTmlnbmlzeGRPelFac2NzT04xSm04cmR5T1F4bUh1ck4tMzVNYmlqOERTbERacU9TRDFoZzBKZVc1dElBZlBXd2N6M25vT1hhbjBCY2UwUkdnTHFwU1QteTlZU1dzV1ZqNWVWZFZmR1MwZWpjWEtzdHlnLWIydg?oc=5",
     "rank": 37
    }
   ]
