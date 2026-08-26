@@ -21,8 +21,8 @@ STREAK_DAYS = 3
 STREAK_BONUS = 5
 
 CYRILLIC = re.compile("[\\u0400-\\u04FF]")
-ARABIC = re.compile("[\\u0600-\\u06FF]")
-PHONE = re.compile(r"\d{7,}")
+ARABIC  = re.compile("[\\u0600-\\u06FF]")
+PHONE   = re.compile(r"\d{7,}")
 
 CATS = [
     ("Football", ["الاتحاد","الهلال","النصر","الاهلي","الحزم","برشلونة","ريال","ليفربول",
@@ -134,22 +134,23 @@ def build_signals(trends):
              "items": " · ".join(v[:10])} for k, v in sigs]
 
 
-# ── News feeds ────────────────────────────────────────────────────────────────
+# ── News feeds ─────────────────────────────────────────────────────────────────
 GNEWS_EN = "https://news.google.com/rss/search?q={}&hl=en-US&gl=US&ceid=US:en"
 GNEWS_AR = "https://news.google.com/rss/search?q={}&hl=ar&gl=SA&ceid=SA:ar"
 
 
 def ar(q):
-    """Arabic Google News RSS URL."""
-    return GNEWS_AR.format(urllib.parse.quote(q))
+    return GNEWS_AR.format(urllib.parse.quote_plus(q))
 
 
 def en(q):
-    """English Google News RSS URL."""
     return GNEWS_EN.format(q)
 
 
-# English-language domestic sources
+# 10 slots for English + 10 for Arabic = 20 items per section
+EN_QUOTA = 10
+AR_QUOTA = 10
+
 DOMESTIC_EN = [
     en("Saudi+Arabia+when:2d"),
     en("site:arabnews.com+Saudi"),
@@ -157,16 +158,15 @@ DOMESTIC_EN = [
     en("site:saudigazette.com.sa+Saudi"),
 ]
 
-# Arabic-language domestic sources
 DOMESTIC_AR = [
     ar("المملكة العربية السعودية"),
     ar("السعودية اليوم"),
+    ar("أخبار السعودية"),
     "https://www.alarabiya.net/tools/rss/section/saudi-arabia",
+    "https://www.spa.gov.sa/rss/latest-news",
     "https://www.okaz.com.sa/rss/",
-    ar("رؤية 2030 السعودية"),
 ]
 
-# English-language regional sources
 REGIONAL_EN = [
     en("Saudi+Arabia+Middle+East+when:3d"),
     en("site:alarabiya.net+Saudi"),
@@ -174,10 +174,10 @@ REGIONAL_EN = [
     en("site:middleeasteye.net+Saudi"),
 ]
 
-# Arabic-language regional sources
 REGIONAL_AR = [
     ar("السعودية الشرق الأوسط"),
     ar("محمد بن سلمان"),
+    ar("الخليج العربي السعودية"),
     "https://www.alarabiya.net/tools/rss/section/middle-east",
     "https://aawsat.com/feed",
 ]
@@ -216,10 +216,10 @@ def parse_feed(url, limit):
     items = []
     for it in root.iter("item"):
         title = unescape((it.findtext("title") or "").strip())
-        link = (it.findtext("link") or "").strip()
-        desc = unescape(re.sub(r"<[^>]+>", " ", it.findtext("description") or "")).strip()
-        desc = re.sub(r"\s{2,}", " ", desc)
-        pub = (it.findtext("pubDate") or "")[5:16].strip()
+        link  = (it.findtext("link") or "").strip()
+        desc  = unescape(re.sub(r"<[^>]+>", " ", it.findtext("description") or "")).strip()
+        desc  = re.sub(r"\s{2,}", " ", desc)
+        pub   = (it.findtext("pubDate") or "")[5:16].strip()
 
         src = it.findtext("{http://search.yahoo.com/mrss/}source") or it.findtext("source")
         if not src and " - " in title:
@@ -239,29 +239,32 @@ def parse_feed(url, limit):
     return items
 
 
-def fetch_news_merged(en_feeds, ar_feeds, limit, label):
-    """Pull from English and Arabic feeds, merge and deduplicate by headline."""
-    seen, merged = set(), []
+def pull_from(feeds, quota, seen):
+    collected = []
+    for url in feeds:
+        if len(collected) >= quota:
+            break
+        for item in parse_feed(url, quota):
+            if item["headline"] not in seen:
+                seen.add(item["headline"])
+                collected.append(item)
+                if len(collected) >= quota:
+                    break
+    return collected
 
-    def pull(feeds, tag):
-        for url in feeds:
-            if len(merged) >= limit:
-                return
-            items = parse_feed(url, limit)
-            added = 0
-            for item in items:
-                if item["headline"] not in seen:
-                    seen.add(item["headline"])
-                    merged.append(item)
-                    added += 1
-                    if len(merged) >= limit:
-                        break
-            if added:
-                print(f"  {label}/{tag}: +{added} from {url.split('/')[2]}")
 
-    pull(en_feeds, "EN")
-    pull(ar_feeds, "AR")
-    return merged[:limit]
+def fetch_news_bilingual(en_feeds, ar_feeds, en_quota, ar_quota, label):
+    seen = set()
+    en_items = pull_from(en_feeds, en_quota, seen)
+    ar_items = pull_from(ar_feeds, ar_quota, seen)
+
+    shortfall = (en_quota + ar_quota) - len(en_items) - len(ar_items)
+    if shortfall > 0:
+        en_items.extend(pull_from(en_feeds, shortfall, seen))
+
+    merged = en_items + ar_items
+    print(f"  {label}: {len(en_items)} EN + {len(ar_items)} AR = {len(merged)} items")
+    return merged
 
 
 def main():
@@ -284,14 +287,14 @@ def main():
     for old in sorted(days)[:-14]:
         del days[old]
 
-    dom = fetch_news_merged(DOMESTIC_EN, DOMESTIC_AR, 10, "domestic")
-    reg = fetch_news_merged(REGIONAL_EN, REGIONAL_AR, 10, "regional")
+    dom = fetch_news_bilingual(DOMESTIC_EN, DOMESTIC_AR, EN_QUOTA, AR_QUOTA, "domestic")
+    reg = fetch_news_bilingual(REGIONAL_EN, REGIONAL_AR, EN_QUOTA, AR_QUOTA, "regional")
     reg = [r for r in reg if not any(d["headline"] == r["headline"] for d in dom)]
 
     if len(dom) >= 5 and len(reg) >= 5:
         for i, n in enumerate(dom, 1):
             n["rank"] = i
-        for i, n in enumerate(reg, 11):
+        for i, n in enumerate(reg, 21):
             n["rank"] = i
         data["news"] = {"date": NEWS_DATE, "domestic": dom, "regional": reg}
         print(f"News refreshed: {len(dom)} domestic + {len(reg)} regional")
