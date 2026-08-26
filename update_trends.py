@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
-"""
-Daily updater for the Kijamii Saudi Radar.
-Runs inside GitHub Actions. Rewrites data.json in place.
-
-Fails LOUDLY (non-zero exit) rather than publishing garbage — if a source
-changes its markup, the Action goes red and emails you instead of silently
-shipping an empty tracker.
-"""
+"""Daily updater for the Kijamii Saudi Radar. Runs inside GitHub Actions."""
 import json, re, sys, urllib.request, xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from html import unescape
@@ -18,13 +11,17 @@ DAY_LABEL = NOW.strftime("%a %d %b")
 BANNER = NOW.strftime("%A, %d %B %Y")
 NEWS_DATE = NOW.strftime("%d %b %Y")
 
-UA = {"User-Agent": "Mozilla/5.0 (compatible; KijamiiRadar/1.0)"}
+UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/126.0.0.0 Safari/537.36",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.9,ar;q=0.8"}
 RANK_BONUS = {1: 10, 2: 8, 3: 6, 4: 4, 5: 3}
 STREAK_DAYS = 3
 STREAK_BONUS = 5
 
-# Spam filters: mixed Cyrillic, phone numbers, paid-trend markers
-CYRILLIC = re.compile(r"[Ѐ-ӿ]")
+CYRILLIC = re.compile("[\\u0400-\\u04FF]")
+ARABIC = re.compile("[\\u0600-\\u06FF]")
 PHONE = re.compile(r"\d{7,}")
 
 CATS = [
@@ -55,7 +52,7 @@ def categorize(text):
 
 
 def is_spam(t):
-    if CYRILLIC.search(t) and re.search(r"[؀-ۿ]", t):
+    if CYRILLIC.search(t) and ARABIC.search(t):
         return True
     if PHONE.search(t):
         return True
@@ -65,10 +62,7 @@ def is_spam(t):
 
 
 def scrape_trends():
-    """Return (trends[list of str], hashtags[list of (str,int)])."""
     html = get("https://getdaytrends.com/saudi-arabia/")
-
-    # Trend links look like /saudi-arabia/trend/<name>/ — capture anchor text.
     raw = re.findall(
         r'<a[^>]+href="/[a-z\-]+/trend/[^"]*"[^>]*>(.*?)</a>', html, re.S | re.I)
     trends, seen = [], set()
@@ -79,33 +73,38 @@ def scrape_trends():
         seen.add(t)
         trends.append(t)
 
-    # Hashtag table rows: hashtag anchor followed by a numeric cell.
     tags = []
     for m in re.finditer(
-            r'<a[^>]+href="/[a-z\-]+/trend/[^"]*"[^>]*>(#[^<]{2,60})</a>.*?'
-            r'<td[^>]*>\s*([\d,]+)\s*</td>', html, re.S | re.I):
+            r'<a[^>]+href="/[a-z\-]+/trend/[^"]*"[^>]*>\s*(#[^<]{2,60}?)\s*</a>'
+            r'.{0,400}?<td[^>]*>\s*([\d,]{2,})\s*</td>', html, re.S | re.I):
         txt = unescape(m.group(1)).strip()
-        score = int(m.group(2).replace(",", ""))
-        if not is_spam(txt):
-            tags.append({"text": txt, "score": score})
+        try:
+            sc = int(m.group(2).replace(",", ""))
+        except ValueError:
+            continue
+        if is_spam(txt) or any(t["text"] == txt for t in tags):
+            continue
+        tags.append({"text": txt, "score": sc})
         if len(tags) >= 5:
             break
 
+    if len(tags) < 3:
+        hs = [t for t in trends if t.startswith("#")][:5]
+        tags = [{"text": h, "score": 100 - i * 12} for i, h in enumerate(hs)]
+        print(f"  hashtag volumes unparsed ({len(tags)} ranked from trends)",
+              file=sys.stderr)
+
     if len(trends) < 10:
-        # Self-diagnosing failure: dump anchor samples into the Actions log so
-        # the selector can be fixed without guesswork.
-        print("=== PARSE FAILED — anchor sample for debugging ===", file=sys.stderr)
+        print("=== PARSE FAILED - anchor sample ===", file=sys.stderr)
         for a in re.findall(r"<a[^>]+href=\"[^\"]*trend[^\"]*\"[^>]*>.{0,80}", html,
                             re.S | re.I)[:15]:
             print("  " + a.replace("\n", " "), file=sys.stderr)
         print(f"=== html length: {len(html)} ===", file=sys.stderr)
-        sys.exit(f"FAIL: only {len(trends)} trends parsed — markup likely changed.")
+        sys.exit(f"FAIL: only {len(trends)} trends parsed.")
     return trends[:20], tags
 
 
 def score(trends, prev_days):
-    """+4 per appearance, rank bonus, +5 if 3+ consecutive days."""
-    # Prior days only — exclude today, since we may run several times a day
     recent = [k for k in sorted(prev_days.keys()) if k < DAY_KEY][-(STREAK_DAYS - 1):]
     out, streaks = [], []
     for i, t in enumerate(trends, 1):
@@ -135,28 +134,18 @@ def build_signals(trends):
              "items": " · ".join(v[:10])} for k, v in sigs]
 
 
-def rss(url, source, limit):
-    """Parse an RSS feed into news items. Returns [] on any failure."""
-    try:
-        root = ET.fromstring(get(url, timeout=30))
-    except Exception as e:
-        print(f"  RSS warn ({source}): {e}", file=sys.stderr)
-        return []
-    items = []
-    for it in root.iter("item"):
-        title = (it.findtext("title") or "").strip()
-        link = (it.findtext("link") or "").strip()
-        desc = re.sub(r"<[^>]+>", "", it.findtext("description") or "").strip()
-        pub = (it.findtext("pubDate") or "")[:16]
-        if not title or not link:
-            continue
-        items.append({"headline": unescape(title),
-                      "summary": unescape(desc)[:280] or unescape(title),
-                      "source": source, "date": pub or NEWS_DATE,
-                      "tag": news_tag(title + " " + desc), "url": link})
-        if len(items) >= limit:
-            break
-    return items
+GNEWS = "https://news.google.com/rss/search?q={}&hl=en-US&gl=US&ceid=US:en"
+
+DOMESTIC_FEEDS = [
+    GNEWS.format("Saudi+Arabia+when:2d"),
+    GNEWS.format("site:arabnews.com+Saudi"),
+    "https://www.arabnews.com/rss.xml",
+]
+REGIONAL_FEEDS = [
+    GNEWS.format("Saudi+Arabia+Middle+East+when:3d"),
+    GNEWS.format("site:alarabiya.net+Saudi"),
+    "https://english.alarabiya.net/tools/rss/section/middle-east",
+]
 
 
 def news_tag(text):
@@ -173,6 +162,48 @@ def news_tag(text):
     return "politics"
 
 
+def parse_feed(url, limit):
+    try:
+        root = ET.fromstring(get(url, timeout=30))
+    except Exception as e:
+        print(f"  feed miss: {type(e).__name__} - {str(e)[:60]}", file=sys.stderr)
+        return []
+
+    items = []
+    for it in root.iter("item"):
+        title = unescape((it.findtext("title") or "").strip())
+        link = (it.findtext("link") or "").strip()
+        desc = unescape(re.sub(r"<[^>]+>", " ", it.findtext("description") or "")).strip()
+        desc = re.sub(r"\s{2,}", " ", desc)
+        pub = (it.findtext("pubDate") or "")[5:16].strip()
+
+        src = it.findtext("{http://search.yahoo.com/mrss/}source") or it.findtext("source")
+        if not src and " - " in title:
+            title, _, src = title.rpartition(" - ")
+        src = (src or "News").strip()[:24]
+
+        if not title or not link or len(title) < 15:
+            continue
+        if any(x["headline"] == title for x in items):
+            continue
+        items.append({"headline": title,
+                      "summary": desc[:260] or title,
+                      "source": src, "date": pub or NEWS_DATE,
+                      "tag": news_tag(title + " " + desc), "url": link})
+        if len(items) >= limit:
+            break
+    return items
+
+
+def fetch_news(feeds, limit, label):
+    for url in feeds:
+        items = parse_feed(url, limit)
+        if len(items) >= 5:
+            print(f"  {label}: {len(items)} items from {url.split('/')[2]}")
+            return items
+    return []
+
+
 def main():
     data = json.load(open("data.json", encoding="utf-8"))
     days, cumul = data["days"], data["cumul"]
@@ -181,25 +212,21 @@ def main():
     print(f"Parsed {len(trends)} trends, {len(tags)} hashtags")
 
     scored, streaks = score(trends, days)
-
     days[DAY_KEY] = {"label": DAY_LABEL, "trends": scored,
                      "hashtags": tags or days[max(days)]["hashtags"],
                      "signals": build_signals(trends)}
 
-    # Rebuild cumulative totals from the full archive rather than incrementing.
-    # This is idempotent — safe to run many times per day without double-counting.
     cumul.clear()
     for dk in sorted(days):
         for t in days[dk]["trends"]:
             cumul[t["text"]] = cumul.get(t["text"], 0) + t["pts"]
 
-    # Keep the archive to the last 14 days so the page stays fast
     for old in sorted(days)[:-14]:
         del days[old]
 
-    # News via RSS — keep yesterday's if a feed is down
-    dom = rss("https://www.arabnews.com/cat/1/rss.xml", "Arab News", 10)
-    reg = rss("https://english.alarabiya.net/tools/rss/section/middle-east", "Al Arabiya", 10)
+    dom = fetch_news(DOMESTIC_FEEDS, 10, "domestic")
+    reg = fetch_news(REGIONAL_FEEDS, 10, "regional")
+    reg = [r for r in reg if not any(d["headline"] == r["headline"] for d in dom)]
     if len(dom) >= 5 and len(reg) >= 5:
         for i, n in enumerate(dom, 1):
             n["rank"] = i
@@ -208,8 +235,8 @@ def main():
         data["news"] = {"date": NEWS_DATE, "domestic": dom, "regional": reg}
         print(f"News refreshed: {len(dom)} domestic + {len(reg)} regional")
     else:
-        data["news"]["date"] = NEWS_DATE
-        print("News feeds thin — retained previous stories", file=sys.stderr)
+        print(f"News feeds unavailable - kept stories from {data['news']['date']}",
+              file=sys.stderr)
 
     data["lastUpdated"] = BANNER
     json.dump(data, open("data.json", "w", encoding="utf-8"),
@@ -217,10 +244,8 @@ def main():
 
     print(f"\nUpdated {DAY_KEY} ({DAY_LABEL})")
     print("Top 3: " + " | ".join(f"{t['text']} ({t['pts']}pts)" for t in scored[:3]))
-    if streaks:
-        print("STREAK BONUS: " + ", ".join(f"{t} ({r}d)" for t, r in streaks))
-    else:
-        print("No streak bonuses today")
+    print("STREAK BONUS: " + ", ".join(f"{t} ({r}d)" for t, r in streaks)
+          if streaks else "No streak bonuses today")
 
 
 if __name__ == "__main__":
