@@ -7,17 +7,39 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
       - run: python update_trends.py
-      - run: |
+
+      - name: Commit data
+        run: |
           git config user.name  "Kijamii Radar Bot"
           git config user.email "actions@github.com"
           git diff --quiet data.json || (git add data.json && git commit -m "Trends update $(date -u +'%d %b %Y %H:%M')" && git push)
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
