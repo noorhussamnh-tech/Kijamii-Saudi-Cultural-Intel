@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Daily updater for the Kijamii Saudi Radar. Runs inside GitHub Actions."""
-import json, re, sys, urllib.request, xml.etree.ElementTree as ET
+import json, re, sys, urllib.request, urllib.parse, xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from html import unescape
 
@@ -134,29 +134,73 @@ def build_signals(trends):
              "items": " · ".join(v[:10])} for k, v in sigs]
 
 
-GNEWS = "https://news.google.com/rss/search?q={}&hl=en-US&gl=US&ceid=US:en"
+# ── News feeds ────────────────────────────────────────────────────────────────
+GNEWS_EN = "https://news.google.com/rss/search?q={}&hl=en-US&gl=US&ceid=US:en"
+GNEWS_AR = "https://news.google.com/rss/search?q={}&hl=ar&gl=SA&ceid=SA:ar"
 
-DOMESTIC_FEEDS = [
-    GNEWS.format("Saudi+Arabia+when:2d"),
-    GNEWS.format("site:arabnews.com+Saudi"),
+
+def ar(q):
+    """Arabic Google News RSS URL."""
+    return GNEWS_AR.format(urllib.parse.quote(q))
+
+
+def en(q):
+    """English Google News RSS URL."""
+    return GNEWS_EN.format(q)
+
+
+# English-language domestic sources
+DOMESTIC_EN = [
+    en("Saudi+Arabia+when:2d"),
+    en("site:arabnews.com+Saudi"),
     "https://www.arabnews.com/rss.xml",
+    en("site:saudigazette.com.sa+Saudi"),
 ]
-REGIONAL_FEEDS = [
-    GNEWS.format("Saudi+Arabia+Middle+East+when:3d"),
-    GNEWS.format("site:alarabiya.net+Saudi"),
+
+# Arabic-language domestic sources
+DOMESTIC_AR = [
+    ar("المملكة العربية السعودية"),
+    ar("السعودية اليوم"),
+    "https://www.alarabiya.net/tools/rss/section/saudi-arabia",
+    "https://www.okaz.com.sa/rss/",
+    ar("رؤية 2030 السعودية"),
+]
+
+# English-language regional sources
+REGIONAL_EN = [
+    en("Saudi+Arabia+Middle+East+when:3d"),
+    en("site:alarabiya.net+Saudi"),
     "https://english.alarabiya.net/tools/rss/section/middle-east",
+    en("site:middleeasteye.net+Saudi"),
+]
+
+# Arabic-language regional sources
+REGIONAL_AR = [
+    ar("السعودية الشرق الأوسط"),
+    ar("محمد بن سلمان"),
+    "https://www.alarabiya.net/tools/rss/section/middle-east",
+    "https://aawsat.com/feed",
 ]
 
 
 def news_tag(text):
     t = text.lower()
-    for tag, keys in [("sports", ["football","match","league","cup","club"]),
-                      ("economy", ["billion","investment","fund","economy","trade","oil","deal","port"]),
-                      ("security", ["attack","missile","strike","military","security","drone"]),
-                      ("education", ["school","student","universit","educat"]),
-                      ("tourism", ["tourism","hotel","visitor","travel","resort"]),
-                      ("culture", ["art","music","film","heritage","cultur","festival"]),
-                      ("housing", ["housing","real estate","property","construction"])]:
+    for tag, keys in [
+        ("sports",   ["football","match","league","cup","club",
+                      "كرة","دوري","مباراة","هدف","لاعب","الاتحاد","الهلال","النصر"]),
+        ("economy",  ["billion","investment","fund","economy","trade","oil","deal","port",
+                      "استثمار","اقتصاد","نفط","صندوق","تجارة","ميناء","مليار"]),
+        ("security", ["attack","missile","strike","military","security","drone",
+                      "هجوم","صاروخ","عسكري","أمن","حوثي","دفاع"]),
+        ("education",["school","student","universit","educat",
+                      "مدرسة","طالب","جامعة","تعليم","دراسة"]),
+        ("tourism",  ["tourism","hotel","visitor","travel","resort",
+                      "سياحة","فندق","سفر","زائر","منتجع"]),
+        ("culture",  ["art","music","film","heritage","cultur","festival",
+                      "فن","موسيقى","فيلم","تراث","مهرجان","ثقافة"]),
+        ("housing",  ["housing","real estate","property","construction",
+                      "إسكان","عقار","بناء","مسكن"]),
+    ]:
         if any(k in t for k in keys):
             return tag
     return "politics"
@@ -182,7 +226,7 @@ def parse_feed(url, limit):
             title, _, src = title.rpartition(" - ")
         src = (src or "News").strip()[:24]
 
-        if not title or not link or len(title) < 15:
+        if not title or not link or len(title) < 5:
             continue
         if any(x["headline"] == title for x in items):
             continue
@@ -195,13 +239,29 @@ def parse_feed(url, limit):
     return items
 
 
-def fetch_news(feeds, limit, label):
-    for url in feeds:
-        items = parse_feed(url, limit)
-        if len(items) >= 5:
-            print(f"  {label}: {len(items)} items from {url.split('/')[2]}")
-            return items
-    return []
+def fetch_news_merged(en_feeds, ar_feeds, limit, label):
+    """Pull from English and Arabic feeds, merge and deduplicate by headline."""
+    seen, merged = set(), []
+
+    def pull(feeds, tag):
+        for url in feeds:
+            if len(merged) >= limit:
+                return
+            items = parse_feed(url, limit)
+            added = 0
+            for item in items:
+                if item["headline"] not in seen:
+                    seen.add(item["headline"])
+                    merged.append(item)
+                    added += 1
+                    if len(merged) >= limit:
+                        break
+            if added:
+                print(f"  {label}/{tag}: +{added} from {url.split('/')[2]}")
+
+    pull(en_feeds, "EN")
+    pull(ar_feeds, "AR")
+    return merged[:limit]
 
 
 def main():
@@ -224,9 +284,10 @@ def main():
     for old in sorted(days)[:-14]:
         del days[old]
 
-    dom = fetch_news(DOMESTIC_FEEDS, 10, "domestic")
-    reg = fetch_news(REGIONAL_FEEDS, 10, "regional")
+    dom = fetch_news_merged(DOMESTIC_EN, DOMESTIC_AR, 10, "domestic")
+    reg = fetch_news_merged(REGIONAL_EN, REGIONAL_AR, 10, "regional")
     reg = [r for r in reg if not any(d["headline"] == r["headline"] for d in dom)]
+
     if len(dom) >= 5 and len(reg) >= 5:
         for i, n in enumerate(dom, 1):
             n["rank"] = i
