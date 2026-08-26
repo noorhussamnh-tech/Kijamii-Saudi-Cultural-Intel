@@ -185,23 +185,37 @@ REGIONAL_AR = [
 
 def news_tag(text):
     t = text.lower()
-    for tag, keys in [
-        ("sports",   ["football","match","league","cup","club",
-                      "كرة","دوري","مباراة","هدف","لاعب","الاتحاد","الهلال","النصر"]),
-        ("economy",  ["billion","investment","fund","economy","trade","oil","deal","port",
-                      "استثمار","اقتصاد","نفط","صندوق","تجارة","ميناء","مليار"]),
+    # Arabic: split into exact tokens so "هدف" doesn't fire inside "استهدفت"
+    ar_tokens = set(re.split(r'[\s\،,\.؟\?!\-:]+', text))
+
+    checks = [
+        # Security FIRST — must outrank sports to catch military/geopolitical stories
         ("security", ["attack","missile","strike","military","security","drone",
-                      "هجوم","صاروخ","عسكري","أمن","حوثي","دفاع"]),
-        ("education",["school","student","universit","educat",
-                      "مدرسة","طالب","جامعة","تعليم","دراسة"]),
-        ("tourism",  ["tourism","hotel","visitor","travel","resort",
-                      "سياحة","فندق","سفر","زائر","منتجع"]),
-        ("culture",  ["art","music","film","heritage","cultur","festival",
-                      "فن","موسيقى","فيلم","تراث","مهرجان","ثقافة"]),
-        ("housing",  ["housing","real estate","property","construction",
-                      "إسكان","عقار","بناء","مسكن"]),
-    ]:
-        if any(k in t for k in keys):
+                      "iran","tehran","weapon","war","bomb","nuclear","sanction"],
+                     ["هجوم","صاروخ","عسكري","أمن","حوثي","دفاع","إيران",
+                      "طهران","قواعد","استهداف","ضربة","سلاح","حرب","نووي"]),
+        ("sports",   ["football","match","league","cup","club","goal","player",
+                      "stadium","transfer","coach","referee"],
+                     ["كرة","دوري","مباراة","ملعب","لاعب","بطولة","فريق",
+                      "مدرب","تدريب","انتقال"]),
+        ("economy",  ["billion","investment","fund","economy","trade","oil",
+                      "deal","port","gdp","budget","inflation","revenue"],
+                     ["استثمار","اقتصاد","نفط","صندوق","تجارة","ميناء",
+                      "مليار","أسهم","ميزانية","إيرادات"]),
+        ("education",["school","student","universit","educat","curriculum"],
+                     ["مدرسة","طالب","جامعة","تعليم","دراسة","مناهج"]),
+        ("tourism",  ["tourism","hotel","visitor","travel","resort","entertain"],
+                     ["سياحة","فندق","سفر","زائر","منتجع","ترفيه"]),
+        ("culture",  ["art","music","film","heritage","cultur","festival","cinema"],
+                     ["فن","موسيقى","فيلم","تراث","مهرجان","ثقافة","سينما"]),
+        ("housing",  ["housing","real estate","property","construction","neom"],
+                     ["إسكان","عقار","بناء","مسكن","نيوم"]),
+    ]
+
+    for tag, en_keys, ar_keys in checks:
+        if any(re.search(r'\b' + re.escape(k) + r'\b', t) for k in en_keys):
+            return tag
+        if any(k in ar_tokens for k in ar_keys):
             return tag
     return "politics"
 
