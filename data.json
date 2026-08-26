@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Wednesday, 26 August 2026",
+ "lastUpdated": "Thursday, 27 August 2026",
  "days": {
   "2026-08-25": {
    "label": "Tue 25 Aug",
@@ -308,6 +308,165 @@
      "items": "الموسسات العسكريه"
     }
    ]
+  },
+  "2026-08-27": {
+   "label": "Thu 27 Aug",
+   "trends": [
+    {
+     "rank": 1,
+     "text": "#الاهلي_اوكلاند",
+     "cat": "Football",
+     "pts": 14
+    },
+    {
+     "rank": 2,
+     "text": "#لفل_ون_بنهايي_QB",
+     "cat": "General",
+     "pts": 12
+    },
+    {
+     "rank": 3,
+     "text": "#روتانا_سبورت__مع_وليد",
+     "cat": "General",
+     "pts": 10
+    },
+    {
+     "rank": 4,
+     "text": "#وليد__الفراج",
+     "cat": "General",
+     "pts": 8
+    },
+    {
+     "rank": 5,
+     "text": "#طيبها_سعودي",
+     "cat": "General",
+     "pts": 7
+    },
+    {
+     "rank": 6,
+     "text": "ابو الشامات",
+     "cat": "General",
+     "pts": 6
+    },
+    {
+     "rank": 7,
+     "text": "صن داونز",
+     "cat": "General",
+     "pts": 6
+    },
+    {
+     "rank": 8,
+     "text": "مدريد",
+     "cat": "General",
+     "pts": 6
+    },
+    {
+     "rank": 9,
+     "text": "محمد عبدالرحمن",
+     "cat": "General",
+     "pts": 6
+    },
+    {
+     "rank": 10,
+     "text": "مورينهو",
+     "cat": "General",
+     "pts": 6
+    },
+    {
+     "rank": 11,
+     "text": "سفير الوطن",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 12,
+     "text": "جنوب افريقيا",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 13,
+     "text": "فالفيردي",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 14,
+     "text": "ميندي",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 15,
+     "text": "بيلي بيلي",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 16,
+     "text": "فاز الاهلي",
+     "cat": "Football",
+     "pts": 4
+    },
+    {
+     "rank": 17,
+     "text": "للأهلي",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 18,
+     "text": "الامه الاهلاويه",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 19,
+     "text": "الكاس الاحمر",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 20,
+     "text": "19 سبتمبر",
+     "cat": "General",
+     "pts": 4
+    }
+   ],
+   "hashtags": [
+    {
+     "text": "#الاهلي_اوكلاند",
+     "score": 100
+    },
+    {
+     "text": "#لفل_ون_بنهايي_QB",
+     "score": 88
+    },
+    {
+     "text": "#روتانا_سبورت__مع_وليد",
+     "score": 76
+    },
+    {
+     "text": "#وليد__الفراج",
+     "score": 64
+    },
+    {
+     "text": "#طيبها_سعودي",
+     "score": 52
+    }
+   ],
+   "signals": [
+    {
+     "icon": "📌",
+     "label": "General (18)",
+     "items": "#لفل_ون_بنهايي_QB · #روتانا_سبورت__مع_وليد · #وليد__الفراج · #طيبها_سعودي · ابو الشامات · صن داونز · مدريد · محمد عبدالرحمن · مورينهو · سفير الوطن"
+    },
+    {
+     "icon": "⚽",
+     "label": "Football (2)",
+     "items": "#الاهلي_اوكلاند · فاز الاهلي"
+    }
+   ]
   }
  },
  "cumul": {
@@ -345,20 +504,31 @@
   "سامي النجعي": 4,
   "باير ليفركوزن": 4,
   "الحكم الهويش": 4,
-  "الموسسات العسكريه": 4
+  "الموسسات العسكريه": 4,
+  "#الاهلي_اوكلاند": 14,
+  "#لفل_ون_بنهايي_QB": 12,
+  "#روتانا_سبورت__مع_وليد": 10,
+  "#وليد__الفراج": 8,
+  "#طيبها_سعودي": 7,
+  "ابو الشامات": 6,
+  "صن داونز": 6,
+  "مدريد": 6,
+  "محمد عبدالرحمن": 6,
+  "مورينهو": 6,
+  "سفير الوطن": 4,
+  "جنوب افريقيا": 4,
+  "فالفيردي": 4,
+  "ميندي": 4,
+  "بيلي بيلي": 4,
+  "فاز الاهلي": 4,
+  "للأهلي": 4,
+  "الامه الاهلاويه": 4,
+  "الكاس الاحمر": 4,
+  "19 سبتمبر": 4
  },
  "news": {
-  "date": "26 Aug 2026",
+  "date": "27 Aug 2026",
   "domestic": [
-   {
-    "headline": "Exclusive | Trump Sends Nuclear Agreement With Saudi Arabia to Congress - WSJ",
-    "summary": "Exclusive | Trump Sends Nuclear Agreement With Saudi Arabia to Congress WSJ",
-    "source": "WSJ",
-    "date": "25 Aug 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ3lMNk41ZjNONEZiVmpqRFVXTmVIeGU0bjIxbHNheWlHLVNqSFNvMEstQ0hGUlpLOW5FQWhlZjU5Sl90TnhPSWhQY3JrdFZkYmR6ZURGOUVNVGRqWFdCVjdINl9vbXg1S1RId3NpdzczMG5Vc1N0ejVCaVZid0ZVamtRZ0xWRVNkNHZfSnNZMkJvdnZIQ19jMFFZMWttcmFGOFFldTM3dXU3dw?oc=5",
-    "rank": 1
-   },
    {
     "headline": "Under Threat, Saudi Arabia Reroutes Oil Exports Yet Again - The New York Times",
     "summary": "Under Threat, Saudi Arabia Reroutes Oil Exports Yet Again The New York Times",
@@ -366,7 +536,61 @@
     "date": "26 Aug 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8wT3VHUkFjdWwzcVpwMUJMSmRGODJGM3QteDFhaFVENWQ5aHo3TkROM0ZvdFI2T3djOG1RTmxjQzB6My1TMHRqN2Ntak4yOE1zLVM3dkdDckV5R2J2cU8ydHZYaDJHd0RQOUJ1bklRa1ZmSGFPdFFUVmtRcw?oc=5",
+    "rank": 1
+   },
+   {
+    "headline": "Trump admin sends Saudi nuclear deal that includes enrichment pathway to Congress - CNN",
+    "summary": "Trump admin sends Saudi nuclear deal that includes enrichment pathway to Congress CNN",
+    "source": "CNN",
+    "date": "26 Aug 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UX1ZJQjZLVkZ1eUNDazZiaUtBU05HTjVaU3VDeU51eFM3TEN5cXRoNVEyY1lzYWxOVG9vaV9QekhFLTBZcWhVSGJ2Y2VValFPSldZek0wek80ektzeWlqLTNzclNJcjAtbmxRWjg3bUpEQm5IWmJiLWhPbw?oc=5",
     "rank": 2
+   },
+   {
+    "headline": "Trump sends Saudi Arabia nuclear deal to Congress - The Hill",
+    "summary": "Trump sends Saudi Arabia nuclear deal to Congress The Hill",
+    "source": "The Hill",
+    "date": "26 Aug 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUUFKUzNWQVVnOEhXYVRwYXcxMS1RVkJ1cVJWNE1nNVp5WFZWSzZGZXVVcWtIZ2pNWkw1Yk4zcHdqQVBZelU3Rl9VODlLcFBCX3ZOaUtEVmNqUmR4LUVmWDlRUTA4TWdNZ3VmS3FmVHNvVU8ybUVTZmJLWVl4bzNsbkJUUHIzYm5ZS1HSAY8BQVVfeXFMTnVDZ1hSOWZJQW5yQV9CYl94a0dVdEJDczE1TXNpLUtMaXgyWDczTHRfanpMWkp3YWFZaFlyMi1fWjlncHY5eFQ1MExLRmVQRTM0SzgxOFc1NGhTWDZIWjViYkhBRVlqOUFBTzgzTjNWdld0ZTNSZUp4OHc5ZFJ0dmIzdWxMOUJLblcwTzczZWs?oc=5",
+    "rank": 3
+   },
+   {
+    "headline": "Saudi brothers mint billion-dollar fortune from AI boom - Fortune",
+    "summary": "Saudi brothers mint billion-dollar fortune from AI boom Fortune",
+    "source": "Fortune",
+    "date": "26 Aug 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96OEVBZk5sQkJvSlo5RlV1a1Y5TVZZQ3dhUDQyMmxsQ3gxSmFvY0ZxOVdGU3duS2dhekhjdFRBYjNIYUNXaFhlNVh4M3k4dFE1N2JNQjZOZDZQOENhLVFnT2h5Vl9wbHhJWno4?oc=5",
+    "rank": 4
+   },
+   {
+    "headline": "Why Lionsgate Vet’s Saudi Arabia-Backed Game Studio Picked ‘1,001 Arabian Nights’ Adaptation as Its Debut Title - Variety",
+    "summary": "Why Lionsgate Vet’s Saudi Arabia-Backed Game Studio Picked ‘1,001 Arabian Nights’ Adaptation as Its Debut Title Variety",
+    "source": "Variety",
+    "date": "26 Aug 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd3dPalZBdlUya1ljZ1R1TjgxdFdOVl92RTJQd2FqYkVNMkV0dEFzNFhXYVpFNjI5NUtIRDd0N09oQkQwRU5id2FQVHNGMm1RbTBpOUxBSFpKNkJ3VVgxeTVWSkZESmE1dlVtcUJydXVoQ0hMQlBaaVNHRGNlZ2NLWnZfYjRvWFh0eWd4TkpmR2xGWmJGeDdnNXdncmc?oc=5",
+    "rank": 5
+   },
+   {
+    "headline": "Exclusive | Trump Sends Nuclear Agreement With Saudi Arabia to Congress - WSJ",
+    "summary": "Exclusive | Trump Sends Nuclear Agreement With Saudi Arabia to Congress WSJ",
+    "source": "WSJ",
+    "date": "25 Aug 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ3lMNk41ZjNONEZiVmpqRFVXTmVIeGU0bjIxbHNheWlHLVNqSFNvMEstQ0hGUlpLOW5FQWhlZjU5Sl90TnhPSWhQY3JrdFZkYmR6ZURGOUVNVGRqWFdCVjdINl9vbXg1S1RId3NpdzczMG5Vc1N0ejVCaVZid0ZVamtRZ0xWRVNkNHZfSnNZMkJvdnZIQ19jMFFZMWttcmFGOFFldTM3dXU3dw?oc=5",
+    "rank": 6
+   },
+   {
+    "headline": "News | Saudi Arabia's new hotel staffing rules require up to three employees per room - CoStar",
+    "summary": "News | Saudi Arabia's new hotel staffing rules require up to three employees per room CoStar",
+    "source": "CoStar",
+    "date": "26 Aug 2026",
+    "tag": "tourism",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNY2M5bW9QRS1Ycms1enNSd0RlZUZLVi1mTEZlT2l0WE9vM1NxdnMxSnJsRkg2djJsazg5dlZkbDhzZnY1VThhd1pIa1l5Q3lTY0pMRzQtRDNNdFZLa3dURnN2aFJROTlkQm95VUx2SE5JLVdVRWlRUmNJcmh2UjZDYWJNMUx0LVFvQ2d5S2c1d1pReUc1NXFMWjJUbGlheWpVSEllb2ZZenZ4TXRiaHlxQXhhcjlIRGVU?oc=5",
+    "rank": 7
    },
    {
     "headline": "Trump's Saudi nuclear deal reaches Congress as experts warn of proliferation risk - CNBC",
@@ -375,117 +599,45 @@
     "date": "26 Aug 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONzZralc3UG1GY09LMjZTQjBUdGdJMktxRE1acVRCQ21hRkQ2ejgxQ2h0ZVZwb0lIalZUV0ZMTDJmMUx2bFl1RXpNV2RXLUtCakloRkxUeWhzSHUxTEtjSUJjbmhXWDUyS0hlRGlucFAwTjFhTDZUXzRUeXRWdmg4UjB6aEo4bHhYYl8zWFMzTdIBlAFBVV95cUxNdHRZeUk0bnByYlNkYmwwbzhmblpFNWpzRFhCZ20zQmxyd200dmszU2RhSVVCVEFXYk5HQk53cUo0bkh4dmZlaW9fQ1pDZkVwSk9hbHNydFl6VjZua2RhYnM5SFNsUWhUZ1RCN2hrU2JILU1DQXhlM1FUbURxYm9QY0xFVURqUkh2YXNhOVdwR2lHenJ2?oc=5",
-    "rank": 3
-   },
-   {
-    "headline": "Trump has submitted civil nuclear agreement with Saudi Arabia to Congress for review, AP sources say - AP News",
-    "summary": "Trump has submitted civil nuclear agreement with Saudi Arabia to Congress for review, AP sources say AP News",
-    "source": "AP News",
-    "date": "26 Aug 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWkZKU3BQQjNHemVpaFhaRjFWblBkT2g2Vk9MZnV5UFhVNFY0YUxSWW5OMzY1elJGMWRBZzV3akQtb2xvdlBTNzhzUnhXLTdRUlcxVWlKTWdKblpsQXVrcURDZktJNkU5WDR5OHpOSVZsd0RrMHdJT2Nndi02aDRQUV9HX19EQzZLNHJsT1U1OFdwd3BYYl9pVl9VZlZVXzE2RVlj?oc=5",
-    "rank": 4
-   },
-   {
-    "headline": "Trump sends Saudi nuclear deal to Congress but says Riyadh must recognize Israel - Reuters",
-    "summary": "Trump sends Saudi nuclear deal to Congress but says Riyadh must recognize Israel Reuters",
-    "source": "Reuters",
-    "date": "25 Aug 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQlo4djdVdDNyZ2pOQWpMS2ZnblpzdUhoSzZRRGxpR29YSW1PUl9JUmNNYzgtSXZtbDh0a0xxekVuNlVYTWVGWS1RdkE2RXdqVGJFdGE0Z2l3V0ZvaE1hWGFjNHo2RXJjOGw1RFhOSkJnTGpuMHJId1BqcTRDRmhERkZWMGh0bDMzaWpHMTVHZ05UN29UbzZMTG5Valh1dkgwbFNRZFZqRmFZU3dVdXlpbkpZVm5vVzhQeEZEWEtaOHEzeTZ1VUE?oc=5",
-    "rank": 5
-   },
-   {
-    "headline": "Saudi Arabia’s Derivatives Push Deepens Capital Market Reforms - Bloomberg.com",
-    "summary": "Saudi Arabia’s Derivatives Push Deepens Capital Market Reforms Bloomberg.com",
-    "source": "Bloomberg.com",
-    "date": "26 Aug 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVDZPZFc4S2xDZTdPTFdPRHZfWmJMRHJSMkdkNEQ1bzhYd2lBakNlVzdfckgxd2d2ZkZxVmNPX3dTS194QnI0dnBBOUw4OTNqNEwxNjN6LTlOWXlCSExHbmJJb0RFNTNKTHFVSWdrTlRieDRrbUREOC14Z1hUUXZmNUhNNWpBVHh2ajQ0SHE2VFVCS2F6NFI2YkhxQXFJQ2tqMEhrOWhvVTNNemZsQnRZWmZPWQ?oc=5",
-    "rank": 6
-   },
-   {
-    "headline": "Saudi Arabia Welcomes Integration of SDF Forces Into Syria's Military Institutions - Kurdistan24",
-    "summary": "Saudi Arabia Welcomes Integration of SDF Forces Into Syria's Military Institutions Kurdistan24",
-    "source": "Kurdistan24",
-    "date": "26 Aug 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMy1yNWl5UTctc3kwT01HNlYtbnY1U3FMS1ktRC14bjlkOUFERDN1d2F0eUctMnVJdFhvT2RHT2ZOeVJWVlV6dVlXQ1FxeW1HNGFBWV9JbmJvM0lGcHM0Q0RielFWakJzb2hEMkNzQlZZZGJFemZ3eVJESjJscXZoMXBkWHJhZ2d3QWVjTUh1TVFXRDVuYUh0TFdxazVWdFN3R09DTjJkVUxOS0N3RnJLZ0x5N3V5YUxhQ3prVnJVWDBzZVk?oc=5",
-    "rank": 7
-   },
-   {
-    "headline": "Amnesty urges Saudi Arabia to release French-Egyptian national - The New Arab",
-    "summary": "Amnesty urges Saudi Arabia to release French-Egyptian national The New Arab",
-    "source": "The New Arab",
-    "date": "26 Aug 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRzNMS3BteVRZZ2dQUlVZRkpXdGtsZENvamE3Z29Qb0h0RW9WbXk1RExTTXVFd0tFN1N2T0pvMW9qX2oxTmZtRkUxNVJ6X3hDWVkwZTZHcnJhelRqMVVlLXJYWGozU2NyZUpDeFlpUmtjeHZNUk54Y2JVeDk1YkFqSjJJNWJtS0VXcGlRRW9kRm9Ed9IBlwFBVV95cUxOT0hjOVRWVjAwQ2VodnlLcHdLSEV4U19oTGM1VlhNM19XNkd4dkdlWXdSQU5nU20zRFpSNVFZTVB5YkVUWm9NWWduWW1GVEowRS1hZVZxY24yLU85eUdBMzcxQmpLMWhDNlZJQ2g1UHF0YWJBVDlMUUpLTzhDVXdraUloaC1JYXVjLVEzaHR2eEZUZHBzSi1N?oc=5",
     "rank": 8
    },
    {
-    "headline": "Trump Sends Saudi Nuclear Pact to Congress, Insists Riyadh Must Recognize Israel - politicstoday.org",
-    "summary": "Trump Sends Saudi Nuclear Pact to Congress, Insists Riyadh Must Recognize Israel politicstoday.org",
-    "source": "politicstoday.org",
+    "headline": "Saudi Arabia considers introducing cheaper insurance to increase shipping in Middle East - report - The Jerusalem Post",
+    "summary": "Saudi Arabia considers introducing cheaper insurance to increase shipping in Middle East - report The Jerusalem Post",
+    "source": "The Jerusalem Post",
     "date": "26 Aug 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTWdrUkdjUWh3N3NfYXdBaElDUVJCMnNDeTh5bko3MzBFVEtaRWdnblZSQUZoMzRYMmhqeFZkTldQSDJCM0xOWV9PeEloUm5icWZpcTdQbWxjcGJaVHExMDVaMmJlVXRfUVM5aFJEbEFMSGdYNjBUNi0tUnBveWpCakhFQlhJRWl1V3J1VkV3MUt3Ql9zZHRtT1AzQUZQenhGZEFlanJlTHRtZw?oc=5",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CaHdrbXFXR1VRVEFFSjdyYVRtTUg0d1BLN0dYNUVzcWkwOGMwajRydWdZSmZqQnM3b3phaUllMTRGSHJkT1BfclF3ZjhXbk5qenIzYmxVb1gyM1Fq?oc=5",
     "rank": 9
    },
    {
-    "headline": "Microsoft and HUMAIN announce long-term strategic collaboration to enable AI transformation in Saudi Arabia and beyond - PR Newswire",
-    "summary": "Microsoft and HUMAIN announce long-term strategic collaboration to enable AI transformation in Saudi Arabia and beyond PR Newswire",
-    "source": "PR Newswire",
+    "headline": "Trump has submitted civil nuclear agreement with Saudi Arabia to Congress for review, AP sources say - The Standard-Speaker",
+    "summary": "Trump has submitted civil nuclear agreement with Saudi Arabia to Congress for review, AP sources say The Standard-Speaker",
+    "source": "The Standard-Speaker",
     "date": "26 Aug 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPbWN3UVhsQlR5R0VnMnpabGlOMWJIZU4wLS1iQVBFMDR2NFltejVNcklwZV9XZjF1bGNCQkhaVHdLZHI5VkxmXzR1ZVIwSkNsWGN6ZHNfTng0TUx1TWM4SUI3U080RTM2NGV1QkJuSHhaNkR2RzhCR1J1TXU3amwzTTZ1aDFNRnJEVktBQkZvelMwZ0RFTmYtSVc2XzVNSXRqb2Fta0hLYjNCTzBDOG9jbVFDc3BSYUZmZG0xVXVLQUdVYTVfaTRRaDkxSms5QkVtTFdsVWJNZTF5bHo2YmQwTzlyZ1VuMVEzYlNyU2hTLVA4aE9xMjFxcTJQNE1GWUw0VWt2Yg?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdW1NMlZWQU83SWdSOHNXUnJMeDhoZFhiNm1jUkJ5WGQ2S2tHUjNham1RRWxTZDJjbloyTkN6NzBvazFKVjBBNWJnYnYtVmh3NExnOWFKc0hZWURxaGNYSUw1T2xNd3BEVXBEY1FUUGc4V0g5eENaWmREeUZnd0syMk9uVTFrTUo4a2tGWHp5UEE1aGFfaHl1bkt3cw?oc=5",
     "rank": 10
    }
   ],
   "regional": [
    {
-    "headline": "US starts returning staff to Middle East missions after Iran war evacuations, sources say - Reuters",
-    "summary": "US starts returning staff to Middle East missions after Iran war evacuations, sources say Reuters",
-    "source": "Reuters",
-    "date": "25 Aug 2026",
-    "tag": "culture",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOS253amNScVNTdFF4SjVlU1RQVGFzVjBZalVKYUpUckZOX1FzdklkcDI4NlRoc0x5VXZtaUgxNW5wN092R05HRVRHMU51VG5iOU9SblF6d2VxU2ZTVnZmTWw3eVNnZEFRRExHcmlQRmhoWXBvOGRPcEdUeXphX2lMZnZSektOcHVjUEd1dFNLUURsb0dVcXF4WElkcE5yOGFxbl94dUdJYmFuZjBZWk85UjRGaXpaaUtzZnFmX2NXcTgwVXdjdDBrVFF4RmZEWmc?oc=5",
+    "headline": "Middle East beauty heads for US$20B as GCC becomes global innovation hub - Personal Care Insights",
+    "summary": "Middle East beauty heads for US$20B as GCC becomes global innovation hub Personal Care Insights",
+    "source": "Personal Care Insights",
+    "date": "26 Aug 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5leFRwRHNnZDB1dWd2c2VNX0JacXAtLVJic050MmR1OWlvdkZfY3FfWUN6b2liVWdrdEVJRFhSOVVNZTlSOG84ekg3UUxIelpHUGhUckdkdWNseENlYmJnLTRDLVZIWkNTR29sZ29mT1F0V0xWOE9ncXdYVDQ?oc=5",
     "rank": 11
    },
    {
-    "headline": "Trump says Saudi Arabia must recognise Israel to move forward with nuclear pact - Middle East Eye",
-    "summary": "Trump says Saudi Arabia must recognise Israel to move forward with nuclear pact Middle East Eye",
+    "headline": "UAE president's letter to elderly Saudi king seen as jab at Crown Prince - Middle East Eye",
+    "summary": "UAE president's letter to elderly Saudi king seen as jab at Crown Prince Middle East Eye",
     "source": "Middle East Eye",
-    "date": "25 Aug 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcU1Welh4ZzE1YlpMT0VFU3B0NGVzU2pkVi1Tb1VEbnM0eGtMVEJlMXpLdU5IWVlmUC1qcEd1MHNuNjZTbzEzNFhVMjJzWm9iUllNZzhINjRUZTdxZ2V1alhQakdIaHNCOXE3enhZeUxVS2lPcHdmYXBlTmFrYnUxNEFsUDduTGpic3B5aWVEbHFfRXJqOWttdVdBSV9hSWUzaWdvMXVrVE9YMGhUZnV6TVN6YzNSTW1XU1FvNmZQUTl4SEhKdEFZ?oc=5",
-    "rank": 12
-   },
-   {
-    "headline": "ME conflict: Saudi Arabia weighs state-backed war risk cover for ships and cargo - Slipcase",
-    "summary": "ME conflict: Saudi Arabia weighs state-backed war risk cover for ships and cargo Slipcase",
-    "source": "Slipcase",
     "date": "26 Aug 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYUp3LUtjbjJvSzZnQjFvdGRuN3NZX1d3bEpwTE94cTlZUkw4dVZEd1U0Z2RjLTFWUjJ5NWU1bDUtTG9DRkh2NFhnRUxvbUZMVm1BMW1vemRLa2JYOU9MUzZIMWxyRUY4dDJzTC0xMDdqeXp6cXpaQzlRRFQ0T2ZtN1V1cTZHYTR1Vi1DLTN4OFZkdXF3VUtHcTlCTWpLaWM2MUh1VmJFY0pwaXRtQXRKekl4bFlxcUh4?oc=5",
-    "rank": 13
-   },
-   {
-    "headline": "Saudi Arabia Gets the F-35: A Middle East Power Shift | Afterburner - MiGFlug's Magazine - MiGFlug",
-    "summary": "Saudi Arabia Gets the F-35: A Middle East Power Shift | Afterburner - MiGFlug's Magazine MiGFlug",
-    "source": "MiGFlug",
-    "date": "25 Aug 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObHZIX0t1SW9CTC1IYVd0eC05V1BFbzBJaElFNmFPOWU1Zk5JTmd6a1RiZVVYMkh6NUZaaWJfaG1tOFhSTWwwdVJCMXFrNFp6cTJIR21QTzF1ZFpRR2xhNzNtVV9zaGpKRkVMR19CSGNMaWY4UlY0amZBT0R3OHM4ZFNtWnUxOGV2OVowQ2EtQnM3Zw?oc=5",
-    "rank": 14
-   },
-   {
-    "headline": "Donald Trump says Saudi Arabia must recognize Israel for nuclear deal - The Jerusalem Post",
-    "summary": "Donald Trump says Saudi Arabia must recognize Israel for nuclear deal The Jerusalem Post",
-    "source": "The Jerusalem Post",
-    "date": "25 Aug 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91eGUtZ0VHdk1aWlpCbGNJcUNKSE5JZ1lPNVhVQ0xMZDZkRkd0RW5PN2hodzFVc1F5dzkySmtZRUNTeTVWellwWnpBQXJ5TGpxbkFiczhjS3Nlc1E?oc=5",
-    "rank": 15
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUFRmTm14THEyM3dETUNjbzU1bV9IOXNRWUtTWVU5NXRvNVZLcjRWbldvUHBEbTJqUllzZWlsS2d0b1hERjV3Sk5JWXc4ay1iRGVMM2hnZW5xQm1USDBOaHItbXJuc2VSalp2aFFPYkx2NDdFNnhFM2YxYmNNbnJlaFNXbTZaX0htZFZmVlFkRlE4c084bDhZZzhJbw?oc=5",
+    "rank": 12
    },
    {
     "headline": "France and Saudi Arabia showcase deepening strategic alignment, from Iran to Gaza - arabnews.jp",
@@ -494,24 +646,51 @@
     "date": "26 Aug 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5acXRZOFBtbXdwTXd2ZGtiS2xZWW5vTlNiRVZyUVV6OXhEMXV6dVdRVjdVdjE1eGRORExmT2xTZEJiNlFFNGJrWE55QnRFdzNOQ2cyTUtWaUZ2TDJqY01ZTTBZR04?oc=5",
+    "rank": 13
+   },
+   {
+    "headline": "From Israel to Saudi Arabia - Ami Magazine",
+    "summary": "From Israel to Saudi Arabia Ami Magazine",
+    "source": "Ami Magazine",
+    "date": "25 Aug 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB4RVlnY3V3ZUdjRWlzdGFwQ3RsWnpBNnNVbmpuTmQxVEhPbXRkVzQ5cDJuLWJFaVROZXhwVE9DblFveVAtdHItcHFkZnFZTF9RUHpwWVgyQVNGRzFfX01nS3lKc093cGZrVVcxU3YzcmU?oc=5",
+    "rank": 14
+   },
+   {
+    "headline": "Saudi diversification drive on display in France as US reach shows limits - Al-Monitor",
+    "summary": "Saudi diversification drive on display in France as US reach shows limits Al-Monitor",
+    "source": "Al-Monitor",
+    "date": "26 Aug 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVjVZZGxyMVJhVXhaUl9hVWF2REZaY1Vkc0VZMjRrRnZ4LTBhTnBqdGdJOFF5YzdjSEgtNms1TzQ3VVNTMGZEeHBYT09HMFlNNDNycXFUZ2pPTk1CT0F4enRNdng1NGFEYzRxZHk2RHdnWEhtbXVaamNWNjRnWExMUzJETDJURFNkNHgxY2NRUEFFd2kyRDA3ZWZ0Sml0Z09BejdqQWFLS053TmJabmc?oc=5",
+    "rank": 15
+   },
+   {
+    "headline": "US starts returning staff to Middle East missions after Iran war evacuations, sources say - Reuters",
+    "summary": "US starts returning staff to Middle East missions after Iran war evacuations, sources say Reuters",
+    "source": "Reuters",
+    "date": "25 Aug 2026",
+    "tag": "culture",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOS253amNScVNTdFF4SjVlU1RQVGFzVjBZalVKYUpUckZOX1FzdklkcDI4NlRoc0x5VXZtaUgxNW5wN092R05HRVRHMU51VG5iOU9SblF6d2VxU2ZTVnZmTWw3eVNnZEFRRExHcmlQRmhoWXBvOGRPcEdUeXphX2lMZnZSektOcHVjUEd1dFNLUURsb0dVcXF4WElkcE5yOGFxbl94dUdJYmFuZjBZWk85UjRGaXpaaUtzZnFmX2NXcTgwVXdjdDBrVFF4RmZEWmc?oc=5",
     "rank": 16
    },
    {
-    "headline": "Mistral and Saudi Vendor to Advance Sovereign AI in Middle East - AI Business",
-    "summary": "Mistral and Saudi Vendor to Advance Sovereign AI in Middle East AI Business",
-    "source": "AI Business",
-    "date": "25 Aug 2026",
+    "headline": "Microsoft Is Making a Bigger AI Bet on the Middle East - TradingView",
+    "summary": "Microsoft Is Making a Bigger AI Bet on the Middle East TradingView",
+    "source": "TradingView",
+    "date": "26 Aug 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONFByRFBiYXloaTM3OHhCdWx1bHN0RU94ZTlaTzFvT2wtX2c0b1R5cWxIQkJFeUh2VGFoSnhLVlowRjRzMzlwQUYzQldEUlZKWkFlRmsyaUZDU0ZqU3NWcUhKZkhFUHhlZTZwTGxaQ0RabGFwb0hjRVlfM0QtRmxNcTlQdlItTklsemc4cWdCdHZYLVVyRXR4Tw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZm5VVU5pSWFCRFRTemNPb21jRGFyTWlnME1hamwzbXZGNnVtUGJ2ZnZPNmpROG1oaTAyM2YxUXpqU2YzZG5IZnVaZkxmNmMyTHlXenFqNWhoQUZsd0I5YzNVVnhfZU1jVkN3bDJrbHpId0pnLVZuMVFKR3pfWUNMWmZKLU03V2F4bWN3R1VCYW13MTJqRm04WnRGSGRMYU9UVk1lb0Vta1pjcmdtMW9Id1dCWi0?oc=5",
     "rank": 17
    },
    {
-    "headline": "Saudi Arabia's Big NO To America Changes The Middle East Forever | US Iran War | The Link Johnny Kenny (HSumxjb171) - Mshale",
-    "summary": "Saudi Arabia's Big NO To America Changes The Middle East Forever | US Iran War | The Link Johnny Kenny (HSumxjb171) Mshale",
-    "source": "Mshale",
+    "headline": "Trump Sends Saudi Nuclear Pact to Congress, Insists Riyadh Must Recognize Israel - politicstoday.org",
+    "summary": "Trump Sends Saudi Nuclear Pact to Congress, Insists Riyadh Must Recognize Israel politicstoday.org",
+    "source": "politicstoday.org",
     "date": "26 Aug 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXRGM3U05PTEFjeEZpZnd0Qi0zUFljTktsZlNfZGdSYlVURXptZFh2anI0T1l6MUdvREZkVWZYYmRpbE5vemdJa0tuLVZqNnNyUFRhRTE5aFZTYTQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTWdrUkdjUWh3N3NfYXdBaElDUVJCMnNDeTh5bko3MzBFVEtaRWdnblZSQUZoMzRYMmhqeFZkTldQSDJCM0xOWV9PeEloUm5icWZpcTdQbWxjcGJaVHExMDVaMmJlVXRfUVM5aFJEbEFMSGdYNjBUNi0tUnBveWpCakhFQlhJRWl1V3J1VkV3MUt3Ql9zZHRtT1AzQUZQenhGZEFlanJlTHRtZw?oc=5",
     "rank": 18
    }
   ]
