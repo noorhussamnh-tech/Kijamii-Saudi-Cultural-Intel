@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
 """Daily updater for the Kijamii Saudi Radar. Runs inside GitHub Actions."""
-import json, re, sys, urllib.request, urllib.parse, xml.etree.ElementTree as ET
+import json, os, re, sys, urllib.request, urllib.parse, xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from html import unescape
+
+# pytrends is optional — install via: pip install pytrends --break-system-packages
+try:
+    from pytrends.request import TrendReq as _TrendReq
+    HAS_PYTRENDS = True
+except ImportError:
+    HAS_PYTRENDS = False
 
 RIYADH = timezone(timedelta(hours=3))
 NOW = datetime.now(RIYADH)
@@ -23,6 +30,12 @@ STREAK_BONUS = 5
 CYRILLIC = re.compile("[\\u0400-\\u04FF]")
 ARABIC  = re.compile("[\\u0600-\\u06FF]")
 PHONE   = re.compile(r"\d{7,}")
+
+TIKTOK_GENERIC = {
+    "fyp","foryou","foryoupage","foryourpage","viral","trending","duet","stitch",
+    "meme","funny","tiktok","follow","like","explore","reels","shorts","goviral",
+    "comedy","pov","fypage","explore","خليجي","للجميع","اكسبلور","ترند",
+}
 
 CATS = [
     ("Football", ["الاتحاد","الهلال","النصر","الاهلي","الحزم","برشلونة","ريال","ليفربول",
@@ -140,6 +153,7 @@ GNEWS_AR = "https://news.google.com/rss/search?q={}&hl=ar&gl=SA&ceid=SA:ar"
 
 
 def ar(q):
+    # quote_plus encodes spaces as + and Arabic chars as %XX — what Google News expects
     return GNEWS_AR.format(urllib.parse.quote_plus(q))
 
 
@@ -147,7 +161,7 @@ def en(q):
     return GNEWS_EN.format(q)
 
 
-# 10 slots for English + 10 for Arabic = 20 items per section
+# 10 slots reserved for English, 10 for Arabic — 20 items per section
 EN_QUOTA = 10
 AR_QUOTA = 10
 
@@ -159,9 +173,9 @@ DOMESTIC_EN = [
 ]
 
 DOMESTIC_AR = [
-    ar("المملكة العربية السعودية"),
-    ar("السعودية اليوم"),
-    ar("أخبار السعودية"),
+    ar("المملكة العربية السعودية"),       # Saudi Arabia
+    ar("السعودية اليوم"),                  # Saudi today
+    ar("أخبار السعودية"),                  # Saudi news
     "https://www.alarabiya.net/tools/rss/section/saudi-arabia",
     "https://www.spa.gov.sa/rss/latest-news",
     "https://www.okaz.com.sa/rss/",
@@ -175,9 +189,9 @@ REGIONAL_EN = [
 ]
 
 REGIONAL_AR = [
-    ar("السعودية الشرق الأوسط"),
-    ar("محمد بن سلمان"),
-    ar("الخليج العربي السعودية"),
+    ar("السعودية الشرق الأوسط"),          # Saudi Arabia Middle East
+    ar("محمد بن سلمان"),                   # MBS
+    ar("الخليج العربي السعودية"),          # Gulf + Saudi
     "https://www.alarabiya.net/tools/rss/section/middle-east",
     "https://aawsat.com/feed",
 ]
@@ -254,6 +268,7 @@ def parse_feed(url, limit):
 
 
 def pull_from(feeds, quota, seen):
+    """Collect up to `quota` unique items from a feed list, skipping seen headlines."""
     collected = []
     for url in feeds:
         if len(collected) >= quota:
@@ -268,17 +283,199 @@ def pull_from(feeds, quota, seen):
 
 
 def fetch_news_bilingual(en_feeds, ar_feeds, en_quota, ar_quota, label):
+    """
+    Pull EN_QUOTA items from English feeds and AR_QUOTA from Arabic feeds.
+    If Arabic feeds fall short, backfill from English to hit the total.
+    """
     seen = set()
     en_items = pull_from(en_feeds, en_quota, seen)
     ar_items = pull_from(ar_feeds, ar_quota, seen)
 
-    shortfall = (en_quota + ar_quota) - len(en_items) - len(ar_items)
+    total = en_quota + ar_quota
+    shortfall = total - len(en_items) - len(ar_items)
     if shortfall > 0:
-        en_items.extend(pull_from(en_feeds, shortfall, seen))
+        # Arabic feeds came up short — backfill from English
+        extra = pull_from(en_feeds, shortfall, seen)
+        en_items.extend(extra)
 
     merged = en_items + ar_items
     print(f"  {label}: {len(en_items)} EN + {len(ar_items)} AR = {len(merged)} items")
     return merged
+
+
+GOOGLE_TRENDS_SA = "https://trends.google.com/trends/trendingsearches/daily/rss?geo=SA"
+
+
+def scrape_google_trends_sa():
+    """Google Trends Saudi Arabia – stable official RSS. Returns Arabic topics only."""
+    results = []
+    try:
+        root = ET.fromstring(get(GOOGLE_TRENDS_SA, timeout=20))
+        for it in root.iter("item"):
+            title = unescape((it.findtext("title") or "").strip())
+            # grab traffic volume from ht:approx_traffic
+            traffic_raw = it.findtext("{https://trends.google.com/trends/trendingsearches/daily}approx_traffic") or "0"
+            traffic = int(traffic_raw.replace(",","").replace("+","") or 0)
+            if not title or not ARABIC.search(title):
+                continue
+            if is_spam(title):
+                continue
+            low = title.lstrip("#").lower()
+            if low in TIKTOK_GENERIC:
+                continue
+            results.append({"text": title, "count": traffic,
+                            "cat": categorize(title), "source": "google"})
+            if len(results) >= 15:
+                break
+        print(f"  Google Trends SA: {len(results)} Arabic topics")
+    except Exception as e:
+        print(f"  Google Trends SA miss: {type(e).__name__}: {str(e)[:70]}", file=sys.stderr)
+    return results
+
+
+def read_tiktok_cc_json():
+    """
+    Read tiktok_cc.json if it exists and is ≤7 days old.
+    Returns the full dict {date, items} or None to trigger fallback.
+    The user pastes this file to GitHub after each Creative Center extraction.
+    """
+    CC_PATH = "tiktok_cc.json"
+    if not os.path.exists(CC_PATH):
+        print("  tiktok_cc.json not found — using auto-fallback")
+        return None
+    try:
+        with open(CC_PATH, encoding="utf-8") as f:
+            cc = json.load(f)
+        date_str = cc.get("date", "")
+        if not date_str:
+            return None
+        cc_date = datetime.strptime(date_str, "%d %b %Y").replace(tzinfo=RIYADH)
+        age_days = (NOW - cc_date).days
+        if age_days > 7:
+            print(f"  tiktok_cc.json is {age_days}d old — stale, using auto-fallback")
+            return None
+        items = cc.get("items") or []
+        if not items:
+            return None
+        print(f"  tiktok_cc.json: {len(items)} items (age {age_days}d) — CC data live")
+        return cc
+    except Exception as e:
+        print(f"  tiktok_cc.json error: {type(e).__name__}: {str(e)[:70]}", file=sys.stderr)
+        return None
+
+
+def fetch_google_trends_tab():
+    """
+    Fetch Saudi Google Trends for the standalone Google Trends tab.
+    Source 1: pytrends (requires: pip install pytrends --break-system-packages in Actions)
+    Source 2: Google Trends daily RSS fallback
+    Returns list of {text, count, cat, source} — both Arabic and English topics.
+    """
+    results = []
+
+    # ── Source 1: pytrends ────────────────────────────────────────────────────
+    if HAS_PYTRENDS:
+        try:
+            pt = _TrendReq(hl="ar", tz=180, timeout=(10, 30), retries=2, backoff_factor=0.5)
+            df = pt.trending_searches(pn="saudi_arabia")
+            for term in df[0].tolist()[:25]:
+                term = str(term).strip()
+                if not term or is_spam(term):
+                    continue
+                results.append({"text": term, "count": 0,
+                                "cat": categorize(term), "source": "google"})
+            print(f"  Google Trends (pytrends): {len(results)} topics")
+        except Exception as e:
+            print(f"  pytrends miss: {type(e).__name__}: {str(e)[:70]}", file=sys.stderr)
+
+    # ── Source 2: Google Trends RSS ───────────────────────────────────────────
+    if len(results) < 5:
+        try:
+            root = ET.fromstring(get(GOOGLE_TRENDS_SA, timeout=20))
+            for it in root.iter("item"):
+                title = unescape((it.findtext("title") or "").strip())
+                traffic_raw = (
+                    it.findtext("{https://trends.google.com/trends/trendingsearches/daily}approx_traffic")
+                    or "0"
+                )
+                traffic = int(traffic_raw.replace(",", "").replace("+", "") or 0)
+                if not title or is_spam(title):
+                    continue
+                low = title.lstrip("#").lower()
+                if low in TIKTOK_GENERIC:
+                    continue
+                # avoid duplicates from pytrends
+                if any(r["text"] == title for r in results):
+                    continue
+                results.append({"text": title, "count": traffic,
+                                "cat": categorize(title), "source": "google"})
+                if len(results) >= 25:
+                    break
+            print(f"  Google Trends RSS: {len(results)} topics total")
+        except Exception as e:
+            print(f"  Google Trends RSS miss: {type(e).__name__}: {str(e)[:70]}", file=sys.stderr)
+
+    return results[:20]
+
+
+def scrape_tiktok_sa(x_trends):
+    """
+    Saudi social-media trending topics for the TikTok tab.
+    Source priority:
+      1. TikTok Ads Creative Center (real TikTok data, undocumented – may break)
+      2. Google Trends Saudi Arabia RSS (official, very stable, Arabic-first)
+      3. Arabic-script X trends (already scraped, zero extra cost)
+    Quality gates: Arabic script required, TIKTOK_GENERIC blocklist, no spam.
+    """
+    results = []
+
+    # ── Source 1: TikTok Creative Center ──────────────────────────────────────
+    try:
+        url = ("https://ads.tiktok.com/creative_radar_api/v1/popular_trend/hashtag/list"
+               "?page=1&limit=50&period=7&country_code=SA&sort_by=popular")
+        raw = json.loads(get(url, timeout=25))
+        lst = (raw.get("data") or {}).get("list") or []
+        for item in lst:
+            tag = (item.get("hashtag_name") or "").strip()
+            cnt = item.get("publish_cnt") or 0
+            if not tag:
+                continue
+            tag_norm = "#" + tag if not tag.startswith("#") else tag
+            low = tag_norm.lstrip("#").lower()
+            if low in TIKTOK_GENERIC or cnt < 200:
+                continue
+            if not ARABIC.search(tag_norm) or is_spam(tag_norm):
+                continue
+            results.append({"text": tag_norm, "count": cnt,
+                            "cat": categorize(tag_norm), "source": "cc"})
+        print(f"  TikTok CC: {len(results)} SA Arabic trends")
+    except Exception as e:
+        print(f"  TikTok CC miss: {type(e).__name__}: {str(e)[:70]}", file=sys.stderr)
+
+    # ── Source 2: Google Trends SA (stable fallback) ───────────────────────────
+    if len(results) < 6:
+        seen = {r["text"] for r in results}
+        for item in scrape_google_trends_sa():
+            if item["text"] not in seen:
+                seen.add(item["text"])
+                item["source"] = "google"
+                results.append(item)
+
+    # ── Source 3: Arabic X-trends cross-reference ──────────────────────────────
+    if len(results) < 8:
+        seen = {r["text"] for r in results}
+        for t in x_trends:
+            if not ARABIC.search(t):
+                continue
+            if t.lstrip("#").lower() in TIKTOK_GENERIC:
+                continue
+            if t not in seen:
+                seen.add(t)
+                results.append({"text": t, "count": 0,
+                                "cat": categorize(t), "source": "x"})
+        print(f"  TikTok: X Arabic supplement applied ({len(results)} total)")
+
+    return results[:15]
 
 
 def main():
@@ -300,6 +497,26 @@ def main():
 
     for old in sorted(days)[:-14]:
         del days[old]
+
+    # TikTok: prefer fresh Creative Center data from tiktok_cc.json (user-pasted)
+    # If that file is missing or >7 days old, fall back to the 3-source auto-scraper
+    cc_data = read_tiktok_cc_json()
+    if cc_data:
+        data["tiktok"] = cc_data
+    else:
+        raw_x = [t["text"] for t in scored]
+        tiktok_items = scrape_tiktok_sa(raw_x)
+        if tiktok_items:
+            data["tiktok"] = {"date": NEWS_DATE, "items": tiktok_items}
+        elif "tiktok" not in data:
+            data["tiktok"] = {"date": NEWS_DATE, "items": []}
+
+    # Google Trends tab (separate from TikTok fallback)
+    google_items = fetch_google_trends_tab()
+    if google_items:
+        data["google"] = {"date": NEWS_DATE, "items": google_items}
+    elif "google" not in data:
+        data["google"] = {"date": NEWS_DATE, "items": []}
 
     dom = fetch_news_bilingual(DOMESTIC_EN, DOMESTIC_AR, EN_QUOTA, AR_QUOTA, "domestic")
     reg = fetch_news_bilingual(REGIONAL_EN, REGIONAL_AR, EN_QUOTA, AR_QUOTA, "regional")
