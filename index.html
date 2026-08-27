@@ -32,7 +32,7 @@ body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,san
 /* NAV TABS — inline-block, hardcoded everything */
 .nav{width:100%;margin-bottom:20px;background:#0f0f13;padding:4px 0}
 .nav-inner{display:table;width:100%;border-spacing:8px 0}
-.nav-tab{display:table-cell;width:50%;padding:14px 8px;text-align:center;font-size:1rem;font-weight:800;border-radius:10px;cursor:pointer;border:2px solid #333;background:#1e1e28;color:#999;font-family:inherit}
+.nav-tab{display:table-cell;width:25%;padding:14px 8px;text-align:center;font-size:1rem;font-weight:800;border-radius:10px;cursor:pointer;border:2px solid #333;background:#1e1e28;color:#999;font-family:inherit}
 .nav-tab.on{background:#e8333a;border-color:#e8333a;color:#fff}
 
 /* PANELS */
@@ -110,6 +110,34 @@ tr.hidden{display:none}
 .filter-btn.on{background:var(--surface);border-color:var(--accent2);color:var(--accent2)}
 
 .footer{text-align:center;font-size:0.72rem;color:var(--muted);margin-top:32px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* TIKTOK PANEL */
+.tiktok-grid{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.tiktok-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;display:flex;gap:14px;align-items:center}
+.tiktok-rank{width:32px;height:32px;border-radius:50%;background:var(--surface2);display:flex;align-items:center;justify-content:center;font-size:0.8rem;font-weight:800;color:var(--muted);flex-shrink:0}
+.tiktok-rank.r1{background:#ffd700;color:#000}.tiktok-rank.r2{background:#c0c0c0;color:#000}.tiktok-rank.r3{background:#cd7f32;color:#fff}
+.tiktok-body{flex:1}
+.tiktok-tag{font-size:1rem;font-weight:800;direction:rtl;text-align:right;margin-bottom:4px;color:var(--text)}
+.tiktok-count{font-size:0.75rem;color:var(--accent2);font-weight:700;margin-bottom:6px;text-align:right}
+.tiktok-meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.tiktok-source{font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;color:var(--muted);padding:2px 7px;border-radius:4px;background:var(--surface2)}
+.tiktok-empty{color:var(--muted);font-size:0.85rem;padding:40px 0;text-align:center;line-height:1.8}
+
+/* TIKTOK TREND ARROWS */
+.tiktok-trend{font-size:0.85rem;font-weight:900;margin-right:4px}
+.tiktok-trend.rising{color:#3cb371}.tiktok-trend.peaked{color:#f5a623}
+.tiktok-trend.stable{color:#888899}.tiktok-trend.declining{color:#e8333a}
+.tiktok-views{font-size:0.72rem;color:var(--muted);font-weight:600;margin-bottom:4px;text-align:right}
+
+/* GOOGLE TRENDS PANEL */
+.google-grid{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.google-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;display:flex;gap:14px;align-items:center}
+.google-rank{width:32px;height:32px;border-radius:50%;background:var(--surface2);display:flex;align-items:center;justify-content:center;font-size:0.8rem;font-weight:800;color:var(--muted);flex-shrink:0}
+.google-rank.r1{background:#ffd700;color:#000}.google-rank.r2{background:#c0c0c0;color:#000}.google-rank.r3{background:#cd7f32;color:#fff}
+.google-body{flex:1}
+.google-term{font-size:0.95rem;font-weight:800;direction:rtl;text-align:right;margin-bottom:4px;color:var(--text)}
+.google-volume{font-size:0.75rem;color:var(--accent2);font-weight:700;text-align:right;margin-bottom:4px}
+.google-empty{color:var(--muted);font-size:0.85rem;padding:40px 0;text-align:center;line-height:1.8}
 </style>
 
 <!-- PASSWORD GATE -->
@@ -144,6 +172,8 @@ tr.hidden{display:none}
   <div class="nav-inner">
     <div class="nav-tab on" id="tab-trends">📊 Trends</div>
     <div class="nav-tab" id="tab-news">📰 News</div>
+    <div class="nav-tab" id="tab-tiktok">🎵 TikTok</div>
+    <div class="nav-tab" id="tab-google">📈 Google</div>
   </div>
 </div>
 
@@ -195,11 +225,25 @@ tr.hidden{display:none}
 <!-- NEWS PANEL -->
 <div class="panel" id="panel-news">
   <div class="date-banner" style="margin-bottom:4px">News for <strong id="news-date"></strong> · Replaced daily · Not archived</div>
-  <div class="news-section-label">🏠 Domestic — What Saudis are living<span class="news-count">10 stories</span></div>
+  <div class="news-section-label">🏠 Domestic — What Saudis are living<span id="dom-count" class="news-count">20 stories</span></div>
   <div class="news-grid" id="news-domestic"></div>
-  <div class="news-section-label">🌍 Regional &amp; International — What affects Saudi Arabia<span class="news-count">10 stories</span></div>
+  <div class="news-section-label">🌍 Regional &amp; International — What affects Saudi Arabia<span id="reg-count" class="news-count">20 stories</span></div>
   <div class="news-grid" id="news-regional"></div>
 </div><!-- /panel-news -->
+
+<!-- TIKTOK PANEL -->
+<div class="panel" id="panel-tiktok">
+  <div class="date-banner" style="margin-bottom:16px">Saudi TikTok trends · <strong id="tiktok-date"></strong> · Arabic-first quality filter · Updated daily</div>
+  <div class="sec-label">🎵 Trending on Saudi TikTok</div>
+  <div class="tiktok-grid" id="tiktok-grid"></div>
+</div><!-- /panel-tiktok -->
+
+<!-- GOOGLE TRENDS PANEL -->
+<div class="panel" id="panel-google">
+  <div class="date-banner" style="margin-bottom:16px">Saudi Google searches · <strong id="google-date"></strong> · Top trending topics · Updated daily</div>
+  <div class="sec-label">📈 Trending on Saudi Google</div>
+  <div class="google-grid" id="google-grid"></div>
+</div><!-- /panel-google -->
 
 <div class="footer">🇸🇦 Saudi Arabia X Trends · Daily automated tracker · Kijamii × Netflix MENA</div>
 </div><!-- /main -->
@@ -208,7 +252,7 @@ tr.hidden{display:none}
 // ── DATA ──────────────────────────────────────────────────────────────────────
 var PASSWORD = "Kculturalintelligence268%";
 
-var DAYS = {}, CUMUL = {}, TODAY_NEWS = {};
+var DAYS = {}, CUMUL = {}, TODAY_NEWS = {}, TODAY_TIKTOK = {}, TODAY_GOOGLE = {};
 
 // ── STATE ────────────────────────────────────────────────────────────────────
 var activeMode = "trends";
@@ -234,20 +278,17 @@ document.getElementById("gpw").addEventListener("keydown", function(e) {
 });
 
 // ── TABS ─────────────────────────────────────────────────────────────────────
-document.getElementById("tab-trends").addEventListener("click", function() {
-  activeMode = "trends";
-  document.getElementById("tab-trends").className = "nav-tab on";
-  document.getElementById("tab-news").className = "nav-tab";
-  document.getElementById("panel-trends").className = "panel on";
-  document.getElementById("panel-news").className = "panel";
-});
-document.getElementById("tab-news").addEventListener("click", function() {
-  activeMode = "news";
-  document.getElementById("tab-news").className = "nav-tab on";
-  document.getElementById("tab-trends").className = "nav-tab";
-  document.getElementById("panel-news").className = "panel on";
-  document.getElementById("panel-trends").className = "panel";
-});
+function switchTab(mode) {
+  activeMode = mode;
+  ["trends","news","tiktok","google"].forEach(function(m) {
+    document.getElementById("tab-"+m).className = "nav-tab" + (m===mode?" on":"");
+    document.getElementById("panel-"+m).className = "panel" + (m===mode?" on":"");
+  });
+}
+document.getElementById("tab-trends").addEventListener("click", function(){ switchTab("trends"); });
+document.getElementById("tab-news").addEventListener("click", function(){ switchTab("news"); });
+document.getElementById("tab-tiktok").addEventListener("click", function(){ switchTab("tiktok"); });
+document.getElementById("tab-google").addEventListener("click", function(){ switchTab("google"); });
 
 // ── DATA LOADER ──────────────────────────────────────────────────────────────
 function loadData() {
@@ -257,17 +298,17 @@ function loadData() {
       return r.json();
     })
     .then(function(d) {
-      DAYS = d.days; CUMUL = d.cumul; TODAY_NEWS = d.news;
+      DAYS = d.days; CUMUL = d.cumul; TODAY_NEWS = d.news; TODAY_TIKTOK = d.tiktok || {}; TODAY_GOOGLE = d.google || {};
       dayKeys = Object.keys(DAYS).sort();
       activeDay = dayKeys[dayKeys.length - 1];
       document.getElementById("last-updated").innerHTML =
         "Last updated: <strong>" + d.lastUpdated +
-        "</strong> \u00b7 Sources: getdaytrends.com \u00b7 Arab News \u00b7 Al Arabiya";
+        "</strong> · Sources: getdaytrends.com · Arab News · Al Arabiya";
       renderAll();
     })
     .catch(function(err) {
       document.getElementById("last-updated").innerHTML =
-        "<strong style='color:#e8333a'>Could not load data.json \u2014 " + err.message + "</strong>";
+        "<strong style='color:#e8333a'>Could not load data.json — " + err.message + "</strong>";
     });
 }
 
@@ -276,6 +317,8 @@ function renderAll() {
   renderDayTabs();
   renderTrendsPanel();
   renderNewsPanel();
+  renderTiktokPanel();
+  renderGooglePanel();
   renderLogFilter();
   buildLogTable();
   filterTable();
@@ -320,8 +363,91 @@ function newsCard(n) {
 
 function renderNewsPanel() {
   document.getElementById("news-date").textContent = TODAY_NEWS.date;
-  document.getElementById("news-domestic").innerHTML = TODAY_NEWS.domestic.map(newsCard).join("");
-  document.getElementById("news-regional").innerHTML = TODAY_NEWS.regional.map(newsCard).join("");
+  var dom = TODAY_NEWS.domestic || [];
+  var reg = TODAY_NEWS.regional || [];
+  document.getElementById("dom-count").textContent = dom.length + " stories";
+  document.getElementById("reg-count").textContent = reg.length + " stories";
+  document.getElementById("news-domestic").innerHTML = dom.map(newsCard).join("");
+  document.getElementById("news-regional").innerHTML = reg.map(newsCard).join("");
+}
+
+function renderTiktokPanel() {
+  var tiktok = TODAY_TIKTOK;
+  var grid = document.getElementById("tiktok-grid");
+  var dateEl = document.getElementById("tiktok-date");
+  if (!tiktok || !tiktok.items || tiktok.items.length === 0) {
+    if (dateEl) dateEl.textContent = "";
+    grid.innerHTML = '<div class="tiktok-empty">TikTok data will appear after the next scheduled update.<br>Check back in a few hours.</div>';
+    return;
+  }
+  if (dateEl) dateEl.textContent = tiktok.date;
+  var TREND_ICON = {rising:"↑", peaked:"▲", stable:"→", declining:"↓"};
+  grid.innerHTML = tiktok.items.map(function(item, i) {
+    var rank = i + 1;
+    var rc = rank===1?"r1":rank===2?"r2":rank===3?"r3":"";
+    var srcLabel = item.source==="cc" ? "Creative Center" : item.source==="google" ? "Google Trends" : "X Trends";
+    var postsStr = "";
+    if (item.posts) {
+      postsStr = item.posts + " posts";
+    } else if (item.count > 0) {
+      postsStr = item.count >= 1000000
+        ? (item.count/1000000).toFixed(1) + "M posts"
+        : item.count >= 1000
+        ? Math.round(item.count/1000) + "K posts"
+        : item.count + " posts";
+    }
+    var viewsStr = item.views ? item.views + " views" : "";
+    var trendCls = item.trend || "stable";
+    var trendIcon = item.trend ? (TREND_ICON[item.trend] || "") : "";
+    var cat = (item.cat || "general").toLowerCase().replace(/ \/ /g,"-").replace(/ /g,"-");
+    return '<div class="tiktok-card">' +
+      '<div class="tiktok-rank '+rc+'">'+rank+'</div>' +
+      '<div class="tiktok-body">' +
+        '<div class="tiktok-tag">' +
+          (trendIcon ? '<span class="tiktok-trend '+trendCls+'">'+trendIcon+'</span>' : '') +
+          item.text +
+        '</div>' +
+        (postsStr ? '<div class="tiktok-count">'+postsStr+(viewsStr?" · "+viewsStr:"")+'</div>' : '') +
+        '<div class="tiktok-meta">' +
+          '<span class="news-tag '+cat+'">'+item.cat+'</span>' +
+          '<span class="tiktok-source">'+srcLabel+'</span>' +
+        '</div>' +
+      '</div>' +
+    '</div>';
+  }).join("");
+}
+
+function renderGooglePanel() {
+  var google = TODAY_GOOGLE;
+  var grid = document.getElementById("google-grid");
+  var dateEl = document.getElementById("google-date");
+  if (!google || !google.items || google.items.length === 0) {
+    if (dateEl) dateEl.textContent = "";
+    grid.innerHTML = '<div class="google-empty">Google Trends data will appear after the next scheduled update.<br>Check back in a few hours.</div>';
+    return;
+  }
+  if (dateEl) dateEl.textContent = google.date;
+  grid.innerHTML = google.items.map(function(item, i) {
+    var rank = i + 1;
+    var rc = rank===1?"r1":rank===2?"r2":rank===3?"r3":"";
+    var vol = "";
+    if (item.count > 0) {
+      vol = item.count >= 1000000
+        ? (item.count/1000000).toFixed(1)+"M searches"
+        : item.count >= 1000
+        ? Math.round(item.count/1000)+"K searches"
+        : item.count+" searches";
+    }
+    var cat = (item.cat || "general").toLowerCase().replace(/ \/ /g,"-").replace(/ /g,"-");
+    return '<div class="google-card">' +
+      '<div class="google-rank '+rc+'">'+rank+'</div>' +
+      '<div class="google-body">' +
+        '<div class="google-term">'+item.text+'</div>' +
+        (vol ? '<div class="google-volume">'+vol+'</div>' : '') +
+        '<span class="news-tag '+cat+'">'+item.cat+'</span>' +
+      '</div>' +
+    '</div>';
+  }).join("");
 }
 
 function renderLogFilter() {
