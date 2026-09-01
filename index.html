@@ -340,16 +340,27 @@ function renderDayTabs() {
   });
 }
 
+// ── Hashtag → X search link helper ──────────────────────────────────────────
+function hashtagLink(text) {
+  if (text && text.charAt(0) === "#") {
+    var encoded = encodeURIComponent(text.slice(1));
+    return '<a href="https://x.com/search?q=%23' + encoded + '&src=trend_click"'
+         + ' target="_blank" rel="noopener"'
+         + ' style="color:inherit;text-decoration:none;cursor:pointer">' + text + '</a>';
+  }
+  return text;
+}
+
 function renderTrendsPanel() {
   var d = DAYS[activeDay];
   var maxScore = d.hashtags[0].score;
   document.getElementById("day-heading").textContent = "Trends — " + d.label;
   document.getElementById("trends-list").innerHTML = d.trends.map(function(t) {
     var rc = t.rank===1?"r1":t.rank===2?"r2":t.rank===3?"r3":"";
-    return '<div class="trend-row"><div class="rnum '+rc+'">'+t.rank+'</div><div class="trend-text">'+t.text+'</div><div class="pts-badge">'+t.pts+' pts</div></div>';
+    return '<div class="trend-row"><div class="rnum '+rc+'">'+t.rank+'</div><div class="trend-text">'+hashtagLink(t.text)+'</div><div class="pts-badge">'+t.pts+' pts</div></div>';
   }).join("");
   document.getElementById("hashtag-list").innerHTML = d.hashtags.map(function(h) {
-    return '<div class="score-bar-wrap"><div class="ht-text">'+h.text+'</div><div class="bar-bg"><div class="bar-fill" style="width:'+Math.round(h.score/maxScore*100)+'%"></div></div><div class="ht-score">'+h.score+'</div></div>';
+    return '<div class="score-bar-wrap"><div class="ht-text">'+hashtagLink(h.text)+'</div><div class="bar-bg"><div class="bar-fill" style="width:'+Math.round(h.score/maxScore*100)+'%"></div></div><div class="ht-score">'+h.score+'</div></div>';
   }).join("");
   document.getElementById("signals-list").innerHTML = d.signals.map(function(s) {
     return "<strong>"+s.icon+" "+s.label+"</strong><br>"+s.items+"<br><br>";
@@ -361,14 +372,25 @@ function newsCard(n) {
   return '<div class="news-card"><div class="news-num">'+n.rank+'</div><div class="news-body"><div class="news-headline">'+hl+'</div><div class="news-summary">'+n.summary+'</div><div class="news-meta"><span class="news-source">'+n.source+'</span><span class="news-date">'+n.date+'</span><span class="news-tag '+n.tag+'">'+n.tag+'</span></div></div></div>';
 }
 
+// ── Date normaliser: "01 Sep 2026" === "1 Sep 2026" ─────────────────────────
+function dateSameDay(a, b) {
+  return (a || "").replace(/^0(\d)/, "$1") === (b || "").replace(/^0(\d)/, "$1");
+}
+
+// ── News panel — today only ──────────────────────────────────────────────────
 function renderNewsPanel() {
-  document.getElementById("news-date").textContent = TODAY_NEWS.date;
-  var dom = TODAY_NEWS.domestic || [];
-  var reg = TODAY_NEWS.regional || [];
+  var todayStr = TODAY_NEWS.date;
+  document.getElementById("news-date").textContent = todayStr;
+  var dom = (TODAY_NEWS.domestic || []).filter(function(n) { return dateSameDay(n.date, todayStr); });
+  var reg = (TODAY_NEWS.regional || []).filter(function(n) { return dateSameDay(n.date, todayStr); });
   document.getElementById("dom-count").textContent = dom.length + " stories";
   document.getElementById("reg-count").textContent = reg.length + " stories";
-  document.getElementById("news-domestic").innerHTML = dom.map(newsCard).join("");
-  document.getElementById("news-regional").innerHTML = reg.map(newsCard).join("");
+  document.getElementById("news-domestic").innerHTML = dom.length
+    ? dom.map(newsCard).join("")
+    : '<div style="padding:32px;text-align:center;color:var(--muted)">No domestic stories for today yet — check back after the next update.</div>';
+  document.getElementById("news-regional").innerHTML = reg.length
+    ? reg.map(newsCard).join("")
+    : '<div style="padding:32px;text-align:center;color:var(--muted)">No regional stories for today yet — check back after the next update.</div>';
 }
 
 function renderTiktokPanel() {
