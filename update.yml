@@ -1,6 +1,13 @@
 name: Saudi Trends Update
 
 on:
+  # Rebuild the site whenever a file is uploaded or edited.
+  # Without this, the Pages site only republished on the schedule below, so an
+  # uploaded index.html sat in the repo while the old build stayed live.
+  # The workflow's own data.json commit uses GITHUB_TOKEN, which by design does
+  # not re-trigger workflows, so this cannot loop.
+  push:
+    branches: [main]
   schedule:
     - cron: '0 5,11,18 * * *'
   workflow_dispatch:
@@ -27,17 +34,23 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install pytrends --break-system-packages
-      - run: python update_trends.py
+
+      # Skipped on a plain file upload: a push only needs to redeploy the site,
+      # not re-scrape. This keeps uploads instant and free of Apify charges.
+      - name: Refresh trend data
+        if: github.event_name != 'push'
+        run: python update_trends.py
         env:
-          # Add these under Settings → Secrets and variables → Actions.
-          # Without APIFY_TOKEN the script still runs — it just falls back to
-          # the hand-pasted JSON files and the direct scrapers.
+          # Set under Settings → Secrets and variables → Actions.
+          # Without APIFY_TOKEN the script still runs — it falls back to
+          # tiktok_cc.json and the direct scrapers.
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-          # Optional overrides — only set these to swap in a different actor.
+          # Optional override — only set to swap in a different actor.
           APIFY_TIKTOK_ACTOR: ${{ vars.APIFY_TIKTOK_ACTOR }}
           APIFY_GOOGLE_ACTOR: ${{ vars.APIFY_GOOGLE_ACTOR }}
 
       - name: Commit data
+        if: github.event_name != 'push'
         run: |
           git config user.name  "Kijamii Radar Bot"
           git config user.email "actions@github.com"
