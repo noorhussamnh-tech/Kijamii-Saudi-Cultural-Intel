@@ -39,18 +39,32 @@ body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,san
 .panel{display:none}
 .panel.on{display:block}
 
+/* COLLAPSIBLE SECTION (scoring system) */
+.collapse-head{display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;user-select:none;padding:13px 16px;background:var(--surface);border:1px solid var(--border);border-radius:12px;margin-bottom:16px}
+.collapse-head:hover{border-color:var(--accent2)}
+.collapse-title{font-size:0.72rem;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;color:var(--muted)}
+.collapse-arrow{font-size:0.72rem;color:var(--accent2);font-weight:900}
+.collapse-body{display:none}
+.collapse-body.open{display:block}
+
 /* SCORING */
-.scoring-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;margin-bottom:24px}
+.scoring-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;margin-bottom:20px}
 .scoring-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
 .scoring-item{background:var(--surface2);border-radius:8px;padding:10px;text-align:center}
 .scoring-item .val{font-size:1.2rem;font-weight:800;color:var(--accent2)}
 .scoring-item .lbl{font-size:0.68rem;color:var(--muted);margin-top:3px}
 
-/* DAY TABS */
+/* MONTH + DAY TABS */
+.month-tabs{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.month-tab{padding:9px 18px;border-radius:8px;font-size:0.84rem;font-weight:700;cursor:pointer;border:1px solid var(--border);background:var(--surface2);color:var(--muted);font-family:inherit}
+.month-tab.on{background:var(--accent2);border-color:var(--accent2);color:#000}
 .day-tabs{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
 .day-tab{padding:7px 14px;border-radius:8px;font-size:0.8rem;font-weight:600;cursor:pointer;border:1px solid var(--border);background:var(--surface2);color:var(--muted);font-family:inherit}
 .day-tab.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.day-tab.month-total{border-color:var(--accent2);color:var(--accent2);font-weight:800}
+.day-tab.month-total.on{background:var(--accent2);border-color:var(--accent2);color:#000}
 .sec-label{font-size:0.7rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.sec-hint{font-size:0.72rem;color:var(--muted);margin:-6px 0 12px;font-style:italic}
 
 /* TREND CARDS */
 .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px}
@@ -61,7 +75,8 @@ body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,san
 .rnum{width:28px;height:28px;border-radius:50%;background:var(--surface2);display:flex;align-items:center;justify-content:center;font-size:0.75rem;font-weight:700;color:var(--muted);flex-shrink:0}
 .rnum.r1{background:#ffd700;color:#000}.rnum.r2{background:#c0c0c0;color:#000}.rnum.r3{background:#cd7f32;color:#fff}
 .trend-text{flex:1;font-size:0.88rem;font-weight:600;direction:rtl;text-align:right}
-.pts-badge{font-size:0.7rem;font-weight:700;color:var(--accent2);white-space:nowrap}
+.pts-badge{font-size:0.7rem;font-weight:700;color:var(--accent2);white-space:nowrap;text-align:right}
+.pts-sub{display:block;font-size:0.62rem;color:var(--muted);font-weight:600}
 .score-bar-wrap{display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--border)}
 .score-bar-wrap:last-child{border-bottom:none}
 .ht-text{font-size:0.8rem;font-weight:600;direction:rtl;flex:1}
@@ -72,9 +87,14 @@ body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,san
 .signals strong{color:var(--text)}
 
 /* NEWS */
+.news-filter{display:flex;gap:8px;margin:0 0 20px;flex-wrap:wrap}
+.scope-btn{padding:9px 16px;border-radius:8px;font-size:0.8rem;font-weight:700;cursor:pointer;border:1px solid var(--border);background:var(--surface2);color:var(--muted);font-family:inherit}
+.scope-btn.on{background:var(--accent);border-color:var(--accent);color:#fff}
 .news-section-label{font-size:0.7rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin:20px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
 .news-count{font-size:0.68rem;color:var(--surface2);background:var(--muted);padding:2px 8px;border-radius:10px;letter-spacing:0;font-weight:600}
 .news-grid{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.news-block{display:block}
+.news-block.hide{display:none}
 .news-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;display:flex;gap:14px;align-items:flex-start}
 .news-num{width:26px;height:26px;border-radius:50%;background:var(--surface2);display:flex;align-items:center;justify-content:center;font-size:0.75rem;font-weight:800;color:var(--muted);flex-shrink:0;margin-top:2px}
 .news-body{flex:1}
@@ -93,6 +113,8 @@ body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,san
 .news-tag.education{background:rgba(70,170,230,.12);color:#46aae6}
 .news-tag.housing{background:rgba(255,165,0,.12);color:#ffa500}
 .news-tag.tourism{background:rgba(32,178,170,.12);color:#20b2aa}
+.news-tag.general{background:rgba(136,136,153,.14);color:#9999aa}
+.news-scope{font-size:0.62rem;font-weight:700;letter-spacing:0.6px;padding:2px 7px;border-radius:4px;background:var(--surface2);color:var(--muted)}
 
 /* LOG */
 .log-wrap{overflow-x:auto;margin-bottom:24px}
@@ -108,6 +130,8 @@ tr.hidden{display:none}
 .log-filter-label{font-size:0.72rem;color:var(--muted);margin-right:4px}
 .filter-btn{padding:5px 12px;border-radius:6px;font-size:0.75rem;font-weight:600;cursor:pointer;border:1px solid var(--border);background:var(--surface2);color:var(--muted);font-family:inherit}
 .filter-btn.on{background:var(--surface);border-color:var(--accent2);color:var(--accent2)}
+.col-score{display:table-cell}
+.col-score.hide{display:none}
 
 .footer{text-align:center;font-size:0.72rem;color:var(--muted);margin-top:32px;padding-top:16px;border-top:1px solid var(--border)}
 
@@ -121,7 +145,8 @@ tr.hidden{display:none}
 .tiktok-count{font-size:0.75rem;color:var(--accent2);font-weight:700;margin-bottom:6px;text-align:right}
 .tiktok-meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
 .tiktok-source{font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;color:var(--muted);padding:2px 7px;border-radius:4px;background:var(--surface2)}
-.tiktok-empty{color:var(--muted);font-size:0.85rem;padding:40px 0;text-align:center;line-height:1.8}
+.tiktok-empty{color:var(--muted);font-size:0.85rem;padding:36px 20px;text-align:center;line-height:1.9}
+.stale-warn{color:#f5a623;font-size:0.76rem;font-weight:700}
 
 /* TIKTOK TREND ARROWS */
 .tiktok-trend{font-size:0.85rem;font-weight:900;margin-right:4px}
@@ -137,7 +162,7 @@ tr.hidden{display:none}
 .google-body{flex:1}
 .google-term{font-size:0.95rem;font-weight:800;direction:rtl;text-align:right;margin-bottom:4px;color:var(--text)}
 .google-volume{font-size:0.75rem;color:var(--accent2);font-weight:700;text-align:right;margin-bottom:4px}
-.google-empty{color:var(--muted);font-size:0.85rem;padding:40px 0;text-align:center;line-height:1.8}
+.google-empty{color:var(--muted);font-size:0.85rem;padding:36px 20px;text-align:center;line-height:1.9}
 </style>
 
 <!-- PASSWORD GATE -->
@@ -179,31 +204,42 @@ tr.hidden{display:none}
 
 <!-- TRENDS PANEL -->
 <div class="panel on" id="panel-trends">
-  <div class="scoring-card">
-    <div class="sec-label">Scoring System</div>
-    <div class="scoring-grid">
-      <div class="scoring-item"><div class="val">+4</div><div class="lbl">Per day appearing</div></div>
-      <div class="scoring-item"><div class="val">+10</div><div class="lbl">Rank #1 bonus</div></div>
-      <div class="scoring-item"><div class="val">+8</div><div class="lbl">Rank #2 bonus</div></div>
-      <div class="scoring-item"><div class="val">+6</div><div class="lbl">Rank #3 bonus</div></div>
-      <div class="scoring-item"><div class="val">+4</div><div class="lbl">Rank #4 bonus</div></div>
-      <div class="scoring-item"><div class="val">+3</div><div class="lbl">Rank #5 bonus</div></div>
-      <div class="scoring-item"><div class="val">+2</div><div class="lbl">Ranks 6–10</div></div>
-      <div class="scoring-item"><div class="val">+5</div><div class="lbl">3+ consecutive</div></div>
+
+  <!-- Collapsible scoring explainer — hidden by default -->
+  <div class="collapse-head" id="scoring-toggle">
+    <span class="collapse-title">⚙ Scoring System — how points are calculated</span>
+    <span class="collapse-arrow" id="scoring-arrow">▼ Show</span>
+  </div>
+  <div class="collapse-body" id="scoring-body">
+    <div class="scoring-card">
+      <div class="scoring-grid">
+        <div class="scoring-item"><div class="val">+4</div><div class="lbl">Per day appearing</div></div>
+        <div class="scoring-item"><div class="val">+10</div><div class="lbl">Rank #1 bonus</div></div>
+        <div class="scoring-item"><div class="val">+8</div><div class="lbl">Rank #2 bonus</div></div>
+        <div class="scoring-item"><div class="val">+6</div><div class="lbl">Rank #3 bonus</div></div>
+        <div class="scoring-item"><div class="val">+4</div><div class="lbl">Rank #4 bonus</div></div>
+        <div class="scoring-item"><div class="val">+3</div><div class="lbl">Rank #5 bonus</div></div>
+        <div class="scoring-item"><div class="val">+2</div><div class="lbl">Ranks 6–10</div></div>
+        <div class="scoring-item"><div class="val">+5</div><div class="lbl">3+ consecutive</div></div>
+      </div>
     </div>
   </div>
 
-  <div class="sec-label">Browse by Day</div>
+  <div class="sec-label">Step 1 — Pick a month</div>
+  <div class="month-tabs" id="month-tabs"></div>
+
+  <div class="sec-label">Step 2 — Pick a day, or view the whole month</div>
   <div class="day-tabs" id="day-tabs"></div>
+
   <div class="sec-label" id="day-heading" style="margin-bottom:12px"></div>
 
   <div class="grid-2">
     <div class="card">
-      <div class="sec-label">Top 15 Trending Topics</div>
+      <div class="sec-label" id="trends-list-label">Top 15 Trending Topics</div>
       <div id="trends-list"></div>
     </div>
     <div class="card">
-      <div class="sec-label">Most Tweeted Hashtags (24h)</div>
+      <div class="sec-label" id="hashtag-list-label">Most Tweeted Hashtags (24h)</div>
       <div id="hashtag-list"></div>
       <div style="margin-top:20px">
         <div class="sec-label">Signal Clusters</div>
@@ -216,7 +252,10 @@ tr.hidden{display:none}
   <div class="log-filter" id="log-filters"></div>
   <div class="log-wrap">
     <table>
-      <thead><tr><th>Day</th><th>Rank</th><th>Trend</th><th>Category</th><th>Day Pts</th><th>Cumul.</th><th>Streak</th></tr></thead>
+      <thead><tr>
+        <th>Day</th><th>Rank</th><th>Trend</th><th>Category</th>
+        <th class="col-score">Day Pts</th><th class="col-score">Cumul.</th><th class="col-score">Streak</th>
+      </tr></thead>
       <tbody id="log-body"></tbody>
     </table>
   </div>
@@ -224,11 +263,23 @@ tr.hidden{display:none}
 
 <!-- NEWS PANEL -->
 <div class="panel" id="panel-news">
-  <div class="date-banner" style="margin-bottom:4px">News for <strong id="news-date"></strong> · Replaced daily · Not archived</div>
-  <div class="news-section-label">🏠 Domestic — What Saudis are living<span id="dom-count" class="news-count">20 stories</span></div>
-  <div class="news-grid" id="news-domestic"></div>
-  <div class="news-section-label">🌍 Regional &amp; International — What affects Saudi Arabia<span id="reg-count" class="news-count">20 stories</span></div>
-  <div class="news-grid" id="news-regional"></div>
+  <div class="date-banner" style="margin-bottom:16px">News for <strong id="news-date"></strong> · Split by publication origin · Replaced daily · Not archived</div>
+
+  <div class="news-filter" id="news-filter">
+    <div class="scope-btn on" data-scope="all">All sources</div>
+    <div class="scope-btn" data-scope="global">🌍 Global press</div>
+    <div class="scope-btn" data-scope="local">🇸🇦 Local &amp; Gulf press</div>
+  </div>
+
+  <div class="news-block" id="block-global">
+    <div class="news-section-label">🌍 Global Press — international outlets covering Saudi<span id="glob-count" class="news-count"></span></div>
+    <div class="news-grid" id="news-global"></div>
+  </div>
+
+  <div class="news-block" id="block-local">
+    <div class="news-section-label">🇸🇦 Local &amp; Gulf Press — Saudi and GCC outlets<span id="loc-count" class="news-count"></span></div>
+    <div class="news-grid" id="news-local"></div>
+  </div>
 </div><!-- /panel-news -->
 
 <!-- TIKTOK PANEL -->
@@ -255,10 +306,45 @@ var PASSWORD = "Kculturalintelligence268%";
 var DAYS = {}, CUMUL = {}, TODAY_NEWS = {}, TODAY_TIKTOK = {}, TODAY_GOOGLE = {};
 
 // ── STATE ────────────────────────────────────────────────────────────────────
-var activeMode = "trends";
-var dayKeys = [];
-var activeDay = null;
+var activeMode   = "trends";
+var dayKeys      = [];
+var monthKeys    = [];
+var activeMonth  = null;
+var activeDay    = null;        // a day key, or "__MONTH__" for whole-month cumulative
 var activeFilter = "all";
+var activeScope  = "all";       // news: all | global | local
+var showScoring  = false;       // scoring columns + explainer visible?
+
+var MONTH_NAMES = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+// ── LOCAL PUBLICATIONS (Saudi + GCC) ─────────────────────────────────────────
+// Anything matching this list is "Local"; everything else is "Global".
+// Add or remove names here to re-tune the split — matching is case-insensitive
+// and looks for the text anywhere in the publication name.
+var LOCAL_PUBS = [
+  // Saudi — English
+  "arab news","saudi gazette","saudi press","spa","al arabiya","alarabiya",
+  "asharq","argaam","arab world","saudi research","al ekhbariya","ssp",
+  // Saudi — Arabic
+  "عكاظ","الرياض","الوطن","المدينة","اليوم","سبق","الاقتصادية","الشرق",
+  "البلاد","واس","صحيفة الجزيرة","الجزيرة السعودية","العربية","اخبارية",
+  "الإخبارية","مكة","الندوة","انحاء","صحيفة سبق","المواطن","عاجل",
+  // Gulf / GCC
+  "gulf news","khaleej","the national","gulf business","arabian business",
+  "trade arabia","zawya","emirates","oman observer","times of oman",
+  "qatar tribune","the peninsula","kuwait times","bahrain","al bayan",
+  "الخليج","البيان","الاتحاد","الايام البحرينية","الأيام البحرينية",
+  "الوطن الكويتية","القبس","الرايه","الراية","عمان"
+];
+
+function isLocalPub(src) {
+  var s = (src || "").toLowerCase().trim();
+  if (!s) return false;
+  for (var i = 0; i < LOCAL_PUBS.length; i++) {
+    if (s.indexOf(LOCAL_PUBS[i].toLowerCase()) !== -1) return true;
+  }
+  return false;
+}
 
 // ── PASSWORD ─────────────────────────────────────────────────────────────────
 document.getElementById("gbtn").addEventListener("click", function() {
@@ -290,6 +376,24 @@ document.getElementById("tab-news").addEventListener("click", function(){ switch
 document.getElementById("tab-tiktok").addEventListener("click", function(){ switchTab("tiktok"); });
 document.getElementById("tab-google").addEventListener("click", function(){ switchTab("google"); });
 
+// ── SCORING SHOW / HIDE ──────────────────────────────────────────────────────
+document.getElementById("scoring-toggle").addEventListener("click", function() {
+  showScoring = !showScoring;
+  document.getElementById("scoring-body").className = "collapse-body" + (showScoring ? " open" : "");
+  document.getElementById("scoring-arrow").textContent = showScoring ? "▲ Hide" : "▼ Show";
+  applyScoringVisibility();
+});
+
+// Hide/show the point columns in the log table and the pts badges on trend rows
+function applyScoringVisibility() {
+  document.querySelectorAll(".col-score").forEach(function(el) {
+    el.className = "col-score" + (showScoring ? "" : " hide");
+  });
+  document.querySelectorAll(".pts-badge").forEach(function(el) {
+    el.style.display = showScoring ? "" : "none";
+  });
+}
+
 // ── DATA LOADER ──────────────────────────────────────────────────────────────
 function loadData() {
   fetch("data.json?v=" + new Date().getTime(), {cache: "no-store"})
@@ -298,9 +402,22 @@ function loadData() {
       return r.json();
     })
     .then(function(d) {
-      DAYS = d.days; CUMUL = d.cumul; TODAY_NEWS = d.news; TODAY_TIKTOK = d.tiktok || {}; TODAY_GOOGLE = d.google || {};
+      DAYS = d.days; CUMUL = d.cumul; TODAY_NEWS = d.news;
+      TODAY_TIKTOK = d.tiktok || {}; TODAY_GOOGLE = d.google || {};
       dayKeys = Object.keys(DAYS).sort();
-      activeDay = dayKeys[dayKeys.length - 1];
+
+      // Build the month list from the day keys ("2026-09-11" -> "2026-09")
+      var seen = {};
+      monthKeys = [];
+      dayKeys.forEach(function(k) {
+        var m = k.slice(0, 7);
+        if (!seen[m]) { seen[m] = 1; monthKeys.push(m); }
+      });
+      monthKeys.sort();
+
+      activeMonth = monthKeys[monthKeys.length - 1];
+      activeDay   = dayKeys[dayKeys.length - 1];
+
       document.getElementById("last-updated").innerHTML =
         "Last updated: <strong>" + d.lastUpdated +
         "</strong> · Sources: getdaytrends.com · Arab News · Al Arabiya";
@@ -314,6 +431,7 @@ function loadData() {
 
 // ── RENDER ───────────────────────────────────────────────────────────────────
 function renderAll() {
+  renderMonthTabs();
   renderDayTabs();
   renderTrendsPanel();
   renderNewsPanel();
@@ -322,12 +440,57 @@ function renderAll() {
   renderLogFilter();
   buildLogTable();
   filterTable();
+  applyScoringVisibility();
+}
+
+function monthLabel(mKey) {
+  var parts = mKey.split("-");
+  return MONTH_NAMES[parseInt(parts[1], 10) - 1] + " " + parts[0];
+}
+
+function daysInMonth(mKey) {
+  return dayKeys.filter(function(k) { return k.slice(0, 7) === mKey; });
+}
+
+function renderMonthTabs() {
+  var wrap = document.getElementById("month-tabs");
+  wrap.innerHTML = "";
+  monthKeys.forEach(function(mKey) {
+    var btn = document.createElement("div");
+    btn.className = "month-tab" + (mKey === activeMonth ? " on" : "");
+    btn.textContent = monthLabel(mKey) + "  (" + daysInMonth(mKey).length + "d)";
+    btn.addEventListener("click", function() {
+      activeMonth = mKey;
+      var dim = daysInMonth(mKey);
+      activeDay = dim[dim.length - 1];     // jump to the newest day in that month
+      renderMonthTabs();
+      renderDayTabs();
+      renderTrendsPanel();
+      renderLogFilter();
+      filterTable();
+      applyScoringVisibility();
+    });
+    wrap.appendChild(btn);
+  });
 }
 
 function renderDayTabs() {
   var wrap = document.getElementById("day-tabs");
   wrap.innerHTML = "";
-  dayKeys.forEach(function(key) {
+
+  // "Whole month" cumulative option first
+  var totalBtn = document.createElement("div");
+  totalBtn.className = "day-tab month-total" + (activeDay === "__MONTH__" ? " on" : "");
+  totalBtn.textContent = "📊 Whole month (cumulative)";
+  totalBtn.addEventListener("click", function() {
+    activeDay = "__MONTH__";
+    renderDayTabs();
+    renderTrendsPanel();
+    applyScoringVisibility();
+  });
+  wrap.appendChild(totalBtn);
+
+  daysInMonth(activeMonth).forEach(function(key) {
     var btn = document.createElement("div");
     btn.className = "day-tab" + (key === activeDay ? " on" : "");
     btn.textContent = DAYS[key].label;
@@ -335,6 +498,7 @@ function renderDayTabs() {
       activeDay = key;
       renderDayTabs();
       renderTrendsPanel();
+      applyScoringVisibility();
     });
     wrap.appendChild(btn);
   });
@@ -351,25 +515,94 @@ function hashtagLink(text) {
   return text;
 }
 
+// ── Aggregate every day in a month into one cumulative view ─────────────────
+function monthAggregate(mKey) {
+  var keys = daysInMonth(mKey);
+  var tMap = {}, hMap = {};
+  keys.forEach(function(k) {
+    (DAYS[k].trends || []).forEach(function(t) {
+      if (!tMap[t.text]) tMap[t.text] = {text:t.text, cat:t.cat, pts:0, days:0, best:99};
+      tMap[t.text].pts  += t.pts;
+      tMap[t.text].days += 1;
+      if (t.rank < tMap[t.text].best) tMap[t.text].best = t.rank;
+    });
+    (DAYS[k].hashtags || []).forEach(function(h) {
+      hMap[h.text] = (hMap[h.text] || 0) + h.score;
+    });
+  });
+  // Sort by total points, then by how many days it appeared, then by best rank —
+  // so a trend that held for 5 days outranks a one-day spike on the same points.
+  var trends = Object.keys(tMap).map(function(k) { return tMap[k]; })
+                     .sort(function(a, b) {
+                       if (b.pts  !== a.pts)  return b.pts  - a.pts;
+                       if (b.days !== a.days) return b.days - a.days;
+                       return a.best - b.best;
+                     });
+  trends.forEach(function(t, i) { t.rank = i + 1; });
+  var hashtags = Object.keys(hMap).map(function(k) { return {text:k, score:hMap[k]}; })
+                       .sort(function(a, b) { return b.score - a.score; });
+  var lastKey = keys[keys.length - 1];
+  return {
+    label:    monthLabel(mKey) + " — whole month (" + keys.length + " days)",
+    trends:   trends.slice(0, 15),
+    hashtags: hashtags.slice(0, 15),
+    signals:  (DAYS[lastKey] || {}).signals || [],
+    isMonth:  true
+  };
+}
+
 function renderTrendsPanel() {
-  var d = DAYS[activeDay];
-  var maxScore = d.hashtags[0].score;
-  document.getElementById("day-heading").textContent = "Trends — " + d.label;
-  document.getElementById("trends-list").innerHTML = d.trends.map(function(t) {
+  var d, isMonth = (activeDay === "__MONTH__");
+  if (isMonth) {
+    d = monthAggregate(activeMonth);
+    document.getElementById("trends-list-label").textContent  = "Top 15 Trends — month total";
+    document.getElementById("hashtag-list-label").textContent = "Top Hashtags — month total";
+  } else {
+    d = DAYS[activeDay];
+    document.getElementById("trends-list-label").textContent  = "Top 15 Trending Topics";
+    document.getElementById("hashtag-list-label").textContent = "Most Tweeted Hashtags (24h)";
+  }
+  if (!d) return;
+
+  document.getElementById("day-heading").textContent =
+    (isMonth ? "Cumulative — " : "Trends — ") + d.label;
+
+  document.getElementById("trends-list").innerHTML = (d.trends || []).map(function(t) {
     var rc = t.rank===1?"r1":t.rank===2?"r2":t.rank===3?"r3":"";
-    return '<div class="trend-row"><div class="rnum '+rc+'">'+t.rank+'</div><div class="trend-text">'+hashtagLink(t.text)+'</div><div class="pts-badge">'+t.pts+' pts</div></div>';
+    var sub = isMonth
+      ? '<span class="pts-sub">' + t.days + ' day' + (t.days===1?'':'s') + ' · best #' + t.best + '</span>'
+      : '';
+    return '<div class="trend-row"><div class="rnum '+rc+'">'+t.rank+'</div>'
+         + '<div class="trend-text">'+hashtagLink(t.text)+'</div>'
+         + '<div class="pts-badge">'+t.pts+' pts'+sub+'</div></div>';
   }).join("");
-  document.getElementById("hashtag-list").innerHTML = d.hashtags.map(function(h) {
-    return '<div class="score-bar-wrap"><div class="ht-text">'+hashtagLink(h.text)+'</div><div class="bar-bg"><div class="bar-fill" style="width:'+Math.round(h.score/maxScore*100)+'%"></div></div><div class="ht-score">'+h.score+'</div></div>';
+
+  var hts = d.hashtags || [];
+  var maxScore = hts.length ? hts[0].score : 1;
+  document.getElementById("hashtag-list").innerHTML = hts.map(function(h) {
+    var pct = maxScore ? Math.round(h.score / maxScore * 100) : 0;
+    return '<div class="score-bar-wrap"><div class="ht-text">'+hashtagLink(h.text)+'</div>'
+         + '<div class="bar-bg"><div class="bar-fill" style="width:'+pct+'%"></div></div>'
+         + '<div class="ht-score">'+h.score+'</div></div>';
   }).join("");
-  document.getElementById("signals-list").innerHTML = d.signals.map(function(s) {
+
+  document.getElementById("signals-list").innerHTML = (d.signals || []).map(function(s) {
     return "<strong>"+s.icon+" "+s.label+"</strong><br>"+s.items+"<br><br>";
   }).join("");
+
+  applyScoringVisibility();
 }
 
 function newsCard(n) {
   var hl = n.url ? '<a href="'+n.url+'" target="_blank" rel="noopener">'+n.headline+'</a>' : n.headline;
-  return '<div class="news-card"><div class="news-num">'+n.rank+'</div><div class="news-body"><div class="news-headline">'+hl+'</div><div class="news-summary">'+n.summary+'</div><div class="news-meta"><span class="news-source">'+n.source+'</span><span class="news-date">'+n.date+'</span><span class="news-tag '+n.tag+'">'+n.tag+'</span></div></div></div>';
+  var scopeLbl = n._local ? "🇸🇦 Local" : "🌍 Global";
+  return '<div class="news-card"><div class="news-num">'+n.rank+'</div><div class="news-body">'
+       + '<div class="news-headline">'+hl+'</div>'
+       + '<div class="news-summary">'+n.summary+'</div>'
+       + '<div class="news-meta"><span class="news-source">'+n.source+'</span>'
+       + '<span class="news-date">'+n.date+'</span>'
+       + '<span class="news-tag '+(n.tag||"general")+'">'+(n.tag||"general")+'</span>'
+       + '<span class="news-scope">'+scopeLbl+'</span></div></div></div>';
 }
 
 // ── Date normaliser: "01 Sep 2026" === "1 Sep 2026" ─────────────────────────
@@ -377,34 +610,96 @@ function dateSameDay(a, b) {
   return (a || "").replace(/^0(\d)/, "$1") === (b || "").replace(/^0(\d)/, "$1");
 }
 
-// ── News panel — today only ──────────────────────────────────────────────────
+// ── News scope filter buttons ────────────────────────────────────────────────
+document.querySelectorAll("#news-filter .scope-btn").forEach(function(btn) {
+  btn.addEventListener("click", function() {
+    activeScope = btn.getAttribute("data-scope");
+    document.querySelectorAll("#news-filter .scope-btn").forEach(function(b) {
+      b.className = "scope-btn" + (b === btn ? " on" : "");
+    });
+    applyNewsScope();
+  });
+});
+
+function applyNewsScope() {
+  document.getElementById("block-global").className =
+    "news-block" + (activeScope === "local" ? " hide" : "");
+  document.getElementById("block-local").className =
+    "news-block" + (activeScope === "global" ? " hide" : "");
+}
+
+// ── News panel — today only, split by publication origin ────────────────────
 function renderNewsPanel() {
   var todayStr = TODAY_NEWS.date;
   document.getElementById("news-date").textContent = todayStr;
-  var dom = (TODAY_NEWS.domestic || []).filter(function(n) { return dateSameDay(n.date, todayStr); });
-  var reg = (TODAY_NEWS.regional || []).filter(function(n) { return dateSameDay(n.date, todayStr); });
-  document.getElementById("dom-count").textContent = dom.length + " stories";
-  document.getElementById("reg-count").textContent = reg.length + " stories";
-  document.getElementById("news-domestic").innerHTML = dom.length
-    ? dom.map(newsCard).join("")
-    : '<div style="padding:32px;text-align:center;color:var(--muted)">No domestic stories for today yet — check back after the next update.</div>';
-  document.getElementById("news-regional").innerHTML = reg.length
-    ? reg.map(newsCard).join("")
-    : '<div style="padding:32px;text-align:center;color:var(--muted)">No regional stories for today yet — check back after the next update.</div>';
+
+  // Merge the two source buckets, drop anything not from today, de-duplicate by URL
+  var all = [].concat(TODAY_NEWS.domestic || [], TODAY_NEWS.regional || []);
+  var seen = {}, merged = [];
+  all.forEach(function(n) {
+    if (!dateSameDay(n.date, todayStr)) return;
+    var k = n.url || n.headline;
+    if (seen[k]) return;
+    seen[k] = 1;
+    merged.push(n);
+  });
+
+  var globalItems = [], localItems = [];
+  merged.forEach(function(n) {
+    var copy = {};
+    for (var p in n) { if (n.hasOwnProperty(p)) copy[p] = n[p]; }
+    copy._local = isLocalPub(n.source);
+    (copy._local ? localItems : globalItems).push(copy);
+  });
+
+  globalItems.forEach(function(n, i) { n.rank = i + 1; });
+  localItems.forEach(function(n, i) { n.rank = i + 1; });
+
+  document.getElementById("glob-count").textContent = globalItems.length + " stories";
+  document.getElementById("loc-count").textContent  = localItems.length + " stories";
+
+  document.getElementById("news-global").innerHTML = globalItems.length
+    ? globalItems.map(newsCard).join("")
+    : '<div style="padding:32px;text-align:center;color:var(--muted)">No global-press stories for today yet.</div>';
+  document.getElementById("news-local").innerHTML = localItems.length
+    ? localItems.map(newsCard).join("")
+    : '<div style="padding:32px;text-align:center;color:var(--muted)">No local-press stories for today yet.</div>';
+
+  applyNewsScope();
 }
 
 function renderTiktokPanel() {
   var tiktok = TODAY_TIKTOK;
   var grid = document.getElementById("tiktok-grid");
   var dateEl = document.getElementById("tiktok-date");
-  if (!tiktok || !tiktok.items || tiktok.items.length === 0) {
-    if (dateEl) dateEl.textContent = "";
-    grid.innerHTML = '<div class="tiktok-empty">TikTok data will appear after the next scheduled update.<br>Check back in a few hours.</div>';
+
+  // Filter out pure X-trend fallback items (source "x" with no engagement numbers) —
+  // those are Twitter/X trends, not TikTok data, and must not show in this tab.
+  var items = (tiktok.items || []).filter(function(item) {
+    return item.source !== "x" || (item.count && item.count > 0) || (item.posts && item.posts !== "0");
+  });
+
+  if (!tiktok || items.length === 0) {
+    if (dateEl) dateEl.textContent = "no data";
+    grid.innerHTML = '<div class="tiktok-empty">'
+      + '<strong style="color:#f5a623">No real TikTok data available right now.</strong><br>'
+      + 'TikTok blocks automated scraping from GitHub’s servers, so this tab is fed by '
+      + '<strong>tiktok_cc.json</strong> in the repo.<br>'
+      + 'To refresh: open TikTok Creative Center → Trending → Hashtags → Saudi Arabia, '
+      + 'paste the results into <strong>tiktok_cc.json</strong>, set the date to today, and commit.'
+      + '</div>';
     return;
   }
-  if (dateEl) dateEl.textContent = tiktok.date;
+
+  var staleDays = tiktok.stale_days || 0;
+  if (dateEl) {
+    dateEl.innerHTML = tiktok.date + (staleDays > 0
+      ? ' <span class="stale-warn">⚠ ' + staleDays + ' days old — refresh tiktok_cc.json</span>'
+      : '');
+  }
+
   var TREND_ICON = {rising:"↑", peaked:"▲", stable:"→", declining:"↓"};
-  grid.innerHTML = tiktok.items.map(function(item, i) {
+  grid.innerHTML = items.map(function(item, i) {
     var rank = i + 1;
     var rc = rank===1?"r1":rank===2?"r2":rank===3?"r3":"";
     var srcLabel = item.source==="cc" ? "Creative Center" : item.source==="google" ? "Google Trends" : "X Trends";
@@ -444,8 +739,13 @@ function renderGooglePanel() {
   var grid = document.getElementById("google-grid");
   var dateEl = document.getElementById("google-date");
   if (!google || !google.items || google.items.length === 0) {
-    if (dateEl) dateEl.textContent = "";
-    grid.innerHTML = '<div class="google-empty">Google Trends data will appear after the next scheduled update.<br>Check back in a few hours.</div>';
+    if (dateEl) dateEl.textContent = "no data";
+    grid.innerHTML = '<div class="google-empty">'
+      + '<strong style="color:#f5a623">Google Trends is not returning data.</strong><br>'
+      + 'Google blocks trend requests coming from GitHub’s servers, so this tab can go empty.<br>'
+      + 'The updater now tries three different Google sources in turn — if all three are blocked, '
+      + 'this message stays until the next successful run.'
+      + '</div>';
     return;
   }
   if (dateEl) dateEl.textContent = google.date;
@@ -461,17 +761,22 @@ function renderGooglePanel() {
         : item.count+" searches";
     }
     var cat = (item.cat || "general").toLowerCase().replace(/ \/ /g,"-").replace(/ /g,"-");
+    var srcLbl = item.source === "gnews" ? "Google News SA" : "Google Trends";
     return '<div class="google-card">' +
       '<div class="google-rank '+rc+'">'+rank+'</div>' +
       '<div class="google-body">' +
         '<div class="google-term">'+item.text+'</div>' +
         (vol ? '<div class="google-volume">'+vol+'</div>' : '') +
-        '<span class="news-tag '+cat+'">'+item.cat+'</span>' +
+        '<div class="tiktok-meta">' +
+          '<span class="news-tag '+cat+'">'+item.cat+'</span>' +
+          '<span class="tiktok-source">'+srcLbl+'</span>' +
+        '</div>' +
       '</div>' +
     '</div>';
   }).join("");
 }
 
+// ── Log filter — scoped to the active month ─────────────────────────────────
 function renderLogFilter() {
   var wrap = document.getElementById("log-filters");
   wrap.innerHTML = '<span class="log-filter-label">FILTER BY DAY:</span>';
@@ -479,16 +784,25 @@ function renderLogFilter() {
     var btn = document.createElement("div");
     btn.className = "filter-btn" + (activeFilter===key?" on":"");
     btn.textContent = label;
-    btn.addEventListener("click", function() { activeFilter=key; renderLogFilter(); filterTable(); });
+    btn.addEventListener("click", function() {
+      activeFilter = key; renderLogFilter(); filterTable(); applyScoringVisibility();
+    });
     wrap.appendChild(btn);
   };
-  makeBtn("All days","all");
-  dayKeys.forEach(function(key){ makeBtn(DAYS[key].label, key); });
+  makeBtn("All days", "all");
+  makeBtn(monthLabel(activeMonth) + " only", "__M:" + activeMonth);
+  daysInMonth(activeMonth).forEach(function(key){ makeBtn(DAYS[key].label, key); });
 }
 
 function filterTable() {
+  var monthMode = activeFilter.indexOf("__M:") === 0;
+  var mKey = monthMode ? activeFilter.slice(4) : null;
   document.querySelectorAll("#log-body tr").forEach(function(row) {
-    row.className = (activeFilter!=="all" && row.dataset.day!==activeFilter) ? "hidden" : "";
+    var show;
+    if (activeFilter === "all")      show = true;
+    else if (monthMode)              show = row.dataset.day.slice(0, 7) === mKey;
+    else                             show = row.dataset.day === activeFilter;
+    row.className = show ? "" : "hidden";
   });
 }
 
@@ -500,7 +814,12 @@ function buildLogTable() {
       var rl = t.rank<=3 ? '<span class="tag-rank">#'+t.rank+'</span>' : '#'+t.rank;
       var row = document.createElement("tr");
       row.dataset.day = key;
-      row.innerHTML = '<td>'+DAYS[key].label+'</td><td>'+rl+'</td><td style="direction:rtl;font-weight:600">'+t.text+'</td><td style="color:var(--muted)">'+t.cat+'</td><td class="score-cell">'+t.pts+'</td><td class="score-cell">'+(CUMUL[t.text]||t.pts)+'</td><td style="text-align:center">—</td>';
+      row.innerHTML = '<td>'+DAYS[key].label+'</td><td>'+rl+'</td>'
+        + '<td style="direction:rtl;font-weight:600">'+t.text+'</td>'
+        + '<td style="color:var(--muted)">'+t.cat+'</td>'
+        + '<td class="col-score score-cell">'+t.pts+'</td>'
+        + '<td class="col-score score-cell">'+(CUMUL[t.text]||t.pts)+'</td>'
+        + '<td class="col-score" style="text-align:center">—</td>';
       tbody.appendChild(row);
     });
   });
