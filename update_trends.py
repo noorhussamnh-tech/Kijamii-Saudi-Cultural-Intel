@@ -343,10 +343,16 @@ APIFY_API   = "https://api.apify.com/v2"
 APIFY_TOKEN = os.environ.get("APIFY_TOKEN", "").strip()
 # `or` (not a get() default) — GitHub Actions passes "" for an unset repo var,
 # which would otherwise blank the actor id out.
+# TikTok: clockworks is the established TikTok scraper on Apify, 4.8★, and reads
+# Creative Center hashtag trends directly.
 APIFY_TIKTOK_ACTOR = (os.environ.get("APIFY_TIKTOK_ACTOR") or "").strip() \
-                     or "khadinakbar~tiktok-trending-hashtags-scraper"
+                     or "clockworks~tiktok-trends-scraper"
+# Google: every "trending now by country" actor on Apify is new and unrated —
+# Apify's own 3.7★ actor only does keyword comparison, not trending-by-country.
+# This one has clear input/output and costs ~$0.025 a run. Swap it with the
+# APIFY_GOOGLE_ACTOR repo variable if a better one appears.
 APIFY_GOOGLE_ACTOR = (os.environ.get("APIFY_GOOGLE_ACTOR") or "").strip() \
-                     or "scrapesage~google-trends-scraper"
+                     or "automation-lab~google-trends-scraper"
 # Reuse a successful Apify run younger than this instead of paying for a new one.
 APIFY_MAX_AGE_H = int(os.environ.get("APIFY_MAX_AGE_HOURS", "20"))
 
@@ -363,45 +369,47 @@ def _json_req(url, payload=None, timeout=90):
 
 def apify_items(actor, run_input, label):
     """
-    Fetch dataset items from `actor` using the account's APIFY_TOKEN.
-    Reuses the last successful run while it is younger than APIFY_MAX_AGE_H, so
-    three GitHub runs a day cost one Apify run. Falls back to starting a fresh
-    synchronous run. Returns raw dataset items, or [].
+    Run `actor` with OUR input and return its dataset items.
+
+    Deliberately does NOT reuse the account's last successful run: that run may
+    have been a demo or a manual test with completely different settings, and
+    reading it silently returns the wrong country's data. Throttling is handled
+    by apify_due() against a timestamp we record in data.json instead.
     """
     if not APIFY_TOKEN:
         print(f"  Apify {label}: APIFY_TOKEN not set — skipping")
         return []
-    base = f"{APIFY_API}/acts/{actor}"
-
-    # 1. Is there a recent successful run we can just read for free?
+    url = f"{APIFY_API}/acts/{actor}/run-sync-get-dataset-items?token={APIFY_TOKEN}"
     try:
-        last = _json_req(f"{base}/runs/last?status=SUCCEEDED&token={APIFY_TOKEN}", timeout=40)
-        fin = ((last or {}).get("data") or {}).get("finishedAt")
-        if fin:
-            ts = datetime.strptime(fin[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc)
-            age_h = (datetime.now(timezone.utc) - ts).total_seconds() / 3600.0
-            if age_h <= APIFY_MAX_AGE_H:
-                items = _json_req(
-                    f"{base}/runs/last/dataset/items?status=SUCCEEDED&token={APIFY_TOKEN}",
-                    timeout=60)
-                if items:
-                    print(f"  Apify {label}: {len(items)} items from last run "
-                          f"({age_h:.1f}h old) — no new run charged")
-                    return items
-            else:
-                print(f"  Apify {label}: last run {age_h:.1f}h old — starting a fresh run")
-    except Exception as e:
-        print(f"  Apify {label} last-run check: {type(e).__name__}: {str(e)[:70]}", file=sys.stderr)
-
-    # 2. Otherwise run it now and wait (Apify caps run-sync at 300s).
-    try:
-        items = _json_req(f"{base}/run-sync-get-dataset-items?token={APIFY_TOKEN}",
-                          payload=run_input, timeout=300) or []
-        print(f"  Apify {label}: {len(items)} items from a fresh run")
+        items = _json_req(url, payload=run_input, timeout=300) or []
+        print(f"  Apify {label} ({actor}): {len(items)} items returned")
+        if not items:
+            print(f"  Apify {label}: empty result — check the actor's input schema "
+                  f"and that the account has credit", file=sys.stderr)
         return items
     except Exception as e:
-        print(f"  Apify {label} run failed: {type(e).__name__}: {str(e)[:90]}", file=sys.stderr)
+        print(f"  Apify {label} run failed: {type(e).__name__}: {str(e)[:120]}", file=sys.stderr)
         return []
+
+
+def apify_due(data, key):
+    """True when the last successful Apify pull for `key` is older than the window."""
+    ts = (data.get("_apify") or {}).get(key)
+    if not ts:
+        return True
+    try:
+        t = datetime.fromisoformat(ts)
+    except Exception:
+        return True
+    hours = (NOW - t).total_seconds() / 3600.0
+    if hours < APIFY_MAX_AGE_H:
+        print(f"  Apify {key}: last pull {hours:.1f}h ago — reusing stored data (no charge)")
+        return False
+    return True
+
+
+def apify_mark(data, key):
+    data.setdefault("_apify", {})[key] = NOW.isoformat()
 
 
 def _pick(item, names, default=""):
@@ -456,9 +464,18 @@ def _to_int(v):
 
 def fetch_apify_tiktok():
     """Saudi TikTok trending hashtags via Apify (real Creative Center data)."""
+    # Input schema for clockworks~tiktok-trends-scraper. resultsPerPage defaults
+    # to 1 on that actor, which is why an unset value returns almost nothing.
     raw = apify_items(APIFY_TIKTOK_ACTOR,
-                      {"country": "SA", "timePeriod": "7",
-                       "industry": "All Industries", "maxResults": 20},
+                      {"adsScrapeHashtags": True,
+                       "adsScrapeSounds":   False,
+                       "adsScrapeCreators": False,
+                       "adsScrapeVideos":   False,
+                       "adsCountryCode":    "SA",
+                       "adsTimeRange":      "7",
+                       "resultsPerPage":    30,
+                       # tolerated by the older khadinakbar actor as well
+                       "country": "SA", "timePeriod": "7", "maxResults": 30},
                       "TikTok")
     items = []
     for it in raw:
@@ -492,22 +509,29 @@ def fetch_apify_tiktok():
 
 def fetch_apify_google():
     """Saudi Google trending searches via Apify."""
+    # mode/geo is the input both automation-lab and scrapesage document.
+    # what_to_scrape/location is the older spelling — sending both is harmless
+    # and means a swapped-in actor still gets Saudi Arabia rather than the
+    # default US, which is what produced "bitcoin / ethereum" before.
     raw = apify_items(APIFY_GOOGLE_ACTOR,
-                      {"what_to_scrape": "trending", "location": "SA"},
+                      {"mode": "trending", "geo": "SA",
+                       "what_to_scrape": "trending", "location": "SA",
+                       "language": "ar", "maxItems": 25},
                       "Google")
     items = []
     for it in raw:
         if not isinstance(it, dict):
             continue
-        term = str(_pick(it, ["Trending search", "trendingSearch", "title",
-                              "query", "term", "keyword"])).strip()
+        term = str(_pick(it, ["keyword", "Trending search", "trendingSearch",
+                              "title", "query", "term"])).strip()
         if not term or is_spam(term):
             continue
         if term.lstrip("#").lower() in TIKTOK_GENERIC:
             continue
         if any(x["text"] == term for x in items):
             continue
-        traffic = _pick(it, ["Traffic #", "trafficNumber", "Traffic", "traffic",
+        traffic = _pick(it, ["approxTrafficNumber", "trafficNumber", "Traffic #",
+                             "approxTraffic", "traffic", "Traffic",
                              "formattedTraffic", "searchVolume"], 0)
         cnt = _to_int(traffic)
         items.append({"text": term, "count": cnt,
@@ -783,35 +807,41 @@ def main():
     #   1. Apify (runs on Apify's infrastructure — TikTok doesn't block it)
     #   2. tiktok_cc.json, hand-pasted from Creative Center
     #   3. the direct scraper (usually blocked from GitHub Actions)
-    tiktok_items = fetch_apify_tiktok()
-    if tiktok_items:
-        data["tiktok"] = {"date": NEWS_DATE, "items": tiktok_items}
-    else:
-        cc_data = read_tiktok_cc_json()
-        if cc_data:
-            data["tiktok"] = cc_data
+    have_tiktok = len((data.get("tiktok") or {}).get("items") or []) >= 5
+    if apify_due(data, "tiktok") or not have_tiktok:
+        tiktok_items = fetch_apify_tiktok()
+        if tiktok_items:
+            data["tiktok"] = {"date": NEWS_DATE, "items": tiktok_items}
+            apify_mark(data, "tiktok")
         else:
-            raw_x = [t["text"] for t in scored]
-            scraped = scrape_tiktok_sa(raw_x)
-            if scraped:
-                data["tiktok"] = {"date": NEWS_DATE, "items": scraped}
-            elif "tiktok" not in data:
-                data["tiktok"] = {"date": NEWS_DATE, "items": []}
+            cc_data = read_tiktok_cc_json()
+            if cc_data:
+                data["tiktok"] = cc_data
+            else:
+                raw_x = [t["text"] for t in scored]
+                scraped = scrape_tiktok_sa(raw_x)
+                if scraped:
+                    data["tiktok"] = {"date": NEWS_DATE, "items": scraped}
+                elif "tiktok" not in data:
+                    data["tiktok"] = {"date": NEWS_DATE, "items": []}
 
     # Google source order: Apify → hand-pasted google_manual.json → direct scrape
-    google_items = fetch_apify_google()
-    if google_items:
-        data["google"] = {"date": NEWS_DATE, "items": google_items}
-    else:
-        gm_data = read_manual_json("google_manual.json", "google")
-        if gm_data:
-            data["google"] = gm_data
+    have_google = len((data.get("google") or {}).get("items") or []) >= 5
+    if apify_due(data, "google") or not have_google:
+        google_items = fetch_apify_google()
+        if google_items:
+            data["google"] = {"date": NEWS_DATE, "items": google_items}
+            apify_mark(data, "google")
         else:
-            scraped = fetch_google_trends_tab()
-            if scraped:
-                data["google"] = {"date": NEWS_DATE, "items": scraped}
-            elif "google" not in data:
-                data["google"] = {"date": NEWS_DATE, "items": []}
+            gm_data = read_manual_json("google_manual.json", "google")
+            if gm_data:
+                data["google"] = gm_data
+            else:
+                scraped = fetch_google_trends_tab()
+                if scraped:
+                    data["google"] = {"date": NEWS_DATE, "items": scraped}
+                elif "google" not in data:
+                    data["google"] = {"date": NEWS_DATE, "items": []}
 
     dom = fetch_news_bilingual(DOMESTIC_EN, DOMESTIC_AR, EN_QUOTA, AR_QUOTA, "domestic")
     reg = fetch_news_bilingual(REGIONAL_EN, REGIONAL_AR, EN_QUOTA, AR_QUOTA, "regional")
