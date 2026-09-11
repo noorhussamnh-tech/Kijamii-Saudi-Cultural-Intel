@@ -32,7 +32,7 @@ body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,san
 /* NAV TABS — inline-block, hardcoded everything */
 .nav{width:100%;margin-bottom:20px;background:#0f0f13;padding:4px 0}
 .nav-inner{display:table;width:100%;border-spacing:8px 0}
-.nav-tab{display:table-cell;width:33.333%;padding:14px 8px;text-align:center;font-size:1rem;font-weight:800;border-radius:10px;cursor:pointer;border:2px solid #333;background:#1e1e28;color:#999;font-family:inherit}
+.nav-tab{display:table-cell;width:25%;padding:14px 8px;text-align:center;font-size:1rem;font-weight:800;border-radius:10px;cursor:pointer;border:2px solid #333;background:#1e1e28;color:#999;font-family:inherit}
 .nav-tab.on{background:#e8333a;border-color:#e8333a;color:#fff}
 
 /* PANELS */
@@ -154,6 +154,15 @@ tr.hidden{display:none}
 .tiktok-trend.stable{color:#888899}.tiktok-trend.declining{color:#e8333a}
 .tiktok-views{font-size:0.72rem;color:var(--muted);font-weight:600;margin-bottom:4px;text-align:right}
 
+/* GOOGLE TRENDS PANEL */
+.google-grid{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.google-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;display:flex;gap:14px;align-items:center}
+.google-rank{width:32px;height:32px;border-radius:50%;background:var(--surface2);display:flex;align-items:center;justify-content:center;font-size:0.8rem;font-weight:800;color:var(--muted);flex-shrink:0}
+.google-rank.r1{background:#ffd700;color:#000}.google-rank.r2{background:#c0c0c0;color:#000}.google-rank.r3{background:#cd7f32;color:#fff}
+.google-body{flex:1}
+.google-term{font-size:0.95rem;font-weight:800;direction:rtl;text-align:right;margin-bottom:4px;color:var(--text)}
+.google-volume{font-size:0.75rem;color:var(--accent2);font-weight:700;text-align:right;margin-bottom:4px}
+.google-empty{color:var(--muted);font-size:0.85rem;padding:36px 20px;text-align:center;line-height:1.9}
 </style>
 
 <!-- PASSWORD GATE -->
@@ -189,6 +198,7 @@ tr.hidden{display:none}
     <div class="nav-tab on" id="tab-trends">📊 Trends</div>
     <div class="nav-tab" id="tab-news">📰 News</div>
     <div class="nav-tab" id="tab-tiktok">🎵 TikTok</div>
+    <div class="nav-tab" id="tab-google">📈 Google</div>
   </div>
 </div>
 
@@ -279,6 +289,13 @@ tr.hidden{display:none}
   <div class="tiktok-grid" id="tiktok-grid"></div>
 </div><!-- /panel-tiktok -->
 
+<!-- GOOGLE TRENDS PANEL -->
+<div class="panel" id="panel-google">
+  <div class="date-banner" style="margin-bottom:16px">Saudi Google searches · <strong id="google-date"></strong> · Top trending topics · Updated daily</div>
+  <div class="sec-label">📈 Trending on Saudi Google</div>
+  <div class="google-grid" id="google-grid"></div>
+</div><!-- /panel-google -->
+
 <div class="footer">🇸🇦 Saudi Arabia X Trends · Daily automated tracker · Kijamii × Netflix MENA</div>
 </div><!-- /main -->
 
@@ -286,7 +303,7 @@ tr.hidden{display:none}
 // ── DATA ──────────────────────────────────────────────────────────────────────
 var PASSWORD = "Kculturalintelligence268%";
 
-var DAYS = {}, CUMUL = {}, TODAY_NEWS = {}, TODAY_TIKTOK = {};
+var DAYS = {}, CUMUL = {}, TODAY_NEWS = {}, TODAY_TIKTOK = {}, TODAY_GOOGLE = {};
 
 // ── STATE ────────────────────────────────────────────────────────────────────
 var activeMode   = "trends";
@@ -349,7 +366,7 @@ document.getElementById("gpw").addEventListener("keydown", function(e) {
 // ── TABS ─────────────────────────────────────────────────────────────────────
 function switchTab(mode) {
   activeMode = mode;
-  ["trends","news","tiktok"].forEach(function(m) {
+  ["trends","news","tiktok","google"].forEach(function(m) {
     document.getElementById("tab-"+m).className = "nav-tab" + (m===mode?" on":"");
     document.getElementById("panel-"+m).className = "panel" + (m===mode?" on":"");
   });
@@ -357,6 +374,7 @@ function switchTab(mode) {
 document.getElementById("tab-trends").addEventListener("click", function(){ switchTab("trends"); });
 document.getElementById("tab-news").addEventListener("click", function(){ switchTab("news"); });
 document.getElementById("tab-tiktok").addEventListener("click", function(){ switchTab("tiktok"); });
+document.getElementById("tab-google").addEventListener("click", function(){ switchTab("google"); });
 
 // ── SCORING SHOW / HIDE ──────────────────────────────────────────────────────
 document.getElementById("scoring-toggle").addEventListener("click", function() {
@@ -385,7 +403,7 @@ function loadData() {
     })
     .then(function(d) {
       DAYS = d.days; CUMUL = d.cumul; TODAY_NEWS = d.news;
-      TODAY_TIKTOK = d.tiktok || {};
+      TODAY_TIKTOK = d.tiktok || {}; TODAY_GOOGLE = d.google || {};
       dayKeys = Object.keys(DAYS).sort();
 
       // Build the month list from the day keys ("2026-09-11" -> "2026-09")
@@ -418,6 +436,7 @@ function renderAll() {
   renderTrendsPanel();
   renderNewsPanel();
   renderTiktokPanel();
+  renderGooglePanel();
   renderLogFilter();
   buildLogTable();
   filterTable();
@@ -712,6 +731,48 @@ function renderTiktokPanel() {
         '<div class="tiktok-meta">' +
           '<span class="news-tag '+cat+'">'+item.cat+'</span>' +
           '<span class="tiktok-source">'+srcLabel+'</span>' +
+        '</div>' +
+      '</div>' +
+    '</div>';
+  }).join("");
+}
+
+function renderGooglePanel() {
+  var google = TODAY_GOOGLE;
+  var grid = document.getElementById("google-grid");
+  var dateEl = document.getElementById("google-date");
+  if (!google || !google.items || google.items.length === 0) {
+    if (dateEl) dateEl.textContent = "no data";
+    grid.innerHTML = '<div class="google-empty">'
+      + '<strong style="color:#f5a623">Google Trends is not returning data.</strong><br>'
+      + 'Google blocks trend requests coming from GitHub’s servers, so this tab can go empty.<br>'
+      + 'The updater now tries three different Google sources in turn — if all three are blocked, '
+      + 'this message stays until the next successful run.'
+      + '</div>';
+    return;
+  }
+  if (dateEl) dateEl.textContent = google.date;
+  grid.innerHTML = google.items.map(function(item, i) {
+    var rank = i + 1;
+    var rc = rank===1?"r1":rank===2?"r2":rank===3?"r3":"";
+    var vol = "";
+    if (item.count > 0) {
+      vol = item.count >= 1000000
+        ? (item.count/1000000).toFixed(1)+"M searches"
+        : item.count >= 1000
+        ? Math.round(item.count/1000)+"K searches"
+        : item.count+" searches";
+    }
+    var cat = (item.cat || "general").toLowerCase().replace(/ \/ /g,"-").replace(/ /g,"-");
+    var srcLbl = item.source === "gnews" ? "Google News SA" : "Google Trends";
+    return '<div class="google-card">' +
+      '<div class="google-rank '+rc+'">'+rank+'</div>' +
+      '<div class="google-body">' +
+        '<div class="google-term">'+item.text+'</div>' +
+        (vol ? '<div class="google-volume">'+vol+'</div>' : '') +
+        '<div class="tiktok-meta">' +
+          '<span class="news-tag '+cat+'">'+item.cat+'</span>' +
+          '<span class="tiktok-source">'+srcLbl+'</span>' +
         '</div>' +
       '</div>' +
     '</div>';
