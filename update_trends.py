@@ -351,7 +351,7 @@ def read_tiktok_cc_json():
             return None
         cc_date = datetime.strptime(date_str, "%d %b %Y").replace(tzinfo=RIYADH)
         age_days = (NOW - cc_date).days
-        if age_days > 7:
+        if age_days > 30:
             print(f"  tiktok_cc.json is {age_days}d old — stale, using auto-fallback")
             return None
         items = cc.get("items") or []
