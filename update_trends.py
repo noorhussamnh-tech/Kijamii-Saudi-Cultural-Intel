@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Daily updater for the Kijamii Saudi Radar. Runs inside GitHub Actions."""
-import json, os, re, sys, urllib.request, urllib.parse, xml.etree.ElementTree as ET
+import json, os, re, sys, time, urllib.request, urllib.error, urllib.parse, xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from html import unescape
 
@@ -347,24 +347,31 @@ APIFY_TOKEN = os.environ.get("APIFY_TOKEN", "").strip()
 # Creative Center hashtag trends directly.
 APIFY_TIKTOK_ACTOR = (os.environ.get("APIFY_TIKTOK_ACTOR") or "").strip() \
                      or "clockworks~tiktok-trends-scraper"
-# Google: every "trending now by country" actor on Apify is new and unrated —
-# Apify's own 3.7★ actor only does keyword comparison, not trending-by-country.
-# This one has clear input/output and costs ~$0.025 a run. Swap it with the
-# APIFY_GOOGLE_ACTOR repo variable if a better one appears.
-APIFY_GOOGLE_ACTOR = (os.environ.get("APIFY_GOOGLE_ACTOR") or "").strip() \
-                     or "automation-lab~google-trends-scraper"
 # Reuse a successful Apify run younger than this instead of paying for a new one.
 APIFY_MAX_AGE_H = int(os.environ.get("APIFY_MAX_AGE_HOURS", "20"))
+# How long to wait for an Apify run before giving up. GitHub jobs allow far more
+# than the 300s cap that run-sync imposes, and a TikTok scrape can exceed it.
+APIFY_RUN_BUDGET_S = int(os.environ.get("APIFY_RUN_BUDGET_SECONDS", "420"))
 
 
-def _json_req(url, payload=None, timeout=90):
+def _json_req(url, payload=None, timeout=90, method=None):
     body = json.dumps(payload).encode() if payload is not None else None
     hdrs = dict(UA)
     hdrs["Content-Type"] = "application/json"
     req = urllib.request.Request(url, data=body, headers=hdrs,
-                                 method="POST" if body is not None else "GET")
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return json.loads(r.read().decode("utf-8", "ignore") or "null")
+                                 method=method or ("POST" if body is not None else "GET"))
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return json.loads(r.read().decode("utf-8", "ignore") or "null")
+    except urllib.error.HTTPError as e:
+        # Apify puts the real reason in the body — "insufficient credit",
+        # "actor requires rental", "invalid input". Without this it surfaces as
+        # a bare "HTTP Error 402" and tells us nothing.
+        try:
+            detail = e.read().decode("utf-8", "ignore")[:400]
+        except Exception:
+            detail = ""
+        raise RuntimeError(f"HTTP {e.code} — {detail or e.reason}") from None
 
 
 def apify_items(actor, run_input, label):
@@ -379,17 +386,57 @@ def apify_items(actor, run_input, label):
     if not APIFY_TOKEN:
         print(f"  Apify {label}: APIFY_TOKEN not set — skipping")
         return []
-    url = f"{APIFY_API}/acts/{actor}/run-sync-get-dataset-items?token={APIFY_TOKEN}"
+
+    # Start the run asynchronously and poll. run-sync-get-dataset-items is capped
+    # at 300s by Apify and a TikTok scrape can exceed that — a timeout there looks
+    # identical to "no data", which is how a silent TikTok failure went unnoticed.
     try:
-        items = _json_req(url, payload=run_input, timeout=300) or []
-        print(f"  Apify {label} ({actor}): {len(items)} items returned")
-        if not items:
-            print(f"  Apify {label}: empty result — check the actor's input schema "
-                  f"and that the account has credit", file=sys.stderr)
-        return items
+        started = _json_req(f"{APIFY_API}/acts/{actor}/runs?token={APIFY_TOKEN}",
+                            payload=run_input, timeout=60)
+        run = (started or {}).get("data") or {}
+        run_id = run.get("id")
+        if not run_id:
+            print(f"  Apify {label}: no run id returned — {str(started)[:200]}", file=sys.stderr)
+            return []
+        print(f"  Apify {label} ({actor}): run {run_id} started")
     except Exception as e:
-        print(f"  Apify {label} run failed: {type(e).__name__}: {str(e)[:120]}", file=sys.stderr)
+        print(f"  Apify {label} could not start: {e}", file=sys.stderr)
         return []
+
+    deadline = time.time() + APIFY_RUN_BUDGET_S
+    status = "READY"
+    while time.time() < deadline:
+        time.sleep(6)
+        try:
+            info = _json_req(f"{APIFY_API}/actor-runs/{run_id}?token={APIFY_TOKEN}", timeout=40)
+            status = ((info or {}).get("data") or {}).get("status", "")
+        except Exception as e:
+            print(f"  Apify {label} poll error: {e}", file=sys.stderr)
+            continue
+        if status in ("SUCCEEDED", "FAILED", "ABORTED", "TIMED-OUT"):
+            break
+
+    if status != "SUCCEEDED":
+        print(f"  Apify {label}: run ended as {status or 'UNKNOWN'} "
+              f"(budget {APIFY_RUN_BUDGET_S}s). Open the run in the Apify console "
+              f"for the reason: https://console.apify.com/actors/runs/{run_id}",
+              file=sys.stderr)
+        return []
+
+    try:
+        items = _json_req(
+            f"{APIFY_API}/actor-runs/{run_id}/dataset/items?token={APIFY_TOKEN}",
+            timeout=90) or []
+    except Exception as e:
+        print(f"  Apify {label} could not read dataset: {e}", file=sys.stderr)
+        return []
+
+    print(f"  Apify {label}: {len(items)} items returned")
+    if not items:
+        print(f"  Apify {label}: run SUCCEEDED but the dataset is empty — the input "
+              f"is probably wrong for this actor. Run: "
+              f"https://console.apify.com/actors/runs/{run_id}", file=sys.stderr)
+    return items
 
 
 def apify_due(data, key):
@@ -507,72 +554,6 @@ def fetch_apify_tiktok():
     return items
 
 
-def fetch_apify_google():
-    """Saudi Google trending searches via Apify."""
-    # mode/geo is the input both automation-lab and scrapesage document.
-    # what_to_scrape/location is the older spelling — sending both is harmless
-    # and means a swapped-in actor still gets Saudi Arabia rather than the
-    # default US, which is what produced "bitcoin / ethereum" before.
-    raw = apify_items(APIFY_GOOGLE_ACTOR,
-                      {"mode": "trending", "geo": "SA",
-                       "what_to_scrape": "trending", "location": "SA",
-                       "language": "ar", "maxItems": 25},
-                      "Google")
-    items = []
-    for it in raw:
-        if not isinstance(it, dict):
-            continue
-        term = str(_pick(it, ["keyword", "Trending search", "trendingSearch",
-                              "title", "query", "term"])).strip()
-        if not term or is_spam(term):
-            continue
-        if term.lstrip("#").lower() in TIKTOK_GENERIC:
-            continue
-        if any(x["text"] == term for x in items):
-            continue
-        traffic = _pick(it, ["approxTrafficNumber", "trafficNumber", "Traffic #",
-                             "approxTraffic", "traffic", "Traffic",
-                             "formattedTraffic", "searchVolume"], 0)
-        cnt = _to_int(traffic)
-        items.append({"text": term, "count": cnt,
-                      "cat": categorize(term), "source": "google"})
-        if len(items) >= 20:
-            break
-    return items
-
-
-def read_manual_json(path, label, max_age_days=30):
-    """
-    Generic reader for a hand-pasted data file: {"date": "11 Sep 2026", "items": [...]}.
-    Returns the dict (with stale_days attached) or None if missing / empty / too old.
-    Used for google_manual.json — and the same shape tiktok_cc.json uses.
-    """
-    if not os.path.exists(path):
-        print(f"  {path} not found — using auto-fallback")
-        return None
-    try:
-        with open(path, encoding="utf-8") as f:
-            obj = json.load(f)
-        date_str = obj.get("date", "")
-        if not date_str:
-            return None
-        d = datetime.strptime(date_str, "%d %b %Y").replace(tzinfo=RIYADH)
-        age_days = (NOW - d).days
-        if age_days > max_age_days:
-            print(f"  {path} is {age_days}d old — too stale (>{max_age_days}d), using auto-fallback")
-            return None
-        items = obj.get("items") or []
-        if not items:
-            return None
-        note = f" ⚠ {age_days}d old — refresh {path}" if age_days > 7 else ""
-        print(f"  {path}: {len(items)} items (age {age_days}d) — manual {label} data live{note}")
-        obj["stale_days"] = age_days if age_days > 7 else 0
-        return obj
-    except Exception as e:
-        print(f"  {path} error: {type(e).__name__}: {str(e)[:70]}", file=sys.stderr)
-        return None
-
-
 def read_tiktok_cc_json():
     """
     Read tiktok_cc.json if it exists and is ≤30 days old.
@@ -606,121 +587,6 @@ def read_tiktok_cc_json():
     except Exception as e:
         print(f"  tiktok_cc.json error: {type(e).__name__}: {str(e)[:70]}", file=sys.stderr)
         return None
-
-
-def fetch_google_trends_tab():
-    """
-    Fetch Saudi Google Trends for the standalone Google Trends tab.
-    Source 1: Google Trends daily JSON API (most reliable, no auth needed)
-    Source 2: pytrends (requires: pip install pytrends --break-system-packages in Actions)
-    Source 3: Google Trends daily RSS fallback
-    Returns list of {text, count, cat, source} — both Arabic and English topics.
-    """
-    results = []
-
-    # ── Source 1: Google Trends daily JSON API ────────────────────────────────
-    try:
-        import json as _json
-        url = "https://trends.google.com/trending/api/dailytrends?hl=en-US&geo=SA&ns=15"
-        raw = get(url, timeout=20)
-        # Response starts with ")]}'\n" — strip it
-        clean = raw.lstrip(")]}'\n").strip()
-        obj = _json.loads(clean)
-        topics = (obj.get("trendingSearchesDays") or [])
-        for day in topics[:2]:
-            for ts in (day.get("trendingSearches") or []):
-                title = (ts.get("title") or {}).get("query", "").strip()
-                traffic_raw = (ts.get("formattedTraffic") or "0").replace("+", "").replace("K", "000").replace("M", "000000").replace(",", "")
-                try:
-                    traffic = int(float(traffic_raw))
-                except (ValueError, TypeError):
-                    traffic = 0
-                if not title or is_spam(title):
-                    continue
-                if title.lstrip("#").lower() in TIKTOK_GENERIC:
-                    continue
-                if any(r["text"] == title for r in results):
-                    continue
-                results.append({"text": title, "count": traffic,
-                                "cat": categorize(title), "source": "google"})
-                if len(results) >= 25:
-                    break
-            if len(results) >= 25:
-                break
-        print(f"  Google Trends JSON API: {len(results)} topics")
-    except Exception as e:
-        print(f"  Google Trends JSON API miss: {type(e).__name__}: {str(e)[:70]}", file=sys.stderr)
-
-    # ── Source 2: pytrends ────────────────────────────────────────────────────
-    if HAS_PYTRENDS and len(results) < 5:
-        try:
-            pt = _TrendReq(hl="ar", tz=180, timeout=(10, 30), retries=2, backoff_factor=0.5)
-            df = pt.trending_searches(pn="saudi_arabia")
-            for term in df[0].tolist()[:25]:
-                term = str(term).strip()
-                if not term or is_spam(term):
-                    continue
-                results.append({"text": term, "count": 0,
-                                "cat": categorize(term), "source": "google"})
-            print(f"  Google Trends (pytrends): {len(results)} topics")
-        except Exception as e:
-            print(f"  pytrends miss: {type(e).__name__}: {str(e)[:70]}", file=sys.stderr)
-
-    # ── Source 3: Google Trends RSS ───────────────────────────────────────────
-    if len(results) < 5:
-        try:
-            root = ET.fromstring(get(GOOGLE_TRENDS_SA, timeout=20))
-            for it in root.iter("item"):
-                title = unescape((it.findtext("title") or "").strip())
-                traffic_raw = (
-                    it.findtext("{https://trends.google.com/trends/trendingsearches/daily}approx_traffic")
-                    or "0"
-                )
-                traffic = int(traffic_raw.replace(",", "").replace("+", "") or 0)
-                if not title or is_spam(title):
-                    continue
-                low = title.lstrip("#").lower()
-                if low in TIKTOK_GENERIC:
-                    continue
-                # avoid duplicates from pytrends
-                if any(r["text"] == title for r in results):
-                    continue
-                results.append({"text": title, "count": traffic,
-                                "cat": categorize(title), "source": "google"})
-                if len(results) >= 25:
-                    break
-            print(f"  Google Trends RSS: {len(results)} topics total")
-        except Exception as e:
-            print(f"  Google Trends RSS miss: {type(e).__name__}: {str(e)[:70]}", file=sys.stderr)
-
-    # ── Source 4: Google News "top stories in Saudi Arabia" ───────────────────
-    # trends.google.com blocks datacenter IPs (GitHub Actions), but news.google.com
-    # does NOT — the News tab proves it works. So when all three trend sources are
-    # blocked, fall back to what Saudi Google News is surfacing, rather than an
-    # empty tab. Marked source="gnews" so the UI can label it honestly.
-    if len(results) < 5:
-        try:
-            url = "https://news.google.com/rss/headlines/section/geo/Saudi%20Arabia?hl=ar&gl=SA&ceid=SA:ar"
-            root = ET.fromstring(get(url, timeout=25))
-            for it in root.iter("item"):
-                title = unescape((it.findtext("title") or "").strip())
-                # Google News titles end in " - Publisher"; keep only the topic
-                topic = title.rsplit(" - ", 1)[0].strip()
-                if not topic or is_spam(topic):
-                    continue
-                if topic.lstrip("#").lower() in TIKTOK_GENERIC:
-                    continue
-                if any(r["text"] == topic for r in results):
-                    continue
-                results.append({"text": topic, "count": 0,
-                                "cat": categorize(topic), "source": "gnews"})
-                if len(results) >= 20:
-                    break
-            print(f"  Google News SA fallback: {len(results)} topics total")
-        except Exception as e:
-            print(f"  Google News SA miss: {type(e).__name__}: {str(e)[:70]}", file=sys.stderr)
-
-    return results[:20]
 
 
 def scrape_tiktok_sa(x_trends):
@@ -825,23 +691,11 @@ def main():
                 elif "tiktok" not in data:
                     data["tiktok"] = {"date": NEWS_DATE, "items": []}
 
-    # Google source order: Apify → hand-pasted google_manual.json → direct scrape
-    have_google = len((data.get("google") or {}).get("items") or []) >= 5
-    if apify_due(data, "google") or not have_google:
-        google_items = fetch_apify_google()
-        if google_items:
-            data["google"] = {"date": NEWS_DATE, "items": google_items}
-            apify_mark(data, "google")
-        else:
-            gm_data = read_manual_json("google_manual.json", "google")
-            if gm_data:
-                data["google"] = gm_data
-            else:
-                scraped = fetch_google_trends_tab()
-                if scraped:
-                    data["google"] = {"date": NEWS_DATE, "items": scraped}
-                elif "google" not in data:
-                    data["google"] = {"date": NEWS_DATE, "items": []}
+    # The Google tab was removed from the site: no reliable trending-by-country
+    # source exists that isn't blocked or unrated, so it was costing Apify credit
+    # for data that wasn't trustworthy. Drop any leftover key from data.json.
+    data.pop("google", None)
+    (data.get("_apify") or {}).pop("google", None)
 
     dom = fetch_news_bilingual(DOMESTIC_EN, DOMESTIC_AR, EN_QUOTA, AR_QUOTA, "domestic")
     reg = fetch_news_bilingual(REGIONAL_EN, REGIONAL_AR, EN_QUOTA, AR_QUOTA, "regional")
