@@ -33,6 +33,7 @@
   --accent-ink:#e8333a;--accent2-ink:#f5a623;--link:#f5a623;
   --nav-bg:#0f0f13;--nav-tab-bg:#1e1e28;--nav-tab-border:#333;--nav-tab-text:#999;
   --shadow:rgba(0,0,0,.35);
+  --logo-blend:screen;--logo-filter:none;
   /* politics and security were lifted from #e85858/#dc5050: against the tinted
      pill on a dark card they measured 4.44:1 and 3.88:1, both under AA. */
   --tag-politics:#f07272;--tag-sports:#3cb371;--tag-economy:#6495ed;
@@ -49,6 +50,7 @@
   --accent-ink:#bf1b24;--accent2-ink:#8a5504;--link:#8a5504;
   --nav-bg:#f4f6f9;--nav-tab-bg:#ffffff;--nav-tab-border:#d5dbe4;--nav-tab-text:#59616f;
   --shadow:rgba(20,30,60,.10);
+  --logo-blend:multiply;--logo-filter:invert(1);
   --tag-politics:#c22e2e;--tag-sports:#1d7a48;--tag-economy:#2f5fc0;
   --tag-security:#b52f2f;--tag-culture:#8a2fa5;--tag-education:#1c6fa0;
   --tag-housing:#9a6206;--tag-tourism:#0f7a74;--tag-general:#5c6472;
@@ -63,27 +65,20 @@ body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,san
 .gate-flag{font-size:2.5rem;margin-bottom:12px}
 .gate-title{font-size:1.1rem;font-weight:800;margin-bottom:4px}
 
-/* Kijamii wordmark — a purpose-made asset per theme rather than one image
-   filtered into shape, so the letterforms are exactly as drawn in both.
+/* Kijamii wordmark — one file, kijamii-logo.png, a white mark on solid black.
 
-   Both are still shipped with a solid backplate (black behind the white mark,
-   white behind the dark one), which would show as a faint rectangle against
-   the page, since neither backplate is exactly the page colour. Blending
-   removes it: `screen` drops black on the dark theme, `multiply` drops white
-   on the light one. That also means a transparent re-export would drop in
-   without any change here.
+   Dark theme: `screen` drops the black backplate, mark stays white.
+   Light theme: that would leave a white mark on a near-white page, so the
+   image is inverted first (black mark on white) and `multiply` drops the
+   white instead.
 
-   Both images stay in the DOM and CSS picks one. They are a couple of KB, so
-   the second request buys an instant, flicker-free switch with no JS involved
-   in the swap at all. The selectors are qualified with .brand-bar deliberately:
-   a bare .logo-on-light would tie on specificity with .brand-logo and lose or
-   win on source order, which is how the sun/moon icons ended up both visible. */
-.brand-logo{height:46px;width:auto}
+   A separately drawn light-mode asset would render the letterforms more
+   faithfully than an inversion does. Adding one means dropping the file in
+   and giving --logo-filter a value of `none` in the light block, pointed at
+   the new src. Until then this keeps the page to a single logo file. */
+.brand-logo{height:46px;width:auto;display:block;
+  mix-blend-mode:var(--logo-blend);filter:var(--logo-filter)}
 @media(max-width:640px){.brand-logo{height:32px}}
-.brand-bar .logo-on-dark{display:block;mix-blend-mode:screen}
-.brand-bar .logo-on-light{display:none;mix-blend-mode:multiply}
-:root[data-theme="light"] .brand-bar .logo-on-dark{display:none}
-:root[data-theme="light"] .brand-bar .logo-on-light{display:block}
 
 /* THEME TOGGLE — shows the theme it will switch TO, which is the convention
    people already expect from every other app with one of these. */
@@ -283,10 +278,7 @@ tr.hidden{display:none}
       <path d="M20.5 14.2A8.3 8.3 0 0 1 9.8 3.5a8.3 8.3 0 1 0 10.7 10.7z"/>
     </svg>
   </button>
-  <span class="brand-logo-wrap" role="img" aria-label="Kijamii">
-    <img src="kijamii-logo-on-dark.png" alt="" class="brand-logo logo-on-dark">
-    <img src="kijamii-logo-on-light.png" alt="" class="brand-logo logo-on-light">
-  </span>
+  <img src="kijamii-logo.png" alt="Kijamii" class="brand-logo">
 </div>
 <div class="header">
   <div class="flag">🇸🇦</div>
