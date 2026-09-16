@@ -1,16 +1,32 @@
 name: Saudi Trends Update
 
 on:
-  # Rebuild the site whenever a file is uploaded or edited.
-  # Without this, the Pages site only republished on the schedule below, so an
-  # uploaded index.html sat in the repo while the old build stayed live.
-  # The workflow's own data.json commit uses GITHUB_TOKEN, which by design does
-  # not re-trigger workflows, so this cannot loop.
+  # Hourly. Minute 21 rather than 0 on purpose: GitHub queues scheduled jobs on
+  # shared capacity and the top of the hour is the most congested slot, so an
+  # off-peak minute measurably reduces how long a run sits waiting.
+  #
+  # Note that GitHub does not guarantee punctuality for scheduled workflows and
+  # will drop a tick entirely under load. Treat this as "up to 24 refreshes a
+  # day", not "exactly on the hour" — the site's own timestamp is the source of
+  # truth for how fresh the data is.
+  schedule:
+    - cron: '21 * * * *'
+
+  # Rebuild the site whenever a file is uploaded or edited. Without this, the
+  # Pages site only republished on the schedule, so an uploaded index.html sat
+  # in the repo while the old build stayed live. The workflow's own data.json
+  # commit uses GITHUB_TOKEN, which by design does not re-trigger workflows,
+  # so this cannot loop.
   push:
     branches: [main]
-  schedule:
-    - cron: '0 5,11,18 * * *'
+
   workflow_dispatch:
+
+  # Lets an external scheduler (cron-job.org, Zapier, a monitoring tool) POST a
+  # 'refresh' event when a punctual, on-the-hour update matters more than the
+  # free-but-best-effort GitHub scheduler above.
+  repository_dispatch:
+    types: [refresh]
 
 permissions:
   contents: write
@@ -24,6 +40,9 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # A hung scrape must not hold the 'pages' concurrency group and block the
+    # next hour's run. The script's own Apify budget is 420s per source.
+    timeout-minutes: 25
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -45,16 +64,35 @@ jobs:
           # Without APIFY_TOKEN the script still runs — it falls back to
           # tiktok_cc.json and the direct scrapers.
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-          # Optional override — only set to swap in a different actor.
+          # Optional overrides — only set to swap in a different actor.
           APIFY_TIKTOK_ACTOR: ${{ vars.APIFY_TIKTOK_ACTOR }}
           APIFY_GOOGLE_ACTOR: ${{ vars.APIFY_GOOGLE_ACTOR }}
+          # Cost dials, both optional repo variables:
+          #   APIFY_MAX_AGE_HOURS — reuse a successful pull for this long
+          #                         (default 20, i.e. the TikTok and Google tabs
+          #                         refresh about once a day even though the rest
+          #                         of the site refreshes hourly). Lower it to
+          #                         6 for four paid pulls a day, and so on.
+          #   APIFY_RETRY_HOURS   — back-off after a FAILED pull (default 6), so
+          #                         a broken source cannot burn one actor run
+          #                         every hour.
+          APIFY_MAX_AGE_HOURS: ${{ vars.APIFY_MAX_AGE_HOURS }}
+          APIFY_RETRY_HOURS: ${{ vars.APIFY_RETRY_HOURS }}
 
+      # update_trends.py rewrites data.json only when something actually changed,
+      # so a quiet hour produces no commit at all and the history stays readable.
       - name: Commit data
         if: github.event_name != 'push'
         run: |
           git config user.name  "Kijamii Radar Bot"
           git config user.email "actions@github.com"
-          git diff --quiet data.json || (git add data.json && git commit -m "Trends update $(date -u +'%d %b %Y %H:%M')" && git push)
+          if git diff --quiet data.json; then
+            echo "No data change this run — nothing to commit."
+          else
+            git add data.json
+            git commit -m "Trends update $(date -u +'%d %b %Y %H:%M') UTC"
+            git push
+          fi
 
       - uses: actions/configure-pages@v5
 

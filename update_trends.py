@@ -15,8 +15,21 @@ RIYADH = timezone(timedelta(hours=3))
 NOW = datetime.now(RIYADH)
 DAY_KEY = NOW.strftime("%Y-%m-%d")
 DAY_LABEL = NOW.strftime("%a %d %b")
-BANNER = NOW.strftime("%A, %d %B %Y")
+# The site refreshes hourly, so the banner has to carry the hour — a date-only
+# stamp makes a 1-hour-old page and a 23-hour-old page look identical.
+BANNER = NOW.strftime("%A, %d %B %Y · %H:%M") + " KSA"
 NEWS_DATE = NOW.strftime("%d %b %Y")
+
+# Keys that change on their own and must not count as "the content changed".
+# lastUpdated is the stamp itself; _apify is scheduling bookkeeping.
+VOLATILE_KEYS = ("lastUpdated", "_apify")
+
+
+def content_fingerprint(data):
+    """Stable serialisation of everything a reader would actually see."""
+    return json.dumps({k: v for k, v in data.items() if k not in VOLATILE_KEYS},
+                      sort_keys=True, ensure_ascii=False)
+
 
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -87,8 +100,26 @@ def is_spam(t):
     return False
 
 
-def scrape_trends():
-    html = get("https://getdaytrends.com/saudi-arabia/")
+class TrendScrapeError(RuntimeError):
+    """getdaytrends could not be fetched or parsed this run."""
+
+
+def scrape_trends(attempts=3):
+    """Scrape X/Twitter Saudi trends. Raises TrendScrapeError so the caller can
+    keep the previous reading rather than losing the whole run — at 24 runs a
+    day a transient blip must not take the site's news refresh down with it."""
+    html = None
+    for n in range(1, attempts + 1):
+        try:
+            html = get("https://getdaytrends.com/saudi-arabia/")
+            break
+        except Exception as e:
+            print(f"  getdaytrends attempt {n}/{attempts} failed: "
+                  f"{type(e).__name__}: {str(e)[:70]}", file=sys.stderr)
+            if n < attempts:
+                time.sleep(5 * n)
+    if html is None:
+        raise TrendScrapeError(f"getdaytrends unreachable after {attempts} attempts")
     raw = re.findall(
         r'<a[^>]+href="/[a-z\-]+/trend/[^"]*"[^>]*>(.*?)</a>', html, re.S | re.I)
     trends, seen = [], set()
@@ -126,7 +157,8 @@ def scrape_trends():
                             re.S | re.I)[:15]:
             print("  " + a.replace("\n", " "), file=sys.stderr)
         print(f"=== html length: {len(html)} ===", file=sys.stderr)
-        sys.exit(f"FAIL: only {len(trends)} trends parsed.")
+        raise TrendScrapeError(f"only {len(trends)} trends parsed "
+                               f"(html length {len(html)})")
     return trends[:20], tags
 
 
@@ -365,7 +397,13 @@ APIFY_TIKTOK_ACTOR = (os.environ.get("APIFY_TIKTOK_ACTOR") or "").strip() \
 APIFY_GOOGLE_ACTOR = (os.environ.get("APIFY_GOOGLE_ACTOR") or "").strip() \
                      or "automation-lab~google-trends-scraper"
 # Reuse a successful Apify run younger than this instead of paying for a new one.
+# Raise the cadence by LOWERING this (e.g. 6 = four Apify pulls a day); it is read
+# from the APIFY_MAX_AGE_HOURS repo variable so cost is tuned without a code change.
 APIFY_MAX_AGE_H = int(os.environ.get("APIFY_MAX_AGE_HOURS", "20"))
+# After a FAILED attempt, wait this long before paying to try again. Without this
+# a source that never succeeds is retried on every single run — harmless at 3 runs
+# a day, but 24 wasted actor starts a day once the schedule goes hourly.
+APIFY_RETRY_H = int(os.environ.get("APIFY_RETRY_HOURS", "6"))
 # How long to wait for an Apify run before giving up. GitHub jobs allow far more
 # than the 300s cap that run-sync imposes, and a TikTok scrape can exceed it.
 APIFY_RUN_BUDGET_S = int(os.environ.get("APIFY_RUN_BUDGET_SECONDS", "420"))
@@ -456,24 +494,55 @@ def apify_items(actor, run_input, label):
     return items
 
 
-def apify_due(data, key):
-    """True when the last successful Apify pull for `key` is older than the window."""
+def _hours_since(data, key):
+    """Hours since the timestamp stored under _apify[key], or None if unusable."""
     ts = (data.get("_apify") or {}).get(key)
     if not ts:
-        return True
+        return None
     try:
-        t = datetime.fromisoformat(ts)
+        return (NOW - datetime.fromisoformat(ts)).total_seconds() / 3600.0
     except Exception:
-        return True
-    hours = (NOW - t).total_seconds() / 3600.0
-    if hours < APIFY_MAX_AGE_H:
-        print(f"  Apify {key}: last pull {hours:.1f}h ago — reusing stored data (no charge)")
+        return None
+
+
+def apify_due(data, key):
+    """True when we should spend an Apify run on `key` now.
+
+    Two separate clocks: a success is reused for APIFY_MAX_AGE_H, and a failed
+    attempt is backed off for APIFY_RETRY_H so a permanently broken source costs
+    at most a handful of runs a day instead of one per schedule tick."""
+    ok = _hours_since(data, key)
+    if ok is not None and ok < APIFY_MAX_AGE_H:
+        print(f"  Apify {key}: last pull {ok:.1f}h ago — reusing stored data (no charge)")
+        return False
+
+    tried = _hours_since(data, key + ":tried")
+    if tried is not None and tried < APIFY_RETRY_H:
+        print(f"  Apify {key}: last attempt failed {tried:.1f}h ago — "
+              f"backing off for {APIFY_RETRY_H}h (no charge)")
         return False
     return True
 
 
+def apify_fresh(data, key):
+    """True when a successful Apify pull is still inside its reuse window.
+
+    The hand-pasted fallback files stay valid for 30 days, so without this an old
+    paste would overwrite good Apify data on every hourly run."""
+    ok = _hours_since(data, key)
+    return ok is not None and ok < APIFY_MAX_AGE_H
+
+
 def apify_mark(data, key):
-    data.setdefault("_apify", {})[key] = NOW.isoformat()
+    """Record a successful pull, and clear the failure back-off for this source."""
+    marks = data.setdefault("_apify", {})
+    marks[key] = NOW.isoformat()
+    marks.pop(key + ":tried", None)
+
+
+def apify_mark_attempt(data, key):
+    """Record that we are about to spend a run, before we know if it works."""
+    data.setdefault("_apify", {})[key + ":tried"] = NOW.isoformat()
 
 
 def _pick(item, names, default=""):
@@ -851,61 +920,94 @@ def main():
     data = json.load(open("data.json", encoding="utf-8"))
     days, cumul = data["days"], data["cumul"]
 
-    trends, tags = scrape_trends()
-    print(f"Parsed {len(trends)} trends, {len(tags)} hashtags")
+    # Snapshot before any mutation, so we can tell a real content change from a
+    # run that found nothing new. Hourly runs are mostly no-ops; committing on
+    # every one would bury the genuine updates in the history.
+    before_content = content_fingerprint(data)
+    before_apify = json.dumps(data.get("_apify") or {}, sort_keys=True)
 
-    scored, streaks = score(trends, days)
-    days[DAY_KEY] = {"label": DAY_LABEL, "trends": scored,
-                     "hashtags": tags or days[max(days)]["hashtags"],
-                     "signals": build_signals(trends)}
+    trends, tags, streaks = None, None, []
+    try:
+        trends, tags = scrape_trends()
+        print(f"Parsed {len(trends)} trends, {len(tags)} hashtags")
+    except TrendScrapeError as e:
+        # Do not abort: the news feeds and the Pages deploy still have work to do,
+        # and today's stored reading stays on the site until the next run.
+        print(f"::warning title=X trends unavailable::{e} — "
+              f"keeping the stored reading for {DAY_KEY}")
+        print(f"X trend scrape failed: {e}", file=sys.stderr)
 
-    cumul.clear()
-    for dk in sorted(days):
-        for t in days[dk]["trends"]:
-            cumul[t["text"]] = cumul.get(t["text"], 0) + t["pts"]
+    if trends:
+        scored, streaks = score(trends, days)
+        days[DAY_KEY] = {"label": DAY_LABEL, "trends": scored,
+                         "hashtags": tags or days[max(days)]["hashtags"],
+                         "signals": build_signals(trends)}
+
+        cumul.clear()
+        for dk in sorted(days):
+            for t in days[dk]["trends"]:
+                cumul[t["text"]] = cumul.get(t["text"], 0) + t["pts"]
 
     for old in sorted(days)[:-14]:
         del days[old]
+
+    # Used only to seed the TikTok fallback scraper; fall back to the latest
+    # stored day when this run could not read X.
+    scored = (days.get(DAY_KEY) or days[max(days)])["trends"]
 
     # TikTok source order:
     #   1. Apify (runs on Apify's infrastructure — TikTok doesn't block it)
     #   2. tiktok_cc.json, hand-pasted from Creative Center
     #   3. the direct scraper (usually blocked from GitHub Actions)
     have_tiktok = len((data.get("tiktok") or {}).get("items") or []) >= 5
-    if apify_due(data, "tiktok") or not have_tiktok:
+    got_tiktok = False
+    if apify_due(data, "tiktok"):
+        apify_mark_attempt(data, "tiktok")
         tiktok_items = fetch_apify_tiktok()
         if tiktok_items:
             data["tiktok"] = {"date": NEWS_DATE, "items": tiktok_items}
             apify_mark(data, "tiktok")
-        else:
-            cc_data = read_tiktok_cc_json()
-            if cc_data:
-                data["tiktok"] = cc_data
-            else:
-                raw_x = [t["text"] for t in scored]
-                scraped = scrape_tiktok_sa(raw_x)
-                if scraped:
-                    data["tiktok"] = {"date": NEWS_DATE, "items": scraped}
-                elif "tiktok" not in data:
-                    data["tiktok"] = {"date": NEWS_DATE, "items": []}
+            got_tiktok = True
+
+    if not got_tiktok and not apify_fresh(data, "tiktok"):
+        # Reading the hand-pasted file is free, so it is honoured every run —
+        # that keeps "paste a fresh export, see it live" working. It is skipped
+        # while a recent Apify pull is still current, so the better source wins.
+        cc_data = read_tiktok_cc_json()
+        if cc_data:
+            data["tiktok"] = cc_data
+        elif not have_tiktok:
+            # Direct scraping is usually blocked from Actions and is not worth
+            # 24 attempts a day; only reach for it when the tab is actually empty.
+            raw_x = [t["text"] for t in scored]
+            scraped = scrape_tiktok_sa(raw_x)
+            if scraped:
+                data["tiktok"] = {"date": NEWS_DATE, "items": scraped}
+            elif "tiktok" not in data:
+                data["tiktok"] = {"date": NEWS_DATE, "items": []}
 
     # Google source order: Apify → hand-pasted google_manual.json → direct scrape
     have_google = len((data.get("google") or {}).get("items") or []) >= 5
-    if apify_due(data, "google") or not have_google:
+    got_google = False
+    if apify_due(data, "google"):
+        apify_mark_attempt(data, "google")
         google_items = fetch_apify_google()
         if google_items:
             data["google"] = {"date": NEWS_DATE, "items": google_items}
             apify_mark(data, "google")
-        else:
-            gm_data = read_manual_json("google_manual.json", "google")
-            if gm_data:
-                data["google"] = gm_data
-            else:
-                scraped = fetch_google_trends_tab()
-                if scraped:
-                    data["google"] = {"date": NEWS_DATE, "items": scraped}
-                elif "google" not in data:
-                    data["google"] = {"date": NEWS_DATE, "items": []}
+            got_google = True
+
+    if not got_google and not apify_fresh(data, "google"):
+        gm_data = read_manual_json("google_manual.json", "google")   # local, free
+        if gm_data:
+            data["google"] = gm_data
+        elif not have_google:
+            # pytrends rate-limits hard; only used when the tab would be empty.
+            scraped = fetch_google_trends_tab()
+            if scraped:
+                data["google"] = {"date": NEWS_DATE, "items": scraped}
+            elif "google" not in data:
+                data["google"] = {"date": NEWS_DATE, "items": []}
 
     dom = fetch_news_bilingual(DOMESTIC_EN, DOMESTIC_AR, EN_QUOTA, AR_QUOTA, "domestic")
     reg = fetch_news_bilingual(REGIONAL_EN, REGIONAL_AR, EN_QUOTA, AR_QUOTA, "regional")
@@ -922,11 +1024,23 @@ def main():
         print(f"News feeds unavailable - kept stories from {data['news']['date']}",
               file=sys.stderr)
 
-    data["lastUpdated"] = BANNER
-    json.dump(data, open("data.json", "w", encoding="utf-8"),
-              ensure_ascii=False, indent=1)
+    content_changed = content_fingerprint(data) != before_content
+    apify_changed = json.dumps(data.get("_apify") or {}, sort_keys=True) != before_apify
 
-    print(f"\nUpdated {DAY_KEY} ({DAY_LABEL})")
+    if content_changed:
+        # Only a real change moves the stamp, so "Last updated" on the site means
+        # "the numbers changed then", not "a cron job ran then".
+        data["lastUpdated"] = BANNER
+
+    if content_changed or apify_changed:
+        json.dump(data, open("data.json", "w", encoding="utf-8"),
+                  ensure_ascii=False, indent=1)
+        print("data.json rewritten "
+              f"({'content updated' if content_changed else 'source schedule only'})")
+    else:
+        print("No change since the last run — data.json untouched, nothing to commit")
+
+    print(f"\nUpdated {DAY_KEY} ({DAY_LABEL}) at {NOW:%H:%M} KSA")
     print("Top 3: " + " | ".join(f"{t['text']} ({t['pts']}pts)" for t in scored[:3]))
     print("STREAK BONUS: " + ", ".join(f"{t} ({r}d)" for t, r in streaks)
           if streaks else "No streak bonuses today")

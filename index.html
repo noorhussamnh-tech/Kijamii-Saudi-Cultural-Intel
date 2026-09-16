@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Saudi Arabia X Trends Tracker</title>
 <style>
@@ -187,7 +188,7 @@ tr.hidden{display:none}
 <div class="header">
   <div class="flag">🇸🇦</div>
   <div class="title-block">
-    <h1>Saudi Arabia X Trends Tracker <span class="badge">Daily</span></h1>
+    <h1>Saudi Arabia X Trends Tracker <span class="badge">Hourly</span></h1>
   </div>
 </div>
 <div class="date-banner" id="last-updated">Last updated: <strong>Wednesday, 26 August 2026</strong> · Sources: getdaytrends.com · Arab News · Al Jazeera</div>
@@ -263,7 +264,7 @@ tr.hidden{display:none}
 
 <!-- NEWS PANEL -->
 <div class="panel" id="panel-news">
-  <div class="date-banner" style="margin-bottom:16px">News for <strong id="news-date"></strong> · Split by publication origin · Replaced daily · Not archived</div>
+  <div class="date-banner" style="margin-bottom:16px">News for <strong id="news-date"></strong> · Split by publication origin · Refreshed hourly · Not archived</div>
 
   <div class="news-filter" id="news-filter">
     <div class="scope-btn on" data-scope="all">All sources</div>
@@ -296,7 +297,7 @@ tr.hidden{display:none}
   <div class="google-grid" id="google-grid"></div>
 </div><!-- /panel-google -->
 
-<div class="footer">🇸🇦 Saudi Arabia X Trends · Daily automated tracker · Kijamii × Netflix MENA</div>
+<div class="footer">🇸🇦 Saudi Arabia X Trends · Hourly automated tracker · Kijamii × Netflix MENA</div>
 </div><!-- /main -->
 
 <script>
@@ -353,6 +354,7 @@ document.getElementById("gbtn").addEventListener("click", function() {
     document.getElementById("gate").style.display = "none";
     document.getElementById("main").style.display = "block";
     loadData();
+    startAutoRefresh();
   } else {
     document.getElementById("gerr").textContent = "Incorrect — try again";
     document.getElementById("gpw").value = "";
@@ -394,8 +396,29 @@ function applyScoringVisibility() {
   });
 }
 
+// ── AUTO-REFRESH ─────────────────────────────────────────────────────────────
+// The data behind this page is rebuilt up to once an hour, so a tab left open on
+// an office screen would otherwise show whatever was true when it was opened.
+// Poll at 15 min (well under the update cadence, cheap: one small JSON GET), and
+// re-check immediately whenever the tab is brought back to the foreground.
+var REFRESH_MS = 15 * 60 * 1000;
+var refreshTimer = null;
+
+function startAutoRefresh() {
+  if (refreshTimer) { return; }
+  refreshTimer = setInterval(function() {
+    if (!document.hidden) { loadData(true); }
+  }, REFRESH_MS);
+
+  document.addEventListener("visibilitychange", function() {
+    if (!document.hidden) { loadData(true); }
+  });
+}
+
 // ── DATA LOADER ──────────────────────────────────────────────────────────────
-function loadData() {
+// keepView = true on the automatic hourly-ish refresh, so a background update
+// does not snap an analyst who is reading Tuesday back to today.
+function loadData(keepView) {
   fetch("data.json?v=" + new Date().getTime(), {cache: "no-store"})
     .then(function(r) {
       if (!r.ok) throw new Error("HTTP " + r.status);
@@ -415,8 +438,19 @@ function loadData() {
       });
       monthKeys.sort();
 
+      var keptMonth = keepView ? activeMonth : null;
+      var keptDay   = keepView ? activeDay   : null;
+
       activeMonth = monthKeys[monthKeys.length - 1];
       activeDay   = dayKeys[dayKeys.length - 1];
+
+      // Restore the previous selection when it still exists in the new payload.
+      if (keptMonth && monthKeys.indexOf(keptMonth) !== -1) { activeMonth = keptMonth; }
+      if (keptDay === "__MONTH__") {
+        activeDay = "__MONTH__";
+      } else if (keptDay && dayKeys.indexOf(keptDay) !== -1) {
+        activeDay = keptDay;
+      }
 
       document.getElementById("last-updated").innerHTML =
         "Last updated: <strong>" + d.lastUpdated +
