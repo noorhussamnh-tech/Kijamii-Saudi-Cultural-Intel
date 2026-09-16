@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Saudi Arabia X Trends Tracker</title>
+<title>Saudi Digital Trends Tracker</title>
 <style>
 :root {
   --bg:#0f0f13;--surface:#1a1a22;--surface2:#22222e;--border:#2e2e3e;
@@ -14,6 +14,12 @@ body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,san
 .gate-box{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:40px 32px;width:100%;max-width:380px;text-align:center}
 .gate-flag{font-size:2.5rem;margin-bottom:12px}
 .gate-title{font-size:1.1rem;font-weight:800;margin-bottom:4px}
+
+/* Kijamii wordmark. The asset is a white mark on solid black; `screen` blending
+   drops the black against this page's dark background, so the file needs no
+   transparent re-export. White stays white, black becomes the backdrop. */
+.brand-logo{height:46px;width:auto;display:block;mix-blend-mode:screen}
+@media(max-width:640px){.brand-logo{height:32px}}
 .gate-sub{font-size:0.8rem;color:var(--muted);margin-bottom:24px}
 .gate-input{width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--border);background:var(--surface2);color:var(--text);font-size:0.95rem;outline:none;margin-bottom:12px;letter-spacing:2px}
 .gate-input:focus{border-color:var(--accent)}
@@ -183,12 +189,12 @@ tr.hidden{display:none}
 
 <!-- Kijamii branding bar -->
 <div style="display:flex;justify-content:flex-end;align-items:center;padding:10px 0 6px">
-  <div style="background:#caff4d;padding:7px 18px;border-radius:8px;font-size:1.1rem;font-weight:900;color:#000;letter-spacing:-0.5px;font-family:'Segoe UI',system-ui,sans-serif">Kijamii</div>
+  <img src="kijamii-logo.png" alt="Kijamii" class="brand-logo">
 </div>
 <div class="header">
   <div class="flag">🇸🇦</div>
   <div class="title-block">
-    <h1>Saudi Arabia X Trends Tracker <span class="badge">Hourly</span></h1>
+    <h1>Saudi Digital Trends Tracker <span class="badge">Hourly</span></h1>
   </div>
 </div>
 <div class="date-banner" id="last-updated">Last updated: <strong>Wednesday, 26 August 2026</strong> · Sources: getdaytrends.com · Arab News · Al Jazeera</div>
@@ -297,7 +303,7 @@ tr.hidden{display:none}
   <div class="google-grid" id="google-grid"></div>
 </div><!-- /panel-google -->
 
-<div class="footer">🇸🇦 Saudi Arabia X Trends · Hourly automated tracker · Kijamii × Netflix MENA</div>
+<div class="footer">🇸🇦 Saudi Digital Trends · Hourly automated tracker · Kijamii × Netflix MENA</div>
 </div><!-- /main -->
 
 <script>
