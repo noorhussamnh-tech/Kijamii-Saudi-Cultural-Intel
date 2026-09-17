@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Thursday, 17 September 2026 · 15:00 KSA",
+ "lastUpdated": "Thursday, 17 September 2026 · 16:00 KSA",
  "days": {
   "2026-09-04": {
    "label": "Fri 04 Sep",
@@ -2113,25 +2113,25 @@
    "trends": [
     {
      "rank": 1,
-     "text": "#الحوثي_يستهدف_قبله_المسلمين",
-     "cat": "Football",
+     "text": "#HouthisAttackMecca",
+     "cat": "General",
      "pts": 14
     },
     {
      "rank": 2,
-     "text": "بنك الرياض",
+     "text": "#نك_ال",
      "cat": "General",
      "pts": 12
     },
     {
      "rank": 3,
-     "text": "#صباح_الخميس",
-     "cat": "General",
+     "text": "#الحوثي_يستهدف_قبله_المسلمين",
+     "cat": "Football",
      "pts": 10
     },
     {
      "rank": 4,
-     "text": "#رحله_المليون56",
+     "text": "#صباح_الخميس",
      "cat": "General",
      "pts": 8
     },
@@ -2143,25 +2143,25 @@
     },
     {
      "rank": 6,
-     "text": "#الحوثي_يقصف_مكه_والمدينه",
-     "cat": "Security",
+     "text": "#رحله_المليون56",
+     "cat": "General",
      "pts": 6
     },
     {
      "rank": 7,
-     "text": "#امن_الحرمين_خط_احمر",
-     "cat": "Security",
-     "pts": 6
-    },
-    {
-     "rank": 8,
      "text": "السعودية",
      "cat": "General",
      "pts": 6
     },
     {
-     "rank": 9,
+     "rank": 8,
      "text": "مكة المكرمة",
+     "cat": "General",
+     "pts": 6
+    },
+    {
+     "rank": 9,
+     "text": "عمان",
      "cat": "General",
      "pts": 6
     },
@@ -2173,7 +2173,7 @@
     },
     {
      "rank": 11,
-     "text": "عمان",
+     "text": "التميز المالي",
      "cat": "General",
      "pts": 4
     },
@@ -2185,37 +2185,37 @@
     },
     {
      "rank": 13,
-     "text": "23 سبتمبر",
+     "text": "PHYSINT",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 14,
-     "text": "رونالدو",
+     "text": "23 سبتمبر",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 15,
-     "text": "كلين لايف",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 16,
      "text": "اليوم الخميس",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 16,
+     "text": "رونالدو",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 17,
-     "text": "اسرائيل",
+     "text": "كلين لايف",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "حجازي",
+     "text": "اسرائيل",
      "cat": "General",
      "pts": 4
     },
@@ -2234,41 +2234,36 @@
    ],
    "hashtags": [
     {
-     "text": "#الحوثي_يستهدف_قبله_المسلمين",
+     "text": "#HouthisAttackMecca",
      "score": 100
     },
     {
-     "text": "#صباح_الخميس",
+     "text": "#نك_ال",
      "score": 88
     },
     {
-     "text": "#رحله_المليون56",
+     "text": "#الحوثي_يستهدف_قبله_المسلمين",
      "score": 76
     },
     {
-     "text": "#الحوثي_يقصف_مكه_والمدينه",
+     "text": "#صباح_الخميس",
      "score": 64
     },
     {
-     "text": "#امن_الحرمين_خط_احمر",
+     "text": "#رحله_المليون56",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (15)",
-     "items": "بنك الرياض · #صباح_الخميس · #رحله_المليون56 · السعودية · مكة المكرمة · الدرعيه التاريخيه · عمان · الحرمين الشريفين · 23 سبتمبر · رونالدو"
+     "label": "General (17)",
+     "items": "#HouthisAttackMecca · #نك_ال · #صباح_الخميس · #رحله_المليون56 · السعودية · مكة المكرمة · عمان · الدرعيه التاريخيه · التميز المالي · الحرمين الشريفين"
     },
     {
      "icon": "⚽",
      "label": "Football (3)",
      "items": "#الحوثي_يستهدف_قبله_المسلمين · النصر · برشلونة"
-    },
-    {
-     "icon": "🌊",
-     "label": "Security (2)",
-     "items": "#الحوثي_يقصف_مكه_والمدينه · #امن_الحرمين_خط_احمر"
     }
    ]
   }
@@ -2499,16 +2494,16 @@
   "ناصر الدوسري": 4,
   "اردا": 4,
   "سافيتش الثاني": 4,
-  "#امن_الحرمين_خط_احمر": 20,
+  "#امن_الحرمين_خط_احمر": 14,
   "#اروماتك_عالميه": 12,
-  "#رحله_المليون56": 18,
+  "#رحله_المليون56": 16,
   "#فرحه_نيفيز_مع_اروماتك": 8,
-  "بنك الرياض": 19,
+  "بنك الرياض": 7,
   "الفيدرالي الامريكي": 6,
   "ابو عابد": 6,
   "٢٣ سبتمبر": 10,
   "كلين لايف": 10,
-  "عمان": 10,
+  "عمان": 12,
   "راكان الطليحي": 4,
   "بنفيكا": 4,
   "Tap to Pay": 4,
@@ -2519,16 +2514,18 @@
   "الامر الملكي الكريم": 4,
   "البنك المركزي السعودي": 4,
   "الثقه الملكيه الكريمه": 4,
-  "#الحوثي_يستهدف_قبله_المسلمين": 14,
-  "#صباح_الخميس": 10,
-  "#الحوثي_يقصف_مكه_والمدينه": 6,
+  "#HouthisAttackMecca": 14,
+  "#نك_ال": 12,
+  "#الحوثي_يستهدف_قبله_المسلمين": 10,
+  "#صباح_الخميس": 8,
   "السعودية": 6,
   "مكة المكرمة": 6,
   "الدرعيه التاريخيه": 6,
+  "التميز المالي": 4,
   "الحرمين الشريفين": 4,
+  "PHYSINT": 4,
   "اليوم الخميس": 4,
-  "اسرائيل": 4,
-  "حجازي": 4
+  "اسرائيل": 4
  },
  "news": {
   "date": "17 Sep 2026",
@@ -2570,31 +2567,22 @@
     "rank": 4
    },
    {
-    "headline": "The rebel offensive that shook Saudi Arabia - Financial Times",
-    "summary": "The rebel offensive that shook Saudi Arabia Financial Times",
-    "source": "Financial Times",
-    "date": "17 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMFlRbGR1ckNXdmliRFM4c09KNVVyQ0VhT1ZqZXk0VkM2eTVZTVItamlkenNILW1jVUlkN25xVW5zSmRoYmlTbG1BX3A3Sm82am5jQVBjb3o4SkNCRV9WdS1Ja1R6dGoyVEM0b3pHS1ROaHlUd2Q0b056ZmhpaGNnLTZrZUE?oc=5",
-    "rank": 5
-   },
-   {
     "headline": "US opts not to back Saudi Arabia in Yemen after meeting Houthi leaders - The Guardian",
     "summary": "US opts not to back Saudi Arabia in Yemen after meeting Houthi leaders The Guardian",
     "source": "The Guardian",
     "date": "17 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQkJfRE11ZE5JVGZhWkpsblpLMTFwZm94OHExcFFCN2JCdFlYRVIyWFdDTkRVX2pWWFA4cnBoM20taGJSVXlQdHZwaEFWSEtqQ01jTm04T1RuajZiMzNCeUFqUXZsYWs2djZWUDd5NjBqcFF0YW8tMDc5SFlWcjkyY1RsVk9mQ1BYbU9XUkxsN2NyY1NPcm1XOWVXM3IwV3JLV1pjRnV0a2pnSEh4eS15cmdRMzJkN0NvWUMzTDJDbEw?oc=5",
-    "rank": 6
+    "rank": 5
    },
    {
-    "headline": "Oil Prices Slide as Saudi Arabia Reroutes Crude via Oman - Crude Oil Prices Today | OilPrice.com",
-    "summary": "Oil Prices Slide as Saudi Arabia Reroutes Crude via Oman Crude Oil Prices Today | OilPrice.com",
-    "source": "Crude Oil Prices Today |",
+    "headline": "The rebel offensive that shook Saudi Arabia - Financial Times",
+    "summary": "The rebel offensive that shook Saudi Arabia Financial Times",
+    "source": "Financial Times",
     "date": "17 Sep 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYzJGNEtRTjVBUUxpVjhGMTdFTHlJSVVtWmpkbzNlU2hMbXRfQ3dzNlhqa01rcXRlSGVxVkMtTFIta1hTN3hPcVdLVndJY21EVlJaY2Voa3pDWG9OUVNmM2x3V0h0VkZEMF9za1NqaF8tY2lBa1NnRnZkakpTLW4tN3otYVVzOXM4aUwtUmtDeWVGQ3U5d2ZDMmZyN1c1VksyaTNfM3JNY2VONWpQOEctbm5B0gG3AUFVX3lxTE5OS09DS01LQ0VvdVRGZGhJV1FCaW5LYXM3bW44ZlVlc1h2bzQ2Z3ltWlJrcFFEQ3YwTkNKOWtKLUplWnRYY25aVkNNNTBaOG9ESlhIaF8xYzVZVDdMbmJfSGJEeVlrd2hEcUpDeHd5eTNuNi1lSE55cGNLTmdZQmQtT3NnS0V4TnRjRG1OdnVYUFpVd2xEbGl3WnB5dWVkdHllVkNJT2JXT0NsVmZ0ampJbWxfSklvaw?oc=5",
-    "rank": 7
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMFlRbGR1ckNXdmliRFM4c09KNVVyQ0VhT1ZqZXk0VkM2eTVZTVItamlkenNILW1jVUlkN25xVW5zSmRoYmlTbG1BX3A3Sm82am5jQVBjb3o4SkNCRV9WdS1Ja1R6dGoyVEM0b3pHS1ROaHlUd2Q0b056ZmhpaGNnLTZrZUE?oc=5",
+    "rank": 6
    },
    {
     "headline": "Saudi Arabia’s missiles are running low: Houthis prepare to strike - TodayPress.tv",
@@ -2603,15 +2591,24 @@
     "date": "17 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdlM3WHBTcnEtamNhTXY0N0xVR0hOX0Z0Unh0WmpsX3dUZk5NYnRxeThkdFJlSlgwYUZld09OX3UzRDZkRnd3VVpyaFdyQUo1RktIeWR4c1BhXzJYNkpFX1ROSFlFU0V4RExLMU45M2FUS1g2TmhPaWdnc0N0ZWJiajNMcXVyYlF4eFBSZUhCZVNYWGdHMVZwVjZQZEQ2QQ?oc=5",
+    "rank": 7
+   },
+   {
+    "headline": "Oil Prices Slide as Saudi Arabia Reroutes Crude via Oman - Crude Oil Prices Today | OilPrice.com",
+    "summary": "Oil Prices Slide as Saudi Arabia Reroutes Crude via Oman Crude Oil Prices Today | OilPrice.com",
+    "source": "Crude Oil Prices Today |",
+    "date": "17 Sep 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYzJGNEtRTjVBUUxpVjhGMTdFTHlJSVVtWmpkbzNlU2hMbXRfQ3dzNlhqa01rcXRlSGVxVkMtTFIta1hTN3hPcVdLVndJY21EVlJaY2Voa3pDWG9OUVNmM2x3V0h0VkZEMF9za1NqaF8tY2lBa1NnRnZkakpTLW4tN3otYVVzOXM4aUwtUmtDeWVGQ3U5d2ZDMmZyN1c1VksyaTNfM3JNY2VONWpQOEctbm5B0gG3AUFVX3lxTE5OS09DS01LQ0VvdVRGZGhJV1FCaW5LYXM3bW44ZlVlc1h2bzQ2Z3ltWlJrcFFEQ3YwTkNKOWtKLUplWnRYY25aVkNNNTBaOG9ESlhIaF8xYzVZVDdMbmJfSGJEeVlrd2hEcUpDeHd5eTNuNi1lSE55cGNLTmdZQmQtT3NnS0V4TnRjRG1OdnVYUFpVd2xEbGl3WnB5dWVkdHllVkNJT2JXT0NsVmZ0ampJbWxfSklvaw?oc=5",
     "rank": 8
    },
    {
-    "headline": "Saudi Arabia Calls Mecca a ‘Red Line’ After Alleged Houthi Drone Attack on the Holy Site - Time Magazine",
-    "summary": "Saudi Arabia Calls Mecca a ‘Red Line’ After Alleged Houthi Drone Attack on the Holy Site Time Magazine",
-    "source": "Time Magazine",
-    "date": "16 Sep 2026",
+    "headline": "EXCLUSIVE: China presses Iran to help rein in Houthis after Saudi appeal, sources say - reuters.com",
+    "summary": "EXCLUSIVE: China presses Iran to help rein in Houthis after Saudi appeal, sources say reuters.com",
+    "source": "reuters.com",
+    "date": "17 Sep 2026",
     "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdW5TVWxYUEt6ZG1Ua2F3XzBjQkx0NzNwcTZMc0ZlZU5iMjBDVWVBMUJXTHY2RG1EWmNnVkdneHE0OV9udXpWbWZiN1E3ZENOT2t1MmRRajdZcE8wQkVNRkc4cDFCN2p1bUU3OFhJRGpsclByVFFaVWlJNmZGWlByOXVSLUdjQ2phZXdBMTk4aUVLUVpwZ3U2ZU50bXl6MVJEWXUxaWUxaWw2emRyUjR3cA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnJncHUxLTNvV25NTHFxQzVwcnljdzdsTkJCNFNjSlJybF95bFBhcW9DTWV1dnlYQ0prMkI0SmdnNjBrdXNLV0ZNM1pQNW1FcUxuaWpqd3NnRXJ6U2lkQWFqQlR0UVE2X3lYU0RXNXlBdno3QkRkSzB2SEwxUzdYV2NZWlc3SGhZdGRMbUFCVDJZeXZsTy0zOHF4R013c2xyMl8zNmVkaHlFOXM1MmtuZHJRREI3UQ?oc=5",
     "rank": 9
    },
    {
@@ -2624,13 +2621,22 @@
     "rank": 10
    },
    {
+    "headline": "الحوثيون يعلنون إسقاط مقاتلة سعودية ويتحدثون عن 40 غارة على اليمن بعد اتهامهم بمحاولة استهداف مكة - BBC",
+    "summary": "الحوثيون يعلنون إسقاط مقاتلة سعودية ويتحدثون عن 40 غارة على اليمن بعد اتهامهم بمحاولة استهداف مكة BBC",
+    "source": "BBC",
+    "date": "17 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mSWVjYmZKQ25zRVpHaVh2NFA0M2Z4VlFXaGVpQVRJcFEwd2lLUTMxeTZ5bkpBYVRPMEpORm1rbkoyQm15SmdsTkJ6NEtCUlpsY2R6bFpJVE1SQlpjbGfSAWNBVV95cUxNdEpOMU1lX1FQYXVsUm40cHZ1RkU5aGVwVXNsbnBDQm5BeDlVU0JkcUpodEtIMDRnNkNHd1JPcnVaTTlUMDU2MElXbF9XZF9fS3daQnVNZGlWZWo1TE9PTmRqTGc?oc=5",
+    "rank": 11
+   },
+   {
     "headline": "الحوثيون يعلنون استهداف قاعدة عسكرية وشركة أرامكو في السعودية، ومصادر تؤكد لقاءهم بمسؤولين أمريكيين في عُمان - BBC",
     "summary": "الحوثيون يعلنون استهداف قاعدة عسكرية وشركة أرامكو في السعودية، ومصادر تؤكد لقاءهم بمسؤولين أمريكيين في عُمان BBC",
     "source": "BBC",
     "date": "16 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOOVo0N205akV0TUgwUXF1S21JNXVjZk0xdmFNUW0tdlA3djAyb3VPOE5nUlloSGJ5WXN0bGlxYmN3Z1BLVmJNUk1DT2huMXBnY255R09xTC1mWGljLWfSAWNBVV95cUxQRWZjcThWUGJ0VXV6RHprelN4d2luYkZTTGhvdDh6SXZJcFJuMzAzNjBNQU5IVl95OHVBMXpuWTNyOGxmMHdvOHdpanJ4ZWMwMC1sSlI4RWZlYWhXdWVSTFpzcm8?oc=5",
-    "rank": 11
+    "rank": 12
    },
    {
     "headline": "اليمن مباشر.. تنديد بمحاولة استهداف الحوثيين لمكة وواشنطن تحذر رعاياها من السفر للسعودية - الجزيرة نت",
@@ -2639,25 +2645,25 @@
     "date": "14 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPdjlpQkptd082Wm9jcWxGZ0RFVU9nY2lNc2NoQzNRVF9iZHMtTDJ5dEQtRkdhcFE5RWQ4LWJYaVRkYTFOaWJqczhwWUIzTWwxakJMZEloektrY0k5cHNXZTMtMERCRTA4OTR0N0I2OTgzRXpZcjZsbmxNR25BUC1NRVVtZWJvdUZGYjZ0N2RoUkY0TnBJOHMyLVRySXdEY0p3VDZ2c2Jhb0JBT3hXck1HSm9iUmY0SktNOHJDTFZodzBwSEtZY1BmV3ZXZ1dzS1p3YkFKeUNockpUSWFJaGpSTDlxSS1IOHhmekU4c3VQX1NYRTJtN2pvRWVsTzZFY25jWUNGYUIxOFpsT25hYXFlN1F6aGhjNE5yWUtINVJ1eUd0VVdFV2xpcWJOaXZRNmdRTzY4TGxiaDhNSEhLSFJUUjl3bWpsTVlaMWRCTl9IN0JSZGl6RmfSAdsCQVVfeXFMTXVJcnlrcFMzQTRBcjFVN2VMVWtQby1fUTkwaldJcWJDZDZpXzRORlFtbGtXS1g3SzAwVUhQcDA0UV9xR1c0M3JyUnM0cGlBeEdHQXJOUENxdXFtRGI4ZDNnX3NzTUJJWklrWWd5VmVMY0pYZmltcmxhX0RnYzc0Q0thcXZPVUV0OFUwV2ZKbTNkTkNINXlJSTNReFBZeFFOZW1nVUF6NGZQU01GcW01dVNmUDVFQVo3UlBDRGxhSU9XaDlEcnRUT2tDd0VqWjVtV2FqamlrbnQzSXQ0RFVzM3lSMmxkaWFncXhsMVFtNXZTV1FQUXRyVzZjQUxmWVBHVVBUNWV6SlFDWUI3QVNTVHZONDlkWnByeVRVeXVPc0VrWC1yYmpSWXY4SVp4MFBWbzJpS2dneThhbXJTekxfYV9PcHlpN2hIdFZwUGY5bDNmSjExd3JXNVoyVjA?oc=5",
-    "rank": 12
-   },
-   {
-    "headline": "السعودية تتهم الحوثيين بمحاولة استهداف مكة.. أمن الحرمين \"خط أحمر\" - Hespress",
-    "summary": "السعودية تتهم الحوثيين بمحاولة استهداف مكة.. أمن الحرمين \"خط أحمر\" Hespress",
-    "source": "Hespress",
-    "date": "16 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxNT2NWd1BHYjNvcjNkOXg5akJYTWRSY0JMRlpmam1sX2lkY3ZUQXVWVEdCMC1JcFJJb0YxWlBBdDhMT1ZBUDhnY21hZE1ZUkNGMzFzVXdsSG8yODJqZTZ5bThnYVpzWlpJb0YxbTFBaEJaNDRVWHBld2gyQmxuT3lpa0RIV3p1Z2xzUEFzcFdmNTQzOGR4blBOMHF0aDdLMDZoaDBGSkhheDE4ZkpWd0ZpWUdSeWU5Z0xwRldGTzQxMGo1V0tiUXZuVzdLMFZYcFhEM2FVbGZhazBrVXRzdHdaWUExU3BHSEs2NmFBY3V3TEkxNmxES184YnNJeC1Udm40UEJhUk5xWlVfUm5jT1cwNVhxRE1TaUgxQnJJS0NCRzRYc2Y2eE1EZ2tqNHVxQlI2SktxbjhKbFpSdW0tS1ZDREFsaEZ4SlduNGF0ejZiYnh0Q3dr?oc=5",
     "rank": 13
    },
    {
-    "headline": "لأول مرة في مكة.. إنذارات مبكرة بعد هجمات حوثية على مدن سعودية - alghad.tv",
-    "summary": "لأول مرة في مكة.. إنذارات مبكرة بعد هجمات حوثية على مدن سعودية alghad.tv",
-    "source": "alghad.tv",
+    "headline": "الإمارات تُدين هجمات جماعة الحوثي على السعودية - سكاي نيوز عربية",
+    "summary": "الإمارات تُدين هجمات جماعة الحوثي على السعودية سكاي نيوز عربية",
+    "source": "سكاي نيوز عربية",
     "date": "15 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiwwRBVV95cUxOc2hET0FDWTNMRkhPZk1YWE5yN2JYemh6WTc2ZVVFclNROW1Uc0NoM0NEWnNORExFYjcySFJMTlNFaUlBNlBHSTNLRExoYVBYYjQ0MjU0M3pSaXFyeEc0aEMtNmhaaDMtLXBYZi02S00zQzZBMTZTM0tPYlhEMGFEamFTcW9YUHZpTWpzR0pRRjctVHdjc0RDWjRETmZHUXJMTG9JTE1DSW9OU2VwdHhwTTdvOUgycm9pSDdGN1NJcUhha0FRUW1MbVpmQzhkakF0cGswSDlKNk8xX3ZSb3Y1bHBzNEFWaGpUeE1PODVrdkRzUDU0aDhTREVuaml2Wk5LRnFTaWdIRFo2VnQ2THJNcjhxRlh0SE1ldy1KdDZLWEJZSGNXRURDZEFCUFNMVERtQS1yakZHQVQzNWg4MUVoMVptZ2hHeW00X1hZYmtXeXF0QXhmTFJYTE1NaFp4aFNRVEMzQUxjM1Bha3cwZHAza2VSOEZtZ3lNTWYwdXhNU0pyZFh4d0ZJVlhoczZ6SDI1R1F1blotel9vZXk1VF9XOV91SXNEN0NOY2hnYlBndks2eW5xVkZvOXZUdFZzS0g5T3QyRXJpNnpid3dwMTNIZUJ6Q1I0U2g4UEVYM3hvUlc1ZUZRdDVnQ0lkcERaZWJES2VlZU9GTHBSQVlicXkwMnlHaTJ4M3dwUWdEMndGenRGNVF4RjQ1MUp1cnhIZFNtYXREUXRtYlhXbEhJZWRGM0kwUHZLN2pLaHBCRVVibzg4Um8?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxNOUxUTnhkcU1JYjFQZTVLVVhJejQ4MXpfdmctNEZfR01EYXJEYm5qS0RWQjFVcVp0T243OHZiZEZHaE9sek9NZXM4RTc4Sk94LUR4cWJzSE1DTDh0cmc2X0w2WlNsb2hLRU1oc2pZTGFidTZ2NW9WSFg5WXRMQlEyNndzaHBYVy1qd2ZVdkg1SVpkVVV1Z014ZlJFc1dTM1JZV1FzNmxta1R0OFA4eUY5WS1YQlVLN0FobXlCVndGSFRXd3ppcUY3RU9MMmx0c2VaTHRpeW5CUmU2MkdKRGlmN1RfeC1Kc2daejNGcU1LeC1rRUFIS01pdHJ5Q3ZwWXBwNHRQVGJhalZoQmdKVE5Del8xYVg4WnpoUTY4d0p3bDg5RVVMNi1adUYxbG9jSTRNOHRFMERjVkpJcGstMzJvMzltanBmbFN6MS1HUkFWdFQ1dDBLVGxsc2VEbHhGak9zTDdRVUdXVmtWWk5RT2VITHRuTUVuMVpFTG1keUNPU1JWa3J6NFHSAYsDQVVfeXFMT1RMQnJqZmxxZXdWMm52OHUzbHdzTHBNd2lVMjFJNXpfLWxiM1FubzNxSjdSTC1NVTRydVJNWlBuTFdvUDd1ZVdwUDVfQ0k1RHFKQmNZc2hVRnN3cXBnV1p4NDlIemh3SVEzZEJ0ZWgzUVQ0dVRIb2xUQzhlZndPOGlSTWVHTTZoRmVGaU1DMDRQRDU1Wi1vVTJrQ2JoWTZZZjlWZ2ZYb2JMQTV6ZTFJUHVSWGhmYnJ0V3VKRkRKRW82bE1rTE1aTHBfQlg4ODY0OTNPd3VHaXRGSnh4SHMyV1BSekQ2MmtVdzFvQjlCZHJYTmVwZ3pRWS0wZ3NoU1VNZDRXdnlLZTllekloN0JVQTlRdjB2dlhsQ1JjQjFHbjFOLVpDWE41V2pLSF9aazFrVUV4UEFFaGhxS3BqdHFMajVZQ19VTTNFWFE4YWhsSmpSa0RXVWdfUm13NWFzMzBBTVM1Ti1qYjZPSEg2UU1SZXB2djJaV1luOG9wOENXRnVfTXNqVS11eTFnOXM?oc=5",
     "rank": 14
+   },
+   {
+    "headline": "مملكة البحرين تُدين بشدة تصاعد الاعتداءات الإرهابية الحوثية على المملكة العربية السعودية ومحاولتها استهداف مكة المكرمة - الأيام البحرينية",
+    "summary": "مملكة البحرين تُدين بشدة تصاعد الاعتداءات الإرهابية الحوثية على المملكة العربية السعودية ومحاولتها استهداف مكة المكرمة الأيام البحرينية",
+    "source": "الأيام البحرينية",
+    "date": "16 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9pZ09rSEZSVXU0b3J0XzluNG5LVHhLc3U1V0pVVWtXVDhYckFfZE1ia01BVmpVbndBb1dVSDB1YWxKS0RrYWs0ZzZtXzY0YVEzUVE0cVhScHE2QjA3dDZXczN3QQ?oc=5",
+    "rank": 15
    },
    {
     "headline": "انتفاضة عربية وإسلامية ضد استهداف الحوثيين مكة المكرمة.. مصر تساند السعودية: انتهاك صارخ لحرمة المقدسات الدينية.. المملكة تدعو لاتخاذ موقف حازم إزاء اعتداءات ميليشيا الحوثي.. والأزهر: استعداء لمشاعر المسلمين - اليوم السابع",
@@ -2666,25 +2672,34 @@
     "date": "16 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMingRBVV95cUxPYVhVSG5oaFA2UTBaUEhSbVlIeGpvenVVSWhxR3ZCVFM2NHRNMWp6cjFITkxRR3ZobEFuV2c5ajgyekNJTVBkZWxSbEVId3dFZnJNc3lXLVFIdWhmN0ZHb3JDWjRuek84VWkwa2ZJREJyNjh4NEtkdFIwWVJwMGg4amNSUldMZldLQTN2Q2hYVzZEcHBBWlpfN3lTVjBFbERINE1ua2FUNXpldkhacWlBZ3N0YUJZUWJNTFhlYWhGenJQTEVGaVJDajJxVjIwVEpoOEJxeThqbmlJR3BITEdsdFBITW0tSThOUHdZRWRtcXNKSjh0dUcxSDBHU3lIOFR1WS1rMHhVbWZMdEFwY0o3RU1BbHNaNzRtcTQ5MmNDejR2Zjdvak16LUg5SXlTOWU1ekp4YU5kaWZSNGN0NVBXSkJzYmozTFpZY0VsX2F5N1NxTVlLOF9iVldxQU5BSzNhU3N6OUdLUDl3U2tPY2hFRzZfdGRWRHVZUklRUmtHNkdlLW51RzVxS0Y3TVNDUE1KMFFwR09jdml6RHNLMVJmVUxkSUNqRUF4Uno0VnZ5RGdlbmVzdmktX3pFTGctVmdzcHNDWGwyTjVSNVA1NHlFMDA5c0RDUG1VU2Q2eEwwRm5SZWdJR21lR0IwaGV5VjhZVTlGRGVCN29uNF9qU3kxeF9iSkt5NnNfMnBfQUJzMXF1SkxhQzBibW5HMWRVd9IBmARBVV95cUxQLS1QcWo3Mmp4TFhGVGw2VzVpRERCMndUWGE1S2pwR1ZkU3JYVjZkX1NXek02dUFpV3BKaG5hNFZ1UDdMUUJESG9tWlpsaS1hQ21iZzNPbmZVcm1XeWJpa0R4Qnl0dDFFeVBUb1ZHZUpnR1RrVE9FTmlENjRzQnkzeXA2WTFpT1RGSEc2U2xSSElFbm4xQkxmOVU2U2NQR0ttSlpYZXBYaElzeGhkX0pVSS0tV2gzMG1RdVhQZDY5SjZLZjBzTVliRGZhMnFJWkpOa2VjWWM4VUphbThpOE9mQmdWbHhoLTBqTmNBU1lDaE9ucjV3WHZBbnd1NEotTzV3Nll0LW0xRTZLLUt1Y0x4NF8zQmoxTG84ejRwdE45M0ZUVG9PSk5FNzItcVFmUHhQUDgxRmdfcC1UTE9DaHBOLV9uVVZlVUhJZV9ZNk1HMTltMWIyeGVYMkdzUWJNamxVMXZPRUd0cndXVk9RQlJHM0VxQ3dwSUpmRlRHNnd0TXYtQXhCTjdrWjQ1dnFTaVRocVlPTXh4UlBXdVJRYTVoWW9rcno3aXpuMEdVbm4zZ2J3Q2M4aTJST3JBbzZfaHhXQzRJQnpEV0Y1dHk2MTFUV0NZR2tNREUyNDhISWp1X3JfZmVHZDVTeklaOVliVmo2bDVQZkpwSEFuUmxQcGFkTjlPZlpPLTQzT2tJRWVFRFlOYzFjYzloVg?oc=5",
-    "rank": 15
-   },
-   {
-    "headline": "الحوثيون يعلنون إسقاط مقاتلة سعودية ويتحدثون عن 40 غارة على اليمن بعد اتهامهم بمحاولة استهداف مكة - BBC",
-    "summary": "الحوثيون يعلنون إسقاط مقاتلة سعودية ويتحدثون عن 40 غارة على اليمن بعد اتهامهم بمحاولة استهداف مكة BBC",
-    "source": "BBC",
-    "date": "17 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mSWVjYmZKQ25zRVpHaVh2NFA0M2Z4VlFXaGVpQVRJcFEwd2lLUTMxeTZ5bkpBYVRPMEpORm1rbkoyQm15SmdsTkJ6NEtCUlpsY2R6bFpJVE1SQlpjbGfSAWNBVV95cUxNdEpOMU1lX1FQYXVsUm40cHZ1RkU5aGVwVXNsbnBDQm5BeDlVU0JkcUpodEtIMDRnNkNHd1JPcnVaTTlUMDU2MElXbF9XZF9fS3daQnVNZGlWZWo1TE9PTmRqTGc?oc=5",
     "rank": 16
    },
    {
-    "headline": "تحذيرات سعودية واسعة شملت مكة وجدة، و100 ألف نازح منذ تجدد المعارك في اليمن - BBC",
-    "summary": "تحذيرات سعودية واسعة شملت مكة وجدة، و100 ألف نازح منذ تجدد المعارك في اليمن BBC",
-    "source": "BBC",
+    "headline": "إدانات واسعة لاعتداءات الحوثيين على السعودية.. ودعم كامل لإجراءات المملكة - العربية",
+    "summary": "إدانات واسعة لاعتداءات الحوثيين على السعودية.. ودعم كامل لإجراءات المملكة العربية",
+    "source": "العربية",
     "date": "15 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tWTlYdjF6RFpnVVpHeUFMRkIydTdmaGRWWVY1UEtkazZPM3BhUkR4NzhHUGtqdnRJVndKQXNtQ2ZYcWxyNHFFVGRBdVJyUExwY2lFeVRCbDFRdmlVMmfSAWNBVV95cUxNendQNWJUOHVnbzRvVjRzLXRlMU9iamlIdUF2WW5Ib0hMalVvd3RsLXRjdmJUS3ExME1sSE1JY0wxMm5uQ1YxREpBX3NXZTJaSmpPblJlNEdTLUlzUHdzUTFKRlE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi2gRBVV95cUxNWk5ZOWY4NGtBN1diOHNMbXJ2SlZFSU5oTDNvTmtRdzJCWGYxeFBFLXJEWkZCMDAwR1RSM2ozLUFnZU1XLVQ0c1J1Sk1tVnUxcFNUVldBaW1kTUFOYXlOQUYtUm5abGxTWW1BcldYVDltcjhzbHpYN295V29qQkJsb0Q5V0JtdDRTZy0wQl9kY0p1M1NaNlBqS2RxMzJmWHJVTjJvV0hKV3lSY3dFU1pWSWRfcnNGaVpVa1pXeUVWemoxMGRxVm9tc3JTZ1ZuZkgyQ0ljQm9udlVSdmNva2swVW8wSlIyUG5qMDdGRWl0bDVmV1pidjhSc3Z2ekJhLUpyQlFQMnlONVBtaHU4TTNPWGNDQ1Y5YTlQcVpfY1JmWlRMak41M2tHZ3hRbXRSWTU3cW9mU1JNZ1ZHN1VTc3lPTC13elFnbVUzVnNJakRsQkh5dTVLODJDZDhVTzdmZ19xQzM4NjNNZVBXRXBfZjgwZDhtVHpoT1NxeC1SU0tER1dJdUZEUnlkUldOYWpqVElWT09YSGhxcDNueTA5R1hnZURRWTctQ3l2Snc1LXUtNGJZYUZJbl8zeERWZExrc2R0S1hPbkpEQXZMajlSeUFtQXNTSC1KRG1xYkpidExVZGZKWTc4MXZaSnNyTnVHTGNjcENkclVDVUdpTW1mazNHUXZBN1lkRmRWMkl2dnZ0SzQycHQwSWtKRXczSURrRDFEMmlWREl0X25UME9oZzJ3TVlULWZrejZSS1dnVzR0YVBXVFFYeVMwU0xqVGhSbEVMMHhheFpKZ0NLZ9IB3wRBVV95cUxNUllLX2ZXRkRMTkJiMGNjOFNDa0lJUUc2bldPbTFMRHF1dWVmZ3VSd2FkY181VHlWRlZjMEhDbVR5Uk1FUFVPYkxwNjMzV1kyV21YaGx4dTdWZUtQUXV4d2VzcFN2c3NMOTNDTTN4MG1YaDhIOTVYenlpMURybnhrZl9zczJwZ2VBS19ldExQbkhyYWVzNnlPblBWZkdfTjhJYTMzRUFXdEJwUDFkR0V1OVZwOEItNGJaUWE3SHFscnZNcXdhUmoxYmsxbjVmN2NzRV9PN0NwclFwYWZWWkJReDdWVUtIMjAzRFctQXJsaHNXQVRzZkJZVFJXMDJweXNfZmx5UWE3Tko1bm1qVS1LSHJTalM5OXNIUndvSmpLOU8wN0NtOWFncHVmN0tMOE5QMW94bGFKOWxxVzFBb2VuZERmRGpQMVNHdnFhZEMzVHczSnFYQ21TVGdZWndha3V3Ujg2VXd2ZDM4SHhvcllGOGhIVmxKX1FvUzhidVg4R0dtRWFlRHNCVDRKREV3cXB0YW5FeDFrZHRkTTZjX2pXZ20tWENEM01uMWpuVE55VDFZc0hZMENxMEJfQ1ZvaDdXSFoxTUN5eHRzRDdiUmwwZVZkcG1XcmdiLXRZSXN2MndHN0Rfc1hwbGFXSGxfLXVSaTJsU05yRndfSEdlcExqNzczcGw1a3VHOU04VlNfNmxOcTVRQW5UcUxKdlNDS2l1QW1nd2dOaG42WHQ2T1NMeUVTT2NxeEF4Y1lRQjJtcDFWRzhOREFGUzZXd0RzWkRXVkN6Y2d4dXJYY2pwME0w?oc=5",
     "rank": 17
+   },
+   {
+    "headline": "السعودية تتهم الحوثيين بمحاولة استهداف مكة.. أمن الحرمين \"خط أحمر\" - Hespress",
+    "summary": "السعودية تتهم الحوثيين بمحاولة استهداف مكة.. أمن الحرمين \"خط أحمر\" Hespress",
+    "source": "Hespress",
+    "date": "16 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxNT2NWd1BHYjNvcjNkOXg5akJYTWRSY0JMRlpmam1sX2lkY3ZUQXVWVEdCMC1JcFJJb0YxWlBBdDhMT1ZBUDhnY21hZE1ZUkNGMzFzVXdsSG8yODJqZTZ5bThnYVpzWlpJb0YxbTFBaEJaNDRVWHBld2gyQmxuT3lpa0RIV3p1Z2xzUEFzcFdmNTQzOGR4blBOMHF0aDdLMDZoaDBGSkhheDE4ZkpWd0ZpWUdSeWU5Z0xwRldGTzQxMGo1V0tiUXZuVzdLMFZYcFhEM2FVbGZhazBrVXRzdHdaWUExU3BHSEs2NmFBY3V3TEkxNmxES184YnNJeC1Udm40UEJhUk5xWlVfUm5jT1cwNVhxRE1TaUgxQnJJS0NCRzRYc2Y2eE1EZ2tqNHVxQlI2SktxbjhKbFpSdW0tS1ZDREFsaEZ4SlduNGF0ejZiYnh0Q3dr?oc=5",
+    "rank": 18
+   },
+   {
+    "headline": "البحرين تدين بشدة استمرار الاستهداف الإرهابي الحوثي للمدنيين والأعيان المدنية في السعودية - عكاظ",
+    "summary": "البحرين تدين بشدة استمرار الاستهداف الإرهابي الحوثي للمدنيين والأعيان المدنية في السعودية عكاظ",
+    "source": "عكاظ",
+    "date": "15 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sd0ozbk8tNkd1a3AyaEdINUJBVUdFN19vZnVld3I1OVV6SzNvMG9ta1hOWXJ1OHdxel9pVDRYYko4d19WXzZZZWxqTUZKVFIwZnfSAVRBVV95cUxPOGVaVENhVy1sb195c0J5SnpraWxXTTlwaDBiVFVxQ1ptcS1YRm5QdEZMV0JrazY4RWF6aTc5MEl2VG1WRTY1TGR5SV9tbkMwS28yc08?oc=5",
+    "rank": 19
    },
    {
     "headline": "\"المستوى الثالث\".. سفارة أمريكا في السعودية تصدر تحذير سفر لمواطنيها - CNN Arabic",
@@ -2693,28 +2708,19 @@
     "date": "16 Sep 2026",
     "tag": "tourism",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQTZjSi10Q3lxcWpxeV91NThyZm9sS3JzeUtwRGtpcDNTaTVjWV9mM2t1d1AzYTMtaU5EU1lDeGhyRkdwU0RQRVRqTXhPU0hLcmNwa2g0blhmbjA1UFlHYkMyRy03eGx6dkxlUThHdy15VFBCUFl5OFh6emJWX2daVFVtWGh5U3R5MG93bE5VOGhlZkhFUHYxMHFkeVRRMG1C?oc=5",
-    "rank": 18
-   },
-   {
-    "headline": "إمارة الشرقية تنظم ندوة ' توحيد المملكة العربية السعودية والأسس والآثار والرسالة الحضارية ' - صحيفة اليوم السعودية",
-    "summary": "إمارة الشرقية تنظم ندوة ' توحيد المملكة العربية السعودية والأسس والآثار والرسالة الحضارية ' صحيفة اليوم السعودية",
-    "source": "صحيفة اليوم السعودية",
-    "date": "17 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi3gZBVV95cUxQZ2JuSVlRVUJUcjlDUFV0X0hBcWJndWN1dDZmSllQOUw1RjVmaEh3ZjlrT1ZoQjk3dV84NHNGamlJUTdYYU0tMFd6YkNkcXZPRHFTQmg4ZmNNcmg5d0Z1ZldReW9xV0F6VnVPbmZtMTBFV1R0TEdTMmtiMjJ5MkRTamlwYlhhaTNMV0xYZjZ5cEo5WXh5N0ZONnBYdjdmbUxUdFQ5YXh1Sk5fNmRxQ3dpZmcxLTgtV2dxdkJkRThCb21FVjRPYUlJckNxNW5pNnpMYmUzT09DUm1iX3FKeXFqWmhVSC0xSnNMUWxIQTA0Szc1QTFfQjcyTHVuNFFITE1YbXdVZGVlM0JYQ2ZkMEtSdWNmQ2ZzVFdGUEhzX3FPeDdOclpCaDFHa2F5aTZkVHBROHl6WU9rWTRDLVBVRE1hMWlqekFrN0dOWkN2Q1Z0NV96S0JQUkpkOFFLVUhkYW1wZUVqeUh6MTU3dEUtbl9vR19Iamdicjl2cEFxOWctdDVYY3hGUnJWOE10RldMYkJyS2VIX3NuNWJlTHlmMW45RkZfVm11T3FCeHFZZDRaUm9OOXE2TkZlY3dNbU9DWnBiQlp3cE9XTDIyN0U1ZzY5V1h5VGd6ODUyY3ltX1NqMEprNHJlZ3R6eHRPSVZTN0RFOHJHMHVKbWpIWF9WZldPVGh6T1p1MjIycnJkUy0xdnEwR013aURPS0FtU3YxcERxN1RCbndNVTctR0czcVMxcXM0YlNuQU1kTVJNZVVhVTVkd3hlYjFfdFlFd1Bsd3ZEZk85VWlVTW1WdVh2c09sX0xjdjJ1N0xHOXFINzZuMTI5eEZUYWZsQWpkTkRaeTFiWTRYUE5kUFhYZVZXZ3FhTldOYzJqY0pTeFlZTDkwc04zX0taeVVrZHVxaUZYT2poODRxbmlINEJ6T3FWWWZSeTZMN1RHMUI3RTdiV2RiZGd6T3YweDB1SkNscmc5bC16UXFDdDFrRlEwXzNUTmRSTEczQmREMks0bkhWRzl4UWN0am85TW83QjZ1Tktla0Q4UmNCeGdiMWJDSkthejRJRGpGdVRFdnRRUGNXMW15NE5ZM2JlTTNXT2NTdDFRWFl0WGdVejMzMjFJVFhXbUZUc3lOLTJLdDBjNmV6U2lB0gFTQVVfeXFMUF9LVHBDRFFCTlZzdFJOeWZkYW1MUkNXcnJwenp3SWRNUi1CeWpDaXRmU2RMQ3BRTTlMd3lzNlFfWWhIOUlIZ050ZERiYnlfVzNqQm8?oc=5",
-    "rank": 19
-   },
-   {
-    "headline": "ابن سلمان في القاهرة.. هل تعيد اضطرابات البحر الأحمر رسم التحالف المصري السعودي؟ - الجزيرة نت",
-    "summary": "ابن سلمان في القاهرة.. هل تعيد اضطرابات البحر الأحمر رسم التحالف المصري السعودي؟ الجزيرة نت",
-    "source": "الجزيرة نت",
-    "date": "15 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQWlhGWTlYY2J6cFhPT2ZtcGxfb3hLMks2cVdlZlA4ajF6WkVQblJVZVBOWGpIVHgtY1ZqTFBOMUl2ZDAwX2c2Y19uLXRuRUFlSjNlOUxWazVOTndqMDNOWHRDdzB0b3hUUjRQNFlMOTNNdmNQczI2NjBMLWhDcWxkR2Nrb0J6TXBXLXVRSTRYcF9obWNLZFMwcGwzMnhKT1ozUzB4TUxmSllONml4OFpZaFlLbXRfaHdFalJMSzQzZlprd1FKSDhLcjRVVDNWa2haQjF0Wk1BazZVUHJDOEdCT2Fqb2JLOVZqNVU4T1NENFI0ekJ5U1ZDUzltTGVCUWl4MGpqUVdpYTM5VldnUEdhMEVGM2ZFNm5ZeEh3YWlGaW9OQnMyRXVGY1dMWGF4bUlRU3piSzJ4cWd3YmpnRDlJQU1yUmx4aEpNRU9QWktYc1l6OER5Rk11StIB3gJBVV95cUxQWGFlRlNiRU14OTB2ZkpMcjVhUFBHdGNiQ0U3LU5oSy1tWTNNakdOYlRhOEo5OGd6dHBBNUJxN1AyNVhGVGtnQklobTBiam4wZjY3bXlLMmhFSk5fUXgtcEZCNHVFYVRVT3M2bi1lTnZ1amFfdXN0U3VaQWNsZDVzeGh4eS1HT2xGaGsyZWNtM2t3S0NXYUlQMWZFdHVISThJWDZlbkZXbjRaN2ZFdkVrOW81OGxxS0tURUowLW5SN3l4elFpOFFmU1dsOEhuRHVYMkVQTUQwMkxHN3NaRWxyVDJscUFRY1BhV19ZU1RHTGR6Y2t2TVpNSGRxOUVWSG1GXy05WW94Y1VGNFJUU2dVdWV1NEJ4NUJrSW1ObUNDQVlabXhYaGRtZFlRc0FjZXZ4eTBwaEJpVTZsZ1phNkdzdnJreFNPU3RlanU0dDA1OEk5dDctOTlrYmZmYVl2dw?oc=5",
     "rank": 20
    }
   ],
   "regional": [
+   {
+    "headline": "Yemenis take to boats to flee as Middle East war spreads - reuters.com",
+    "summary": "Yemenis take to boats to flee as Middle East war spreads reuters.com",
+    "source": "reuters.com",
+    "date": "17 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdUdfN2t1cTlMdHJXa1FQN0ZiU1M1dklpd2llNGtrTW1ndEEwSjZqc2VNcjY0VkFOQXFmLVUzNXFYUHdQTUU1Tm1leURSclhSajZPS29nZng3Sl83eUs2clpyMS1XbW0tNXpnbDdDc25SMVB6cHYtMWY2aFdYRzZsSEtPS1FBSHpQSGp6dFF6NV9mSkJBbXM4UnNWSDYyRzJjc0RtMkZod3l0Q0ZYSzljc3JPYmVFMlVZUGc?oc=5",
+    "rank": 21
+   },
    {
     "headline": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
     "summary": "Live Updates: Latest from Israel, Iran, and the Middle East The Jerusalem Post",
@@ -2722,16 +2728,16 @@
     "date": "17 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16UGs4a21mWVJCQ2dkalNrUk9JZzNyNmdHQ3VQMlcyeG5RcDI0RHNoSjJoekhQN0NqLVo2MjRkX3hUdWR1YzJPRy1qSVZSbDNSaDN1RE9PUEtzVmdodVRmWmpyNFdkY1NtYm9sQ0dKRTVfbnlnci1EdW5ONkNhTjA?oc=5",
-    "rank": 21
+    "rank": 22
    },
    {
-    "headline": "Yemenis take to boats to flee as Middle East war spreads - Reuters",
-    "summary": "Yemenis take to boats to flee as Middle East war spreads Reuters",
-    "source": "Reuters",
+    "headline": "STRONG Pilates Strengthens Middle East Presence With Saudi Arabia Expansion; Announces Master Franchise Partnership With Healthpreneurs - Business Wire",
+    "summary": "STRONG Pilates Strengthens Middle East Presence With Saudi Arabia Expansion; Announces Master Franchise Partnership With Healthpreneurs Business Wire",
+    "source": "Business Wire",
     "date": "17 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdUdfN2t1cTlMdHJXa1FQN0ZiU1M1dklpd2llNGtrTW1ndEEwSjZqc2VNcjY0VkFOQXFmLVUzNXFYUHdQTUU1Tm1leURSclhSajZPS29nZng3Sl83eUs2clpyMS1XbW0tNXpnbDdDc25SMVB6cHYtMWY2aFdYRzZsSEtPS1FBSHpQSGp6dFF6NV9mSkJBbXM4UnNWSDYyRzJjc0RtMkZod3l0Q0ZYSzljc3JPYmVFMlVZUGc?oc=5",
-    "rank": 22
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQS21nNkszTkRPRndtVGViUy1CTUpQbktwZVJ6TzFuQk1jZ0tTOVJvV2JZQm9rWi01RGJiaEFCX1ozLTFySUVnNHpPVGtKTUlhWlY2Y25lX2pXS3ptZlFKbVBrQ045dE0zZDFwRGZLQ0M3cEhWYlF5bElRNmgzdnhvZDFkQzNRQmNVVXdKTVdyUlJpdThheFBCTzE3UlhCSjMwa21WTzRMdGxNVU5zenFCSGVPdWM2YlA0amRWWG1KajhSZ1VYd2lLQmVvMVZsRV8wVFV5dk8wMHNPSk5iMllJa21wT1lkNXAzTHNoR1lVZVRJTHlBdURhdVliMFotbmpTR2F3bWE4U0dIRERqWXJRNk5MX0x2SEdJRC1F?oc=5",
+    "rank": 23
    },
    {
     "headline": "'Few cards to play': Saudi Arabia faces limited options against Houthis with allies out - Middle East Eye",
@@ -2740,7 +2746,7 @@
     "date": "17 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdUpoN2ZHR0JSejhvSWlfY0phdGpGWDA2YWVfNmUwcGw3bXRYSmRPUEV3a3Fxb19qZ2ZOYThUekI2dGZETE5scHFpM3FTSWZEVFQ1OE1sUHJ4T05rbGhnLUMzNDViMkxvVlhpbkJleWxKdkFtQ3pMN0RHd0lEYldwa01rbDVwMHlLVEdzQ09FamEwSnZEV3FSZkNqd1ROTTdFOFNZa0JBckIxWWQwVWZQSGZUUENUY205R2pObVE3ZVdkZw?oc=5",
-    "rank": 23
+    "rank": 24
    },
    {
     "headline": "‘Limited and Pragmatic’: Saudi Analyst Sets Boundaries on Cooperation With Israel - The Media Line",
@@ -2749,25 +2755,7 @@
     "date": "17 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX0NPTnRfN3hkZFljR3hVdDZGRG9BYWNsRmkxT21ORlB4UFc0S1ZUQUt1QVN2S3hyaE9iZl9vNGRJUGVnMnJDVHVLbUlBb1lhMFlHc1JTOVRBTHhOTkJoaXJCOHdobjdNd2ZrcTZjWDR4dmIyUjFqMF93cVBMUXZQVGk3MTl1RGtwZnBxWjdSWTR2LUMwMDdYUUU1QXBKVHd3Q0ZDSE5PSmQ0alltaTdTVWVBVW5uN2c?oc=5",
-    "rank": 24
-   },
-   {
-    "headline": "House speaker declares Iran nuclear issue \"taken care of\" - CBS News",
-    "summary": "House speaker declares Iran nuclear issue \"taken care of\" CBS News",
-    "source": "CBS News",
-    "date": "17 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXp0eWtpUmdlTkZzTzBhcTRLYkpaSE1vWEFIY09xR3JjcFhYRVhoMlVjcmJYVWdROU9WZENBNEt5NXVncjBmaXA4R1FVRExBOGNVSlVxV0FZYzl1Q3RnNGVrdEpncWFqNVZBQ2gzZnYwbF9Sa1g2Z2R4Y2Q1RHpVbTNB?oc=5",
     "rank": 25
-   },
-   {
-    "headline": "Saudi Arabia accuses Houthis of targeting Mecca, calls it a 'red line' - France 24",
-    "summary": "Saudi Arabia accuses Houthis of targeting Mecca, calls it a 'red line' France 24",
-    "source": "France 24",
-    "date": "16 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNjNLVko5U2lfUFFoRldlZ0tYNGI0aHdRYW1NeEppcE84SzNDdUxSNEtOOVdBQzl5VDlwNkZHbXk5RTJ3YzMyZUQ1RTkyeGdMc3lSVzNCa1Z2Y2NjSko4ZGRHSXc3MDRDMnVlSDlDUklJY2Vxc3VCUW9lTHlIeGZKYkhHTm00VWZfc0FmWFJsX1FaSHd3SG9FZGZNQlFaeWc2c1RhR3d2TEJHTWpJdzFvYU11aGxiVDJTbXc?oc=5",
-    "rank": 26
    },
    {
     "headline": "Aftermath: A Second Middle East Front - The American Prospect",
@@ -2776,7 +2764,25 @@
     "date": "17 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZkNIYkZENjRjd3l5aTZSRUJWNjc1NjI5WWlnSEJzX2VpWTZEM1VMRkVUcENmZFlnMTB5clY4a0pLcFpXcGp3X1dVTXVQNW5ESHowTXN2NWVjdnlGZS1Vb053bE1RNW1PUC1kaWF6R3hpTWdmckNTLXdRZTg1bjdwYTMzb1pOTGlx?oc=5",
+    "rank": 26
+   },
+   {
+    "headline": "House speaker declares Iran nuclear issue \"taken care of\" - CBS News",
+    "summary": "House speaker declares Iran nuclear issue \"taken care of\" CBS News",
+    "source": "CBS News",
+    "date": "17 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXp0eWtpUmdlTkZzTzBhcTRLYkpaSE1vWEFIY09xR3JjcFhYRVhoMlVjcmJYVWdROU9WZENBNEt5NXVncjBmaXA4R1FVRExBOGNVSlVxV0FZYzl1Q3RnNGVrdEpncWFqNVZBQ2gzZnYwbF9Sa1g2Z2R4Y2Q1RHpVbTNB?oc=5",
     "rank": 27
+   },
+   {
+    "headline": "Saudi Arabia accuses Houthis of targeting Mecca, calls it a 'red line' - France 24",
+    "summary": "Saudi Arabia accuses Houthis of targeting Mecca, calls it a 'red line' France 24",
+    "source": "France 24",
+    "date": "16 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNjNLVko5U2lfUFFoRldlZ0tYNGI0aHdRYW1NeEppcE84SzNDdUxSNEtOOVdBQzl5VDlwNkZHbXk5RTJ3YzMyZUQ1RTkyeGdMc3lSVzNCa1Z2Y2NjSko4ZGRHSXc3MDRDMnVlSDlDUklJY2Vxc3VCUW9lTHlIeGZKYkhHTm00VWZfc0FmWFJsX1FaSHd3SG9FZGZNQlFaeWc2c1RhR3d2TEJHTWpJdzFvYU11aGxiVDJTbXc?oc=5",
+    "rank": 28
    },
    {
     "headline": "السعودية ومصر تبحثان التطورات والعلاقات - الشرق الأوسط",
@@ -2785,7 +2791,7 @@
     "date": "17 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi8gNBVV95cUxNX1JpWEhQUm05N1BKUzh4dmVVa296NUJYVGliLVhJdXZuVlgwRVVnd2NBWlNzRFRvMzlJTG4wbWtOY0lqalBOMjJMZTU0clRjaDhhOUdHbmozVzBPOTBGT01KMVh5a1BjRTgwUFpQcWpCVnRGYVBOVnRUUlpRNGJqWi0tMktQWlJTN19lVFl0Tk01OExrWUtHVGxmSElWazB0QjJmempHelQ5SUVJNTd4dEgyWnpEaDBTRDNqcU1YeHFpV25ienN6OXNzSzNfQXVfNmhNVVFsRWxlMUdCcjdhRFVfdnFMV1gxSUdxcGN0Y0h6ajQ4VjFXSF9ybEYzejNFLVlyZ1RBakV2V3BNeW1jSWhnX2dXUUJEb3lKWkYwYUMtMkZvUGVjUEFncmFKemRQcXgxS3M1MDJ4clhSWE1qeVQwOTg4elZ0NmRzWTItNHFYamlUVWducFZ6NTMzcl9iTVZMZTRHWkNwZFZWMzAxSDZzT1hJaThISWFwS2l0VFFuVzl6ekp2ZmpYQkNGazF3RFdVNG54VGpRSTZWUnRtOWU2UmE0UUl4UmMtM2ZoYU5Pa0lrX3cxdVlZc2Y2b3dRY2RxX1pjYlM5MkFlLVM4bzVlb1d4bXRLTkFpVWFyb2dDMkhmNjUzYmtKcXpyLU9iQ0E?oc=5",
-    "rank": 28
+    "rank": 29
    },
    {
     "headline": "السعودية تعلن «زوال الخطر» في 7 مدن بعد إطلاق الإنذار المبكر - الشرق الأوسط",
@@ -2794,7 +2800,7 @@
     "date": "17 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi2wRBVV95cUxOa3p4UGF3eHk2Y0thMEIyekJCM0FaN0ZSZ0JOTU1QZ0FCWlhtdGpHQTRHREE4MVNVMndya215ZzVwek9wUzUzM1g3UXdTRW42TW5JcDE5a1E1a0FSV3ZwbmcxNU56WW1RY0hDRmZYRVpvcW1KTFVnbWZtc0M2Mk5XOXBlT1RxMTlZRkVEQUVSNG9sTm1SeWRVMERETUs4TVl0ZXBJbTBMN081TWlWbEdZUHhHeklKU3RhbXpvWmZKUENRTHpaVEVrWm9iZnhuLUo5NE95SE9tNkMzZlRFbl83YlJYamV0Q0tEemtJQ3FmcE13eGxNY2xxZWNwRDdma053WTlxdXJrVG56emNYUVk0d0U2V0drakJfSmNrOHJDWk5VY3ZNb2tPUnBWbkZjaVJBdXBtRmlaaDdyNHY0VlFuNW9iUXBkLW13MmluUVNCaWJ2Zzdydm42VWxyZ01pV3cydWJKeUMwRXUzSnl6bVl6X2RhNzRjZC1wN1VjUzBpeVduaUFfUjVmRTJkLUdxVS0wbmpzdE1SdVF0M3laNG5jOFdkMzFCcFlCb1FHZzlycVdHbTRBMVFZeUZmc2pSeS1WVllDaThXd0xxNTBfNjA1ekthaEZTVU90S0loZkIzVDBTN3BEaWZvZ2NWell6SEgzQ1laVVZMMWZ6SU5LNVNrNTBPYmdCQ1hnd1RzTjRQNmhadWJyR01PLUJHMUR1UUl4Sk9pbGdZUncxWk1VaktRUGxfTXI4ekl6RWo4Q1JhbjgzdUg1LTczMjVqTFhvbXFQbGQ3ZXZvV1M5OWM?oc=5",
-    "rank": 29
+    "rank": 30
    },
    {
     "headline": "ولي العهد السعودي يصل إلى القاهرة والرئيس المصري في مقدمة مستقبليه - الشرق الأوسط",
@@ -2803,15 +2809,6 @@
     "date": "16 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiogVBVV95cUxNbG04bzNSNkU1a3F5TjlRUVhhRXUyNHFpNElDWllpN29zcVJDSEx0RWQ5czJhd3hodThjVHJBTW5BeG50YnpYenFhVjYtVHV3Um1zNTY1cTVyRF9yTF9oOHFzYjJPRzNGNWFWUXhmMVZzR0poQ0VfQXYtbTAwNS1YSVpNQ2d6TUtEV0hVVzdQcUl1U0VjRDIyTmxDVXo0YVM1bjlLNHRvU3hrLXJ1eXFVem1uSjhmTzNNT2haZmVMYi1udS04akdJV082WXNDOUZGR0hrRVoxVzJLWS1MS3I3MjVPZUs1SGl4RGV3aHNuMUdCaXB4Vjl4VG85eUZOeUdJeVNmc2MzVnlwWkFMejE3eWloUlNhX1lVdGdDVGx1SmJSTWI1d2RvdU1TQ0ZJNFA5UWZkRmQ0M3pmZW93THZJSXdXQ2FSWF91SElWeEs4VDFzVElMREhxZ1FvUDBIQzdYX2FuSFN0N1lKVG1yYkl3ODBIOHVEdHJURU80c1hWZEk5b3ZxZ1dzR0xhaDVPb3JnQXdTOGQ5c2NGbUJDMURIY21wdXpGNWZyaUlyeDZ5dTEtMkVqM2ZraFdRNm5CblVrZ2RBaWxOSXVsX3dBYi1fWjh5UEhIdmFKR3lxc0ZleVRrVzQxckFRb1VBcmxlVlJ6Mjd1SW1OckJuQlJSbUluNDBWZjAteHFxN3pORHdEbnBSWktXY2ZvWU1zWmljUmhQS2FiRWZiUFpiaVpSeVh4OC1YTUhBdDVKSFJpeWlLcXA4d1dqS2FmNXhPRWxRR1hjU1RjWVhFZ3ZYMDdYZy0zLVJqa1ZpVDBFa2ZqN19KWGJDWXl2NGJqd3VOcEZQbEd4c1JQZHV5ZHFVd1ZLYkl0Y1o5eG94clFBUEpXdkJlY3B2Zw?oc=5",
-    "rank": 30
-   },
-   {
-    "headline": "«ستيت ستريت»: السعودية تملك فرصة فريدة لبناء بنية مالية رقمية حديثة - الشرق الأوسط",
-    "summary": "«ستيت ستريت»: السعودية تملك فرصة فريدة لبناء بنية مالية رقمية حديثة الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "17 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMivwRBVV95cUxNbFBFaHVYdmxsbGhQaE1pc1Fldk0zNnlaVXZZZzFMN2Z5ajhiQkQ4eHdDc3dsRjZldzJCbHhnMUFRNVBGM0RVR1NQNnR4RmxYbHJUdHpocGsyZjZuYWllVVB4SG5pOV9YemRiR1ZlNkpPOXAtX1J4aFZMRlozanN3ckhTeUVaQlk5VGVvSnU1NXRLTFc1Ymg5dmoyMWMybDQzZUxibnNJbUxLUEdLMEJyUHk0M1dIOXNCR2tHa0F4ekpuTjNzZmRrRGk1Rnc2aXpUcE1FZ3J0a1U4SXc0ejhzdXBsZG5rWnhuMVF1QWZCY0ZHRDlfNHBEU3hmS0ZXdXU5Q3l1YS03azB6WWZlUG1Qb1Iwa3hyWjFFOEtCWW5Hd1lXbTBsQzlCVE5RQ2RkQ1VTMVBhejB1OVJtbGVDRV93RDZpWVBwMTY0ZVFmb1UzR3IwblNuZmt1OVZsakN3cElFanVfdVp4NHJBVnFXVkoxVmdYZ1pfWVh3YjVHb1FWX0VlbUlVYXJ6RERQSGFSS0dnWDE1dmt2ZVVtLU5uaTVZbWxYVlFkd3hSR1BWYkpsME05NFBHeFlncG9oN0N3TXl2UHZRNzJFclFuZzJyTGpzZzJ5TmJwRnpNTnh0c25lQlBoa3RQbnB1NXUzWXVvUUwyQkpkV05IQkVHS092NkNyTW44ZGNjaHZvNHc4NXgzcWRTSkIyQmZSbk1CX2ZBZjBzZEVxdy1rRTE3Z0htVFFLSTItZUtyQ191R2lXYjJIUQ?oc=5",
     "rank": 31
    },
    {
@@ -2824,31 +2821,13 @@
     "rank": 32
    },
    {
-    "headline": "سيول ترجئ كشف خططها الاستثمارية في واشنطن لحين توضيح مسائل إجرائية - الشرق الأوسط",
-    "summary": "سيول ترجئ كشف خططها الاستثمارية في واشنطن لحين توضيح مسائل إجرائية الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "17 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMizwRBVV95cUxNVHZwQlEtX1QyaW9aemRCRkNZSjctaGsxaGYyMmtQNWgxTDZqT2xXMkZ5dmw0WVVSeHVjbEpVY3J5Nmg0alVYSV9fMjFfem5lYXpWZFg1TXFwMDQ5UDJkSXM5VVo1SGttTXVXakRWazJJRFByOEJQTmExSUJLSnMyUTZ0UXpPQ2c1T2ZGVDBvc0l2a3Vkb3RUTTVCYzQ5SDFCVGJ3TDVzaXRHSXAxWWkwaGVoNlY4d3pWUzd0Wl9vWWxUZ3ozOGN3STh3bHhFZ183Y25TVnd0emdVVjhsemdYMnZ0a2VyNEd3bE9iLUNfbk5vcEFZRW8yMXNBMENLMDRNYW01T3Z2QzBhS0lmY1VzbkZLR2JJTHFlWm90ejA4YmFqYk1IWGFNeUdtSlhWUXp2TmxWQ3JBTXBEdGNqM3YydzR5QzRPb245YlpTRjg3cDM1aUVpNWRkZGJHUEV4bFM0em5pWEtRQ2lhTHZDTXFydFYxQXlNZU0yOHRseThJeWEtOTgzSnJ0YVluQmtlNEZaNlM4d3BoQlhyU2l2S0hjYmlfWlp3eTR3RjV4SF9LODVqV05raXE1LUJqeEc4dnlVM0FiQkN2NzZsWEMtYzFGMU8zakE0N3BPR0xldmNMbDJNb2FSWFBQQjBuZDc2cmhVZEV4b2FaSFd2dTdrdTJwb0k2X3dObDZxZTVTMkp5VnNfOExUYlV6ZjFtd2F0YUdHRmdfMGxFWUNMWFMwZExKNEdNQTRIaTB4Z1hmTFlnbHhvWjVHV1BNRUREeUhrR1E?oc=5",
-    "rank": 33
-   },
-   {
-    "headline": "موانئ السعودية تتعامل مع أكثر من 341 مليون طن من الشحن خلال 2025 - الشرق الأوسط",
-    "summary": "موانئ السعودية تتعامل مع أكثر من 341 مليون طن من الشحن خلال 2025 الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "17 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMigwRBVV95cUxNWVl2NzhKbVVJdnI5bHhFVFo1X19HTmE5NncwT1NEdWMzUWVKTmJmM2ptdDRlOUh6TGFDTFpGdHpiNnBrbkdoczA3QW9VZlBHeVVxZWNfdEFKTlhaUWZmTGFEQjFUdDAwOWNCSDJrRjJNblJHTHlnRGI4V20zM2JDckxoeldHWGRPNDNabmRMbm45cXEtZWxzZHdzbkx0TkhiSk1lWnJEVVRWWXh3R0tNN3l4MFhLZmpQX2JkeFBSZlQ0TEx3VGxPTi1RM3RfYjR3aXNlMmxfYUxXa3pYWmVYbTJOUDJqZk1EdEJhcHNQVFJVdXpLLVNsSFJpTGs5TFQ0dWY4OGZ2VTJwdHhqQzNXbmFkNnpydGU1TWppOUdFb19telRiWDd4Y2pIcElKenhFNkJ2ekx6Q1FuSHNQS1hpRXlpdTZmTVEtRkhaeGZtQXQzSDhKWkZ5SHZDbXEtNTBTZ3JITmltWTk4NU1kc1YtZDBWdS1mZE9JTlhBRW9kNWRfYUhETU95eURVRUhCUkJDLTM5OUtiSGZNUzFjQlR0TF9Qd0lTU0RvY3czVmhXY3hlR3JEazREdTlMYlJLY29uRUlxaXJ2UUcydTFNcE5KQnlPQmVFUXRndnNCMkNDa3M5S0NSXzNPNHF5bDdncTREd0t0MnJERjh5SEY4OHpDUFAxWQ?oc=5",
-    "rank": 34
-   },
-   {
     "headline": "«إنتل» لـ«الشرق الأوسط»: التحدي المقبل في السعودية ليس الحوسبة بل تحويلها إلى قيمة اقتصادية - الشرق الأوسط",
     "summary": "«إنتل» لـ«الشرق الأوسط»: التحدي المقبل في السعودية ليس الحوسبة بل تحويلها إلى قيمة اقتصادية الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "16 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiogVBVV95cUxQMDFJeDdnRlBQRVJ2MVpOVTZlZzJNTDlQdzViVm9yUmRuUGQyazdPcFBzMkhBS3c1RlBoOFg5Yl9HUXFBd3lkZjdXcy1ZWE1ldERXeXhhUV82XzNKa2ZMZWxlNUN4bmFNYUQ0b3M4NndjdXh1a3BVZjZSaGJDV2x4aXIwYi1nZnBYeTdfQ1ZBYWtHYk1vaC1idm1oT2Y1WmJjaEgzdHdRSkJfV0taU1B4SHRISFhrUXNKRWplTXlNZnktZ192WkVQS09sdWpPeVdCcDBnTGgzQXJaVUZta0VtSW5Mc2VkVzA4UWJVM2lsSklEM0lFaFRZZC1TbUVOcjB3d09UTWttOUZpMmhseGZpcXNzT3BxVDVaZjlpeWdZZUVtczhzNF9MN0tQUXdfeTZrZUIwQUxJcHBHcTN6T2NpNjRzd0hvaTdBZjJ4V3VlQ3h1b0tuSjRXSmRkOHk4OUdHTWtDNUZuX1hUbWw1MkNpdG1nbzVSUjlIbG0xNTk4S2tOaUtOcEpicUJlYzJ3UEpOZ3dLd0tqOVBjdE1SbGxxY3Y2bEtqUVVZVWFEcW1QaW9MSTlTMGNpdGRCQTJtdXdJNVBIbXFQb19XREtaa29YeGg1dHhJODhYQTdYS19vaVRIQ1ZmNlJGTG9wY3pwc0RFQjh0S0RYX2JPUFlWWXdpZmd0Z1czajc5bXg2VDd1U0lrbHdyOUtPNklLbFpuV3RFMTZqYU9pSlI3NGsySWY3azY3ek51VmFaUVNqdFpHa3h1VmpHWFZ4MFpIdmNTSW5DLXNpRXNKZlctM0pEakxYSEJuVkhrUldQUFVlT1JpNjZTTXJLbHYtUWZtTVVkeldTb09LdFE2eHBxNVpmaTVvNE9RQVptZzBQSV91WjVwS05sdw?oc=5",
-    "rank": 35
+    "rank": 33
    },
    {
     "headline": "النفط يواصل التراجع مع انحسار مخاوف اضطراب الإمدادات في الشرق الأوسط - الشرق الأوسط",
@@ -2857,16 +2836,43 @@
     "date": "17 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxPenpYOEpfeDBLSUxMMjBUTURlQm90R3Z0ek5pU1gyWVlobF9IelpoSEZ6X0hoVHlQVnpoQTZKSmZqT0dMTV9KbDZDaDJER3NiT1hMSUUzMGNYVC1sNHlmODlLcW9rNlRRcklJX0p4OTYzcU5LSTFwTjg5UUFMYVRmNjJqVS1VVkFLQjVHQ3BWaW5qWGtLejBZd2RZQzE4QW5yeGZqTjhTaEZRMXFrT1RyYUxINTlxaXFJamg5akUzaV81U1A2OVZhUlpjempvNWtFVmFNTDZYVl9nUjVQNndhSnJ4cXZ2eDhITktuNlNBdjB2Q1ZCNTJxRTA3dFFNWnczZFIzajNHbVUySTVNeGJ1TGxXR0pWaHhkbFpvbEdOdHFYSXhHN2JFOWROeldQQXJaVFk2c3BZSHN0ZjZ0U0Y3eUlwVUNGaGRkWF9YRGJ4ZndjQVFtWWRoUV9ETHlGR1VpMFpGR1oyNlhKTUR1UFJnaWQ5RFloODdqVDFoWUIwUnY0MVJoSWxzRUV5eC1hYWVnRVNMdFFteWtJQjU1M1RqN1loUVA1cUFST1Q2eUZVNk5SenBLYi1mX1RZZl80bkt5LVpPU1dlcWgxVWdGSXVJLWFqMjVsQlducVJJX2kwYW00YkI3OFlhYlhGVHNieTByanI2dG94SnExR0Qwd2dxM3hIMHNWRFk2YXh1RjY3YUZhZGY0bHdUdWllVWNzalg4ZWx3U3pEQjN6V0ZQbHRmanFFT3lRM3NuQl8wMXB1UGpQakhBbmtBQks5VEdwUnEwQWFGaHlVWC1ZTnc3cmg0?oc=5",
+    "rank": 34
+   },
+   {
+    "headline": "موانئ السعودية تتعامل مع أكثر من 341 مليون طن من الشحن خلال 2025 - الشرق الأوسط",
+    "summary": "موانئ السعودية تتعامل مع أكثر من 341 مليون طن من الشحن خلال 2025 الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "17 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMigwRBVV95cUxNWVl2NzhKbVVJdnI5bHhFVFo1X19HTmE5NncwT1NEdWMzUWVKTmJmM2ptdDRlOUh6TGFDTFpGdHpiNnBrbkdoczA3QW9VZlBHeVVxZWNfdEFKTlhaUWZmTGFEQjFUdDAwOWNCSDJrRjJNblJHTHlnRGI4V20zM2JDckxoeldHWGRPNDNabmRMbm45cXEtZWxzZHdzbkx0TkhiSk1lWnJEVVRWWXh3R0tNN3l4MFhLZmpQX2JkeFBSZlQ0TEx3VGxPTi1RM3RfYjR3aXNlMmxfYUxXa3pYWmVYbTJOUDJqZk1EdEJhcHNQVFJVdXpLLVNsSFJpTGs5TFQ0dWY4OGZ2VTJwdHhqQzNXbmFkNnpydGU1TWppOUdFb19telRiWDd4Y2pIcElKenhFNkJ2ekx6Q1FuSHNQS1hpRXlpdTZmTVEtRkhaeGZtQXQzSDhKWkZ5SHZDbXEtNTBTZ3JITmltWTk4NU1kc1YtZDBWdS1mZE9JTlhBRW9kNWRfYUhETU95eURVRUhCUkJDLTM5OUtiSGZNUzFjQlR0TF9Qd0lTU0RvY3czVmhXY3hlR3JEazREdTlMYlJLY29uRUlxaXJ2UUcydTFNcE5KQnlPQmVFUXRndnNCMkNDa3M5S0NSXzNPNHF5bDdncTREd0t0MnJERjh5SEY4OHpDUFAxWQ?oc=5",
+    "rank": 35
+   },
+   {
+    "headline": "«ستيت ستريت»: السعودية تملك فرصة فريدة لبناء بنية مالية رقمية حديثة - الشرق الأوسط",
+    "summary": "«ستيت ستريت»: السعودية تملك فرصة فريدة لبناء بنية مالية رقمية حديثة الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "17 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMivwRBVV95cUxNbFBFaHVYdmxsbGhQaE1pc1Fldk0zNnlaVXZZZzFMN2Z5ajhiQkQ4eHdDc3dsRjZldzJCbHhnMUFRNVBGM0RVR1NQNnR4RmxYbHJUdHpocGsyZjZuYWllVVB4SG5pOV9YemRiR1ZlNkpPOXAtX1J4aFZMRlozanN3ckhTeUVaQlk5VGVvSnU1NXRLTFc1Ymg5dmoyMWMybDQzZUxibnNJbUxLUEdLMEJyUHk0M1dIOXNCR2tHa0F4ekpuTjNzZmRrRGk1Rnc2aXpUcE1FZ3J0a1U4SXc0ejhzdXBsZG5rWnhuMVF1QWZCY0ZHRDlfNHBEU3hmS0ZXdXU5Q3l1YS03azB6WWZlUG1Qb1Iwa3hyWjFFOEtCWW5Hd1lXbTBsQzlCVE5RQ2RkQ1VTMVBhejB1OVJtbGVDRV93RDZpWVBwMTY0ZVFmb1UzR3IwblNuZmt1OVZsakN3cElFanVfdVp4NHJBVnFXVkoxVmdYZ1pfWVh3YjVHb1FWX0VlbUlVYXJ6RERQSGFSS0dnWDE1dmt2ZVVtLU5uaTVZbWxYVlFkd3hSR1BWYkpsME05NFBHeFlncG9oN0N3TXl2UHZRNzJFclFuZzJyTGpzZzJ5TmJwRnpNTnh0c25lQlBoa3RQbnB1NXUzWXVvUUwyQkpkV05IQkVHS092NkNyTW44ZGNjaHZvNHc4NXgzcWRTSkIyQmZSbk1CX2ZBZjBzZEVxdy1rRTE3Z0htVFFLSTItZUtyQ191R2lXYjJIUQ?oc=5",
     "rank": 36
    },
    {
-    "headline": "«السعودية للشحن» لـ«الشرق الأوسط»: الذكاء الاصطناعي يرفع كفاءتنا... ونعد لمضاعفة الأسطول - الشرق الأوسط",
-    "summary": "«السعودية للشحن» لـ«الشرق الأوسط»: الذكاء الاصطناعي يرفع كفاءتنا... ونعد لمضاعفة الأسطول الشرق الأوسط",
+    "headline": "سيول ترجئ كشف خططها الاستثمارية في واشنطن لحين توضيح مسائل إجرائية - الشرق الأوسط",
+    "summary": "سيول ترجئ كشف خططها الاستثمارية في واشنطن لحين توضيح مسائل إجرائية الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "17 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMizwRBVV95cUxNVHZwQlEtX1QyaW9aemRCRkNZSjctaGsxaGYyMmtQNWgxTDZqT2xXMkZ5dmw0WVVSeHVjbEpVY3J5Nmg0alVYSV9fMjFfem5lYXpWZFg1TXFwMDQ5UDJkSXM5VVo1SGttTXVXakRWazJJRFByOEJQTmExSUJLSnMyUTZ0UXpPQ2c1T2ZGVDBvc0l2a3Vkb3RUTTVCYzQ5SDFCVGJ3TDVzaXRHSXAxWWkwaGVoNlY4d3pWUzd0Wl9vWWxUZ3ozOGN3STh3bHhFZ183Y25TVnd0emdVVjhsemdYMnZ0a2VyNEd3bE9iLUNfbk5vcEFZRW8yMXNBMENLMDRNYW01T3Z2QzBhS0lmY1VzbkZLR2JJTHFlWm90ejA4YmFqYk1IWGFNeUdtSlhWUXp2TmxWQ3JBTXBEdGNqM3YydzR5QzRPb245YlpTRjg3cDM1aUVpNWRkZGJHUEV4bFM0em5pWEtRQ2lhTHZDTXFydFYxQXlNZU0yOHRseThJeWEtOTgzSnJ0YVluQmtlNEZaNlM4d3BoQlhyU2l2S0hjYmlfWlp3eTR3RjV4SF9LODVqV05raXE1LUJqeEc4dnlVM0FiQkN2NzZsWEMtYzFGMU8zakE0N3BPR0xldmNMbDJNb2FSWFBQQjBuZDc2cmhVZEV4b2FaSFd2dTdrdTJwb0k2X3dObDZxZTVTMkp5VnNfOExUYlV6ZjFtd2F0YUdHRmdfMGxFWUNMWFMwZExKNEdNQTRIaTB4Z1hmTFlnbHhvWjVHV1BNRUREeUhrR1E?oc=5",
+    "rank": 37
+   },
+   {
+    "headline": "مندوبو السفارة السعودية يرافقون الأهلي إلى بريتوريا - الشرق الأوسط",
+    "summary": "مندوبو السفارة السعودية يرافقون الأهلي إلى بريتوريا الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "16 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMivwVBVV95cUxORTBja3hneUJCRUxFWkJVODNqUXdUaWhHdkpsYUgtWVg3OTFIVHVoc29raGVlV2pSb3RwNjNvbkN0MlhQOVh2V1ptVTR3dzJkZFRlOU81OGR6SFhPeDVTTVhjVWVHTG10VUFQd280NUZndkdLTkFxN2NwUUx1TUVpajBrc0ZEVTdjbzNvWFNZTFFXVVNPUlVZcG1ERWNFaTVodEpmSG1Wc25LWVRiVlVTTnpLVlNkMDI4VDFveDAydkh0ekxwRkJCVVN1eGZFZmVXRjJ3NGVobGJLVlI1ZzU4anVMaGNfa0wySG04NW02QlpNamIycE9Md1pNcVVsUERBU3RQQ3A4X0ZBUTRxck01N1B2OXFvN0Y1ckJSSEJhSUVCT1VvZGtWZnRjV1lYbUMtYU5SNW5DODFTNEkxamN3bEw3bTZlYWFZaFdQQUxQQWFJa0tFeWNzcmtzOXlYblNVQU5Lb1NkQWkxODVtSUl1WUR4X25iQjhlZ1NJWnJzaHFZNlZiMlpTQllsOGpvcENWV0dGbkZuSzVyTTlfSGdUQ2ZkeTF3OTVGYmdrdWN4ZDdBeEMxWXE5TW81eVBoMDdGTVhMaVZHUll3X21CN0I5b3JjVWtaWnU1T0VJb1MzSmo1bk94Y2pONVdrbTNPVHVQeWtqN19QYTVTQkRwMHVidDFTenkxbkVxRkdJdGlXX3hXWGI3OTBNTDFUc0t1QWp5OTB4cG5vcy1qOUt6SFBKbFBuQlNVRHFEVEhPNFlHZlA3dXVadlNqTF92OElLdWZfazJBNkdwSUFsMVJWNXA4NkRCRlprWVFBd3YyWWRNRnJXV0tPanpET3NhanJDSWpOQUItU1JJU2FfX2k1U2dsUjJtbnphaWNNRWp5blRTTU5JakI1S1ZpQ1NaeDZObDBpSklyN3lMclV0V3YyYjhF?oc=5",
-    "rank": 37
+    "url": "https://news.google.com/rss/articles/CBMixARBVV95cUxOelpfN1pSeXYwLWhFaFhBSWlVWVBHakhJVGo0R2IzcjZFUTN5a2JEdVQyTXI2aGZrSk1RSFl3ZmRSQncwWGlHVXJWZWZaR2N6U0tFZ1FhaXJPUmk5VnRtM0VJdXRWTnlGRlJfOHp2UDFLNklBMEZ5VUlRSV9udnpwY3hMekZfa3RiMjV0c1c0aER6ZldEeFlDUmhBRlZvdUlnUks1N0xvVzhxMHBLbUtNdFZBRVZvYlRrREVobENTTTFhQ201NDZENlpueU1qNlQzalFTeE5oRG4yeWFmXzNLalNIaVF0NFpnS3RkYWhRcEMxT0NxUElpRjJwVmxmQkZTcFp0VTdUYUY1OTBBNVJIVG5IbEFJRDN2a2tzUG5Yd3BCMEJrc1J6cE04VHRHaWVYTkctS1g0MjhpY0JhWGhIY0N1WlpVVEhUMUpyNEJ0SmN5MkUxQ2g0VnZFazJLczJwRG05NnpuNUtvSVlWdy15a0lWajJCR2ZhTFl3YUNqRVVLVk9QNjByVTRxak1xRkZZRzlFdHA4NWRCdU56Qzd6TWRHUkZuWmdKbW1UWHVONFZVclc3MnRRUkZEOEJObHpvQjhMTE9qTUZCOE5rTzNjcldYeVR4NS1sbklybmNBalhJTFJQSnI5SkYzcnI5Ym8xbnU1SEF0T2RUa1BubHdpUjc2VEJ1ek5uQVBqOG5ueHNISGJXdW1BN3JzQnVuRDBUc1hBX0xiVUlJaDVzRGRxYzM3dDZxTnQ3WnlpYVJSeWF4V09F?oc=5",
+    "rank": 38
    }
   ]
  },
@@ -3199,13 +3205,6 @@
    "confidence": "high",
    "at": "2026-09-17T09:00:28.149610+03:00"
   },
-  "#الحوثي_يقصف_مكه_والمدينه": {
-   "english": "#The_Houthi_Shells_Makkah_and_Madinah",
-   "summary": "A hashtag accusing Yemen's Houthi movement (the Iran-aligned armed group that controls northern Yemen) of attacking Saudi Arabia's two holiest cities, Makkah and Madinah. It clusters with a parallel hashtag about the Houthis 'targeting the qibla of Muslims', so it reflects a wave of outrage posts over a claimed or alleged missile/drone attack or threat — the specific incident behind it cannot be verified here.",
-   "kind": "news",
-   "confidence": "low",
-   "at": "2026-09-17T09:11:01.442396+03:00"
-  },
   "بنك الرياض": {
    "english": "Riyad Bank",
    "summary": "One of Saudi Arabia's largest commercial banks, headquartered in Riyadh. It typically trends around service outages, app problems, new product or salary-advance offers, quarterly results, or sponsorship and National Day campaigns.",
@@ -3232,13 +3231,6 @@
    "summary": "Islam's holiest city and home of the Grand Mosque and the Kaaba, in western Saudi Arabia. Here it is trending alongside hashtags alleging Houthi attacks on the holy cities, so posts are likely a mix of religious devotion, solidarity and news reaction.",
    "kind": "religion",
    "confidence": "high",
-   "at": "2026-09-17T09:11:01.442396+03:00"
-  },
-  "حجازي": {
-   "english": "Hijazi / Hegazi",
-   "summary": "Either a reference to the Hijaz, the western Saudi region containing Makkah, Madinah and Jeddah, and its distinct dialect and culture, or the common surname Hegazi/Hijazi — footballer Ahmed Hegazi, formerly of Al-Ittihad, is the best-known bearer in Saudi sport. The words alone do not settle which sense is driving the trend.",
-   "kind": "other",
-   "confidence": "low",
    "at": "2026-09-17T09:11:01.442396+03:00"
   },
   "الحرمين الشريفين": {
@@ -3366,6 +3358,34 @@
    "kind": "politics",
    "confidence": "medium",
    "at": "2026-09-17T14:46:58.471702+03:00"
+  },
+  "#HouthisAttackMecca": {
+   "english": "#HouthisAttackMecca",
+   "summary": "An English-language campaign hashtag accusing the Houthis — the Iran-aligned armed movement that controls much of northern Yemen — of launching missiles or drones toward Mecca, Islam's holiest city. It pairs with the Arabic hashtag also trending, '#The_Houthi_targets_the_qibla_of_Muslims', and such hashtags typically surge after an announced missile launch and interception, framed as an attack on all Muslims rather than just on Saudi Arabia; the specific incident behind this wave cannot be confirmed here.",
+   "kind": "news",
+   "confidence": "low",
+   "at": "2026-09-17T16:00:27.406258+03:00"
+  },
+  "#نك_ال": {
+   "english": "#nak_al (possibly a truncated form of 'nakal', meaning exemplary punishment or retribution)",
+   "summary": "The characters do not form a clear word as written and look like a cut-off or mangled hashtag. The most plausible reading is 'نكال' (nakāl), Arabic for severe exemplary punishment, which would fit the retribution-themed hashtags about the Houthis elsewhere on this board, but the subject is not determinable from the words alone.",
+   "kind": "other",
+   "confidence": "low",
+   "at": "2026-09-17T16:00:27.406258+03:00"
+  },
+  "التميز المالي": {
+   "english": "Financial Excellence",
+   "summary": "A corporate or government-sector phrase used for financial-performance awards, rankings and conferences — Saudi ministries, banks and listed companies run 'excellence' programmes and prize ceremonies of this type under Vision 2030 governance and efficiency drives. It usually trends because an award, certification or event of that name is being announced or promoted, rather than as organic public conversation.",
+   "kind": "business",
+   "confidence": "medium",
+   "at": "2026-09-17T16:00:27.406258+03:00"
+  },
+  "PHYSINT": {
+   "english": "PHYSINT",
+   "summary": "PHYSINT is the working title of the action-espionage video game announced by Japanese designer Hideo Kojima (creator of Metal Gear Solid) for PlayStation, developed with Sony. Gaming is a very large trending category in Saudi Arabia, and the title spikes whenever a trailer, teaser or development update circulates.",
+   "kind": "entertainment",
+   "confidence": "medium",
+   "at": "2026-09-17T16:00:27.406258+03:00"
   }
  }
 }
