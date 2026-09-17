@@ -26,12 +26,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install pytrends --break-system-packages
-      - run: python update_trends.py
+      - run: pip install pytrends anthropic --break-system-packages
+      - run: python update_trends.py 
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           APIFY_TIKTOK_ACTOR: ${{ vars.APIFY_TIKTOK_ACTOR }}
           APIFY_GOOGLE_ACTOR: ${{ vars.APIFY_GOOGLE_ACTOR }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Commit data
         run: |
