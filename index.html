@@ -116,7 +116,7 @@ body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,san
 /* NAV TABS */
 .nav{width:100%;margin-bottom:20px;background:var(--nav-bg);padding:4px 0}
 .nav-inner{display:table;width:100%;border-spacing:8px 0}
-.nav-tab{display:table-cell;width:25%;padding:14px 8px;text-align:center;font-size:1rem;font-weight:800;border-radius:10px;cursor:pointer;border:2px solid var(--nav-tab-border);background:var(--nav-tab-bg);color:var(--nav-tab-text);font-family:inherit}
+.nav-tab{display:table-cell;width:20%;padding:14px 8px;text-align:center;font-size:1rem;font-weight:800;border-radius:10px;cursor:pointer;border:2px solid var(--nav-tab-border);background:var(--nav-tab-bg);color:var(--nav-tab-text);font-family:inherit}
 .nav-tab.on{background:var(--accent);border-color:var(--accent);color:#fff}
 
 /* PANELS */
@@ -159,6 +159,13 @@ body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,san
 .rnum{width:28px;height:28px;border-radius:50%;background:var(--surface2);display:flex;align-items:center;justify-content:center;font-size:0.75rem;font-weight:700;color:var(--muted);flex-shrink:0}
 .rnum.r1{background:#ffd700;color:#000}.rnum.r2{background:#c0c0c0;color:#000}.rnum.r3{background:#cd7f32;color:#fff}
 .trend-text{flex:1;font-size:0.88rem;font-weight:600;direction:rtl;text-align:right}
+/* Links keep the text colour they sit in rather than turning blue: a list where
+   every row is a link does not need every row shouting about it. The underline
+   on hover and focus is what signals it is clickable. */
+.trend-link{color:inherit;text-decoration:none;cursor:pointer}
+.trend-link:hover{text-decoration:underline;text-underline-offset:3px;
+  text-decoration-thickness:2px;text-decoration-color:var(--accent2)}
+.trend-link:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
 .pts-badge{font-size:0.7rem;font-weight:700;color:var(--accent2-ink);white-space:nowrap;text-align:right}
 .pts-sub{display:block;font-size:0.62rem;color:var(--muted);font-weight:600}
 .score-bar-wrap{display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--border)}
@@ -238,6 +245,27 @@ tr.hidden{display:none}
 .tiktok-trend.stable{color:var(--muted)}.tiktok-trend.declining{color:var(--accent-ink)}
 .tiktok-views{font-size:0.72rem;color:var(--muted);font-weight:600;margin-bottom:4px;text-align:right}
 
+/* BRIEF PANEL */
+.brief-grid{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.brief-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;
+  padding:14px 16px;box-shadow:0 1px 2px var(--shadow)}
+.brief-head{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;margin-bottom:6px}
+.brief-term{font-size:0.95rem;font-weight:800;direction:rtl;text-align:right}
+.brief-en{font-size:0.78rem;color:var(--muted);font-weight:600}
+.brief-summary{font-size:0.85rem;line-height:1.55;color:var(--text)}
+.brief-meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px}
+.brief-kind{font-size:0.62rem;font-weight:700;letter-spacing:0.6px;text-transform:uppercase;
+  padding:2px 7px;border-radius:4px;background:var(--surface2);color:var(--muted)}
+/* Confidence is the whole safety mechanism of this tab, so it is a visible
+   chip rather than a subtle tint — a low-confidence line must look different
+   at a glance from one the model is sure of. */
+.brief-conf{font-size:0.62rem;font-weight:700;letter-spacing:0.6px;text-transform:uppercase;
+  padding:2px 7px;border-radius:4px}
+.brief-conf.high{background:rgba(60,179,113,.14);color:var(--tag-sports)}
+.brief-conf.medium{background:rgba(245,166,35,.16);color:var(--accent2-ink)}
+.brief-conf.low{background:rgba(232,51,58,.13);color:var(--tag-politics)}
+.brief-empty{color:var(--muted);font-size:0.85rem;padding:36px 20px;text-align:center;line-height:1.9}
+
 /* GOOGLE TRENDS PANEL */
 .google-grid{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
 .google-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;display:flex;gap:14px;align-items:center}
@@ -295,6 +323,7 @@ tr.hidden{display:none}
     <div class="nav-tab" id="tab-news">📰 News</div>
     <div class="nav-tab" id="tab-tiktok">🎵 TikTok</div>
     <div class="nav-tab" id="tab-google">📈 Google</div>
+    <div class="nav-tab" id="tab-brief">🧭 Brief</div>
   </div>
 </div>
 
@@ -392,6 +421,18 @@ tr.hidden{display:none}
   <div class="google-grid" id="google-grid"></div>
 </div><!-- /panel-google -->
 
+<div class="panel" id="panel-brief">
+  <!-- Stated plainly and before the content, not in a footnote. These lines are
+       written from the words of the trend, not from reporting, and the honest
+       framing is what makes them safe to circulate. -->
+  <div class="date-banner" style="margin-bottom:16px">
+    What today's trends are about · <strong id="brief-date"></strong> ·
+    AI-written interpretation, not sourced reporting · Check anything you intend to publish
+  </div>
+  <div class="sec-label">🧭 What people are talking about</div>
+  <div class="brief-grid" id="brief-grid"></div>
+</div><!-- /panel-brief -->
+
 <div class="footer">🇸🇦 Saudi Digital Trends · Hourly automated tracker · Kijamii × Netflix MENA</div>
 </div><!-- /main -->
 
@@ -403,6 +444,7 @@ var DAYS = {}, CUMUL = {}, TODAY_NEWS = {}, TODAY_TIKTOK = {}, TODAY_GOOGLE = {}
 
 // ── STATE ────────────────────────────────────────────────────────────────────
 var activeMode   = "trends";
+var BRIEFS       = {};
 var dayKeys      = [];
 var monthKeys    = [];
 var activeMonth  = null;
@@ -463,7 +505,7 @@ document.getElementById("gpw").addEventListener("keydown", function(e) {
 // ── TABS ─────────────────────────────────────────────────────────────────────
 function switchTab(mode) {
   activeMode = mode;
-  ["trends","news","tiktok","google"].forEach(function(m) {
+  ["trends","news","tiktok","google","brief"].forEach(function(m) {
     document.getElementById("tab-"+m).className = "nav-tab" + (m===mode?" on":"");
     document.getElementById("panel-"+m).className = "panel" + (m===mode?" on":"");
   });
@@ -472,6 +514,7 @@ document.getElementById("tab-trends").addEventListener("click", function(){ swit
 document.getElementById("tab-news").addEventListener("click", function(){ switchTab("news"); });
 document.getElementById("tab-tiktok").addEventListener("click", function(){ switchTab("tiktok"); });
 document.getElementById("tab-google").addEventListener("click", function(){ switchTab("google"); });
+document.getElementById("tab-brief").addEventListener("click", function(){ switchTab("brief"); });
 
 // ── SCORING SHOW / HIDE ──────────────────────────────────────────────────────
 document.getElementById("scoring-toggle").addEventListener("click", function() {
@@ -553,6 +596,7 @@ function loadData(keepView) {
     .then(function(d) {
       DAYS = d.days; CUMUL = d.cumul; TODAY_NEWS = d.news;
       TODAY_TIKTOK = d.tiktok || {}; TODAY_GOOGLE = d.google || {};
+      BRIEFS = d.briefs || {};
       dayKeys = Object.keys(DAYS).sort();
 
       // Build the month list from the day keys ("2026-09-11" -> "2026-09")
@@ -589,6 +633,51 @@ function loadData(keepView) {
     });
 }
 
+// ── BRIEF ────────────────────────────────────────────────────────────────────
+// Ordered by today's ranking rather than by the cache, so the tab reads as "the
+// board, explained" and lines up with the Trends tab beside it.
+function renderBrief() {
+  var grid = document.getElementById("brief-grid");
+  var dateEl = document.getElementById("brief-date");
+  if (dateEl) {
+    dateEl.textContent = DAYS[dayKeys[dayKeys.length - 1]]
+      ? DAYS[dayKeys[dayKeys.length - 1]].label : "";
+  }
+
+  var latest = DAYS[dayKeys[dayKeys.length - 1]] || {trends: []};
+  var ordered = [], seen = {};
+  (latest.trends || []).forEach(function(t) {
+    if (BRIEFS[t.text] && !seen[t.text]) { seen[t.text] = 1; ordered.push([t.text, BRIEFS[t.text]]); }
+  });
+  // Anything explained but not on today's X board — Google and TikTok terms.
+  Object.keys(BRIEFS).forEach(function(k) {
+    if (!seen[k]) { seen[k] = 1; ordered.push([k, BRIEFS[k]]); }
+  });
+
+  if (!ordered.length) {
+    grid.innerHTML = '<div class="brief-empty">No briefs yet.<br>'
+      + 'They are written on the next scheduled run once an Anthropic API key is set.</div>';
+    return;
+  }
+
+  grid.innerHTML = ordered.map(function(pair) {
+    var term = pair[0], b = pair[1];
+    var conf = (b.confidence || "low").toLowerCase();
+    if (["high","medium","low"].indexOf(conf) === -1) conf = "low";
+    return '<div class="brief-card">'
+      + '<div class="brief-head">'
+      +   '<div class="brief-term">' + trendLink(term) + '</div>'
+      +   (b.english ? '<div class="brief-en">' + escapeHtml(b.english) + '</div>' : '')
+      + '</div>'
+      + '<div class="brief-summary">' + escapeHtml(b.summary || "") + '</div>'
+      + '<div class="brief-meta">'
+      +   '<span class="brief-kind">' + escapeHtml(b.kind || "other") + '</span>'
+      +   '<span class="brief-conf ' + conf + '">' + conf + ' confidence</span>'
+      + '</div>'
+      + '</div>';
+  }).join("");
+}
+
 // ── RENDER ───────────────────────────────────────────────────────────────────
 function renderAll() {
   renderMonthTabs();
@@ -601,6 +690,7 @@ function renderAll() {
   buildLogTable();
   filterTable();
   applyScoringVisibility();
+  renderBrief();
 }
 
 function monthLabel(mKey) {
@@ -664,15 +754,31 @@ function renderDayTabs() {
   });
 }
 
-// ── Hashtag → X search link helper ──────────────────────────────────────────
-function hashtagLink(text) {
-  if (text && text.charAt(0) === "#") {
-    var encoded = encodeURIComponent(text.slice(1));
-    return '<a href="https://x.com/search?q=%23' + encoded + '&src=trend_click"'
-         + ' target="_blank" rel="noopener"'
-         + ' style="color:inherit;text-decoration:none;cursor:pointer">' + text + '</a>';
-  }
-  return text;
+// ── Trend → X search link ───────────────────────────────────────────────────
+// Trend text is scraped from a third party and goes straight into innerHTML,
+// so it is escaped before display. Without this a trend containing a quote or
+// an angle bracket would break out of the markup around it.
+function escapeHtml(text) {
+  return String(text).replace(/[&<>"']/g, function (c) {
+    return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+  });
+}
+
+// Every trend links, not only the hashtags. A bare phrase like "بنك الرياض" is
+// as much a trend as "#النصر_العين", and having one clickable while the other
+// is inert reads as a bug rather than as a distinction.
+//
+// The only difference is the query: a hashtag keeps its leading # (encoded as
+// %23, since a raw # would be read as a fragment), a phrase is searched as
+// written. encodeURIComponent handles the Arabic and the spaces in both cases.
+function trendLink(text) {
+  if (!text) return "";
+  var query = text.charAt(0) === "#"
+    ? "%23" + encodeURIComponent(text.slice(1))
+    : encodeURIComponent(text);
+  return '<a class="trend-link" target="_blank" rel="noopener"'
+       + ' href="https://x.com/search?q=' + query + '&amp;src=trend_click">'
+       + escapeHtml(text) + '</a>';
 }
 
 // ── Aggregate every day in a month into one cumulative view ─────────────────
@@ -733,7 +839,7 @@ function renderTrendsPanel() {
       ? '<span class="pts-sub">' + t.days + ' day' + (t.days===1?'':'s') + ' · best #' + t.best + '</span>'
       : '';
     return '<div class="trend-row"><div class="rnum '+rc+'">'+t.rank+'</div>'
-         + '<div class="trend-text">'+hashtagLink(t.text)+'</div>'
+         + '<div class="trend-text">'+trendLink(t.text)+'</div>'
          + '<div class="pts-badge">'+t.pts+' pts'+sub+'</div></div>';
   }).join("");
 
@@ -741,7 +847,7 @@ function renderTrendsPanel() {
   var maxScore = hts.length ? hts[0].score : 1;
   document.getElementById("hashtag-list").innerHTML = hts.map(function(h) {
     var pct = maxScore ? Math.round(h.score / maxScore * 100) : 0;
-    return '<div class="score-bar-wrap"><div class="ht-text">'+hashtagLink(h.text)+'</div>'
+    return '<div class="score-bar-wrap"><div class="ht-text">'+trendLink(h.text)+'</div>'
          + '<div class="bar-bg"><div class="bar-fill" style="width:'+pct+'%"></div></div>'
          + '<div class="ht-score">'+h.score+'</div></div>';
   }).join("");
@@ -978,7 +1084,7 @@ function buildLogTable() {
       var row = document.createElement("tr");
       row.dataset.day = key;
       row.innerHTML = '<td>'+DAYS[key].label+'</td><td>'+rl+'</td>'
-        + '<td style="direction:rtl;font-weight:600">'+t.text+'</td>'
+        + '<td style="direction:rtl;font-weight:600">'+trendLink(t.text)+'</td>'
         + '<td style="color:var(--muted)">'+t.cat+'</td>'
         + '<td class="col-score score-cell">'+t.pts+'</td>'
         + '<td class="col-score score-cell">'+(CUMUL[t.text]||t.pts)+'</td>'

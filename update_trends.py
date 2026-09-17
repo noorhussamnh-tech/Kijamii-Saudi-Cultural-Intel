@@ -378,6 +378,168 @@ def scrape_google_trends_sa():
     return results
 
 
+# ── AI brief ──────────────────────────────────────────────────────────────────
+# One line per trend explaining what it actually refers to, so the dashboard is
+# readable by somebody who does not already follow Saudi X.
+#
+# Deliberately knowledge-only: no news lookup, no web search. That plays to what
+# the model is genuinely reliable at here — reading the Arabic, expanding the
+# hashtag, naming the clubs and people involved — and away from what it cannot
+# know, which is what broke in the last few hours. The prompt therefore asks for
+# a confidence level and explicitly permits "I cannot tell", and the UI marks
+# anything low-confidence rather than presenting every line as fact.
+#
+# Cost is controlled by caching, not by model choice: a brief is written once per
+# trend and reused for as long as that trend keeps appearing, so a typical hourly
+# run sends only the two or three terms that are actually new.
+ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+BRIEF_MODEL = (os.environ.get("BRIEF_MODEL") or "").strip() or "claude-opus-5"
+# Re-brief a term after this long in case the story behind it has moved on.
+BRIEF_MAX_AGE_DAYS = int(os.environ.get("BRIEF_MAX_AGE_DAYS", "7"))
+# Hard ceiling on how many new terms one run will pay to explain.
+BRIEF_BATCH_CAP = int(os.environ.get("BRIEF_BATCH_CAP", "30"))
+
+BRIEF_SYSTEM = """You explain Saudi Arabian social media trends to media and \
+marketing professionals who do not read Arabic and do not follow Saudi culture \
+closely.
+
+For each term you are given, write one or two plain-English sentences saying \
+what it most likely refers to and why people would be posting about it.
+
+Ground rules:
+- Translate or transliterate the Arabic, and expand hashtags into readable words.
+- Name the clubs, people, places or institutions involved when you recognise \
+them, and say briefly who or what they are.
+- You have NO access to current news. Do not invent a specific recent event, \
+score, death, announcement or incident. If a term clearly points at something \
+that happened recently, describe the KIND of event it indicates and set \
+confidence to "low".
+- If you genuinely cannot tell, say so plainly in the summary and use \
+confidence "low". A frank "this appears to be a viral hashtag whose subject is \
+not clear from the words alone" is far more useful than a confident guess.
+- confidence: "high" only for durable, well-known subjects (a major club, a \
+city, a public figure, a recurring national event). "medium" where the words \
+are readable and the topic is clear but the specific occasion is not. "low" \
+for anything you are reconstructing or guessing at.
+- No preamble, no hedging phrases like "it appears that" in the summary itself \
+— the confidence field carries the uncertainty."""
+
+
+def _brief_key(term):
+    return term.strip()
+
+
+def briefs_due(data, terms):
+    """Terms that have no usable cached brief yet."""
+    cache = data.get("briefs") or {}
+    due = []
+    for t in terms:
+        k = _brief_key(t)
+        entry = cache.get(k)
+        if not entry or not entry.get("summary"):
+            due.append(t)
+            continue
+        try:
+            age = (NOW - datetime.fromisoformat(entry["at"])).days
+        except Exception:
+            due.append(t)
+            continue
+        if age >= BRIEF_MAX_AGE_DAYS:
+            due.append(t)
+    return due[:BRIEF_BATCH_CAP]
+
+
+def fetch_briefs(terms, context_terms):
+    """One batched call for every term that needs explaining. Returns {} on any
+    failure — a brief is a nice-to-have and must never take the run down."""
+    if not terms:
+        return {}
+    if not ANTHROPIC_KEY:
+        print("  Brief: ANTHROPIC_API_KEY not set — skipping (site still builds)")
+        return {}
+    try:
+        import anthropic
+    except ImportError:
+        print("  Brief: anthropic SDK not installed — skipping", file=sys.stderr)
+        return {}
+
+    listed = "\n".join("- " + t for t in terms)
+    alongside = ", ".join(context_terms[:20]) or "(none)"
+    prompt = (f"Explain these {len(terms)} Saudi trending terms.\n\n{listed}\n\n"
+              f"For context, the full trending board right now is: {alongside}\n"
+              f"Today is {NOW:%d %B %Y}. Return one entry per term, in the same order.")
+
+    schema = {
+        "type": "object",
+        "properties": {
+            "briefs": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "term": {"type": "string"},
+                        "english": {"type": "string",
+                                    "description": "The term translated or transliterated."},
+                        "summary": {"type": "string",
+                                    "description": "One or two sentences on what it refers to."},
+                        "kind": {"type": "string",
+                                 "enum": ["sport", "news", "politics", "religion",
+                                          "entertainment", "business", "social", "other"]},
+                        "confidence": {"type": "string", "enum": ["high", "medium", "low"]},
+                    },
+                    "required": ["term", "english", "summary", "kind", "confidence"],
+                    "additionalProperties": False,
+                },
+            }
+        },
+        "required": ["briefs"],
+        "additionalProperties": False,
+    }
+
+    try:
+        client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
+        resp = client.messages.create(
+            model=BRIEF_MODEL,
+            max_tokens=16000,
+            system=BRIEF_SYSTEM,
+            messages=[{"role": "user", "content": prompt}],
+            output_config={"format": {"type": "json_schema", "schema": schema}},
+        )
+    except Exception as e:
+        print(f"  Brief: API call failed — {type(e).__name__}: {str(e)[:120]}",
+              file=sys.stderr)
+        return {}
+
+    if getattr(resp, "stop_reason", None) == "refusal":
+        print("  Brief: model declined this batch — skipping", file=sys.stderr)
+        return {}
+
+    try:
+        text = next(b.text for b in resp.content if b.type == "text")
+        rows = json.loads(text)["briefs"]
+    except Exception as e:
+        print(f"  Brief: unreadable response — {type(e).__name__}", file=sys.stderr)
+        return {}
+
+    out = {}
+    for r in rows:
+        term = (r.get("term") or "").strip()
+        if not term or not r.get("summary"):
+            continue
+        out[_brief_key(term)] = {
+            "english": r.get("english", ""),
+            "summary": r["summary"],
+            "kind": r.get("kind", "other"),
+            "confidence": r.get("confidence", "low"),
+            "at": NOW.isoformat(),
+        }
+    usage = getattr(resp, "usage", None)
+    if usage:
+        print(f"  Brief: {len(out)} written "
+              f"({usage.input_tokens} in / {usage.output_tokens} out tokens)")
+    return out
+
+
 # ── Apify ─────────────────────────────────────────────────────────────────────
 # Apify scrapes from its own infrastructure, not GitHub's, so TikTok and Google
 # do not block it. This is the primary source for both tabs; the hand-pasted
@@ -1023,6 +1185,44 @@ def main():
     else:
         print(f"News feeds unavailable - kept stories from {data['news']['date']}",
               file=sys.stderr)
+
+    # ── Briefs ────────────────────────────────────────────────────────────────
+    # Everything a reader can see on the page gets explained: the X trends, the
+    # TikTok hashtags and the Google terms all land in the same cache, so a term
+    # appearing in two places is only ever paid for once.
+    board = [t["text"] for t in scored]
+    explainable = list(board)
+    for item in (data.get("google") or {}).get("items") or []:
+        if item.get("text"):
+            explainable.append(item["text"])
+    for item in (data.get("tiktok") or {}).get("items") or []:
+        if item.get("text"):
+            explainable.append(item["text"])
+
+    seen_terms, unique = set(), []
+    for t in explainable:
+        k = _brief_key(t)
+        if k and k not in seen_terms:
+            seen_terms.add(k)
+            unique.append(t)
+
+    due = briefs_due(data, unique)
+    if due:
+        print(f"Briefing {len(due)} new term(s) of {len(unique)} on the board")
+        fresh = fetch_briefs(due, board)
+        if fresh:
+            data.setdefault("briefs", {}).update(fresh)
+    else:
+        print(f"Briefs: all {len(unique)} terms already explained — no API call")
+
+    # Drop briefs for terms that have fallen off every board, so the cache tracks
+    # the 14-day window rather than growing without limit.
+    if data.get("briefs"):
+        live = set(seen_terms)
+        for dk in data["days"]:
+            for t in data["days"][dk].get("trends", []):
+                live.add(_brief_key(t["text"]))
+        data["briefs"] = {k: v for k, v in data["briefs"].items() if k in live}
 
     content_changed = content_fingerprint(data) != before_content
     apify_changed = json.dumps(data.get("_apify") or {}, sort_keys=True) != before_apify
