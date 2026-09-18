@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Friday, 18 September 2026 · 19:00 KSA",
+ "lastUpdated": "Friday, 18 September 2026 · 20:00 KSA",
  "days": {
   "2026-09-05": {
    "label": "Sat 05 Sep",
@@ -2114,25 +2114,25 @@
     },
     {
      "rank": 2,
-     "text": "#فيه_محدوده",
+     "text": "#الفدعانيه_تنخاكم_ياعنزه",
      "cat": "General",
      "pts": 12
     },
     {
      "rank": 3,
-     "text": "#يا_بلادي_يا_بلادي",
+     "text": "#فيه_محدوده",
      "cat": "General",
      "pts": 10
     },
     {
      "rank": 4,
-     "text": "محمد",
+     "text": "#يوم_الجمعه",
      "cat": "General",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "#FightForAlAhli",
+     "text": "مساعد بن عبدالرحمن",
      "cat": "General",
      "pts": 7
     },
@@ -2144,13 +2144,13 @@
     },
     {
      "rank": 7,
-     "text": "رياض الجنه",
+     "text": "الفردوس الاعلي",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 8,
-     "text": "#مسابقه_ذوق",
+     "text": "رياض الجنه",
      "cat": "General",
      "pts": 6
     },
@@ -2162,13 +2162,13 @@
     },
     {
      "rank": 10,
-     "text": "اليوم الفضيل",
+     "text": "جنات النعيم",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 11,
-     "text": "جنات النعيم",
+     "text": "اليوم الفضيل",
      "cat": "General",
      "pts": 4
     },
@@ -2180,19 +2180,19 @@
     },
     {
      "rank": 13,
-     "text": "التحالف البحري الدفاعي",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 14,
      "text": "التميز المالي",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 14,
+     "text": "كاس القارات",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 15,
-     "text": "المبادرات المتميزه",
+     "text": "التحالف البحري الدفاعي",
      "cat": "General",
      "pts": 4
     },
@@ -2204,25 +2204,25 @@
     },
     {
      "rank": 17,
-     "text": "كاس القارات",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 18,
      "text": "علي النبي",
      "cat": "General",
      "pts": 4
     },
     {
-     "rank": 19,
+     "rank": 18,
      "text": "الاعمال المزدهره",
      "cat": "General",
      "pts": 4
     },
     {
-     "rank": 20,
+     "rank": 19,
      "text": "بشري تشبه الغيث",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 20,
+     "text": "التخطيط الرابع",
      "cat": "General",
      "pts": 4
     }
@@ -2233,19 +2233,19 @@
      "score": 100
     },
     {
-     "text": "#فيه_محدوده",
+     "text": "#الفدعانيه_تنخاكم_ياعنزه",
      "score": 88
     },
     {
-     "text": "#يا_بلادي_يا_بلادي",
+     "text": "#فيه_محدوده",
      "score": 76
     },
     {
-     "text": "#FightForAlAhli",
+     "text": "#يوم_الجمعه",
      "score": 64
     },
     {
-     "text": "#مسابقه_ذوق",
+     "text": "#رحله_المليون57",
      "score": 52
     }
    ],
@@ -2253,7 +2253,7 @@
     {
      "icon": "📌",
      "label": "General (19)",
-     "items": "#ساعه_استجابه · #فيه_محدوده · #يا_بلادي_يا_بلادي · محمد · #FightForAlAhli · موتي المسلمين · رياض الجنه · #مسابقه_ذوق · اليوم الفضيل · جنات النعيم"
+     "items": "#ساعه_استجابه · #الفدعانيه_تنخاكم_ياعنزه · #فيه_محدوده · #يوم_الجمعه · مساعد بن عبدالرحمن · موتي المسلمين · الفردوس الاعلي · رياض الجنه · جنات النعيم · اليوم الفضيل"
     },
     {
      "icon": "💰",
@@ -2512,25 +2512,25 @@
   "محمد بن عبد الرحمن": 4,
   "شمال كردفان": 4,
   "#ساعه_استجابه": 14,
-  "#فيه_محدوده": 12,
-  "#يا_بلادي_يا_بلادي": 10,
-  "محمد": 8,
-  "#FightForAlAhli": 7,
+  "#الفدعانيه_تنخاكم_ياعنزه": 12,
+  "#فيه_محدوده": 10,
+  "#يوم_الجمعه": 8,
+  "مساعد بن عبدالرحمن": 7,
   "موتي المسلمين": 6,
+  "الفردوس الاعلي": 6,
   "رياض الجنه": 6,
-  "#مسابقه_ذوق": 6,
   "التفوق الاقتصادي": 6,
-  "اليوم الفضيل": 6,
-  "جنات النعيم": 4,
+  "جنات النعيم": 6,
+  "اليوم الفضيل": 4,
   "متعدد الجنسيات": 4,
-  "التحالف البحري الدفاعي": 4,
   "التميز المالي": 4,
-  "المبادرات المتميزه": 4,
-  "الخطط الرابحه": 4,
   "كاس القارات": 4,
+  "التحالف البحري الدفاعي": 4,
+  "الخطط الرابحه": 4,
   "علي النبي": 4,
   "الاعمال المزدهره": 4,
-  "بشري تشبه الغيث": 4
+  "بشري تشبه الغيث": 4,
+  "التخطيط الرابع": 4
  },
  "news": {
   "date": "18 Sep 2026",
@@ -2545,21 +2545,21 @@
     "rank": 1
    },
    {
-    "headline": "What to know after a week of Houthi attacks that threaten Saudi oil - NPR",
-    "summary": "What to know after a week of Houthi attacks that threaten Saudi oil NPR",
-    "source": "NPR",
-    "date": "18 Sep 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRy16WGVpZW1tckVwZ3VFZnZ2dGxHT1BEM0VxdVhfRWQ4QUtPeURzR3JCTWlZeFRxWWFZTFJTbWJvTGdsZ2RyblhocjdIS3YyOF8waEFmQjRXNEs2N2k4dDAwV3pNZVdIYTZNVXEzVXFZZ0QtdFlrenVuLW5XLVhTXy0yX0RTZXUxaUJF?oc=5",
-    "rank": 2
-   },
-   {
     "headline": "Pakistan pledges full committment to defence of Saudi Arabia - Al Jazeera",
     "summary": "Pakistan pledges full committment to defence of Saudi Arabia Al Jazeera",
     "source": "Al Jazeera",
     "date": "18 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd0JGM1BTelVodGJxcFVIZGVuYnFSRkNVNVhkN1A3RExHX0hJanpEY1VGMjY1NkhzX0JjMTVQaVBtSnJxS0k2Tm52bWwwamNwMmxsREJjakFuY2FJX25tZ2hVR0RuNWNDZTFzSmxQa2hpdEkzTFdTSlZ5RDhTb2FpNmhSb1lJZlRyM3VrSEhmOENhbVlGNDlSNENrYzg0ZVVCbVRR0gGoAUFVX3lxTE82YXRMSnN2V3ZHM3Npa3otV1oxUVNfXzlxVDlRWDZUWGo1b2hRenJjOUktTS1CUExRQXA0YmNSanhaQW9BaTRxVUticzdzOE9BekRiVU5JR1JEQkc2RTVoWlZwWmgwT3FVcTd4WHpaTktpSWM3VkJZeVYzeVQzZDQzN0NVWFh3N3BBTnlCQkZtbnExbUE4VDJaT25MRUROa2JSeTZkVnZobg?oc=5",
+    "rank": 2
+   },
+   {
+    "headline": "What to know after a week of Houthi attacks that threaten Saudi oil - npr.org",
+    "summary": "What to know after a week of Houthi attacks that threaten Saudi oil npr.org",
+    "source": "npr.org",
+    "date": "18 Sep 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRy16WGVpZW1tckVwZ3VFZnZ2dGxHT1BEM0VxdVhfRWQ4QUtPeURzR3JCTWlZeFRxWWFZTFJTbWJvTGdsZ2RyblhocjdIS3YyOF8waEFmQjRXNEs2N2k4dDAwV3pNZVdIYTZNVXEzVXFZZ0QtdFlrenVuLW5XLVhTXy0yX0RTZXUxaUJF?oc=5",
     "rank": 3
    },
    {
@@ -2590,22 +2590,13 @@
     "rank": 6
    },
    {
-    "headline": "Trump Moves Ahead With F-35 Jet Sales to Saudi Arabia Despite Intelligence Concerns - nytimes.com",
-    "summary": "Trump Moves Ahead With F-35 Jet Sales to Saudi Arabia Despite Intelligence Concerns nytimes.com",
-    "source": "nytimes.com",
+    "headline": "Trump Moves Ahead With F-35 Jet Sales to Saudi Arabia Despite Intelligence Concerns - The New York Times",
+    "summary": "Trump Moves Ahead With F-35 Jet Sales to Saudi Arabia Despite Intelligence Concerns The New York Times",
+    "source": "The New York Times",
     "date": "18 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSGtpbGNKbDdhNmlyS0xqY0JjbHhiNFZnaGV1THAwYVRycUZZYUE3SS1WZkVnWm0yMjhhanlPby1zbU05OEt6RTN0WjhFbHNQai0zZlEzby1DOXBHYmVYZlJDYWVPaW9xUlB4VDlvZGJOcEp6SXRqSXdRTkRtNnR4RzJTS1o?oc=5",
     "rank": 7
-   },
-   {
-    "headline": "Saudi Arabia accuses Houthis of targeting Mecca - NBC News",
-    "summary": "Saudi Arabia accuses Houthis of targeting Mecca NBC News",
-    "source": "NBC News",
-    "date": "18 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMGViZHNTd3ZyaFBSYXZnb3NOeFBQb2FzRndTX0Itb2k3Sl9GN3VDc1U5Y3h5SElzblZLa2FGVDZVSHU4bnJtRFRCYXZWWDNlaHp2OXNHQ09FcHZDN2N1R2FhbU1jN3h5YlpfUGE3d1Q1akQtcThPd0V4R0I2NkF3eU1UeVo0bjlTUV9xWUFnLWF0QzVLU0ZGUWdrTXZOQQ?oc=5",
-    "rank": 8
    },
    {
     "headline": "Trump administration advances $24 billion F-35 sale to Saudi Arabia - stripes.com",
@@ -2614,12 +2605,21 @@
     "date": "18 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX1AteXV3QUFwekFmcUZIZDIyVklnNXgtZUJ1UUFkZnlFVVo5eTFtNkw2V01INWk2NF9hTEpvV0Z0NEh5YVFMM1hfVDFyX3VmN2JYMkk5VnVvWFJLX2VFV240U2plUS00ZjZFLVZXajdlQm9iSC0wV1N1bHE5NFA3Y1luVnl6N01JdWRMeC01RDJOMldRYUVHMm1OeEk0VXFTZzlsdlB2dDJQTkFkLVFHYjAtYmpiUVFlMEE?oc=5",
+    "rank": 8
+   },
+   {
+    "headline": "Saudi Arabia accuses Houthis of targeting Mecca - NBC News",
+    "summary": "Saudi Arabia accuses Houthis of targeting Mecca NBC News",
+    "source": "NBC News",
+    "date": "18 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMGViZHNTd3ZyaFBSYXZnb3NOeFBQb2FzRndTX0Itb2k3Sl9GN3VDc1U5Y3h5SElzblZLa2FGVDZVSHU4bnJtRFRCYXZWWDNlaHp2OXNHQ09FcHZDN2N1R2FhbU1jN3h5YlpfUGE3d1Q1akQtcThPd0V4R0I2NkF3eU1UeVo0bjlTUV9xWUFnLWF0QzVLU0ZGUWdrTXZOQQ?oc=5",
     "rank": 9
    },
    {
-    "headline": "Saudi Arabia, Houthis exchange blows as conflict escalates - dw.com",
-    "summary": "Saudi Arabia, Houthis exchange blows as conflict escalates dw.com",
-    "source": "dw.com",
+    "headline": "Saudi Arabia, Houthis exchange blows as conflict escalates - DW.com",
+    "summary": "Saudi Arabia, Houthis exchange blows as conflict escalates DW.com",
+    "source": "DW.com",
     "date": "18 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN3lIano4UGhNZUFGS0V0ZHphSjJPXzY2bF9jSjNxZVlNRGJrN01kQUM4czdiVEw0VEJqeWNZWWFfOXhoSmgyUVFpN2JHVFlEZG1UOUw3U09SamlPRjdOWjBXY1VOUjIwS3pWVVZVY2pxZUhkN0RIaE1JTS1NRUlFbWJsTE9jLXdLcU4yQzNjVHdQTnZr0gGUAUFVX3lxTE1ZNXVzT1lJazR4NUVyb1ZaQVhLekNLSnpDdjVyNldrRWd5Zk84dVM0cWM1Wl9uRFVmN0NxUzJQajIxUjlBVVg5aWFuMXZPZktsTHMxNWlaQm4xbGNTdkhCWTFJS2RNMHFrMGtFazdUS1B1c2Y0MF9EeVkza19pcVV5aVB1WnhkOUZfemU5bjdLamxWMDM?oc=5",
@@ -2635,12 +2635,12 @@
     "rank": 11
    },
    {
-    "headline": "وزير الدفاع الإيطالي: تضرر إحدى طائراتنا بهجوم على قاعدة في السعودية - CNN Arabic",
-    "summary": "وزير الدفاع الإيطالي: تضرر إحدى طائراتنا بهجوم على قاعدة في السعودية CNN Arabic",
+    "headline": "السعودية.. خارجية أمريكا توافق على صفقة أسلحة وطائرات F35 محتملة بقيمة 24 مليار دولار - CNN Arabic",
+    "summary": "السعودية.. خارجية أمريكا توافق على صفقة أسلحة وطائرات F35 محتملة بقيمة 24 مليار دولار CNN Arabic",
     "source": "CNN Arabic",
     "date": "18 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTm80T0JrNWNBNE1uSTBWRXA1S3dPQlZ3Wl9XbDhldGxBT0RMa1NldTRJVlctZkRyZmtudHdDT3RiVXVFbGZmOFJyRTMydy1Rc1BkQXR0bklrUTdWQ2drbm9MWk1ZTThLT3FoRnZ0LWk3NFM2UVg4b1JVX3Q0QUZFS3RSNUxvTE94cURLVHVKb1QxRnJqRTRSeDNsRGFpY1UyTDk2WVpDMzVDRmJKaHVnVjg0ODdxcEU0U3JmTDlOdDJrdjdFZVpaeEJUcw?oc=5",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcXdqWE95Q1pqcXVkc2NoSnpXSXF6ellUZDBRSkRjRWF2Q25oWnEtSzFBOFNtLXpxSG1IdXp6Y0JhblMzcFVIYkZRS0lFbmJ0M0ZPSXpwNEIxNjQ5aklNaXlwOUFjRTFLc1lfSV9rMWVSd2dxZkhfTUxRRk1oY3NDejlpdVgxYWVoemVna2p2TW80ekpqSnpKU3l3Vkl5NU0tNnFteWJGaFJhYkJyU3RkaElhQkUzaWcxOVBBcnFGWnJkM2s?oc=5",
     "rank": 12
    },
    {
@@ -2653,21 +2653,21 @@
     "rank": 13
    },
    {
-    "headline": "أمريكا تمهد الطريق لبيع طائرات مقاتلة للسعودية بقيمة 24.3 مليار دولار - Reuters",
-    "summary": "أمريكا تمهد الطريق لبيع طائرات مقاتلة للسعودية بقيمة 24.3 مليار دولار Reuters",
-    "source": "Reuters",
-    "date": "17 Sep 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrQk9pNHJSSWR2Rk9BMXlNUWowTmJNdzA5bDJlTHBpVTNRLTFOZjJndWpmM01fbnNmWFIyUlJEWUhOOVFrbzFza1R3UkpnbkZ6N3hYT1YxbEg5WHFMQk1mcVFLLXNrR2QzNWpuX1RzUWhIZWY3ZFNGRkZrR01tWUU?oc=5",
-    "rank": 14
-   },
-   {
     "headline": "المملكة تدين وتستنكر بشدة الهجوم الإرهابي الذي استهدف أحد المساجد في إقليم خيبر بختونخوا بباكستان - جريدة المدينة - صحيفة المدينة",
     "summary": "المملكة تدين وتستنكر بشدة الهجوم الإرهابي الذي استهدف أحد المساجد في إقليم خيبر بختونخوا بباكستان جريدة المدينة - صحيفة المدينة",
     "source": "جريدة المدينة - صحيفة ال",
     "date": "18 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiqAZBVV95cUxNSFdQa2tMS182ZDhKeXhQc3F4X3F2V3ZBNjV5dkNxVk1BdHk2VlRsSnVIcFlqMFZEWFVZcVpFSHBYMGNmU1A2UElNYlVUYVpFSFJ3djVDY004NG4ybWFRUWdNcHZSS0IzOTVSa0pfQV9jclo2YkNLYXU1MndzRm1EOEY4SmpSRm8zTzBXYTlwczc3TDl1WUI0VlFpcE90NmZtbFBySTNTVE53dGtQRGFSbVpHLVUzYkYtWk9TTDJNOXVjSGdaX2x4N2pITGtwN1g1YWVHZzdael9hOWFzdmJUei1vNTMyZFp0Ti1JOXNWSDNydkg0TklOamZhaFY3RlN3cUtJNWd0VERWaW9UZGRiTlhVbkt4RFBBNkEyZGpmVHNMU1FGbFRUbW1pNmtkQi1Yd01lMkFCTWNOcy1lRExabVBEQmNuUHBwUENMTGdZcTZhZmozWVR3NGlySndwWThtX0c4VHZlZHFoUXhaVGI5MVFEaDRWeW1NTkVxUTYxcjNteUU5N3lFSFBuSlJ5bHdHRFk5RU5IM21WOG15TnFMSGZHaXl4dTJ5RHBYMG9Vb2FJXy1aR1VTVTN1Tzc5enpoOW5wYmtUTThsNldWVUtrZXJ1c0k1Tzk2cGVDYlBKWHZHTXRPMnFKT3d1WkZjbmRoa1NEeEFEYmNpak5zbTRDSktfOUdYNW8wRzFidmZzeHQ4b1JEQjdLRVQ2VTFIVnZSVHYtbjdCWW9DbnR4eHlKV3QxMFdiOVhrajVJazZBanh6eGU3STFKblRpZHhMZEZpdWIzUVFncHdlZEMxUDlleDdXMFUxVE5hMnB6cjJoUkRKZGZCb1IwbzVZYWpxUktGamRaaHFzdXZvMnRYeERXNmJuZGVaRjBJRUdURVQzRWJ1enhOWXltWGJmb3VjTm1OVUZDeDUwbC1kRTEteUJmbGphWHZ4YlNrTTZGRUlWeDF2aVpBYlFVa2dmaUxPamliZjFGZHlkTmNvQU5LakxUTC1YVFN4RDB2eGdmeUtwT1Y5ZnVrWDFiNTMtU3pvNVhtNmdSMUdoaWdaUE1yYlJFSTlHSXZXS0lq?oc=5",
+    "rank": 14
+   },
+   {
+    "headline": "أمريكا تمهد الطريق لبيع طائرات مقاتلة للسعودية بقيمة 24.3 مليار دولار - reuters.com",
+    "summary": "أمريكا تمهد الطريق لبيع طائرات مقاتلة للسعودية بقيمة 24.3 مليار دولار reuters.com",
+    "source": "reuters.com",
+    "date": "17 Sep 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrQk9pNHJSSWR2Rk9BMXlNUWowTmJNdzA5bDJlTHBpVTNRLTFOZjJndWpmM01fbnNmWFIyUlJEWUhOOVFrbzFza1R3UkpnbkZ6N3hYT1YxbEg5WHFMQk1mcVFLLXNrR2QzNWpuX1RzUWhIZWY3ZFNGRkZrR01tWUU?oc=5",
     "rank": 15
    },
    {
@@ -2680,22 +2680,13 @@
     "rank": 16
    },
    {
-    "headline": "كيف تحمي السعودية اقتصادها من أخطر مراحل حرب إيران؟ - الشرق بلومبرغ",
-    "summary": "كيف تحمي السعودية اقتصادها من أخطر مراحل حرب إيران؟ الشرق بلومبرغ",
-    "source": "الشرق بلومبرغ",
-    "date": "16 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiswNBVV95cUxNRUZCanFGWnV4RXRsMGpfSHFFWlRFMUNVeGhSVHBMTkJqWDNSRVlnTGtobVZ6YVA5Ymg2c3dYR3Y3Q1kwTEdKcjVtaFFfQ29SbXV5MzF4bE4tcTZVclpHZnBRbVg0eW52eU5pbjNJdS1HXzVoXzJZZUJxdEJuVUNFcE1YeTdvbktBZlpUMkpPOUlnMG56bUl5M2xEMndYT0lkWWJQUkZzOWN0S2pZTFY3VWhSekx3TlRYUlJ2Tm1zNnBTZmdOVFA3Tl9weGNsTDN1N3h4OE9mcU5xTDEzTXZPbmN3alk1VmFrdGRqN3RZY0JQd0V6NUdBNGQzRzhQbmZkSW15T3FlTFlBX1V5YUp0YjZOalk2SGxwcThmeEZ3S0hWbWVGTnFHUlRwMkxVVXhaU2s5Q2t1eUppRW9kR3NWbTMtSkk1RjhDc0w2bkdkSlZWSlhVM0RCYWZLazhWOWdKVXA5Vjk2eTlvZEczNTEyWllJSDFyUVlMOFRZajd6Z0U5N0RUVlNjdmNHSWxMV2VlNEdqY1NsWXY1T2gwQ0ROeVdtQlBXQy1DX0NlMkQ0RWhzM00?oc=5",
-    "rank": 17
-   },
-   {
     "headline": "إمارة الشرقية تنظم ندوة ' توحيد المملكة العربية السعودية والأسس والآثار والرسالة الحضارية ' - صحيفة اليوم السعودية",
     "summary": "إمارة الشرقية تنظم ندوة ' توحيد المملكة العربية السعودية والأسس والآثار والرسالة الحضارية ' صحيفة اليوم السعودية",
     "source": "صحيفة اليوم السعودية",
     "date": "17 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi3gZBVV95cUxQZ2JuSVlRVUJUcjlDUFV0X0hBcWJndWN1dDZmSllQOUw1RjVmaEh3ZjlrT1ZoQjk3dV84NHNGamlJUTdYYU0tMFd6YkNkcXZPRHFTQmg4ZmNNcmg5d0Z1ZldReW9xV0F6VnVPbmZtMTBFV1R0TEdTMmtiMjJ5MkRTamlwYlhhaTNMV0xYZjZ5cEo5WXh5N0ZONnBYdjdmbUxUdFQ5YXh1Sk5fNmRxQ3dpZmcxLTgtV2dxdkJkRThCb21FVjRPYUlJckNxNW5pNnpMYmUzT09DUm1iX3FKeXFqWmhVSC0xSnNMUWxIQTA0Szc1QTFfQjcyTHVuNFFITE1YbXdVZGVlM0JYQ2ZkMEtSdWNmQ2ZzVFdGUEhzX3FPeDdOclpCaDFHa2F5aTZkVHBROHl6WU9rWTRDLVBVRE1hMWlqekFrN0dOWkN2Q1Z0NV96S0JQUkpkOFFLVUhkYW1wZUVqeUh6MTU3dEUtbl9vR19Iamdicjl2cEFxOWctdDVYY3hGUnJWOE10RldMYkJyS2VIX3NuNWJlTHlmMW45RkZfVm11T3FCeHFZZDRaUm9OOXE2TkZlY3dNbU9DWnBiQlp3cE9XTDIyN0U1ZzY5V1h5VGd6ODUyY3ltX1NqMEprNHJlZ3R6eHRPSVZTN0RFOHJHMHVKbWpIWF9WZldPVGh6T1p1MjIycnJkUy0xdnEwR013aURPS0FtU3YxcERxN1RCbndNVTctR0czcVMxcXM0YlNuQU1kTVJNZVVhVTVkd3hlYjFfdFlFd1Bsd3ZEZk85VWlVTW1WdVh2c09sX0xjdjJ1N0xHOXFINzZuMTI5eEZUYWZsQWpkTkRaeTFiWTRYUE5kUFhYZVZXZ3FhTldOYzJqY0pTeFlZTDkwc04zX0taeVVrZHVxaUZYT2poODRxbmlINEJ6T3FWWWZSeTZMN1RHMUI3RTdiV2RiZGd6T3YweDB1SkNscmc5bC16UXFDdDFrRlEwXzNUTmRSTEczQmREMks0bkhWRzl4UWN0am85TW83QjZ1Tktla0Q4UmNCeGdiMWJDSkthejRJRGpGdVRFdnRRUGNXMW15NE5ZM2JlTTNXT2NTdDFRWFl0WGdVejMzMjFJVFhXbUZUc3lOLTJLdDBjNmV6U2lB0gFTQVVfeXFMUF9LVHBDRFFCTlZzdFJOeWZkYW1MUkNXcnJwenp3SWRNUi1CeWpDaXRmU2RMQ3BRTTlMd3lzNlFfWWhIOUlIZ050ZERiYnlfVzNqQm8?oc=5",
-    "rank": 18
+    "rank": 17
    },
    {
     "headline": "ابن سلمان في القاهرة.. هل تعيد اضطرابات البحر الأحمر رسم التحالف المصري السعودي؟ - الجزيرة نت",
@@ -2704,7 +2695,7 @@
     "date": "15 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQWlhGWTlYY2J6cFhPT2ZtcGxfb3hLMks2cVdlZlA4ajF6WkVQblJVZVBOWGpIVHgtY1ZqTFBOMUl2ZDAwX2c2Y19uLXRuRUFlSjNlOUxWazVOTndqMDNOWHRDdzB0b3hUUjRQNFlMOTNNdmNQczI2NjBMLWhDcWxkR2Nrb0J6TXBXLXVRSTRYcF9obWNLZFMwcGwzMnhKT1ozUzB4TUxmSllONml4OFpZaFlLbXRfaHdFalJMSzQzZlprd1FKSDhLcjRVVDNWa2haQjF0Wk1BazZVUHJDOEdCT2Fqb2JLOVZqNVU4T1NENFI0ekJ5U1ZDUzltTGVCUWl4MGpqUVdpYTM5VldnUEdhMEVGM2ZFNm5ZeEh3YWlGaW9OQnMyRXVGY1dMWGF4bUlRU3piSzJ4cWd3YmpnRDlJQU1yUmx4aEpNRU9QWktYc1l6OER5Rk11StIB3gJBVV95cUxQWGFlRlNiRU14OTB2ZkpMcjVhUFBHdGNiQ0U3LU5oSy1tWTNNakdOYlRhOEo5OGd6dHBBNUJxN1AyNVhGVGtnQklobTBiam4wZjY3bXlLMmhFSk5fUXgtcEZCNHVFYVRVT3M2bi1lTnZ1amFfdXN0U3VaQWNsZDVzeGh4eS1HT2xGaGsyZWNtM2t3S0NXYUlQMWZFdHVISThJWDZlbkZXbjRaN2ZFdkVrOW81OGxxS0tURUowLW5SN3l4elFpOFFmU1dsOEhuRHVYMkVQTUQwMkxHN3NaRWxyVDJscUFRY1BhV19ZU1RHTGR6Y2t2TVpNSGRxOUVWSG1GXy05WW94Y1VGNFJUU2dVdWV1NEJ4NUJrSW1ObUNDQVlabXhYaGRtZFlRc0FjZXZ4eTBwaEJpVTZsZ1phNkdzdnJreFNPU3RlanU0dDA1OEk5dDctOTlrYmZmYVl2dw?oc=5",
-    "rank": 19
+    "rank": 18
    },
    {
     "headline": "4 ساعات من الحالات الغبارية في السعودية خلال يوم واحد - صحيفة المواطن",
@@ -2713,6 +2704,15 @@
     "date": "18 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxPTXFNVzRhakFiWHpRRlpERmQwWkp3RUNUOUhsZXhoMk1CaFNUUnlQbUFCNWVaUnhnVTVZVEZHUGQyVzJjbzhNSzZkLVdaalVFYWJLSVZSRE00TVBNRTI3eHYwaFk4czZya3VlbmpHbUVKVGdfQ25lMGxRdU1kRFJlT0IxZUxNSHU1blJwS0pvVFBvWklnTHVqREU2dWt2NWowaU14TjJhUk9nSjJMbVI1NWZwQ3dkaWYtOWtrc2hoWUVYaGU0bURXbUE3OGZaOTdQekVwMi1KcFZKcElMUW1EU0JjcWx1ZEJHbXVSeW9RbTAtczBlM2JKXzVqaUpBR2MzUmxOUmZpVlhMRW1BSjg5bjNLdTBfckpRbFZoUnJRbWo0UTQ1aktSdFJwVGVtd0l6THFEUHhKMHZkeUtsMDJQUUc3ZmdNVExqTlIxT3ZpdzNtTm10SmRkc2h2YjktanhUcDYtck9FaGNISGVodnQ5RWJ3V3h2QQ?oc=5",
+    "rank": 19
+   },
+   {
+    "headline": "مهرجان \"ليونز الرياض\" ينطلق في السعودية - skynewsarabia.com",
+    "summary": "مهرجان \"ليونز الرياض\" ينطلق في السعودية skynewsarabia.com",
+    "source": "skynewsarabia.com",
+    "date": "17 Sep 2026",
+    "tag": "culture",
+    "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxOa1ZIMFYzWXpPZ2ZuclcydjYwMTlLV2JMMS1sVTlVcFR1QlFSeTVINnJXSGJQakExMkhtbnVJUE9wVmY2QWhFbDB1SWN6YW1CeGNYQjZ0eFlYbVJicklJRmlqMmVGZTFVbERDWUkwX203VGMwS1hwdVN3TWlWQnV4dE51MTN2YXdzYlZjSmlRRi1nSFczejFVNzVzZWJRRDFtdDlZWF9XWk1JeHA3b2RZM0g4N2lkaVRZTTk3N3dtRnZ0WGZQaFJqWktOZmF0WkhqREtQOWx2QzFBUG9qWjVScHZLRWdqZWtSRHFvRnk5WnFvUGxsN1dJcFBRZEI4OFNtc0VxbkJacHlid0I3SGJvbGtiUnN5ZlIyMXhabG1kMFZJeUNvWkc5YWo4dktFTU8tRUFrcGZqYW5FVmpHdGJISnF6SXg0d2cwZ1FZaXVaRlVWd9IB1wJBVV95cUxPd1VDanBvMkR5S3VKNE10ZUFsVDFrSHdNbEF6WjhfVXlxMjB5eExUS2t1Q3pPb0c0aXlzTEdkSTV0ejNBRXU2QVJNczB2M3E1RkZkMjJUUTJlV2hfcUdvMHZKRUllMWNpVTAwS1Qyc3dSbmNsT05tMTRFSkNhcjJUMm85NlJTSnctWXJyT2h1NFIzNlppdTJRdEZncmNEMTlPSlJ6WEJ3Q3o3T0NLQ0NsWm1yMzF1UnBuWUpQZXZqOUFvdFdrWVd1R2VaRUc1R3pzM19oc1lMZ0M2Ry1Pc0poS1I2TG9hTmV3S0lzQi1Yc3VLRnBJWF91bDFjUWZHVHk1OWxNbmNvV2t5T2NaSnpuNWlDcVRNUGhmdld4RW5rbzIxX0pjSU92US1EcTJKYy05WFJtX0VIb0dQaGV4bXNFczZHM2FhWUhSak9TNmZLeU5IZVdweHZn?oc=5",
     "rank": 20
    }
   ],
@@ -2745,22 +2745,13 @@
     "rank": 23
    },
    {
-    "headline": "Oil pares losses as market weighs Saudi supply concerns, Middle East tensions - Reuters",
-    "summary": "Oil pares losses as market weighs Saudi supply concerns, Middle East tensions Reuters",
-    "source": "Reuters",
+    "headline": "Oil pares losses as market weighs Saudi supply concerns, Middle East tensions - Yahoo Finance",
+    "summary": "Oil pares losses as market weighs Saudi supply concerns, Middle East tensions Yahoo Finance",
+    "source": "Yahoo Finance",
     "date": "18 Sep 2026",
     "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDVrUGNRTzdTOG1wQ1ljY2w0Y002MjMxSVNvM2RrLTBhM3B1dEJVS1B6bnJWTjhydS1BUHpfTVFtbHh2QkdMdFU1ZVo3MDJtQ01kbldpa0lfWFM0QXFWbmVsN1RqcjcxMHczN3JGSHItelVZMzQtYklTN1kwVlJxLU5RVzAwc3BEQV9iVFI1N0xhRXluaGZxN0NrWkxFMDk5Q0pYZw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTnlWWElIcUlqQnAzOXlSWmJndF9ObUVNZGFabGpreFlvUVI2QlJCMEl3Q19PZWppbXdpSVFhV1RxWWNUQnZfWEN0eHFiVmp5blFRd3FoQ2FRbDE3MW5wNHZPN0c0alE3dXBIRXNvM0luZ0JPZ3YtMjktaVphaGdJOG00YVFnd2h6bGc?oc=5",
     "rank": 24
-   },
-   {
-    "headline": "Trump admin approves sale of stealth F-35 fighter jets to Saudi Arabia. Here’s why it’s controversial - CNN",
-    "summary": "Trump admin approves sale of stealth F-35 fighter jets to Saudi Arabia. Here’s why it’s controversial CNN",
-    "source": "CNN",
-    "date": "18 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZmlaOUMtVm9SUE1MVnZtVVd0cFJXdUtPV2JHRjZ2c1VRSWlJOHlnWFVzaHVfUWtwM3BEWXlZankzNFoyUDQzdFlzR2VmV1JXV2tRbUxEaFpWQ0VnZXNTeHRqa1VaNm1weFJVU0hDN3N4d20yeVhmVmZ1cFBtQ3l0X2ttU0xiVlk?oc=5",
-    "rank": 25
    },
    {
     "headline": "Hilton Has Luxury ‘Coming Out of Its Ears’ in Saudi Arabia. Now It Wants the Middle Market. - Skift",
@@ -2769,6 +2760,15 @@
     "date": "18 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLVYtUFFZcFJ3WEZhdHBIdDFEbFVDWkZfTzBDcXJobzZfbE50ak1ORW15SFF6cm5jNG5Md2ZFV1JKV1g1Vy0zRmFJSkhxMVlmaTJOWERnWW5yVnhIa1lYU2lHTUlhZGZ1Zk9uMmtwa3QwdUZOYXRMUWNHQWsxbmpHLWo0dGxsS0MwVTJSWU5tZ0NHUUpoUGJaSFRRNUd3U0tPcG1hZkY2NjFXR2tLN2o1TzFUdlJiMWIy?oc=5",
+    "rank": 25
+   },
+   {
+    "headline": "Trump admin approves sale of stealth F-35 fighter jets to Saudi Arabia. Here’s why it’s controversial - CNN",
+    "summary": "Trump admin approves sale of stealth F-35 fighter jets to Saudi Arabia. Here’s why it’s controversial CNN",
+    "source": "CNN",
+    "date": "18 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZmlaOUMtVm9SUE1MVnZtVVd0cFJXdUtPV2JHRjZ2c1VRSWlJOHlnWFVzaHVfUWtwM3BEWXlZankzNFoyUDQzdFlzR2VmV1JXV2tRbUxEaFpWQ0VnZXNTeHRqa1VaNm1weFJVU0hDN3N4d20yeVhmVmZ1cFBtQ3l0X2ttU0xiVlk?oc=5",
     "rank": 26
    },
    {
@@ -2835,12 +2835,12 @@
     "rank": 33
    },
    {
-    "headline": "السعودية تدين استهداف مسجد في باكستان - الشرق الأوسط",
-    "summary": "السعودية تدين استهداف مسجد في باكستان الشرق الأوسط",
+    "headline": "النفط يواصل التراجع مع انحسار مخاوف اضطراب الإمدادات في الشرق الأوسط - الشرق الأوسط",
+    "summary": "النفط يواصل التراجع مع انحسار مخاوف اضطراب الإمدادات في الشرق الأوسط الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "18 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxOWTRReGppeWpMS0piQkY4ck1XeHVweGZvQ0ZlTDNHVWgtMlRQSmUzUGFQcUNRM29nRTZKN05MY2Vpc3ZuZGdkOVl2NUo0TGdDMlhuSHIza1R0RHNtZHZoOThZUUF4QjZUZnd1LVZLNTN4S0dyTjB2UzZlUWs2RWh1UUdXTzJfd1B4MHV4VnE2TFM3VlAwNG9JdGFwZHRvOW9zMlVmaG5wRldRSTc5UXVBWTZvUlRqNU9hdkIzdVlZNFBRWldUV195NDF6RlQ4TDZ5eUYzZk9GVTdENnJIVElSQ2s1UnhjVHhmTFk0dlJzSWlQejdKVzlSX0pVWDlWSGhONnRmUzRFaFl6a1hUWUlYaE9IckJ5MEJiZVBtb3ZJRmVTeUlNeHNMbWtFdnVxWmVpTWw4a21GSHBtV0FWYm1QUHZCUlZOMS1mRUtGeTZkc3A3d1JRSk9lLWUzSXgwZkZxLXlJSTdtNWtURTRNc0NkRUFxUHRJZFBYV0JoeWpUS3VvSDlIVXJWYVJzVF9JNTdxWUZvMmpqUUQzNTktbHBQX3NPQjJyVENSdFp6VVlhV1JHUURYU3dUSFdlS2U2NTRLN08tVzN5YzVlOUxUanBpYzFIbkVvekxVQ3pj?oc=5",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxPenpYOEpfeDBLSUxMMjBUTURlQm90R3Z0ek5pU1gyWVlobF9IelpoSEZ6X0hoVHlQVnpoQTZKSmZqT0dMTV9KbDZDaDJER3NiT1hMSUUzMGNYVC1sNHlmODlLcW9rNlRRcklJX0p4OTYzcU5LSTFwTjg5UUFMYVRmNjJqVS1VVkFLQjVHQ3BWaW5qWGtLejBZd2RZQzE4QW5yeGZqTjhTaEZRMXFrT1RyYUxINTlxaXFJamg5akUzaV81U1A2OVZhUlpjempvNWtFVmFNTDZYVl9nUjVQNndhSnJ4cXZ2eDhITktuNlNBdjB2Q1ZCNTJxRTA3dFFNWnczZFIzajNHbVUySTVNeGJ1TGxXR0pWaHhkbFpvbEdOdHFYSXhHN2JFOWROeldQQXJaVFk2c3BZSHN0ZjZ0U0Y3eUlwVUNGaGRkWF9YRGJ4ZndjQVFtWWRoUV9ETHlGR1VpMFpGR1oyNlhKTUR1UFJnaWQ5RFloODdqVDFoWUIwUnY0MVJoSWxzRUV5eC1hYWVnRVNMdFFteWtJQjU1M1RqN1loUVA1cUFST1Q2eUZVNk5SenBLYi1mX1RZZl80bkt5LVpPU1dlcWgxVWdGSXVJLWFqMjVsQlducVJJX2kwYW00YkI3OFlhYlhGVHNieTByanI2dG94SnExR0Qwd2dxM3hIMHNWRFk2YXh1RjY3YUZhZGY0bHdUdWllVWNzalg4ZWx3U3pEQjN6V0ZQbHRmanFFT3lRM3NuQl8wMXB1UGpQakhBbmtBQks5VEdwUnEwQWFGaHlVWC1ZTnc3cmg0?oc=5",
     "rank": 34
    },
    {
@@ -2853,12 +2853,12 @@
     "rank": 35
    },
    {
-    "headline": "النفط يواصل التراجع مع انحسار مخاوف اضطراب الإمدادات في الشرق الأوسط - الشرق الأوسط",
-    "summary": "النفط يواصل التراجع مع انحسار مخاوف اضطراب الإمدادات في الشرق الأوسط الشرق الأوسط",
+    "headline": "السعودية تدين استهداف مسجد في باكستان - الشرق الأوسط",
+    "summary": "السعودية تدين استهداف مسجد في باكستان الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "18 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxPenpYOEpfeDBLSUxMMjBUTURlQm90R3Z0ek5pU1gyWVlobF9IelpoSEZ6X0hoVHlQVnpoQTZKSmZqT0dMTV9KbDZDaDJER3NiT1hMSUUzMGNYVC1sNHlmODlLcW9rNlRRcklJX0p4OTYzcU5LSTFwTjg5UUFMYVRmNjJqVS1VVkFLQjVHQ3BWaW5qWGtLejBZd2RZQzE4QW5yeGZqTjhTaEZRMXFrT1RyYUxINTlxaXFJamg5akUzaV81U1A2OVZhUlpjempvNWtFVmFNTDZYVl9nUjVQNndhSnJ4cXZ2eDhITktuNlNBdjB2Q1ZCNTJxRTA3dFFNWnczZFIzajNHbVUySTVNeGJ1TGxXR0pWaHhkbFpvbEdOdHFYSXhHN2JFOWROeldQQXJaVFk2c3BZSHN0ZjZ0U0Y3eUlwVUNGaGRkWF9YRGJ4ZndjQVFtWWRoUV9ETHlGR1VpMFpGR1oyNlhKTUR1UFJnaWQ5RFloODdqVDFoWUIwUnY0MVJoSWxzRUV5eC1hYWVnRVNMdFFteWtJQjU1M1RqN1loUVA1cUFST1Q2eUZVNk5SenBLYi1mX1RZZl80bkt5LVpPU1dlcWgxVWdGSXVJLWFqMjVsQlducVJJX2kwYW00YkI3OFlhYlhGVHNieTByanI2dG94SnExR0Qwd2dxM3hIMHNWRFk2YXh1RjY3YUZhZGY0bHdUdWllVWNzalg4ZWx3U3pEQjN6V0ZQbHRmanFFT3lRM3NuQl8wMXB1UGpQakhBbmtBQks5VEdwUnEwQWFGaHlVWC1ZTnc3cmg0?oc=5",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxOWTRReGppeWpMS0piQkY4ck1XeHVweGZvQ0ZlTDNHVWgtMlRQSmUzUGFQcUNRM29nRTZKN05MY2Vpc3ZuZGdkOVl2NUo0TGdDMlhuSHIza1R0RHNtZHZoOThZUUF4QjZUZnd1LVZLNTN4S0dyTjB2UzZlUWs2RWh1UUdXTzJfd1B4MHV4VnE2TFM3VlAwNG9JdGFwZHRvOW9zMlVmaG5wRldRSTc5UXVBWTZvUlRqNU9hdkIzdVlZNFBRWldUV195NDF6RlQ4TDZ5eUYzZk9GVTdENnJIVElSQ2s1UnhjVHhmTFk0dlJzSWlQejdKVzlSX0pVWDlWSGhONnRmUzRFaFl6a1hUWUlYaE9IckJ5MEJiZVBtb3ZJRmVTeUlNeHNMbWtFdnVxWmVpTWw4a21GSHBtV0FWYm1QUHZCUlZOMS1mRUtGeTZkc3A3d1JRSk9lLWUzSXgwZkZxLXlJSTdtNWtURTRNc0NkRUFxUHRJZFBYV0JoeWpUS3VvSDlIVXJWYVJzVF9JNTdxWUZvMmpqUUQzNTktbHBQX3NPQjJyVENSdFp6VVlhV1JHUURYU3dUSFdlS2U2NTRLN08tVzN5YzVlOUxUanBpYzFIbkVvekxVQ3pj?oc=5",
     "rank": 36
    }
   ]
@@ -3375,13 +3375,6 @@
    "confidence": "high",
    "at": "2026-09-18T05:00:27.669007+03:00"
   },
-  "محمد": {
-   "english": "Muhammad",
-   "summary": "The name of the Prophet Muhammad, trending alongside \"Ali al-Nabi\" (the call to send blessings upon the Prophet), a standard Friday devotional practice in Saudi Arabia. It can also simply be the most common male first name, attached to any footballer or public figure in the news.",
-   "kind": "religion",
-   "confidence": "medium",
-   "at": "2026-09-18T07:00:25.321486+03:00"
-  },
   "اليوم الفضيل": {
    "english": "the blessed day",
    "summary": "A devotional phrase for Friday, considered the best day of the week in Islam. It appears in prayer and greeting posts and trends in parallel with the Friday hashtag.",
@@ -3452,26 +3445,12 @@
    "confidence": "high",
    "at": "2026-09-18T10:00:35.898016+03:00"
   },
-  "#FightForAlAhli": {
-   "english": "#FightForAlAhli",
-   "summary": "An English-language fan rallying hashtag for Al-Ahli, almost certainly Al-Ahli Saudi Club of Jeddah, one of the kingdom's four biggest football clubs and home to several high-profile foreign signings. Hashtags in this format are typically coordinated fan campaigns to back the team through a competition run, a refereeing or disciplinary grievance, or pressure on club management; the specific trigger cannot be determined from the words alone.",
-   "kind": "sport",
-   "confidence": "low",
-   "at": "2026-09-18T15:00:34.280507+03:00"
-  },
   "موتي المسلمين": {
    "english": "\"the deceased of the Muslims\"",
    "summary": "A fragment of the standard Friday supplication asking God's mercy and forgiveness for dead Muslims (\"our dead and the dead of the Muslims\"). It trends alongside the other Friday devotional phrases on this board as users post prayer chains and reminders.",
    "kind": "religion",
    "confidence": "high",
    "at": "2026-09-18T15:00:34.280507+03:00"
-  },
-  "#يا_بلادي_يا_بلادي": {
-   "english": "#Oh_My_Country_Oh_My_Country",
-   "summary": "A patriotic hashtag built on a refrain from Arabic nationalist songs, used to post flags, poetry and photo montages celebrating Saudi Arabia. Late September is Saudi National Day season (23 September), when patriotic tags reliably trend.",
-   "kind": "social",
-   "confidence": "medium",
-   "at": "2026-09-18T17:00:27.855788+03:00"
   },
   "رياض الجنه": {
    "english": "Riyad al-Jannah – Gardens of Paradise",
@@ -3486,13 +3465,6 @@
    "kind": "religion",
    "confidence": "high",
    "at": "2026-09-18T17:00:27.855788+03:00"
-  },
-  "#مسابقه_ذوق": {
-   "english": "#Zawq_Competition (\"Good Taste\" Competition)",
-   "summary": "A social-media giveaway or quiz competition branded 'Zawq', an Arabic word meaning good taste or refined manners; such contests are usually run by a brand, charity or influencer account and require following, retweeting and using the hashtag to enter. Which specific sponsor is behind this round is not identifiable from the words alone.",
-   "kind": "social",
-   "confidence": "low",
-   "at": "2026-09-18T17:32:31.999324+03:00"
   },
   "التحالف البحري الدفاعي": {
    "english": "The Naval Defence Coalition",
@@ -3536,13 +3508,6 @@
    "confidence": "medium",
    "at": "2026-09-18T19:00:30.257084+03:00"
   },
-  "المبادرات المتميزه": {
-   "english": "Distinguished initiatives / outstanding initiatives",
-   "summary": "Vision 2030-flavoured public-sector and corporate language about standout programmes and initiatives, appearing here as one of a cluster of similar slogans. The grouping points to a marketing or engagement campaign rather than a single announcement.",
-   "kind": "business",
-   "confidence": "medium",
-   "at": "2026-09-18T19:00:30.257084+03:00"
-  },
   "الخطط الرابحه": {
    "english": "Winning plans",
    "summary": "Another slogan in the same trending cluster of business-success phrases; can also read as marketing copy for telecom or subscription \"plans\". Most likely part of a promotional or contest-driven hashtag set rather than an organic conversation.",
@@ -3570,6 +3535,41 @@
    "kind": "religion",
    "confidence": "low",
    "at": "2026-09-18T19:00:30.257084+03:00"
+  },
+  "#الفدعانيه_تنخاكم_ياعنزه": {
+   "english": "#The_Fadaani_woman_calls_on_you_O_Anazah",
+   "summary": "A tribal appeal hashtag: a woman of Al-Fad'an (a major branch of the large Anazah tribe of northern Arabia) invoking \"nakhwa\" — the traditional call for the tribe's men to come to her aid. Hashtags in this form are normally campaigns of solidarity around a personal grievance such as a court case, an inheritance or custody dispute, a debt, or a plea for a pardon; the specific cause is not recoverable from the wording.",
+   "kind": "social",
+   "confidence": "low",
+   "at": "2026-09-18T20:00:27.252024+03:00"
+  },
+  "#يوم_الجمعه": {
+   "english": "#Friday",
+   "summary": "Friday, the Muslim day of congregational prayer, which trends in Saudi Arabia every week with blessings, requests for prayers, recitation of Surat Al-Kahf and salawat on the Prophet. Today is a Friday, which is why much of the board is devotional.",
+   "kind": "religion",
+   "confidence": "high",
+   "at": "2026-09-18T20:00:27.252024+03:00"
+  },
+  "مساعد بن عبدالرحمن": {
+   "english": "Musaid bin Abdulrahman",
+   "summary": "A personal name in the classic Saudi form (Musaid, son of Abdulrahman). Its appearance beside condolence phrases like \"the highest paradise\" and \"the Muslim dead\" points to a memorial or mercy-prayer trend for a named individual rather than a news story; who he is cannot be confirmed from the name alone.",
+   "kind": "social",
+   "confidence": "low",
+   "at": "2026-09-18T20:00:27.252024+03:00"
+  },
+  "الفردوس الاعلي": {
+   "english": "Al-Firdaws al-A'la (the highest paradise)",
+   "summary": "The highest level of paradise in Islamic belief, used in the standard supplication \"may God house him in the highest Firdaws.\" It trends on Fridays as part of mass prayers for the dead and for deceased relatives.",
+   "kind": "religion",
+   "confidence": "high",
+   "at": "2026-09-18T20:00:27.252024+03:00"
+  },
+  "التخطيط الرابع": {
+   "english": "The fourth planning",
+   "summary": "A fragment of business-speak that sits with several other keyword-like phrases on the same board (economic superiority, financial excellence, winning plans, thriving businesses, multinational), which is the signature of a coordinated promotional or bot-driven hashtag push rather than an organic conversation. What is being advertised is not clear from the words alone.",
+   "kind": "business",
+   "confidence": "low",
+   "at": "2026-09-18T20:00:27.252024+03:00"
   }
  }
 }
