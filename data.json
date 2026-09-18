@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Friday, 18 September 2026 · 10:00 KSA",
+ "lastUpdated": "Friday, 18 September 2026 · 11:00 KSA",
  "days": {
   "2026-09-05": {
    "label": "Sat 05 Sep",
@@ -2138,13 +2138,13 @@
     },
     {
      "rank": 6,
-     "text": "#ام_فهد_تنخاكم__احسان",
+     "text": "علي النبي",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 7,
-     "text": "علي النبي",
+     "text": "#لننصر_مكه_بكلمه",
      "cat": "General",
      "pts": 6
     },
@@ -2192,37 +2192,37 @@
     },
     {
      "rank": 15,
-     "text": "سلم علي",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 16,
      "text": "اليوم الوطني",
      "cat": "Culture / Society",
      "pts": 4
     },
     {
-     "rank": 17,
+     "rank": 16,
      "text": "الحرمين الشريفين",
      "cat": "General",
      "pts": 4
     },
     {
-     "rank": 18,
+     "rank": 17,
      "text": "23 سبتمبر",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 18,
+     "text": "المساج المنزلي",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 19,
-     "text": "الدرعيه التاريخيه",
+     "text": "سلم علي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "المساج المنزلي",
+     "text": "الدرعيه التاريخيه",
      "cat": "General",
      "pts": 4
     }
@@ -2245,7 +2245,7 @@
      "score": 64
     },
     {
-     "text": "#ام_فهد_تنخاكم__احسان",
+     "text": "#لننصر_مكه_بكلمه",
      "score": 52
     }
    ],
@@ -2253,7 +2253,7 @@
     {
      "icon": "📌",
      "label": "General (18)",
-     "items": "#يوم_الجمعه · محمد · #رحله_المليون57 · #دون_حد_الوطن · #ام_فهد_تنخاكم__احسان · علي النبي · بنك الرياض · F-35 · مكة المكرمة · عمان"
+     "items": "#يوم_الجمعه · محمد · #رحله_المليون57 · #دون_حد_الوطن · علي النبي · #لننصر_مكه_بكلمه · بنك الرياض · F-35 · مكة المكرمة · عمان"
     },
     {
      "icon": "🎭",
@@ -2494,7 +2494,7 @@
   "البنك المركزي السعودي": 4,
   "الثقه الملكيه الكريمه": 8,
   "F-35": 20,
-  "#لننصر_مكه_بكلمه": 12,
+  "#لننصر_مكه_بكلمه": 18,
   "#عوده_الاصاله": 8,
   "#رحله_المليون57": 17,
   "الخارجيه الامريكيه": 6,
@@ -2515,20 +2515,37 @@
   "محمد": 12,
   "#اليوم_الوطني_السعودي_٩٦": 8,
   "#دون_حد_الوطن": 7,
-  "#ام_فهد_تنخاكم__احسان": 6,
   "علي النبي": 6,
   "مكة المكرمة": 6,
   "اليوم المبارك": 4,
   "اليوم الفضيل": 4,
   "نور مابين الجمعتين": 4,
-  "سلم علي": 4,
   "اليوم الوطني": 4,
   "الحرمين الشريفين": 4,
-  "المساج المنزلي": 4
+  "المساج المنزلي": 4,
+  "سلم علي": 4
  },
  "news": {
   "date": "18 Sep 2026",
   "domestic": [
+   {
+    "headline": "Saudi Arabia Has Another Option to Get Its Oil Out - WSJ",
+    "summary": "Saudi Arabia Has Another Option to Get Its Oil Out WSJ",
+    "source": "WSJ",
+    "date": "18 Sep 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORTBIS0lsWE5pcVlmb1lCcHlzYXdySlY5bTNBNDUxNGdKclJXU00zOVpLSkhlWVJFaktYN1ZRS0FEMUIxOUctb1hVb3I4TVZsci01YjRSaTBNN3VZUWNTU2o2VnpkdElIVHpvT21lT0pOcjVWWmxrN1RJeFpfNWtEWnFqd3R5a29IakZRT2xTanQtY2x1LXltMU5NVTZnUQ?oc=5",
+    "rank": 1
+   },
+   {
+    "headline": "Trump Moves Ahead With F-35 Jet Sales to Saudi Arabia Despite Intelligence Concerns - nytimes.com",
+    "summary": "Trump Moves Ahead With F-35 Jet Sales to Saudi Arabia Despite Intelligence Concerns nytimes.com",
+    "source": "nytimes.com",
+    "date": "18 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSGtpbGNKbDdhNmlyS0xqY0JjbHhiNFZnaGV1THAwYVRycUZZYUE3SS1WZkVnWm0yMjhhanlPby1zbU05OEt6RTN0WjhFbHNQai0zZlEzby1DOXBHYmVYZlJDYWVPaW9xUlB4VDlvZGJOcEp6SXRqSXdRTkRtNnR4RzJTS1o?oc=5",
+    "rank": 2
+   },
    {
     "headline": "US clears $24B F-35 sale for Saudi Arabia - Breaking Defense",
     "summary": "US clears $24B F-35 sale for Saudi Arabia Breaking Defense",
@@ -2536,16 +2553,25 @@
     "date": "18 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcl9DMWltZmk0TkdfaE9HYXJsd1NlcnF4Q1FMbUNuaDlNQTc5UlRuUnFJUm5VYkR6V2pmTkdGejVjMXlFb0RNUWRXTlB4dmdERjhTV0dOUGFieS1Ua0p6bENOVnpfaFhMVV92VTBLNjRsWU53ZDJ1SEloc1NPV0JLblpkNA?oc=5",
-    "rank": 1
+    "rank": 3
    },
    {
-    "headline": "Oil prices fall as Saudi supply hopes outweigh fresh Houthi strikes - CNBC",
-    "summary": "Oil prices fall as Saudi supply hopes outweigh fresh Houthi strikes CNBC",
-    "source": "CNBC",
+    "headline": "Saudi Arabia, Houthis exchange blows as conflict escalates - DW.com",
+    "summary": "Saudi Arabia, Houthis exchange blows as conflict escalates DW.com",
+    "source": "DW.com",
+    "date": "17 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN3lIano4UGhNZUFGS0V0ZHphSjJPXzY2bF9jSjNxZVlNRGJrN01kQUM4czdiVEw0VEJqeWNZWWFfOXhoSmgyUVFpN2JHVFlEZG1UOUw3U09SamlPRjdOWjBXY1VOUjIwS3pWVVZVY2pxZUhkN0RIaE1JTS1NRUlFbWJsTE9jLXdLcU4yQzNjVHdQTnZr0gGUAUFVX3lxTE1ZNXVzT1lJazR4NUVyb1ZaQVhLekNLSnpDdjVyNldrRWd5Zk84dVM0cWM1Wl9uRFVmN0NxUzJQajIxUjlBVVg5aWFuMXZPZktsTHMxNWlaQm4xbGNTdkhCWTFJS2RNMHFrMGtFazdUS1B1c2Y0MF9EeVkza19pcVV5aVB1WnhkOUZfemU5bjdLamxWMDM?oc=5",
+    "rank": 4
+   },
+   {
+    "headline": "Oil prices fall as Saudi supply hopes outweigh fresh Houthi strikes - cnbc.com",
+    "summary": "Oil prices fall as Saudi supply hopes outweigh fresh Houthi strikes cnbc.com",
+    "source": "cnbc.com",
     "date": "18 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObFVrTUIxTHp1MXFzWE0zbmZBRWhXZ3NiZldLbjVqUE5vMk9OZXdER3FfQmFmX2dkSjdtTXp5VkNpYjVEU0Nqck5WUEFfZEJaOGdJLXVCV1VoVk4yOUNiWWxmZlBXLURUaUFBN3o5eTZ2RTNFbVc4ZmtvN1lOU1NsSTgxWGg2cWRBemdz0gGQAUFVX3lxTFBXWmlwaXRIb0NsbUt1eVZhMDNJSXlVcUM1QllXSkhfLW5NTUlib3E4b2Y3ZnMwNjRhamJTRFlZWnlSczM0NjB3OE54Y3hYbDhIWlVFVnFUaUlsbWlGd0tjR25mRkZyY2Q0Qm1vdWdpOFcwdGNtZmx4cXl0TWV6M0h0X04wZHJVOVpjeHdLV0lmMg?oc=5",
-    "rank": 2
+    "rank": 5
    },
    {
     "headline": "Trump administration approves sale of F-35 jets to Saudi Arabia - Al Jazeera",
@@ -2554,7 +2580,7 @@
     "date": "17 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOVVZNDZPeENhTVJ6TjlodC1nMDBIbm81dFBRTWlBVUlVVVExME1IOXF4SGpYOVVCWUNVZjN6TElseHUtMkgzWDFSaE1kSEp4WVVWZ3lGbHltU0F1Z0VRaHhmVUJORGJPZXJobk1vYTVfNTFyV1FiWXAxUFpoQUo1dGthUUFyM0hkUjdOVTRqTE5EVTMxMnRXTHJjQlF6NFBXblo0NVRnY9IBrAFBVV95cUxNV0tBMElJQVRZdHJpMU5TcFhaeFlsT2I0dEMtMzRiSEJqOVlYV3A3ZE9BVU9ZREhUVGVqN0hUSGpnVHh5OGZpMmI1Y2M5cFo4c2cwYVlORTNuTmE0M01TTmd0NDVQR1JKaEkxOTF4ZUc0Zk15VFlocDV5eUZzbzN4YWc2SkFxYXBHZ3lXUmR0R1J5VlNiU1IxQzFDYnpMWkZmVW1EcVNQWEppRHBl?oc=5",
-    "rank": 3
+    "rank": 6
    },
    {
     "headline": "US, in controversial deal, agrees to sell F-35s to Saudi Arabia - Politico",
@@ -2563,34 +2589,25 @@
     "date": "17 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNR296Nk5yc1FVTEs4S1poNnQ4Y0M3Q1phSjJnWm9pSFdoaXdDYW81dUJHczV6SjNvR0pPTzJwT3ltcy1QeGxqaFdyUThqR0hLM2tHVGU3cVBPRHdLUG1FRC1ma19qQ1dkMXVtTEJEbE1hZVBqa2MwdzVOczVkZFFGdA?oc=5",
-    "rank": 4
+    "rank": 7
    },
    {
-    "headline": "Saudi Arabia, Houthis exchange blows as conflict escalates - dw.com",
-    "summary": "Saudi Arabia, Houthis exchange blows as conflict escalates dw.com",
-    "source": "dw.com",
-    "date": "17 Sep 2026",
+    "headline": "State Department approves potential F-35 sales to Saudi Arabia - Axios",
+    "summary": "State Department approves potential F-35 sales to Saudi Arabia Axios",
+    "source": "Axios",
+    "date": "18 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN3lIano4UGhNZUFGS0V0ZHphSjJPXzY2bF9jSjNxZVlNRGJrN01kQUM4czdiVEw0VEJqeWNZWWFfOXhoSmgyUVFpN2JHVFlEZG1UOUw3U09SamlPRjdOWjBXY1VOUjIwS3pWVVZVY2pxZUhkN0RIaE1JTS1NRUlFbWJsTE9jLXdLcU4yQzNjVHdQTnZr0gGUAUFVX3lxTE1ZNXVzT1lJazR4NUVyb1ZaQVhLekNLSnpDdjVyNldrRWd5Zk84dVM0cWM1Wl9uRFVmN0NxUzJQajIxUjlBVVg5aWFuMXZPZktsTHMxNWlaQm4xbGNTdkhCWTFJS2RNMHFrMGtFazdUS1B1c2Y0MF9EeVkza19pcVV5aVB1WnhkOUZfemU5bjdLamxWMDM?oc=5",
-    "rank": 5
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rM085TW04UWUzRk01T19WQjFtMlV3REhERXlwcjhueXdnSGx6N3p5U2N4T21hejE2YktiR1FGMU1EME9iSzFZR3lDa085UHZiM2JYdFVtbHJ0ZHNQazhJOXV1MkhYQUk0RU5NMmtMOHZPWXAzRUpEZHU2UVlCV0E?oc=5",
+    "rank": 8
    },
    {
-    "headline": "US clears way for $24.3 billion fighter jet sale to Saudi Arabia - Reuters",
-    "summary": "US clears way for $24.3 billion fighter jet sale to Saudi Arabia Reuters",
-    "source": "Reuters",
+    "headline": "US clears way for $24.3 billion fighter jet sale to Saudi Arabia - reuters.com",
+    "summary": "US clears way for $24.3 billion fighter jet sale to Saudi Arabia reuters.com",
+    "source": "reuters.com",
     "date": "17 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONTlQX01aWTdhM21Pc2N5Q3hWVDFSbTM1WFhhTjBadHptcmg1RGRnWkZhakttQjVWMWI1cGU4WkE1Nmp0b1lBVlpDMktBMzdKZjJ6RGtxOGF3TmlpVjQyZDVoMmg0MGlENFJsVEpwOXdtc2F5NXBHZ1RPYUhMODBFcnhuTlV5SUNteXlGUWVwWnZLVEVXM1lrNENJREptVEtnZnhGdlAzc3pTMk0zUmtiSFRIdzkzeDRRX1gxRWt6SHRLanhmLVNEbDd3YlNsRkdiOV9JeS1DNWpwaDQ?oc=5",
-    "rank": 6
-   },
-   {
-    "headline": "Trump Moves Ahead With F-35 Jet Sales to Saudi Arabia Despite Intelligence Concerns - The New York Times",
-    "summary": "Trump Moves Ahead With F-35 Jet Sales to Saudi Arabia Despite Intelligence Concerns The New York Times",
-    "source": "The New York Times",
-    "date": "18 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSGtpbGNKbDdhNmlyS0xqY0JjbHhiNFZnaGV1THAwYVRycUZZYUE3SS1WZkVnWm0yMjhhanlPby1zbU05OEt6RTN0WjhFbHNQai0zZlEzby1DOXBHYmVYZlJDYWVPaW9xUlB4VDlvZGJOcEp6SXRqSXdRTkRtNnR4RzJTS1o?oc=5",
-    "rank": 7
+    "rank": 9
    },
    {
     "headline": "US approves $24.3 billion sale of 48 F-35 warplanes to Saudi Arabia - France 24",
@@ -2599,24 +2616,6 @@
     "date": "18 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaUpwSmZwRlBIZ2k4TlRWX3k4UmFZOFJESkJXdlVhaEF6bTN6UG1OS3BPWUNXT1YxZjExWXJVNEtYcjNHdTBlTGNoa2VpTXYyazlzMHR0aFZ3clE4TWZ2NkNfRnBlN0FfZUhRSXFYbDNhQnVEbDNncWZWSDA4T3lucjExTGpZT2tNaFlBUzZYeElDd3dSM25sS2ZXLVZhZ3hBbFRlRkx3V3paQmwwenNRWHJLZVNJUQ?oc=5",
-    "rank": 8
-   },
-   {
-    "headline": "US approves sale of 48 F-35s to Saudi Arabia - The Jerusalem Post",
-    "summary": "US approves sale of 48 F-35s to Saudi Arabia The Jerusalem Post",
-    "source": "The Jerusalem Post",
-    "date": "17 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rUkpMUXVTM3pHZTlxcHNlY2M5dHFjS0E4TDlOTHJ5SlBvRGFKZUNSR3Y2NWtRNk1GZ3lVZmJFWmVNTUtlaDJmVm13dHJXZ0EweWdGY285SEF5cUtI?oc=5",
-    "rank": 9
-   },
-   {
-    "headline": "World in Brief: Trump approves F-35 sale to Saudi Arabia; Europe sends Ukraine more help - The Economist",
-    "summary": "World in Brief: Trump approves F-35 sale to Saudi Arabia; Europe sends Ukraine more help The Economist",
-    "source": "The Economist",
-    "date": "18 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONmZVNUc4eDY5Z1FPd1M3UFU5emFqNHVJSHJYQ1ZkNmtsTUQ3VXkwYXJhYWNhakZQUUl6YnM2bE1pMGFRc2ZaNDZIX1hjVDJka3E4ZlczaHdLaFhTYm5vVGZSbXBvbnp5c2YxNDJWbnEwRDVocnVab3ctZFZITTFuRzZjZDZERWYxU3hOc1VXU3RWY2VJQ1A4?oc=5",
     "rank": 10
    },
    {
@@ -2647,30 +2646,30 @@
     "rank": 13
    },
    {
+    "headline": "الجامعة العربية تدين الاعتداء الحوثي على الطائف وتؤكد تضامنها مع السعودية - الحدث",
+    "summary": "الجامعة العربية تدين الاعتداء الحوثي على الطائف وتؤكد تضامنها مع السعودية الحدث",
+    "source": "الحدث",
+    "date": "18 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi0gRBVV95cUxQYjl0bGxRMGRSS2FibWJ1QWFMdElZbWJhdWVoTVhZZFRrYzF0UjA1X0hKUlZSbmhkSGZNSk1CaGY1YWhMZEZvME9EU0NpR09LQVd5UE81WF81aWU2dnpZS0IxNFlEN1JEd2kzQWhqRDBWVkpoRnFqdWxZM2dKWEt0TE81aTNIbGZ6X21FcmM5S2xvOXExSGs0YVJOTzE5U09ZcnYyM3lKSGZ2UkNnZUl5Xy02X2FwNjNGeWI3bzRnLXhrN2VEcVJ5SjZ5Y052eG52NWxmeHNzUGVYS0lLWFhjOEwwbjlBWEtFV04wVzMyX1NwRjk4V28zcmphbVoyZHBHNmhjYlZfajhyR0RSaldrellJVG9jUDZjTlFZUkxKdGs4STJ1WGNnQXl4Z2czcEtOUlJOSTdFa0tlTFg2dUVxM0NMLURmYXNrNzIxRnRMel95OWxXeUZUdk9mcDBJUlVIczQtLWlPSWN4LUxpSE5LRVFlN01aX1R5NjY5R0RSMW5mclRTZUszVE9uRGVfemJidUhhTHIwODIxTVh2SjJqVkJSc1BKNmZ6M0tOa0V6ZkVleDJGcFdsMWpIbTN2WjhrOVptY25Nak5yc2ZRcWZrMnRUazRteElCOTZ3WWVkckdFLTB1RHFEZ1k4TWQ5akdmRWF5V0NkWHh4a2lvdm5pa2EyQ2NnWFpkTDg4b3JPNThoUk9GUGJzX3ZidzNKWFBzY3NUS3pyMFd2TU5BUUtKOTAwQl9oV3A1cy1aTHhGZ2JKSEJrV0NvaG9NVmprdXhnRmfSAewEQVVfeXFMTlpKWkl6c2daMXFibWJsQWk0TTFtLWZ0bkh0U19vVkxuRFV6cW5zLWRNVWNhTWRrZE40VkJpRE5VMlk0ajJWd0lQS1hsd3lCLXZnV29VMzhfZW43RFJQV2E0LVZHWURIbTlUb2lsY3FrckM5dDNlWElxM054QTQzSzM1M3VkMWEyU2RhUG52QkxHeHdwaVB0UF9SVGZsTEN2RXZxbkZ1U1VzQ3YwclRRN002aVg0Z2dYSWZTVDBjNW05R3pielFiYUhhR2hKUFFHSlRPUHVqeVhVTXJ6eTVQUXk5SzNXOU1jZjNvWHZCVU04OUxFRVNGVVVxd2ZYS0FvNzFFSE4ta19WbGRqMmMxLVpyellwZmVZWF9QUkcwV1dIYXZHYmlpRGFqSGVRNHJjeUUyVkpFREdSNTdiOEFQRVBUN3FpZ3k2NG5hN2pZcUNoWFppQmJQSE9VYlRDVFRoOWFJODBUWWhCXy04Z2FIZndpMWtmUFdXQV9wWnhZR1U1azFYOWk4d3BKcS16WnlwZTA5bmpCd3d1SE95UDF1ZVdfbHNxWlFnakZjZEt6aGNJSDJPQlZ3LWhUeURDdm1BUkVXUG85d0s1ajFjN3RmMi1vQ1VMR0VSTUJCZ2tMYnQwV04yM3BPX3M2aEtRbVQ0dlFWcEJPd2E4Y2FMYTNPN3R5MlE0SnZzdE1aQkhCem14cUNhTnZuQl9oR080MGFWWUUyTU9UM3NVTm8wSVlZM0NaTkdhUmJaVTlZTnNqTklyOUFmNTF6TGFwRW43V3NNaVJPdXFVTHNIVTNJcGUzVmVqZk5peDl2T1JibEo?oc=5",
+    "rank": 14
+   },
+   {
     "headline": "أمريكا تمهد الطريق لبيع طائرات مقاتلة للسعودية بقيمة 24.3 مليار دولار - Reuters",
     "summary": "أمريكا تمهد الطريق لبيع طائرات مقاتلة للسعودية بقيمة 24.3 مليار دولار Reuters",
     "source": "Reuters",
     "date": "17 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrQk9pNHJSSWR2Rk9BMXlNUWowTmJNdzA5bDJlTHBpVTNRLTFOZjJndWpmM01fbnNmWFIyUlJEWUhOOVFrbzFza1R3UkpnbkZ6N3hYT1YxbEg5WHFMQk1mcVFLLXNrR2QzNWpuX1RzUWhIZWY3ZFNGRkZrR01tWUU?oc=5",
-    "rank": 14
-   },
-   {
-    "headline": "الإيسيسكو تدين الهجمات على المملكة العربية السعودية - جريدة الرياض",
-    "summary": "الإيسيسكو تدين الهجمات على المملكة العربية السعودية جريدة الرياض",
-    "source": "جريدة الرياض",
-    "date": "17 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBhSWZKVkYwYXU0bWZLVnBBZG1DaEtDbkNoVEU0UUdNWDFLTnlMOElPWlpCUEJZeXZVcUlhMUNQR3d6M0VjbGc?oc=5",
     "rank": 15
    },
    {
-    "headline": "مهرجان \"ليونز الرياض\" ينطلق في السعودية - سكاي نيوز عربية",
-    "summary": "مهرجان \"ليونز الرياض\" ينطلق في السعودية سكاي نيوز عربية",
-    "source": "سكاي نيوز عربية",
+    "headline": "إمارة الشرقية تنظم ندوة \"توحيد المملكة العربية السعودية والأسس والآثار والرسالة الحضارية \" - جريدة الرياض",
+    "summary": "إمارة الشرقية تنظم ندوة \"توحيد المملكة العربية السعودية والأسس والآثار والرسالة الحضارية \" جريدة الرياض",
+    "source": "جريدة الرياض",
     "date": "17 Sep 2026",
-    "tag": "culture",
-    "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxOa1ZIMFYzWXpPZ2ZuclcydjYwMTlLV2JMMS1sVTlVcFR1QlFSeTVINnJXSGJQakExMkhtbnVJUE9wVmY2QWhFbDB1SWN6YW1CeGNYQjZ0eFlYbVJicklJRmlqMmVGZTFVbERDWUkwX203VGMwS1hwdVN3TWlWQnV4dE51MTN2YXdzYlZjSmlRRi1nSFczejFVNzVzZWJRRDFtdDlZWF9XWk1JeHA3b2RZM0g4N2lkaVRZTTk3N3dtRnZ0WGZQaFJqWktOZmF0WkhqREtQOWx2QzFBUG9qWjVScHZLRWdqZWtSRHFvRnk5WnFvUGxsN1dJcFBRZEI4OFNtc0VxbkJacHlid0I3SGJvbGtiUnN5ZlIyMXhabG1kMFZJeUNvWkc5YWo4dktFTU8tRUFrcGZqYW5FVmpHdGJISnF6SXg0d2cwZ1FZaXVaRlVWd9IB1wJBVV95cUxPd1VDanBvMkR5S3VKNE10ZUFsVDFrSHdNbEF6WjhfVXlxMjB5eExUS2t1Q3pPb0c0aXlzTEdkSTV0ejNBRXU2QVJNczB2M3E1RkZkMjJUUTJlV2hfcUdvMHZKRUllMWNpVTAwS1Qyc3dSbmNsT05tMTRFSkNhcjJUMm85NlJTSnctWXJyT2h1NFIzNlppdTJRdEZncmNEMTlPSlJ6WEJ3Q3o3T0NLQ0NsWm1yMzF1UnBuWUpQZXZqOUFvdFdrWVd1R2VaRUc1R3pzM19oc1lMZ0M2Ry1Pc0poS1I2TG9hTmV3S0lzQi1Yc3VLRnBJWF91bDFjUWZHVHk1OWxNbmNvV2t5T2NaSnpuNWlDcVRNUGhmdld4RW5rbzIxX0pjSU92US1EcTJKYy05WFJtX0VIb0dQaGV4bXNFczZHM2FhWUhSak9TNmZLeU5IZVdweHZn?oc=5",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA2MjUzTERXeUIyN3RscTI3YlRObDF5Z2pzbUNVMnd4RHdXUUQ4TGNEOVdNbjI4X1Z0OEdibGh0dmgwMXRVUldF?oc=5",
     "rank": 16
    },
    {
@@ -2683,30 +2682,30 @@
     "rank": 17
    },
    {
-    "headline": "إمارة الشرقية تنظم ندوة ' توحيد المملكة العربية السعودية والأسس والآثار والرسالة الحضارية ' - صحيفة اليوم السعودية",
-    "summary": "إمارة الشرقية تنظم ندوة ' توحيد المملكة العربية السعودية والأسس والآثار والرسالة الحضارية ' صحيفة اليوم السعودية",
-    "source": "صحيفة اليوم السعودية",
+    "headline": "مهرجان \"ليونز الرياض\" ينطلق في السعودية - سكاي نيوز عربية",
+    "summary": "مهرجان \"ليونز الرياض\" ينطلق في السعودية سكاي نيوز عربية",
+    "source": "سكاي نيوز عربية",
     "date": "17 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi3gZBVV95cUxQZ2JuSVlRVUJUcjlDUFV0X0hBcWJndWN1dDZmSllQOUw1RjVmaEh3ZjlrT1ZoQjk3dV84NHNGamlJUTdYYU0tMFd6YkNkcXZPRHFTQmg4ZmNNcmg5d0Z1ZldReW9xV0F6VnVPbmZtMTBFV1R0TEdTMmtiMjJ5MkRTamlwYlhhaTNMV0xYZjZ5cEo5WXh5N0ZONnBYdjdmbUxUdFQ5YXh1Sk5fNmRxQ3dpZmcxLTgtV2dxdkJkRThCb21FVjRPYUlJckNxNW5pNnpMYmUzT09DUm1iX3FKeXFqWmhVSC0xSnNMUWxIQTA0Szc1QTFfQjcyTHVuNFFITE1YbXdVZGVlM0JYQ2ZkMEtSdWNmQ2ZzVFdGUEhzX3FPeDdOclpCaDFHa2F5aTZkVHBROHl6WU9rWTRDLVBVRE1hMWlqekFrN0dOWkN2Q1Z0NV96S0JQUkpkOFFLVUhkYW1wZUVqeUh6MTU3dEUtbl9vR19Iamdicjl2cEFxOWctdDVYY3hGUnJWOE10RldMYkJyS2VIX3NuNWJlTHlmMW45RkZfVm11T3FCeHFZZDRaUm9OOXE2TkZlY3dNbU9DWnBiQlp3cE9XTDIyN0U1ZzY5V1h5VGd6ODUyY3ltX1NqMEprNHJlZ3R6eHRPSVZTN0RFOHJHMHVKbWpIWF9WZldPVGh6T1p1MjIycnJkUy0xdnEwR013aURPS0FtU3YxcERxN1RCbndNVTctR0czcVMxcXM0YlNuQU1kTVJNZVVhVTVkd3hlYjFfdFlFd1Bsd3ZEZk85VWlVTW1WdVh2c09sX0xjdjJ1N0xHOXFINzZuMTI5eEZUYWZsQWpkTkRaeTFiWTRYUE5kUFhYZVZXZ3FhTldOYzJqY0pTeFlZTDkwc04zX0taeVVrZHVxaUZYT2poODRxbmlINEJ6T3FWWWZSeTZMN1RHMUI3RTdiV2RiZGd6T3YweDB1SkNscmc5bC16UXFDdDFrRlEwXzNUTmRSTEczQmREMks0bkhWRzl4UWN0am85TW83QjZ1Tktla0Q4UmNCeGdiMWJDSkthejRJRGpGdVRFdnRRUGNXMW15NE5ZM2JlTTNXT2NTdDFRWFl0WGdVejMzMjFJVFhXbUZUc3lOLTJLdDBjNmV6U2lB0gFTQVVfeXFMUF9LVHBDRFFCTlZzdFJOeWZkYW1MUkNXcnJwenp3SWRNUi1CeWpDaXRmU2RMQ3BRTTlMd3lzNlFfWWhIOUlIZ050ZERiYnlfVzNqQm8?oc=5",
+    "tag": "culture",
+    "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxOa1ZIMFYzWXpPZ2ZuclcydjYwMTlLV2JMMS1sVTlVcFR1QlFSeTVINnJXSGJQakExMkhtbnVJUE9wVmY2QWhFbDB1SWN6YW1CeGNYQjZ0eFlYbVJicklJRmlqMmVGZTFVbERDWUkwX203VGMwS1hwdVN3TWlWQnV4dE51MTN2YXdzYlZjSmlRRi1nSFczejFVNzVzZWJRRDFtdDlZWF9XWk1JeHA3b2RZM0g4N2lkaVRZTTk3N3dtRnZ0WGZQaFJqWktOZmF0WkhqREtQOWx2QzFBUG9qWjVScHZLRWdqZWtSRHFvRnk5WnFvUGxsN1dJcFBRZEI4OFNtc0VxbkJacHlid0I3SGJvbGtiUnN5ZlIyMXhabG1kMFZJeUNvWkc5YWo4dktFTU8tRUFrcGZqYW5FVmpHdGJISnF6SXg0d2cwZ1FZaXVaRlVWd9IB1wJBVV95cUxPd1VDanBvMkR5S3VKNE10ZUFsVDFrSHdNbEF6WjhfVXlxMjB5eExUS2t1Q3pPb0c0aXlzTEdkSTV0ejNBRXU2QVJNczB2M3E1RkZkMjJUUTJlV2hfcUdvMHZKRUllMWNpVTAwS1Qyc3dSbmNsT05tMTRFSkNhcjJUMm85NlJTSnctWXJyT2h1NFIzNlppdTJRdEZncmNEMTlPSlJ6WEJ3Q3o3T0NLQ0NsWm1yMzF1UnBuWUpQZXZqOUFvdFdrWVd1R2VaRUc1R3pzM19oc1lMZ0M2Ry1Pc0poS1I2TG9hTmV3S0lzQi1Yc3VLRnBJWF91bDFjUWZHVHk1OWxNbmNvV2t5T2NaSnpuNWlDcVRNUGhmdld4RW5rbzIxX0pjSU92US1EcTJKYy05WFJtX0VIb0dQaGV4bXNFczZHM2FhWUhSak9TNmZLeU5IZVdweHZn?oc=5",
     "rank": 18
    },
    {
-    "headline": "ابن سلمان في القاهرة.. هل تعيد اضطرابات البحر الأحمر رسم التحالف المصري السعودي؟ - aljazeera.net",
-    "summary": "ابن سلمان في القاهرة.. هل تعيد اضطرابات البحر الأحمر رسم التحالف المصري السعودي؟ aljazeera.net",
-    "source": "aljazeera.net",
-    "date": "15 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQWlhGWTlYY2J6cFhPT2ZtcGxfb3hLMks2cVdlZlA4ajF6WkVQblJVZVBOWGpIVHgtY1ZqTFBOMUl2ZDAwX2c2Y19uLXRuRUFlSjNlOUxWazVOTndqMDNOWHRDdzB0b3hUUjRQNFlMOTNNdmNQczI2NjBMLWhDcWxkR2Nrb0J6TXBXLXVRSTRYcF9obWNLZFMwcGwzMnhKT1ozUzB4TUxmSllONml4OFpZaFlLbXRfaHdFalJMSzQzZlprd1FKSDhLcjRVVDNWa2haQjF0Wk1BazZVUHJDOEdCT2Fqb2JLOVZqNVU4T1NENFI0ekJ5U1ZDUzltTGVCUWl4MGpqUVdpYTM5VldnUEdhMEVGM2ZFNm5ZeEh3YWlGaW9OQnMyRXVGY1dMWGF4bUlRU3piSzJ4cWd3YmpnRDlJQU1yUmx4aEpNRU9QWktYc1l6OER5Rk11StIB3gJBVV95cUxQWGFlRlNiRU14OTB2ZkpMcjVhUFBHdGNiQ0U3LU5oSy1tWTNNakdOYlRhOEo5OGd6dHBBNUJxN1AyNVhGVGtnQklobTBiam4wZjY3bXlLMmhFSk5fUXgtcEZCNHVFYVRVT3M2bi1lTnZ1amFfdXN0U3VaQWNsZDVzeGh4eS1HT2xGaGsyZWNtM2t3S0NXYUlQMWZFdHVISThJWDZlbkZXbjRaN2ZFdkVrOW81OGxxS0tURUowLW5SN3l4elFpOFFmU1dsOEhuRHVYMkVQTUQwMkxHN3NaRWxyVDJscUFRY1BhV19ZU1RHTGR6Y2t2TVpNSGRxOUVWSG1GXy05WW94Y1VGNFJUU2dVdWV1NEJ4NUJrSW1ObUNDQVlabXhYaGRtZFlRc0FjZXZ4eTBwaEJpVTZsZ1phNkdzdnJreFNPU3RlanU0dDA1OEk5dDctOTlrYmZmYVl2dw?oc=5",
+    "headline": "كيف تحمي السعودية اقتصادها من أخطر مراحل حرب إيران؟ - الشرق بلومبرغ",
+    "summary": "كيف تحمي السعودية اقتصادها من أخطر مراحل حرب إيران؟ الشرق بلومبرغ",
+    "source": "الشرق بلومبرغ",
+    "date": "16 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiswNBVV95cUxNRUZCanFGWnV4RXRsMGpfSHFFWlRFMUNVeGhSVHBMTkJqWDNSRVlnTGtobVZ6YVA5Ymg2c3dYR3Y3Q1kwTEdKcjVtaFFfQ29SbXV5MzF4bE4tcTZVclpHZnBRbVg0eW52eU5pbjNJdS1HXzVoXzJZZUJxdEJuVUNFcE1YeTdvbktBZlpUMkpPOUlnMG56bUl5M2xEMndYT0lkWWJQUkZzOWN0S2pZTFY3VWhSekx3TlRYUlJ2Tm1zNnBTZmdOVFA3Tl9weGNsTDN1N3h4OE9mcU5xTDEzTXZPbmN3alk1VmFrdGRqN3RZY0JQd0V6NUdBNGQzRzhQbmZkSW15T3FlTFlBX1V5YUp0YjZOalk2SGxwcThmeEZ3S0hWbWVGTnFHUlRwMkxVVXhaU2s5Q2t1eUppRW9kR3NWbTMtSkk1RjhDc0w2bkdkSlZWSlhVM0RCYWZLazhWOWdKVXA5Vjk2eTlvZEczNTEyWllJSDFyUVlMOFRZajd6Z0U5N0RUVlNjdmNHSWxMV2VlNEdqY1NsWXY1T2gwQ0ROeVdtQlBXQy1DX0NlMkQ0RWhzM00?oc=5",
     "rank": 19
    },
    {
-    "headline": "مملكة البحرين تُدين بشدة استمرار الاعتداءات الإرهابية الحوثية على المملكة العربية السعودية واستهداف المدنيين في محافظة الطائف - الأيام البحرينية",
-    "summary": "مملكة البحرين تُدين بشدة استمرار الاعتداءات الإرهابية الحوثية على المملكة العربية السعودية واستهداف المدنيين في محافظة الطائف الأيام البحرينية",
-    "source": "الأيام البحرينية",
-    "date": "17 Sep 2026",
+    "headline": "ابن سلمان في القاهرة.. هل تعيد اضطرابات البحر الأحمر رسم التحالف المصري السعودي؟ - الجزيرة نت",
+    "summary": "ابن سلمان في القاهرة.. هل تعيد اضطرابات البحر الأحمر رسم التحالف المصري السعودي؟ الجزيرة نت",
+    "source": "الجزيرة نت",
+    "date": "15 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Lb1JGbG1pSVJkLVc2Z3RTakJvaC0xZ2JOaTZoV0V6bW1nVHFrREVHQzcwR1QzMjVnX0V0R3BCYTEzUVQ3ZjR0bjMxMnBMTFpVZEN3ZE5wZzZ5Yl9wZXhuWF9IZw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQWlhGWTlYY2J6cFhPT2ZtcGxfb3hLMks2cVdlZlA4ajF6WkVQblJVZVBOWGpIVHgtY1ZqTFBOMUl2ZDAwX2c2Y19uLXRuRUFlSjNlOUxWazVOTndqMDNOWHRDdzB0b3hUUjRQNFlMOTNNdmNQczI2NjBMLWhDcWxkR2Nrb0J6TXBXLXVRSTRYcF9obWNLZFMwcGwzMnhKT1ozUzB4TUxmSllONml4OFpZaFlLbXRfaHdFalJMSzQzZlprd1FKSDhLcjRVVDNWa2haQjF0Wk1BazZVUHJDOEdCT2Fqb2JLOVZqNVU4T1NENFI0ekJ5U1ZDUzltTGVCUWl4MGpqUVdpYTM5VldnUEdhMEVGM2ZFNm5ZeEh3YWlGaW9OQnMyRXVGY1dMWGF4bUlRU3piSzJ4cWd3YmpnRDlJQU1yUmx4aEpNRU9QWktYc1l6OER5Rk11StIB3gJBVV95cUxQWGFlRlNiRU14OTB2ZkpMcjVhUFBHdGNiQ0U3LU5oSy1tWTNNakdOYlRhOEo5OGd6dHBBNUJxN1AyNVhGVGtnQklobTBiam4wZjY3bXlLMmhFSk5fUXgtcEZCNHVFYVRVT3M2bi1lTnZ1amFfdXN0U3VaQWNsZDVzeGh4eS1HT2xGaGsyZWNtM2t3S0NXYUlQMWZFdHVISThJWDZlbkZXbjRaN2ZFdkVrOW81OGxxS0tURUowLW5SN3l4elFpOFFmU1dsOEhuRHVYMkVQTUQwMkxHN3NaRWxyVDJscUFRY1BhV19ZU1RHTGR6Y2t2TVpNSGRxOUVWSG1GXy05WW94Y1VGNFJUU2dVdWV1NEJ4NUJrSW1ObUNDQVlabXhYaGRtZFlRc0FjZXZ4eTBwaEJpVTZsZ1phNkdzdnJreFNPU3RlanU0dDA1OEk5dDctOTlrYmZmYVl2dw?oc=5",
     "rank": 20
    }
   ],
@@ -2721,31 +2720,22 @@
     "rank": 21
    },
    {
+    "headline": "Watch Saudi Pipeline Repairs Underway; US Approves $24.3B F-35 Sale to Saudi Arabia - Bloomberg.com",
+    "summary": "Watch Saudi Pipeline Repairs Underway; US Approves $24.3B F-35 Sale to Saudi Arabia Bloomberg.com",
+    "source": "Bloomberg.com",
+    "date": "18 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONmthWU02RWEza2dXWkVSN0V3YXhKWFF4bXIxcmFDajNqM0JfSXdGY1VnNEZ2emtoRGRMMVJHYUM4bjhWZ1dnMVZROEFBTm05Mm5oLW1XOC1KNnlfXzI5T0Exd0lvNEFjTGozSW9IZExMU0k0a09mMlJ1TTVaNGxXWnFra3YzbTZhUWxWSmV1blF1dWZjcTRn?oc=5",
+    "rank": 22
+   },
+   {
     "headline": "US breaks Israel's historic air superiority in the Middle East with sale of 48 F-35 fighter jets to Saudi Arabia - voz.us",
     "summary": "US breaks Israel's historic air superiority in the Middle East with sale of 48 F-35 fighter jets to Saudi Arabia voz.us",
     "source": "voz.us",
     "date": "18 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUjRPaFlycVdmT09tV3BHVEFvYXVDUDBOT0pZYkdhaF9OQ09TOWkwb21LSHFZQWN0TzNTSUdjdVVaeURNaGdGTjlRNGJ4ZzFjb1pkMk1pa2ZGUHU0blctTnRrZkRKVEI2aWZKaGlCODBpT2dod283SXFOZDQwU1FaT25WRFFpbWhrNUVYM081UE1XS2FkajNwZVVFT0htQ2E4Z1FWYy10TzhscGZKcG5QT3ltLVVLaGNqdFNvZnIyVVpYbnRWMjRFclhWQjFwTXVHbG1VeFByMXVrR0VHVTFDM01LRlpXc0lGVHc?oc=5",
-    "rank": 22
-   },
-   {
-    "headline": "US approves sale of 48 F-35 jets to Saudi Arabia despite Israeli concerns - South China Morning Post",
-    "summary": "US approves sale of 48 F-35 jets to Saudi Arabia despite Israeli concerns South China Morning Post",
-    "source": "South China Morning Post",
-    "date": "17 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSlowazc1bVhLNGVrYWF4cU83S21sMWVtbkwyUmtGTlpFMTJJOUtRdDFRLW9NTTRVNHlFVExUbWs2cGZtcTF0YTVkdHJIWDVndVExa1o4ZGZxdXEyckZIdWN4U2R0cElKWEp4VXcwY1NhM3NjbE45UGg0U25CUUZtTy1TNDVFQnNKRDdnMzQxZ2pGRUZpbGh3MjNkNGhPaHhsU2lUMlFvWTc1VjNRQVJMSmJUOGZSTkpWNjdvT0I3Y3JPb2pidlHSAcYBQVVfeXFMTllaSDJnRUZCYXFvbDZOZVdtLWFPRF9yODNvS3pPbmhGcW9DRWZVbjNPa0NLdEFLdUlrSlFySy05WXU0UnZ2d3FhX0RxM3FiYVhxajhRdklGS0FYbHpNam9kNVNMWkVSMU9vRHQtbTUyQU5UVVFuQ1dwdUZ6ZFh1Sy0yUV82RG1iUXh3eGdNZmVRSjN3T3hxWXBBbWNISllBZW1RWTlPWVNzbzdzVWVpMFFEY3B6dDFxaTkzR3FYSm1fYV9nUFR3?oc=5",
     "rank": 23
-   },
-   {
-    "headline": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
-    "summary": "Live Updates: Latest from Israel, Iran, and the Middle East The Jerusalem Post",
-    "source": "The Jerusalem Post",
-    "date": "18 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16UGs4a21mWVJCQ2dkalNrUk9JZzNyNmdHQ3VQMlcyeG5RcDI0RHNoSjJoekhQN0NqLVo2MjRkX3hUdWR1YzJPRy1qSVZSbDNSaDN1RE9PUEtzVmdodVRmWmpyNFdkY1NtYm9sQ0dKRTVfbnlnci1EdW5ONkNhTjA?oc=5",
-    "rank": 24
    },
    {
     "headline": "Middle-Power Hedging: Strengthening Middle Eastern Security Architecture - Manara Magazine",
@@ -2754,34 +2744,25 @@
     "date": "18 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFTWg5cHVqcnVjSmxJM1otdl92YWNjcVdWLXJMaC1DUXh6V3p0Z3A1cDJPMXR0NGxjN1U1czIwbjRnaWpYMXNSR1gzVjRKWng0Q3JENENORjFkcG44LXpyODZOSmxnbkdacVdaelMxb0Jvd1phMXc?oc=5",
+    "rank": 24
+   },
+   {
+    "headline": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+    "summary": "Live Updates: Latest from Israel, Iran, and the Middle East The Jerusalem Post",
+    "source": "The Jerusalem Post",
+    "date": "18 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16UGs4a21mWVJCQ2dkalNrUk9JZzNyNmdHQ3VQMlcyeG5RcDI0RHNoSjJoekhQN0NqLVo2MjRkX3hUdWR1YzJPRy1qSVZSbDNSaDN1RE9PUEtzVmdodVRmWmpyNFdkY1NtYm9sQ0dKRTVfbnlnci1EdW5ONkNhTjA?oc=5",
     "rank": 25
    },
    {
-    "headline": "Three pumping stations along Saudi East-West Pipeline were hit in recent attack, sources say - Reuters",
-    "summary": "Three pumping stations along Saudi East-West Pipeline were hit in recent attack, sources say Reuters",
-    "source": "Reuters",
-    "date": "17 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPX2JjV2RTdTR3SlFEbUFFRE5FLU1qOEJoSm5YMXR3OUJhYlJjdUVudmRYTlFyUkh4bVVSVFdwRnpoaWUySnV1clB2THo4R3pVaGpPcGdMNFBNUHpRVmk2RjBNdzRQQmhXYXotS0hjd2hzSV9JLVFON0g4bDBVczZEZ2hxSVYyQjJGdlEtWFRtbnhLN1pqMHBCTGltR0Q4RDdSQllwdy11blczeE9SYWlBTFAxNFpGVFRLZDFaSDVUSkxMcFJyTERV?oc=5",
-    "rank": 26
-   },
-   {
-    "headline": "STRONG Pilates Strengthens Middle East Presence with Saudi Arabia Expansion - Club Solutions Magazine",
-    "summary": "STRONG Pilates Strengthens Middle East Presence with Saudi Arabia Expansion Club Solutions Magazine",
-    "source": "Club Solutions Magazine",
-    "date": "17 Sep 2026",
-    "tag": "sports",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWFk3Q1FwSFZRMk43TUNFVE9ybUtxRThZVnRlODV1NEhMT1QtYTFxbjdfX2drbDg3bWI3dlo0WTQ2WEhzVUp2bFJIM1hMcVpscVdnZWd5cEl0R1VnUEpoSUV5WldKS0JDZnY1S0RhOThZUnlsZlJ6NXJDSVVmd3dldjN3Y1pueGJOdGptUjNFNk9VcTNPSXNobVNGVTBsRVE4cXh1bzlybnItaTdLejhDdGZtREhrQ0JDcnc?oc=5",
-    "rank": 27
-   },
-   {
-    "headline": "US State Department approves $24.3B F-35 sale to Saudi Arabia - Middle East Monitor",
-    "summary": "US State Department approves $24.3B F-35 sale to Saudi Arabia Middle East Monitor",
-    "source": "Middle East Monitor",
-    "date": "17 Sep 2026",
+    "headline": "US pivot leaves Saudi Arabia with ‘humiliating dilemma’ over Houthis - scmp.com",
+    "summary": "US pivot leaves Saudi Arabia with ‘humiliating dilemma’ over Houthis scmp.com",
+    "source": "scmp.com",
+    "date": "18 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaTFzcEF2Y2FVVEVMbnZfVFNzZWZMNkplUmFHeFVTSUNpQkVDMFBCY29yZmFSLWhsVXRUOHI0WW93WTNPd1R4SWtUd0FSQ0pYWkxiTU5qbmd2eE1uZ0pvTXlmSk9JdHNTZ2g3M2JYUFE3SUdaQWNwRmw1dE9rdkxrZ2JfenFpbi1ZOEJKZFIwNjlGSk9nX2pqazhRX01VTmpmU1hHYXJiRdIBrAFBVV95cUxOS1BsZ2hsaHNkeFhKQ3g2Vk43VzNHOUc5US0yZDhmV3Z5YUEtU3FFNHY0RW1KRHUzU1lpYnZ3UlowX2VFUnRCa1h3NW81ZGJJSHdfRmIzaWpzMW5KMzVBQ05JWXRfM3lQOF9ZVWxVN1lBTnRhM29UeTFqbFkya0pSWlJQSlBxQm01bmlxRHF3bmxDUFJPRGtzaUIyeTE5Q2R6VmVvSFNweGljNWYt?oc=5",
-    "rank": 28
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZ3l5RmxpWDE1bENpUThybkFFUE9ENlhmaG50RDJsOWFjZExCZEY2Z1hyck1XbDByM3prazRqOGx4VDlhNnNIT2JsWEtRbUR5MDhnYWdEUEJIb3RJMHBxSXptM0VuR1dPa1NzM25jOXVDLVIzYjY2QnFFbGR5OHJvRDNqMFpWamFKaWpaTHZpT2kzekk5cENaYzhlWGRDLXZfWXZjN0dST2t0X0RyV2xnWVI5NGh3QWpnbzY5SHRLZ05xdmphamN2TG1Td095SWJE0gHQAUFVX3lxTFBneXlGbGlYMTVsQ2lROHJuQUVQT0Q2WGZobnREMmw5YWNkTEJkRjZnWHJyTVdsMHIzemtrNGo4bHhUOWE2c0hPYmxYS1FtRHkwOGdhZ0RQQkhvdEkwcHFJem0zRW5HV09rU3MzbmM5dUMtUjNiNjZCcUVsZHk4cm9EM2owWlZqYUppalpMdmlPaTN6STlwQ1pjOGVYZEMtdl9ZdmM3R1JPa3RfRHJXbGdZUjk0aHdBamdvNjlIdEtnTnF2amFqY3ZMbVN3T3lJYkQ?oc=5",
+    "rank": 26
    },
    {
     "headline": "«السعودية للشحن» لـ«الشرق الأوسط»: الذكاء الاصطناعي يرفع كفاءتنا... ونعد لمضاعفة الأسطول - الشرق الأوسط",
@@ -2790,7 +2771,16 @@
     "date": "17 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMivwVBVV95cUxORTBja3hneUJCRUxFWkJVODNqUXdUaWhHdkpsYUgtWVg3OTFIVHVoc29raGVlV2pSb3RwNjNvbkN0MlhQOVh2V1ptVTR3dzJkZFRlOU81OGR6SFhPeDVTTVhjVWVHTG10VUFQd280NUZndkdLTkFxN2NwUUx1TUVpajBrc0ZEVTdjbzNvWFNZTFFXVVNPUlVZcG1ERWNFaTVodEpmSG1Wc25LWVRiVlVTTnpLVlNkMDI4VDFveDAydkh0ekxwRkJCVVN1eGZFZmVXRjJ3NGVobGJLVlI1ZzU4anVMaGNfa0wySG04NW02QlpNamIycE9Md1pNcVVsUERBU3RQQ3A4X0ZBUTRxck01N1B2OXFvN0Y1ckJSSEJhSUVCT1VvZGtWZnRjV1lYbUMtYU5SNW5DODFTNEkxamN3bEw3bTZlYWFZaFdQQUxQQWFJa0tFeWNzcmtzOXlYblNVQU5Lb1NkQWkxODVtSUl1WUR4X25iQjhlZ1NJWnJzaHFZNlZiMlpTQllsOGpvcENWV0dGbkZuSzVyTTlfSGdUQ2ZkeTF3OTVGYmdrdWN4ZDdBeEMxWXE5TW81eVBoMDdGTVhMaVZHUll3X21CN0I5b3JjVWtaWnU1T0VJb1MzSmo1bk94Y2pONVdrbTNPVHVQeWtqN19QYTVTQkRwMHVidDFTenkxbkVxRkdJdGlXX3hXWGI3OTBNTDFUc0t1QWp5OTB4cG5vcy1qOUt6SFBKbFBuQlNVRHFEVEhPNFlHZlA3dXVadlNqTF92OElLdWZfazJBNkdwSUFsMVJWNXA4NkRCRlprWVFBd3YyWWRNRnJXV0tPanpET3NhanJDSWpOQUItU1JJU2FfX2k1U2dsUjJtbnphaWNNRWp5blRTTU5JakI1S1ZpQ1NaeDZObDBpSklyN3lMclV0V3YyYjhF?oc=5",
-    "rank": 29
+    "rank": 27
+   },
+   {
+    "headline": "السعودية ترفع أسعار الفائدة 25 نقطة أساس عقب قرار «الفيدرالي» - الشرق الأوسط",
+    "summary": "السعودية ترفع أسعار الفائدة 25 نقطة أساس عقب قرار «الفيدرالي» الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "18 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMikARBVV95cUxQR1pfaUpMQzdSWTZocEc1S0tTUjFOWnNQdi03Tm5DNnFyMGJWclAxMHl2MmUwMEczVjR1VFdLX3VZeU96ZEp1OENXSENNUk9XZkVMdWpsaFEtRG1kN3JaYVBoZnk5bm10WGM0N3VzSUlQUnZ2eVpWRnlpeXR1ZklHVGxLWUEzTl9NT3QwRmJueHdsV1RDc2hyX3FCR3VJZVU2WEJ6RTlaNW5EbzFYM2FYdmdpSXpxVEVxbXpYdERzQVFwX3diQzNCTVdXMWNxR2FZZGcwaUtrMGVmQThDQldWWnh6WjRvNXV3ME5MR2hUVU1LcTUxbnJuYV9hVjNRT0hQSURwWUR2d08yeS1SSk10VlBlMHp2V2NRUWFEZHREZUNfZ0wtRkIzUnY4VUpDd0phcmtGM3ZBc3dtOUxrNDAyLVFPRlZYQnFUdFEzbHlxNHA1WWJ4VkJTUTJzTzdpb0lrSkRvS0p0MXZZdWpFb1M0VDVYRjBNVGlSLW5NUXNBSmVXdGRjRGpBak9RX0NJMjF0U1I4c3hWUWFTRUl4Tnl5dHJ1QXRoTEhBeWxmTW9ROW1femRjbzk2RlhVQVhUUkkyX0hXcnZHbGVyWGJYYmdFelNuMXlCaWp3TjF1Z08xNG14ODBlajVRYXAtNk92ZXptVkJmdWtmbWhOM0EwUk5YWTQ0TUJOV0h6akFhZmx2Qkk?oc=5",
+    "rank": 28
    },
    {
     "headline": "السعودية تطالب مجلس الأمن بموقف حازم ضد «عسكرة المضايق» - الشرق الأوسط",
@@ -2799,7 +2789,7 @@
     "date": "17 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMixwRBVV95cUxOLWo2R2t0MjJrY1ZybkFHT1J0NHczd3NIQmxnd0h0ald6ajhKb2RncUZsWHU3d1BkaHk5LWdKN01LYXozM3ltQ1FIdWJXZXJMS2t0MXJoNTdmUk5LMnBfUWtRaUh1NDVJYkh3bG45R0hVLS1kQWUxZWhfdlhwYnVnRE11Y2NxWHM1cXlGVnBDY2pYZ2ROVkozaWYtNG9jUWdpNFI0UEhMbGp3Mk1uM2R1RHU1MlRud1pvRnZKZVNEX0Q0NjBGRWhLcmJ1SXdXdUt2bnNIMXFTNXJaZEZIVm9QZ0pITTdnbG5qZ2NVUmZQS1kwZGlQdU42VXhhU0NhbHdKaWgxWUZtMHhFWE1aNWpTUF9zQ0hnM3pwX0V6LTBQMGMtMGM2N2xKcVpIVkZjSzN2NXFxVTI1SVZQY1RUYkVqZzRUVGFsNS1IVzNQQVRLLXBRTUFzNUFVZFpGSGVZREc5cUF1UmhrNktMZm9GdXctbHNxbXlaQXJUVElqb3FxblRqT3lRa29aUkFTZGtNSFA3dVlKX1ZLWWNycm1YQWhrZXd3ZzU0T1JKTmNTeXpaTkI4UTlaMUJZTlpIV3BMT2R4VkQ2MUtjaUxUVzJoZGtoNVk3RnZVMEtYVURETW45RmY2eDRPLWQyQ1RxZDhxbUJaNWVISlZ0eHNXRzA3d2VGZ1hRYzhaSmp5RXJUMzJ1R2QyQWZVQmZlWUx3R0hWbU83VjRwbDk1T1dHeWhOZERJR3J0Q2k0UHk3Z05iSjJhUzZwQTZaeUQ0?oc=5",
-    "rank": 30
+    "rank": 29
    },
    {
     "headline": "الخارجية الأميركية توافق على بيع محتمل لطائرات «إف-35» إلى السعودية - الشرق الأوسط",
@@ -2808,7 +2798,7 @@
     "date": "17 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMisAVBVV95cUxQOEIwRHpvRU1jZ01hLXZPVTlJdVlSM1JSVVJDMmF5c3NWa2dualhRQnRnU2tQV1VkWlZvc2VBVG1FdGhwTHc3M1lIZWlYVUN2VVpUYkdYUG0tRjNxS1ZLbnNOS3dOUjNfTHlPNEk5clhIand2YmkycWtaYUtLQ3NocDREQnRJZVhfcjgzZlB2RTYtWlVFb1hyOFVHTWJhOUs1ZS1zbVFYczVvdG5qYWk2aktSeVZKZ0RqWDU3WmNrYjd4N0ViSG5IdUpmQk1DT21sZ0lNeHBlSWFidHdYd09QRlp0ODFtWXB6LU1TWngzUFpZRWdRTzlJWVhxc2RTZWt2dzlSUldleDFFNWtzQkptQ19TenVBN3N1aGpRNUFNUWZvclVmR0VOeV8taXc5QTVKd1libXdXZFE0V1NqamNhaGlKNmFRd0c2QTdFLWFXTmc4cW5PTHlHVlV4VHNlS2FDYURHWEVkam5PaExsQnVydzFBalVNOEdTUGozd0pWRGJ4WTJ6MS04YnNaRVdSM3lUNjcyZVdVSTlYaHZteFFBMGlXWkJYTEFNM3B0V3lkQ2wtZ3lnX2xWc3FKV1JYNGRGc3d6MXBTNHozdXkwb29kdnBRZWJFZjRGbG1ZSVlWTEVXRktKZGJEWkp5S084YkNSQ3R4Y1VXZ3VCUm1hcF95emItU1V4Zjd1ZVIwQmpsMlZHeTQ5WkZmaEpGSWNfME1JSHRUaDJGYmdXWEtmdW1QcGNTcDRMYXY0Z3Fnc3YtWUZCUmQ0X1lYLWN1Ukw3dDRFaGR0STlOOUEyYkRNcXFvT1ZaeVpTOWstTXU4YkJqYlkxa3J2bFZaLVBJRnZ6X0hoS01EeEpZZk84dnFvYm9aUTh1Z0ljVEIxcW1vZXNKSlIydUNxQkZ0TzhydzktcTdt?oc=5",
-    "rank": 31
+    "rank": 30
    },
    {
     "headline": "من أجل موقف سعودي مصري بحري واحد - الشرق الأوسط",
@@ -2817,16 +2807,16 @@
     "date": "17 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOS1BfdVF0OFBqT2d1d1c1M0sybmJFbnRyN3BVeEs2QzhYZk5MUV9yNU9SM01GeTdMVVM0M0VWM3pwZEpUeVBVZW1aWlJSbFV0cHUxYWFrSFRhbU84eVZGcmxGV0dQci1ZOUxFeE9rQzI2LVA2dmFHQk1abzJrTE5vUU80U1hwV0l1Y2tCdU16ZjBndG1uNVY3TjF4dGowSUhjb3gwY3h2R3NnZ2luaExhS2Vsa1Nwc01JU2VjWHM5ZWNKcnhoNXRJRVN6VEdycnB4VlZZc3Byc1JTRXBjQldaTTBZdWwxYzdGRWh0ZGlMZmk3bE5nelZaMXFSbVBKT09jUFF6N0RBcjZoZEN5VVJOMmZHNWRDcUNvSGNxelRwX0Jrc2hLODJUUlVvNkcteVZyeDdDOXNuWkJJOUQwX2RNa0ZB?oc=5",
-    "rank": 32
+    "rank": 31
    },
    {
-    "headline": "السعودية: مؤسسة «إحسان» تناقش تعزيز العمل الخيري - الشرق الأوسط",
-    "summary": "السعودية: مؤسسة «إحسان» تناقش تعزيز العمل الخيري الشرق الأوسط",
+    "headline": "السيادة على البيانات والأمن يوجهان قرارات المؤسسات السعودية في تشغيل الذكاء الاصطناعي - الشرق الأوسط",
+    "summary": "السيادة على البيانات والأمن يوجهان قرارات المؤسسات السعودية في تشغيل الذكاء الاصطناعي الشرق الأوسط",
     "source": "الشرق الأوسط",
-    "date": "17 Sep 2026",
+    "date": "18 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxNWUNsX0NHcVptUnNOQnlQNHphRV9ZbThNbWwwd2VOTUpoUm1zcFJWTlpCOGFoeUM0dGpPN3NtU0hVaVBIbFNlcmstV2h1cElqbjlsdTFXRzJ4M09uVXlDYjRNWFRDUnBick1oRFNwdUFfS00xMEVEVUpiekFHb09jTjY0V0dWWlk4c3JRdXhnWHktUUFIeFRTNHNyaDA2dGNSWU9PaEJmbm93YjNnMEdLSGJQVk5oWklOeUI0ZFR5aVBKQnR0TVJYWGp6OE9IM0ZxSGFYbUVES2Q1aUdBNE1XSEZfZmZTX3dkWWlmMUZkdU5OMHBhbWtvcXN0UUxUeXpzdkV0Vll2d0VSOW4wU21SN2h0elcwdGdDeUZjYXRZNW40VWYtTjRPQ3JLZW1RcHcxZjJDY2R4VzZYOS1NWnNiMjFlWFA1Zl9DRW9YZ0JRb1NFS0xXcXgtemFZMmtfWkdrQjNvYjF5blRkZ0dWYWxUaXNsNmhFUGFuVUdjazROa2Q4X2J2dTVCR01XNngxTHVneVZSWGc4RGYzSnQxY2F0clRuNDEwVXBNZnFqVkxHbnUyR2xURFltVVVRZmFIVW9Uc1NyMWFicmJJM194QUdfX3o0elpUcEVFMlBpangwdlRKdEdBQjg3emJzYmI4Vi0wdHJjN3lrUVVieHo3SS1LR1VBNGZEb1Fnd3U2LU9pQ0trdHpX?oc=5",
-    "rank": 33
+    "url": "https://news.google.com/rss/articles/CBMinwVBVV95cUxOOHNXZlBFZXpTRDJxTS1CSy1aSkdXZ0hWUmt6Z0FSZk55Rkw3dnc0VlgxVDJ0LUpTb3JPQUVqR2tjRGVRTXRrTXo1UWcyeWNuZkhtQURNcGdzdmRvd3F5UXdDTHBvSWdKMHZrS09BOHoxWkNGXzcyTXB6bF9GLXVWUGVLbFk1OFZpWDlMN2V2YTlma1N3QllpWmluanVENHNiZmJTQ3ByclF5RFNyVkdSYnpuYWxtVWJ2N1Njd2hRN3RuYUFCM3VLQzVZbGlTTmFfUlA2MzZveWdkT1ppYmRyaEZaSzRPLVlESEtPSWh5WTliMWx4Z2dHV2pIOXA0UXY4VW5ka0pCMEt5SHk3M015RTdZRkZHR3RwWkpCY0c5ODhqSGJhc2JDQlJqRU5tQ2dFZDd3UDd6TThsMnJ2WjBYX0NnSzhpVlBic0lVNXNTQU0yd1pKaWZfVlF3UDJzOF9wcGY4dHU4VkljTFBJQ3VpRUVJQWljUzRKMFNOakNmcFRJRkRoeXVxcWNuNE82TFhuVXg2dHRZVjVzMnd5UThYUUR0bi1URHRILTJQRTZsMTZCSmFHRnIzd0EtTXQyU3ZpUnlsdTdRVzE1VUtfRldXTXVpOU9qeEUwMWJXWUJSTVE0aWdpYjY2b1AzOGg2R3N3ZVlfLXpBU21qMFZ3ZW1aaXEwWUFuMmstYjlBaHlkdGJDNzR6OXNUSHlDZ3VoTWdOYkk0SkF6ZG5nM3RMV2p3NmtzUTFGczZzWGlGRTlWVnAyN1hmcnJMWkNoYUQzWi01R0xKb0ZzT3lWUFRpdlBXV0VSeTFaR3N3bGdEVUJfVmVUdmwtbTQ2cWZKTlI1cVhJcEJsM0hHYWxtN1kwekJIQXpQWVhyUUlqb2pETENHNA?oc=5",
+    "rank": 32
    },
    {
     "headline": "مصادر لـ«الشرق الأوسط»: أندية سعودية تتكتل ضد تعديلات «مشاركة الأجانب» - الشرق الأوسط",
@@ -2835,6 +2825,15 @@
     "date": "14 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMioAVBVV95cUxQdWJsWUhxaDNudDdrVGMzaUxMZmhCN01Pck8zQjAyME16WGcteG9UUTRSWjhMZWhxLVFlUzVLempBWENUcHQzSklvc0l5Z2ZjUXZWTVQxZzRIRGtSbkFZQmNORHcydHJYbTZzM1JlcnpqaUNYT1c1cHpXeWhvN2hiZm9aV3ljRXh5NXk2QkhCdDdUVVVCdmZVTzh0TkQ5cTdkVHVzc3ZVdXRwN1B2QlEyVEpVTWJrZ2ttTlE5cWw4bVBEQk1kM0N5MUI0MTkzU2RwNkozallzS1ZtMThFQ3ZhN1NaUXFfeDkxZ3NydXNYZVZUaVFuUmhiazA0cHo5VjdvaWpONU5lQUozMnJ4SlhUUkM5REcyd2ZVellxZW5jRVdzZjdTNkdpV3ZrbURfZDBvc0hGdjJ1eU41R2p3ZmpKV0dUY1RVOTlOREQ2MVE2WWp0VHFmemRqMElzYUdQdHVWckxBSGZvcVdUdFRWMmJTbXJ1OFNCNzgtWmRGLUpOOHRrcGZ2NUhodkZ6NXo4d3B6b0VBdjVraVBna3hQQmJuTEk0TzhtNHNrT0d1aGxlS2d2dnBVcUpidmdYMHM5djVSd1cwWS1KZmszd3dudmtuUjdpaXFXSUREMzFXUnoxMXRydmFaUXE5RkEwZ0dFTlZUVjRTZ24wTXh6ZHBGX3ZTUEFDZEpMMUo5eEVlVkhOejl6dTRvU0lYeFg5Um1EMzdNdVA2cllRTl8xRUVEMUUzaWVwSjlJeTRsbi1Gd2REcndJN3JkRUk1SkZUeE10UWM2NUh2NmpYVGdCV3NaWkk0c2JreTVGTEd4aVNaMEwySENvYTZSSjRIRURCbEJQUVdkRG5naklIS1YyanpEY3BfQWo3Yy1YbGRzam02Qml2V3U?oc=5",
+    "rank": 33
+   },
+   {
+    "headline": "السعودية: مؤسسة «إحسان» تناقش تعزيز العمل الخيري - الشرق الأوسط",
+    "summary": "السعودية: مؤسسة «إحسان» تناقش تعزيز العمل الخيري الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "17 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxNWUNsX0NHcVptUnNOQnlQNHphRV9ZbThNbWwwd2VOTUpoUm1zcFJWTlpCOGFoeUM0dGpPN3NtU0hVaVBIbFNlcmstV2h1cElqbjlsdTFXRzJ4M09uVXlDYjRNWFRDUnBick1oRFNwdUFfS00xMEVEVUpiekFHb09jTjY0V0dWWlk4c3JRdXhnWHktUUFIeFRTNHNyaDA2dGNSWU9PaEJmbm93YjNnMEdLSGJQVk5oWklOeUI0ZFR5aVBKQnR0TVJYWGp6OE9IM0ZxSGFYbUVES2Q1aUdBNE1XSEZfZmZTX3dkWWlmMUZkdU5OMHBhbWtvcXN0UUxUeXpzdkV0Vll2d0VSOW4wU21SN2h0elcwdGdDeUZjYXRZNW40VWYtTjRPQ3JLZW1RcHcxZjJDY2R4VzZYOS1NWnNiMjFlWFA1Zl9DRW9YZ0JRb1NFS0xXcXgtemFZMmtfWkdrQjNvYjF5blRkZ0dWYWxUaXNsNmhFUGFuVUdjazROa2Q4X2J2dTVCR01XNngxTHVneVZSWGc4RGYzSnQxY2F0clRuNDEwVXBNZnFqVkxHbnUyR2xURFltVVVRZmFIVW9Uc1NyMWFicmJJM194QUdfX3o0elpUcEVFMlBpangwdlRKdEdBQjg3emJzYmI4Vi0wdHJjN3lrUVVieHo3SS1LR1VBNGZEb1Fnd3U2LU9pQ0trdHpX?oc=5",
     "rank": 34
    },
    {
@@ -2854,24 +2853,6 @@
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMizARBVV95cUxOZWJ2LUh5OVlZOXZIWXVfVm1fNWJsUlpJOTNpaU4xeG1hb1VNU2RJS0JTRHdiNU55cE1qOVVHOC1uT0R5RlZVcXh6OTVtSEJ1QVU0dkJYQ1kwamxJYnJlYzBYTTJ0dHNHVC1aUkVqRmliYm5HYzg0TUJuZVZMMmVWS2w0bndIWENhUERSTk5fTTRmUnZ5ekFReXE5Q2lWS0tYZzhvMm5QMGR3WXdYU3BBVEhIOW9IUDVsZUJjRWdfbVItRVFlc29iT0JkWU1ONXcyZkZ0XzQ4M1U3bFlFX0EwMmFBSDhHVU8xVDVBa2VuMVpBOTJpVVJXQ05kWng0UGpoRHM2ZURVb2VIMXZnS1EtUnVJU1JzbEtJTkhfTlhsY3BSdnFIVmRQaDhlLTN5empuckcxcVhxb1VVNGZaTWRJc2czX25nUXMybW8yckVScEtsS3JySW95eFVjMjNYSnVTVHdZWFZnZ0tUQXNUeTRsNWRYeDUtSVRsQVFBdUtBYVdxV3RwN1kyb3l0V3dWUjI3NjdWTmZtMHRsMml1QXpwOFFmeHdIeURPSzBCRHF5YUJ0LWFsaGFUd0hIRHlnMkdqb2pFZjNKU202RzRYc2FXYm5CUnFpWTdGTC13R3pQUExEeEdJYUFEdGJJOG05azB5dXFYWkN1dTl2eWN2X3ZTTG1ZalFRVDdndGZMMkU4UjhtTEtDMmltTTlzT1pRdWdmWlo2SnlpWTROQldiTnhESXdhX2VhYzBJUzFoellUQ2YtRDNLNWphZzhuZ3o?oc=5",
     "rank": 36
-   },
-   {
-    "headline": "إعلانات «الدوري السعودي» تزين مطار وشوارع جوهانسبرغ - الشرق الأوسط",
-    "summary": "إعلانات «الدوري السعودي» تزين مطار وشوارع جوهانسبرغ الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "17 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMitARBVV95cUxQUFo2ZDR5LXY2Z0hBbnRaYkp6cWVMLUZ6VXd4U216NEVReXlXMXFzSDJqNzg1M0VrZ2FfdE1mcTBkVlktdkZNTVdvT3pTM01acVFseXZwdlVoYWQ1ak9IWkpXekFWaWtXUV9BV0FRQU4tOXhkR1VuRDlYcGR5NnlISExQWFc1OG8zSUh2SHU5X00wdjRnc2w3eGRDVlZ3U1E0T3JzVkVJRy1Meld6NFBZS3V4Mmgyc3ZBYnBRN2I3MkQ3VlFBMFpiMVFCUHZQWjdvYlpjUjV4cTlvRXhNSVUtd0xCUG8wV2JRbW1VQjN6UnBhcUpyMkJkMElSTlFkS0phRUs3Zi00YzQtMDgxX3dBVENrTzdaVnZtRUpBWVd5OGRKYnRFWU1xajY2ejdIeXhRd05ZbmRWV2dDaFF5S2VHaVRrQjlGc2tXQWwySVlna09JYTJPdFJPa0JhREp3UXBfNzZBdVZzUDIzenJJdjBXdUVzUE5zTXNQQmp1d3d5MTFyZHZPMkd1MlNLQ3RFdndBTnpyLTdvc0xUdjNXQUxaVEp5bTJLWi1LV2VuRXMyVXpHazlMZWJtbEZCdTdRTXRjZXVzMDJOSVZxVTRESnhMTGNPdk5OQWxrVllteG1RbUdjR0ZEYkN6bTY4ZWI4dDdkMm9pQ1NXQndaMkxBZGthTEV0VjgtZWRFSzhqM3YtaWNmQ2xlaHk5NDhJSFhlOVNMV25zQXo5RjVzVEsyVVo2LTRqQTE?oc=5",
-    "rank": 37
-   },
-   {
-    "headline": "السعودية: وفاة مقيم وإصابة اثنين بشظايا مسيَّرة في الطائف - الشرق الأوسط",
-    "summary": "السعودية: وفاة مقيم وإصابة اثنين بشظايا مسيَّرة في الطائف الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "17 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxQenM3bHVTeXVlUVRpUTc0U1oyY2sxS0tpUE9ocy1MWlNBc2lNdF9sVXlid3RZeFVoM1pZY1g0UE52UzNOMlpYdHJRYThsNTNxNjlNVzJndjlMSEJHREctT192bkZRX254QThOWlJTb2FJOHBPNUJEZ0NQbW9XcXRMSV92bnEyTjRFdldtQVE2d2lPeG5qWGktUHliWDZ5T1VGMDhFb2xvN196ZW9HeDdVYm9yYk5iNEFRRVhzVTdfdXR2U0lYU1A5VU9CN3RVdU0tOWdWLXNQLUFIOXZUWWhDdjFoZVRobXZ4NzlqOUlmdGN0VjROaVVHOTdYdHU1akxvWl9PV1R0ZjJCclR5a1hETUhXNUNBdVFsbGNVSmlxd3NkMkRFU2FYaTNCa0RtLTVpaTVVZ1ZsczBqUGRFU0ZEeldzdUpLWGVycFp1NkxzejJXUkFmVWdLcmcyRzdtdFB0UUg0VEk0VmFxZnFLeTI0SlI1SzlqX09CNVBSSU0wamh0UFlEQXVwYWxhamtKRFR4Vmo4eHJVYU91R3d3a3dZeHNHaGdveDIybjdNSzVNUGt0UU1FNS1tZFZFWmVrWG85WllVZXRNTEFHaEJSdHN0WS1xSjJSbFU3ZktUWV9XMklCVF81djhIUTBkMmZlaGhUMVFfQUtfR1pMWDJ2NXYtSDdBNzg2dnFqY292VU0xaEFsLUVmVmFmbFhRTTM1aVI4clAzVlJtZGZUMi1mN1RVRnpJVnZzcWlwSFp5UEtmVlM1eURiYjlXeVBzbThmTnBEbktya1QwZ0ZQZkhIMHBN?oc=5",
-    "rank": 38
    }
   ]
  },
@@ -3386,13 +3367,6 @@
    "kind": "religion",
    "confidence": "high",
    "at": "2026-09-18T05:00:27.669007+03:00"
-  },
-  "#ام_فهد_تنخاكم__احسان": {
-   "english": "#Umm_Fahd_appeals_to_you__Ehsan",
-   "summary": "A charity appeal hashtag: \"Umm Fahd\" (a woman identified as the mother of Fahd) is calling on the public's generosity, with donations routed through Ehsan, Saudi Arabia's official national platform for charitable giving supervised by the state. Such hashtags circulate regularly when a specific hardship case — medical bills, debt, housing — is publicised and shared for crowdfunding.",
-   "kind": "social",
-   "confidence": "medium",
-   "at": "2026-09-18T06:00:28.264527+03:00"
   },
   "#يوم_الجمعه": {
    "english": "#Friday",
