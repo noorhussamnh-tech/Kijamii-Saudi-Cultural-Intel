@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Saturday, 19 September 2026 · 13:00 KSA",
+ "lastUpdated": "Saturday, 19 September 2026 · 14:00 KSA",
  "days": {
   "2026-09-06": {
    "label": "Sun 06 Sep",
@@ -2135,20 +2135,20 @@
     },
     {
      "rank": 3,
-     "text": "#اللهم_احفظ_السعوديه",
+     "text": "#شكرا_ابطال_الدفاع_الجوي",
      "cat": "General",
      "pts": 10
     },
     {
      "rank": 4,
-     "text": "#رحله_المليون58",
-     "cat": "General",
+     "text": "#اليوم_الوطني_السعودي_٩٦",
+     "cat": "Culture / Society",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "#اليوم_الوطني_السعودي_٩٦",
-     "cat": "Culture / Society",
+     "text": "#رحله_المليون58",
+     "cat": "General",
      "pts": 7
     },
     {
@@ -2159,13 +2159,13 @@
     },
     {
      "rank": 7,
-     "text": "محمد",
+     "text": "صن داونز",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 8,
-     "text": "صن داونز",
+     "text": "محمد",
      "cat": "General",
      "pts": 6
     },
@@ -2177,13 +2177,13 @@
     },
     {
      "rank": 10,
-     "text": "مساعد بن عبدالرحمن",
+     "text": "بلاد المسلمين",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 11,
-     "text": "بلاد المسلمين",
+     "text": "مساعد بن عبدالرحمن",
      "cat": "General",
      "pts": 4
     },
@@ -2201,13 +2201,13 @@
     },
     {
      "rank": 14,
-     "text": "زال الخطر",
+     "text": "عين الاثريه",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 15,
-     "text": "عين الاثريه",
+     "text": "زال الخطر",
      "cat": "General",
      "pts": 4
     },
@@ -2219,7 +2219,7 @@
     },
     {
      "rank": 17,
-     "text": "عبدالعزيز بن عبدالرحمن آل سعود",
+     "text": "اليوم الفضيل",
      "cat": "General",
      "pts": 4
     },
@@ -2231,13 +2231,13 @@
     },
     {
      "rank": 19,
-     "text": "علي النبي",
-     "cat": "General",
+     "text": "مطار الملك",
+     "cat": "Politics / Diplomacy",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "اليوم الفضيل",
+     "text": "علي النبي",
      "cat": "General",
      "pts": 4
     }
@@ -2252,23 +2252,23 @@
      "score": 88
     },
     {
-     "text": "#اللهم_احفظ_السعوديه",
+     "text": "#شكرا_ابطال_الدفاع_الجوي",
      "score": 76
     },
     {
-     "text": "#رحله_المليون58",
+     "text": "#اليوم_الوطني_السعودي_٩٦",
      "score": 64
     },
     {
-     "text": "#اليوم_الوطني_السعودي_٩٦",
+     "text": "#رحله_المليون58",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (18)",
-     "items": "#صوت_الانذار · #تفريج_كربه_معسر_ليله_الجمعه · #اللهم_احفظ_السعوديه · #رحله_المليون58 · صنعاء · محمد · صن داونز · علي السعودي · مساعد بن عبدالرحمن · بلاد المسلمين"
+     "label": "General (17)",
+     "items": "#صوت_الانذار · #تفريج_كربه_معسر_ليله_الجمعه · #شكرا_ابطال_الدفاع_الجوي · #رحله_المليون58 · صنعاء · صن داونز · محمد · علي السعودي · بلاد المسلمين · مساعد بن عبدالرحمن"
     },
     {
      "icon": "🎭",
@@ -2279,6 +2279,11 @@
      "icon": "⚽",
      "label": "Football (1)",
      "items": "الونسو"
+    },
+    {
+     "icon": "🏛️",
+     "label": "Politics / Diplomacy (1)",
+     "items": "مطار الملك"
     }
    ]
   }
@@ -2518,8 +2523,8 @@
   "شمال كردفان": 4,
   "#الحوثي_يستهدف_قبله_المسلمين": 14,
   "#السعوديه_هيبه": 12,
-  "مساعد بن عبدالرحمن": 16,
-  "#رحله_المليون58": 16,
+  "مساعد بن عبدالرحمن": 14,
+  "#رحله_المليون58": 15,
   "#ساعه_استجابه": 7,
   "#صيدلي_سعودي": 6,
   "هيندرسون": 6,
@@ -2536,17 +2541,17 @@
   "عصر الجمعه": 4,
   "#صوت_الانذار": 14,
   "#تفريج_كربه_معسر_ليله_الجمعه": 12,
-  "#اللهم_احفظ_السعوديه": 10,
-  "#اليوم_الوطني_السعودي_٩٦": 7,
+  "#شكرا_ابطال_الدفاع_الجوي": 10,
+  "#اليوم_الوطني_السعودي_٩٦": 8,
   "محمد": 6,
   "علي السعودي": 6,
-  "بلاد المسلمين": 4,
+  "بلاد المسلمين": 6,
   "كاس القارات": 4,
-  "زال الخطر": 4,
   "عين الاثريه": 4,
-  "عبدالعزيز بن عبدالرحمن آل سعود": 4,
-  "علي النبي": 4,
-  "اليوم الفضيل": 4
+  "زال الخطر": 4,
+  "اليوم الفضيل": 4,
+  "مطار الملك": 4,
+  "علي النبي": 4
  },
  "news": {
   "date": "19 Sep 2026",
@@ -2995,7 +3000,7 @@
  },
  "_apify": {
   "google": "2026-09-19T07:00:30.024683+03:00",
-  "tiktok:tried": "2026-09-19T07:00:30.024683+03:00"
+  "tiktok:tried": "2026-09-19T14:00:29.317890+03:00"
  },
  "google": {
   "date": "19 Sep 2026",
@@ -3595,13 +3600,6 @@
    "confidence": "medium",
    "at": "2026-09-19T05:00:24.809769+03:00"
   },
-  "#اللهم_احفظ_السعوديه": {
-   "english": "#O_God_Protect_Saudi_Arabia",
-   "summary": "A patriotic prayer hashtag that Saudis mass-post whenever the country faces a security scare, natural disaster or national crisis. Its presence alongside \"air defence\", \"early warning\" and \"the danger has passed\" points to a defence or alert incident.",
-   "kind": "social",
-   "confidence": "medium",
-   "at": "2026-09-19T07:00:30.024683+03:00"
-  },
   "مشاهير": {
    "english": "Celebrities / influencers",
    "summary": "The generic Arabic word for famous people, used in Saudi social media mainly for social-media influencers. It trends when influencers are collectively criticised or praised for how they behaved in a public moment — here, plausibly over how they reacted to or filmed an ongoing incident, echoing the board's hashtag \"#Filming_Serves_The_Enemy\".",
@@ -3672,13 +3670,6 @@
    "confidence": "low",
    "at": "2026-09-19T07:00:30.024683+03:00"
   },
-  "عبدالعزيز بن عبدالرحمن آل سعود": {
-   "english": "Abdulaziz bin Abdulrahman Al Saud",
-   "summary": "The full name of King Abdulaziz Al Saud (Ibn Saud), the founder of the modern Kingdom of Saudi Arabia, who unified the country and is the ancestor of all subsequent Saudi kings. His name typically surfaces in patriotic and national-pride posting, especially alongside prayers for the country's safety, which several other items on this board also suggest; a contemporary prince of the same name is a less likely alternative.",
-   "kind": "politics",
-   "confidence": "medium",
-   "at": "2026-09-19T11:00:32.491470+03:00"
-  },
   "#تفريج_كربه_معسر_ليله_الجمعه": {
    "english": "#Relieving_the_distress_of_someone_in_debt_on_Thursday_night",
    "summary": "A recurring religious-charity hashtag urging people to pay off or contribute to the debts of someone in financial hardship on the eve of Friday (Thursday night), considered a especially blessed time in Islam. Campaigns like this trend weekly in Saudi Arabia, often attached to fundraising appeals, charity account numbers or prayer requests.",
@@ -3734,6 +3725,20 @@
    "kind": "religion",
    "confidence": "medium",
    "at": "2026-09-19T13:00:28.990890+03:00"
+  },
+  "#شكرا_ابطال_الدفاع_الجوي": {
+   "english": "#Thank_You_Heroes_of_the_Air_Defense",
+   "summary": "A hashtag praising the Royal Saudi Air Defense Forces, the branch responsible for intercepting incoming missiles and drones. Appearing alongside trends like \"sound of the siren\" and \"the danger has passed,\" it points to a public show of gratitude after some kind of air-defense interception or alert, though the specific incident cannot be confirmed here.",
+   "kind": "news",
+   "confidence": "low",
+   "at": "2026-09-19T14:00:29.317890+03:00"
+  },
+  "مطار الملك": {
+   "english": "King ... Airport",
+   "summary": "A truncated Arabic phrase meaning \"King [name] Airport\" — Saudi Arabia's main hubs are King Khalid International in Riyadh, King Abdulaziz International in Jeddah and King Fahd International in Dammam. Given the surrounding air-defense and alarm-related trends, it most likely relates to airport operations, alerts or flight disruption, but which airport and what happened is not determinable from the words alone.",
+   "kind": "news",
+   "confidence": "low",
+   "at": "2026-09-19T14:00:29.317890+03:00"
   }
  }
 }
