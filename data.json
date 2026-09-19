@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Saturday, 19 September 2026 · 21:00 KSA",
+ "lastUpdated": "Saturday, 19 September 2026 · 21:04 KSA",
  "days": {
   "2026-09-06": {
    "label": "Sun 06 Sep",
@@ -2141,37 +2141,37 @@
     },
     {
      "rank": 4,
-     "text": "ارسنال",
-     "cat": "General",
+     "text": "روما",
+     "cat": "Football",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "روما",
-     "cat": "Football",
+     "text": "#سبتيات_الازرق",
+     "cat": "General",
      "pts": 7
     },
     {
      "rank": 6,
-     "text": "الشوط الثاني",
+     "text": "ارسنال",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 7,
-     "text": "محمد عبدالرحمن",
+     "text": "الشوط الثاني",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 8,
-     "text": "الشوط الاول",
+     "text": "محرز",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 9,
-     "text": "محرز",
+     "text": "الشوط الاول",
      "cat": "General",
      "pts": 6
     },
@@ -2183,31 +2183,31 @@
     },
     {
      "rank": 11,
-     "text": "مشرف الوطن",
+     "text": "محمد عبدالرحمن",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 12,
-     "text": "#اصدقاء_كاين_ضويي",
+     "text": "مشرف الوطن",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 13,
-     "text": "زياد",
+     "text": "#اصدقاء_كاين_ضويي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 14,
-     "text": "ابو الشامات",
+     "text": "محمد صلاح",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 15,
-     "text": "نونو سانتوس",
+     "text": "التمويل الشخصي",
      "cat": "General",
      "pts": 4
     },
@@ -2219,25 +2219,25 @@
     },
     {
      "rank": 17,
-     "text": "احمد الشنقيطي",
+     "text": "زياد",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "التمويل الشخصي",
+     "text": "النخبه الثالثه",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 19,
-     "text": "نايف مسعود",
+     "text": "ابو الشامات",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "فراس",
+     "text": "احمد الشنقيطي",
      "cat": "General",
      "pts": 4
     }
@@ -2252,15 +2252,15 @@
      "score": 88
     },
     {
-     "text": "#اصدقاء_كاين_ضويي",
+     "text": "#سبتيات_الازرق",
      "score": 76
     },
     {
-     "text": "#صوت_الانذار",
+     "text": "#اصدقاء_كاين_ضويي",
      "score": 64
     },
     {
-     "text": "#رحله_المليون58",
+     "text": "#صوت_الانذار",
      "score": 52
     }
    ],
@@ -2268,7 +2268,7 @@
     {
      "icon": "📌",
      "label": "General (17)",
-     "items": "#كاس_القارات · #سداد_قروض_بنك_اهلي · ارسنال · الشوط الثاني · محمد عبدالرحمن · الشوط الاول · محرز · ديبالا · مشرف الوطن · #اصدقاء_كاين_ضويي"
+     "items": "#كاس_القارات · #سداد_قروض_بنك_اهلي · #سبتيات_الازرق · ارسنال · الشوط الثاني · محرز · الشوط الاول · ديبالا · محمد عبدالرحمن · مشرف الوطن"
     },
     {
      "icon": "⚽",
@@ -2284,7 +2284,7 @@
   "#ايران_في_الصوره": 10,
   "فينالدوم": 8,
   "#الضمان_لايعطل_الصفقه": 7,
-  "ارسنال": 14,
+  "ارسنال": 12,
   "الونسو": 6,
   "اوديغارد": 6,
   "نظام الكيتو": 6,
@@ -2323,7 +2323,7 @@
   "#طرد_بوسيتش_مطلب": 12,
   "#الاتحاد_الفيحاء": 10,
   "#Pusic_out": 8,
-  "محمد عبدالرحمن": 13,
+  "محمد عبدالرحمن": 11,
   "الانتر": 6,
   "كورتوا": 6,
   "ريان حامد": 6,
@@ -2335,8 +2335,8 @@
   "جهاد ذكري": 4,
   "فارس عابدي": 4,
   "قول جورج": 4,
-  "نايف مسعود": 8,
-  "فراس": 8,
+  "نايف مسعود": 4,
+  "فراس": 4,
   "طارق ذياب": 4,
   "مصعب الجوير": 4,
   "#النصر_ابها": 14,
@@ -2532,18 +2532,20 @@
   "الاهلي": 14,
   "#كاس_القارات": 12,
   "#سداد_قروض_بنك_اهلي": 10,
-  "روما": 7,
+  "روما": 8,
+  "#سبتيات_الازرق": 7,
   "الشوط الثاني": 6,
-  "الشوط الاول": 6,
   "محرز": 6,
+  "الشوط الاول": 6,
   "ديبالا": 6,
   "مشرف الوطن": 4,
   "#اصدقاء_كاين_ضويي": 4,
-  "زياد": 4,
-  "نونو سانتوس": 4,
+  "محمد صلاح": 4,
+  "التمويل الشخصي": 4,
   "دوري يلو": 4,
-  "احمد الشنقيطي": 4,
-  "التمويل الشخصي": 4
+  "زياد": 4,
+  "النخبه الثالثه": 4,
+  "احمد الشنقيطي": 4
  },
  "news": {
   "date": "19 Sep 2026",
@@ -2585,21 +2587,21 @@
     "rank": 4
    },
    {
-    "headline": "Flames reported near Saudi capital airport as Pakistan presses Iran over energy supplies - CNBC",
-    "summary": "Flames reported near Saudi capital airport as Pakistan presses Iran over energy supplies CNBC",
-    "source": "CNBC",
-    "date": "19 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBkOHNBY1RJV0diMGY3U1dQNFVkSUNzS1diY2V0TFhWNmxvRUJ3RW95R1NzYkUyRkl4NG9yN1JObGtRR0JoT1NBVzhTVldPeURMeU1ObjJ2RGJYUGZEaTlkWlNIYWNFT0FYSEx4REtITVhyTk9QbVc1S2JR0gF_QVVfeXFMTThQM2Z1aTZ3QmZIVERCcVNkQWtYSHNDWld4NGJRbmFGdHdfQ3RKTVRDSXpFbGNJVUFEODJfMnRZWkwybUNSUThpaklHUU5PWnpuWmU5VEJHRVlJR01JQ25mQzdweXJYQ3JrRk9yaTZlRnRPWUdOSkg1c0ZkeWR0WQ?oc=5",
-    "rank": 5
-   },
-   {
     "headline": "Air Attack Sets Fuel Depot Ablaze at Airport in Saudi Capital - WSJ",
     "summary": "Air Attack Sets Fuel Depot Ablaze at Airport in Saudi Capital WSJ",
     "source": "WSJ",
     "date": "19 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWkNtbFRTbVoxQVUwbktkN2EyMlB2Vm5fcThubEVFbDdIcFY3M25tY3lJOW5Ea3JRbEpMSmRfWVBQYkQ4UThualgxMFNvaGRCemtfVG5qVGd2OXRFeWdVV3VxZTlfVHAySFVTRDhXNWpCZFBSQWtkQlBjakN2SlB0Qk53Nno5VHJ3bWxpd2RHcE5CUjM3QWlSSm81UEl5QS1OY21FN1k5Z2gzcW1k?oc=5",
+    "rank": 5
+   },
+   {
+    "headline": "Flames reported near Saudi capital airport as Pakistan presses Iran over energy supplies - CNBC",
+    "summary": "Flames reported near Saudi capital airport as Pakistan presses Iran over energy supplies CNBC",
+    "source": "CNBC",
+    "date": "19 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBkOHNBY1RJV0diMGY3U1dQNFVkSUNzS1diY2V0TFhWNmxvRUJ3RW95R1NzYkUyRkl4NG9yN1JObGtRR0JoT1NBVzhTVldPeURMeU1ObjJ2RGJYUGZEaTlkWlNIYWNFT0FYSEx4REtITVhyTk9QbVc1S2JR0gF_QVVfeXFMTThQM2Z1aTZ3QmZIVERCcVNkQWtYSHNDWld4NGJRbmFGdHdfQ3RKTVRDSXpFbGNJVUFEODJfMnRZWkwybUNSUThpaklHUU5PWnpuWmU5VEJHRVlJR01JQ25mQzdweXJYQ3JrRk9yaTZlRnRPWUdOSkg1c0ZkeWR0WQ?oc=5",
     "rank": 6
    },
    {
@@ -2648,21 +2650,21 @@
     "rank": 11
    },
    {
-    "headline": "هجوم الحوثي والقدرة السعودية وعدم تدخل أمريكا مباشرة.. ما عليك معرفته - CNN Arabic",
-    "summary": "هجوم الحوثي والقدرة السعودية وعدم تدخل أمريكا مباشرة.. ما عليك معرفته CNN Arabic",
-    "source": "CNN Arabic",
-    "date": "19 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQ3dlcDdtN1dEYXBXUzRHY3pVc040QjlkblZyU2t5VEVWZm1LZFpxUkhPTGdsQ003dVRVRmFsanpPMUV0Uzh4cm9RM2pRNmk0djZtOFlxdlBlY0VKb21XU0x2Zm9TeGM2RWhwNTFpd21tY09BZU1Ia2M2bnk4LXRPakI3ZFNpR0sxbmY2VGd1YjNTZzl6ZU5iWlhzbDA1ZTg2UENOZ2FPSXdTN09zdHRhbHVTT3FjcTBnd05SUXBuZnRWVTJNc2dqQlJwaEF1RTltZjJaSHdXTQ?oc=5",
-    "rank": 12
-   },
-   {
     "headline": "الدفاع المدني يعلن زوال الخطر حول الرياض وإدانات أممية لهجمات الحوثيين - الجزيرة نت",
     "summary": "الدفاع المدني يعلن زوال الخطر حول الرياض وإدانات أممية لهجمات الحوثيين الجزيرة نت",
     "source": "الجزيرة نت",
     "date": "19 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxONHhQMHNQeE9oTGRQVXRzajF5ZDNNXzVKcl9HOUZiUnFqOE1XSE4yeUlhUXVTZFhpZEFneTd0SGdVcnJ1dnlWQW5kOExDRWlJWWxxQlZNdFdGcHFaa3hva3ItLVJ5enBRV1NjaDRidTRPaFRncGZiQ242Sk5lanoyMmVjVVZJS0J2SnRwcnhlLVhITnM0cGNPcXlzZS1xaThMdUxyWWpQTElBVHg1dlF5QW1ZZWFpNEpLSFB6Nmlwemhfa04zTjhKTUdCbDMwcUlxYzhXTDgtUGZHU2NlTmtBM3RrWVRzWHNxN21TV0JGTmNBT0dSbzdJMkp3Yzg3SWVyeUhYamphVDhRNmQ0Uk92VFh2REdZdGNpZk5KV2xkMGJaVnNnV0U0emQ5M2pNeDJWMGlubmNXNFBDSlRlQnVDQ2FSaHNCalJNTEFQVTYxUUVtQdIB1wJBVV95cUxQcV9NcG15S0p2QXpDY2xtT01WYy1xbnBmOEIxZW5TZ3VuREw2dm9xa1FkMnZFMGlGTnM0NXh2YTRjYmhKUWNkaFdzZV9SMVFCaUNmVE5Wd2JDVkgxekxfLVF0RjRvUE15Y0NFdzB4VURmdWYwMEoxVXVJSGJHVWoxWjdYdnM0YjBFWnNrd1hrWEpNWjNZZ1h0UFcxYU5CRjRGU3VxaXFuVjNPcXczVDRzX1FBWFJBSVdPa3J1QVc1Y2YzQmFHZ1lTSXFOY2dJdU5BeWpQQlphTzQ1cjJ2TDVacHFjcWpyTjRYSy1sWWQ5cklhTU9FZkVWSnFEdzFBVk9FUWJaeTNJelQtNlNCa2N3RHhYTzRHcDNSd3BfZlRhYWM0dHEyb2FyS093U3pOSjI3d2NqTmZ0bUxkcXFGQmFMalE3UGVnVlZXLUpJYXZRZHNFNDZmS0ww?oc=5",
+    "rank": 12
+   },
+   {
+    "headline": "هجوم الحوثي والقدرة السعودية وعدم تدخل أمريكا مباشرة.. ما عليك معرفته - CNN Arabic",
+    "summary": "هجوم الحوثي والقدرة السعودية وعدم تدخل أمريكا مباشرة.. ما عليك معرفته CNN Arabic",
+    "source": "CNN Arabic",
+    "date": "19 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQ3dlcDdtN1dEYXBXUzRHY3pVc040QjlkblZyU2t5VEVWZm1LZFpxUkhPTGdsQ003dVRVRmFsanpPMUV0Uzh4cm9RM2pRNmk0djZtOFlxdlBlY0VKb21XU0x2Zm9TeGM2RWhwNTFpd21tY09BZU1Ia2M2bnk4LXRPakI3ZFNpR0sxbmY2VGd1YjNTZzl6ZU5iWlhzbDA1ZTg2UENOZ2FPSXdTN09zdHRhbHVTT3FjcTBnd05SUXBuZnRWVTJNc2dqQlJwaEF1RTltZjJaSHdXTQ?oc=5",
     "rank": 13
    },
    {
@@ -3665,13 +3667,6 @@
    "confidence": "high",
    "at": "2026-09-19T17:27:54.599218+03:00"
   },
-  "نونو سانتوس": {
-   "english": "Nuno Santos",
-   "summary": "A Portuguese football name — most likely Nuno Santos, the Sporting CP winger, though Saudi fans also use it loosely for coach Nuno Espírito Santo. It is trending as part of a cluster of European football names, indicating transfer speculation or match discussion.",
-   "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-09-19T17:27:54.599218+03:00"
-  },
   "محمد عبدالرحمن": {
    "english": "Mohammed Abdulrahman",
    "summary": "A very common Saudi/Gulf personal name, here almost certainly a footballer or football figure given that the rest of the board is dominated by club and player names. Which Mohammed Abdulrahman is meant cannot be determined from the name alone.",
@@ -3776,6 +3771,27 @@
    "kind": "business",
    "confidence": "medium",
    "at": "2026-09-19T21:00:27.993556+03:00"
+  },
+  "#سبتيات_الازرق": {
+   "english": "#Saturdays_of_the_Blue (Sabtiyyat Al-Azraq)",
+   "summary": "\"Al-Azraq\" (The Blue) is the standard nickname for Al-Hilal, the Riyadh club that is Saudi Arabia's most-supported team, and \"sabtiyyat\" means \"Saturday sessions.\" The hashtag reads as a recurring Saturday-themed fan activity — a weekly show, watch-along thread or prize giveaway run by an Al-Hilal-linked account — rather than a news event.",
+   "kind": "sport",
+   "confidence": "low",
+   "at": "2026-09-19T21:04:13.491221+03:00"
+  },
+  "محمد صلاح": {
+   "english": "Mohamed Salah",
+   "summary": "The Egyptian forward and Liverpool captain-figure, one of the most famous footballers in the Arab world and a permanent fixture of Arabic sports conversation. He is trending alongside Arsenal, Roma, Mahrez and Dybala, which points to reaction around a match he played in or a transfer/performance talking point.",
+   "kind": "sport",
+   "confidence": "medium",
+   "at": "2026-09-19T21:04:13.491221+03:00"
+  },
+  "النخبه الثالثه": {
+   "english": "The Third Elite / Elite [round of the] Third Division",
+   "summary": "Most likely a reference to the \"elite\" promotion stage of Saudi Arabia's third-tier football league, the lower rungs of a pyramid whose upper levels are the Roshn Saudi League and Yelo League (also trending). Fans of small regional clubs post heavily about these play-off groups because promotion is at stake.",
+   "kind": "sport",
+   "confidence": "low",
+   "at": "2026-09-19T21:04:13.491221+03:00"
   }
  }
 }
