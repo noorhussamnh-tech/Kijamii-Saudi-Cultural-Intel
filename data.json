@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Monday, 21 September 2026 · 20:00 KSA",
+ "lastUpdated": "Monday, 21 September 2026 · 20:05 KSA",
  "days": {
   "2026-09-08": {
    "label": "Tue 08 Sep",
@@ -2129,25 +2129,25 @@
     },
     {
      "rank": 2,
-     "text": "#الحوثي_يتطاول_علي_المقدسات",
-     "cat": "Security",
+     "text": "الانماء الماليه",
+     "cat": "General",
      "pts": 12
     },
     {
      "rank": 3,
-     "text": "الانماء الماليه",
-     "cat": "General",
+     "text": "#الحوثي_يتطاول_علي_المقدسات",
+     "cat": "Security",
      "pts": 10
     },
     {
      "rank": 4,
-     "text": "#ولي_العهد_يطلق_سيارات_سير",
+     "text": "#وريد_الوطن_واحد",
      "cat": "General",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "#وين_ماكنت_تلقانا",
+     "text": "#ولي_العهد_يطلق_سيارات_سير",
      "cat": "General",
      "pts": 7
     },
@@ -2165,13 +2165,13 @@
     },
     {
      "rank": 8,
-     "text": "ماك فلوري كيت كات",
+     "text": "بيتزا دومينوز",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 9,
-     "text": "بيتزا دومينوز",
+     "text": "ماك فلوري كيت كات",
      "cat": "General",
      "pts": 6
     },
@@ -2183,43 +2183,43 @@
     },
     {
      "rank": 11,
-     "text": "جامعة الملك سعود",
-     "cat": "Politics / Diplomacy",
-     "pts": 4
-    },
-    {
-     "rank": 12,
-     "text": "الدفع الرباعي",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 13,
      "text": "أحمد بن راشد آل مكتوم",
      "cat": "General",
      "pts": 4
     },
     {
-     "rank": 14,
-     "text": "سيارات سير",
+     "rank": 12,
+     "text": "قايد الانجازات",
      "cat": "General",
      "pts": 4
     },
     {
-     "rank": 15,
+     "rank": 13,
      "text": "شركات الطيران الايرانيه",
      "cat": "Politics / Diplomacy",
      "pts": 4
     },
     {
-     "rank": 16,
+     "rank": 14,
      "text": "ابراهيم المدني",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 15,
+     "text": "جامعة الملك سعود",
+     "cat": "Politics / Diplomacy",
+     "pts": 4
+    },
+    {
+     "rank": 16,
+     "text": "1 اكتوبر",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 17,
-     "text": "قايد الانجازات",
+     "text": "اللون الاخضر",
      "cat": "General",
      "pts": 4
     },
@@ -2237,8 +2237,8 @@
     },
     {
      "rank": 20,
-     "text": "الكفاءات الوطنيه",
-     "cat": "Culture / Society",
+     "text": "الدفع الرباعي",
+     "cat": "General",
      "pts": 4
     }
    ],
@@ -2252,38 +2252,38 @@
      "score": 88
     },
     {
-     "text": "#ولي_العهد_يطلق_سيارات_سير",
+     "text": "#وريد_الوطن_واحد",
      "score": 76
     },
     {
-     "text": "#وين_ماكنت_تلقانا",
+     "text": "#ولي_العهد_يطلق_سيارات_سير",
      "score": 64
     },
     {
-     "text": "#وريد_الوطن_واحد",
+     "text": "#وين_ماكنت_تلقانا",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (15)",
-     "items": "#ويكند_الانماء · الانماء الماليه · #ولي_العهد_يطلق_سيارات_سير · #وين_ماكنت_تلقانا · ميترو الرياض · ماك فلوري كيت كات · بيتزا دومينوز · احمد بن راشد · الدفع الرباعي · أحمد بن راشد آل مكتوم"
-    },
-    {
-     "icon": "🎭",
-     "label": "Culture / Society (2)",
-     "items": "رقم اليوم الوطني · الكفاءات الوطنيه"
+     "label": "General (16)",
+     "items": "#ويكند_الانماء · الانماء الماليه · #وريد_الوطن_واحد · #ولي_العهد_يطلق_سيارات_سير · ميترو الرياض · بيتزا دومينوز · ماك فلوري كيت كات · احمد بن راشد · أحمد بن راشد آل مكتوم · قايد الانجازات"
     },
     {
      "icon": "🏛️",
      "label": "Politics / Diplomacy (2)",
-     "items": "جامعة الملك سعود · شركات الطيران الايرانيه"
+     "items": "شركات الطيران الايرانيه · جامعة الملك سعود"
     },
     {
      "icon": "🌊",
      "label": "Security (1)",
      "items": "#الحوثي_يتطاول_علي_المقدسات"
+    },
+    {
+     "icon": "🎭",
+     "label": "Culture / Society (1)",
+     "items": "رقم اليوم الوطني"
     }
    ]
   }
@@ -2537,25 +2537,25 @@
   "النور المسطر": 4,
   "حنا طويق": 4,
   "#ويكند_الانماء": 14,
-  "#الحوثي_يتطاول_علي_المقدسات": 12,
-  "الانماء الماليه": 10,
-  "#ولي_العهد_يطلق_سيارات_سير": 8,
-  "#وين_ماكنت_تلقانا": 7,
+  "الانماء الماليه": 12,
+  "#الحوثي_يتطاول_علي_المقدسات": 10,
+  "#وريد_الوطن_واحد": 8,
+  "#ولي_العهد_يطلق_سيارات_سير": 7,
   "ميترو الرياض": 6,
   "رقم اليوم الوطني": 6,
-  "ماك فلوري كيت كات": 6,
   "بيتزا دومينوز": 6,
+  "ماك فلوري كيت كات": 6,
   "احمد بن راشد": 6,
-  "جامعة الملك سعود": 4,
-  "الدفع الرباعي": 4,
   "أحمد بن راشد آل مكتوم": 4,
-  "سيارات سير": 4,
+  "قايد الانجازات": 4,
   "شركات الطيران الايرانيه": 4,
   "ابراهيم المدني": 4,
-  "قايد الانجازات": 4,
+  "جامعة الملك سعود": 4,
+  "1 اكتوبر": 4,
+  "اللون الاخضر": 4,
   "Ceer": 4,
   "السيارات الكهرباييه": 4,
-  "الكفاءات الوطنيه": 4
+  "الدفع الرباعي": 4
  },
  "news": {
   "date": "21 Sep 2026",
@@ -2579,21 +2579,21 @@
     "rank": 2
    },
    {
+    "headline": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes - Reuters",
+    "summary": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes Reuters",
+    "source": "Reuters",
+    "date": "21 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbHBmWjNkMFR2Skw0MWVFaENxamFwbXN0RGxRei1RenlFVk11R1loSlZtdm16SW5ITGFMalY1bkNBOUVONnVVdENtbDZSdzByT0l0NkJiZUlSSzBvRHBBNWxKd01ja09Eb1Nla205aW5oQkxGVGpiUjZQUTJVYy1EWGx6R2JPN2pGWXVUU29CQ1ZyQmpSMWlzQ1VYUzhidC1SZ3VSMFhyVndUYUZYTXItOGgyTktsQnV1QW1ETzN4NnI2eWhZMXhoZ1h4eEU?oc=5",
+    "rank": 3
+   },
+   {
     "headline": "Here's what the Saudi East-West pipeline shutdown means for Asia's biggest crude importers - CNBC",
     "summary": "Here's what the Saudi East-West pipeline shutdown means for Asia's biggest crude importers CNBC",
     "source": "CNBC",
     "date": "21 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRDlCal9FSDBLa0d1M0ZVWUxVT0pHNFNhTGRNUmRXeHVyaXRiNE5ma0x1V2JmNUg3MU9xNU5ES1hkQ3dkSi1QNEhlWWUzb2ZwWkZDV3RwN1RneWhwa1FNNURwRVAwLWg1TjlqZktuTG55bGJzcmNIcnJyMDBjTHZlRFhOR3dueGUz0gGOAUFVX3lxTE5fQ3B2dWpkdjdaTUZZWDhuUUdCdFZrVW5rWlhPV2tOSnJjQzF2YzQxdXZYa0lORlY0dDF3UE1oU1FIWmEyYjBzanR1R2RfTEprdTlPcm9CZU1QY3hGQVRqYlhfMFlidE1Fam5WT1hMbkxERFMzVVpRLXZaR3kyZGVSaW1ZMDVGMzdEUWpYcFE?oc=5",
-    "rank": 3
-   },
-   {
-    "headline": "Saudi Arabia ramps up Gulf oil exports after pipeline attack, shipping data shows - Reuters",
-    "summary": "Saudi Arabia ramps up Gulf oil exports after pipeline attack, shipping data shows Reuters",
-    "source": "Reuters",
-    "date": "21 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcThldmdWd2c5aHdfck8zYk1XMWtsa3kweWlXaTNQWEpnV2NIUHhiNTh2cHhoSndCV2Z2QkhwNl9DZEJObFJha2pXWG1JcUZpVXlZU1RqQ2diZUJ0YVV2alRBRmRCampGOGdQQnM4UVV2R2ZMQ2p6WC1QSk5iOGJEWDZ2YXdaSzlLeGtZYnNuVld5MGZESG1tenNaMFlFcExWeVhlZjJBTlJOeHNmVkhBYzFkejJkNno5VWEwU05hRHU4NGlqT1U5UXcxUzU?oc=5",
     "rank": 4
    },
    {
@@ -2714,22 +2714,13 @@
     "rank": 17
    },
    {
-    "headline": "تواصل الإدانة الواسعة لاعتداءات ميليشيا الحوثي الإرهابية..وتضامن عربي - إسلامي مع المملكة - جريدة الرياض",
-    "summary": "تواصل الإدانة الواسعة لاعتداءات ميليشيا الحوثي الإرهابية..وتضامن عربي - إسلامي مع المملكة جريدة الرياض",
-    "source": "جريدة الرياض",
-    "date": "20 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBndmd1WlE0UENlNkh3d3dVYUdZdFdNd3dUVVVESU1yb3RmaTk1UFVLZVZZZ3psd194WWZ5STNlZjBPYTg1NDZV?oc=5",
-    "rank": 18
-   },
-   {
     "headline": "16 % ارتفاع عدد رخص البناء بالسعودية خلال 30 يوماً - عكاظ",
     "summary": "16 % ارتفاع عدد رخص البناء بالسعودية خلال 30 يوماً عكاظ",
     "source": "عكاظ",
     "date": "21 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWOUFIemFvMVU0M2VHem55OVVwUXJhX25scXltRmpkTDdnWTM0MHlabjhaU2hBektSYXpwci1wU2FjSG0waERRbldSVTJSLU9DemlXZNIBVEFVX3lxTE55QVBTQkhtM1Q4WWFIaFFWQ2ZveVJRQkEwallINkJsUkNnNHYzZnNtWUhGVFFuVnhvMml2LXpHYl85V1lNcGI1YllCQzVwTjBuZlRWRA?oc=5",
-    "rank": 19
+    "rank": 18
    },
    {
     "headline": "مجموعة إبراهيم الجفالي: لا نية أو خطة للانتقال خارج السعودية - الشرق بلومبرغ",
@@ -2738,6 +2729,15 @@
     "date": "19 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi9ANBVV95cUxORklVdzQzNzJFMnZjaW0yRjdsUnIwNnozbDJjZGt1WkFUYlVYNWhUWUJza1A1YjJIMFRybmNyNmE1WjZJci1Fbkd5M1JIc0NhQXcyY01INDdmTFJjbURSWkNyTmdLNzBOQTNEX0lLOVdUaFR5S0p3SWw2aWJXZE1MdlotNHdYbXdYUU9JR2UwbVlzVzFUMW9vQm5ZTGJReGltdDF0UWVzMzd6TmNUcGFHbzBERnp2dEtvYTF5QTIzZW1vTWF0ZHpERXlUYlpBVTJiTzdfQ0dTSlpLRHh3UzJKWFpiT0NDcTJfUGQtcTFSZ25IVy1EZmVOQThCVkZhd0ctRExqc2pMakgtNXZGdVdZaGFVVjhHcGpSM2xtd3F6NVp2RW04NEFBb2xZRlVJTTV2d0plektDTTRnTWxnYVRyT2hZTkFYSW84WWdzQ1NnMlN2STFLdFJxa2JTQ0JCaG5fWF9sbExMQnN4N21kZGVndnNXb0dEREFIWEZXdURudTQ5eHAyVGFRQ2VWZVNWSmdPNGRjeEZILUZQeTVSREVyakQ0VGg0WmVSRWpDWFVfWFI1WjljeE8wR2lhdWltM3hwVElTd2JuUG9GVEZvS3J1Wk8xdVFZQW9lSEJyWVUtRVpiVjR5RHZ5aGlKM2dHeEZBenF2UQ?oc=5",
+    "rank": 19
+   },
+   {
+    "headline": "بمناسبة اليوم الوطني السعودي.. رئيس مجلس إدارة مجموعة طيران الخليج يؤكد عمق العلاقات الأخوية بين البلدين الشقيقين - الأيام البحرينية",
+    "summary": "بمناسبة اليوم الوطني السعودي.. رئيس مجلس إدارة مجموعة طيران الخليج يؤكد عمق العلاقات الأخوية بين البلدين الشقيقين الأيام البحرينية",
+    "source": "الأيام البحرينية",
+    "date": "21 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1JS3p2cHBTd1VRdkp2NDJkbWZ2dEtRX3hUXzl3SE5YWXF2c01LNHI2dEU4MXk5Um5SOEtzS0JKQWp4WjFMenZCRy1mLUhGTjItN09CNnllVjYtakJmbmZZRHVfRQ?oc=5",
     "rank": 20
    }
   ],
@@ -2770,9 +2770,9 @@
     "rank": 23
    },
    {
-    "headline": "Red Sea Film Festival cancelled as Israeli-US war on Iran hits Saudi Arabia - Middle East Eye",
-    "summary": "Red Sea Film Festival cancelled as Israeli-US war on Iran hits Saudi Arabia Middle East Eye",
-    "source": "Middle East Eye",
+    "headline": "Red Sea Film Festival cancelled as Israeli-US war on Iran hits Saudi Arabia - middleeasteye.net",
+    "summary": "Red Sea Film Festival cancelled as Israeli-US war on Iran hits Saudi Arabia middleeasteye.net",
+    "source": "middleeasteye.net",
     "date": "21 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ05PUGFDT1FnTXNma2JsQWR2ZVVtX3ViWkhqSDFzaUlSTDRkMW52dkE4SVdicS1MWlNMX2NZdy1VTTFoNWRzSFRvRXlzbU1FY3h4aXdNRWpZMUpXTXZzcGFaMk00YlZvMzFTcjRETjM1ZktxdmdXczdERGRpNkhOMFlHWW9FUkEtenF5QWtmT2l0eXI0Q0RrRjZ5dU4xUXJNTVE?oc=5",
@@ -2815,22 +2815,13 @@
     "rank": 28
    },
    {
-    "headline": "The Houthis’ offensive is the latest spillover from Trump’s Iran disaster | Mohamad Bazzi - theguardian.com",
-    "summary": "The Houthis’ offensive is the latest spillover from Trump’s Iran disaster | Mohamad Bazzi theguardian.com",
-    "source": "theguardian.com",
-    "date": "21 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOejBsQkhONWlNVG5XSm85TlJveFhrS05kaDJydmxJcXpJbGdKV1JRN2lIS3FlcmkyRTVOM1RvMllfLXh3TmpTVnJOZDJPLWFtYWFwclhNd01rUjlYNGo4X0psQXNPZTR4SWw5U3IwWGlIWTJyeWdTV2dFZkZqaEdHNQ?oc=5",
-    "rank": 29
-   },
-   {
     "headline": "عنايتي لـ«الشرق الأوسط»: توافق إيراني مع السعودية على تجنيب المنطقة الحرب - الشرق الأوسط",
     "summary": "عنايتي لـ«الشرق الأوسط»: توافق إيراني مع السعودية على تجنيب المنطقة الحرب الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "20 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiwgVBVV95cUxPWnRxLWhXTHUySFpIUzcxeEZZYVZXY0p3Q2tsLUdiVlNpS05aMkp2UWh4d2tuQWFuMHc3Y19ZZzlSRlE2dU14WGE4amZKSHE5UzJlazgyam94cFFUeEpfSGRlQkZCRTk2aEZEQTFieGlIV3RUSDN4am1ldEpqc0tMblRTaTFWZlNwVXlSOS1NTVFXN3JJcGhaOFdRZmdXbl91LTRManVWaE5aak5PVHBXamFEdDg5UVVwMTR4Zl9ZWUNWY2gwWXhNdTVqYzhHYkxMOUR2Z2VQVkdpTW9uWHBtcHZjWXZNVVRBcWtxRWticWdPLTFwaDRYUFV6cmtRckRlck02VTJFRDFiQXBPYklwUlhLWVhSeEdfYWt3Y2s3MUVjMVV0dloxaGRDcDhWV2l3RTVEWUt1bmJ4dzdEc2ktYWNielZOSmR4VGp1Q21Yd2hxdFBqR2NaZTlWclBiMndkS0h5SkUxUVloZkZncWZZVGtwV0VfSk4wTWpMX25URVdBdjhib0l6dXBUcTVmc1BXVzBISWMtckZSUWhKdWwwVmhsMnRkSzZQbkYwWkJ2Q3lva3JCYUoxS3AyWk1JWjlvT2FHOW5MX1Z5N2YzOTM2SXZSR1dzMjFlbExkQXR5SkFwSW5vdVhwQURaZEVpdXA3NEdwUjJ4NFdNMmVwLXNMQjRqazZ6YXVwMTU4SFdGRW1jakVnVWlmSUFzS1ZoTEFfVDc0VFpPcmZaNnBUVzJuazdaTzN0akN2a2FCaGNEVXFxYldMQ1ZJZV9kMGVrTThLYzdKb2dJWUR2cDJBU2pyeHl5RXNUVmc0Rld4Q2o5azFpdHVDbGtkWjFqNnhZTzZPbGJOLWRSeDRmWjNWUVJYMzJUUFJ0eDVGMUdwSHBubFo2Nkxra2Joc1A4TUNkZHdpWnRPUmhOLVBSamdxTGFFZXNR?oc=5",
-    "rank": 30
+    "rank": 29
    },
    {
     "headline": "مصادر لـ«الشرق الأوسط»: أندية سعودية تتكتل ضد تعديلات «مشاركة الأجانب» - الشرق الأوسط",
@@ -2839,7 +2830,7 @@
     "date": "20 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMioAVBVV95cUxQdWJsWUhxaDNudDdrVGMzaUxMZmhCN01Pck8zQjAyME16WGcteG9UUTRSWjhMZWhxLVFlUzVLempBWENUcHQzSklvc0l5Z2ZjUXZWTVQxZzRIRGtSbkFZQmNORHcydHJYbTZzM1JlcnpqaUNYT1c1cHpXeWhvN2hiZm9aV3ljRXh5NXk2QkhCdDdUVVVCdmZVTzh0TkQ5cTdkVHVzc3ZVdXRwN1B2QlEyVEpVTWJrZ2ttTlE5cWw4bVBEQk1kM0N5MUI0MTkzU2RwNkozallzS1ZtMThFQ3ZhN1NaUXFfeDkxZ3NydXNYZVZUaVFuUmhiazA0cHo5VjdvaWpONU5lQUozMnJ4SlhUUkM5REcyd2ZVellxZW5jRVdzZjdTNkdpV3ZrbURfZDBvc0hGdjJ1eU41R2p3ZmpKV0dUY1RVOTlOREQ2MVE2WWp0VHFmemRqMElzYUdQdHVWckxBSGZvcVdUdFRWMmJTbXJ1OFNCNzgtWmRGLUpOOHRrcGZ2NUhodkZ6NXo4d3B6b0VBdjVraVBna3hQQmJuTEk0TzhtNHNrT0d1aGxlS2d2dnBVcUpidmdYMHM5djVSd1cwWS1KZmszd3dudmtuUjdpaXFXSUREMzFXUnoxMXRydmFaUXE5RkEwZ0dFTlZUVjRTZ24wTXh6ZHBGX3ZTUEFDZEpMMUo5eEVlVkhOejl6dTRvU0lYeFg5Um1EMzdNdVA2cllRTl8xRUVEMUUzaWVwSjlJeTRsbi1Gd2REcndJN3JkRUk1SkZUeE10UWM2NUh2NmpYVGdCV3NaWkk0c2JreTVGTEd4aVNaMEwySENvYTZSSjRIRURCbEJQUVdkRG5naklIS1YyanpEY3BfQWo3Yy1YbGRzam02Qml2V3U?oc=5",
-    "rank": 31
+    "rank": 30
    },
    {
     "headline": "«إنتل» لـ«الشرق الأوسط»: التحدي المقبل في السعودية ليس الحوسبة بل تحويلها إلى قيمة اقتصادية - الشرق الأوسط",
@@ -2848,7 +2839,7 @@
     "date": "21 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiogVBVV95cUxQMDFJeDdnRlBQRVJ2MVpOVTZlZzJNTDlQdzViVm9yUmRuUGQyazdPcFBzMkhBS3c1RlBoOFg5Yl9HUXFBd3lkZjdXcy1ZWE1ldERXeXhhUV82XzNKa2ZMZWxlNUN4bmFNYUQ0b3M4NndjdXh1a3BVZjZSaGJDV2x4aXIwYi1nZnBYeTdfQ1ZBYWtHYk1vaC1idm1oT2Y1WmJjaEgzdHdRSkJfV0taU1B4SHRISFhrUXNKRWplTXlNZnktZ192WkVQS09sdWpPeVdCcDBnTGgzQXJaVUZta0VtSW5Mc2VkVzA4UWJVM2lsSklEM0lFaFRZZC1TbUVOcjB3d09UTWttOUZpMmhseGZpcXNzT3BxVDVaZjlpeWdZZUVtczhzNF9MN0tQUXdfeTZrZUIwQUxJcHBHcTN6T2NpNjRzd0hvaTdBZjJ4V3VlQ3h1b0tuSjRXSmRkOHk4OUdHTWtDNUZuX1hUbWw1MkNpdG1nbzVSUjlIbG0xNTk4S2tOaUtOcEpicUJlYzJ3UEpOZ3dLd0tqOVBjdE1SbGxxY3Y2bEtqUVVZVWFEcW1QaW9MSTlTMGNpdGRCQTJtdXdJNVBIbXFQb19XREtaa29YeGg1dHhJODhYQTdYS19vaVRIQ1ZmNlJGTG9wY3pwc0RFQjh0S0RYX2JPUFlWWXdpZmd0Z1czajc5bXg2VDd1U0lrbHdyOUtPNklLbFpuV3RFMTZqYU9pSlI3NGsySWY3azY3ek51VmFaUVNqdFpHa3h1VmpHWFZ4MFpIdmNTSW5DLXNpRXNKZlctM0pEakxYSEJuVkhrUldQUFVlT1JpNjZTTXJLbHYtUWZtTVVkeldTb09LdFE2eHBxNVpmaTVvNE9RQVptZzBQSV91WjVwS05sdw?oc=5",
-    "rank": 32
+    "rank": 31
    },
    {
     "headline": "السعودية تعلن «زوال الخطر» في 10 مدن بعد إطلاق الإنذار المبكر - الشرق الأوسط",
@@ -2857,7 +2848,7 @@
     "date": "21 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi3ARBVV95cUxNaWY4NWxzc2FUTzQ4dk9VTVZkUU9wR0RIaXdnaVZGUEV3RG96eV9SZzZEaUxwZDd4SDhGdUVsek1neFdYYTJlYm96M2FGcTQyZGN0VVRBZFNJSUt2QTVHRl92ZWtaUWpFTkZ5eWtEaFRDMHVuX2FFdE5Tcm51MTFXX0VEQjFmVVdIalVsTWJTR056Z3pBM1FheWpTMUczX1Q5cHFDcS1KeVlmMWVHWjlFU1BEOXZSMXJ1a0UtWWhfYUNCbGZNYjdZTHR4aFdqZW9UU2N4aFN0R2JRZ1BNVGFPaHFNeVpudVQ3TUQ1THY1Y0ZZSHdLam9CN0I4VG5uUWNxbTFoUnpFUEZ6NDZYZW5BaU5pRUdoNlN6RnBYM0FaaExjS0JwT0ZXZlZXRVZJb2ZHbTYzTzNkR1Exc2JUR2RFOTJOWDZSb1laSG5IYzI3Rnc1MU5ESXdtQkdEZGQ1SklSSVgxSkdHS0Z0cm9UOTJsN2kyV3lJVTBJNHdKUllZa3RWc0lkMEgwa2M1dWRQZ3p3dHJzeU1kdG5Tc25EM0VVOGJ0bldCMllGUWhPTGx1M3VWQnluTmlKVUdYQWFGTmVibUNhUVJXRVRPTmtsalpLZDhQckZMTlBYWHNFeHhmNVNxcXFuT1hFZl9JRDV4VWtYcjRiR3E3ZVBaaW5UQm1ZUlZZWk9zaTktMHNRQjF4ZlN2eG80N25GQjliZkxtMktYVlJmanNjODQ2YWFHQktEdTdoeTlKNEtlN3B4Y0VXaGNHUDNfcF9GNmczQW5DNnFsZjVOZEJ6SDFVbXJh?oc=5",
-    "rank": 33
+    "rank": 32
    },
    {
     "headline": "«بيبسيكو» لـ«الشرق الأوسط»: نمو الاقتصاد السعودي يدفعنا لتوسيع الإنتاج - الشرق الأوسط",
@@ -2866,7 +2857,7 @@
     "date": "21 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi1ARBVV95cUxPT2E0TjBaSVF2RDM2YVVTaFU3MUg3ZnR1NHBvbGtLT0pRUkotWW0xUXZGNUNwOG5JYzFNbW9jc0hKNVdBX196TjdzWF9EUWxnbE56MWdVb3FCMER2N2xCd2gyeUdTcmxQcl9EdGVYaGRaUTViQmtRS215Y3BtblNETFpMbzhhUjVqZTFSeDZCSGR5Z3JpajhhVWdRTllEbXd6bWJFVWhsQ2NOOTBDbWswbkhWN2VlbElLUGZpb3lpS21lOGxoQzhDN09xSGVTQzhvYTJadFE2dDlDWFRLc0hpUW85RE1Cc1JXU1VTQVBMXzNSd1F1Q2dMRmhPOEN2X0dlZEFzTVBfQXhSUldLSFB4SkdtX2E5cFMtV2Y4eEhOTjlPS2pXOEFHaVVFb2d1N0dvMlhTR0plUE5oUjlGUU02QzQ5QUdhNTBIRTBFbDBIQUZTaTdZMENYMFNTZVFTQkhETDFDWFNiOWNEb2RiUDhLY1QybnNMRmh5NkJHUFBuTE1aQWtpWDE2Skp4WVJIYVRSUGR3bGtJWW0wUE9ZRE9La1gzejNhOVBKcUUweEYya0lYWmhSUlk5WnpBeDctcVBGTjhwUzRZSktLdXMwY0JzS0xrR2toQi11d2lORmpYSVF3X3JJNG5mYmJlU3AzZF9nUjVKS2JEVXNiMmJELUFucGJQTE9ReS1Hb29iUUFsamVOQ0FnRVl4MHBveXR5NjV3Zjl3RzFfOGxoUHkwR0JfRXY4UWJCQ3JhbGxHNUJ4aFJocXBuem8tek96c3F6LWNUSVhxTw?oc=5",
-    "rank": 34
+    "rank": 33
    },
    {
     "headline": "دونيس يستدعي مختار علي لتشكيلة السعودية بديلاً للجوير - الشرق الأوسط",
@@ -2875,7 +2866,7 @@
     "date": "21 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMizgRBVV95cUxNREUzRDJFS3N2YWdtd25Yc0sxaFJZZXdsZk9wOVNTTzJzM3lvdVZCaV8tMXpXZkZaZ1p2dnUzX0FZWWEzd2tObUpDcUtKRTZ4QUJwWlppeXNLT2dvQjB5YlRod0xkN2E3QnhHWTNkX2VoYl82aldRRWFTMkpuUzRHWjZWbmpQLUw1cGpSX29ENDFTRjFuUXZxMGxwcUxXWWpJYzB2SVE0N1JhRXp4Z09CSHRHVWNpdlRLY0JuOU10ZXRuZzB5bUczSDJIYWY4cmE3WnctWFBfSDljQzRjQzNGSTZWM2o5dHNPdFV0NDM4cDBFbWdVRzAxUC1fbHpTdm5zeldlMmppb3g5cUJNRUxKTFVRQ2hRZHB3QzZHUkQzQ2hkdHdTVlYzRGhySWFDalZjZmt1YnNEa3FQbEZ6OU14aVJhMElMdGZkLUxiaWVlak5ER1MxQy1ULXBvMWVkVUhyb182amYxaVRVcTRCdnZzazl4RDRGeTNTVU9wUGg0WjhkZ2w2V2FQTVZ1OHhWaEJkbE1qUjhBeUVaN3hKNGU2Q1Rpdy1sR0VPb19ZY01HQ0ZnZFlXczdPUEtfQzEwYlhjNzRwaC0wb1ctN1N1VGkyTHlRa1g3VHFJZW1Hc1p0WXFoNEl1X1pkazdITGFCN0UySXpnSGViTy1nZGRyNmhSeTVxWFJ2WFVpc2R5OVg3VEdZSHZEenFxekZRMjZvWEpvRVZHcXlxWU96LW5XMU1ZMUl2WHNybUY2Y1FjVXQzWW9fUzlSZG9nY2s0RWl0QQ?oc=5",
-    "rank": 35
+    "rank": 34
    },
    {
     "headline": "«أنابيب الشرق» توقع عقداً مع «أرامكو» بتكلفة تتجاوز 205.6 مليون دولار - الشرق الأوسط",
@@ -2884,7 +2875,7 @@
     "date": "21 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMipARBVV95cUxQcEtBYXdrMzVYU2dvbm9TMHNUdmdoV1k5WFM3WTA2amExVGJ6LS1Ia0liUUVjaF9nZnhpWE5pRk4wX1VPaXhfYktlY1UwYXo0Q0FMVnl4RDdjUHptNU1ibXFpN0xNMVZCTi16N3lwSFAyUkNmZ3dBZlhhTklUUDFEUGlDZ1gzQ2x1VVJCV2IyeEhGMjhqeGhwUTBBYzV3aXdvZHJBa0VhX2FkbDJyYm1BQnUwR3MxWXctQWd4blp2YW4zR085elNqczNERHlOeGo5V283cm9pRHpKU2J0RzZtY29pVkN6eG9qdUhWUDM5Q0JNTXpOX3ByMXdBODE0OWJ5UmZwTWtfWFZYSVZuQW0wdTlDalBaaHZzcS16RTNPdkJRdS13LXZVbV92b0ZjbDA2RGduSXhkR01uakZvWUhCQ21FRkxtME9lX1NOcnJ3a1N0eTM1N3NHcS1DbEtQN2d4c2wzVkJpS2pQQ1pOeEYtOEoySEo1NGJsSE04ZzN0bHVweEphbkNQeld2d29MWFdPd2ctLWF4ZXU2NU1QUVJXdC1JS3JTaFBIYzktemVuQVJ5MGlpc0NybkVWYzB5TkdZWWZqUl9RY3pQNnZJbnNPTXp4Y3dmQjNjeHZzNXNKUnB2b3lMT0NuNDJyZzgtXzNSSm5jVlpydFRBemVmMGNWQkRyVk01eElwbWRmNmZtMTR4R3dmXzgzejE0QnNfeFNOLUo3NA?oc=5",
-    "rank": 36
+    "rank": 35
    },
    {
     "headline": "البشت يُزين المسيرة السعودية في «افتتاح دورة الألعاب الآسيوية» - الشرق الأوسط",
@@ -2893,7 +2884,7 @@
     "date": "21 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxNVFRQWHMzTlNqZXl6WktmMUV4TlJXOHZjUU5yc2F2enNUUzFTb2JKUVZxSU5EZEJIX2MxRTgzdXZRT0VZWHVXeXJFWHlidlZVay1PS2laUzZoeTlxX2RRbXc1Z0hUV2tkcU0wR29fcWhXZHJQc1UxYUotTjRRamZZdF9HT01MY3lKNUtmR0NBNHJzdFlmTXBFbzR2V05ROFNpUG5ZSU90cnN2eWJiekVxREhNTlhrdGdJaFUzb1JrQkdlcXF0SHZnclZ4cUxpamJpRUhMdW03XzFzV0JQRDBBb3BteThmU002cm44MUxtbVdoOTdWdU1jWGJ2U2VxOFVvUENJTi1JOWpPNjZtOWJ1NnpNeVFYeUl5Nkk3U093R2hOQlBFVHU4X215bGdKczJjU0RuZGdyTkk0SUZlbTJsSUhoRDdDeHh3VUthY1JYbFZUSnJFX25vYnVTeW53cWZGYlpSNGpESzY3YjhaMlZYTkdNSFBwV0RCbUg4X1NwTmV5azZSWHdfUkZIUnoyUGs2enJQOVlIT1RuSHZ4Y3lnU0ZFcG9xaUV0WF9Nc0t5eWVCbTdZbzEyZzNEQVZxUXNCZTZhRzI2WVJ4VjV2T1N6WEJubWMtWkh5aVM1a3oyYzI0eF9IVGhDQzg0VVY5Z2FpSHhDZTNZRnJUM0Q0Q3hxR0E2cnpDTi1vNkY2UmxXeXFNWnJWa0R2c3ZSQWpGUGptRHVIRTVMVWRWREtVLWhldVZ2RUxLS2M3dzFrV1pRMDR1X3ptTVFaMVVYYmVPZzVUdHVWX3B2TE1YNEU4UUZIVEZ0RE9heDNFMDFmT0VpSXVqOVVqeTBoOGFDbEd1dnM?oc=5",
-    "rank": 37
+    "rank": 36
    },
    {
     "headline": "محللون: «باب المندب» يختبر حدود المصالحة السعودية - الإيرانية - الشرق الأوسط",
@@ -2902,7 +2893,7 @@
     "date": "21 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMitARBVV95cUxNYjF5UlRfSmJpdGZjazUwdGRMalNKeUthQ3ZZbEg4NEVPZWFyUFVMQTVhb1hMU19vcmc5am1ON2tRR1h5LU1nS2dxMmpHNUtMUEpxTUhQWjdWZmN5d1hTVVIzS1htS0h1QUtKbHJNWXlvQUhyT2V6eXN3cnUzUkk2ZnFlSk81SUVVMndvN0RXZldMQmdnRGh6UkdHN1RxNlhycWNBS0d0VFhHRUZTRkVRMlMtREx6em9IcGd0aDFjMWFYQWFBcWlKSEVITW5uQi1yMnozbFZzNVJhUWh3cFp1bDR2dWVpWjdqVDNpbWkyNEpmRF96WUdFN0cyYmktcHc3bURGajM3ODJJMHdwcFJ3Y2duVlV4b3ZPNFhQem9OWDN1a1phUWR5d0xPb1dUOEc5ckpDVnozMy1MMUhRQjVVZ25xeWF6dElLWUFsenUyeTAzRjNXNDc3QmpQTG02LTc5TXJBalV0R2dIQjAxci0waS1WT3NlNkZQZTVHWjZ1eXJxUVI3aURRU1BwN05raXkzek1JZ25QZS16Nnh3ZUtRUTlrak1xRUxKMHNBcnhnMjc3MzcycWk3YW1hZEdac0g5RWpFcEZhRHRtRTJfeWNBY0RUekFVY0JtZHVuNFZrSTBYbEJkOWJ5dE1nR3FkakZPTjlwTDJDSXZvRTlnZFdRMEJIYzc5VlRXSGJVUFRYS2FKUUpYOWZiOGtyLWk2WDh3UVl1YzFVVy03NmpuRTFTaTliS2k?oc=5",
-    "rank": 38
+    "rank": 37
    },
    {
     "headline": "ولي العهد السعودي يُطلق أولى سيارات شركة «سير» الوطنية - الشرق الأوسط",
@@ -2911,7 +2902,7 @@
     "date": "21 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxOV2paSGlqRnBQY2JJWWlvSTk3OGhQX1ZYTGNpRm9SSlgxSzMybHVHa2pmc0k2N3dYTHFtRkhPZmZxNGdjbUxzbldVRXlILXYtdkxFOVB1RjFBMy1HR05JSE9iakdnYmVtVG1TTHFESzZZZXZXbmd2R0trWFJHUU15b0M4bjdGVy1WV1dSa0F5aGVNVHEyTzh2M1RHZHhlamNoTlNJNzk2dlZVQTd3d3czZzhGVXVESkNlVXpMM3dNR3V6cU9YN3lXT0t3REZfMDUzbmJMajE2TXdlZ3BjbUM5QnhULUlXWFJyNDhtOEVSYzItRTRDTXFMb1BCOFhiV1VFMVAxeUZzSUlQaE1PYk5IaldibU5FZFhhYmZudGhBV2xWS1dkaTN6QU42dnEyVVk0eDdWR0dzckhqN3RQTjZCeE5iSlVDYkozVjVTOVUxV2dhaG4yWXVYN1ZCNzJISHV0eWlveG1xTkYyWERha1FMdnVfYldQU0pLajFPeTMtb01WQks3YXd5cUxCWVJkTlJLWWxkOEtoeWhZNFF5N0l1ZDlVTnBBX2hKYkh2M1JYWHVWVW96djk0dEp6QjAxUHprdmZ0NmJpdWZCcnVSQWlHemJOTTd1eEdoNEJQcXhNUXN6MEtCZ0Y3MUI5SXE?oc=5",
-    "rank": 39
+    "rank": 38
    }
   ]
  },
@@ -3021,68 +3012,68 @@
   "stale_days": 25
  },
  "_apify": {
-  "google": "2026-09-21T00:00:32.371149+03:00",
+  "google": "2026-09-21T20:05:43.123545+03:00",
   "tiktok:tried": "2026-09-21T20:00:28.551888+03:00"
  },
  "google": {
   "date": "21 Sep 2026",
   "items": [
    {
-    "text": "صلاه",
+    "text": "تقدر",
     "count": 100,
     "cat": "General",
     "source": "google"
    },
    {
-    "text": "يلا كورة",
+    "text": "الريال السعودي مقابل الجنيه المصري",
     "count": 100,
-    "cat": "General",
-    "source": "google"
-   },
-   {
-    "text": "real madrid",
-    "count": 500,
     "cat": "Football",
     "source": "google"
    },
    {
-    "text": "مانشستر سيتي",
+    "text": "جامعة الملك خالد",
     "count": 100,
-    "cat": "General",
+    "cat": "Politics / Diplomacy",
     "source": "google"
    },
    {
-    "text": "ريال مدريد",
-    "count": 5000,
-    "cat": "Football",
-    "source": "google"
-   },
-   {
-    "text": "بث مباشر",
-    "count": 500,
-    "cat": "General",
-    "source": "google"
-   },
-   {
-    "text": "مصعب الجوير",
+    "text": "حادث",
     "count": 200,
     "cat": "General",
     "source": "google"
    },
    {
-    "text": "سناب",
-    "count": 100,
+    "text": "أحمد بن راشد آل مكتوم",
+    "count": 500,
     "cat": "General",
     "source": "google"
    },
    {
-    "text": "السقا",
-    "count": 100,
+    "text": "سهم سابك",
+    "count": 200,
     "cat": "General",
     "source": "google"
    },
    {
-    "text": "معرض الصقور",
+    "text": "صندوق الاستثمارات العامة",
+    "count": 200,
+    "cat": "Finance / Royalty",
+    "source": "google"
+   },
+   {
+    "text": "موارد",
+    "count": 200,
+    "cat": "General",
+    "source": "google"
+   },
+   {
+    "text": "تداول",
+    "count": 100,
+    "cat": "Finance / Royalty",
+    "source": "google"
+   },
+   {
+    "text": "maps",
     "count": 100,
     "cat": "General",
     "source": "google"
@@ -3909,69 +3900,6 @@
    "confidence": "low",
    "at": "2026-09-20T23:00:26.274409+03:00"
   },
-  "صلاه": {
-   "english": "Salah / prayer",
-   "summary": "The Arabic word for \"prayer\" (salah), typically trending around prayer times, Friday prayers or religious reminders; the same spelling is also how some users write the name of Egyptian footballer Mohamed Salah. Which sense is driving it is not clear from the word alone.",
-   "kind": "religion",
-   "confidence": "low",
-   "at": "2026-09-21T00:00:32.371149+03:00"
-  },
-  "يلا كورة": {
-   "english": "Yalla Kora (\"Let's Go, Football\")",
-   "summary": "One of the biggest Arabic-language football news websites and social accounts in the region, covering Saudi, Egyptian and European leagues. It trends when its live coverage or a story it breaks is widely shared during a big match night.",
-   "kind": "sport",
-   "confidence": "high",
-   "at": "2026-09-21T00:00:32.371149+03:00"
-  },
-  "real madrid": {
-   "english": "Real Madrid",
-   "summary": "The Spanish football giant, one of the two most-followed foreign clubs in Saudi Arabia, trending here in English alongside its Arabic name and the names of its president Florentino Perez and past figures. Typically driven by a fixture, team news or a transfer story.",
-   "kind": "sport",
-   "confidence": "high",
-   "at": "2026-09-21T00:00:32.371149+03:00"
-  },
-  "مانشستر سيتي": {
-   "english": "Manchester City",
-   "summary": "The English Premier League club, heavily followed by Saudi fans. Trending usually means a match is being played or discussed, or the club features in transfer speculation.",
-   "kind": "sport",
-   "confidence": "high",
-   "at": "2026-09-21T00:00:32.371149+03:00"
-  },
-  "ريال مدريد": {
-   "english": "Real Madrid",
-   "summary": "The Arabic spelling of the same Spanish club, trending in parallel with the English form and with \"Madrid\", \"Perez\" and \"Mourinho\" on this board. This clustering indicates an active Real Madrid news cycle or live match discussion.",
-   "kind": "sport",
-   "confidence": "high",
-   "at": "2026-09-21T00:00:32.371149+03:00"
-  },
-  "بث مباشر": {
-   "english": "Live broadcast / livestream",
-   "summary": "A generic phrase Saudi users search and post when hunting for a free stream of a live football match, ceremony or event. It trends alongside whatever is being broadcast at that moment.",
-   "kind": "other",
-   "confidence": "high",
-   "at": "2026-09-21T00:00:32.371149+03:00"
-  },
-  "سناب": {
-   "english": "Snap (Snapchat)",
-   "summary": "Shorthand for Snapchat, which has exceptionally high penetration in Saudi Arabia and is the main platform for influencers and celebrity content. The word trends when a widely shared Snapchat clip, account or influencer becomes the topic of conversation.",
-   "kind": "social",
-   "confidence": "high",
-   "at": "2026-09-21T00:00:32.371149+03:00"
-  },
-  "السقا": {
-   "english": "Al-Saqqa",
-   "summary": "Most commonly refers to Ahmed El Sakka, the veteran Egyptian action-film and TV star who is well known across the Gulf; the word literally means \"the water carrier\". Trending usually follows an interview, a new series or film, or a viral clip.",
-   "kind": "entertainment",
-   "confidence": "medium",
-   "at": "2026-09-21T00:00:32.371149+03:00"
-  },
-  "معرض الصقور": {
-   "english": "The Falcons Exhibition",
-   "summary": "The Saudi Falcons Club International Exhibition and Auction, a large annual event held at Malham north of Riyadh that showcases falcons, hunting gear and desert-heritage equipment and draws big crowds and trade. Falconry is a prestige hobby in the Kingdom, so the show generates heavy social media coverage each season.",
-   "kind": "other",
-   "confidence": "high",
-   "at": "2026-09-21T00:00:32.371149+03:00"
-  },
   "اليوم الاثنين": {
    "english": "\"Today is Monday\"",
    "summary": "A routine day-of-the-week phrase that trends most weekdays in Saudi Arabia, driven by morning greeting posts, weather and traffic chatter, prayer-time and horoscope accounts, and school or work-schedule talk. 21 September 2026 is indeed a Monday, and it sits alongside the similar \"Good Morning\" (#صباح_الخير) trend on the same board.",
@@ -3991,13 +3919,6 @@
    "summary": "A McDonald's McFlurry ice cream dessert flavoured with KitKat, a limited-edition menu item that regularly drives food chatter in Gulf markets. Posts are typically reactions to the item being offered or promoted in Saudi outlets.",
    "kind": "business",
    "confidence": "medium",
-   "at": "2026-09-21T17:00:28.485698+03:00"
-  },
-  "سيارات سير": {
-   "english": "Ceer cars",
-   "summary": "Ceer is Saudi Arabia's first home-grown electric vehicle brand, a Public Investment Fund venture created to build EVs in the Kingdom. The surrounding board (\"Crown Prince launches Ceer cars\") points to a launch or unveiling moment for the brand's vehicles.",
-   "kind": "business",
-   "confidence": "high",
    "at": "2026-09-21T17:00:28.485698+03:00"
   },
   "الانماء الماليه": {
@@ -4021,26 +3942,12 @@
    "confidence": "high",
    "at": "2026-09-21T17:00:28.485698+03:00"
   },
-  "الكفاءات الوطنيه": {
-   "english": "National talent / Saudi professionals",
-   "summary": "A stock phrase about Saudi nationals' skills and expertise, used when local engineers and staff are credited for a domestic project. It rides alongside the industrial and manufacturing hashtags on the board.",
-   "kind": "social",
-   "confidence": "medium",
-   "at": "2026-09-21T17:00:28.485698+03:00"
-  },
   "الدفع الرباعي": {
    "english": "Four-wheel drive",
    "summary": "The automotive term for 4x4 drivetrains, a major consideration in a market where SUVs and desert driving are popular. Here it likely reflects discussion of an SUV or 4x4 variant among newly presented vehicles.",
    "kind": "business",
    "confidence": "medium",
    "at": "2026-09-21T17:00:28.485698+03:00"
-  },
-  "#وين_ماكنت_تلقانا": {
-   "english": "#WhereverYouAreYoullFindUs",
-   "summary": "A slogan-style hashtag meaning roughly \"wherever you are, you'll find us,\" the kind of line used in a brand or campaign push — plausibly tied to the wave of Saudi National Day and Ceer electric-car promotion dominating the rest of the board. The specific sponsor or campaign behind it is not identifiable from the words alone.",
-   "kind": "other",
-   "confidence": "low",
-   "at": "2026-09-21T18:00:25.636002+03:00"
   },
   "ميترو الرياض": {
    "english": "Riyadh Metro",
@@ -4118,6 +4025,90 @@
    "kind": "news",
    "confidence": "low",
    "at": "2026-09-21T20:00:28.551888+03:00"
+  },
+  "#وريد_الوطن_واحد": {
+   "english": "#One_Vein_of_the_Homeland (literally \"the homeland's vein is one\")",
+   "summary": "A campaign-style hashtag built on the word \"vein\" (وريد), the phrasing typical of a national blood-donation or unity drive, and the kind of slogan that circulates around Saudi National Day on 23 September. The specific sponsoring body or event behind it is not identifiable from the words alone.",
+   "kind": "social",
+   "confidence": "low",
+   "at": "2026-09-21T20:05:43.123545+03:00"
+  },
+  "1 اكتوبر": {
+   "english": "1 October",
+   "summary": "A date reference; dates trend in Saudi when something is scheduled to take effect on them, such as a new regulation, fee change, school or salary date, or a ticket or product launch. What is set for 1 October here cannot be determined from the term itself.",
+   "kind": "other",
+   "confidence": "low",
+   "at": "2026-09-21T20:05:43.123545+03:00"
+  },
+  "اللون الاخضر": {
+   "english": "The colour green",
+   "summary": "Green is the colour of the Saudi flag and the dominant theme of National Day celebrations each 23 September, when people dress, decorate and light up buildings in green. With Saudi National Day two days away and car launches also trending, posts are likely tied to national-day styling or to a green-coloured product or vehicle.",
+   "kind": "social",
+   "confidence": "medium",
+   "at": "2026-09-21T20:05:43.123545+03:00"
+  },
+  "تقدر": {
+   "english": "\"You can\" / \"You're able\"",
+   "summary": "A short, everyday Arabic phrase of encouragement, the sort of wording used as a motivational slogan, an ad tagline or a challenge prompt. Without more context it is not clear which campaign or moment it belongs to.",
+   "kind": "other",
+   "confidence": "low",
+   "at": "2026-09-21T20:05:43.123545+03:00"
+  },
+  "الريال السعودي مقابل الجنيه المصري": {
+   "english": "The Saudi riyal against the Egyptian pound",
+   "summary": "Exchange-rate searches by Saudi Arabia's very large Egyptian expatriate workforce, who send remittances home and track the riyal-to-pound rate closely. It trends whenever the Egyptian pound moves sharply or around pay and transfer days.",
+   "kind": "business",
+   "confidence": "high",
+   "at": "2026-09-21T20:05:43.123545+03:00"
+  },
+  "جامعة الملك خالد": {
+   "english": "King Khalid University",
+   "summary": "A large public university based in Abha in the Aseer region of southwestern Saudi Arabia. It typically trends around admissions results, registration and exam dates, scholarship or job announcements, or the start of the academic year.",
+   "kind": "news",
+   "confidence": "medium",
+   "at": "2026-09-21T20:05:43.123545+03:00"
+  },
+  "حادث": {
+   "english": "Accident / incident",
+   "summary": "The generic Arabic word for an accident, which trends when a road crash, fire or other incident is circulating in local video clips and news feeds. No specific event can be identified from the word alone.",
+   "kind": "news",
+   "confidence": "low",
+   "at": "2026-09-21T20:05:43.123545+03:00"
+  },
+  "سهم سابك": {
+   "english": "SABIC share",
+   "summary": "The stock of Saudi Basic Industries Corporation (SABIC), the petrochemicals giant majority-owned by Aramco and one of the heaviest weights on the Saudi exchange. Retail investors post about it on earnings, dividend and big price-move days.",
+   "kind": "business",
+   "confidence": "high",
+   "at": "2026-09-21T20:05:43.123545+03:00"
+  },
+  "صندوق الاستثمارات العامة": {
+   "english": "The Public Investment Fund (PIF)",
+   "summary": "Saudi Arabia's sovereign wealth fund, chaired by Crown Prince Mohammed bin Salman and the main engine of Vision 2030 projects, from NEOM and Qiddiya to sports and EV ventures such as Ceer. It trends on new investments, stakes, company launches and jobs.",
+   "kind": "business",
+   "confidence": "high",
+   "at": "2026-09-21T20:05:43.123545+03:00"
+  },
+  "موارد": {
+   "english": "\"Resources\" (Mawarid)",
+   "summary": "Ambiguous on its own: it is both common shorthand for the Ministry of Human Resources and Social Development (labour rules, wage protection, expat and Saudisation policy) and the name of Saudi staffing and recruitment businesses listed or operating locally. Given the financial terms trending alongside it, a company or stock reading is plausible.",
+   "kind": "business",
+   "confidence": "low",
+   "at": "2026-09-21T20:05:43.123545+03:00"
+  },
+  "تداول": {
+   "english": "Tadawul (trading / the Saudi Exchange)",
+   "summary": "Tadawul is the Saudi Stock Exchange and the word also simply means \"trading\". It trends on volatile market days, index milestones and IPO listings, and appears here alongside SABIC and PIF chatter.",
+   "kind": "business",
+   "confidence": "high",
+   "at": "2026-09-21T20:05:43.123545+03:00"
+  },
+  "maps": {
+   "english": "Maps",
+   "summary": "Almost certainly Google Maps or a similar navigation app, which trends when there is an outage, a new feature, a viral location pin, or a listing or route change that affects drivers. The trigger is not clear from the word alone.",
+   "kind": "other",
+   "confidence": "low",
+   "at": "2026-09-21T20:05:43.123545+03:00"
   }
  }
 }
