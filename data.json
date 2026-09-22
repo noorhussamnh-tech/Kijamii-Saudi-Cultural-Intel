@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Tuesday, 22 September 2026 · 05:00 KSA",
+ "lastUpdated": "Tuesday, 22 September 2026 · 06:00 KSA",
  "days": {
   "2026-09-09": {
    "label": "Wed 09 Sep",
@@ -2134,14 +2134,14 @@
     },
     {
      "rank": 2,
-     "text": "#محمد_بن_سلمان",
-     "cat": "Politics / Diplomacy",
+     "text": "#الاستغفار_يمسح_الذنوب",
+     "cat": "General",
      "pts": 12
     },
     {
      "rank": 3,
-     "text": "#الاستغفار_يمسح_الذنوب",
-     "cat": "General",
+     "text": "#محمد_بن_سلمان",
+     "cat": "Politics / Diplomacy",
      "pts": 10
     },
     {
@@ -2170,31 +2170,31 @@
     },
     {
      "rank": 8,
-     "text": "سيدي الملهم",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 9,
-     "text": "شعب طويق",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 10,
      "text": "٢٣ سبتمبر",
      "cat": "General",
      "pts": 6
     },
     {
-     "rank": 11,
+     "rank": 9,
+     "text": "سيدي الملهم",
+     "cat": "General",
+     "pts": 6
+    },
+    {
+     "rank": 10,
      "text": "الانماء الماليه",
+     "cat": "General",
+     "pts": 6
+    },
+    {
+     "rank": 11,
+     "text": "احمد الرواس",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 12,
-     "text": "خالد جاسم",
+     "text": "شعب طويق",
      "cat": "General",
      "pts": 4
     },
@@ -2206,7 +2206,7 @@
     },
     {
      "rank": 14,
-     "text": "احمد الرواس",
+     "text": "خالد جاسم",
      "cat": "General",
      "pts": 4
     },
@@ -2224,25 +2224,25 @@
     },
     {
      "rank": 17,
-     "text": "حسن الصبحان",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 18,
      "text": "ميترو الرياض",
      "cat": "General",
      "pts": 4
     },
     {
-     "rank": 19,
+     "rank": 18,
      "text": "ليس يوما",
      "cat": "General",
      "pts": 4
     },
     {
-     "rank": 20,
+     "rank": 19,
      "text": "برنامج المجلس",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 20,
+     "text": "ماك فلوري كيت كات",
      "cat": "General",
      "pts": 4
     }
@@ -2253,11 +2253,11 @@
      "score": 100
     },
     {
-     "text": "#محمد_بن_سلمان",
+     "text": "#الاستغفار_يمسح_الذنوب",
      "score": 88
     },
     {
-     "text": "#الاستغفار_يمسح_الذنوب",
+     "text": "#محمد_بن_سلمان",
      "score": 76
     },
     {
@@ -2273,7 +2273,7 @@
     {
      "icon": "📌",
      "label": "General (18)",
-     "items": "#اشتباكات_صنعا · #الاستغفار_يمسح_الذنوب · #رحله_المليون61 · #ام_نوره_تنخاكم_احسان · 23 سبتمبر 1932 · سيدي الملهم · شعب طويق · ٢٣ سبتمبر · الانماء الماليه · خالد جاسم"
+     "items": "#اشتباكات_صنعا · #الاستغفار_يمسح_الذنوب · #رحله_المليون61 · #ام_نوره_تنخاكم_احسان · 23 سبتمبر 1932 · ٢٣ سبتمبر · سيدي الملهم · الانماء الماليه · احمد الرواس · شعب طويق"
     },
     {
      "icon": "🏛️",
@@ -2524,12 +2524,12 @@
   "#طيبها_سعودي": 12,
   "#ويكند_الانماء": 10,
   "#رحله_المليون61": 16,
-  "الانماء الماليه": 11,
+  "الانماء الماليه": 13,
   "#اليوم_العالمي_للامتنان": 6,
   "ميترو الرياض": 10,
   "المشروع الرياضي الاهم": 6,
   "رقم اليوم الوطني": 6,
-  "ماك فلوري كيت كات": 6,
+  "ماك فلوري كيت كات": 10,
   "بيتزا دومينوز": 4,
   "جورج الثاني": 4,
   "سيرجيو": 4,
@@ -2540,19 +2540,18 @@
   "فهد الشهراني": 4,
   "اللون الاخضر": 4,
   "#اشتباكات_صنعا": 14,
-  "#محمد_بن_سلمان": 12,
-  "#الاستغفار_يمسح_الذنوب": 10,
+  "#الاستغفار_يمسح_الذنوب": 12,
+  "#محمد_بن_سلمان": 10,
   "#ام_نوره_تنخاكم_احسان": 7,
   "البحر الاحمر": 6,
   "23 سبتمبر 1932": 6,
   "سيدي الملهم": 6,
-  "شعب طويق": 6,
-  "خالد جاسم": 4,
-  "الحارثي": 4,
   "احمد الرواس": 4,
+  "شعب طويق": 4,
+  "الحارثي": 4,
+  "خالد جاسم": 4,
   "الامتنان الحقيقي": 4,
   "سعيد العويران": 4,
-  "حسن الصبحان": 4,
   "ليس يوما": 4
  },
  "news": {
@@ -2586,22 +2585,31 @@
     "rank": 3
    },
    {
-    "headline": "Saudi Arabia faces a two-front war as it seeks support at UNGA - The Jerusalem Post",
-    "summary": "Saudi Arabia faces a two-front war as it seeks support at UNGA The Jerusalem Post",
-    "source": "The Jerusalem Post",
-    "date": "21 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWejFXNUdDUlhMS0lwZWNZNUdpbl9EaU9RSTdwd3cxdlBUbWxseXJRTkNCQjlQSEw5SXQ3c3Vwa3dibEpJeGt0Y3hZeXJLVnIxT05tTS00Q3hlSkNT?oc=5",
-    "rank": 4
-   },
-   {
     "headline": "UK's Burnham agrees to Saudi request for refuelling support - Reuters",
     "summary": "UK's Burnham agrees to Saudi request for refuelling support Reuters",
     "source": "Reuters",
     "date": "21 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOFY5NmpXN1F2cFlSR2N2S3hBbDdZOG1Zay1pQVBSRlNQN0ZkbWlHTHNPUF9WSkdnN0w3bWhLV0hVUllmVXhZRnMzMU1oV2dtai1uMDA0enJRVGRZMlFLOGUxMVctbDhnYlNHdHQ2dUxPLWl5eFdGRkRfb0hsUFc3MzVKeDZ5cERiSEh6YzE2Rk5FcGxSczczcjFvWlZTMEJBLTVBenRKMzdGdWc3QnlyZElyT0s?oc=5",
+    "rank": 4
+   },
+   {
+    "headline": "Saudi Arabia faces a two-front war as it seeks support at UNGA - The Jerusalem Post",
+    "summary": "Saudi Arabia faces a two-front war as it seeks support at UNGA The Jerusalem Post",
+    "source": "The Jerusalem Post",
+    "date": "21 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWejFXNUdDUlhMS0lwZWNZNUdpbl9EaU9RSTdwd3cxdlBUbWxseXJRTkNCQjlQSEw5SXQ3c3Vwa3dibEpJeGt0Y3hZeXJLVnIxT05tTS00Q3hlSkNT?oc=5",
     "rank": 5
+   },
+   {
+    "headline": "UK to provide Saudi Arabia with 'defensive' military support, says Burnham - BBC",
+    "summary": "UK to provide Saudi Arabia with 'defensive' military support, says Burnham BBC",
+    "source": "BBC",
+    "date": "21 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00N2Z5eWN2TURyRzQxSXJFYmQxSTZyMFRVcVhES28zUWtkcTBGZDdja0tXWkZUdHpyT1VpMHpxWFk1WXgzdWdWQVhPa0RtREpqcHhvejVSdEpCQ1U?oc=5",
+    "rank": 6
    },
    {
     "headline": "Why Trump is leaving Saudi Arabia alone to fight the Houthis — even as they threaten global oil supplies - New York Post",
@@ -2610,7 +2618,7 @@
     "date": "21 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQS0NBQWFZdUxZZ2IyeVM2TUFRY0drcEVrUGtWclF2dzFsVjREOGZnc3lfdVYxZ2NkeUxkZEtqNmphVnFUcFNmZWZXdmZpWlRjXzY4eVZCYzBfd1dwZmtXVHU3Yl92cFJKM0JDd3lpcGVQQjhkeVZKa0s5UDE4d0ZwaENKWHJBOGEtNlBBMGczeDVwR2ZJUzAwX3N3Q2J3NFhVR2VMcHNWMTZGbWo3bHhBZjBWa0xmOXZSLTJ3?oc=5",
-    "rank": 6
+    "rank": 7
    },
    {
     "headline": "How Saudi oil scientists ended up working on the world’s most important climate reports - The Guardian",
@@ -2619,24 +2627,15 @@
     "date": "21 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON1RjMkRZdHI4clYwSGVIUmpwQTJoNjR6N0NkYjZ4Qk9VbWNDbFR6WVRmeDBfMDZWZkY0UGRQY08teEdNbkVCTFhsdGRXejZPNXJkNHl1V0FUTzdSTEN6X2RqQkNHQ1pRaUhEdDhHSFFBaFJlU3ZrbXNfOXFYTzlJaHVZLVUzTzcxQ2VUSVM1bWx4YmtBU0pDdmtmTnVZUDAzbUdBRl94c1BkVDQ?oc=5",
-    "rank": 7
-   },
-   {
-    "headline": "Why can't Saudi Arabia stop the Houthis? - DW.com",
-    "summary": "Why can't Saudi Arabia stop the Houthis? DW.com",
-    "source": "DW.com",
-    "date": "21 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVHcyYmNlU1I1bnFmejdrZ0pKYnZkWkJlMUhlUm5VbVoyb1JJZXpfT0k2d3hYN19ZaFBvMTZKRkFQYnlSTTZKUHJHV3hVX3NOMUdub0p6VzZFejRxRkJ3R1pDSllPRE5uS0UxWGE5S3k0QWZwUmRuQVBPWGV2RW1pNA?oc=5",
     "rank": 8
    },
    {
-    "headline": "Saudi Arabia wants a car industry, launches Ceer with two EVs - Ars Technica",
-    "summary": "Saudi Arabia wants a car industry, launches Ceer with two EVs Ars Technica",
-    "source": "Ars Technica",
+    "headline": "China suffers setback to dedollarize global finance as Saudi Arabia exits Beijing's payment scheme - Fortune",
+    "summary": "China suffers setback to dedollarize global finance as Saudi Arabia exits Beijing's payment scheme Fortune",
+    "source": "Fortune",
     "date": "21 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbzRpR3F4blJVU2gxVVIxcThLY2Y4aXNXWVY0bmdFYjdsZ3NJblMwdFlWMFZfYzR0TEU0X1p3aGFLRkJBWG5ocTdXeFZVbzY3c2pnQlA2X2RkOXJ1cWR2N2oyR2VJMEpnaFdaQlF2emM0cXdoOGo1MmpHSFNta0hjYmU1Nk4zRWxTMmdCZW1mOTIyalU1S1FKVXprUG9LY1k?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVE04QkVvYkk2ajh1STdrQXlKOWNPTk1LY1NLM3h0ajlocUNMYTZ1NjVSWHdRaWxWeGFQeXhOZUF2bFZXcE1rekdVZGNTaFNvUWRXM0pCQ0l0Rlg3OUNoOVdBSVZ3MnI3SDk5UVc3TlFKNTZpN00tQjd1NnQ1Zk9GNzZOOXQ1STJKZThvbHlDUm9sbTQyOVRRU2tIVzRncHJNdVlVSnhERjBSNDhwT3dOZmdzRlVpSVk0?oc=5",
     "rank": 9
    },
    {
@@ -2676,31 +2675,13 @@
     "rank": 13
    },
    {
-    "headline": "16 % ارتفاع عدد رخص البناء بالسعودية خلال 30 يوماً - okaz.com.sa",
-    "summary": "16 % ارتفاع عدد رخص البناء بالسعودية خلال 30 يوماً okaz.com.sa",
-    "source": "okaz.com.sa",
+    "headline": "16 % ارتفاع عدد رخص البناء بالسعودية خلال 30 يوماً - عكاظ",
+    "summary": "16 % ارتفاع عدد رخص البناء بالسعودية خلال 30 يوماً عكاظ",
+    "source": "عكاظ",
     "date": "21 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWOUFIemFvMVU0M2VHem55OVVwUXJhX25scXltRmpkTDdnWTM0MHlabjhaU2hBektSYXpwci1wU2FjSG0waERRbldSVTJSLU9DemlXZNIBVEFVX3lxTE55QVBTQkhtM1Q4WWFIaFFWQ2ZveVJRQkEwallINkJsUkNnNHYzZnNtWUhGVFFuVnhvMml2LXpHYl85V1lNcGI1YllCQzVwTjBuZlRWRA?oc=5",
     "rank": 14
-   },
-   {
-    "headline": "السعودية قبل خليجي 27.. العراق عقدة تاريخية والكويت وعُمان في المتناول - Kooora",
-    "summary": "السعودية قبل خليجي 27.. العراق عقدة تاريخية والكويت وعُمان في المتناول Kooora",
-    "source": "Kooora",
-    "date": "21 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMikwVBVV95cUxOYTF1OFd3OVhSRXFjdEJDOXV0eHNzZTFBSTBmM01mRzRDRlI1U2lnbmhVUmhzNU4wUnV2MldzQlBFcEZYRE9JTnk0RGcyZ1ltb011ZzYtcDh2T2E5cml0aHFBZmQ5ZlU1SVIyYmV6Sm9UMXZjUDRNcHM5WVdYR3BSOFh3MjJnZHl0QVVZYzdJV2JSc2FaMUoxOTR2X05wU3FsTVVCWTZGNmtlWWhOUFJjWFdacnY1LVdiXzlDSmRaQVFHWVV3YXdzS3BKRkliamMzeDhQaGRnczFYY0I5UGxVZ3hiN2k4ZmkwY2FqVy1FNHU4NERhc2VMV1hNTE8zcS02WDVQbTJ4dVNtRy1OSHlTRHB2b0NoWHJJMXlBRnNVM0ZDU0hvVTNvejJoNURzTzQtUFNoYXlSdXhEYWpOa3U0LVZPZVZUaThvSXE2elZZMElWQkRpdndLS1ljZkI4YXVOeWQwbDFLVk52QkJJRnRsQWw1dXFSSU1JbEFYd3FjbW1ycWdXVUx5eWJ6NTRlTHd0TUN2Nm9JSTI4dE5RU1BWRTd3QVozUXlST3lsLVFWMVZaU2l2dVZBdm4yRTRhY05XbVZHUHF3TFBlc250NEVrelFtWlBCaURVWVhSY3NxSi1CdjJHbGxkNFVJUmFmUUh6OTkxSm43Qmd0ZlhuaUZpN2V3QnhfdTJCb0gtcTZ5UFJaODdhenBkUGtkVTFmMGdNWlpYenFlZS1lY0trTEVqb3BaM2FnZUhvemIza1BHYjA3Y0xwR1pJcHZlQU9NZjZocmw4T2Ewd3VwNDVyWGJKdDFGNkpWQTE5Yk9xTWRGMzRVZEYzaGtVTGdJak5kdUFjZHNoTWM5WXU1Q0I0RUpRM1RxTQ?oc=5",
-    "rank": 15
-   },
-   {
-    "headline": "من السعودية إلى العالم.. \"سير\" تقود طموح المملكة في السيارات الكهربائية - العربية",
-    "summary": "من السعودية إلى العالم.. \"سير\" تقود طموح المملكة في السيارات الكهربائية العربية",
-    "source": "العربية",
-    "date": "21 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiwARBVV95cUxPUzhGYUlMbzZYQVc4TjdEQ1lUYjRhSTFjc2tnakVLYTNYOEFKT3plMXRIYW0wTWcxQUpVaS0yaW5ZVFd6S1VLb2xJcWxxX3pBSWJKNElSZzJwUDZOVkU1OGlKWXhmS1kyeU96dl9STkRxOU9DNDZzZTRyOTljdUxscUJQck1qQjBnVmxyX3FLVHlvVGREZ0NfdmdISzltUGZYU0xTdlJyZmpsaVF1RS1MXzluOThUdHFlc0FiQWhTTnpSdm03aVdNaFRvNENXTFFySWhUTERfZlVvV3JSNVU1RjRxTU1OdGctRVBpQVFjclRxRTJMTHZJZ1UyX28ta3NnSHdoZFRlUUtRRmZ5MFZzUWEzUTFjdExUYzUzTklpaWh1M3Z0SWFEZDVmMjd1N2d3WHM5QmpWcTdDSWN1VnZMUGMxM3lLYlh1VFBidjhiV29vWEYtRU16RzU4LW01YlFZUVhBX09MRjZmNkdaRGhIdW9mUEpuSTZiYWdMTVNGMHJBYlJtZUZCRzh4dTlmaF9aUVJDcHluQlNvVzFGdlE2eW9ZYmRiTy1MUmdZelp4ckdjcVVyU25iOEdFdDBOd1dyekhfdFgzN25vQlpVbmY0S2x1ZkFNUjNEWnhJNl9iYkp2ZERKRndUUkFEaHJyM2RkTzJQR1M0bXp1UlEzTThtMTJNUzBvdWpUd3ZaeGxTRXo4NlNqMkh4X3p2b1NXMXdtWHlxbWIzWmRzckxjTWhpM2JhRHZaQ1NlSU5zZmtJWDTSAcYEQVVfeXFMTmpPUjh1bUZNX1pERjBWbWpWY01WRHZiZFhDbkROa0Rob0xsdkthNVhlMU82NjBXb0V1VG9NVFI2M2xIVW0yUnBCV1Y1ZTlSX0tEWmJxSzZ0eHdneklpSHJORGtrcVp4RFpOZlJOVVFPWWwtdDRjM3dpbnU4TVJ3Ri1vdzhiMTFadGZDU3dDanFXQ2FVNVFTSG1fT3RoRTFmQ2NLTzZBN3NUNDdTM2duRDlFN2xzaG5vV1VQWDVMVElDODZRZl9VeERHSTNST1FJaUI1M3g1bmVOUXNRQ25yTGZTU1VSSXAzVmxQTmJtZ3pxLUdrNG1IRTZraWR3dVR6OF9maWN1UGo2eE56MFh4dDRyMmRLMjV5aDJHU2ZvMm00aERDNHR5aXZ0eDEzTUQ1Q21QajVfeW0yS3NlV2M0c2VSeVdvR0Y0Q3B1NFlZNFJweUExdFA1Y1Z0ZUkzSWhndXpuQ005QktJMU43Mi1ONzgxQnlxVFBwemtTaGVvYjZBT0ZVYklpbnNxT1VaTDFqdEk5cnZGOEVZWC1wYUx0VEV4YUJkUmxsRktkX2duaGZ4STVsS3BhQ0ZobmxPZGNtN2hDUkpnc2tLVkZESC02ZVFlX1JTenFpa1Nra1NtSjRWS3cxSndPb25PY3Q2ZnJiRU8wVzhhdDJGSElBOUVnTWNiZTRFVlVUX1RyUmhFbnJkdmJhOURpdWVhREFEdncxblF5eHJvcGdxcXRFNnZ0SHJXUlF0TFc0QUlXLUFOb2xYTkI2WWtR?oc=5",
-    "rank": 16
    },
    {
     "headline": "هجمات الحوثيين على السعودية.. هل حان وقت تفعيل تحالف مكة؟ - الجزيرة نت",
@@ -2709,6 +2690,24 @@
     "date": "20 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOU0FPcERmRkVudG9KcENTYjcwSkN0cGNETkgyU2w1d0ZQUVhYcTlDcGR6aUVUYmFoSU5PaEVhX2RBY1k5RmQ5aTFncUxOQmZNb3M1aGVLcGZwWEVEZlF2Y1hOUlVGRXRSdDl3ZS1kV04zUzB1LWxnQ0tUa3k4ZnlKbTZrSEw4WXJmcXhiZnY4OGFfZTJnYklLOTRDYWJTNnlYVGlJX2hVY1pBRVI2T29hVEtXVlFXSURicVR1Q1pEZ3JXeVFwaXhjRU5TbkhOSkkyX1hfMGgxZ3pWcVJ6S0JSNzRzZWR2MjN5OXJLSzEya3pySU1UM2Y1WXlEa25jS2pXcUFKb2FVWFItNkRMMEkxQkRtVzZ3UjFRNEpQRDFLb21FLUNSc3JaZUFrcjcwdHlweFBzeWJJWHB0RUZfWTlhY1RWTTZ4YldsaGRqc3p2UlBFVmdDLUhxTklGS3nSAeICQVVfeXFMUEM0dWc4c1VObm9EMUtJajFxbURZVkdKX3dTeGtlOEtGQWVBMXVZUWxfb043LWo4d204LS0ydHlVMEdpUVpzRG9Xd2d0ei1GbUttSmJCOHR2YVVRb0k5ekc1OHM2QkNmM080bVE1alBtd3RfWmFNYW41T1VWSTFhRk5CSlViemJWTDVHR1hvSjFnWTIzSG9mRGp0R3I2d211X1ItUVZlbjJPbGIxdjJZZFY1UExQSnduMUpudEI4d0xsNkROV205S1B1R19LWURSV2V2ZFBST1FqQ3JlR0VIOTF4Tzk2MjVyUVZFYzN5RWpzZWdWR1JLVGJ5TUpDTzVPeVBNV1R3bTM3QlBXMGF6QTlYVWpaRDFaTHk1dXBCMUs5OGpYbzM3NWRSLVpfN1dObURpWXREMEFMaVBaWVFyanFxaEwzd0FGNmEwS0tleVR1cWFzXzlxTjhfWlE0ZTUyaHhB?oc=5",
+    "rank": 15
+   },
+   {
+    "headline": "السعودية قبل خليجي 27.. العراق عقدة تاريخية والكويت وعُمان في المتناول - Kooora",
+    "summary": "السعودية قبل خليجي 27.. العراق عقدة تاريخية والكويت وعُمان في المتناول Kooora",
+    "source": "Kooora",
+    "date": "21 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMikwVBVV95cUxOYTF1OFd3OVhSRXFjdEJDOXV0eHNzZTFBSTBmM01mRzRDRlI1U2lnbmhVUmhzNU4wUnV2MldzQlBFcEZYRE9JTnk0RGcyZ1ltb011ZzYtcDh2T2E5cml0aHFBZmQ5ZlU1SVIyYmV6Sm9UMXZjUDRNcHM5WVdYR3BSOFh3MjJnZHl0QVVZYzdJV2JSc2FaMUoxOTR2X05wU3FsTVVCWTZGNmtlWWhOUFJjWFdacnY1LVdiXzlDSmRaQVFHWVV3YXdzS3BKRkliamMzeDhQaGRnczFYY0I5UGxVZ3hiN2k4ZmkwY2FqVy1FNHU4NERhc2VMV1hNTE8zcS02WDVQbTJ4dVNtRy1OSHlTRHB2b0NoWHJJMXlBRnNVM0ZDU0hvVTNvejJoNURzTzQtUFNoYXlSdXhEYWpOa3U0LVZPZVZUaThvSXE2elZZMElWQkRpdndLS1ljZkI4YXVOeWQwbDFLVk52QkJJRnRsQWw1dXFSSU1JbEFYd3FjbW1ycWdXVUx5eWJ6NTRlTHd0TUN2Nm9JSTI4dE5RU1BWRTd3QVozUXlST3lsLVFWMVZaU2l2dVZBdm4yRTRhY05XbVZHUHF3TFBlc250NEVrelFtWlBCaURVWVhSY3NxSi1CdjJHbGxkNFVJUmFmUUh6OTkxSm43Qmd0ZlhuaUZpN2V3QnhfdTJCb0gtcTZ5UFJaODdhenBkUGtkVTFmMGdNWlpYenFlZS1lY0trTEVqb3BaM2FnZUhvemIza1BHYjA3Y0xwR1pJcHZlQU9NZjZocmw4T2Ewd3VwNDVyWGJKdDFGNkpWQTE5Yk9xTWRGMzRVZEYzaGtVTGdJak5kdUFjZHNoTWM5WXU1Q0I0RUpRM1RxTQ?oc=5",
+    "rank": 16
+   },
+   {
+    "headline": "من السعودية إلى العالم.. \"سير\" تقود طموح المملكة في السيارات الكهربائية - العربية",
+    "summary": "من السعودية إلى العالم.. \"سير\" تقود طموح المملكة في السيارات الكهربائية العربية",
+    "source": "العربية",
+    "date": "21 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiwARBVV95cUxPUzhGYUlMbzZYQVc4TjdEQ1lUYjRhSTFjc2tnakVLYTNYOEFKT3plMXRIYW0wTWcxQUpVaS0yaW5ZVFd6S1VLb2xJcWxxX3pBSWJKNElSZzJwUDZOVkU1OGlKWXhmS1kyeU96dl9STkRxOU9DNDZzZTRyOTljdUxscUJQck1qQjBnVmxyX3FLVHlvVGREZ0NfdmdISzltUGZYU0xTdlJyZmpsaVF1RS1MXzluOThUdHFlc0FiQWhTTnpSdm03aVdNaFRvNENXTFFySWhUTERfZlVvV3JSNVU1RjRxTU1OdGctRVBpQVFjclRxRTJMTHZJZ1UyX28ta3NnSHdoZFRlUUtRRmZ5MFZzUWEzUTFjdExUYzUzTklpaWh1M3Z0SWFEZDVmMjd1N2d3WHM5QmpWcTdDSWN1VnZMUGMxM3lLYlh1VFBidjhiV29vWEYtRU16RzU4LW01YlFZUVhBX09MRjZmNkdaRGhIdW9mUEpuSTZiYWdMTVNGMHJBYlJtZUZCRzh4dTlmaF9aUVJDcHluQlNvVzFGdlE2eW9ZYmRiTy1MUmdZelp4ckdjcVVyU25iOEdFdDBOd1dyekhfdFgzN25vQlpVbmY0S2x1ZkFNUjNEWnhJNl9iYkp2ZERKRndUUkFEaHJyM2RkTzJQR1M0bXp1UlEzTThtMTJNUzBvdWpUd3ZaeGxTRXo4NlNqMkh4X3p2b1NXMXdtWHlxbWIzWmRzckxjTWhpM2JhRHZaQ1NlSU5zZmtJWDTSAcYEQVVfeXFMTmpPUjh1bUZNX1pERjBWbWpWY01WRHZiZFhDbkROa0Rob0xsdkthNVhlMU82NjBXb0V1VG9NVFI2M2xIVW0yUnBCV1Y1ZTlSX0tEWmJxSzZ0eHdneklpSHJORGtrcVp4RFpOZlJOVVFPWWwtdDRjM3dpbnU4TVJ3Ri1vdzhiMTFadGZDU3dDanFXQ2FVNVFTSG1fT3RoRTFmQ2NLTzZBN3NUNDdTM2duRDlFN2xzaG5vV1VQWDVMVElDODZRZl9VeERHSTNST1FJaUI1M3g1bmVOUXNRQ25yTGZTU1VSSXAzVmxQTmJtZ3pxLUdrNG1IRTZraWR3dVR6OF9maWN1UGo2eE56MFh4dDRyMmRLMjV5aDJHU2ZvMm00aERDNHR5aXZ0eDEzTUQ1Q21QajVfeW0yS3NlV2M0c2VSeVdvR0Y0Q3B1NFlZNFJweUExdFA1Y1Z0ZUkzSWhndXpuQ005QktJMU43Mi1ONzgxQnlxVFBwemtTaGVvYjZBT0ZVYklpbnNxT1VaTDFqdEk5cnZGOEVZWC1wYUx0VEV4YUJkUmxsRktkX2duaGZ4STVsS3BhQ0ZobmxPZGNtN2hDUkpnc2tLVkZESC02ZVFlX1JTenFpa1Nra1NtSjRWS3cxSndPb25PY3Q2ZnJiRU8wVzhhdDJGSElBOUVnTWNiZTRFVlVUX1RyUmhFbnJkdmJhOURpdWVhREFEdncxblF5eHJvcGdxcXRFNnZ0SHJXUlF0TFc0QUlXLUFOb2xYTkI2WWtR?oc=5",
     "rank": 17
    },
    {
@@ -2768,27 +2767,27 @@
     "rank": 23
    },
    {
-    "headline": "Houthi offensive threatens to pull US deeper into Middle East conflict - KEYE",
-    "summary": "Houthi offensive threatens to pull US deeper into Middle East conflict KEYE",
-    "source": "KEYE",
-    "date": "21 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPUDQ3dEZXMUduTEZNQ3NsWmZKYVZEU1hHd1ltOGVFbm44aHdkc0VPSmFQNjBRUEZia1p4cmdLVnJ3RnJzbURhdm5aQmlQVDRjQTV0MTJJMk1mX0VOQTJKVVdzQVRPeEFIU01TMGVWUUswdVR0eDAwRVBFb05iaDdXdzllcUpnMEkwOVZNUjdnM1R5NWMwR3ZUcEhYNUxRcFAxOVp4Y1ZXcDc0amJZT2Q4VWM2VW5adXhjb1dCalFOY3Vzb0xoMEx4elVlTUg5MjFhRTlTcHBMdm5PNXh3TVlPQkxGZGJGSmM4NktWMjc3azJ4aHQwUFRsWDV1enM?oc=5",
-    "rank": 24
-   },
-   {
     "headline": "Americans in Middle East warned to ‘exercise heightened vigilance’ following strikes on Riyadh - The Hill",
     "summary": "Americans in Middle East warned to ‘exercise heightened vigilance’ following strikes on Riyadh The Hill",
     "source": "The Hill",
     "date": "21 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQk1RUGZ1QnExeUMyU3QwUkRDU3l6cEpnU3l2QzhBdnlUZ0FieEl2T0lDZjNhUkRTR2ZwMzFMc1BKYzJLbnBTbG45bEIyM21LNWVPaXMxU2tQX1hnYm5wZk5HbWprMktkUmFGdmN1UFVscWh1YVhfdThGUDkxTUlkd0x1TzROZ9IBiwFBVV95cUxOV2RmeHJWaTlUQXRxQlQ5cWJJQW5IX2dnOGxEXzZIZVhVVW1VQ2dYVVJ1aWRreUFPUTRVeC1sNUFsbHlGWkxZbUh1TFNxSjMzbVMwMndJYWg3aS0tODMxbUJncTlLS0pKNlVLNEx5dDdCWUdPRHE2WVBidnlNR1RaWElUZVlPRWpMQVk0?oc=5",
+    "rank": 24
+   },
+   {
+    "headline": "Houthi offensive threatens to pull US deeper into Middle East conflict - KEYE",
+    "summary": "Houthi offensive threatens to pull US deeper into Middle East conflict KEYE",
+    "source": "KEYE",
+    "date": "21 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPUDQ3dEZXMUduTEZNQ3NsWmZKYVZEU1hHd1ltOGVFbm44aHdkc0VPSmFQNjBRUEZia1p4cmdLVnJ3RnJzbURhdm5aQmlQVDRjQTV0MTJJMk1mX0VOQTJKVVdzQVRPeEFIU01TMGVWUUswdVR0eDAwRVBFb05iaDdXdzllcUpnMEkwOVZNUjdnM1R5NWMwR3ZUcEhYNUxRcFAxOVp4Y1ZXcDc0amJZT2Q4VWM2VW5adXhjb1dCalFOY3Vzb0xoMEx4elVlTUg5MjFhRTlTcHBMdm5PNXh3TVlPQkxGZGJGSmM4NktWMjc3azJ4aHQwUFRsWDV1enM?oc=5",
     "rank": 25
    },
    {
-    "headline": "Houthi offensive threatens to pull US deeper into Middle East conflict - KRCG",
-    "summary": "Houthi offensive threatens to pull US deeper into Middle East conflict KRCG",
-    "source": "KRCG",
+    "headline": "Houthi offensive threatens to pull US deeper into Middle East conflict - krcgtv.com",
+    "summary": "Houthi offensive threatens to pull US deeper into Middle East conflict krcgtv.com",
+    "source": "krcgtv.com",
     "date": "21 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVEhwOEs3ZU4tM0xLZi1UYmwyUFpnTFlfeUlyQ0toYXY4VE44NWZjNTkzbkZ2WGdITjdCampRSE52eGd6RWVLTHI1NURVQ2U5NTg5SkRqbXBvTzQ0d3hwWU83LXRxQTJVSFJFNTFyTnJnYTd2YUVUMUVFNENmY1JhRWF6ZDU2ZDdvVHd1bndXbzROQno2MGpLVGJvaG9rdkZkR1Y5Q29HU0RfeUk0TGItMWZ1V0UtRVBTdlFDbndCcnBWOEdPMldhUy1FUmJWZnY3QmpqTlJETFVKUEJ2QzlkZU5tWVA0Z0xraVY3NGdxSjJwTEtWdTRRUA?oc=5",
@@ -2804,21 +2803,21 @@
     "rank": 27
    },
    {
-    "headline": "«الوزراء» السعودي يبحث جهود خدمة الأمن والسلم الدوليين - الشرق الأوسط",
-    "summary": "«الوزراء» السعودي يبحث جهود خدمة الأمن والسلم الدوليين الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "21 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMixgRBVV95cUxNVjByazhuMXZDOGRlTTVJSTNRa0x4cE1aLTJOZkRzMVp3QjN0SnV4Q2RHMDZzMWE0VFNwLWZCckRhWjJKS1pOWFdDektYZHYyd2R2endlSWFKNk5WLVlpVjhzN2pUcDNsZlRHXzh1WWM1YWREU0ktOFYwRWdMUGJUbGk2Q1V2WW40NEpIVHZJYW1XalNkNUE4NWdGc0xfY0x2TW5BODF2Vi1WREVtYTVwOWFBZEZIRFVUakhxaExPZG5pcHNWYVN4US1WV19aT3BaU0lSZFBkRVNwNDNnSzY0R2FkcXk0OUY5QWZldDNSa2JXaWJPMDlIdy0yS3hCSXZIdnF4aGlwR3pSVDY3SGFTOUlLRmw4MmhOVGRrY0s4VElXM01qOVhXbk1TbFdHS013azR6TW5jcWk1TVVFNnNzQ2xIRkhaU2x0eEx6WGVhQUhzSGYwS2I2dTJOSHhOa0p1UDJnVVhjc29ZYXM1NVk2TW1zaGlGTWs1NzRYZ1J6UENzREhYRlo1TW1DOURURVhKNnFRbHpWT0FTTlIwTHhmcWZqak5vc0Fkb0xyOHBFRExVUG5JckstN0tMeG9mSHNyblZBZnRUbUtYU0ViVTZXZElSRGlhTHFyYlBPaFJIdXVRQ2FlY0djU2Q0VWtQWVlOcUNOOUV3a1NCa1g1MHZTOVpnbkR6ZGppaFhGWEdCSXpPNEhuQnMyUzFudWt1ZG5xTkd2QlFJT0h6T0lYUmNwODUwNExkaHlkZWt3T09TQlV1TUVoa2c?oc=5",
-    "rank": 28
-   },
-   {
     "headline": "عنايتي لـ«الشرق الأوسط»: توافق إيراني مع السعودية على تجنيب المنطقة الحرب - الشرق الأوسط",
     "summary": "عنايتي لـ«الشرق الأوسط»: توافق إيراني مع السعودية على تجنيب المنطقة الحرب الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "20 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiwgVBVV95cUxPWnRxLWhXTHUySFpIUzcxeEZZYVZXY0p3Q2tsLUdiVlNpS05aMkp2UWh4d2tuQWFuMHc3Y19ZZzlSRlE2dU14WGE4amZKSHE5UzJlazgyam94cFFUeEpfSGRlQkZCRTk2aEZEQTFieGlIV3RUSDN4am1ldEpqc0tMblRTaTFWZlNwVXlSOS1NTVFXN3JJcGhaOFdRZmdXbl91LTRManVWaE5aak5PVHBXamFEdDg5UVVwMTR4Zl9ZWUNWY2gwWXhNdTVqYzhHYkxMOUR2Z2VQVkdpTW9uWHBtcHZjWXZNVVRBcWtxRWticWdPLTFwaDRYUFV6cmtRckRlck02VTJFRDFiQXBPYklwUlhLWVhSeEdfYWt3Y2s3MUVjMVV0dloxaGRDcDhWV2l3RTVEWUt1bmJ4dzdEc2ktYWNielZOSmR4VGp1Q21Yd2hxdFBqR2NaZTlWclBiMndkS0h5SkUxUVloZkZncWZZVGtwV0VfSk4wTWpMX25URVdBdjhib0l6dXBUcTVmc1BXVzBISWMtckZSUWhKdWwwVmhsMnRkSzZQbkYwWkJ2Q3lva3JCYUoxS3AyWk1JWjlvT2FHOW5MX1Z5N2YzOTM2SXZSR1dzMjFlbExkQXR5SkFwSW5vdVhwQURaZEVpdXA3NEdwUjJ4NFdNMmVwLXNMQjRqazZ6YXVwMTU4SFdGRW1jakVnVWlmSUFzS1ZoTEFfVDc0VFpPcmZaNnBUVzJuazdaTzN0akN2a2FCaGNEVXFxYldMQ1ZJZV9kMGVrTThLYzdKb2dJWUR2cDJBU2pyeHl5RXNUVmc0Rld4Q2o5azFpdHVDbGtkWjFqNnhZTzZPbGJOLWRSeDRmWjNWUVJYMzJUUFJ0eDVGMUdwSHBubFo2Nkxra2Joc1A4TUNkZHdpWnRPUmhOLVBSamdxTGFFZXNR?oc=5",
+    "rank": 28
+   },
+   {
+    "headline": "«الوزراء» السعودي يبحث جهود خدمة الأمن والسلم الدوليين - الشرق الأوسط",
+    "summary": "«الوزراء» السعودي يبحث جهود خدمة الأمن والسلم الدوليين الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "21 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMixgRBVV95cUxNVjByazhuMXZDOGRlTTVJSTNRa0x4cE1aLTJOZkRzMVp3QjN0SnV4Q2RHMDZzMWE0VFNwLWZCckRhWjJKS1pOWFdDektYZHYyd2R2endlSWFKNk5WLVlpVjhzN2pUcDNsZlRHXzh1WWM1YWREU0ktOFYwRWdMUGJUbGk2Q1V2WW40NEpIVHZJYW1XalNkNUE4NWdGc0xfY0x2TW5BODF2Vi1WREVtYTVwOWFBZEZIRFVUakhxaExPZG5pcHNWYVN4US1WV19aT3BaU0lSZFBkRVNwNDNnSzY0R2FkcXk0OUY5QWZldDNSa2JXaWJPMDlIdy0yS3hCSXZIdnF4aGlwR3pSVDY3SGFTOUlLRmw4MmhOVGRrY0s4VElXM01qOVhXbk1TbFdHS013azR6TW5jcWk1TVVFNnNzQ2xIRkhaU2x0eEx6WGVhQUhzSGYwS2I2dTJOSHhOa0p1UDJnVVhjc29ZYXM1NVk2TW1zaGlGTWs1NzRYZ1J6UENzREhYRlo1TW1DOURURVhKNnFRbHpWT0FTTlIwTHhmcWZqak5vc0Fkb0xyOHBFRExVUG5JckstN0tMeG9mSHNyblZBZnRUbUtYU0ViVTZXZElSRGlhTHFyYlBPaFJIdXVRQ2FlY0djU2Q0VWtQWVlOcUNOOUV3a1NCa1g1MHZTOVpnbkR6ZGppaFhGWEdCSXpPNEhuQnMyUzFudWt1ZG5xTkd2QlFJT0h6T0lYUmNwODUwNExkaHlkZWt3T09TQlV1TUVoa2c?oc=5",
     "rank": 29
    },
    {
@@ -2858,21 +2857,21 @@
     "rank": 33
    },
    {
-    "headline": "القيادة السعودية تعزي نائب رئيس الإمارات في وفاة أحمد بن راشد - الشرق الأوسط",
-    "summary": "القيادة السعودية تعزي نائب رئيس الإمارات في وفاة أحمد بن راشد الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "21 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi-gRBVV95cUxOQWpLaGlSN0xOXzNwOTE4ZlRhdGtxdFdnSmVDNVhIbWFTQ205cDlWWXBFcUtMcTktd0REWWE0RlJQcktveHdGdW5hMVdCajlYZjhwVnFweVpsZU8wbUxORkE4bC1sbDlJNFJxdjg1Znd1M3A5WnpvVTdTMlV3eUQtWFdmQ3hPNFZpUV9fQWVZUGhtOGJ6LV9IbFJ3UnFmZnpDckhYMDhQRzRQQzRYUDRBTmlaazFtaTdlNFBYYWZDV3N5blVVTGZadEpqNEJiVEVFMEZqWnVkQm51YW5NNG1OVC1lTkZhSXhjOUZTc1BXN2NFWmlWQ19zUjNJTGJ6RXlucUItOVVEdU5qRldkc01VYS12ZHZBeXk0WjNRQ2REZUpZWGlIVzJqYW01SlhYd05nWWZ0dXI4R08zV214d2NqQUYwUEdXWDZvVi1DMFRVZVhvUHFZV0dDcVlhdDRLUHJpcDJIX05pM21Yd2p3UVhOUGZidDBQYm5zMmF0M1dKNDhkNHk0MzZUeThsQjFneVlEamlQZTM4VjZtTDZNSVViZGxrSUdBc0VoeE9QMkNtWGVfRGY2MnlldG1PdVlmVHM1aHdHZWVSWmtNVEdoR21CdERDQkFHaVFEWUZaVzFidlRKQU40N3h3dUV6ZkM2bTNEMW55VGdKZEtzS3VPa3J4eUsya0VxZW5fODVTb19mcXdvVGpmWHR5WnZtMTlxc2FoajhodGU1RDlieGRZRlBkOTZRUjZFUUNFaVk3WHRPcjl1QXZkM0N4X1lxOEFPbFhpdjlVd2hRQjVVMnN6WUN6U0FZbFd3YUxIM0pxTkd5NTRwR3UtVWxaeVpR?oc=5",
-    "rank": 34
-   },
-   {
     "headline": "ترمب يعلن عن صفقة «ضخمة» لشراء أسمدة من بيلاروسيا حليفة موسكو - الشرق الأوسط",
     "summary": "ترمب يعلن عن صفقة «ضخمة» لشراء أسمدة من بيلاروسيا حليفة موسكو الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "21 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMilwRBVV95cUxOWE5DLWxYMnB6Wm5abm9jMUF0OUw5UXR5UTg2VTBZcVh1eklLcnd1QjhIUEliaG9oR09MQnA0NEw0RV9TQ2FPZUJkX0QwWWtzUGRib3g3RzJYVnNtUEZuNUdzZTZDOHlTajh1NUQ1RFo5dnlGUUQtMktIOFI2dm1EckZCbnEycmZZWEJtRG4xUHdLRkQwUVBSa0hzdVdvVy1fMFpWY3k3R0xtNExjY3JBWEkxd1hKY1VxRzA3V2NEcjllWV9lUlE0cW9mS05HRHNkSVRWdWVBd0JHcTVaVVZDMjEwZFlEdV9EN3otSmRmemZidXFXRTU3WFhNaUt2WVYxbFhCcmNWLUFialY1STUwc24xQ21KS1E0andhWVQ0ZGFLTDdfUmVKTm9zTm9GRFEwSm92OU5NSndQOTNFQ0N5WWdYcTlCV2V6dkZQME1iQWdjbDlEQjFqanNhVW11YlU4MjNKNF9oMWtsdVc2RU5FbWtVZWY5OFFKQVZLLXViVEU4YldXWHBudGR0TzZ3X3lkblVwWDAzdzJXdkdCY2ZlSmlDamVhUTJ1VXp1T3hvYXVxNGdnUndIUXdFc2g0QkRSSG93WGk2REtRU2FORU9GdlMxRWdSUjFfMTJTbnZqYklENU5pVnN6M01SSGRQY0xRb01vZko1WlRieXBqRHlNdlc5akl3Z0FnUmJETnh2bXlobVJzcHVV?oc=5",
+    "rank": 34
+   },
+   {
+    "headline": "القيادة السعودية تعزي نائب رئيس الإمارات في وفاة أحمد بن راشد - الشرق الأوسط",
+    "summary": "القيادة السعودية تعزي نائب رئيس الإمارات في وفاة أحمد بن راشد الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "21 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi-gRBVV95cUxOQWpLaGlSN0xOXzNwOTE4ZlRhdGtxdFdnSmVDNVhIbWFTQ205cDlWWXBFcUtMcTktd0REWWE0RlJQcktveHdGdW5hMVdCajlYZjhwVnFweVpsZU8wbUxORkE4bC1sbDlJNFJxdjg1Znd1M3A5WnpvVTdTMlV3eUQtWFdmQ3hPNFZpUV9fQWVZUGhtOGJ6LV9IbFJ3UnFmZnpDckhYMDhQRzRQQzRYUDRBTmlaazFtaTdlNFBYYWZDV3N5blVVTGZadEpqNEJiVEVFMEZqWnVkQm51YW5NNG1OVC1lTkZhSXhjOUZTc1BXN2NFWmlWQ19zUjNJTGJ6RXlucUItOVVEdU5qRldkc01VYS12ZHZBeXk0WjNRQ2REZUpZWGlIVzJqYW01SlhYd05nWWZ0dXI4R08zV214d2NqQUYwUEdXWDZvVi1DMFRVZVhvUHFZV0dDcVlhdDRLUHJpcDJIX05pM21Yd2p3UVhOUGZidDBQYm5zMmF0M1dKNDhkNHk0MzZUeThsQjFneVlEamlQZTM4VjZtTDZNSVViZGxrSUdBc0VoeE9QMkNtWGVfRGY2MnlldG1PdVlmVHM1aHdHZWVSWmtNVEdoR21CdERDQkFHaVFEWUZaVzFidlRKQU40N3h3dUV6ZkM2bTNEMW55VGdKZEtzS3VPa3J4eUsya0VxZW5fODVTb19mcXdvVGpmWHR5WnZtMTlxc2FoajhodGU1RDlieGRZRlBkOTZRUjZFUUNFaVk3WHRPcjl1QXZkM0N4X1lxOEFPbFhpdjlVd2hRQjVVMnN6WUN6U0FZbFd3YUxIM0pxTkd5NTRwR3UtVWxaeVpR?oc=5",
     "rank": 35
    },
    {
@@ -4144,13 +4143,6 @@
    "summary": "A charity appeal on behalf of a woman identified only as \"Umm Nourah\" (mother of Nourah); \"tankhakum\" is a Gulf term meaning she is calling on your chivalry or generosity, and \"Ehsan\" is Saudi Arabia's official national donation platform, which hosts verified cases for debt relief, medical costs and family support. Such hashtags spread fast during charitable seasons and around National Day, though the specific case behind this one cannot be verified from the words alone.",
    "kind": "social",
    "confidence": "medium",
-   "at": "2026-09-22T03:09:21.780579+03:00"
-  },
-  "حسن الصبحان": {
-   "english": "Hassan Al-Sabhan",
-   "summary": "A personal name trending alongside other individual names on the board (Khalid Jassim, Ahmed Al-Rawas, Saeed Al-Owairan) and the TV title \"Barnamej Al-Majlis,\" which suggests a media or sports-commentary figure being discussed after an appearance or a controversial remark. The individual is not a widely documented public figure, so the reason for the spike cannot be established.",
-   "kind": "other",
-   "confidence": "low",
    "at": "2026-09-22T03:09:21.780579+03:00"
   },
   "#اشتباكات_صنعا": {
