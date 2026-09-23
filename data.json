@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Wednesday, 23 September 2026 · 09:00 KSA",
+ "lastUpdated": "Wednesday, 23 September 2026 · 09:01 KSA",
  "days": {
   "2026-09-10": {
    "label": "Thu 10 Sep",
@@ -2156,25 +2156,25 @@
     },
     {
      "rank": 4,
-     "text": "#رحله_المليون62",
+     "text": "#جمعيه_عطاء_بالباحه",
      "cat": "General",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "#جمعيه_عطاء_بالباحه",
+     "text": "والسعودية",
      "cat": "General",
      "pts": 7
     },
     {
      "rank": 6,
-     "text": "والسعودية",
+     "text": "23 سبتمبر",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 7,
-     "text": "23 سبتمبر",
+     "text": "#كلن_باسمه",
      "cat": "General",
      "pts": 6
     },
@@ -2198,25 +2198,25 @@
     },
     {
      "rank": 11,
-     "text": "عبدالعزيز بن عبدالرحمن",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 12,
      "text": "عهد سلمان",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 12,
+     "text": "اليوم الاربعاء",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 13,
-     "text": "عهد ابو تركي",
+     "text": "عبدالعزيز بن عبدالرحمن",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 14,
-     "text": "اليوم الاربعاء",
+     "text": "عهد ابو تركي",
      "cat": "General",
      "pts": 4
     },
@@ -2228,13 +2228,13 @@
     },
     {
      "rank": 16,
-     "text": "وطني عزي",
+     "text": "وطني الغالي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 17,
-     "text": "جاسم الرميحي",
+     "text": "عنان السماء",
      "cat": "General",
      "pts": 4
     },
@@ -2246,14 +2246,14 @@
     },
     {
      "rank": 19,
-     "text": "عنان السماء",
+     "text": "الوطن الغالي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "الملك الموسس",
-     "cat": "Politics / Diplomacy",
+     "text": "٢٣ سبتمبر",
+     "cat": "General",
      "pts": 4
     }
    ],
@@ -2271,29 +2271,24 @@
      "score": 76
     },
     {
-     "text": "#رحله_المليون62",
+     "text": "#جمعيه_عطاء_بالباحه",
      "score": 64
     },
     {
-     "text": "#جمعيه_عطاء_بالباحه",
+     "text": "#كلن_باسمه",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (17)",
-     "items": "#عزنا_بطبعنا · #رحله_المليون62 · #جمعيه_عطاء_بالباحه · والسعودية · 23 سبتمبر · وطني الحبيب · علي وطن · الوطن العظيم · عبدالعزيز بن عبدالرحمن · عهد سلمان"
+     "label": "General (18)",
+     "items": "#عزنا_بطبعنا · #جمعيه_عطاء_بالباحه · والسعودية · 23 سبتمبر · #كلن_باسمه · وطني الحبيب · علي وطن · الوطن العظيم · عهد سلمان · اليوم الاربعاء"
     },
     {
      "icon": "🎭",
      "label": "Culture / Society (2)",
      "items": "#اليوم_الوطني_السعودي_٩٦ · #اليوم_الوطني_٩٦"
-    },
-    {
-     "icon": "🏛️",
-     "label": "Politics / Diplomacy (1)",
-     "items": "الملك الموسس"
     }
    ]
   }
@@ -2424,7 +2419,7 @@
   "بنك الرياض": 7,
   "الفيدرالي الامريكي": 6,
   "ابو عابد": 6,
-  "٢٣ سبتمبر": 6,
+  "٢٣ سبتمبر": 10,
   "كلين لايف": 6,
   "عمان": 6,
   "راكان الطليحي": 4,
@@ -2553,20 +2548,19 @@
   "وطني الحبيب": 10,
   "سلمان بن عبدالعزيز آل سعود": 4,
   "#اليوم_الوطني_٩٦": 12,
-  "#رحله_المليون62": 8,
-  "#جمعيه_عطاء_بالباحه": 7,
-  "والسعودية": 6,
+  "#جمعيه_عطاء_بالباحه": 8,
+  "والسعودية": 7,
+  "#كلن_باسمه": 6,
   "علي وطن": 6,
   "الوطن العظيم": 6,
-  "عبدالعزيز بن عبدالرحمن": 4,
   "عهد سلمان": 4,
-  "عهد ابو تركي": 4,
   "اليوم الاربعاء": 4,
-  "وطني عزي": 4,
-  "جاسم الرميحي": 4,
-  "وطن المجد": 4,
+  "عبدالعزيز بن عبدالرحمن": 4,
+  "عهد ابو تركي": 4,
+  "وطني الغالي": 4,
   "عنان السماء": 4,
-  "الملك الموسس": 4
+  "وطن المجد": 4,
+  "الوطن الغالي": 4
  },
  "news": {
   "date": "23 Sep 2026",
@@ -2590,22 +2584,31 @@
     "rank": 2
    },
    {
+    "headline": "Oil Prices Rise as Saudi East-West Pipeline Attack Threatens Export Routes - WSJ",
+    "summary": "Oil Prices Rise as Saudi East-West Pipeline Attack Threatens Export Routes WSJ",
+    "source": "WSJ",
+    "date": "23 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeDdvckhVQlJKZzN2eU90TEg3YU9vRmhZdTdjdkZ1cExSOUd4N09GVEktMTBVT012ZUdGWUdtc2JLaDdIWDJWWFdpUmlJU3pMVWt3MXR2bXRyUXlnSHJTVDJ2Vzg1bmx1ZFptX3ZoVmlMZS1EODlaM3FHbGFJTHFUM0I5YkE5WVRGcEs0UlNkZjdsdXhzdHF6dXFqbHV0bFFZRmRCNDF1WHpQOGZLeGJCdkJIRmNOa1Bzb1FKNU9fcGc?oc=5",
+    "rank": 3
+   },
+   {
     "headline": "Saudi Arabia’s First Car Is an 838-HP Electric Exotic - Autoweek",
     "summary": "Saudi Arabia’s First Car Is an 838-HP Electric Exotic Autoweek",
     "source": "Autoweek",
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNG1tRlZySXNRMExtYXBNQnRld1Bhall3WnBtQjRZd3AxZ1BBU2hUVjZFRkpfRVlPaGJURDNNYnMxdG43NmRYN0wwdnJwd1FFVmZxTDZER1pKRlJEb0ZnTjNka3dvR2ZEazZTYmpibmJhV3p0eDZ4bklCZ2x6Yks0VWtwVnVXOXg4NXhTQnlNb2stQ3Z5QjI4bGpuaw?oc=5",
-    "rank": 3
+    "rank": 4
    },
    {
-    "headline": "As Iran and Houthis Tighten the Screws on Saudi Arabia, a Potential Role Emerges for Israel - Middle East Forum",
-    "summary": "As Iran and Houthis Tighten the Screws on Saudi Arabia, a Potential Role Emerges for Israel Middle East Forum",
-    "source": "Middle East Forum",
+    "headline": "As Iran and Houthis Tighten the Screws on Saudi Arabia, a Potential Role Emerges for Israel - meforum.org",
+    "summary": "As Iran and Houthis Tighten the Screws on Saudi Arabia, a Potential Role Emerges for Israel meforum.org",
+    "source": "meforum.org",
     "date": "22 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOWpuVGdiWFdwN01uSC00T081VXJfOU5QMENUT2NERVV5SW55MldqTmlhZEd3TjhxeEZFMnFBLTA0Zk1ObG55UWtNQ0xXUWIxUnhzOC1Ga1hMS2s0MU8yakxTaERJcXZJaWlxb0xFNlNzZDZOZXRxSFo5Z1dEZkFKOFZpM2w5NGN1dFJ4LVB4V3ZTOGxyMjYwRW1MYVZkNEZPbHBnQ3JmUnA3eWJqdG1XSlNYSlM2c3JaOWduMEctTTZGcm8?oc=5",
-    "rank": 4
+    "rank": 5
    },
    {
     "headline": "Saudi Arabia restarts East-West oil pipeline, sources say - Reuters",
@@ -2614,7 +2617,7 @@
     "date": "22 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNmJidHFzNHlscWlnT2hsWFdKc1hNRFMxOWRnTTRQRHVHbV9tRTJySFJoOGFoZXdNdTIwMngxZlczRmY3dWJxWkNiWTRYclVyT0JoWXQyUHJpNThicmpUNDMwWjNqREdrYmw3Ty1peU9oaEtRdC1GWXE1S0o1eGlrWDZONDhqS0FDbWotZXV1LXBvTEhUWHdlT1BzYU5udjNKTTFXdk1hX0wwVk1yczRTdV94R0p4UUQ1bEViTXJ2S2pEaTVLTFlvdw?oc=5",
-    "rank": 5
+    "rank": 6
    },
    {
     "headline": "Houthis accuse Saudi Arabia of deadly strikes as thousands flee - Courthouse News",
@@ -2623,15 +2626,6 @@
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYmE1Yk5UdlpvZVM3c0NVVGhoUEhMTnlMSjdxclFVZEdBUS1fdXQzRlo0emQ0WTZLWDJlRTBnc3JpUV9XMGJ2WXJxLWE5WXpqWTRzb0h2bE0xMXAzSmV2VUFtYlhuNzRTc29tZmFpRmRMa0tTSXZfaWJSN29qYW0tVHQtNDMtSy1yLUV5cVNUekJTTzdwZWE2REstOA?oc=5",
-    "rank": 6
-   },
-   {
-    "headline": "Oil Prices Rise as Saudi East-West Pipeline Attack Threatens Export Routes - WSJ",
-    "summary": "Oil Prices Rise as Saudi East-West Pipeline Attack Threatens Export Routes WSJ",
-    "source": "WSJ",
-    "date": "22 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeDdvckhVQlJKZzN2eU90TEg3YU9vRmhZdTdjdkZ1cExSOUd4N09GVEktMTBVT012ZUdGWUdtc2JLaDdIWDJWWFdpUmlJU3pMVWt3MXR2bXRyUXlnSHJTVDJ2Vzg1bmx1ZFptX3ZoVmlMZS1EODlaM3FHbGFJTHFUM0I5YkE5WVRGcEs0UlNkZjdsdXhzdHF6dXFqbHV0bFFZRmRCNDF1WHpQOGZLeGJCdkJIRmNOa1Bzb1FKNU9fcGc?oc=5",
     "rank": 7
    },
    {
@@ -2644,18 +2638,18 @@
     "rank": 8
    },
    {
-    "headline": "Houthis accuse Saudi Arabia of deadly strikes as thousands flee - The Japan Times",
-    "summary": "Houthis accuse Saudi Arabia of deadly strikes as thousands flee The Japan Times",
-    "source": "The Japan Times",
+    "headline": "Houthis accuse Saudi Arabia of deadly strikes as thousands flee - japantimes.co.jp",
+    "summary": "Houthis accuse Saudi Arabia of deadly strikes as thousands flee japantimes.co.jp",
+    "source": "japantimes.co.jp",
     "date": "23 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYVVsVXp4WTg5U3NGTmZYVXR4Qi1oWVhYZTVrTnpGZUdCRXV3UXVEWXl3d3BpeE9yelFKTUI1ZUQ3RTRTQzF5d29sYTJhSUJTSWtSM2oweDFLVGtaU0dTTmJVblA1Z24zTDdySTZhZDcxd2ZvaVN4SmI4bzNPdVV3cG9Id1V3b1FFeGZyeTFTY3E?oc=5",
     "rank": 9
    },
    {
-    "headline": "Saudi Arabia Plans To Compete With Tesla - Yahoo Finance",
-    "summary": "Saudi Arabia Plans To Compete With Tesla Yahoo Finance",
-    "source": "Yahoo Finance",
+    "headline": "Saudi Arabia Plans To Compete With Tesla - finance.yahoo.com",
+    "summary": "Saudi Arabia Plans To Compete With Tesla finance.yahoo.com",
+    "source": "finance.yahoo.com",
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRHFrbldma2tmWVdlVXZ5LXBxM2JuaGxEZGdFeXp6RVJJaEd2R1pmdl9BSXNBLVBCRWFCR1dBZ0lidUx1UGliS2o3RkVmeUVTYzVQUHU1UmozMlZyZ3k5czVhTGR1d1dDOFdIdXc0YVR5c0syalVCWmQ1T1p6VmJRZS1YdDBaekktRnZsdGZXQmhKMGczb3Y5SQ?oc=5",
@@ -2680,18 +2674,18 @@
     "rank": 12
    },
    {
-    "headline": "بيان مشترك بشأن الاجتماع التشاوري الرباعي لوزراء خارجية المملكة العربية السعودية وجمهورية مصر العربية وجمهورية باكستان الإسلامية والجمهورية التركية - صحيفة سبق الإلكترونية",
-    "summary": "بيان مشترك بشأن الاجتماع التشاوري الرباعي لوزراء خارجية المملكة العربية السعودية وجمهورية مصر العربية وجمهورية باكستان الإسلامية والجمهورية التركية صحيفة سبق الإلكترونية",
-    "source": "صحيفة سبق الإلكترونية",
+    "headline": "بيان مشترك بشأن الاجتماع التشاوري الرباعي لوزراء خارجية المملكة العربية السعودية وجمهورية مصر العربية وجمهورية باكستان الإسلامية والجمهورية التركية - sabq.org",
+    "summary": "بيان مشترك بشأن الاجتماع التشاوري الرباعي لوزراء خارجية المملكة العربية السعودية وجمهورية مصر العربية وجمهورية باكستان الإسلامية والجمهورية التركية sabq.org",
+    "source": "sabq.org",
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9MY0tDTmJvLVpzeVlmVUlfMHlBYUZNWFJIdmh3eUJHY3N4ZnBZWnltTWhoZHg3bjEzWE1iUVR6aFJObUxZeTZ3?oc=5",
     "rank": 13
    },
    {
-    "headline": "يتعلق بمدينتين في السعودية.. سفارة أمريكا توجه تحذيرًا لموظفي حكومتها - CNN Arabic",
-    "summary": "يتعلق بمدينتين في السعودية.. سفارة أمريكا توجه تحذيرًا لموظفي حكومتها CNN Arabic",
-    "source": "CNN Arabic",
+    "headline": "يتعلق بمدينتين في السعودية.. سفارة أمريكا توجه تحذيرًا لموظفي حكومتها - arabic.cnn.com",
+    "summary": "يتعلق بمدينتين في السعودية.. سفارة أمريكا توجه تحذيرًا لموظفي حكومتها arabic.cnn.com",
+    "source": "arabic.cnn.com",
     "date": "21 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVVZxSWJyRGZtbTFPMEtsWmR3UmhiR0JTYWlLT0wwd0Q1TlpJT1RzeDhDVWtaTF9FbVlrSk5seHpwMUJFcXZzTnVEdDg0YkZJSkVMT09rNG1nNG1wcVV6RmNwQVlzR29vdGpyV25vNVR5c2dWQWlNelZXUFE5cEs0ZzNEMlozZklXUUtEUkJPajdGdS1qWE1iUUN3ZkIwMFdoeEd2em1wcTB2dw?oc=5",
@@ -2763,9 +2757,9 @@
     "rank": 21
    },
    {
-    "headline": "Trump Meets Middle East Leaders as Regional Wars Widen - nytimes.com",
-    "summary": "Trump Meets Middle East Leaders as Regional Wars Widen nytimes.com",
-    "source": "nytimes.com",
+    "headline": "Trump Meets Middle East Leaders as Regional Wars Widen - The New York Times",
+    "summary": "Trump Meets Middle East Leaders as Regional Wars Widen The New York Times",
+    "source": "The New York Times",
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeEZnUUNXclRxd0lpYllrbHZBZl9uV0hGSkprZERvWkZjVGhHZTFfZk01SHFUbFFBcGJNN2prWjh3SUhKd3dySjBOYU5CU25kQVd6dkpJVjhFOU83Y3lSZHg3N2g1MWRIeWFBS2JlcmlsZFZjdF9SUGF5akhVeE9vbnBvVVZNSWd0YWFIR0FJVjB3cHNzOHc?oc=5",
@@ -2799,21 +2793,21 @@
     "rank": 25
    },
    {
+    "headline": "Amid backdrop of Middle East war, soccer's 8-country Arabian Gulf Cup starts Wednesday - nhregister.com",
+    "summary": "Amid backdrop of Middle East war, soccer's 8-country Arabian Gulf Cup starts Wednesday nhregister.com",
+    "source": "nhregister.com",
+    "date": "22 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnZnRXNHbmhPa1VQZTA4MjlLZlJHM3R5Z0ZIeFpKa3A2N3A0OXkxbDEyNzlvdFV5NWE1OWsySTRkTUlMc3dHek9CVGZZZzJRTXJBOUxKanY4MEgtWGk4cVRMendqRXgxc1NwbUpucEdYSjVaWGtiWkV0RUMyVnpUUEdNYWluTlFGaGg2aTZnSVV4blRuQmhuT2RKZ2Q?oc=5",
+    "rank": 26
+   },
+   {
     "headline": "Why Saudi Arabia’s Oil Is Getting Harder To Ship - Radio Free Europe/Radio Liberty",
     "summary": "Why Saudi Arabia’s Oil Is Getting Harder To Ship Radio Free Europe/Radio Liberty",
     "source": "Radio Free Europe/Radio ",
     "date": "22 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fSnljN3BvSlRET19YdkhMVmI1aTVDb3lJYjB1b3padXZmSE1KUDI3T0p2V3ZJRFV1MEhwM2JuSG1JamNvVjFQLV9KeThNMTVtcjE2ZkVLRkxJSkdxQnpwaXlRVTJSa01xTF94MTJIR3ZLNnFUZVJuTUpB0gF6QVVfeXFMT19KeWM3cG9KVERPX1h2SExWYjVpNUNveUliMHVvelp1dmZITUpQMjdPSnZXdklEVXUwSHAzYm5IbUlqY29WMVAtX0p5OE0xNW1yMTZmRUtGTElKR3FCenBpeVFVMlJrTXFMX3gxMkhHdks2cVRlUm5NSkE?oc=5",
-    "rank": 26
-   },
-   {
-    "headline": "Americans in Middle East warned to ‘exercise heightened vigilance’ following strikes on Riyadh - The Hill",
-    "summary": "Americans in Middle East warned to ‘exercise heightened vigilance’ following strikes on Riyadh The Hill",
-    "source": "The Hill",
-    "date": "21 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQk1RUGZ1QnExeUMyU3QwUkRDU3l6cEpnU3l2QzhBdnlUZ0FieEl2T0lDZjNhUkRTR2ZwMzFMc1BKYzJLbnBTbG45bEIyM21LNWVPaXMxU2tQX1hnYm5wZk5HbWprMktkUmFGdmN1UFVscWh1YVhfdThGUDkxTUlkd0x1TzROZ9IBiwFBVV95cUxOV2RmeHJWaTlUQXRxQlQ5cWJJQW5IX2dnOGxEXzZIZVhVVW1VQ2dYVVJ1aWRreUFPUTRVeC1sNUFsbHlGWkxZbUh1TFNxSjMzbVMwMndJYWg3aS0tODMxbUJncTlLS0pKNlVLNEx5dDdCWUdPRHE2WVBidnlNR1RaWElUZVlPRWpMQVk0?oc=5",
     "rank": 27
    },
    {
@@ -4259,13 +4253,6 @@
    "confidence": "high",
    "at": "2026-09-23T03:00:29.031927+03:00"
   },
-  "#رحله_المليون62": {
-   "english": "#Million_Journey62 (\"The Million Riyal Journey, round 62\")",
-   "summary": "A numbered hashtag campaign — the \"62\" indicates a recurring round or episode — of the type Saudi brands, influencers and prize-draw accounts run on X, where users repost the tag to enter a cash or travel giveaway. The specific sponsor and prize are not identifiable from the words alone, though its appearance beside National Day tags suggests a holiday-timed promotion.",
-   "kind": "other",
-   "confidence": "low",
-   "at": "2026-09-23T03:37:50.484433+03:00"
-  },
   "وطن المجد": {
    "english": "\"Homeland of Glory\" / \"Nation of Glory\"",
    "summary": "A patriotic phrase praising Saudi Arabia as a land of glory, trending alongside Saudi National Day on 23 September, which marks the 1932 unification of the Kingdom under King Abdulaziz Al Saud. Users post it with flags, poetry, national songs and photos as part of the annual wave of celebratory content, and it often echoes wording from National Day songs and official slogans.",
@@ -4294,13 +4281,6 @@
    "confidence": "medium",
    "at": "2026-09-23T08:00:28.989163+03:00"
   },
-  "الملك الموسس": {
-   "english": "\"The Founding King\" (الملك المؤسس)",
-   "summary": "Refers to King Abdulaziz bin Abdulrahman Al Saud (Ibn Saud), who unified the kingdom and proclaimed the Kingdom of Saudi Arabia on 23 September 1932 — the event Saudi National Day commemorates. The phrase trends every National Day alongside tributes, archive photos and quotes about the unification.",
-   "kind": "news",
-   "confidence": "high",
-   "at": "2026-09-23T08:00:28.989163+03:00"
-  },
   "عهد ابو تركي": {
    "english": "\"The era of Abu Turki\"",
    "summary": "\"Abu Turki\" (father of Turki) is a traditional kunya used for King Abdulaziz, whose first-born son was Prince Turki; the phrase celebrates the founding era of the Saudi state. It appears here as a companion to \"the era of Salman\" (عهد سلمان) in National Day posts contrasting the founding period with the present reign.",
@@ -4315,26 +4295,33 @@
    "confidence": "medium",
    "at": "2026-09-23T09:00:28.689320+03:00"
   },
-  "وطني عزي": {
-   "english": "\"My homeland is my pride\"",
-   "summary": "A patriotic slogan phrase used in Saudi National Day posts, echoing the official 2025-26 theme \"Our pride is in our nature\" (عزنا بطبعنا) that also sits on this board. People post it with flags, poetry and photos on 23 September, the anniversary of the unification of the Kingdom.",
-   "kind": "social",
-   "confidence": "high",
-   "at": "2026-09-23T09:00:28.689320+03:00"
-  },
-  "جاسم الرميحي": {
-   "english": "Jassim Al-Rumaihi",
-   "summary": "A personal name; Al-Rumaihi is a surname common in Qatar, Bahrain and the Saudi Eastern Province. Given that every other item on the board is National Day material, this is plausibly a Gulf public figure, broadcaster or poet whose National Day message or appearance is circulating, but the specific person and reason cannot be determined from the name alone.",
-   "kind": "other",
-   "confidence": "low",
-   "at": "2026-09-23T09:00:28.689320+03:00"
-  },
   "عنان السماء": {
    "english": "\"The heights of the sky\" / \"sky-high\"",
    "summary": "A classical Arabic expression meaning to rise as high as the heavens, used in patriotic verse and song lyrics about the Kingdom's flag and achievements. It is trending as a line lifted from National Day poetry, anthems or official campaign copy rather than as a news story.",
    "kind": "social",
    "confidence": "medium",
    "at": "2026-09-23T09:00:28.689320+03:00"
+  },
+  "#كلن_باسمه": {
+   "english": "#EachOneByHisName / #EveryoneInHisName",
+   "summary": "Gulf colloquial phrase meaning roughly \"each one by his own name\" or \"all of us in his name,\" circulating alongside the Saudi National Day 96 hashtags on 23 September. The exact campaign, song lyric or slogan behind it is not identifiable from the words alone, though the timing points to a patriotic or brand-led National Day activation.",
+   "kind": "social",
+   "confidence": "low",
+   "at": "2026-09-23T09:01:33.429810+03:00"
+  },
+  "وطني الغالي": {
+   "english": "My Precious Homeland",
+   "summary": "A stock patriotic phrase used in National Day posts, poems, songs and greetings addressed to Saudi Arabia. It trends every 23 September as users publish flag imagery, verse and well-wishes for the Kingdom's National Day (this year the 96th).",
+   "kind": "social",
+   "confidence": "high",
+   "at": "2026-09-23T09:01:33.429810+03:00"
+  },
+  "الوطن الغالي": {
+   "english": "The Precious Homeland",
+   "summary": "The same patriotic expression in third person, \"the beloved/precious nation,\" used in Saudi National Day messages from individuals, government accounts and brands. Its presence on the board reflects the 23 September National Day 96 celebrations rather than any single news event.",
+   "kind": "social",
+   "confidence": "high",
+   "at": "2026-09-23T09:01:33.429810+03:00"
   }
  }
 }
