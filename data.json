@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Wednesday, 23 September 2026 · 13:00 KSA",
+ "lastUpdated": "Wednesday, 23 September 2026 · 14:00 KSA",
  "days": {
   "2026-09-10": {
    "label": "Thu 10 Sep",
@@ -2168,19 +2168,19 @@
     },
     {
      "rank": 6,
-     "text": "التميز المالي",
+     "text": "والسعودية",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 7,
-     "text": "#شركه_الاصح",
+     "text": "التميز المالي",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 8,
-     "text": "والسعودية",
+     "text": "#شركه_الاصح",
      "cat": "General",
      "pts": 6
     },
@@ -2198,25 +2198,25 @@
     },
     {
      "rank": 11,
-     "text": "وطني الحبيب",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 12,
-     "text": "علي وطن",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 13,
      "text": "القياده الرشيده",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 12,
+     "text": "وطني الحبيب",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 13,
+     "text": "عهد ابو تركي",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 14,
-     "text": "وطني سعيد",
+     "text": "علي وطن",
      "cat": "General",
      "pts": 4
     },
@@ -2234,26 +2234,26 @@
     },
     {
      "rank": 17,
-     "text": "اليوم الاربعاء",
+     "text": "خادم الحرمين الشريفين",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "عهد ابو تركي",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 19,
      "text": "وطني الغالي",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 19,
+     "text": "اليوم الاربعاء",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 20,
-     "text": "الملك الموسس",
-     "cat": "Politics / Diplomacy",
+     "text": "وطني سعيد",
+     "cat": "General",
      "pts": 4
     }
    ],
@@ -2282,18 +2282,18 @@
    "signals": [
     {
      "icon": "📌",
-     "label": "General (17)",
-     "items": "#صباح_السعوديه · #عزنا_بطبعنا · المملكه العربيه السعوديه · التميز المالي · #شركه_الاصح · والسعودية · 23 سبتمبر · عهد سلمان · وطني الحبيب · علي وطن"
-    },
-    {
-     "icon": "🏛️",
-     "label": "Politics / Diplomacy (2)",
-     "items": "#شبيه_سهيل__الامير_محمدبن_سلمان · الملك الموسس"
+     "label": "General (18)",
+     "items": "#صباح_السعوديه · #عزنا_بطبعنا · المملكه العربيه السعوديه · والسعودية · التميز المالي · #شركه_الاصح · 23 سبتمبر · عهد سلمان · القياده الرشيده · وطني الحبيب"
     },
     {
      "icon": "🎭",
      "label": "Culture / Society (1)",
      "items": "#اليوم_الوطني_٩٦"
+    },
+    {
+     "icon": "🏛️",
+     "label": "Politics / Diplomacy (1)",
+     "items": "#شبيه_سهيل__الامير_محمدبن_سلمان"
     }
    ]
   }
@@ -2556,18 +2556,18 @@
   "#شبيه_سهيل__الامير_محمدبن_سلمان": 12,
   "#صباح_السعوديه": 10,
   "المملكه العربيه السعوديه": 7,
+  "والسعودية": 6,
   "التميز المالي": 6,
   "#شركه_الاصح": 6,
-  "والسعودية": 6,
   "عهد سلمان": 6,
+  "عهد ابو تركي": 4,
   "علي وطن": 4,
-  "وطني سعيد": 4,
   "سلمان بن عبدالعزيز": 4,
   "والي الشعب السعودي الكريم": 4,
-  "اليوم الاربعاء": 4,
-  "عهد ابو تركي": 4,
+  "خادم الحرمين الشريفين": 4,
   "وطني الغالي": 4,
-  "الملك الموسس": 4
+  "اليوم الاربعاء": 4,
+  "وطني سعيد": 4
  },
  "news": {
   "date": "23 Sep 2026",
@@ -2609,40 +2609,13 @@
     "rank": 4
    },
    {
-    "headline": "As Iran and Houthis Tighten the Screws on Saudi Arabia, a Potential Role Emerges for Israel - meforum.org",
-    "summary": "As Iran and Houthis Tighten the Screws on Saudi Arabia, a Potential Role Emerges for Israel meforum.org",
-    "source": "meforum.org",
+    "headline": "As Iran and Houthis Tighten the Screws on Saudi Arabia, a Potential Role Emerges for Israel - Middle East Forum",
+    "summary": "As Iran and Houthis Tighten the Screws on Saudi Arabia, a Potential Role Emerges for Israel Middle East Forum",
+    "source": "Middle East Forum",
     "date": "22 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOWpuVGdiWFdwN01uSC00T081VXJfOU5QMENUT2NERVV5SW55MldqTmlhZEd3TjhxeEZFMnFBLTA0Zk1ObG55UWtNQ0xXUWIxUnhzOC1Ga1hMS2s0MU8yakxTaERJcXZJaWlxb0xFNlNzZDZOZXRxSFo5Z1dEZkFKOFZpM2w5NGN1dFJ4LVB4V3ZTOGxyMjYwRW1MYVZkNEZPbHBnQ3JmUnA3eWJqdG1XSlNYSlM2c3JaOWduMEctTTZGcm8?oc=5",
     "rank": 5
-   },
-   {
-    "headline": "Saudi Arabia Restarts East-West Oil Pipeline - Crude Oil Prices Today | OilPrice.com",
-    "summary": "Saudi Arabia Restarts East-West Oil Pipeline Crude Oil Prices Today | OilPrice.com",
-    "source": "Crude Oil Prices Today |",
-    "date": "22 Sep 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOemx3d3RXQnhfTFpiSGJ6d2FPYmRkSzJvNlNVdGJEckx4aVpaendWdTJSZFJDZ3I4WC1TZXZ6NzdtN05Jb3pUUzRxT3ZWX2pmWllNZUtaeWE3RUNiUGpMbkpZRDlCaUZDQ25nNktNT24zZWpMQ2xHamMtdGdUTjR4b3lYWlRucVgzWkhKcjJNemQ5U1lSdkdFM1NDUDNRelA2b2fSAacBQVVfeXFMTkNhUm9vMVdKLXJ4dnpkUXpLSk9ZRE50U1RmUVg1SnV2bmg0eE5lbk1NUnJlT1RreFNsemRuQmNNVHJzVGdVUElVTkY4ODRBY25Vemc4U185WGpRamozOTFLTzNLVUI4OXF1SmV6NzV1XzRnYVdHUlhfVmxnMV94NkxCdGg4NlBhQmwweGxvOFhVM2hnRE9MYUVfSTZLTDdyZVRUOWFDdXM?oc=5",
-    "rank": 6
-   },
-   {
-    "headline": "When Saudi Arabia recognizes Israel, the Muslim world will never be the same - Ynetnews",
-    "summary": "When Saudi Arabia recognizes Israel, the Muslim world will never be the same Ynetnews",
-    "source": "Ynetnews",
-    "date": "23 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMU1Y2M19jRmdhVUJXTzE4aXRfcXZCSjVldkpCNTB4ajlIaW9PdGVDZDNmbk10VGVKSlhTTVBZREJGS1cwcHoxaGxoanAwb295V3VuYzU5YWIwN0hHSHBYUlpLc1c4bmdpRnl2QUVR?oc=5",
-    "rank": 7
-   },
-   {
-    "headline": "Houthis accuse Saudi Arabia of deadly strikes as thousands flee - Courthouse News",
-    "summary": "Houthis accuse Saudi Arabia of deadly strikes as thousands flee Courthouse News",
-    "source": "Courthouse News",
-    "date": "22 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYmE1Yk5UdlpvZVM3c0NVVGhoUEhMTnlMSjdxclFVZEdBUS1fdXQzRlo0emQ0WTZLWDJlRTBnc3JpUV9XMGJ2WXJxLWE5WXpqWTRzb0h2bE0xMXAzSmV2VUFtYlhuNzRTc29tZmFpRmRMa0tTSXZfaWJSN29qYW0tVHQtNDMtSy1yLUV5cVNUekJTTzdwZWE2REstOA?oc=5",
-    "rank": 8
    },
    {
     "headline": "Who is more powerful: Saudi Arabia or Iran? - Arab News",
@@ -2651,6 +2624,33 @@
     "date": "23 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYVR0X2JzSUZoVHU0Rkl2cGxQUkM1XzR2MlluZHJDS3dkSWpMelpXWGlJdEY0ZmFOWmlWN1NJbXZkbFRqSDN4S1Z2bExPS3pqRlg1Vy1obllMa1U1dnpONk9pSC00ajA5MkV5UXcwVGVSbWVfN0tURmk5by1wZzRydG14TzNkM1VkOUE?oc=5",
+    "rank": 6
+   },
+   {
+    "headline": "UAE, KSA Face Spike in Increasingly Complex Cyberattacks - Dark Reading",
+    "summary": "UAE, KSA Face Spike in Increasingly Complex Cyberattacks Dark Reading",
+    "source": "Dark Reading",
+    "date": "23 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcUtOaU1rRkxyMzV0UEZ3MzBlX3VMc1lyN2JPSHFSUFZZa1RWRkdwTzlmdHFBYjNFRFUxdy13MzdwMElEY2pST01ZcnBGaE96emNlRmRHSkpZdlFlUlhYeFd2ekU2MnUxNXlmWW5qc0dERWpOZFc2ejI4RWZQemJBRjhZYzkzcU01aEVhcTZxSVAzU0lPYWNWQjFCVnNuMnE2XzhiWFZmR1F6MEZWVjBxZkRTWm42cHc2RUJBXy1OaWhadWNTUktvN2NXOUw?oc=5",
+    "rank": 7
+   },
+   {
+    "headline": "Saudi Arabia Restarts East-West Oil Pipeline - Crude Oil Prices Today | OilPrice.com",
+    "summary": "Saudi Arabia Restarts East-West Oil Pipeline Crude Oil Prices Today | OilPrice.com",
+    "source": "Crude Oil Prices Today |",
+    "date": "22 Sep 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOemx3d3RXQnhfTFpiSGJ6d2FPYmRkSzJvNlNVdGJEckx4aVpaendWdTJSZFJDZ3I4WC1TZXZ6NzdtN05Jb3pUUzRxT3ZWX2pmWllNZUtaeWE3RUNiUGpMbkpZRDlCaUZDQ25nNktNT24zZWpMQ2xHamMtdGdUTjR4b3lYWlRucVgzWkhKcjJNemQ5U1lSdkdFM1NDUDNRelA2b2fSAacBQVVfeXFMTkNhUm9vMVdKLXJ4dnpkUXpLSk9ZRE50U1RmUVg1SnV2bmg0eE5lbk1NUnJlT1RreFNsemRuQmNNVHJzVGdVUElVTkY4ODRBY25Vemc4U185WGpRamozOTFLTzNLVUI4OXF1SmV6NzV1XzRnYVdHUlhfVmxnMV94NkxCdGg4NlBhQmwweGxvOFhVM2hnRE9MYUVfSTZLTDdyZVRUOWFDdXM?oc=5",
+    "rank": 8
+   },
+   {
+    "headline": "When Saudi Arabia recognizes Israel, the Muslim world will never be the same - Ynetnews",
+    "summary": "When Saudi Arabia recognizes Israel, the Muslim world will never be the same Ynetnews",
+    "source": "Ynetnews",
+    "date": "23 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMU1Y2M19jRmdhVUJXTzE4aXRfcXZCSjVldkpCNTB4ajlIaW9PdGVDZDNmbk10VGVKSlhTTVBZREJGS1cwcHoxaGxoanAwb295V3VuYzU5YWIwN0hHSHBYUlpLc1c4bmdpRnl2QUVR?oc=5",
     "rank": 9
    },
    {
@@ -2735,21 +2735,21 @@
     "rank": 18
    },
    {
-    "headline": "الملك سلمان شيَّد منظومة تشريعية تواكب تحولات الوطن - جريدة المدينة - صحيفة المدينة",
-    "summary": "الملك سلمان شيَّد منظومة تشريعية تواكب تحولات الوطن جريدة المدينة - صحيفة المدينة",
-    "source": "جريدة المدينة - صحيفة ال",
-    "date": "22 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi3wNBVV95cUxObUE5SnVGcVdCUEszVjJmYUpHc0JJdm9YLWJHTWhodUlEZ2swUHdXdU1Ec1dnYkhGQ2ZPM3djRlRFMTZ4djFlSHhMLVpUVGs2X1JIc0dxa1ozbDRtOVpfdFVRQ1lfWnhYbF9NZTN2dWh6aWpJdVVlWmJYMmxhQjRZS3BwbVQ4dFkwOHhNZEJXUUJQWWluSUFTcGRWYzNNTVduYlNqanZZRDMyVTJ5NUc4aHJzazFUNk80RURQN0ptZkM2M1JGV0lfVzNlUktOZzRmMm5DLWtzLTdqZzdZVnJ1MDUxMmJ4TDFGUDRFbUx2dVdYTFVCZkdDaEtGZW9DYVJPWGVrNkJpZkZYanAyVksyUlNSdnVPUWtqZjNQOHltTEhOMnJpT1JZbFVyVEQ1U2w4bE9ubHlfSWxZTmg3REJkakVDb2RyTWlRX2xPbU9PcjlVTWdyYlFaV3ZCVEhRejdzQjZJa0VVSGgxUTFWS3VyUEh6QXJxTUZtQVhkYXlBS3BCWHNPaDhsdW1vaHNuNF9OWFR2UmdvcFBHSXF6OFJQeG1STC1oOEYxN3Jqak9rYnBGaVVwYU53clhVZEozWTl0eVlob0dIb2hxb0RtOW1ybS1GRXYtV3V6MjlZblZWYw?oc=5",
-    "rank": 19
-   },
-   {
-    "headline": "المملكة العربية السعودية تنفي ادعاءات العراق بشأن شراء ناقلات نفط - sa.investing.com",
-    "summary": "المملكة العربية السعودية تنفي ادعاءات العراق بشأن شراء ناقلات نفط sa.investing.com",
-    "source": "sa.investing.com",
+    "headline": "المملكة العربية السعودية تنفي ادعاءات العراق بشأن شراء ناقلات نفط - Investing.com",
+    "summary": "المملكة العربية السعودية تنفي ادعاءات العراق بشأن شراء ناقلات نفط Investing.com",
+    "source": "Investing.com",
     "date": "22 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1KTXltYmdKbHZKNUVGTHllR0RFVUltU3FxbjJMRUxqYzU5bmtDSG8xeTA0aXE4MTFoVzdqYVU2MXBXZ3J5RDZwMU1uM2tXQldickNLMFB1XzRNeGlnYjF4R1dQb2JmMU1TRy1mX0R2Q09qLUZJMVJR?oc=5",
+    "rank": 19
+   },
+   {
+    "headline": "في ذكرى اليوم الوطني السعودي - جريدة الرياض",
+    "summary": "في ذكرى اليوم الوطني السعودي جريدة الرياض",
+    "source": "جريدة الرياض",
+    "date": "22 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9ESXlKLURMcUN3S3hZVEZfenhRcFpfZmI1SUFzdWZmYWRVMmtiOEJPeUVnN0Rxc0k0RDBUQ1hwbFlJUjh2MGFN?oc=5",
     "rank": 20
    }
   ],
@@ -2764,22 +2764,13 @@
     "rank": 21
    },
    {
-    "headline": "As war in the Middle East widens, Saudi Arabia’s new defence pact could face a major test - The Conversation",
-    "summary": "As war in the Middle East widens, Saudi Arabia’s new defence pact could face a major test The Conversation",
-    "source": "The Conversation",
+    "headline": "As war in the Middle East widens, Saudi Arabia’s new defence pact could face a major test - theconversation.com",
+    "summary": "As war in the Middle East widens, Saudi Arabia’s new defence pact could face a major test theconversation.com",
+    "source": "theconversation.com",
     "date": "21 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWERlSlhTaXQ1VUpqTkFhWUJwNGFmOFc1Wl9lS2xHYzRocldZMndncDJKWUJSelRnYVlYWHB1aHBwUTJVSzNPTUNTVWxVV3Y4RzJXemxiSzNTNDFJNE5lbU43VUxpQnh6ODFoNUR6dTFPUGx0V3l6R19ITFZBallVeDlBb2tIS2lkRmxTMXZzWUhwcVp6OHEzZGxJX1BHbWxaNnlUdXVRbjBTR1Jsa3BmdjBKUUlzVVNfQUpTVE0ydw?oc=5",
     "rank": 22
-   },
-   {
-    "headline": "Trump Gets Caught in a Dilemma Over a Saudi Plea for Military Help - The New York Times",
-    "summary": "Trump Gets Caught in a Dilemma Over a Saudi Plea for Military Help The New York Times",
-    "source": "The New York Times",
-    "date": "21 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNenBkRTVSOVM5MFAwOEE5WlVveFVEbjFoNXZsVWZNZmZGRmZRY2RuSXhuMndGZmVoRDZUZ1o2c1ZUeHFVb0xZR1A4bHB6RVJ2OXl3NTR0eGhzTTh1OVdpaklRQ2JTaEExbjkzZ1NxMklOUDVUU3QtanB1eUVfcHhoNGlaYXdrWVBFVEpHSg?oc=5",
-    "rank": 23
    },
    {
     "headline": "Turkey, Saudi Arabia, Pakistan and Egypt affirm Saudi Arabia's right to defend itself - Middle East Eye",
@@ -2788,6 +2779,15 @@
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUGZQa29fTVpudjE3TG9YREVtOC16bEpEd2k1ME5oVThrSTF4NkdMdjR1ZEhlLVhrUGRiek91ZG45aDZYODVkaDZUVllYREJxX2g0WUhPU0wyTlZIRnJ0TnZMUGNzRGU5X1VxZnJ0Z0ZFb2xWakpZWGhieTljZkZXcGFqaFlkNS1Sc2Y5cGtfWmViSFRUZnhUUFRRNEdJcHJuU3dPQ3VvTjV1WXY0NnZXWC1hbmZCYUtkSnY2R0ZGOUdWM1U?oc=5",
+    "rank": 23
+   },
+   {
+    "headline": "Americans in Middle East warned to ‘exercise heightened vigilance’ following strikes on Riyadh - The Hill",
+    "summary": "Americans in Middle East warned to ‘exercise heightened vigilance’ following strikes on Riyadh The Hill",
+    "source": "The Hill",
+    "date": "21 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQk1RUGZ1QnExeUMyU3QwUkRDU3l6cEpnU3l2QzhBdnlUZ0FieEl2T0lDZjNhUkRTR2ZwMzFMc1BKYzJLbnBTbG45bEIyM21LNWVPaXMxU2tQX1hnYm5wZk5HbWprMktkUmFGdmN1UFVscWh1YVhfdThGUDkxTUlkd0x1TzROZ9IBiwFBVV95cUxOV2RmeHJWaTlUQXRxQlQ5cWJJQW5IX2dnOGxEXzZIZVhVVW1VQ2dYVVJ1aWRreUFPUTRVeC1sNUFsbHlGWkxZbUh1TFNxSjMzbVMwMndJYWg3aS0tODMxbUJncTlLS0pKNlVLNEx5dDdCWUdPRHE2WVBidnlNR1RaWElUZVlPRWpMQVk0?oc=5",
     "rank": 24
    },
    {
@@ -2800,12 +2800,12 @@
     "rank": 25
    },
    {
-    "headline": "Americans in Middle East warned to ‘exercise heightened vigilance’ following strikes on Riyadh - The Hill",
-    "summary": "Americans in Middle East warned to ‘exercise heightened vigilance’ following strikes on Riyadh The Hill",
-    "source": "The Hill",
+    "headline": "Trump Gets Caught in a Dilemma Over a Saudi Plea for Military Help - The New York Times",
+    "summary": "Trump Gets Caught in a Dilemma Over a Saudi Plea for Military Help The New York Times",
+    "source": "The New York Times",
     "date": "21 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQk1RUGZ1QnExeUMyU3QwUkRDU3l6cEpnU3l2QzhBdnlUZ0FieEl2T0lDZjNhUkRTR2ZwMzFMc1BKYzJLbnBTbG45bEIyM21LNWVPaXMxU2tQX1hnYm5wZk5HbWprMktkUmFGdmN1UFVscWh1YVhfdThGUDkxTUlkd0x1TzROZ9IBiwFBVV95cUxOV2RmeHJWaTlUQXRxQlQ5cWJJQW5IX2dnOGxEXzZIZVhVVW1VQ2dYVVJ1aWRreUFPUTRVeC1sNUFsbHlGWkxZbUh1TFNxSjMzbVMwMndJYWg3aS0tODMxbUJncTlLS0pKNlVLNEx5dDdCWUdPRHE2WVBidnlNR1RaWElUZVlPRWpMQVk0?oc=5",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNenBkRTVSOVM5MFAwOEE5WlVveFVEbjFoNXZsVWZNZmZGRmZRY2RuSXhuMndGZmVoRDZUZ1o2c1ZUeHFVb0xZR1A4bHB6RVJ2OXl3NTR0eGhzTTh1OVdpaklRQ2JTaEExbjkzZ1NxMklOUDVUU3QtanB1eUVfcHhoNGlaYXdrWVBFVEpHSg?oc=5",
     "rank": 26
    },
    {
@@ -2818,12 +2818,12 @@
     "rank": 27
    },
    {
-    "headline": "Amid backdrop of Middle East war, soccer's 8-country Arabian Gulf Cup starts Wednesday - New Haven Register",
-    "summary": "Amid backdrop of Middle East war, soccer's 8-country Arabian Gulf Cup starts Wednesday New Haven Register",
-    "source": "New Haven Register",
+    "headline": "Why Saudi Arabia’s Oil Is Getting Harder To Ship - Radio Free Europe/Radio Liberty",
+    "summary": "Why Saudi Arabia’s Oil Is Getting Harder To Ship Radio Free Europe/Radio Liberty",
+    "source": "Radio Free Europe/Radio ",
     "date": "22 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnZnRXNHbmhPa1VQZTA4MjlLZlJHM3R5Z0ZIeFpKa3A2N3A0OXkxbDEyNzlvdFV5NWE1OWsySTRkTUlMc3dHek9CVGZZZzJRTXJBOUxKanY4MEgtWGk4cVRMendqRXgxc1NwbUpucEdYSjVaWGtiWkV0RUMyVnpUUEdNYWluTlFGaGg2aTZnSVV4blRuQmhuT2RKZ2Q?oc=5",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fSnljN3BvSlRET19YdkhMVmI1aTVDb3lJYjB1b3padXZmSE1KUDI3T0p2V3ZJRFV1MEhwM2JuSG1JamNvVjFQLV9KeThNMTVtcjE2ZkVLRkxJSkdxQnpwaXlRVTJSa01xTF94MTJIR3ZLNnFUZVJuTUpB0gF6QVVfeXFMT19KeWM3cG9KVERPX1h2SExWYjVpNUNveUliMHVvelp1dmZITUpQMjdPSnZXdklEVXUwSHAzYm5IbUlqY29WMVAtX0p5OE0xNW1yMTZmRUtGTElKR3FCenBpeVFVMlJrTXFMX3gxMkhHdks2cVRlUm5NSkE?oc=5",
     "rank": 28
    },
    {
@@ -2836,21 +2836,21 @@
     "rank": 29
    },
    {
-    "headline": "أيتهما أكثر قوة... السعودية أم إيران؟ - الشرق الأوسط",
-    "summary": "أيتهما أكثر قوة... السعودية أم إيران؟ الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "22 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOcG9qbXNCLUltRDdVRGhMN1g1dlg5dVoyVjNGaWJUNW0wVXp5V3FCS2ozaXFPMkpZUDkwRnMzTUJGaVZKY2FjblV1ZzZOOUpZajVjb3VwVC16MjBLN3pqVERWWUVxY0s4eS1zMGExbmpRMWl0OEhnc0FfOVNDUkZSV0pGNy1YOXljXzhxS2ZmdFk1aTM4X3NhQ0k0TU5idlpWZDBVR1lpY3pFVXFzOUx2alRyRkhocmZRbjgzWG8tcVJtajFhd2RQWUNPY2NuelJVRVAteElQektzUERPVUljRG1fQlBCc0pkWVJKSy1rUDdKeFBRYmhwbkFtaTU2dlNzaVVDVnlNcjZRdHI3eDFuRVpOT0dkZ3lhWEZldFJuWVFlMXM4Q09Za2MzQWtnYzRHcnlTcUZUWndYejY2WW43aFJfNm8yWlBlSnBnQlZ2THdYU1I1SU1YYg?oc=5",
-    "rank": 30
-   },
-   {
     "headline": "«ساما» لـ«الشرق الأوسط»: مشاركتنا في «إم بريدج» انتهت في 2025 - الشرق الأوسط",
     "summary": "«ساما» لـ«الشرق الأوسط»: مشاركتنا في «إم بريدج» انتهت في 2025 الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "23 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxQaTlFMk9Gc3VWNGxKcnhQN25qdWVPeGFxUE5ISVBSVkctVmViQl9IWHdMN1FSSXdVVTRBbThRVF94Z3lrbGIxa0xyWFh1dXh1YkRwTXFpN3hLbmdOYXQwU25jVzJfUUMyNlNaVmItSTdHY0pReUdoVXJnbEZxUHFvZ2pTYmhLSTRUSnRTem8tMlhoSkdLTkZaTnJwMlYtNFVpbmRzYnVxX2lEOXUteDVIWVAyZ04zQ2ZIa0NXaW94NnVPdFdFX3lycjlOMTBQeXRpbDRuVThiRmpwREduNFFZTVRrSG11dU9rRjJpenlfWTRkcUE5SFNHSWFhbkVLTEtETEZzZHM4STNWOUM0NS0wRURqbmFOZFZleUZFdHNYUENLNG5lQU9XV1JSYno1d3hWQ0xZbER4RDF1aFJqTHpjSUN2QXBwaEFZWDJhbk1NenB4aHBCdURidWFUVEpaSElqZDhBN3ZYaERRT3FKTzc0VWtWY09Va0lYNGoydE1nT0F6OHFlSFZBRGJOcGtDS1h5MjJmNDZ4dXRianJwUllSbGdhdzZ3VHg2TUoyRE9pNXN4cWNIZGtROXhCQ1lRWXNFSGhOVkY1b1N6Zmh2aWZXbWt3bWZFUUFtc0NJ?oc=5",
+    "rank": 30
+   },
+   {
+    "headline": "أيتهما أكثر قوة... السعودية أم إيران؟ - الشرق الأوسط",
+    "summary": "أيتهما أكثر قوة... السعودية أم إيران؟ الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "22 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOcG9qbXNCLUltRDdVRGhMN1g1dlg5dVoyVjNGaWJUNW0wVXp5V3FCS2ozaXFPMkpZUDkwRnMzTUJGaVZKY2FjblV1ZzZOOUpZajVjb3VwVC16MjBLN3pqVERWWUVxY0s4eS1zMGExbmpRMWl0OEhnc0FfOVNDUkZSV0pGNy1YOXljXzhxS2ZmdFk1aTM4X3NhQ0k0TU5idlpWZDBVR1lpY3pFVXFzOUx2alRyRkhocmZRbjgzWG8tcVJtajFhd2RQWUNPY2NuelJVRVAteElQektzUERPVUljRG1fQlBCc0pkWVJKSy1rUDdKeFBRYmhwbkFtaTU2dlNzaVVDVnlNcjZRdHI3eDFuRVpOT0dkZ3lhWEZldFJuWVFlMXM4Q09Za2MzQWtnYzRHcnlTcUZUWndYejY2WW43aFJfNm8yWlBlSnBnQlZ2THdYU1I1SU1YYg?oc=5",
     "rank": 31
    },
    {
@@ -2881,21 +2881,21 @@
     "rank": 34
    },
    {
+    "headline": "في عام سينمائي مزدحم... إيرادات الأفلام السعودية تتجاوز 26 مليون دولار - الشرق الأوسط",
+    "summary": "في عام سينمائي مزدحم... إيرادات الأفلام السعودية تتجاوز 26 مليون دولار الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "23 Sep 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMi4wRBVV95cUxOVmpDdEtxM0Y0eHNBNHFpMTNkdk1QdXBReGdTeGZOYlp5WHdGai1mSDNRcU9FbDhLZ3FiRmhXVFF3cTFNNll0UmRYdG4yWHpDaXVyT1d3WDZtZXFoSEN5OFliQXZlb2VYTlBmcm5ETG53b1hvOWZ2LXhJc0pkQ2xwaHh2V3NmQzZwcWN3a21Fb2gzM3NsYlZIZ0FpeV9oV0lFZjBoS1VoclFrWHNrV25tQU9sczdoamdrYmp4N1hkN1o1eDJrU013dldwUXlzeVRaOTRXRDhfMkJ1TWFTNnFxeVdtS1hnTEo0aTZFOGlMTm5CMVdPQXNBVTFHV1RXUmdtWFgxX2RlOEJUZzltYUo0UDZIUm91cWx3cF9SamtfMTZxQ3dPNUFTVjkzMzgtblVxeU9OQnlhbGhxVTVMUTlkMU1HUUJwTXFMX1VBclQxR0tOYlpNNGx2anA0ckNVN3c1NkdyS082ODlIbWNPdERHd2J4b2FaN1VzMkpFTVNBTFIwenBzd3N5amNCbWEzTHlsYzA0VWY2LVFEQkFudnFLUEI4aXhlVWx0d1hFd1lIU0FOSVA4eEdJOHRyMUZmbUdWNlhWd2FDTGVmeGtaN0p5Y1d4UzZxT2lIWFM5SG5VUlNlbFBoNi0tT21ncDQ1QmdkblJHSkRhdVhETGVEVUFXVkl3VEhJWnpNaGw3by15X3J3QS1wRlNJa1BRVEgzMWZhVFBPMWEtMEpmYmtwNWZOUE1acURjYXBVZmxlVDQyb2RiMGpNLXJlNm5WS2dmUklIY2FQbC1sTWZrS29PRDNQdkpYYw?oc=5",
+    "rank": 35
+   },
+   {
     "headline": "الصكوك والسندات السعودية تفتح مساراً جديداً للوصول إلى السيولة - الشرق الأوسط",
     "summary": "الصكوك والسندات السعودية تفتح مساراً جديداً للوصول إلى السيولة الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "23 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMivARBVV95cUxONjV4Szk0UVNYZWZpRDFVbHpadEI1YnhWM2MwdFdOVjhSY3RJNWJfd01helN0REc0NGhwV2R2LUFvOHNmbnRJWjZlaUpIQVpHd0M5SGhfdEdDb1NTQjA4aWhFVFRRSkhWYVkxNlpnWDktSmR0amJmTXRtOXRaMmlqdkVUOGJmckJLZnhtUzhranl5eElRRU9kV2V4R2JzUXFvaHZPQTIta0NRT1NaXzQ5bk13bTl5SmFxRG51YnNpdndpT2dxNThFUVphR2pHbmVWZmQwcF9mNmloMTNHbXE2bGozSTE3bXpkaUNIbHVEOGpaUmoxR3NMMW0ycFREVjZRNkQ2dmhhaWE0NVRram9PRmgtQ1pkZDYyM0FaSkxGTVROX1Q4clZlakVLLWJPN1BCTHh2d2c4cEEwUnl6ZklCdXZzT0h4Rkk4dUxXSDhINFBTRkFQbUhRZzlITURmVW54WVdhRm9WS0lDcVowaUJwdjB3ellQS2JzZGRQZ1Bxd0dPeU1YOXlBRkFEM29SWEpjYWthNDZxVkZONUlvZDRMcjgwR3piMllFUnNkbE9nWVFoZVYxV3otVUZjWWY3OEtkdTliUWR5X21KWDZsY2dJUk5VdW42T1NKb05CRE1weVFTMHBJeVdnMkdlcGIzc0F2M3JiaFJqaW1tLTAyVUdQSlplcDlOOTNTeEpzdlpDODROUnF3alNlc3hucEZPUXlKYW1yNU1ZTEJYWjNyY2JzZS14QjdTaVhlLWZ5bw?oc=5",
-    "rank": 35
-   },
-   {
-    "headline": "السعودية تستأنف تشغيل خط أنابيب «شرق - غرب» - الشرق الأوسط",
-    "summary": "السعودية تستأنف تشغيل خط أنابيب «شرق - غرب» الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "22 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxQX0ZiVkhBZXlFdlVudTVYUGNRdHFoejFTNEhXdll4SlBCQlJURktoa3NGNDluX3prczlIZk5jQWd3djkxcFBVbmF3MmpHRXNYbXA2YjVLZjZBT2dIaHlDRFlHWnk3V0FfRFUySGprRWlBOGlPWGNUWjB2VDJ1RmxRLWVOOGJzTlFjOGpVSGZ1QnRyZDl6M1NsYUo3Ny1hVzF6WFpaa3R2c2ZzdEpPQmx6SmVpTFhHbktET0tIX0x1Zk83dVFEMmY5aW0tRWd0NFQweGJhUXFHNTZTMms0OURJQ0FxX0RJbDRWN3A2MU5jUF9lVUVsTU9teWdKRjdhN0JNRzVlVzhjVERldGZhWTV2TlJkdnlwUnhJa0NxLVp0bkR6dHhlS0dmNnlBV0x4RzZ0Z0ZGekJrYlZZWFZuVy1TR21GYUxXZmdqemV5OWlPLVhySHhIZW0tekprNkVhM3N1WkllMC11TVBfV3lNcFNFNFFOVm9fRXRkRkl1NS1Mei1xLVVRN2syM3ZXNzlXRFdJZWc?oc=5",
     "rank": 36
    },
    {
@@ -4276,13 +4276,6 @@
    "confidence": "low",
    "at": "2026-09-23T13:00:32.982248+03:00"
   },
-  "الملك الموسس": {
-   "english": "The Founding King",
-   "summary": "King Abdulaziz Al Saud (Ibn Saud), who unified the Kingdom and proclaimed it on 23 September 1932 — the date marked as Saudi National Day. He is invoked every year in National Day tributes alongside the current king and crown prince.",
-   "kind": "politics",
-   "confidence": "high",
-   "at": "2026-09-23T13:00:32.982248+03:00"
-  },
   "الأردن": {
    "english": "Jordan",
    "summary": "The Hashemite Kingdom of Jordan, Saudi Arabia's northern neighbour. On National Day it typically trends because of congratulatory messages exchanged between the two monarchies and greetings from Jordanian accounts, though it can equally be driven by separate regional news.",
@@ -4345,6 +4338,13 @@
    "kind": "social",
    "confidence": "low",
    "at": "2026-09-23T13:00:32.982248+03:00"
+  },
+  "خادم الحرمين الشريفين": {
+   "english": "Custodian of the Two Holy Mosques",
+   "summary": "The official title of the Saudi monarch — currently King Salman bin Abdulaziz — referring to his guardianship of Islam's holiest sites, the Grand Mosque in Mecca and the Prophet's Mosque in Medina. It is trending alongside Saudi National Day (23 September) posts, where users pledge loyalty and congratulate the King and the royal leadership.",
+   "kind": "politics",
+   "confidence": "high",
+   "at": "2026-09-23T14:00:32.845238+03:00"
   }
  }
 }
