@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Wednesday, 23 September 2026 · 06:00 KSA",
+ "lastUpdated": "Wednesday, 23 September 2026 · 07:00 KSA",
  "days": {
   "2026-09-10": {
    "label": "Thu 10 Sep",
@@ -2156,19 +2156,19 @@
     },
     {
      "rank": 4,
-     "text": "#كلن_باسمه",
-     "cat": "General",
+     "text": "#اليوم_الوطني_٩٦",
+     "cat": "Culture / Society",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "والسعودية",
+     "text": "#كلن_باسمه",
      "cat": "General",
      "pts": 7
     },
     {
      "rank": 6,
-     "text": "#جمعيه_عطاء_بالباحه",
+     "text": "والسعودية",
      "cat": "General",
      "pts": 6
     },
@@ -2180,13 +2180,13 @@
     },
     {
      "rank": 8,
-     "text": "وطني الحبيب",
+     "text": "علي وطن",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 9,
-     "text": "علي وطن",
+     "text": "وطني الحبيب",
      "cat": "General",
      "pts": 6
     },
@@ -2198,7 +2198,7 @@
     },
     {
      "rank": 11,
-     "text": "محمد مسفر",
+     "text": "الوطن العظيم",
      "cat": "General",
      "pts": 4
     },
@@ -2210,49 +2210,49 @@
     },
     {
      "rank": 13,
+     "text": "محمد مسفر",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 14,
      "text": "الموسس الملك",
      "cat": "Politics / Diplomacy",
      "pts": 4
     },
     {
-     "rank": 14,
-     "text": "الوطن العظيم",
-     "cat": "General",
-     "pts": 4
-    },
-    {
      "rank": 15,
-     "text": "وطن المجد",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 16,
      "text": "العلم الوحيد",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 16,
+     "text": "٢٣ سبتمبر",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 17,
-     "text": "عهد ابو تركي",
+     "text": "توحيد المملكه العربيه السعوديه",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "خادم الحرمين الشريفين",
+     "text": "وطن المجد",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 19,
-     "text": "السعوديه الرياضيه",
+     "text": "سعد العمري",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "سعد العمري",
+     "text": "تبوك",
      "cat": "General",
      "pts": 4
     }
@@ -2271,24 +2271,24 @@
      "score": 76
     },
     {
-     "text": "#كلن_باسمه",
+     "text": "#اليوم_الوطني_٩٦",
      "score": 64
     },
     {
-     "text": "#جمعيه_عطاء_بالباحه",
+     "text": "#كلن_باسمه",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (18)",
-     "items": "#رحله_المليون62 · #عزنا_بطبعنا · #كلن_باسمه · والسعودية · #جمعيه_عطاء_بالباحه · 23 سبتمبر · وطني الحبيب · علي وطن · عبدالعزيز بن عبدالرحمن · محمد مسفر"
+     "label": "General (17)",
+     "items": "#رحله_المليون62 · #عزنا_بطبعنا · #كلن_باسمه · والسعودية · 23 سبتمبر · علي وطن · وطني الحبيب · عبدالعزيز بن عبدالرحمن · الوطن العظيم · عهد سلمان"
     },
     {
      "icon": "🎭",
-     "label": "Culture / Society (1)",
-     "items": "#اليوم_الوطني_السعودي_٩٦"
+     "label": "Culture / Society (2)",
+     "items": "#اليوم_الوطني_السعودي_٩٦ · #اليوم_الوطني_٩٦"
     },
     {
      "icon": "🏛️",
@@ -2369,7 +2369,7 @@
   "دوناروما": 6,
   "راشفورد": 12,
   "ساسولو": 6,
-  "توحيد المملكه العربيه السعوديه": 4,
+  "توحيد المملكه العربيه السعوديه": 8,
   "برونو": 4,
   "اندرسون": 4,
   "لاكازيت": 4,
@@ -2424,7 +2424,7 @@
   "بنك الرياض": 7,
   "الفيدرالي الامريكي": 6,
   "ابو عابد": 6,
-  "٢٣ سبتمبر": 6,
+  "٢٣ سبتمبر": 10,
   "كلين لايف": 6,
   "عمان": 6,
   "راكان الطليحي": 4,
@@ -2539,7 +2539,7 @@
   "#ما_تنقطع": 7,
   "تشيكن ماك": 6,
   "بريدة": 6,
-  "تبوك": 6,
+  "تبوك": 10,
   "قصر المصمك": 6,
   "سير المركبه": 6,
   "الاتحاد الخليجي": 4,
@@ -2553,20 +2553,17 @@
   "وطني الحبيب": 10,
   "سلمان بن عبدالعزيز آل سعود": 4,
   "#رحله_المليون62": 12,
-  "#كلن_باسمه": 8,
-  "والسعودية": 7,
-  "#جمعيه_عطاء_بالباحه": 6,
+  "#اليوم_الوطني_٩٦": 8,
+  "#كلن_باسمه": 7,
+  "والسعودية": 6,
   "علي وطن": 6,
   "عبدالعزيز بن عبدالرحمن": 6,
-  "محمد مسفر": 4,
-  "عهد سلمان": 4,
-  "الموسس الملك": 4,
   "الوطن العظيم": 4,
-  "وطن المجد": 4,
+  "عهد سلمان": 4,
+  "محمد مسفر": 4,
+  "الموسس الملك": 4,
   "العلم الوحيد": 4,
-  "عهد ابو تركي": 4,
-  "خادم الحرمين الشريفين": 4,
-  "السعوديه الرياضيه": 4,
+  "وطن المجد": 4,
   "سعد العمري": 4
  },
  "news": {
@@ -2582,22 +2579,13 @@
     "rank": 1
    },
    {
-    "headline": "Here's What the Houthi–Saudi Arabia Conflict Means for the United States - cfr.org",
-    "summary": "Here's What the Houthi–Saudi Arabia Conflict Means for the United States cfr.org",
-    "source": "cfr.org",
+    "headline": "Here's What the Houthi–Saudi Arabia Conflict Means for the United States - Council on Foreign Relations",
+    "summary": "Here's What the Houthi–Saudi Arabia Conflict Means for the United States Council on Foreign Relations",
+    "source": "Council on Foreign Relat",
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUU1IdmtFdFRYNFEzT1BuRVRpamQxZDh0N3czV01WWGFtbHVYYWZZYmdna3FTVVpFeXd2cjZtSVA1R0c2MEpUdWlXUHRqSzBqQ0MtQ1NsSG1mN2EyVmZtN1o5RDlvVkxGLU5mMVBENXU5ZHFpUWhxX2xRWXNkSEdFbzZraUctOThBMzBoX3VNVGtBYnVsMGRwb0dkRHZDaEsyZU1fZ041V2FjcHR4aThNTTF0LThLcHpKV0p6Z3hKT24?oc=5",
     "rank": 2
-   },
-   {
-    "headline": "Saudi Arabia’s First Car Is an 838-HP Electric Exotic - Autoweek",
-    "summary": "Saudi Arabia’s First Car Is an 838-HP Electric Exotic Autoweek",
-    "source": "Autoweek",
-    "date": "22 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNG1tRlZySXNRMExtYXBNQnRld1Bhall3WnBtQjRZd3AxZ1BBU2hUVjZFRkpfRVlPaGJURDNNYnMxdG43NmRYN0wwdnJwd1FFVmZxTDZER1pKRlJEb0ZnTjNka3dvR2ZEazZTYmpibmJhV3p0eDZ4bklCZ2x6Yks0VWtwVnVXOXg4NXhTQnlNb2stQ3Z5QjI4bGpuaw?oc=5",
-    "rank": 3
    },
    {
     "headline": "Saudi Arabia restarts East-West oil pipeline, sources say - Reuters",
@@ -2606,7 +2594,7 @@
     "date": "22 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNmJidHFzNHlscWlnT2hsWFdKc1hNRFMxOWRnTTRQRHVHbV9tRTJySFJoOGFoZXdNdTIwMngxZlczRmY3dWJxWkNiWTRYclVyT0JoWXQyUHJpNThicmpUNDMwWjNqREdrYmw3Ty1peU9oaEtRdC1GWXE1S0o1eGlrWDZONDhqS0FDbWotZXV1LXBvTEhUWHdlT1BzYU5udjNKTTFXdk1hX0wwVk1yczRTdV94R0p4UUQ1bEViTXJ2S2pEaTVLTFlvdw?oc=5",
-    "rank": 4
+    "rank": 3
    },
    {
     "headline": "As Iran and Houthis Tighten the Screws on Saudi Arabia, a Potential Role Emerges for Israel - Middle East Forum",
@@ -2615,25 +2603,16 @@
     "date": "22 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOWpuVGdiWFdwN01uSC00T081VXJfOU5QMENUT2NERVV5SW55MldqTmlhZEd3TjhxeEZFMnFBLTA0Zk1ObG55UWtNQ0xXUWIxUnhzOC1Ga1hMS2s0MU8yakxTaERJcXZJaWlxb0xFNlNzZDZOZXRxSFo5Z1dEZkFKOFZpM2w5NGN1dFJ4LVB4V3ZTOGxyMjYwRW1MYVZkNEZPbHBnQ3JmUnA3eWJqdG1XSlNYSlM2c3JaOWduMEctTTZGcm8?oc=5",
-    "rank": 5
+    "rank": 4
    },
    {
-    "headline": "Houthis accuse Saudi Arabia of deadly strikes as thousands flee - Courthouse News",
-    "summary": "Houthis accuse Saudi Arabia of deadly strikes as thousands flee Courthouse News",
-    "source": "Courthouse News",
+    "headline": "Saudi Arabia’s First Car Is an 838-HP Electric Exotic - Autoweek",
+    "summary": "Saudi Arabia’s First Car Is an 838-HP Electric Exotic Autoweek",
+    "source": "Autoweek",
     "date": "22 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYmE1Yk5UdlpvZVM3c0NVVGhoUEhMTnlMSjdxclFVZEdBUS1fdXQzRlo0emQ0WTZLWDJlRTBnc3JpUV9XMGJ2WXJxLWE5WXpqWTRzb0h2bE0xMXAzSmV2VUFtYlhuNzRTc29tZmFpRmRMa0tTSXZfaWJSN29qYW0tVHQtNDMtSy1yLUV5cVNUekJTTzdwZWE2REstOA?oc=5",
-    "rank": 6
-   },
-   {
-    "headline": "Houthis fight for key Yemeni highlands, continue striking Saudi Arabia - FDD's Long War Journal",
-    "summary": "Houthis fight for key Yemeni highlands, continue striking Saudi Arabia FDD's Long War Journal",
-    "source": "FDD's Long War Journal",
-    "date": "22 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ0RDS3RNUHpjTUd5Z2xmZ1VZc3RoVnQtaFI4MzN2VW9Ob3FjU2dnbGFNVjcwWVB2TXhOMUEyNzBrMHRHV0pqNmYteXZLTnJhWjh6MWZ3c0hOajMyZVFfa2hHQkRQeXcxcDNHOGhiQWhGRFpwTFRJYTJrX0NwZEdDVnpnMlRKRU1mNTBZV1NiNHUzRUkxaUpoVDY0VnI4NmJGRFE3XzVIRkxmWjNyYU5pcnBtdXhHWHl2QkhLeEhB?oc=5",
-    "rank": 7
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNG1tRlZySXNRMExtYXBNQnRld1Bhall3WnBtQjRZd3AxZ1BBU2hUVjZFRkpfRVlPaGJURDNNYnMxdG43NmRYN0wwdnJwd1FFVmZxTDZER1pKRlJEb0ZnTjNka3dvR2ZEazZTYmpibmJhV3p0eDZ4bklCZ2x6Yks0VWtwVnVXOXg4NXhTQnlNb2stQ3Z5QjI4bGpuaw?oc=5",
+    "rank": 5
    },
    {
     "headline": "Oil Prices Rise as Saudi East-West Pipeline Attack Threatens Export Routes - WSJ",
@@ -2642,6 +2621,24 @@
     "date": "22 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeDdvckhVQlJKZzN2eU90TEg3YU9vRmhZdTdjdkZ1cExSOUd4N09GVEktMTBVT012ZUdGWUdtc2JLaDdIWDJWWFdpUmlJU3pMVWt3MXR2bXRyUXlnSHJTVDJ2Vzg1bmx1ZFptX3ZoVmlMZS1EODlaM3FHbGFJTHFUM0I5YkE5WVRGcEs0UlNkZjdsdXhzdHF6dXFqbHV0bFFZRmRCNDF1WHpQOGZLeGJCdkJIRmNOa1Bzb1FKNU9fcGc?oc=5",
+    "rank": 6
+   },
+   {
+    "headline": "Houthis accuse Saudi Arabia of deadly strikes as thousands flee - Courthouse News",
+    "summary": "Houthis accuse Saudi Arabia of deadly strikes as thousands flee Courthouse News",
+    "source": "Courthouse News",
+    "date": "22 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYmE1Yk5UdlpvZVM3c0NVVGhoUEhMTnlMSjdxclFVZEdBUS1fdXQzRlo0emQ0WTZLWDJlRTBnc3JpUV9XMGJ2WXJxLWE5WXpqWTRzb0h2bE0xMXAzSmV2VUFtYlhuNzRTc29tZmFpRmRMa0tTSXZfaWJSN29qYW0tVHQtNDMtSy1yLUV5cVNUekJTTzdwZWE2REstOA?oc=5",
+    "rank": 7
+   },
+   {
+    "headline": "Houthis accuse Saudi Arabia of deadly strikes as thousands flee - The Japan Times",
+    "summary": "Houthis accuse Saudi Arabia of deadly strikes as thousands flee The Japan Times",
+    "source": "The Japan Times",
+    "date": "23 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYVVsVXp4WTg5U3NGTmZYVXR4Qi1oWVhYZTVrTnpGZUdCRXV3UXVEWXl3d3BpeE9yelFKTUI1ZUQ3RTRTQzF5d29sYTJhSUJTSWtSM2oweDFLVGtaU0dTTmJVblA1Z24zTDdySTZhZDcxd2ZvaVN4SmI4bzNPdVV3cG9Id1V3b1FFeGZyeTFTY3E?oc=5",
     "rank": 8
    },
    {
@@ -2654,12 +2651,12 @@
     "rank": 9
    },
    {
-    "headline": "Houthis accuse Saudi Arabia of deadly strikes as thousands flee - japantimes.co.jp",
-    "summary": "Houthis accuse Saudi Arabia of deadly strikes as thousands flee japantimes.co.jp",
-    "source": "japantimes.co.jp",
-    "date": "23 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYVVsVXp4WTg5U3NGTmZYVXR4Qi1oWVhYZTVrTnpGZUdCRXV3UXVEWXl3d3BpeE9yelFKTUI1ZUQ3RTRTQzF5d29sYTJhSUJTSWtSM2oweDFLVGtaU0dTTmJVblA1Z24zTDdySTZhZDcxd2ZvaVN4SmI4bzNPdVV3cG9Id1V3b1FFeGZyeTFTY3E?oc=5",
+    "headline": "Houthis fight for key Yemeni highlands, continue striking Saudi Arabia - FDD's Long War Journal",
+    "summary": "Houthis fight for key Yemeni highlands, continue striking Saudi Arabia FDD's Long War Journal",
+    "source": "FDD's Long War Journal",
+    "date": "22 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ0RDS3RNUHpjTUd5Z2xmZ1VZc3RoVnQtaFI4MzN2VW9Ob3FjU2dnbGFNVjcwWVB2TXhOMUEyNzBrMHRHV0pqNmYteXZLTnJhWjh6MWZ3c0hOajMyZVFfa2hHQkRQeXcxcDNHOGhiQWhGRFpwTFRJYTJrX0NwZEdDVnpnMlRKRU1mNTBZV1NiNHUzRUkxaUpoVDY0VnI4NmJGRFE3XzVIRkxmWjNyYU5pcnBtdXhHWHl2QkhLeEhB?oc=5",
     "rank": 10
    },
    {
@@ -2690,9 +2687,9 @@
     "rank": 13
    },
    {
-    "headline": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين - dw.com",
-    "summary": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين dw.com",
-    "source": "dw.com",
+    "headline": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين - DW.com",
+    "summary": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين DW.com",
+    "source": "DW.com",
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxPTURPMFJHLUxqVjhYV2M4Rnp1cDFjVDRTS3FZb1c4cjFJTkJsT0pnZTNyRWpZLTNuaS11MUp2QjZYNGFTRHJLcFdBOVlOTlJIX01VWUsya3pWcDc3UFdILWY4S1g5aXVmTU1nWE03aXB5dnlzdlg5U2ktNDV4ckRJcEZKamNXNG90V0NGREhNLThySEhiSUhqb3BLSHUwR3ZaU0FOOWdsc2lrNGpGal9mdXh6OWZrbkV2aUNhZkRsbVlOdFZPN0VuQkFwdl9vREZKb2VkcnREOHZBLWxVeklmc1NucFB5MTY3UjNaWm5sd2N0QWtrU3h2V1NObHM5TFFmbC03Y1VhTjFJNzRXQnFFSWNHMmdKeEZqbWJCSElfallrUGNEeDRlQ0pXVHNJUzNGZUxtcEtHeFVucUJrLUJoc2t0ZGhSQmpOT3E3ZEZaR2ppWi1RREhfcUVReFFPRkNaX09kN2E0ZW5NVzMzTXRWSTdaQXZiRzVGM1NJYnRSOXdUSmhsc2J5ZGtaeHVrWnN0c1RfcThwNi11Yk82bXl5bFBwNG1URzlY0gGoA0FVX3lxTE1MV0M0WUMtMS01WHc4R2JKM2oxZnJvMFRzTVA2MGRSWE4wRjJoOUlRNldLQThQSk11VFRBdzFxck0td2xidzgxM083SDBlWktER0JwVm1kdEhSdjctTVpuZ3VYMDV3MW5DdnZGNDRUNXRyQTE2aHJBYmVtbi1FdUp0WWJJQkNmb2J5Q1N5V2xQaHNLc2VWdlBoTnEwWGRyUzRJcVc4QTJtU0xsY1ctUWg4V3NjeVU0TEJ5ZmJ0b29ZNUFBX04wcEJsN012M1hQM2QxLXlNMzFZQTRxWUNXQ2hqWXdabUlSU2tNOFV6bm9TcHJBYVdVM1dTOW50c0dwY1haYnV0dW44WUk4RmVkcFZLbzFCWnhIalZiV1hZaTVxdXZsMHRES3ZZcDBMU3A0MVd1NTltZjZ2OGEzQzEyUldoY0JSdXRJNjZMb2VvN09heTF1X2VzTzMza2ZpcUhGZ180VWRpaVFNanpjQ3oycUE3ZHhFZ0pXZU9wZGZlY2VWSnZvRUxnSHdFZzEwM0dEOEdxLXc4TVFTLVNNTEF4OHd3NndGbm9iQXE?oc=5",
@@ -2708,40 +2705,31 @@
     "rank": 15
    },
    {
-    "headline": "سفارة المملكة العربية السعودية في ماليزيا تحتفل باليوم الوطني - جريدة المدينة - صحيفة المدينة",
-    "summary": "سفارة المملكة العربية السعودية في ماليزيا تحتفل باليوم الوطني جريدة المدينة - صحيفة المدينة",
-    "source": "جريدة المدينة - صحيفة ال",
+    "headline": "سفارة المملكة العربية السعودية في ماليزيا تحتفل باليوم الوطني - al-madina.com",
+    "summary": "سفارة المملكة العربية السعودية في ماليزيا تحتفل باليوم الوطني al-madina.com",
+    "source": "al-madina.com",
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMisARBVV95cUxOcWVKdDlqUFlobHd5d2hrNDBxcUpwQ1JfTHNhdDhrVFdSbl9Ycmo4OGFzTGRSSkRyTzg5NGtyZUt4TUdHYnkweTJhajRpU3JUUk1pWkVPcXJRTkl5U0IyUzVtTDU0SS0zTW43alYwZjZfdHp3dXpMN2NUemloSE5aZ25GWV9TaVl4WERtS2prWHlKNnl3ZUVsWFhRNVBGcm1XSUMzMGJuR3oxdFhDekhtejh0NDhDQ2N2Q0JOU2pmbFN5eENKYmQ5NVBnT2s4aDRnMGhOWlNEV1dSWGNVakY5UXlXTTkxME9pZE5MUkhDcy1IeXlQREhRcHNfZmJCaWdUQzI1R2x4VjJZMmE4Q0F2NEpKZnVOMm50MlpwVnRkVkUxT3R3VmZrU3ROQWxJUVJ3WjdPSXdGVWNpVzF0aHd1UXh2aFB5SWpXd3NhY2NMZ20wUkpETzNGRElSUERkMUlwOG9paFBmU1lTdDNjOHpqZDBkazY3RndRZU5KZzVMVXBzMVM2TllSaXNtLWJ4RnRfcFoydzVpdzBkTkR5RlNaV2dHY0ZhdFpLZXBlbHVZNmhLbkV2S1BRdmFHc1FmZWZTM0dFTzA5c3k2RU1pZEh2dHE1dUR4MFVsXzVaRFBxWTdUM1YwbDNIb0RaeEx6UURidENiM25JeDl0MG1UVl9WZ1Vob1RnOHE1cVdDbXVSOUlOR1pUd2taRHFzUzJQWHA4OTlkcVptaEViVDYzcEhjWg?oc=5",
     "rank": 16
    },
    {
-    "headline": "المملكة العربية السعودية تنفي ادعاءات العراق بشأن شراء ناقلات نفط - sa.investing.com",
-    "summary": "المملكة العربية السعودية تنفي ادعاءات العراق بشأن شراء ناقلات نفط sa.investing.com",
-    "source": "sa.investing.com",
+    "headline": "المملكة العربية السعودية تنفي ادعاءات العراق بشأن شراء ناقلات نفط - Investing.com",
+    "summary": "المملكة العربية السعودية تنفي ادعاءات العراق بشأن شراء ناقلات نفط Investing.com",
+    "source": "Investing.com",
     "date": "22 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1KTXltYmdKbHZKNUVGTHllR0RFVUltU3FxbjJMRUxqYzU5bmtDSG8xeTA0aXE4MTFoVzdqYVU2MXBXZ3J5RDZwMU1uM2tXQldickNLMFB1XzRNeGlnYjF4R1dQb2JmMU1TRy1mX0R2Q09qLUZJMVJR?oc=5",
     "rank": 17
    },
    {
-    "headline": "عام 1351هـ شهد إعلان اسم المملكة العربية السعودية كأعظم وحدة وطنية في العصر الحديث - جريدة الجزيرة",
-    "summary": "عام 1351هـ شهد إعلان اسم المملكة العربية السعودية كأعظم وحدة وطنية في العصر الحديث جريدة الجزيرة",
+    "headline": "ملوك المملكة العربية السعودية الذين حملوا الراية بعد مرحلة التأسيس على يد الملك عبدالعزيز - جريدة الجزيرة",
+    "summary": "ملوك المملكة العربية السعودية الذين حملوا الراية بعد مرحلة التأسيس على يد الملك عبدالعزيز جريدة الجزيرة",
     "source": "جريدة الجزيرة",
     "date": "23 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CVThwZkloT1FLdlhsODdsOXY5dC15RGhvdU9KNWVLWnFlRk5BMW5IelFueWMyVlpYRWU3SkJ3UmNxQjhROS0xVTNucTBGTmt1MG50THpaNGtvVjFo?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nN2xwSlBxTXVySEgyZElnVmlxbzFyR2p5SEtsZWo3b2d2UndUaV8wX2IzWWRuM3BFYWx4VThQRlhHYVpLb1RhT2VUcWtaQl8wRzhZeFZ0eXJpMld2?oc=5",
     "rank": 18
-   },
-   {
-    "headline": "العاهل السعودي يندد بالحوثيين ويصفهم بالـ\"ميليشيا الإرهابية\" - France 24",
-    "summary": "العاهل السعودي يندد بالحوثيين ويصفهم بالـ\"ميليشيا الإرهابية\" France 24",
-    "source": "France 24",
-    "date": "22 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi4AVBVV95cUxPWkYyRVU3emd3UmVZZjAzS255X2VlNnltZk5SX2JWRDhJa2EwQlcyM2l1UVExZ2Y5MmNUYnA5NGdzZHdTUmNweDJyeVJjOGo0Y1JaN2lDRVNmRUg2Y2FFMWhaN0NwUG9qX05qTE9FM1pQQ0ZEYWhXYkJkQmZRdnRPSFpVNjY5VjV5YnQ0aFI1V25IVS1GRDV2Y0pZMEdVc2FteGY1OEpFOFB0NE1pLXUxNy11eHNsSzA5WGlnRUpwNTNIYVZOckhhV29RYUwzMFhhSVI3MGVncUkwamtJNEVsUGpXWG1EenUyU0xWRkNvTkdvaEZRNm1abjlocHNfZTl4UFUxa2NxQ3BvdEhPaWZ6elNPSW91MC0zNVd5c3Y3Nzc2QVJ0Qm0xaXRYbThpNGZsRVd2Y1FDZkZXZV9OdThlOGpmQjZkQzhhdDlRWDVNUFhPM1dMeG1JSFNHR1lHZUdaM29mWFhjSzFBeFhPM1RySE9SeEZRZ0Flb0ZmcHR5WXZwTjU3TldjOVpZYzRVcUM1Zmd2YzhtNWVKLXNHYlFseHdSaWdNRkRfM1ZfdWxDOWR6eE04ZTVPdElJN2J6c2ZjQ0ZWd1BjSlhkQ010R0ZOMGNZUkZqMmZtTW0tQk9zYzBhdUVLMXhwalM2NVAya1lsdlN4UFNUbFcxWjRmOEVtTmpob21JTFkxMmNfczgxYzJ6SzFqbTduWGhDZ2lEUUotb0tOQVBxRWU4MnQwaS1DSHczYVNxeWJ4cjdzZjVMV2NfMXJaNVdFTlNSdDM1SzJIb0JyeE1naGFXRkpJZUVfX0tnYmlTSVBRZzhtZGhCQ3kxemtzM0x3bVZFNDZPejZMNWlsVW5LeU9pMlQ5TDJMaGJ5ZVZ3U2EzYzZEVldmWTVtSjNQeDhOX1Jaejc1SFN1YXVlZ19EdzhmQUZTMk5tQXJIaHNlLXM5MFIxUzhxUWduYWpvMUtwZ3RqQkE4Q21H?oc=5",
-    "rank": 19
    },
    {
     "headline": "بيانات شحن: السعودية زادت صادرات النفط من الخليج عقب استهداف خط أنابيب - Reuters",
@@ -2750,6 +2738,15 @@
     "date": "21 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40bHQ1ZVJTWjlzdlBDaUJZNkE5TmdVV2lQMVpzYWdnNGphNnZ3eFFTYmlZZ191cTNMUW1CVUVxWUswMklIOW5XLV9iMVhQR3JJVUF4NlpNMXF1LWcwT0s3THBXanhPQ19sX3RXRWNScG9KbExYMTJrWm5XV3dna28?oc=5",
+    "rank": 19
+   },
+   {
+    "headline": "العاهل السعودي يندد بالحوثيين ويصفهم بالـ\"ميليشيا الإرهابية\" - France 24",
+    "summary": "العاهل السعودي يندد بالحوثيين ويصفهم بالـ\"ميليشيا الإرهابية\" France 24",
+    "source": "France 24",
+    "date": "22 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi4AVBVV95cUxPWkYyRVU3emd3UmVZZjAzS255X2VlNnltZk5SX2JWRDhJa2EwQlcyM2l1UVExZ2Y5MmNUYnA5NGdzZHdTUmNweDJyeVJjOGo0Y1JaN2lDRVNmRUg2Y2FFMWhaN0NwUG9qX05qTE9FM1pQQ0ZEYWhXYkJkQmZRdnRPSFpVNjY5VjV5YnQ0aFI1V25IVS1GRDV2Y0pZMEdVc2FteGY1OEpFOFB0NE1pLXUxNy11eHNsSzA5WGlnRUpwNTNIYVZOckhhV29RYUwzMFhhSVI3MGVncUkwamtJNEVsUGpXWG1EenUyU0xWRkNvTkdvaEZRNm1abjlocHNfZTl4UFUxa2NxQ3BvdEhPaWZ6elNPSW91MC0zNVd5c3Y3Nzc2QVJ0Qm0xaXRYbThpNGZsRVd2Y1FDZkZXZV9OdThlOGpmQjZkQzhhdDlRWDVNUFhPM1dMeG1JSFNHR1lHZUdaM29mWFhjSzFBeFhPM1RySE9SeEZRZ0Flb0ZmcHR5WXZwTjU3TldjOVpZYzRVcUM1Zmd2YzhtNWVKLXNHYlFseHdSaWdNRkRfM1ZfdWxDOWR6eE04ZTVPdElJN2J6c2ZjQ0ZWd1BjSlhkQ010R0ZOMGNZUkZqMmZtTW0tQk9zYzBhdUVLMXhwalM2NVAya1lsdlN4UFNUbFcxWjRmOEVtTmpob21JTFkxMmNfczgxYzJ6SzFqbTduWGhDZ2lEUUotb0tOQVBxRWU4MnQwaS1DSHczYVNxeWJ4cjdzZjVMV2NfMXJaNVdFTlNSdDM1SzJIb0JyeE1naGFXRkpJZUVfX0tnYmlTSVBRZzhtZGhCQ3kxemtzM0x3bVZFNDZPejZMNWlsVW5LeU9pMlQ5TDJMaGJ5ZVZ3U2EzYzZEVldmWTVtSjNQeDhOX1Jaejc1SFN1YXVlZ19EdzhmQUZTMk5tQXJIaHNlLXM5MFIxUzhxUWduYWpvMUtwZ3RqQkE4Q21H?oc=5",
     "rank": 20
    }
   ],
@@ -2773,31 +2770,22 @@
     "rank": 22
    },
    {
-    "headline": "Turkey, Saudi Arabia, Pakistan and Egypt affirm Saudi Arabia's right to defend itself - Middle East Eye",
-    "summary": "Turkey, Saudi Arabia, Pakistan and Egypt affirm Saudi Arabia's right to defend itself Middle East Eye",
-    "source": "Middle East Eye",
+    "headline": "Turkey, Saudi Arabia, Pakistan and Egypt affirm Saudi Arabia's right to defend itself - middleeasteye.net",
+    "summary": "Turkey, Saudi Arabia, Pakistan and Egypt affirm Saudi Arabia's right to defend itself middleeasteye.net",
+    "source": "middleeasteye.net",
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUGZQa29fTVpudjE3TG9YREVtOC16bEpEd2k1ME5oVThrSTF4NkdMdjR1ZEhlLVhrUGRiek91ZG45aDZYODVkaDZUVllYREJxX2g0WUhPU0wyTlZIRnJ0TnZMUGNzRGU5X1VxZnJ0Z0ZFb2xWakpZWGhieTljZkZXcGFqaFlkNS1Sc2Y5cGtfWmViSFRUZnhUUFRRNEdJcHJuU3dPQ3VvTjV1WXY0NnZXWC1hbmZCYUtkSnY2R0ZGOUdWM1U?oc=5",
     "rank": 23
    },
    {
-    "headline": "Why Saudi Arabia’s Oil Is Getting Harder To Ship - rferl.org",
-    "summary": "Why Saudi Arabia’s Oil Is Getting Harder To Ship rferl.org",
-    "source": "rferl.org",
+    "headline": "Why Saudi Arabia’s Oil Is Getting Harder To Ship - Radio Free Europe/Radio Liberty",
+    "summary": "Why Saudi Arabia’s Oil Is Getting Harder To Ship Radio Free Europe/Radio Liberty",
+    "source": "Radio Free Europe/Radio ",
     "date": "22 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fSnljN3BvSlRET19YdkhMVmI1aTVDb3lJYjB1b3padXZmSE1KUDI3T0p2V3ZJRFV1MEhwM2JuSG1JamNvVjFQLV9KeThNMTVtcjE2ZkVLRkxJSkdxQnpwaXlRVTJSa01xTF94MTJIR3ZLNnFUZVJuTUpB0gF6QVVfeXFMT19KeWM3cG9KVERPX1h2SExWYjVpNUNveUliMHVvelp1dmZITUpQMjdPSnZXdklEVXUwSHAzYm5IbUlqY29WMVAtX0p5OE0xNW1yMTZmRUtGTElKR3FCenBpeVFVMlJrTXFMX3gxMkhHdks2cVRlUm5NSkE?oc=5",
     "rank": 24
-   },
-   {
-    "headline": "Trump’s meeting with Arab states on UN sidelines displays US Mideast strategy during war - analysis - jpost.com",
-    "summary": "Trump’s meeting with Arab states on UN sidelines displays US Mideast strategy during war - analysis jpost.com",
-    "source": "jpost.com",
-    "date": "22 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1VcG9qb1JKeXFzVm5ycTFVMUhlTmVnYURiVlY1U1BZOXNOYm83SXhjUElwZUdTZE5XU1ZkZkpUV1g0UFZ6cTF6bUZwc1RCcExRWm1JOTRfZDVUTmVC?oc=5",
-    "rank": 25
    },
    {
     "headline": "As war in the Middle East widens, Saudi Arabia’s new defence pact could face a major test - The Conversation",
@@ -2806,6 +2794,15 @@
     "date": "21 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWERlSlhTaXQ1VUpqTkFhWUJwNGFmOFc1Wl9lS2xHYzRocldZMndncDJKWUJSelRnYVlYWHB1aHBwUTJVSzNPTUNTVWxVV3Y4RzJXemxiSzNTNDFJNE5lbU43VUxpQnh6ODFoNUR6dTFPUGx0V3l6R19ITFZBallVeDlBb2tIS2lkRmxTMXZzWUhwcVp6OHEzZGxJX1BHbWxaNnlUdXVRbjBTR1Jsa3BmdjBKUUlzVVNfQUpTVE0ydw?oc=5",
+    "rank": 25
+   },
+   {
+    "headline": "Trump’s meeting with Arab states on UN sidelines displays US Mideast strategy during war - analysis - The Jerusalem Post",
+    "summary": "Trump’s meeting with Arab states on UN sidelines displays US Mideast strategy during war - analysis The Jerusalem Post",
+    "source": "The Jerusalem Post",
+    "date": "22 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1VcG9qb1JKeXFzVm5ycTFVMUhlTmVnYURiVlY1U1BZOXNOYm83SXhjUElwZUdTZE5XU1ZkZkpUV1g0UFZ6cTF6bUZwc1RCcExRWm1JOTRfZDVUTmVC?oc=5",
     "rank": 26
    },
    {
@@ -2881,21 +2878,21 @@
     "rank": 34
    },
    {
+    "headline": "السعودية تدين اقتحام مسؤول إسرائيلي ومتطرفين باحات الأقصى - الشرق الأوسط",
+    "summary": "السعودية تدين اقتحام مسؤول إسرائيلي ومتطرفين باحات الأقصى الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "22 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi7gRBVV95cUxNM3FpejdMbTBqWWlpNTE2b21HVUtxaWFJRkpmNDAxSERiUDVVNjhPWXNIVFhzRndzc0V0ano0ZHY3N3lwLVZiRXN6Ry11b1BIRzhlN0V5WVpuMF9qY2lqR3hlbjdsN2J3TzNoLTZUeDlJajlpOTMtMGRqc1FFcVVGeHZkS1kwUWxpYjRDajIzcUQxVWVyM19wWXFVOWx2MVpmVWN4WThWRFhmZDl6YmY0blRDbnJnU3EzSzVaQ3pjY2ZqOVRHNnNBNnlSTHVfaXZkaDJUVUJxdlFmemRNVXVVLVRZSUdpVmZoWFJOTUM0d2I0TEtWRVlWbWpjMVo3aW1BM3IyUFdzQk5YWEtFaFBxSl9FMzJzYlB4OEpHMUkwU01zeHc2TmNSbEhCZkZRdWhKbEZnVk01QUJMWVIzT3ZLQ1hsd0JyU24zR2N5T3hJbGNualZnemtzZ3lPbm5OdGNJdEh3bnhnZUtPd21FbWJtS1ZTdHJ6eEFfVGhOdUw3dGZ0LUxPU1BhTUl4RFBFZ1ZsUWhxcXkxazhKa3luUzZaa3lGQlY4OGhpdkllWUdDaHd0OFRMRWF2OGRXdEhoaVdmZlFxYkwxbHRxTjIyLWVORlF6SHYyZ1U0cDhZX1lLWHlVVXFxbU5Mam42ZEJJejE4RUJqWjlfenRxX21IR1ZrN0I2N1RocUh2bW5OZ1FSV1o3QmpWRTRnakRxX2FIZVFIS3lYT2dIRUdvS2RhakxJNmtqRTZBWW52aHpoaTZSWnVCQU9ZdkhxbVlsUWhnRGFuYUNMeUNoWDRCS1JyTVZRV0JoSUJ2VE1tajRQUkVR?oc=5",
+    "rank": 35
+   },
+   {
     "headline": "السجلات التجارية في السعودية تتجاوز 1.9 مليون... ونمو لافت للذكاء الاصطناعي - الشرق الأوسط",
     "summary": "السجلات التجارية في السعودية تتجاوز 1.9 مليون... ونمو لافت للذكاء الاصطناعي الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi6gRBVV95cUxQMWY2LW5RVFBWS1l0bFY4WnZNVXJVWExMTmpHOVJHSkZBWGNpcWNRajdMSEpFbjBaNEFYQVo3S3JVblZzbXJzd3loYlYxOWFOdzJScGlkYVA1a0RySHpFdGxuWDJJNjA0MnctX3V0dXRkeFY0LUNYdzV0cWhYVmpQdnpqMWxyUUZTRUJ5a2xOZjROTmtoOU9aZmI4WWkxdTI3SDVITFBXaWlSeFpNWWVxdmdXdkxOejN3S2NuYUctZm54Z0VDTUtMaVpBQmljY3dKS2U3X2NPZkZfMnc5T1FyWXNpSWhKNXJvNmRlQnR2QU02bWlQSm01MmZCcUVtYk54enNjcEpzOHlTNzRyVWxwbmdRYXF5NVMwa2hlc2dhR05jNzk2OTBfTThNYzAtZ2kyeGdZdFp3Mi1VRWUwbTRYZ1lEdWY3S2JQRUhYRzV3cG1ydUVRbjdBT2tLME1INTZmZ2Z4a1FlNW5wX3BzVkVSdkhnMXp4dmNpUGFlWjJZLUdHVFFkRGtmNWRNanBQSTNzN2NGaTlFZVhSQUdlNHUtaE91UHFFejVPYVVJaGtuRGpheVhNVmxOVHE2czQyY20yWC1YcS1GUmcxcGNjWTJtR1pScTRqTnh1czluNDNxXzZHZExfb2E3VkVJaVVneXFoNUdVbE5IZXBDNG9fVFJPTDdpWWJndEtQbU5UNlNxM19ZbGdIbklNREVQMEVFZDJCVFRteXN5QlkxUnh0U3hqenlIQ2Rtd2hrcUtIV0JpVExEaGo0bjdadmxJSHNEUFR4NFBkV0hpbzBOWVBqUTE0UkY4d0J1WWRLc0E?oc=5",
-    "rank": 35
-   },
-   {
-    "headline": "السعودية تحتفي بيومها الوطني باقتصاد رقمي يقارب سُدس ناتجها - الشرق الأوسط",
-    "summary": "السعودية تحتفي بيومها الوطني باقتصاد رقمي يقارب سُدس ناتجها الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "22 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi9wRBVV95cUxNLXg5bDdZN244Y0dyQTNoMVd0YlRCaENnZ2xFamFnVUQ2eUFCQjM2U29QeVl6cTMtbXFQc0k2Q0FBU2xyX2pBMWZOZ2g5RktFZHJtbzdLN0tRU1hKS1l3Sk1hVzFlYnpoenA5N1NZeDVGRlpwTWdMN19WUVUwZ1dvWGh3WDB5RkRtVW5qWklSSXBZVkdac2tNSnJqTXpsM21jWklsUDVhbTdvUzk4M3hfMkdzNU5QMWd6WDFWbjBjWVE3OXVvNjhfblBCSVBUbnBiREhGd0JQaUNUNlUxYm5XVDNHN2lNX3h2Q0hxLWN2UlRkc2lhX2l1SnFfMDNzZ0N6aGlHdGRNWWxKMmtJZDVYbF9SN1BxcGI2OEdjVWpnN1B6Ul9OY1VFM25ha0NfdW9HZmVoVUVib0s0enlDS3ZWMXN6UF9ZQzVyVkdpSEVsM2Z6dUx5SmNTNEVlb01UYm02bEZISGxDd2hPMFA0WklJcFlFWUZNMW41R0RYR3FjaENUbF96ZDlTOGYtWldPQk1ZbVFuZGo0T05IMTlBUVk4S3lwUmZQOGk0SkFzb2xWQ3hJMkZIUVRvZnBxYU5kTXNEZWIybjBtOG1kbFdrc0ptM3BpbXhEZnhveFF6V1VDclRudmNiUVZEbENLNHgxYXFJYk1LZHdPRDVVWkt4ejdlbndFSU9KZkdKbFVTd21JSVhKMmp4aUdDRVEtUktYbFA4NGE1N2lwbWhFWWRGd3pQRmtBc3RPVThYaVlvNFo3dFZrVlVyenM0dDhkMFBkbFFqLWpFOG04X2JTenVkYTMwaUl3bnd3Q09CT0FNNjVnNzdpTC1wNXk4?oc=5",
     "rank": 36
    },
    {
@@ -4232,13 +4229,6 @@
    "confidence": "medium",
    "at": "2026-09-23T00:00:41.075824+03:00"
   },
-  "خادم الحرمين الشريفين": {
-   "english": "Custodian of the Two Holy Mosques",
-   "summary": "The formal title of the Saudi king, referring to his guardianship of the Grand Mosque in Mecca and the Prophet's Mosque in Medina. It trends whenever the monarch is congratulated, quoted or addressed — here in the flood of Saudi National Day greetings.",
-   "kind": "politics",
-   "confidence": "high",
-   "at": "2026-09-23T00:00:41.075824+03:00"
-  },
   "#كلن_باسمه": {
    "english": "#All_Of_Them_In_His_Name / #Everyone_Smiling",
    "summary": "A short colloquial phrase that can read as \"all of them in his name\" or \"everyone is smiling,\" most likely a lyric or slogan being repeated as part of the National Day celebration chatter. The subject is not clear from the words alone.",
@@ -4288,33 +4278,12 @@
    "confidence": "low",
    "at": "2026-09-23T03:37:50.484433+03:00"
   },
-  "السعوديه الرياضيه": {
-   "english": "Saudia Sports (KSA Sports)",
-   "summary": "The Saudi state-owned sports broadcaster, which carries Saudi Pro League football, national-team matches and major events. Trending mentions usually concern its coverage, commentators or broadcast rights, and on National Day it would be airing celebration and sports programming.",
-   "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-09-23T03:37:50.484433+03:00"
-  },
-  "عهد ابو تركي": {
-   "english": "The era of Abu Turki",
-   "summary": "\"Abu Turki\" is a kunya (father-of nickname) used affectionately for a senior member of the Saudi royal family, and the phrase praises the achievements of his era — a standard National Day framing, appearing here alongside \"the era of Salman\" and \"Abu Fahd calls on you\" (King Salman, father of the late Prince Fahd). Which royal is meant is not certain from the nickname alone, though it is most often read as a reference to the current leadership.",
-   "kind": "politics",
-   "confidence": "low",
-   "at": "2026-09-23T03:37:50.484433+03:00"
-  },
   "وطن المجد": {
    "english": "\"Homeland of Glory\" / \"Nation of Glory\"",
    "summary": "A patriotic phrase praising Saudi Arabia as a land of glory, trending alongside Saudi National Day on 23 September, which marks the 1932 unification of the Kingdom under King Abdulaziz Al Saud. Users post it with flags, poetry, national songs and photos as part of the annual wave of celebratory content, and it often echoes wording from National Day songs and official slogans.",
    "kind": "social",
    "confidence": "medium",
    "at": "2026-09-23T05:00:29.760447+03:00"
-  },
-  "#جمعيه_عطاء_بالباحه": {
-   "english": "#Ataa_Charity_Association_in_Al-Baha (\"Giving\" Charity Society, Al-Baha)",
-   "summary": "A local charitable society in Al-Baha, a mountainous region in southwestern Saudi Arabia, promoting itself through a hashtag campaign. Charities and regional bodies routinely run branded hashtags around Saudi National Day (23 September) tied to volunteer drives, donation appeals or community celebrations.",
-   "kind": "social",
-   "confidence": "medium",
-   "at": "2026-09-23T06:00:27.389630+03:00"
   },
   "محمد مسفر": {
    "english": "Mohammed Musfir",
@@ -4336,6 +4305,20 @@
    "kind": "social",
    "confidence": "high",
    "at": "2026-09-23T06:00:27.389630+03:00"
+  },
+  "#اليوم_الوطني_٩٦": {
+   "english": "#National_Day_96",
+   "summary": "Hashtag for Saudi Arabia's 96th National Day, marked every 23 September to commemorate the 1932 royal decree that renamed the unified realm the Kingdom of Saudi Arabia. It is a public holiday with flag displays, air shows, fireworks, concerts and heavy brand and government activity online.",
+   "kind": "news",
+   "confidence": "high",
+   "at": "2026-09-23T07:00:30.625044+03:00"
+  },
+  "توحيد المملكه العربيه السعوديه": {
+   "english": "Unification of the Kingdom of Saudi Arabia",
+   "summary": "A phrase referring to the unification of the country under King Abdulaziz bin Abdulrahman Al Saud, founder of the modern Saudi state, completed with the 1932 decree that joined Najd, the Hejaz and other regions into one kingdom. It trends alongside National Day as users post historical posts, archive photos and tributes to the founder.",
+   "kind": "news",
+   "confidence": "high",
+   "at": "2026-09-23T07:00:30.625044+03:00"
   }
  }
 }
