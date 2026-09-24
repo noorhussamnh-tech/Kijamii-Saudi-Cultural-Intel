@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Thursday, 24 September 2026 · 05:00 KSA",
+ "lastUpdated": "Thursday, 24 September 2026 · 06:00 KSA",
  "days": {
   "2026-09-11": {
    "label": "Fri 11 Sep",
@@ -2149,19 +2149,19 @@
     },
     {
      "rank": 2,
-     "text": "#السعوديه_الكويت",
+     "text": "#عراب_رويتنا",
      "cat": "General",
      "pts": 12
     },
     {
      "rank": 3,
-     "text": "#عراب_رويتنا",
+     "text": "#رحله_المليون63",
      "cat": "General",
      "pts": 10
     },
     {
      "rank": 4,
-     "text": "#رحله_المليون63",
+     "text": "#السعوديه_الكويت",
      "cat": "General",
      "pts": 8
     },
@@ -2173,13 +2173,13 @@
     },
     {
      "rank": 6,
-     "text": "#محمد_العروبه",
+     "text": "#نادي_القصيم",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 7,
-     "text": "همام الهمامي",
+     "text": "العطور الرجاليه",
      "cat": "General",
      "pts": 6
     },
@@ -2197,7 +2197,7 @@
     },
     {
      "rank": 10,
-     "text": "العطور الرجاليه",
+     "text": "همام الهمامي",
      "cat": "General",
      "pts": 6
     },
@@ -2209,8 +2209,8 @@
     },
     {
      "rank": 12,
-     "text": "الرييس الصيني",
-     "cat": "Politics / Diplomacy",
+     "text": "اليوم الخميس",
+     "cat": "General",
      "pts": 4
     },
     {
@@ -2221,8 +2221,8 @@
     },
     {
      "rank": 14,
-     "text": "ابو الشامات",
-     "cat": "General",
+     "text": "الرييس الصيني",
+     "cat": "Politics / Diplomacy",
      "pts": 4
     },
     {
@@ -2233,31 +2233,31 @@
     },
     {
      "rank": 16,
-     "text": "الصقور الخضر",
+     "text": "فرع المدينه المنوره",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 17,
-     "text": "المباريات القادمه",
+     "text": "ابو الشامات",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "البحرين",
+     "text": "صيام الايام البيض",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 19,
-     "text": "علي الفوز",
+     "text": "فيصل بن عبدالعزيز",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "فوز الاخضر",
+     "text": "الصقور الخضر",
      "cat": "General",
      "pts": 4
     }
@@ -2268,19 +2268,19 @@
      "score": 100
     },
     {
-     "text": "#السعوديه_الكويت",
+     "text": "#عراب_رويتنا",
      "score": 88
     },
     {
-     "text": "#عراب_رويتنا",
+     "text": "#رحله_المليون63",
      "score": 76
     },
     {
-     "text": "#رحله_المليون63",
+     "text": "#السعوديه_الكويت",
      "score": 64
     },
     {
-     "text": "#محمد_العروبه",
+     "text": "#نادي_القصيم",
      "score": 52
     }
    ],
@@ -2288,7 +2288,7 @@
     {
      "icon": "📌",
      "label": "General (18)",
-     "items": "#ولي__العهد · #السعوديه_الكويت · #عراب_رويتنا · #رحله_المليون63 · سالم · #محمد_العروبه · همام الهمامي · عبدالله الحمدان · العطور الرجاليه · احمد سعيد"
+     "items": "#ولي__العهد · #عراب_رويتنا · #رحله_المليون63 · #السعوديه_الكويت · سالم · #نادي_القصيم · العطور الرجاليه · عبدالله الحمدان · همام الهمامي · احمد سعيد"
     },
     {
      "icon": "⚽",
@@ -2538,7 +2538,7 @@
   "مولاي خادم الحرمين الشريفين": 4,
   "وطني الحبيب": 4,
   "سلمان بن عبدالعزيز آل سعود": 4,
-  "#السعوديه_الكويت": 26,
+  "#السعوديه_الكويت": 22,
   "همام الهمامي": 16,
   "#سوق_سيارات_مستعمل_وقطع_غيار": 8,
   "#همه_طويق_وفطيره_الفلافل3": 7,
@@ -2555,20 +2555,20 @@
   "فارس عوض": 4,
   "السالم": 4,
   "#ولي__العهد": 14,
-  "#عراب_رويتنا": 10,
-  "#رحله_المليون63": 8,
+  "#عراب_رويتنا": 12,
+  "#رحله_المليون63": 10,
   "سالم": 7,
-  "#محمد_العروبه": 6,
+  "#نادي_القصيم": 6,
   "عبدالله الحمدان": 6,
   "فوز المنتخب": 6,
   "احمد سعيد": 4,
+  "اليوم الخميس": 4,
   "الرييس الصيني": 4,
   "عبدالعزيز بن عبدالرحمن ال سعود": 4,
-  "الصقور الخضر": 4,
-  "المباريات القادمه": 4,
-  "البحرين": 4,
-  "علي الفوز": 4,
-  "فوز الاخضر": 4
+  "فرع المدينه المنوره": 4,
+  "صيام الايام البيض": 4,
+  "فيصل بن عبدالعزيز": 4,
+  "الصقور الخضر": 4
  },
  "news": {
   "date": "24 Sep 2026",
@@ -2999,7 +2999,7 @@
  },
  "_apify": {
   "google": "2026-09-23T13:00:32.982248+03:00",
-  "tiktok:tried": "2026-09-23T23:00:31.246384+03:00"
+  "tiktok:tried": "2026-09-24T06:00:24.882540+03:00"
  },
  "google": {
   "date": "23 Sep 2026",
@@ -4341,13 +4341,6 @@
    "confidence": "high",
    "at": "2026-09-24T02:00:30.833727+03:00"
   },
-  "#محمد_العروبه": {
-   "english": "#Mohammed_of_Arabism (Mohammed of the Arabs)",
-   "summary": "A praise slogan for Crown Prince Mohammed bin Salman, casting him as the leader/champion of the Arab world; it is trending alongside other pro-MBS tags on the board. A less likely reading is a footballer named Mohammed at Al-Orobah, the Saudi Pro League club from Sakaka in Al-Jouf, whose name is spelled the same way.",
-   "kind": "politics",
-   "confidence": "medium",
-   "at": "2026-09-24T02:00:30.833727+03:00"
-  },
   "#عراب_رويتنا": {
    "english": "#The_Godfather_of_Our_Vision",
    "summary": "Another loyalty hashtag for Mohammed bin Salman, framing him as the architect behind Vision 2030, the Saudi economic and social transformation programme he launched in 2016. Campaigns like this are typically organised by fan accounts and amplified around national milestones.",
@@ -4397,13 +4390,6 @@
    "confidence": "high",
    "at": "2026-09-24T04:00:25.014770+03:00"
   },
-  "المباريات القادمه": {
-   "english": "the upcoming matches",
-   "summary": "Fans discussing the next fixtures on the calendar — most likely the Saudi national team's remaining schedule or Saudi Pro League rounds, including who is suspended, injured or available.",
-   "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-09-24T04:00:25.014770+03:00"
-  },
   "عبدالعزيز بن عبدالرحمن ال سعود": {
    "english": "Abdulaziz bin Abdulrahman Al Saud (King Abdulaziz / \"Ibn Saud\")",
    "summary": "The founder and first king of the modern Kingdom of Saudi Arabia, who unified the country and proclaimed it in 1932. His name trends heavily around Saudi National Day on 23 September and the days just after, when users post tributes, historical photos and quotes about the founder.",
@@ -4411,26 +4397,40 @@
    "confidence": "high",
    "at": "2026-09-24T05:00:30.130404+03:00"
   },
-  "البحرين": {
-   "english": "Bahrain",
-   "summary": "The neighbouring Gulf island kingdom and a frequent opponent of Saudi teams. Alongside board items like \"Saudi–Kuwait\", \"the Green Falcons\" and \"upcoming matches\", it most likely points to a regional football tournament fixture or group involving Bahrain, though the specific match is not identifiable from the word alone.",
+  "#نادي_القصيم": {
+   "english": "#Al_Qassim_Club",
+   "summary": "Refers to a sports club representing Al-Qassim, the central Saudi region whose main cities are Buraydah and Unaizah; the region's football scene is usually associated with clubs such as Al-Taawoun and Al-Raed. A club hashtag trending on its own normally signals a match result, a management or ownership change, or a club rebranding/launch announcement.",
    "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-09-24T05:00:30.130404+03:00"
+   "confidence": "low",
+   "at": "2026-09-24T06:00:24.882540+03:00"
   },
-  "علي الفوز": {
-   "english": "\"On the win\" (common spelling of على الفوز, as in \"congratulations on the win\")",
-   "summary": "A congratulatory phrase fans spam after a victory, usually part of \"مبروك علي الفوز\" (congrats on the win). Given the football-heavy board, it is celebration chatter following a team's win rather than a person's name.",
-   "kind": "sport",
+  "اليوم الخميس": {
+   "english": "Today is Thursday",
+   "summary": "A plain day-of-the-week phrase that trends routinely in Saudi Arabia because Thursday marks the start of the weekend and is a common opener for reminders, religious posts, weather or traffic updates, and giveaway threads. Here it also sits right after Saudi National Day (23 September), so holiday and long-weekend chatter is likely driving volume.",
+   "kind": "social",
    "confidence": "medium",
-   "at": "2026-09-24T05:00:30.130404+03:00"
+   "at": "2026-09-24T06:00:24.882540+03:00"
   },
-  "فوز الاخضر": {
-   "english": "Victory of Al-Akhdar (\"the Green\")",
-   "summary": "\"Al-Akhdar\" (the Green) is the nickname of the Saudi Arabia national football team, also called the Green Falcons. The phrase, paired with \"national team win\" elsewhere on the board, indicates fans celebrating a Saudi national team victory; the particular fixture cannot be confirmed here.",
-   "kind": "sport",
+  "فرع المدينه المنوره": {
+   "english": "The Madinah branch",
+   "summary": "Points to the Al-Madinah Al-Munawwarah (Medina) regional branch of some organisation — typically a ministry, court, charity, chamber of commerce or company — with posts about a local service, event, job vacancies or an administrative announcement. The words alone do not identify which body is meant.",
+   "kind": "other",
+   "confidence": "low",
+   "at": "2026-09-24T06:00:24.882540+03:00"
+  },
+  "صيام الايام البيض": {
+   "english": "Fasting the White Days",
+   "summary": "A recurring Islamic practice of voluntary fasting on the 13th, 14th and 15th of each Hijri month, when the moon is full (hence 'white days'). Religious accounts and everyday users post reminders each month as the dates come round.",
+   "kind": "religion",
+   "confidence": "high",
+   "at": "2026-09-24T06:00:24.882540+03:00"
+  },
+  "فيصل بن عبدالعزيز": {
+   "english": "Faisal bin Abdulaziz",
+   "summary": "Almost certainly King Faisal bin Abdulaziz Al Saud, the third king of Saudi Arabia (reigned 1964–1975), remembered for oil-era modernisation, the 1973 oil embargo and his assassination in 1975. He trends alongside 'Abdulaziz bin Abdulrahman Al Saud' (the kingdom's founder) in the National Day period, when Saudis share historical photos and tributes to past rulers.",
+   "kind": "politics",
    "confidence": "medium",
-   "at": "2026-09-24T05:00:30.130404+03:00"
+   "at": "2026-09-24T06:00:24.882540+03:00"
   }
  }
 }
