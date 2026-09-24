@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Thursday, 24 September 2026 · 03:00 KSA",
+ "lastUpdated": "Thursday, 24 September 2026 · 04:00 KSA",
  "days": {
   "2026-09-11": {
    "label": "Fri 11 Sep",
@@ -2155,7 +2155,7 @@
     },
     {
      "rank": 3,
-     "text": "#محمد_العروبه",
+     "text": "#عراب_رويتنا",
      "cat": "General",
      "pts": 10
     },
@@ -2167,13 +2167,13 @@
     },
     {
      "rank": 5,
-     "text": "#عراب_رويتنا",
+     "text": "#محمد_العروبه",
      "cat": "General",
      "pts": 7
     },
     {
      "rank": 6,
-     "text": "#تطبيق__من_حولكم",
+     "text": "#رحله_المليون63",
      "cat": "General",
      "pts": 6
     },
@@ -2185,13 +2185,13 @@
     },
     {
      "rank": 8,
-     "text": "الحمدان",
+     "text": "$JUMP",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 9,
-     "text": "$JUMP",
+     "text": "عبدالله الحمدان",
      "cat": "General",
      "pts": 6
     },
@@ -2209,7 +2209,7 @@
     },
     {
      "rank": 12,
-     "text": "ابو الشامات",
+     "text": "احمد سعيد",
      "cat": "General",
      "pts": 4
     },
@@ -2221,43 +2221,43 @@
     },
     {
      "rank": 14,
-     "text": "مندش",
-     "cat": "General",
+     "text": "الرييس الصيني",
+     "cat": "Politics / Diplomacy",
      "pts": 4
     },
     {
      "rank": 15,
-     "text": "احمد سعيد",
+     "text": "ابو الشامات",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 16,
-     "text": "فراس",
+     "text": "مندش",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 17,
-     "text": "متعب الحربي",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 18,
      "text": "فارس عوض",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 18,
+     "text": "الصقور الخضر",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 19,
-     "text": "صور محمد بن سلمان",
+     "text": "المباريات القادمه",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "علي الفوز",
+     "text": "متعب الحربي",
      "cat": "General",
      "pts": 4
     }
@@ -2272,28 +2272,33 @@
      "score": 88
     },
     {
-     "text": "#محمد_العروبه",
+     "text": "#عراب_رويتنا",
      "score": 76
     },
     {
-     "text": "#عراب_رويتنا",
+     "text": "#محمد_العروبه",
      "score": 64
     },
     {
-     "text": "#تطبيق__من_حولكم",
+     "text": "#رحله_المليون63",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (19)",
-     "items": "#ولي__العهد · #السعوديه_الكويت · #محمد_العروبه · سالم · #عراب_رويتنا · #تطبيق__من_حولكم · همام الهمامي · الحمدان · $JUMP · نواف العقيدي"
+     "label": "General (18)",
+     "items": "#ولي__العهد · #السعوديه_الكويت · #عراب_رويتنا · سالم · #محمد_العروبه · #رحله_المليون63 · همام الهمامي · $JUMP · عبدالله الحمدان · نواف العقيدي"
     },
     {
      "icon": "⚽",
      "label": "Football (1)",
      "items": "فوز المنتخب"
+    },
+    {
+     "icon": "🏛️",
+     "label": "Politics / Diplomacy (1)",
+     "items": "الرييس الصيني"
     }
    ]
   }
@@ -2326,7 +2331,7 @@
   "#الفوز_فوزك": 7,
   "العمري": 10,
   "سعد الناصر": 6,
-  "الحمدان": 24,
+  "الحمدان": 18,
   "توتنهام": 6,
   "سندرلاند": 6,
   "عون السلولي": 4,
@@ -2550,20 +2555,30 @@
   "فارس عوض": 8,
   "السالم": 4,
   "#ولي__العهد": 14,
-  "#محمد_العروبه": 10,
+  "#عراب_رويتنا": 10,
   "سالم": 8,
-  "#عراب_رويتنا": 7,
-  "#تطبيق__من_حولكم": 6,
+  "#محمد_العروبه": 7,
+  "#رحله_المليون63": 6,
   "$JUMP": 6,
+  "عبدالله الحمدان": 6,
   "فوز المنتخب": 6,
   "احمد سعيد": 4,
-  "فراس": 4,
-  "صور محمد بن سلمان": 4,
-  "علي الفوز": 4
+  "الرييس الصيني": 4,
+  "الصقور الخضر": 4,
+  "المباريات القادمه": 4
  },
  "news": {
   "date": "24 Sep 2026",
   "domestic": [
+   {
+    "headline": "Is the United States Abandoning Saudi Arabia at Its Moment of Need? - CSIS | Center for Strategic and International Studies",
+    "summary": "Is the United States Abandoning Saudi Arabia at Its Moment of Need? CSIS | Center for Strategic and International Studies",
+    "source": "CSIS | Center for Strate",
+    "date": "23 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOelRMQkhPSEhYLUZjZGJIbWpidU83QVhCSDhGSVVSNEpYemYtT1VjcWdjRDN5bFRWVnQ4YVl5eGlhWW9ORU5TWi1oaDl0eHZkdW95MlVqdDZ6R2RXLWJtYmV0SjRVelNHVUZldzJ2NWU2UVp6OVg4dGNrVXZnV0xUa1RWakZNMEEwRkIw?oc=5",
+    "rank": 1
+   },
    {
     "headline": "How the U.K. Is Supporting Saudi Arabia In Its Fight Against the Houthis—and Why That's Significant - Time Magazine",
     "summary": "How the U.K. Is Supporting Saudi Arabia In Its Fight Against the Houthis—and Why That's Significant Time Magazine",
@@ -2571,7 +2586,16 @@
     "date": "23 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNktIcUxTYUxMemxoZExIZ0JrbHdrem1GMk03NF9GcGZERmcxaEFoVzZCN3cyc0czU1Z6bktTNzNNUW1xX0hZS3ZkNkFwbmpwcTlPUjUyd0VyWjM2bjFuRmpuTHZGcFhXbEMzMVNTV3RXWmlTNjJreGRSTkVHSUlwTGx2T3gtN0hwNTlrYjJCREpaam84QkhiYUJRcFhpY3Z1OElJ?oc=5",
-    "rank": 1
+    "rank": 2
+   },
+   {
+    "headline": "Saudi Arabia Wants to Disrupt the Auto Industry With These Radical, Wedge-Shaped EVs - Car and Driver",
+    "summary": "Saudi Arabia Wants to Disrupt the Auto Industry With These Radical, Wedge-Shaped EVs Car and Driver",
+    "source": "Car and Driver",
+    "date": "23 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLTAzN3dIX045Yzg2QkU4Ml9hR2JkVkg1azFKeExzdFlZSmY1cGx4czBvN2htVzhmMUdHOFVTVzRDQU1XbTNEdFZUcnEyLVVULVpkMlJfRk5EN1hXeC1xbFVOaVBIcFduMjd6Q2lvY1lmaVNXSThmRHlnZVhFYUs0UGpld0d3bmsz?oc=5",
+    "rank": 3
    },
    {
     "headline": "The Impacts of the Houthis’ Advance Could Extend Well Beyond Saudi Arabia - Carnegie Endowment for International Peace",
@@ -2580,34 +2604,25 @@
     "date": "23 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOR1FqMVlVSmpuVVVRLTdPNlhudS1uLVcydXZ4N1AtdmlMVW5oR0VXVmFpSWFIaXg4SlBrVnhaVnJIT0Jsc0xWUjROdFBxcllZeHcxR1B6SU9PYkhvVkt0bG9VWGpUTlJoQ2NOTF8tdV9lOXpfcjlCY21IX3BTc3JFc2VnUVlyVldLaUxEYmJFbjJHZVpvY203aXRMQ0hPQTdwZWc?oc=5",
-    "rank": 2
-   },
-   {
-    "headline": "Why Saudi Arabia’s Houthi Problem Is Our Problem, Too - The Bulwark",
-    "summary": "Why Saudi Arabia’s Houthi Problem Is Our Problem, Too The Bulwark",
-    "source": "The Bulwark",
-    "date": "23 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSUNxemRIbEN1UnlNWDNnX3BTOTMxRXhfVmFlYzlTSGpqVkpfSlY2bHhnRUNwZHI5T21SVm5PQXk3RzExdTRZMnZ2aVdCMW9CT2JUYTNJT3NjUWRMc3dqY0hpdzJHRW5nemk4ckpnQmF1Rkl0SkxLUndVWm1nWndjTGtoR0dfLTN6LWJJRjVqcDV5OTl5c3ZGMVdoVXQ?oc=5",
-    "rank": 3
-   },
-   {
-    "headline": "How much is UK supporting Saudi Arabia in its war with Iran-backed Houthis? - aljazeera.com",
-    "summary": "How much is UK supporting Saudi Arabia in its war with Iran-backed Houthis? aljazeera.com",
-    "source": "aljazeera.com",
-    "date": "23 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbEdwaTZWdlRTOWJRZ1B6Tmp4dy0xc3lKd21RN00wQmlNR2gwSmZ0ZF9vVXpoV1dsNUV4U0ZZQk0tT05UclBEZE9BZmowV19TbkxWaTNJUnlta3ZIZFJlSEpkZGU0bGNoc1hCRUhrcG5RdXR5dnRQcVZ1dld2ZWNsMVB6NllZdTdvOHEzVXNLZnBNdGJ5bUY3eHU4Tl8yWjM0U2x1MTZUazFDVjNUMDBJNEpfWlo3UdIBuwFBVV95cUxNaE1ySjZYaDF6eHAtNHNxTVFUeTJ2amVZZ2NGd0o5d245NnliMGtrSWxIbS1yWVhGTDktYUFUU0JONzRMWXZ3X19ZMTc0QUpQUDZSaER6RkpWS2VzZmx3b203dFBjT3VrbnhCYkduZDFzcmt3TldLTll1dEFIdWhON0lRWGQ1cno4bGJCODhSWmM5NWtfQ3A2b3pNVEYyLUltcG8zMHVwS25mc1VCMjlGRVBIVmtCNHF1cFlr?oc=5",
     "rank": 4
    },
    {
-    "headline": "Saudi Arabia Wants to Disrupt the Auto Industry With These Radical, Wedge-Shaped EVs - caranddriver.com",
-    "summary": "Saudi Arabia Wants to Disrupt the Auto Industry With These Radical, Wedge-Shaped EVs caranddriver.com",
-    "source": "caranddriver.com",
+    "headline": "How much is UK supporting Saudi Arabia in its war with Iran-backed Houthis? - Al Jazeera",
+    "summary": "How much is UK supporting Saudi Arabia in its war with Iran-backed Houthis? Al Jazeera",
+    "source": "Al Jazeera",
+    "date": "23 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbEdwaTZWdlRTOWJRZ1B6Tmp4dy0xc3lKd21RN00wQmlNR2gwSmZ0ZF9vVXpoV1dsNUV4U0ZZQk0tT05UclBEZE9BZmowV19TbkxWaTNJUnlta3ZIZFJlSEpkZGU0bGNoc1hCRUhrcG5RdXR5dnRQcVZ1dld2ZWNsMVB6NllZdTdvOHEzVXNLZnBNdGJ5bUY3eHU4Tl8yWjM0U2x1MTZUazFDVjNUMDBJNEpfWlo3UdIBuwFBVV95cUxNaE1ySjZYaDF6eHAtNHNxTVFUeTJ2amVZZ2NGd0o5d245NnliMGtrSWxIbS1yWVhGTDktYUFUU0JONzRMWXZ3X19ZMTc0QUpQUDZSaER6RkpWS2VzZmx3b203dFBjT3VrbnhCYkduZDFzcmt3TldLTll1dEFIdWhON0lRWGQ1cno4bGJCODhSWmM5NWtfQ3A2b3pNVEYyLUltcG8zMHVwS25mc1VCMjlGRVBIVmtCNHF1cFlr?oc=5",
+    "rank": 5
+   },
+   {
+    "headline": "Why Saudi Arabia’s Houthi Problem Is Our Problem, Too - thebulwark.com",
+    "summary": "Why Saudi Arabia’s Houthi Problem Is Our Problem, Too thebulwark.com",
+    "source": "thebulwark.com",
     "date": "23 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLTAzN3dIX045Yzg2QkU4Ml9hR2JkVkg1azFKeExzdFlZSmY1cGx4czBvN2htVzhmMUdHOFVTVzRDQU1XbTNEdFZUcnEyLVVULVpkMlJfRk5EN1hXeC1xbFVOaVBIcFduMjd6Q2lvY1lmaVNXSThmRHlnZVhFYUs0UGpld0d3bmsz?oc=5",
-    "rank": 5
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSUNxemRIbEN1UnlNWDNnX3BTOTMxRXhfVmFlYzlTSGpqVkpfSlY2bHhnRUNwZHI5T21SVm5PQXk3RzExdTRZMnZ2aVdCMW9CT2JUYTNJT3NjUWRMc3dqY0hpdzJHRW5nemk4ckpnQmF1Rkl0SkxLUndVWm1nWndjTGtoR0dfLTN6LWJJRjVqcDV5OTl5c3ZGMVdoVXQ?oc=5",
+    "rank": 6
    },
    {
     "headline": "Rubio says US will live up to defence commitments with Saudi Arabia - Middle East Eye",
@@ -2616,7 +2631,7 @@
     "date": "23 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR0QzbFdmYURrS05VZU9VMURmUzI4ZXBPaFBnZHlsVnZsWjhoMmhyZ1FFcERqU1dRSElqNzBsS0haTzdoM085NnBFVGZOWTlJTnFsVWFRcTFjOVItM29TQlV0MndKRnA4aDZjUjZldXpLMWd2bnowRkFrUFlMdkMzR0NObEVsTGRvOGJVRzY3dmg1QTdUbm1udF9ZT2tBemlmMGxpQUpadENoU0gwdWRrek1SbXFlLVFkRVVLODNmb1A?oc=5",
-    "rank": 6
+    "rank": 7
    },
    {
     "headline": "Who Is More Powerful: Saudi Arabia Or Iran? – OpEd - Eurasia Review",
@@ -2625,7 +2640,7 @@
     "date": "23 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNckd5RC1nNmJUNGlnRUoxTFRINGFYUXRhOFJ6OXNvQ0R0dXdrQW12OHFocjZSWUxwbGFBUmczR21GenlEdkNGVXQ0QW9salZ1dDhRMG9Tc2VGOWc2dFhYSTJLdXpMTmJXdVh5X2hkNkhlZG5jeDVrYWo1Sjl0dGl0UzJrQmZFU0dZTmo4blJSYw?oc=5",
-    "rank": 7
+    "rank": 8
    },
    {
     "headline": "Saudi Arabia buys 780 railcars from Oregon manufacturer - DC Velocity",
@@ -2634,24 +2649,15 @@
     "date": "23 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQkFEeFp1OHVYN0VDNldqYlJoYkgxd08xM3lDclpRY1YySmJPNllLVWw0SVZjY2Rnczl3Q1VxTFp0U2N5STlXZ2pwaGVuM3JoRHh1bHBveHRSem5LLWdfRW1UQXJ3ZzEtN05KaDV3Zk9wSFl5Ul9RVjROMEpsVkJnbUxqSWhiZllEVTI3V084UF9uNUdhemhnczFiUzVNZmd1Q0RaTg?oc=5",
-    "rank": 8
-   },
-   {
-    "headline": "Here's What the Houthi–Saudi Arabia Conflict Means for the United States - Council on Foreign Relations",
-    "summary": "Here's What the Houthi–Saudi Arabia Conflict Means for the United States Council on Foreign Relations",
-    "source": "Council on Foreign Relat",
-    "date": "22 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUU1IdmtFdFRYNFEzT1BuRVRpamQxZDh0N3czV01WWGFtbHVYYWZZYmdna3FTVVpFeXd2cjZtSVA1R0c2MEpUdWlXUHRqSzBqQ0MtQ1NsSG1mN2EyVmZtN1o5RDlvVkxGLU5mMVBENXU5ZHFpUWhxX2xRWXNkSEdFbzZraUctOThBMzBoX3VNVGtBYnVsMGRwb0dkRHZDaEsyZU1fZ041V2FjcHR4aThNTTF0LThLcHpKV0p6Z3hKT24?oc=5",
     "rank": 9
    },
    {
-    "headline": "Why have Houthis started targeting Saudi Arabia? - Daily Sabah",
-    "summary": "Why have Houthis started targeting Saudi Arabia? Daily Sabah",
-    "source": "Daily Sabah",
-    "date": "23 Sep 2026",
+    "headline": "Here's What the Houthi–Saudi Arabia Conflict Means for the United States - cfr.org",
+    "summary": "Here's What the Houthi–Saudi Arabia Conflict Means for the United States cfr.org",
+    "source": "cfr.org",
+    "date": "22 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYzRRcUNRX21iQk5BSFd5QlZwRTYxVVdfdUEzQ1FqY0FxTWRVcWhSdlhWaUdYTDEzekllWGQzWHRaM0VIcVAtZGFWd0p1czNwbFVhcVFMOUNjcDNwcXVMMWEybmRuU3VFUWRVLXFjTzRuMjEtaXQ3MjZxaDdxRV9ZTkZ5MFJoNkRpd1RzMDZnWDFhQQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUU1IdmtFdFRYNFEzT1BuRVRpamQxZDh0N3czV01WWGFtbHVYYWZZYmdna3FTVVpFeXd2cjZtSVA1R0c2MEpUdWlXUHRqSzBqQ0MtQ1NsSG1mN2EyVmZtN1o5RDlvVkxGLU5mMVBENXU5ZHFpUWhxX2xRWXNkSEdFbzZraUctOThBMzBoX3VNVGtBYnVsMGRwb0dkRHZDaEsyZU1fZ041V2FjcHR4aThNTTF0LThLcHpKV0p6Z3hKT24?oc=5",
     "rank": 10
    },
    {
@@ -2691,65 +2697,65 @@
     "rank": 14
    },
    {
-    "headline": "السعودية.. نعمة الأمن والاستقرار - عكاظ",
-    "summary": "السعودية.. نعمة الأمن والاستقرار عكاظ",
-    "source": "عكاظ",
+    "headline": "السعودية.. نعمة الأمن والاستقرار - okaz.com.sa",
+    "summary": "السعودية.. نعمة الأمن والاستقرار okaz.com.sa",
+    "source": "okaz.com.sa",
     "date": "23 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Qb09PZjlQdFVkVUJLMmh2V2ZLQmdSLVBfTnFYemRKTFQ0NW04Yk4xQUZtdWxVYTFwN2o1d3J3QXV4bXIzeVJuRWJQRUgybnhka0hHMWVB0gFUQVVfeXFMT3VXa2N6UEFDdklYb3ZOLS1jZE50SU9mYk5aa21ONjJaZ1FueGlseUlYMnMzY19DVElDMnhvR0hpMTRaOWMydDhkNmswZTJzRktUeUVF?oc=5",
     "rank": 15
    },
    {
-    "headline": "اليوم الوطني / المملكة في يومها الوطني.. مسيرة عز - spa.gov.sa",
-    "summary": "اليوم الوطني / المملكة في يومها الوطني.. مسيرة عز spa.gov.sa",
-    "source": "spa.gov.sa",
+    "headline": "اليوم الوطني / المملكة في يومها الوطني.. مسيرة عز - وكالة الأنباء السعودية",
+    "summary": "اليوم الوطني / المملكة في يومها الوطني.. مسيرة عز وكالة الأنباء السعودية",
+    "source": "وكالة الأنباء السعودية",
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1iNlozenpsRG9GelJYejdCcDhjZmlsSDF6U1pnQlBMZDF6TFNLX2FKWlhLdGtHN1diQnVFQ2ZQNlBEeGpOamc?oc=5",
     "rank": 16
    },
    {
-    "headline": "ملوك المملكة العربية السعودية الذين حملوا الراية بعد مرحلة التأسيس على يد الملك عبدالعزيز - al-jazirah.com",
-    "summary": "ملوك المملكة العربية السعودية الذين حملوا الراية بعد مرحلة التأسيس على يد الملك عبدالعزيز al-jazirah.com",
-    "source": "al-jazirah.com",
+    "headline": "ملوك المملكة العربية السعودية الذين حملوا الراية بعد مرحلة التأسيس على يد الملك عبدالعزيز - جريدة الجزيرة",
+    "summary": "ملوك المملكة العربية السعودية الذين حملوا الراية بعد مرحلة التأسيس على يد الملك عبدالعزيز جريدة الجزيرة",
+    "source": "جريدة الجزيرة",
     "date": "23 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nN2xwSlBxTXVySEgyZElnVmlxbzFyR2p5SEtsZWo3b2d2UndUaV8wX2IzWWRuM3BFYWx4VThQRlhHYVpLb1RhT2VUcWtaQl8wRzhZeFZ0eXJpMld2?oc=5",
     "rank": 17
    },
    {
-    "headline": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين - DW.com",
-    "summary": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين DW.com",
-    "source": "DW.com",
-    "date": "23 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxPTURPMFJHLUxqVjhYV2M4Rnp1cDFjVDRTS3FZb1c4cjFJTkJsT0pnZTNyRWpZLTNuaS11MUp2QjZYNGFTRHJLcFdBOVlOTlJIX01VWUsya3pWcDc3UFdILWY4S1g5aXVmTU1nWE03aXB5dnlzdlg5U2ktNDV4ckRJcEZKamNXNG90V0NGREhNLThySEhiSUhqb3BLSHUwR3ZaU0FOOWdsc2lrNGpGal9mdXh6OWZrbkV2aUNhZkRsbVlOdFZPN0VuQkFwdl9vREZKb2VkcnREOHZBLWxVeklmc1NucFB5MTY3UjNaWm5sd2N0QWtrU3h2V1NObHM5TFFmbC03Y1VhTjFJNzRXQnFFSWNHMmdKeEZqbWJCSElfallrUGNEeDRlQ0pXVHNJUzNGZUxtcEtHeFVucUJrLUJoc2t0ZGhSQmpOT3E3ZEZaR2ppWi1RREhfcUVReFFPRkNaX09kN2E0ZW5NVzMzTXRWSTdaQXZiRzVGM1NJYnRSOXdUSmhsc2J5ZGtaeHVrWnN0c1RfcThwNi11Yk82bXl5bFBwNG1URzlY0gGoA0FVX3lxTE1MV0M0WUMtMS01WHc4R2JKM2oxZnJvMFRzTVA2MGRSWE4wRjJoOUlRNldLQThQSk11VFRBdzFxck0td2xidzgxM083SDBlWktER0JwVm1kdEhSdjctTVpuZ3VYMDV3MW5DdnZGNDRUNXRyQTE2aHJBYmVtbi1FdUp0WWJJQkNmb2J5Q1N5V2xQaHNLc2VWdlBoTnEwWGRyUzRJcVc4QTJtU0xsY1ctUWg4V3NjeVU0TEJ5ZmJ0b29ZNUFBX04wcEJsN012M1hQM2QxLXlNMzFZQTRxWUNXQ2hqWXdabUlSU2tNOFV6bm9TcHJBYVdVM1dTOW50c0dwY1haYnV0dW44WUk4RmVkcFZLbzFCWnhIalZiV1hZaTVxdXZsMHRES3ZZcDBMU3A0MVd1NTltZjZ2OGEzQzEyUldoY0JSdXRJNjZMb2VvN09heTF1X2VzTzMza2ZpcUhGZ180VWRpaVFNanpjQ3oycUE3ZHhFZ0pXZU9wZGZlY2VWSnZvRUxnSHdFZzEwM0dEOEdxLXc4TVFTLVNNTEF4OHd3NndGbm9iQXE?oc=5",
+    "headline": "المملكة العربية السعودية تنفي ادعاءات العراق بشأن شراء ناقلات نفط - Investing.com",
+    "summary": "المملكة العربية السعودية تنفي ادعاءات العراق بشأن شراء ناقلات نفط Investing.com",
+    "source": "Investing.com",
+    "date": "22 Sep 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1KTXltYmdKbHZKNUVGTHllR0RFVUltU3FxbjJMRUxqYzU5bmtDSG8xeTA0aXE4MTFoVzdqYVU2MXBXZ3J5RDZwMU1uM2tXQldickNLMFB1XzRNeGlnYjF4R1dQb2JmMU1TRy1mX0R2Q09qLUZJMVJR?oc=5",
     "rank": 18
    },
    {
-    "headline": "يتعلق بمدينتين في السعودية.. سفارة أمريكا توجه تحذيرًا لموظفي حكومتها - CNN Arabic",
-    "summary": "يتعلق بمدينتين في السعودية.. سفارة أمريكا توجه تحذيرًا لموظفي حكومتها CNN Arabic",
-    "source": "CNN Arabic",
-    "date": "21 Sep 2026",
+    "headline": "الولايات المتحدة الأمريكية تهنئ المملكة بمناسبة اليوم الوطني السعودي - جريدة الرياض",
+    "summary": "الولايات المتحدة الأمريكية تهنئ المملكة بمناسبة اليوم الوطني السعودي جريدة الرياض",
+    "source": "جريدة الرياض",
+    "date": "23 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVVZxSWJyRGZtbTFPMEtsWmR3UmhiR0JTYWlLT0wwd0Q1TlpJT1RzeDhDVWtaTF9FbVlrSk5seHpwMUJFcXZzTnVEdDg0YkZJSkVMT09rNG1nNG1wcVV6RmNwQVlzR29vdGpyV25vNVR5c2dWQWlNelZXUFE5cEs0ZzNEMlozZklXUUtEUkJPajdGdS1qWE1iUUN3ZkIwMFdoeEd2em1wcTB2dw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5LajNTb2F2XzVXNmtvc0dtbVBDZTNqV0RwLVZvX0xOb2hLVVhjalB1NGhqTXlPalQwMkR4QnZobGJTdk9oTnFj?oc=5",
     "rank": 19
    },
    {
-    "headline": "مجموعة فنادق ذي كي تهنئ المملكة العربية السعودية بيومها الوطني الـ96 وتقدم عروض إقامة خاصة في البحرين - الأيام البحرينية",
-    "summary": "مجموعة فنادق ذي كي تهنئ المملكة العربية السعودية بيومها الوطني الـ96 وتقدم عروض إقامة خاصة في البحرين الأيام البحرينية",
-    "source": "الأيام البحرينية",
+    "headline": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين - dw.com",
+    "summary": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين dw.com",
+    "source": "dw.com",
     "date": "23 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0xRHVVNl90RmI3QXFscXZ2b1IzMkxJVTE1MXUtTTM5NHBqb0N5WlFfNng3eGwxOEZtZmo0R2h6SkRlbVVDSG1MTThEemJwQ2pLckpxUXg3TzVfRWpiTF9MVjMwTdIBakFVX3lxTE1BcEZ3dDcxMGJtT3Qxbk16WkJnT25BcHpyRHVmaDB0eVVhOGFHbUxlUkZZNHlIYWxoRjFFTEd4TUNPY01XeW5ySlRUVWZvekF1bG5reGNvS3NkVEs5ckk2bHR2eFdRVW96MGc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxPTURPMFJHLUxqVjhYV2M4Rnp1cDFjVDRTS3FZb1c4cjFJTkJsT0pnZTNyRWpZLTNuaS11MUp2QjZYNGFTRHJLcFdBOVlOTlJIX01VWUsya3pWcDc3UFdILWY4S1g5aXVmTU1nWE03aXB5dnlzdlg5U2ktNDV4ckRJcEZKamNXNG90V0NGREhNLThySEhiSUhqb3BLSHUwR3ZaU0FOOWdsc2lrNGpGal9mdXh6OWZrbkV2aUNhZkRsbVlOdFZPN0VuQkFwdl9vREZKb2VkcnREOHZBLWxVeklmc1NucFB5MTY3UjNaWm5sd2N0QWtrU3h2V1NObHM5TFFmbC03Y1VhTjFJNzRXQnFFSWNHMmdKeEZqbWJCSElfallrUGNEeDRlQ0pXVHNJUzNGZUxtcEtHeFVucUJrLUJoc2t0ZGhSQmpOT3E3ZEZaR2ppWi1RREhfcUVReFFPRkNaX09kN2E0ZW5NVzMzTXRWSTdaQXZiRzVGM1NJYnRSOXdUSmhsc2J5ZGtaeHVrWnN0c1RfcThwNi11Yk82bXl5bFBwNG1URzlY0gGoA0FVX3lxTE1MV0M0WUMtMS01WHc4R2JKM2oxZnJvMFRzTVA2MGRSWE4wRjJoOUlRNldLQThQSk11VFRBdzFxck0td2xidzgxM083SDBlWktER0JwVm1kdEhSdjctTVpuZ3VYMDV3MW5DdnZGNDRUNXRyQTE2aHJBYmVtbi1FdUp0WWJJQkNmb2J5Q1N5V2xQaHNLc2VWdlBoTnEwWGRyUzRJcVc4QTJtU0xsY1ctUWg4V3NjeVU0TEJ5ZmJ0b29ZNUFBX04wcEJsN012M1hQM2QxLXlNMzFZQTRxWUNXQ2hqWXdabUlSU2tNOFV6bm9TcHJBYVdVM1dTOW50c0dwY1haYnV0dW44WUk4RmVkcFZLbzFCWnhIalZiV1hZaTVxdXZsMHRES3ZZcDBMU3A0MVd1NTltZjZ2OGEzQzEyUldoY0JSdXRJNjZMb2VvN09heTF1X2VzTzMza2ZpcUhGZ180VWRpaVFNanpjQ3oycUE3ZHhFZ0pXZU9wZGZlY2VWSnZvRUxnSHdFZzEwM0dEOEdxLXc4TVFTLVNNTEF4OHd3NndGbm9iQXE?oc=5",
     "rank": 20
    }
   ],
   "regional": [
    {
-    "headline": "The Middle East Still to Come - theatlantic.com",
-    "summary": "The Middle East Still to Come theatlantic.com",
-    "source": "theatlantic.com",
+    "headline": "The Middle East Still to Come - The Atlantic",
+    "summary": "The Middle East Still to Come The Atlantic",
+    "source": "The Atlantic",
     "date": "23 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNci0ySFNaVVpRYndXQm9YVWxPbG9kYlg4T2VBTHV2NllUMEFNU1BGbHZmcHBoTktCanY3ZU53UzBjLWFkQUFtelpRTXpKc19CTVpkTVV1RTFSd1U2Z3lEMFJoamlWbm94VVVzSkw4M2MteUd3Z3F6cEdmQ181aFFaX0Rn?oc=5",
@@ -2774,12 +2780,12 @@
     "rank": 23
    },
    {
-    "headline": "Trump’s meeting with Arab states on UN sidelines displays US Mideast strategy during war - analysis - The Jerusalem Post",
-    "summary": "Trump’s meeting with Arab states on UN sidelines displays US Mideast strategy during war - analysis The Jerusalem Post",
+    "headline": "Marco Rubio says US committed to Saudi defense agreement amid Houthi threat - The Jerusalem Post",
+    "summary": "Marco Rubio says US committed to Saudi defense agreement amid Houthi threat The Jerusalem Post",
     "source": "The Jerusalem Post",
     "date": "23 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1VcG9qb1JKeXFzVm5ycTFVMUhlTmVnYURiVlY1U1BZOXNOYm83SXhjUElwZUdTZE5XU1ZkZkpUV1g0UFZ6cTF6bUZwc1RCcExRWm1JOTRfZDVUTmVC?oc=5",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9wV1EteUJQUDRPOE5ZUnJ0YWx4bmpzcms3Um1FV0tfMVFyaFdiS2NWTk9xTE41WldIUzBzZ3puZlNjMV9oTlpSNkk2QUxPQzhrc0hPRWJGNVVjUlRf?oc=5",
     "rank": 24
    },
    {
@@ -2792,12 +2798,12 @@
     "rank": 25
    },
    {
-    "headline": "Iran Update, September 22, 2026 - Institute for the Study of War",
-    "summary": "Iran Update, September 22, 2026 Institute for the Study of War",
-    "source": "Institute for the Study ",
+    "headline": "«سير» تكشف تفاصيل «إكزوبوت»... أولى سياراتها الكهربائية السعودية - الشرق الأوسط",
+    "summary": "«سير» تكشف تفاصيل «إكزوبوت»... أولى سياراتها الكهربائية السعودية الشرق الأوسط",
+    "source": "الشرق الأوسط",
     "date": "23 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOUJPMGpFQ3NUc2VFYkxZMFdXNE9MYkpNeFM3eFQyeVhGU0tRVkctUkt5WGYtckFRTmNjZVZHMm1Cc1pDdTYxQkhXNXoxODRqbGJrMzVKVWV2cXlGNDFqVDkxeUxLX0hDOE1xOWxhYk5EeWlxTGt4WVJPZ1l1OXhIMl95MThmTHM?oc=5",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMitARBVV95cUxPaVU0RHd3WVFvREUwT3BVbmxZdVhwYzIyNml4VEhjM3VLZU1PcVBUei0tTThEczJ5VW9UdEtMN0VqaVRxVXBvcEJibkVEQkpvN3BuMEJCM2MwT3k4MkVNRUlIdjVjTWllWngxY0xhYlFaZnhaRk1hYWlvWmFxb2xEbDJpXzRDRS1jNzktNEdOVkk0LXpvTzVxei1qQ1hwQURGdkg0UXlCZTBnRXJvR2FWb2ZjWnIwWWw4LXh5MUxVcXM3LXEwTGQwQkpOM05CeTRxUURzMHkxUEY4Vi1zSGFHdmo1cjh1eHhBSXRIejJKdGZVaUVfOGZXRXo5QU5RVEhleHNDUVFHZVJXQW9DYjdlbks3MXVkQXVWZXR1ejFwUjNNM3FPZUMzbXhJSUFoR1pqUnVUbnZjMXN1Wjg0ZnJGQ2NaOFN2OFFpVmdYM0l2Q09nbHgyNWV2QllNOFloTnpWNUNONWVmM1cyQi1hMzZqckEtSVd2ZzNkQUp2NVpmWGFZQWloMjBUa3ZHZnV4aTlBYmVvY3Nra0hvcThJQjRUMzdYVHRfd2wxVHpoY3dLOW9xUkhCV2RXSVRodHo2QUFiNnNmdUVPcmx4TTk5QUNGVGMxS0xCOFoyMHZSeG9xOWR1bzdvSXlsV0N4WFZfamFIUjM4dEh0a1RpYzlNUi11N084ZkU5cERZVG1mNzBNR0ZfTWxwb2s2Rk5NSUxzbkpVQUpCbGJla3hqbHd4MXVqOWJzcnY?oc=5",
     "rank": 26
    },
    {
@@ -2819,22 +2825,13 @@
     "rank": 28
    },
    {
-    "headline": "«سير» تكشف تفاصيل «إكزوبوت»... أولى سياراتها الكهربائية السعودية - الشرق الأوسط",
-    "summary": "«سير» تكشف تفاصيل «إكزوبوت»... أولى سياراتها الكهربائية السعودية الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "23 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMitARBVV95cUxPaVU0RHd3WVFvREUwT3BVbmxZdVhwYzIyNml4VEhjM3VLZU1PcVBUei0tTThEczJ5VW9UdEtMN0VqaVRxVXBvcEJibkVEQkpvN3BuMEJCM2MwT3k4MkVNRUlIdjVjTWllWngxY0xhYlFaZnhaRk1hYWlvWmFxb2xEbDJpXzRDRS1jNzktNEdOVkk0LXpvTzVxei1qQ1hwQURGdkg0UXlCZTBnRXJvR2FWb2ZjWnIwWWw4LXh5MUxVcXM3LXEwTGQwQkpOM05CeTRxUURzMHkxUEY4Vi1zSGFHdmo1cjh1eHhBSXRIejJKdGZVaUVfOGZXRXo5QU5RVEhleHNDUVFHZVJXQW9DYjdlbks3MXVkQXVWZXR1ejFwUjNNM3FPZUMzbXhJSUFoR1pqUnVUbnZjMXN1Wjg0ZnJGQ2NaOFN2OFFpVmdYM0l2Q09nbHgyNWV2QllNOFloTnpWNUNONWVmM1cyQi1hMzZqckEtSVd2ZzNkQUp2NVpmWGFZQWloMjBUa3ZHZnV4aTlBYmVvY3Nra0hvcThJQjRUMzdYVHRfd2wxVHpoY3dLOW9xUkhCV2RXSVRodHo2QUFiNnNmdUVPcmx4TTk5QUNGVGMxS0xCOFoyMHZSeG9xOWR1bzdvSXlsV0N4WFZfamFIUjM4dEh0a1RpYzlNUi11N084ZkU5cERZVG1mNzBNR0ZfTWxwb2s2Rk5NSUxzbkpVQUpCbGJla3hqbHd4MXVqOWJzcnY?oc=5",
-    "rank": 29
-   },
-   {
     "headline": "«سير» تراهن على بناء صناعة سيارات سعودية متكاملة - الشرق الأوسط",
     "summary": "«سير» تراهن على بناء صناعة سيارات سعودية متكاملة الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "23 Sep 2026",
     "tag": "housing",
     "url": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxQNWFGcV9iUEFHU2Z3cEdySDhuVEdMOU1vdHFpZk5neEpqWk5rLVZIekVxM29mNmlZam9GMDd2dldFa3lXVmRsdjA2eElFMFBpc3lmUUNXd2lLVjZuSmFNQzRqa0pYRE9SWnkzN1hhUllZT1AxVmo5ZWFRVTNTcU41b2VIbHJLaDRlanYtNWNVN2RMQlpGRnhueDB5RDItMUQ3YnFGS3p6X0h0SUJQVjZQcTd3Z1F0NkxWYzFxWUUtSHExNDN1RTRodkMtT0YwcDQ1THdkakdDV1h6ZVVnNFZLamtyY0FfaEZxRG56QmlWeVNqSDJUYWZURWpDVmstb04xYnczLV85eWc3THV2QWpodm5WNnNucDQ0UlZfM3d5R2daWlpkVmVJUVRHcWNjSThNcWRWY1ZxemExSVFORzJ6LTJrX1ZJM1pRUElkZUlEUWkwa0tYS0tCdFVfYzBWaGVPU3BZc2hCZ1dEZ0tHOFZOU3JLZURCem1XazRLSVJmMHRsaFpnQnZNMXJFOGZvLWJ6eGMwaGNPWHR1QTQzX3lqTk03ZHdtLWZVdWtURTFCZ1p6cE1jdjB0NEI2LVAyb3ZzbjQ4?oc=5",
-    "rank": 30
+    "rank": 29
    },
    {
     "headline": "بُعد بين أبعاد في عملية استهداف السعودية - الشرق الأوسط",
@@ -2843,16 +2840,7 @@
     "date": "23 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxOWmFVdUNYNVdvZHVwTDB1OThxOGhub2xzNzB0NUxkSDMwbEpvYldwa0VFaDdEdElrWWZSbGJDWGlQb0d4RHZfSHUwdUFzT0FCdTMzbmpoVTJzdTZxMnVEYUJpam9VdHNoS2dxVFZvdmRKcWc1SHBsZG1BOEVkZnNlSHUzZUxSZVdkTkNhU0UtT0xPa29BVVRDQTZKNmdXdjRBVlJVYm5FUnY2NHFib1lscHFWQWxhaWdleGtpVzJaZG0tMGZRbXVVWFBLTlNrbnR3VUN3X1hMY3ZKZlhKRWZuTHpuWjktZFM1cmQ0U3VYSTJxVV9MYXN6R2pJUm1yWWpPalZKdDQ5QVAzZlB1cllBV1F3VlhmdEpNWkZuQ3BNaDZOa1dpX0g0QVFnWmY1UGVKTDc0M1FrOHhNdTJGQlZKMEZSbDVSOTRXb3pCaGU5NWt1ZDZydEFqTFZoMTM4V3JDeHRuMk43QU8wR3lvcUhidFBneUtROXlpdG03UWFUYWI2UQ?oc=5",
-    "rank": 31
-   },
-   {
-    "headline": "السعودية تعلن «زوال الخطر» بعد إنذار مبكر في جازان ونجران - الشرق الأوسط",
-    "summary": "السعودية تعلن «زوال الخطر» بعد إنذار مبكر في جازان ونجران الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "23 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi0ARBVV95cUxQSEpuQURFSkJuUzczZ1RGT2hmSi1JWlR5dURYdE00cWEzWXcxNDQ0U1lfemZOeUFRRUhvWUlJZWNQaHdGMVFnMHJydWwtNXJsQkFlRDJRRmpuVHc4N0NWdTZweUVMa001Tm5XWWVsZEZUbFJHS3ZWR3BvU090eENtMGctQ01OdGdnN3pDTWpWdWw2OTBoVXJlczAwak5LMEZRQ3oxcUhxdVk4MktndGNtQVI3U3JCMVpvMXRLTE04OEUxMm5XZjZrRl9sb2JiZHg1QnhkVGJ2c2NBNXNOUnNHazNtRktvSjVQVUpiU2JNSU4xQmtaa1NHQ3cwbDZIU05aRFZsWWdWODdYdk9HcEZremFIZXhoSUd4Mm1rRmlwOWJrcDY2bmZrQjVSblVRc3h1WWhkbmxOcGdYVkl1Z015MFZmWExrbDNleWU1NnNpQU03dzYteU50NmNZdTRpaFR5RkZtQkYtWkVIUGRiM0RFc1kxekFSSm1SVmJEMU96eWY3Y1JsUF9ZT0VJOGN2YkN0LWwwd3dDTWUzY0l6Q2s1aHFSNUlQZWVtSm5wUUpTR3dpQTlBZXZEQVFoZXl6TFlfTGpHeHJ1d2c3OGVKNHlkeGk4eGRKNkVTRTg0OTZIMzY1U2kzT3hqam5ZdnhjcHNaVkZsZHJmNmN6YzZwTVZxWFEwV0cwVW9SMERkMzF0MzRYLXZ6ekRwYUxUTnY2YmJlVlZkMmJLMnZPQVBYRC1Rc1NfVk54OXVaS3pnSmpBNU5ISExqdGdQazhQd0NfREw4?oc=5",
-    "rank": 32
+    "rank": 30
    },
    {
     "headline": "الجوير يعتذر... و«تراكم الملاحظات» وراء استبعاده من المنتخب السعودي - الشرق الأوسط",
@@ -2861,7 +2849,7 @@
     "date": "23 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMijwVBVV95cUxOSTFJTHRCUjZsMGtzakctclhJbl9OOVdxR2VreVpSaWVHNTAtMkJ2bFhIWFZlT2dYVXNaZ2kwdk0tNDBmSmwyZzRHbXVsQkxvZC02UGtfZmZhQ1I5QlhXZDdmWEpfc3BCa2NWcnYySEZOU1lXd0FkdEFCUWNVZERIR2pjRklHQmY5dGtETnhVZEJSaGlMdS0yR1plY0hLRGZFVkxBd0FpNzI4eFJSQkc5TlR0ajB4aWVSTWVTNEhPX0tXVHpmcGZ4azVTejl5RDBiXzZBQ2k2OUdJbmxRdjloei1WZmx1SW5iLWFDUGxydXVRZ0JLVE5FY1JIbTdXMTV3VFpRbGhGVzNTbUNrTFoxYmxqMmZaVGdibzlYbFRTSHRRc0w3VmJPMTdMeHhCdUM0QmRDbVAxRmFBRWFsMTRmRW51eDl5cDFqamdfREJ0Z182dTgxOG12eVRzN3VJN3pDMnhLbXh4X016R0tGZ0hvTVhBUUFTNnQybmlNSmJsaXBRbnZ0RUV2MzB3S3FFSjRLLWtQUzEwdnhpSlZRa1p5TXN3TEVBUmlxNDdTMXRWWTlyX0RWSlBKeXVfWmhwWlJYNzRFak1TU3h6UEpfOXVkWk50YmV2a0xoTko5eVVfUEtFNzhUb3pLVGppOHdOR0xVcGNnRFg0QnllYU0zcWh3UlBhOEZsaThYVERXeEl0TUZLYlpSa1FaWkN4UmZhaTNDWUlOZ2pJRkRZNXR0akttYnZOMzVYSy04US14TUNyMXpYRjJlOFhjalhVNWJKMWtqVHgwd0FqbFhJN2xDZmkwd2s5WlJqSnBZNnlYSHdIRDhHY2s1aHlSazFOVFdHU0FWcnM1YlpkRVZHVFNsdWc4?oc=5",
-    "rank": 33
+    "rank": 31
    },
    {
     "headline": "الملك سلمان: السعودية قامت على أسس راسخة لحفظ العقيدة وإقامة العدل - الشرق الأوسط",
@@ -2870,7 +2858,7 @@
     "date": "23 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMimgVBVV95cUxNb0I3NVlYVDRPVndmY29RSDdDRklBQmU5VE94YnE5TENfcjVZS3lZWDVVYUV3OXg0ejBuR1Rhblp0TkxfeWtFdTZISWduSDlBaTFLVTdRa3ZydEl6Zk5mLTZ0cE9FSWJCcWJ1dUNaU3Y2dVB6MnAtb2JSN1M0cHl3Vm1PVmRCVUp2TnV6aXloNnBGcTRuLVF0Ul82NEc1RnpCWlRzTzhtOURtamN5b1BEQ2xheW81YkVpNDZFbFQ4MVBETUtvYjFqUGJJQl9zakhhcXBHMDR3Z044Z1pRLWFPXzdEVXljbVkzRUppeDYtTUFLRTFGbWJEbTlfOVNQTFU4OTlfUmx0UF85bEplOEJyZUFQWHJudVJwNzlRYW4xZ21peVN0M2FUdzFNSm9NbFJmckNibXZBMjB3VEV6SVFxT00yUEt1RXp3Z285bDR3N2tmM2xxVlpqZXk2a183TnE4U19oR3E5bDJreUFHWXQ0T3ZJd2NpWExoMXVlS0x1ZW9CNHR2TEZzeG16dzVNSU42bVZPVl9EamY1YkVIRzBJMFh5Z2JnSjdVaXdiWGJ0OXR5NFRhVFEwcW1iUHpJamxKb2pxOWQtbVFCX1R0ZFl5WjJkaTVOaDNPYWF2YUlwTlNoaUNkR1I3ZlRzVEwyRkFaWU1lazFMT0gxbk1JbEpKYUdEd2xnQ0o1bzJzbkl5bGF1NVhDRTdDd2hEZ1RQX1o4ek05T2MwMXhJYndGbHBOOUVnZFVuc3BZLXpjZHpfSEZMQzFCYnRKQktYYWdPb3d3YldJSGQ1WXBCQWpiTkdKSnBwdS16N2NpV1pPbmdYOE1zSG5CTFpxMnlra1dCckZCTzhNb19ubWhVVzZUVFI2M0xseklveVUwTnc?oc=5",
-    "rank": 34
+    "rank": 32
    },
    {
     "headline": "القيادة السعودية تعزي نائب رئيس الإمارات في وفاة أحمد بن راشد - الشرق الأوسط",
@@ -2879,7 +2867,7 @@
     "date": "23 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi-gRBVV95cUxOQWpLaGlSN0xOXzNwOTE4ZlRhdGtxdFdnSmVDNVhIbWFTQ205cDlWWXBFcUtMcTktd0REWWE0RlJQcktveHdGdW5hMVdCajlYZjhwVnFweVpsZU8wbUxORkE4bC1sbDlJNFJxdjg1Znd1M3A5WnpvVTdTMlV3eUQtWFdmQ3hPNFZpUV9fQWVZUGhtOGJ6LV9IbFJ3UnFmZnpDckhYMDhQRzRQQzRYUDRBTmlaazFtaTdlNFBYYWZDV3N5blVVTGZadEpqNEJiVEVFMEZqWnVkQm51YW5NNG1OVC1lTkZhSXhjOUZTc1BXN2NFWmlWQ19zUjNJTGJ6RXlucUItOVVEdU5qRldkc01VYS12ZHZBeXk0WjNRQ2REZUpZWGlIVzJqYW01SlhYd05nWWZ0dXI4R08zV214d2NqQUYwUEdXWDZvVi1DMFRVZVhvUHFZV0dDcVlhdDRLUHJpcDJIX05pM21Yd2p3UVhOUGZidDBQYm5zMmF0M1dKNDhkNHk0MzZUeThsQjFneVlEamlQZTM4VjZtTDZNSVViZGxrSUdBc0VoeE9QMkNtWGVfRGY2MnlldG1PdVlmVHM1aHdHZWVSWmtNVEdoR21CdERDQkFHaVFEWUZaVzFidlRKQU40N3h3dUV6ZkM2bTNEMW55VGdKZEtzS3VPa3J4eUsya0VxZW5fODVTb19mcXdvVGpmWHR5WnZtMTlxc2FoajhodGU1RDlieGRZRlBkOTZRUjZFUUNFaVk3WHRPcjl1QXZkM0N4X1lxOEFPbFhpdjlVd2hRQjVVMnN6WUN6U0FZbFd3YUxIM0pxTkd5NTRwR3UtVWxaeVpR?oc=5",
-    "rank": 35
+    "rank": 33
    },
    {
     "headline": "البعثة السعودية في دورة الألعاب الآسيوية: «عزنا بطبعنا» - الشرق الأوسط",
@@ -2888,7 +2876,16 @@
     "date": "23 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMixgRBVV95cUxPaVdWdnE5aWxrTVN0eFhRLV9JRGhBVU5OR0gyQ3Rrd3ZweDVjLW0wUm5IdE50cy04S3o0LVVjckJlYUxIUElwb29BanA0WEM2SEVBbnpxSm81NVZ2cExsVDBOV1NvRV9ZUUR0TFlHMGFkQVd3NGJNY1lXS0xFMzloMmp3YTBtTVY0dHFXcFBsNVd2aXBfYXFLQW1vWjlxODVPOW9oc2VUTVNyeGZmMWxzWmVSaXMwOEY2V2pKT1RScV90QWNYTGk5UzNEX0poZVhPMl9GR0ZXdzFlVjc4S1poMzEtU2wzdVd2c0FfejJudnZ4WDFianFwdmlpcGVNbm9OT3l5b3lfZWlrUkZoUVJPa29FRzZDekNCaEFvZmZrMEMtZl9EdUlVVEdOM2hiMlNfbVNRQnlRQXBwOWFEQkpiUEIxSkxpWV9fTVplQ2s3U3RiVXJGeGpDRTlpV19hRFJhQzZvODFZNVhXYzJCNXZrZFJod1Q3OXc0TkNZejVkNF9ZaWRJSmM4a1RwdFoxUVFiajhGYXJMcWJMZ3hHekJJVERBcVU5LUZRNGFEVWRiMEVPNUpHYmJwdU4yNXZRalg0clZqMkVlaVU4aFRxb0pZdU54R2h1YUlpNTZBajNJZEprRHBEenEtLTJ0bHZDNVhUSnc3RkJ1UDMyS0RvLVM3OG9sRU0wc1Jsb080REdVYVEyNHZWYlNialBpWWJESmJfbHNaS2h4eEdPSS1ZX2dtUGRIdUxzYU5FOW9oSUhHNkRkMXJKS0E?oc=5",
-    "rank": 36
+    "rank": 34
+   },
+   {
+    "headline": "السعودية تعلن «زوال الخطر» بعد إنذار مبكر في جازان ونجران - الشرق الأوسط",
+    "summary": "السعودية تعلن «زوال الخطر» بعد إنذار مبكر في جازان ونجران الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "23 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi0ARBVV95cUxQSEpuQURFSkJuUzczZ1RGT2hmSi1JWlR5dURYdE00cWEzWXcxNDQ0U1lfemZOeUFRRUhvWUlJZWNQaHdGMVFnMHJydWwtNXJsQkFlRDJRRmpuVHc4N0NWdTZweUVMa001Tm5XWWVsZEZUbFJHS3ZWR3BvU090eENtMGctQ01OdGdnN3pDTWpWdWw2OTBoVXJlczAwak5LMEZRQ3oxcUhxdVk4MktndGNtQVI3U3JCMVpvMXRLTE04OEUxMm5XZjZrRl9sb2JiZHg1QnhkVGJ2c2NBNXNOUnNHazNtRktvSjVQVUpiU2JNSU4xQmtaa1NHQ3cwbDZIU05aRFZsWWdWODdYdk9HcEZremFIZXhoSUd4Mm1rRmlwOWJrcDY2bmZrQjVSblVRc3h1WWhkbmxOcGdYVkl1Z015MFZmWExrbDNleWU1NnNpQU03dzYteU50NmNZdTRpaFR5RkZtQkYtWkVIUGRiM0RFc1kxekFSSm1SVmJEMU96eWY3Y1JsUF9ZT0VJOGN2YkN0LWwwd3dDTWUzY0l6Q2s1aHFSNUlQZWVtSm5wUUpTR3dpQTlBZXZEQVFoZXl6TFlfTGpHeHJ1d2c3OGVKNHlkeGk4eGRKNkVTRTg0OTZIMzY1U2kzT3hqam5ZdnhjcHNaVkZsZHJmNmN6YzZwTVZxWFEwV0cwVW9SMERkMzF0MzRYLXZ6ekRwYUxUTnY2YmJlVlZkMmJLMnZPQVBYRC1Rc1NfVk54OXVaS3pnSmpBNU5ISExqdGdQazhQd0NfREw4?oc=5",
+    "rank": 35
    }
   ]
  },
@@ -3111,80 +3108,80 @@
   },
   "#اليوم_الوطني_السعودي": {
    "english": "#Saudi_National_Day",
-   "summary": "Saudi National Day, marked every 23 September to commemorate the 1932 unification of the Kingdom under King Abdulaziz Al Saud. It is the country's biggest annual civic celebration, with flags, fireworks, concerts and heavy brand activity, so the hashtag spikes in the week before the date.",
-   "kind": "news",
+   "summary": "Saudi National Day, marked every 23 September, commemorating the 1932 unification of the Kingdom under King Abdulaziz. It brings a huge annual wave of green-themed posts, fireworks and airshow clips, brand campaigns and patriotic content, and the conversation carries over into the following days.",
+   "kind": "social",
    "confidence": "high",
-   "at": "2026-09-17T03:35:14.478082+03:00"
+   "at": "2026-09-24T04:00:25.014770+03:00"
   },
   "#مدرسة": {
    "english": "#School",
-   "summary": "Simply the word \"school\". Chatter under it typically clusters around the start of the Saudi academic year in late August/September — timetables, uniforms, homework complaints and back-to-school humour — though a viral school clip or story could equally drive it.",
+   "summary": "General school-related chatter, driven by the Saudi academic year being underway in late September — parents, students and teachers posting about schedules, holidays around National Day, and school-life memes.",
    "kind": "social",
    "confidence": "medium",
-   "at": "2026-09-17T03:35:14.478082+03:00"
+   "at": "2026-09-24T04:00:25.014770+03:00"
   },
   "#اليوم_الوطني": {
    "english": "#National_Day",
-   "summary": "The shorter form of the Saudi National Day hashtag for 23 September, the anniversary of the Kingdom's unification. Both versions trend together in the run-up, alongside the \"23 September\" trend also on the board.",
-   "kind": "news",
+   "summary": "The shorter form of the Saudi National Day hashtag (23 September), used for congratulations, patriotic imagery, celebration photos and event listings across the Kingdom.",
+   "kind": "social",
    "confidence": "high",
-   "at": "2026-09-17T03:35:14.478082+03:00"
+   "at": "2026-09-24T04:00:25.014770+03:00"
   },
   "#عروض_اليوم_الوطني": {
    "english": "#National_Day_Offers",
-   "summary": "National Day retail promotions. Saudi Arabia's late-September holiday is one of the year's main discount seasons, and retailers, telecoms, airlines and e-commerce sites push deals under this tag while shoppers swap and compare them.",
+   "summary": "Retail and e-commerce discounts timed to Saudi National Day — one of the biggest promotional windows of the Saudi calendar, covering electronics, cars, restaurants, travel and telecoms. Brands and deal-hunting accounts push the tag hard.",
    "kind": "business",
    "confidence": "high",
-   "at": "2026-09-17T03:35:14.478082+03:00"
+   "at": "2026-09-24T04:00:25.014770+03:00"
   },
   "#سهيل": {
-   "english": "#Suhail (the star Canopus)",
-   "summary": "Suhail is the Arabic name for the star Canopus, whose reappearance in the pre-dawn sky in late August is traditionally read across the Gulf as the sign that the worst of the summer heat is ending. It is a recurring seasonal talking point, and is also a common male given name.",
+   "english": "#Suhail (Canopus)",
+   "summary": "Suhail is the star Canopus, whose reappearance in the Arabian sky from late August traditionally signals the breaking of summer heat and the start of cooler weather. It is a recurring seasonal talking point in Gulf weather and folklore posts, and is also a common given name.",
    "kind": "social",
    "confidence": "medium",
-   "at": "2026-09-17T03:35:14.478082+03:00"
+   "at": "2026-09-24T04:00:25.014770+03:00"
   },
   "#الغالي_والرخيص": {
    "english": "#The_Expensive_and_the_Cheap",
-   "summary": "A price-comparison format: content creators putting an expensive version of a product, meal or service against a cheap one and judging whether the premium is worth it. The phrase is a familiar social-video and consumer-talk theme rather than a news event.",
+   "summary": "A price-comparison content format — creators testing a costly product against a budget version, or shoppers debating whether premium brands are worth it. The board also features \"men's perfumes\", suggesting this is part of a consumer-goods comparison wave.",
    "kind": "entertainment",
-   "confidence": "medium",
-   "at": "2026-09-17T03:35:14.478082+03:00"
+   "confidence": "low",
+   "at": "2026-09-24T04:00:25.014770+03:00"
   },
   "#هيوط_الاهلي": {
-   "english": "#Al-Ahli_Bragging / \"Al-Ahli's show-offs\"",
-   "summary": "A football taunt aimed at Al-Ahli, the Jeddah club that is one of Saudi Arabia's big four. \"Hiyat/hayout\" is Gulf slang for boasting and empty hype, so rival fans use it to mock Al-Ahli supporters' claims, usually flaring after a match or a transfer debate.",
+   "english": "#Al-Ahli's_Show-offs",
+   "summary": "A taunting hashtag aimed at fans of Al-Ahli, the Jeddah club that features stars such as Riyad Mahrez and Ivan Toney. \"Hayyat/hyout\" is Saudi slang for boastful bragging, so rival supporters use it to mock Al-Ahli fans for over-hyping their team.",
    "kind": "sport",
    "confidence": "medium",
-   "at": "2026-09-17T03:35:14.478082+03:00"
+   "at": "2026-09-24T04:00:25.014770+03:00"
   },
   "#الدوري_الانجليزي": {
-   "english": "#The_English_League (Premier League)",
-   "summary": "England's Premier League, which has a huge Saudi following. The tag trends on matchdays and around transfer and refereeing controversies; the board also shows Premier League-linked names such as Marcus Rashford and Michael Carrick.",
+   "english": "#The_English_League",
+   "summary": "The English Premier League, which has a very large Saudi following. The tag spikes on matchdays with score reactions, transfer talk and debate about Arab players in England.",
    "kind": "sport",
    "confidence": "high",
-   "at": "2026-09-17T03:35:14.478082+03:00"
+   "at": "2026-09-24T04:00:25.014770+03:00"
   },
   "#هيوط": {
-   "english": "#Hiyout (bragging, empty hype)",
-   "summary": "Gulf slang for showing off and talking big without substance. Used on its own it is usually banter — often football banter between rival Saudi club fans — and here it is trending alongside the Al-Ahli-specific version of the same tag.",
+   "english": "#Show-offs / #Bragging",
+   "summary": "Saudi slang for exaggerated boasting or flexing. Used both as football-fan trash talk between rival supporters and as a general social jab at people showing off online.",
    "kind": "social",
    "confidence": "medium",
-   "at": "2026-09-17T03:35:14.478082+03:00"
+   "at": "2026-09-24T04:00:25.014770+03:00"
   },
   "#gta6": {
    "english": "#GTA6",
-   "summary": "Grand Theft Auto VI, Rockstar Games' long-awaited open-world title. Saudi Arabia has one of the region's largest gaming audiences, so any trailer, release-date news, leak or delay rumour sends the tag trending.",
+   "summary": "Grand Theft Auto VI, Rockstar Games' long-delayed blockbuster title. Saudi Arabia has one of the world's most gaming-heavy young populations, so trailers, release-date news and leaks reliably trend there.",
    "kind": "entertainment",
    "confidence": "high",
-   "at": "2026-09-17T03:35:14.478082+03:00"
+   "at": "2026-09-24T04:00:25.014770+03:00"
   },
   "#زايروس": {
-   "english": "#Zayrous / Zyros",
-   "summary": "A personal or brand handle rather than a dictionary word — most plausibly a gaming or streaming personality or an online alias. The subject cannot be determined from the spelling alone.",
+   "english": "#Zayrous / #Xyros",
+   "summary": "A transliterated name that does not map to a widely known Saudi public figure; most plausibly the handle of a gaming streamer, esports player or an online token/project given the gaming and crypto items elsewhere on the board. The subject cannot be identified from the word alone.",
    "kind": "other",
    "confidence": "low",
-   "at": "2026-09-17T03:35:14.478082+03:00"
+   "at": "2026-09-24T04:00:25.014770+03:00"
   },
   "بنك الرياض": {
    "english": "Riyad Bank",
@@ -4327,23 +4324,9 @@
    "confidence": "low",
    "at": "2026-09-23T23:26:05.026808+03:00"
   },
-  "#تطبيق__من_حولكم": {
-   "english": "#The_Around_You_App (Tatbiq Min Hawlakum)",
-   "summary": "A hashtag promoting an app called \"Min Hawlakum\" (literally \"Around You\"), i.e. something location-based that surfaces people, services or needs nearby — the wording fits either a neighbourhood charity/donation service or a local discovery app. The double underscore and campaign styling suggest a paid or coordinated launch push rather than organic news, but the app itself is not identifiable from the name alone.",
-   "kind": "other",
-   "confidence": "low",
-   "at": "2026-09-24T01:00:26.503549+03:00"
-  },
   "سالم": {
    "english": "Salem",
    "summary": "A very common Saudi first name; in this football-heavy trending board it almost certainly means Salem Al-Dawsari, the Al-Hilal and Saudi national team winger who is one of the country's biggest sports stars. Fans typically push his name after a goal, assist or standout performance for the Green Falcons.",
-   "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-09-24T01:00:26.503549+03:00"
-  },
-  "علي الفوز": {
-   "english": "\"on the win\" (ala al-fawz)",
-   "summary": "A fragment of the standard Arabic congratulation formula — \"mabrouk ala al-fawz\" / \"nubarik al-mantakhab ala al-fawz\" (congratulations on the win) — trending because large numbers of users are posting the same congratulatory phrase, here about a Saudi national team victory. Which match and scoreline is not determinable from the phrase itself.",
    "kind": "sport",
    "confidence": "medium",
    "at": "2026-09-24T01:00:26.503549+03:00"
@@ -4376,13 +4359,6 @@
    "confidence": "medium",
    "at": "2026-09-24T02:00:30.833727+03:00"
   },
-  "صور محمد بن سلمان": {
-   "english": "Photos of Mohammed bin Salman",
-   "summary": "Users sharing and circulating images of the Crown Prince, usually as part of a coordinated praise campaign or in reaction to a public appearance. It sits with the other MBS hashtags on the board, suggesting a single wave of loyalty content.",
-   "kind": "politics",
-   "confidence": "medium",
-   "at": "2026-09-24T02:00:30.833727+03:00"
-  },
   "$JUMP": {
    "english": "$JUMP (cashtag / ticker symbol)",
    "summary": "A trading \"cashtag\" for a token or stock ticker called JUMP, most likely a cryptocurrency traded and discussed by the large Saudi retail crypto community on X. Cashtags trend when a coin moves sharply, launches, or is being promoted by trading accounts, but the specific asset and reason cannot be identified from the symbol alone.",
@@ -4397,12 +4373,40 @@
    "confidence": "low",
    "at": "2026-09-24T02:44:41.292714+03:00"
   },
-  "فراس": {
-   "english": "Firas",
-   "summary": "A first name that in Saudi football conversation almost always means Firas Al-Buraikan, the Saudi national team and Al-Ahli striker; it trends when he scores, misses or is a talking point in a national team game, which fits the surrounding trends about a Saudi–Kuwait fixture and a national team win. The exact incident behind it is not clear.",
+  "#رحله_المليون63": {
+   "english": "#The_Million_Journey_63",
+   "summary": "A numbered instalment (the 63rd) of a recurring online campaign or giveaway series built around reaching a million — typically a follower-count milestone push, a prize draw, or a sponsored content series on X. The specific account or brand behind it cannot be identified from the words alone.",
+   "kind": "social",
+   "confidence": "low",
+   "at": "2026-09-24T04:00:25.014770+03:00"
+  },
+  "عبدالله الحمدان": {
+   "english": "Abdullah Al-Hamdan",
+   "summary": "Saudi international striker who has played for Al-Shabab and Al-Hilal and features for the national team. He is trending alongside \"national team win\" and \"Green Falcons\", pointing to a match performance rather than any off-field story.",
    "kind": "sport",
    "confidence": "medium",
-   "at": "2026-09-24T02:44:41.292714+03:00"
+   "at": "2026-09-24T04:00:25.014770+03:00"
+  },
+  "الرييس الصيني": {
+   "english": "the Chinese President (misspelled)",
+   "summary": "Refers to Xi Jinping, President of China. Saudi users typically post about him around diplomatic visits, Gulf-China summits, investment deals or a widely shared clip or photo; the specific trigger here is not determinable.",
+   "kind": "politics",
+   "confidence": "low",
+   "at": "2026-09-24T04:00:25.014770+03:00"
+  },
+  "الصقور الخضر": {
+   "english": "The Green Falcons",
+   "summary": "The nickname of the Saudi Arabian men's national football team, named for its green kit. It trends whenever the team plays, and the surrounding board (\"national team win\", goalkeeper Nawaf Al-Aqidi, Abdullah Al-Hamdan) indicates a fixture just took place.",
+   "kind": "sport",
+   "confidence": "high",
+   "at": "2026-09-24T04:00:25.014770+03:00"
+  },
+  "المباريات القادمه": {
+   "english": "the upcoming matches",
+   "summary": "Fans discussing the next fixtures on the calendar — most likely the Saudi national team's remaining schedule or Saudi Pro League rounds, including who is suspended, injured or available.",
+   "kind": "sport",
+   "confidence": "medium",
+   "at": "2026-09-24T04:00:25.014770+03:00"
   }
  }
 }
