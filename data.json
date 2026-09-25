@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Friday, 25 September 2026 · 03:00 KSA",
+ "lastUpdated": "Friday, 25 September 2026 · 04:00 KSA",
  "days": {
   "2026-09-12": {
    "label": "Sat 12 Sep",
@@ -2154,7 +2154,7 @@
     },
     {
      "rank": 2,
-     "text": "تشافي",
+     "text": "#اصدقاء_بوذيب_الاوفياء",
      "cat": "General",
      "pts": 12
     },
@@ -2166,13 +2166,13 @@
     },
     {
      "rank": 4,
-     "text": "هولندا",
+     "text": "تشافي",
      "cat": "General",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "#اصدقاء_بوذيب_الاوفياء",
+     "text": "#مفتي",
      "cat": "General",
      "pts": 7
     },
@@ -2184,43 +2184,43 @@
     },
     {
      "rank": 7,
-     "text": "#مفتي",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 8,
-     "text": "كلوب",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 9,
      "text": "صالح الفوزان",
      "cat": "General",
      "pts": 6
     },
     {
+     "rank": 8,
+     "text": "هولندا",
+     "cat": "General",
+     "pts": 6
+    },
+    {
+     "rank": 9,
+     "text": "كلوب",
+     "cat": "General",
+     "pts": 6
+    },
+    {
      "rank": 10,
-     "text": "البرتغال",
+     "text": "شتيغن",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 11,
-     "text": "شتيغن",
+     "text": "البرتغال",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 12,
-     "text": "فان بوميل",
+     "text": "الانماء الماليه",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 13,
-     "text": "الانماء الماليه",
+     "text": "فيصل بن فرحان",
      "cat": "General",
      "pts": 4
     },
@@ -2232,26 +2232,26 @@
     },
     {
      "rank": 15,
-     "text": "فيصل بن فرحان",
+     "text": "فان بوميل",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 16,
-     "text": "عايض",
-     "cat": "General",
+     "text": "وزير الخارجيه",
+     "cat": "Politics / Diplomacy",
      "pts": 4
     },
     {
      "rank": 17,
-     "text": "ابو مشعل",
+     "text": "شيم الكبار",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "وزير الخارجيه السعودي",
-     "cat": "Politics / Diplomacy",
+     "text": "المنتخب القطري",
+     "cat": "Football",
      "pts": 4
     },
     {
@@ -2262,8 +2262,8 @@
     },
     {
      "rank": 20,
-     "text": "منتخب الامارات",
-     "cat": "Football",
+     "text": "ابو مشعل",
+     "cat": "General",
      "pts": 4
     }
    ],
@@ -2273,19 +2273,19 @@
      "score": 100
     },
     {
-     "text": "#ليله_الجمعه",
+     "text": "#اصدقاء_بوذيب_الاوفياء",
      "score": 88
     },
     {
-     "text": "#اصدقاء_بوذيب_الاوفياء",
+     "text": "#ليله_الجمعه",
      "score": 76
     },
     {
-     "text": "#السمن_العرابي",
+     "text": "#مفتي",
      "score": 64
     },
     {
-     "text": "#مفتي",
+     "text": "#السمن_العرابي",
      "score": 52
     }
    ],
@@ -2293,17 +2293,17 @@
     {
      "icon": "📌",
      "label": "General (18)",
-     "items": "#رحله_المليون64 · تشافي · #ليله_الجمعه · هولندا · #اصدقاء_بوذيب_الاوفياء · #السمن_العرابي · #مفتي · كلوب · صالح الفوزان · البرتغال"
+     "items": "#رحله_المليون64 · #اصدقاء_بوذيب_الاوفياء · #ليله_الجمعه · تشافي · #مفتي · #السمن_العرابي · صالح الفوزان · هولندا · كلوب · شتيغن"
     },
     {
      "icon": "🏛️",
      "label": "Politics / Diplomacy (1)",
-     "items": "وزير الخارجيه السعودي"
+     "items": "وزير الخارجيه"
     },
     {
      "icon": "⚽",
      "label": "Football (1)",
-     "items": "منتخب الامارات"
+     "items": "المنتخب القطري"
     }
    ]
   }
@@ -2546,12 +2546,12 @@
   "#الامارات_اليمن": 10,
   "#قطر_البحرين": 8,
   "#الحوثي_يستهدف_مكه_مجددا": 7,
-  "منتخب الامارات": 10,
-  "هولندا": 14,
+  "منتخب الامارات": 6,
+  "هولندا": 12,
   "كلوب": 12,
   "المانيا": 6,
-  "تشافي": 16,
-  "البرتغال": 10,
+  "تشافي": 12,
+  "البرتغال": 8,
   "المنتخب اليمني": 4,
   "القهوه السعوديه": 8,
   "البرازيل": 4,
@@ -2561,17 +2561,18 @@
   "العصب البصري": 4,
   "عيال زايد": 4,
   "#رحله_المليون64": 14,
-  "#اصدقاء_بوذيب_الاوفياء": 7,
+  "#اصدقاء_بوذيب_الاوفياء": 12,
+  "#مفتي": 7,
   "#السمن_العرابي": 6,
-  "#مفتي": 6,
   "صالح الفوزان": 6,
-  "شتيغن": 4,
-  "فان بوميل": 4,
+  "شتيغن": 6,
   "فيصل بن فرحان": 4,
-  "عايض": 4,
-  "ابو مشعل": 4,
-  "وزير الخارجيه السعودي": 4,
-  "حسن الهيدوس": 4
+  "فان بوميل": 4,
+  "وزير الخارجيه": 4,
+  "شيم الكبار": 4,
+  "المنتخب القطري": 4,
+  "حسن الهيدوس": 4,
+  "ابو مشعل": 4
  },
  "news": {
   "date": "25 Sep 2026",
@@ -2640,21 +2641,21 @@
     "rank": 7
    },
    {
+    "headline": "Saudi Arabia Bribed the Wrong People - Foreign Policy",
+    "summary": "Saudi Arabia Bribed the Wrong People Foreign Policy",
+    "source": "Foreign Policy",
+    "date": "24 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8zbGc3RTRxR09PT1ZwX2Nmd1F4Y0N3d1g4eTIzRzdTdFUxQ1NPeFRhUTJDbmNVendYYzdReG1xRUJ6dGlUQ0t4dUZpTk1WVmpLOWZLcGZ5aTVXM21CWlAzZi1scGJPV055WTdRbkFCanlINTBlYmhYSTBn?oc=5",
+    "rank": 8
+   },
+   {
     "headline": "France to send troops to protect Saudi Arabia on Red Sea oil route, Macron says - The Times of Israel",
     "summary": "France to send troops to protect Saudi Arabia on Red Sea oil route, Macron says The Times of Israel",
     "source": "The Times of Israel",
     "date": "24 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVkYzckNxMmk5NTFkU0VPc3lVa1VLcEhvMHY3R2g2dFpGNjlZdmZYekZTTEJpS3BlZmJPaXBPOW12NllZdVdTZTRzb1NINnc3V3ppYmxUTnMzVk1TRnlwaks2bEVuN2VlOFBHajE3RTN2WjZzNG9ud05FaHdCOVV4YmVEenp0THZTR2VTc05LR1VIYmhFVkc0b2NVdnBlMHBiLVNzTE9ldWVKaGl1Q3pYamlPTVRWb2J1aXNYckJKc0JzUQ?oc=5",
-    "rank": 8
-   },
-   {
-    "headline": "Saudi Arabia reports fresh Houthi attacks, issues warning for Mecca - courthousenews.com",
-    "summary": "Saudi Arabia reports fresh Houthi attacks, issues warning for Mecca courthousenews.com",
-    "source": "courthousenews.com",
-    "date": "24 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYUJaUFQ5bTZNbkxuZHp1cmw2eE5wTWV1a1hzNjl3ZnVCSU82QXRTcFoxSkUtajN2ZXg0NHR3YlM1REZFOWNZU1paSmxYSG15VUY3RWM4ZUtvNjZnZUFCd0JGaHlIUEwzY0F3WjJNeDVnMFViMkt3Mk9KbEl1RUdTU2VJb1RjZUoybmRiM3RVNXl2M0ZFYU5RMDc1aElvc2s?oc=5",
     "rank": 9
    },
    {
@@ -2676,31 +2677,49 @@
     "rank": 11
    },
    {
-    "headline": "من \"أمير نجد\" إلى \"ملك المملكة\" ألقاب الملك عبدالعزيز تروي مراحل توحيد السعودية - العربية",
-    "summary": "من \"أمير نجد\" إلى \"ملك المملكة\" ألقاب الملك عبدالعزيز تروي مراحل توحيد السعودية العربية",
-    "source": "العربية",
-    "date": "23 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi5gRBVV95cUxPMkF5VTJNMlpCbXpNOWZqbDFZYkdNdDdQX292dUs4T183aFZnZFktUTJIYk96eE50N3JSdVFGUUVOUVBaYURsbk84eGRTR0xsOEVydVNTR2x2VGt5R2VRdnJwQUNSdnFYa01TR0ZhV0JuTTl1aGpzMDBWcS0tc0w5Tm1FSjctazlNTzQ3SjhCQmF5dVFNdWhpeVFwYUNHcXZVM25SNndieExNdmxOQ3hXdzFobjNwYjVfVFNNQ1BBVDdLRjE3eGFxbzJ2ajFBUmdfQU9sNjdObnhjN0xUQXlFNzZreWJtTWp6MnQ3Ulh2WmdDeWNsR0wxWC1ob1RTYjZvZE1rVVJQRHZETUo1cXVWNXFfekhDTGJWYUlCRk9DYnpKZ1JZanpqR3R1TEtiTTdCQTVFNUhfLW1VQm91b09yNng2TVNjTlZWMVNvTmxZTDZsM2p0dnhDZVRkVGFURnJxSTIzZnVDdlJiSVMtaDdFS1JzQU9tMnc2NzhlYkJuZy1Ea0pfSzhvM1N2ckFhdU5xbE9SY1oxX3VsOF9HODZGdlk1Nk5KUGp1RVRueHcyVWxNb0pHNUJPNzlScUViTkV2dHBKd1VuRnFGNUp1dzF1M3psMm9aM29YRElxS0JoZ01qQktsMlpEcmJzVzVqc0I4U3pyaGJLaWxlZEFHektYaXQ2UFlaczZqaHFDWlRvQXhhR1VqY0w1WGdyZ29VNG91c2xkSFVmWUtCdnBocUJsT1BXYlVvWkV3M3RHWTJEaHVHOU9hUlpOMkFzOTg5VmlsWGhIZVJveEdRR2F0NHFhcm9EeXRmQdIB6wRBVV95cUxNdUl1Q2Q5WGpRQm1hMjZ6ckhtTVBQUFRHcFkyMTJRZDZVRDFRRjRPd2dqa0lhbUx3VXZqNHRqVUdoZndpSE84b0t1X2trWTNLUmZGMm14NzdidHdWRnR4RWh0Q240YzBKSzU2bE91YWRVTXh6TDVfWFA2bzM1OFNYdVRGcjFZVFIwbEtYS3NtaVdyYjVnelpEVXZOWXpNWi04SmEwZGdRQmttZGRnS2xmcmpMTmhXdlYzU3pzREcybXNnUkZCZ3V2UkdJcUZxQUFsZ0R0QTQyVUtkNHJmUl9Cdnd6cGNkN01sRFZsanZ1NWFsZXlvMW4yYUZRSEFEbGZYbHRCTHZ6cm1ZV1B3Z0lwTWJTYkVkRkNTcUotZDN3UjEtRmpxTC1qWHhGUDhHdWRXZWFURngwbUtsYzdZc2FkcnBtRU5KcWNid0taMmJUOG5vcy1mRDZDYTRLOG5zY1JtbnRPdVJZa2ZhZDNoQnp0SmVTUHMyNmFpa01DM21GdmNTWTJaU2I2ZVNVZmx6cTk0UElFVEtpbENQNTZUckNqY2dmRjduaUI4bFJQQUJvazliRDVwaGJtMDNsOWNWcG9RSlpWRWdneHBLbGFfZk1JMWVlYkdOT1JzQU5OUkt3YjBYTHZuSTBIQ181Q28tdGU5bU9va3p6OUxKTlJKN0EzaDZ5ZExkTVU2Y0g4LVpHMi1NSnBsLWVzd29oZ2E1Z3NoRTFGc2htZDUzc0xoVGI0MzFYY2NMTEd6czRYX29naVlDdkZCM3NoeEZCRFBLdnBNaUR1elpFX2laVTFGb05UMW02YXhCaEpMdThn?oc=5",
-    "rank": 12
-   },
-   {
     "headline": "إلى إيران: إنها المملكة العربية السعودية - عكاظ",
     "summary": "إلى إيران: إنها المملكة العربية السعودية عكاظ",
     "source": "عكاظ",
     "date": "24 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9YYVk5RGplZzhFdGVaQkVRU0Z5bGFCc1ROU0ZnTlc3VEFvd2JSeFhtbW9uak0zTFhuWHU5cXlQdTIzZUpScDBHbFllbmdSRlM0b1hPZGJEdjc1MDQz0gFUQVVfeXFMTzNDNzJZaUVxazIwWHNObXM2d3RWVzNlSmpoX3lIZy1wejlrcVBJUUU1ZjZrWVlKTHVhQlBkdHViRDA1Y3I0dDJ4TUl6LVNLQUJmTUp1?oc=5",
+    "rank": 12
+   },
+   {
+    "headline": "السعودية تحتفي بيومها الوطني.. مسيرة مجد من التوحيد إلى رؤية 2030 - العربية",
+    "summary": "السعودية تحتفي بيومها الوطني.. مسيرة مجد من التوحيد إلى رؤية 2030 العربية",
+    "source": "العربية",
+    "date": "22 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi-ANBVV95cUxNdzhoOS1MNW9oTVB3SjJaeUJxcVFqUVBIQnM5TGVBUUwtS25hT3NSY3RiQjlRbXZGNGFLQlhJQkFEWHQ3WjNodGhlVTRQVldFNG11emhiS0ZVa0JzQjl4YjZVWUZPSHVUcHVkbWJralJLM3Y2RkREWm5JREVTZnoyMzdiRy1ydGJWc1lBWGZHWXFEcHNKMjlQSm9FMzhGYVFDa09DRnIzUEY2RGd5aV9lWk5ZdlM1aERvYzVrb0ExNFVUTzZHQnBhSFJVSGdvQ2VYTWl4eUhhNTRkb3ktZGQ4SG5IUkJrbEx6WTZBcWdmeU9YbkN2aVV2R3lYaFdfcGZ6eV82OFltcVMzVXA1bkZGQ3h1THprZ2pBb1ZTRll3U2RteFZ6aWNoSkVMa3lydk5hak0wNG5IOFJRZ3B0SFpCTktuMVdQUW9ITjhCNFBVbjladXhyWkFsN25XbkhLbnprSHdwb3RhUncwMVVMeHZYeFBJYmZvRTBlTTdzSXVoQkNuRUM2LTFxR3VsbkhGamNHSUVraXZ4R19pVURRQ0hnRENCZGlfbWhGdUxvUzc2d1N3anFSN2tQOGh4bnNvYkNNaTB1dkpudEFTelBsdDN4dVRPOTk4Y0o3WnRCQnEzRG5PTzlUdnd3UzllV3A0UC1DTXI3RW5rS0LSAf4DQVVfeXFMUEEtVTBoa3VKUTBNamw4eW5tUnVHTW4tM18tX2FhRVRYUkFNZ0dUa1pSV2RDMHFKMkowYlhnYzJhQjFzeWFHa2ZRdVBiTWlIcjlNVWdKcXlDeGpCSUFFdU9CdlhwUnFKZThwUXk3d3VWSzROaTlkSk50RTh4M1gyWExtU2hoejZWeTFndmpoeXhJaDBLc28tNDNPY2FHRWpZeXhvSF91bzB3cDJJZHZwQndXdFlibVFWQ1pYaFotRjhyQk5vVGtyaXJobV9XdkJSTWE0bmRPSWRYWUFOMVdqazlMTXhVY28zSGN5UkthcXJzczFqQ3pFV1VFTjBZMXZxRnpxbmFLWjdQRlBRX3pYN3pyNUppVWVrNUlVQjAwUGk5dy05N3ZwNC1mRWpnRktyeVA4bXBtQUV1d0FXVUhSSG0yUDdzcC1qRDkzTGxZUDF2OE52UnJaeUJPLVA0VEFNbF92ZW1iVVpSVWpTczRDTkliSmJQdGtxbmN3NHJVbHhpZ1RnMk80dlFFR1JGaE4wMVZIYU1Wa0ZQVU1xUUYyblNQVHZwNjJMUmJXTXgxcjRpQjFUN2UyR0tQSW1EaDh6bnB2M0JQcUVWSGpEb0N6Um1GM0lrR3RHQlc0djV5THBveW9sdV9kM05peEo1TTZMMlBQMHFaSWkyNkVzZ3FR?oc=5",
     "rank": 13
    },
    {
-    "headline": "الدفاع المدني السعودي يعلن زوال الخطر في عدة مناطق بعد تحذيرات - reuters.com",
-    "summary": "الدفاع المدني السعودي يعلن زوال الخطر في عدة مناطق بعد تحذيرات reuters.com",
-    "source": "reuters.com",
+    "headline": "اليوم الوطني السعودي.. شراكة تاريخية ودعم إنساني - جريدة الجزيرة",
+    "summary": "اليوم الوطني السعودي.. شراكة تاريخية ودعم إنساني جريدة الجزيرة",
+    "source": "جريدة الجزيرة",
+    "date": "25 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vdk5RbVBRV2ZWall3cUVVam44NFQtQmhWNWVIQU9lQV9ZLXV4ZW94TWJRMmpBSnJZWUQ0cjZWeTBXN0lPZWtXeEZwbUQ1X2VKeUZFdVlOVndVVUtmdVE?oc=5",
+    "rank": 14
+   },
+   {
+    "headline": "اليوم الوطني / المملكة في يومها الوطني.. مسيرة عز - spa.gov.sa",
+    "summary": "اليوم الوطني / المملكة في يومها الوطني.. مسيرة عز spa.gov.sa",
+    "source": "spa.gov.sa",
+    "date": "22 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1iNlozenpsRG9GelJYejdCcDhjZmlsSDF6U1pnQlBMZDF6TFNLX2FKWlhLdGtHN1diQnVFQ2ZQNlBEeGpOamc?oc=5",
+    "rank": 15
+   },
+   {
+    "headline": "الدفاع المدني السعودي يعلن زوال الخطر في عدة مناطق بعد تحذيرات - Reuters",
+    "summary": "الدفاع المدني السعودي يعلن زوال الخطر في عدة مناطق بعد تحذيرات Reuters",
+    "source": "Reuters",
     "date": "24 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ZMjFaSzNrXzBNclJpVUluZm9Hd3U2c0tVWGJCNUtPa285T3lWVFBKaU1DRDlGeEkxU1ViN3NvVjdZTEdVRnp1RHF1d0JWLVNFdUItUUpkTGNBSk1BMVFHOXV1Z0RESkZZVGVaOFNpQjJXelB3bFQ5SnRfYw?oc=5",
-    "rank": 14
+    "rank": 16
    },
    {
     "headline": "سعوديون يحتفلون بـ«اليوم الوطني» في شوارع مصر - الشرق الأوسط",
@@ -2709,16 +2728,7 @@
     "date": "24 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiywNBVV95cUxOdmZUS1hQWGtMX3FoM2o4djJDOEpMamRUT2RUMXgyclBKbzFfbUlPMy1DMkl2OUY3dWg1MHNDU2FFcV9YclFkZDY5QmRSSFhHVVFjLUV4Y2VZZEd1YVNMOGYxZ0NjX3NTWTJNYmotLUN2OTUzVEczRWhBUGNWYVc2Z2NOS0kyMVpKNVNFS296MlloTi1QdUxKQnRvUGtTcUE5UEZ3dWs4dHo0V1pZQlRTRUJRdzZnWl90UlgxQ2VxNUdrRV9ZbjB5ZkRlUk56dENTU2dPdzhYVS1pSzhwdzZyVU1IRFFqZlVQOHlsU2FoNG1UeTlDYnR5cVoyeE5OSTNpSklaemItbEhtdEQ4QVdpSzNKOXVwNEh4ZWRySHN4bUdncndHbGdjWGJKVExiYXN0X0hHbE83dGVNQ2NHUnphOFNnemcyZEROc1BLTmZBOE41Z2Y3NlcwcmNYOEI4OURORjZFVTVsVmZCTFRUWkJrY0VzZ1FGUzlOdi1CeUNhcHhLeXZfNVBsZFVucUVlZVRfLWlyQk10NkhYV1hqakZUUGtyQTZKSHFFVXNnLVdGWEdtMHMxd2l0d0J3Y1h6T0xVZzVER1NsMnJQeHc?oc=5",
-    "rank": 15
-   },
-   {
-    "headline": "ملوك المملكة العربية السعودية - جريدة الجزيرة",
-    "summary": "ملوك المملكة العربية السعودية جريدة الجزيرة",
-    "source": "جريدة الجزيرة",
-    "date": "24 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IT2N5Q2JxTTZzX3lJQVYwR2NTT1B0eU1XUFBYdkNmdEtsbEdlSnBVTUZ1dlJyb3laV2Y2N1lZbDJCZWdYNlBqV3ZOQW1GSmswR2dpeEtaN2p4ZDNaTGc?oc=5",
-    "rank": 16
+    "rank": 17
    },
    {
     "headline": "بيان مشترك بشأن الاجتماع التشاوري الرباعي لوزراء خارجية المملكة العربية السعودية وجمهورية مصر العربية وجمهورية باكستان الإسلامية والجمهورية التركية - صحيفة سبق الإلكترونية",
@@ -2727,7 +2737,7 @@
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9MY0tDTmJvLVpzeVlmVUlfMHlBYUZNWFJIdmh3eUJHY3N4ZnBZWnltTWhoZHg3bjEzWE1iUVR6aFJObUxZeTZ3?oc=5",
-    "rank": 17
+    "rank": 18
    },
    {
     "headline": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين - DW.com",
@@ -2736,24 +2746,15 @@
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxPTURPMFJHLUxqVjhYV2M4Rnp1cDFjVDRTS3FZb1c4cjFJTkJsT0pnZTNyRWpZLTNuaS11MUp2QjZYNGFTRHJLcFdBOVlOTlJIX01VWUsya3pWcDc3UFdILWY4S1g5aXVmTU1nWE03aXB5dnlzdlg5U2ktNDV4ckRJcEZKamNXNG90V0NGREhNLThySEhiSUhqb3BLSHUwR3ZaU0FOOWdsc2lrNGpGal9mdXh6OWZrbkV2aUNhZkRsbVlOdFZPN0VuQkFwdl9vREZKb2VkcnREOHZBLWxVeklmc1NucFB5MTY3UjNaWm5sd2N0QWtrU3h2V1NObHM5TFFmbC03Y1VhTjFJNzRXQnFFSWNHMmdKeEZqbWJCSElfallrUGNEeDRlQ0pXVHNJUzNGZUxtcEtHeFVucUJrLUJoc2t0ZGhSQmpOT3E3ZEZaR2ppWi1RREhfcUVReFFPRkNaX09kN2E0ZW5NVzMzTXRWSTdaQXZiRzVGM1NJYnRSOXdUSmhsc2J5ZGtaeHVrWnN0c1RfcThwNi11Yk82bXl5bFBwNG1URzlY0gGoA0FVX3lxTE1MV0M0WUMtMS01WHc4R2JKM2oxZnJvMFRzTVA2MGRSWE4wRjJoOUlRNldLQThQSk11VFRBdzFxck0td2xidzgxM083SDBlWktER0JwVm1kdEhSdjctTVpuZ3VYMDV3MW5DdnZGNDRUNXRyQTE2aHJBYmVtbi1FdUp0WWJJQkNmb2J5Q1N5V2xQaHNLc2VWdlBoTnEwWGRyUzRJcVc4QTJtU0xsY1ctUWg4V3NjeVU0TEJ5ZmJ0b29ZNUFBX04wcEJsN012M1hQM2QxLXlNMzFZQTRxWUNXQ2hqWXdabUlSU2tNOFV6bm9TcHJBYVdVM1dTOW50c0dwY1haYnV0dW44WUk4RmVkcFZLbzFCWnhIalZiV1hZaTVxdXZsMHRES3ZZcDBMU3A0MVd1NTltZjZ2OGEzQzEyUldoY0JSdXRJNjZMb2VvN09heTF1X2VzTzMza2ZpcUhGZ180VWRpaVFNanpjQ3oycUE3ZHhFZ0pXZU9wZGZlY2VWSnZvRUxnSHdFZzEwM0dEOEdxLXc4TVFTLVNNTEF4OHd3NndGbm9iQXE?oc=5",
-    "rank": 18
-   },
-   {
-    "headline": "اليوم الوطني / المملكة في يومها الوطني.. مسيرة عز - وكالة الأنباء السعودية",
-    "summary": "اليوم الوطني / المملكة في يومها الوطني.. مسيرة عز وكالة الأنباء السعودية",
-    "source": "وكالة الأنباء السعودية",
-    "date": "22 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1iNlozenpsRG9GelJYejdCcDhjZmlsSDF6U1pnQlBMZDF6TFNLX2FKWlhLdGtHN1diQnVFQ2ZQNlBEeGpOamc?oc=5",
     "rank": 19
    },
    {
-    "headline": "تأجيل عروض الألعاب النارية والدرونز الخاصة باليوم الوطني في السعودية - العربية",
-    "summary": "تأجيل عروض الألعاب النارية والدرونز الخاصة باليوم الوطني في السعودية العربية",
-    "source": "العربية",
-    "date": "23 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxOVkJ0c1Jtd1RtNFNUMkc2SmtHaVdwdXEyTDh6R0hLTzVBRzB3X0h6aUphZFY4RFRJTHFNN1dQMkotbmNNMDl3ekJDZFZMN2w0UlFUVFNkWUxXa1pBQnBkMkpqMV8wWjhSRkVsal94RklyZzNTRjAxUmE5THlvMm9sNGQ5WnE4UWNvMXYzNFFjQV92aDUzOU94SlVWSmdvWWZNY2gxejhrUmR2MXRvbUZqWlRwaHZxSTJOZ0ZDMXNRQmF4MzJvTTJSdC05RzlROTFMb0NaMnVvdk5GTThPeDJzeXRtOUloVjVkNlJYekxwbVdqbGVTYnJ2NDR5U3pKTl9CSjAxbk5GbzI3NmduN2kxWkxuQlRwTTRhUXViY2tXRzM5Ui1UeDR5dE10ai1rUlk1Yi16RDJpUVVEdlFnWkFDVGVFdlV4UDY0N25oVjZwbFpiSDlyZEJ3eFZrTXhaVFpjX0xkaFY0M1VVV1JrSEtBa19VdTJiMWJ3U195OGlUVzczQkU2RFk3SXg2cEllQTdjY3pHc0xWc09IWE9iWlA5NjZnSldwTlFqZWJRdURuVVR5akdHZ2VLaHJJOEtXdEdVT1lvX09ITjhyeUhhMlliR05BRjFKaGt40gHeA0FVX3lxTE1JZmkxaXMzbmh4dm5pT1g2WW1lMDF1NHVzTzBTYWVhM1JTZ2NYQXZKR3ZoUTVOQTJyZDdVZ2Q4TlR3c3FVUDctLTZSNmM3T0RaR25nc2RxNlhIWkNEUjF1Y0pWbzY5V2VDLVZ2WW1IXzUtMi1TTkZjd01hNWtqczhSZFppSTVRbHZpQWJDRXZWa1JYLU9MQUdISXVPei01dVpEYUFmbHdFMFpkdlhDMU9sbHhSZGtQRzIxOENCMTRLdW5qRGxHVVNVanY1ZEdPQmhLMjllUzJaMS1ac2xSUG1qellqZk4xTll4MmQ0REt5TFM2aEdlcHI2VERqZUFRQ1AzWXlEWk83azhsUWY4a3QtdWNwUkxlVmhaeXhBVUpLR1h5dGdsZWRFV3FYT2FESXNkY0lvTG1zQjktQWdCWnJidUtyV21rYjM3Zmt5U3I4WHFvNTdSaFFnemlkX0tqdWNyVWpmdm96VkJYNHdldHVGcHp4eU9YSnlGNURwVGpSUXlYY3ducEJoZU1zeUs0dXdlbGJ2SUJ6VEc2M3dtTW9EcUxyWURocmphOTBzRDBYVDlQZVU2cU9fNFFYaThqMng5YnE4aEZEdExjWmgxalZIclUwUDV4MGJpVmtrUGc?oc=5",
+    "headline": "مملكة البحرين تدين استمرار الاعتداءات الإرهابية الحوثية على المملكة العربية السعودية ومحاولة استهداف الطائف وينبع - alayam.com",
+    "summary": "مملكة البحرين تدين استمرار الاعتداءات الإرهابية الحوثية على المملكة العربية السعودية ومحاولة استهداف الطائف وينبع alayam.com",
+    "source": "alayam.com",
+    "date": "24 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxZGFjYi1oV3ZhZE9LNl93ekNvbFBVTUJmczNXOEwzUVoxRG5JU3RudUdyQ20xTWtrR1pHcmJCanlWTXBUclY1SXBsdm40NDdjX3JhZWR5SnFxM2hMT1ZuamRqMNIBakFVX3lxTE5hZW9XMDhUbndUcXp6WDE0N3VLNFZITkZISjNvcVpwUXVUT2FrX3hDUXF0bU9KOFlESjRUR3lRcVEwNDN0aUFWVUVabGFFdW1zb3Y2MGZyVUd5NDg4aVdSejNXaE5obm1ZdWc?oc=5",
     "rank": 20
    }
   ],
@@ -2777,22 +2778,13 @@
     "rank": 22
    },
    {
-    "headline": "After First-Half Middle East Woes, SLB Leans Into Tech to Lock Up Saudi, Oman Wins - Hart Energy",
-    "summary": "After First-Half Middle East Woes, SLB Leans Into Tech to Lock Up Saudi, Oman Wins Hart Energy",
-    "source": "Hart Energy",
-    "date": "24 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaWs0aUNHNUpZQll1M0puLWFhbFBDN2NnemJnaFlaYmFpQ28wbDdTTTNpbkdENjEzSksxeDJBc21zXzVDX05sUWpXMWhwUGVneXNwUXNJZDk1emZZanFsUEdRM3ozYUdpSmMtdWtNRG4tWU1GWnF1WjdPNGwtcHFPODV1ZEd3OUtYaTJ6cEhDbDBndUxwLUtkOHVlTXg1TTg?oc=5",
-    "rank": 23
-   },
-   {
-    "headline": "Saudi reports fresh Houthi attacks as France pledges to defend key oil port - france24.com",
-    "summary": "Saudi reports fresh Houthi attacks as France pledges to defend key oil port france24.com",
-    "source": "france24.com",
+    "headline": "Saudi reports fresh Houthi attacks as France pledges to defend key oil port - France 24",
+    "summary": "Saudi reports fresh Houthi attacks as France pledges to defend key oil port France 24",
+    "source": "France 24",
     "date": "24 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNd19MLUtMMVZaNGd5TlZ1MTNEc2dCNUlNUEUtTjVkOTNUbzVJOFFPUDhkaEhnQW41cm02Nnd2OTVGT3lVcXJISWN6WE5hOXFUTEZ0VmhldnpxNGNlVUVJY1BOYVBQVTlYTFA3NzhPSDROc3o5QlpSVW9PR1pGYVM2NlVPRVd4YklxcDF1akp3?oc=5",
-    "rank": 24
+    "rank": 23
    },
    {
     "headline": "Rep. Rulli proposes nearly impossible scenario on Middle East | Letter - Canton Repository",
@@ -2801,6 +2793,15 @@
     "date": "24 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaXk2OWN4UE9Gdk4zcW9FbnNQUmpmMVhCWGMwLWZINFFvOGJqeFNyeXItY1RjZG00aFFPdkpjbHhIckswOTA3MWpZTFBYS2pQVTFRSEMzcXV6RmloYjlrODJickxSM2xGMkFoRHdqVkZRRUJ2U0dXNU9IQVd3cXZReTFCaE1OcGFvU3ZRSzRndGREMVZITmdtelhkQXN0R0ZlQ2lsODROSHBsbmpzZDhsRWtIZ3RuVHBnS0w2S0hJdXlObEdmZE5ONW91SHpqdnpVVUZVREZB?oc=5",
+    "rank": 24
+   },
+   {
+    "headline": "What Does America Actually Need from the Middle East? - Americans for Prosperity",
+    "summary": "What Does America Actually Need from the Middle East? Americans for Prosperity",
+    "source": "Americans for Prosperity",
+    "date": "24 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZFBkSUtXYTZjc0xyZHVmNXF6eGhDNFVtZmlXS3FtOEtLR19CLUFGaWlueE9qYWI4NEt3OHMyMm5JSjRFVTZHLVhoYUgzbjF3N1hZQ2NGWGdTR0FPdVFMRzdxVVZkVHlQVzQzUGUwSW1naWtTWDNJZE52WkZNRTJfbHpaMEROZ05UczNuWkh3OGxmcld6VUh5Y1dibS14OTlmcDhmRA?oc=5",
     "rank": 25
    },
    {
@@ -4496,13 +4497,6 @@
    "confidence": "low",
    "at": "2026-09-25T01:27:25.753765+03:00"
   },
-  "عايض": {
-   "english": "Ayed",
-   "summary": "Ayed is a popular Saudi singer who broke through with viral hits and festival appearances and is a regular fixture of the kingdom's new entertainment scene. Trends on his first name usually follow a new song release, a concert appearance or a clip of a performance circulating online.",
-   "kind": "entertainment",
-   "confidence": "medium",
-   "at": "2026-09-25T01:27:25.753765+03:00"
-  },
   "#اصدقاء_بوذيب_الاوفياء": {
    "english": "#Bouthaib's_Loyal_Friends (or #Bou_Dheeb's_Loyal_Friends)",
    "summary": "A hashtag rallying the \"loyal friends\" of someone nicknamed Bou Dheeb/Abu Dheeb (\"father of the wolf\"), a common Gulf nickname style used by Twitter/X personalities, camel-racing and falconry figures, and tribal social accounts. The words alone do not identify the person, and this reads as a fan-base or supporter campaign hashtag rather than a news story.",
@@ -4517,12 +4511,26 @@
    "confidence": "high",
    "at": "2026-09-25T03:00:27.032704+03:00"
   },
-  "وزير الخارجيه السعودي": {
-   "english": "the Saudi Foreign Minister",
-   "summary": "The job title of Prince Faisal bin Farhan, trending in parallel with his name, which typically signals a diplomatic statement, meeting or speech being widely quoted. Late September is the period of the UN General Assembly high-level week in New York, where Saudi foreign ministers routinely speak and hold bilateral meetings, though the specific trigger here is not identifiable.",
+  "وزير الخارجيه": {
+   "english": "Foreign Minister",
+   "summary": "Refers to Saudi Arabia's Minister of Foreign Affairs, Prince Faisal bin Farhan Al Saud, who also appears separately on the same trending board — a sign of a diplomatic statement, meeting or international appearance drawing comment. The specific occasion cannot be determined from the words alone.",
    "kind": "politics",
    "confidence": "medium",
-   "at": "2026-09-25T03:00:27.032704+03:00"
+   "at": "2026-09-25T04:00:29.360469+03:00"
+  },
+  "شيم الكبار": {
+   "english": "The traits of the great / noble conduct",
+   "summary": "A common Arabic phrase of praise meaning 'the character of great men', used on Saudi social media to applaud a generous, forgiving or magnanimous gesture — typically by a leader, official, club or public figure. Which gesture prompted it here is not clear from the phrase.",
+   "kind": "social",
+   "confidence": "medium",
+   "at": "2026-09-25T04:00:29.360469+03:00"
+  },
+  "المنتخب القطري": {
+   "english": "The Qatari national team",
+   "summary": "Qatar's national football team, a regional rival and frequent talking point for Saudi fans; the simultaneous trending of Qatari captain Hassan Al-Haydos and Dutch coach Mark van Bommel points to a match or squad-related development. The specific fixture or result is unknown.",
+   "kind": "sport",
+   "confidence": "medium",
+   "at": "2026-09-25T04:00:29.360469+03:00"
   }
  }
 }
