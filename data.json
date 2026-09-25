@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Friday, 25 September 2026 · 19:00 KSA",
+ "lastUpdated": "Friday, 25 September 2026 · 20:00 KSA",
  "days": {
   "2026-09-12": {
    "label": "Sat 12 Sep",
@@ -2166,13 +2166,13 @@
     },
     {
      "rank": 4,
-     "text": "رياض الجنه",
-     "cat": "General",
+     "text": "#الملك_فهد",
+     "cat": "Politics / Diplomacy",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "الفردوس الاعلي",
+     "text": "#موتاكم_يفرحون_بدعوه_منك",
      "cat": "General",
      "pts": 7
     },
@@ -2184,37 +2184,37 @@
     },
     {
      "rank": 7,
-     "text": "موتي المسلمين",
+     "text": "الفردوس الاعلي",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 8,
-     "text": "#موتاكم_يفرحون_بدعوه_منك",
+     "text": "موتي المسلمين",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 9,
-     "text": "#جنودنا_البواسل",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 10,
      "text": "جنات النعيم",
      "cat": "General",
      "pts": 6
     },
     {
-     "rank": 11,
+     "rank": 10,
      "text": "الهاكي الملكي",
      "cat": "Politics / Diplomacy",
+     "pts": 6
+    },
+    {
+     "rank": 11,
+     "text": "مانشستر سيتي",
+     "cat": "General",
      "pts": 4
     },
     {
      "rank": 12,
-     "text": "اليوم الفضيل",
+     "text": "جيرارد",
      "cat": "General",
      "pts": 4
     },
@@ -2238,31 +2238,31 @@
     },
     {
      "rank": 16,
-     "text": "بشري تشبه الغيث",
+     "text": "اليوم الفضيل",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 17,
-     "text": "الثوب الابيض",
+     "text": "بشري تشبه الغيث",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "عريف الفصل",
+     "text": "الثوب الابيض",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 19,
-     "text": "نواف العقيدي",
+     "text": "عريف الفصل",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "نعيم دايم",
+     "text": "نواف العقيدي",
      "cat": "General",
      "pts": 4
     }
@@ -2281,24 +2281,24 @@
      "score": 76
     },
     {
-     "text": "#موتاكم_يفرحون_بدعوه_منك",
+     "text": "#الملك_فهد",
      "score": 64
     },
     {
-     "text": "#جنودنا_البواسل",
+     "text": "#موتاكم_يفرحون_بدعوه_منك",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (19)",
-     "items": "#ساعه_استجابه · #طرد_الشنقيطي_مطلب_الجمهور · #حرق_ون_بيس · رياض الجنه · الفردوس الاعلي · محمد · موتي المسلمين · #موتاكم_يفرحون_بدعوه_منك · #جنودنا_البواسل · جنات النعيم"
+     "label": "General (18)",
+     "items": "#ساعه_استجابه · #طرد_الشنقيطي_مطلب_الجمهور · #حرق_ون_بيس · #موتاكم_يفرحون_بدعوه_منك · محمد · الفردوس الاعلي · موتي المسلمين · جنات النعيم · مانشستر سيتي · جيرارد"
     },
     {
      "icon": "🏛️",
-     "label": "Politics / Diplomacy (1)",
-     "items": "الهاكي الملكي"
+     "label": "Politics / Diplomacy (2)",
+     "items": "#الملك_فهد · الهاكي الملكي"
     }
    ]
   }
@@ -2439,7 +2439,7 @@
   "الجوله الخامسه": 4,
   "بن العوام": 4,
   "ابو جاسم": 4,
-  "رياض الجنه": 12,
+  "رياض الجنه": 4,
   "عصر الجمعه": 4,
   "رافينها": 14,
   "الاهلي": 12,
@@ -2557,47 +2557,48 @@
   "عيال زايد": 4,
   "#طرد_الشنقيطي_مطلب_الجمهور": 12,
   "#حرق_ون_بيس": 10,
-  "الفردوس الاعلي": 7,
+  "#الملك_فهد": 8,
+  "#موتاكم_يفرحون_بدعوه_منك": 7,
   "محمد": 6,
+  "الفردوس الاعلي": 6,
   "موتي المسلمين": 6,
-  "#موتاكم_يفرحون_بدعوه_منك": 6,
-  "#جنودنا_البواسل": 6,
   "جنات النعيم": 6,
-  "الهاكي الملكي": 4,
-  "اليوم الفضيل": 4,
+  "الهاكي الملكي": 6,
+  "مانشستر سيتي": 4,
+  "جيرارد": 4,
   "انشيلوتي": 4,
   "اليوم المبارك": 4,
   "علي النبي": 4,
+  "اليوم الفضيل": 4,
   "بشري تشبه الغيث": 4,
   "الثوب الابيض": 4,
-  "عريف الفصل": 4,
-  "نعيم دايم": 4
+  "عريف الفصل": 4
  },
  "news": {
   "date": "25 Sep 2026",
   "domestic": [
    {
-    "headline": "Saudi Arabia allies line up support as Houthi attacks mount - aljazeera.com",
-    "summary": "Saudi Arabia allies line up support as Houthi attacks mount aljazeera.com",
-    "source": "aljazeera.com",
+    "headline": "Allies unite behind Saudi Arabia as more Iranian flights curtailed - reuters.com",
+    "summary": "Allies unite behind Saudi Arabia as more Iranian flights curtailed reuters.com",
+    "source": "reuters.com",
     "date": "25 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU0JQNHBkcVluNkc0ZGM3RktERzltMnJIcHJydGpLdHlOUFEwWmhVYkQ2RXo4LXFlWmVvSlcwclV3N1ZWSlRmRFpwcTRyaDJBYjlEWmFJOGF0T0NqTnFacjd5cmRyVnNBNUk4U2xzQ2RhbWNnY3VlY1RUTTREX3JuSVZYQzBmQzJ5TW9QWnFnMnhOdmRleTRBUlpodlZvUF9JMVHSAacBQVVfeXFMT0RTUnMzT3NsXy1SRl90cmNtcS1WRVQyeUtMNjdwaXdSbTFSdVNBNVZiemtFckgwX1JLTm8xekpMZ2J4Sjg2MmlGTTJXYThYLVhROTBOVFBqZzlWWFE1b1ZTQnZhal80X2Z0ZmE5STBhMzdfVTRlTFk1djRlUC14OFJ6X005VjY1LTFNd1pIcWIyZXJYU0pvQW5wdEYwVjRvTTdmX2NZOE0?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSktoVFV5TmFoZFFlNGJOdHNQbl9ZNWVfOFVvRTN2UXpLMlBhSnZ6ZVZLdFNlRU5CR3RjaHYxWDJRclcyb1lrVzh1WG83MWtmcjRyVnpRdTZIcTdtY01WRlFaVXZ5aWFBSXgzdk9LdzZNdmlQWHJlUmJuci1TSFI1bWRtYXJwYWdEYjBVMHJlVnpYbndpR1lQbllKNkphM0t1SmhXaXNYQmVncDFVOHFJ?oc=5",
     "rank": 1
    },
    {
-    "headline": "Saudi Grand Mufti tells troops to be ready to sacrifice their lives fighting Houthis - Reuters",
-    "summary": "Saudi Grand Mufti tells troops to be ready to sacrifice their lives fighting Houthis Reuters",
-    "source": "Reuters",
+    "headline": "Saudi Arabia allies line up support as Houthi attacks mount - Al Jazeera",
+    "summary": "Saudi Arabia allies line up support as Houthi attacks mount Al Jazeera",
+    "source": "Al Jazeera",
     "date": "25 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTXZJVk41ZE5xYUdhR0dIQjd0eVNzaWlmNVd3VmNNZTEyc2dZOWlnZm1nYW9xU19UNTNia0ZLaDUya2xYcXpYRW1tcUJVa0phSUlfOU82SXJHZjc1WHJTUFV5MkNRZUJ0LXFOSG8zRUswZGtJbHktVkZPeGJKd1lUMVBldUlwbGlXOW5qYm1VbnhJVU9QQ0x3Z1ZtNVpjMTVRNXZOZTJvbHZyNjZINzBYc3hvYVpWRndIbldwWjBCUDhJMnhyWVNmTkhxVUU?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU0JQNHBkcVluNkc0ZGM3RktERzltMnJIcHJydGpLdHlOUFEwWmhVYkQ2RXo4LXFlWmVvSlcwclV3N1ZWSlRmRFpwcTRyaDJBYjlEWmFJOGF0T0NqTnFacjd5cmRyVnNBNUk4U2xzQ2RhbWNnY3VlY1RUTTREX3JuSVZYQzBmQzJ5TW9QWnFnMnhOdmRleTRBUlpodlZvUF9JMVHSAacBQVVfeXFMT0RTUnMzT3NsXy1SRl90cmNtcS1WRVQyeUtMNjdwaXdSbTFSdVNBNVZiemtFckgwX1JLTm8xekpMZ2J4Sjg2MmlGTTJXYThYLVhROTBOVFBqZzlWWFE1b1ZTQnZhal80X2Z0ZmE5STBhMzdfVTRlTFk1djRlUC14OFJ6X005VjY1LTFNd1pIcWIyZXJYU0pvQW5wdEYwVjRvTTdmX2NZOE0?oc=5",
     "rank": 2
    },
    {
-    "headline": "Saudi Arabia Bribed the Wrong People - foreignpolicy.com",
-    "summary": "Saudi Arabia Bribed the Wrong People foreignpolicy.com",
-    "source": "foreignpolicy.com",
+    "headline": "Saudi Arabia Bribed the Wrong People - Foreign Policy",
+    "summary": "Saudi Arabia Bribed the Wrong People Foreign Policy",
+    "source": "Foreign Policy",
     "date": "25 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8zbGc3RTRxR09PT1ZwX2Nmd1F4Y0N3d1g4eTIzRzdTdFUxQ1NPeFRhUTJDbmNVendYYzdReG1xRUJ6dGlUQ0t4dUZpTk1WVmpLOWZLcGZ5aTVXM21CWlAzZi1scGJPV055WTdRbkFCanlINTBlYmhYSTBn?oc=5",
@@ -2613,21 +2614,21 @@
     "rank": 4
    },
    {
+    "headline": "Democrats Are Quietly Clashing Over U.S. Involvement in Saudi Arabia's War in Yemen - Reason Magazine",
+    "summary": "Democrats Are Quietly Clashing Over U.S. Involvement in Saudi Arabia's War in Yemen Reason Magazine",
+    "source": "Reason Magazine",
+    "date": "25 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcFRJTFd0TUthaGJPTW5janJOckNOenlJTkNzc1dLQ3FYbjgxT2k5NmtTekVTejZ3aHc5M2U2Y201TlRNSDlSVUx4U2NyalBqaE1QRVVUUGVzNC1EaElHaHFNbE84bVhEdXFBSjFKc05JbG1ON2FSeDZxbFR5Tk1wVWEtTHItRUwwTFkwUHlqcS10ZXQ3Sk9KOXpSUlFQQ0c2OE53MGhqcTUteF92VFpwal9n?oc=5",
+    "rank": 5
+   },
+   {
     "headline": "France to Send Soldiers to Saudi Arabia to Help Secure Energy Sites - The New York Times",
     "summary": "France to Send Soldiers to Saudi Arabia to Help Secure Energy Sites The New York Times",
     "source": "The New York Times",
     "date": "25 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWVJpWFBiZDZrMFgzWG1IdG9jVm56ajRMUm9ON3NmbDJJT0JXeTFqcE40WWRsbjVoN3FJbWw5NGFOMy0zUXhHZ1hZak1PTDZHVE5VUDYyRnQ2ZG5VeTNCUWZzX20yWElGQmthNF9WeTRLRFlqdHVibEUwQ1hOYlJaeGh5dVh6X184cWxhREZyMmprRlgtLXhVNU9ORzNYUGM?oc=5",
-    "rank": 5
-   },
-   {
-    "headline": "Allies unite behind Saudi Arabia as Houthis step up attacks - The Jerusalem Post",
-    "summary": "Allies unite behind Saudi Arabia as Houthis step up attacks The Jerusalem Post",
-    "source": "The Jerusalem Post",
-    "date": "25 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMYVI4azBsUWFOQWxVQkV1dmdUYzRjUFAtaHNkb3Izd3l0VnNPSHRKR0pqdU54bGljMGI4WmprR2swWGY0RTE4THpBQW85d1J5Tl9BQVRLOWVQWk94?oc=5",
     "rank": 6
    },
    {
@@ -2640,13 +2641,22 @@
     "rank": 7
    },
    {
-    "headline": "Washington must rejoin the Saudi war against the Houthis - The Hill",
-    "summary": "Washington must rejoin the Saudi war against the Houthis The Hill",
-    "source": "The Hill",
+    "headline": "UPDATES: US War on Iran, Day 211 — Houthis Fire Missiles on Saudi Arabia - eaworldview.com",
+    "summary": "UPDATES: US War on Iran, Day 211 — Houthis Fire Missiles on Saudi Arabia eaworldview.com",
+    "source": "eaworldview.com",
     "date": "25 Sep 2026",
     "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORTlwLVI4amVQTjd4X3F3VWtTdEpsQTFIOWtSWHkyRHV2VEt2QlFIN292QTlWdHFiMXFxLWRPb3JIRUNidm9VLTg3M2hrVnBXUm9zVTR6M3VSR3AwMmNWYmd1Q0psRjdVaHZnNXlQNmRob2NmaWpCLUluVXVsQTN1cV9sZGRjT1hyb2FXakJ0MU_SAZYBQVVfeXFMTmlDczlIX3VIT2twUGdsdkJSbEdFVXBfY041OEZvQnAzc2pZcTBucUdLdU1QSWx2c0xqNXNlU0N6bU9namxJcDBONXc3YlQ1SURxVGJuTmhBeXJBUnNYSHJxMGtyNFJhNmtGTlR6NVd1WTI5R2EtTDVvc2xxekF4NEFMU0xVOXFjNHZZRHF2RUFLeTJlbmxn?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1PSy02TUhURVVnbE9fTUJCenpTQS1NdENLaUVEY183ZFpUX3kwXzFJS3VNNlVLTEs1UjNtYld5eG95b2VFdEMxQWZFRm1uWUVBeXotN1pjMER4RHVyLVVsc1VMZlp5aDhlVDVHWXA5WGpUdTA?oc=5",
     "rank": 8
+   },
+   {
+    "headline": "Be ready to sacrifice lives to defend nation from Houthis, Saudi Grand Muftis urges troops - アラブニュース",
+    "summary": "Be ready to sacrifice lives to defend nation from Houthis, Saudi Grand Muftis urges troops アラブニュース",
+    "source": "アラブニュース",
+    "date": "25 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZXB4WmtNeGRBMndOY19sWjFoN3N3aGRxVXFjMFpTSmx2dmJIN01udnIzZWxZdHFpYnY1OE9TVmRKMWt5cTg1NFpQQUVxbl9xTWh4TjRONjNZNnlCeW9ncFhVdC1qS0w4QW5KMmtucjZFa3B2UGJMbXRZRXVNTnFzSVROZDV0OVFXWW9aMHdzTFFNYTRqVjR6elVLOXg0WnRGaVhaUnFEMnRQWmJMU3V2eDNrZHAwY3FBaElZZW9YTTlUdlhfazhKY0ZSWElpUmg4NzdR?oc=5",
+    "rank": 9
    },
    {
     "headline": "Wall Street boutiques balk at Saudi Arabia’s HQ rules - Financial Times",
@@ -2655,15 +2665,6 @@
     "date": "25 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdzRhbjNVTmxTVTl1UktnVGNFUzA4TDBubE9BN1hZcVdwaHhUeXBVa0xXWnRCeVpOTDBQRFA3bGZ5OUZLUVNiby1xRzI1VDJhQ25HenR4WWZUNk11S2xaSWlldFNZRFN6U3U4OXlWeGJ4QjludzNFeXNkZzRsMHVkQm10aFo?oc=5",
-    "rank": 9
-   },
-   {
-    "headline": "Saudi Arabia Gains Allied Support - Modern Diplomacy",
-    "summary": "Saudi Arabia Gains Allied Support Modern Diplomacy",
-    "source": "Modern Diplomacy",
-    "date": "25 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5xeVh3SHBwWWFtRnpIeWk4eWtyMlB1QkZ4TF9KV19USlZubmFyaDdQRThsenZNaGwzM0lyb3pOUGZKd2wwekFMYmJrWGYwY3ZHeWRlRC0yWDRJZXc2cGpqUEFtdUJKamdkQVVFam5FXzlIZWlFWGlyRjhGTmo?oc=5",
     "rank": 10
    },
    {
@@ -2721,31 +2722,22 @@
     "rank": 16
    },
    {
-    "headline": "اليوم الوطني السعودي.. شراكة تاريخية ودعم إنساني - جريدة الجزيرة",
-    "summary": "اليوم الوطني السعودي.. شراكة تاريخية ودعم إنساني جريدة الجزيرة",
-    "source": "جريدة الجزيرة",
-    "date": "25 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vdk5RbVBRV2ZWall3cUVVam44NFQtQmhWNWVIQU9lQV9ZLXV4ZW94TWJRMmpBSnJZWUQ0cjZWeTBXN0lPZWtXeEZwbUQ1X2VKeUZFdVlOVndVVUtmdVE?oc=5",
-    "rank": 17
-   },
-   {
     "headline": "بيان مشترك بشأن الاجتماع التشاوري الرباعي لوزراء خارجية المملكة العربية السعودية وجمهورية مصر العربية وجمهورية باكستان الإسلامية والجمهورية التركية - صحيفة سبق الإلكترونية",
     "summary": "بيان مشترك بشأن الاجتماع التشاوري الرباعي لوزراء خارجية المملكة العربية السعودية وجمهورية مصر العربية وجمهورية باكستان الإسلامية والجمهورية التركية صحيفة سبق الإلكترونية",
     "source": "صحيفة سبق الإلكترونية",
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9MY0tDTmJvLVpzeVlmVUlfMHlBYUZNWFJIdmh3eUJHY3N4ZnBZWnltTWhoZHg3bjEzWE1iUVR6aFJObUxZeTZ3?oc=5",
-    "rank": 18
+    "rank": 17
    },
    {
-    "headline": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين - dw.com",
-    "summary": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين dw.com",
-    "source": "dw.com",
+    "headline": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين - DW.com",
+    "summary": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين DW.com",
+    "source": "DW.com",
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxPTURPMFJHLUxqVjhYV2M4Rnp1cDFjVDRTS3FZb1c4cjFJTkJsT0pnZTNyRWpZLTNuaS11MUp2QjZYNGFTRHJLcFdBOVlOTlJIX01VWUsya3pWcDc3UFdILWY4S1g5aXVmTU1nWE03aXB5dnlzdlg5U2ktNDV4ckRJcEZKamNXNG90V0NGREhNLThySEhiSUhqb3BLSHUwR3ZaU0FOOWdsc2lrNGpGal9mdXh6OWZrbkV2aUNhZkRsbVlOdFZPN0VuQkFwdl9vREZKb2VkcnREOHZBLWxVeklmc1NucFB5MTY3UjNaWm5sd2N0QWtrU3h2V1NObHM5TFFmbC03Y1VhTjFJNzRXQnFFSWNHMmdKeEZqbWJCSElfallrUGNEeDRlQ0pXVHNJUzNGZUxtcEtHeFVucUJrLUJoc2t0ZGhSQmpOT3E3ZEZaR2ppWi1RREhfcUVReFFPRkNaX09kN2E0ZW5NVzMzTXRWSTdaQXZiRzVGM1NJYnRSOXdUSmhsc2J5ZGtaeHVrWnN0c1RfcThwNi11Yk82bXl5bFBwNG1URzlY0gGoA0FVX3lxTE1MV0M0WUMtMS01WHc4R2JKM2oxZnJvMFRzTVA2MGRSWE4wRjJoOUlRNldLQThQSk11VFRBdzFxck0td2xidzgxM083SDBlWktER0JwVm1kdEhSdjctTVpuZ3VYMDV3MW5DdnZGNDRUNXRyQTE2aHJBYmVtbi1FdUp0WWJJQkNmb2J5Q1N5V2xQaHNLc2VWdlBoTnEwWGRyUzRJcVc4QTJtU0xsY1ctUWg4V3NjeVU0TEJ5ZmJ0b29ZNUFBX04wcEJsN012M1hQM2QxLXlNMzFZQTRxWUNXQ2hqWXdabUlSU2tNOFV6bm9TcHJBYVdVM1dTOW50c0dwY1haYnV0dW44WUk4RmVkcFZLbzFCWnhIalZiV1hZaTVxdXZsMHRES3ZZcDBMU3A0MVd1NTltZjZ2OGEzQzEyUldoY0JSdXRJNjZMb2VvN09heTF1X2VzTzMza2ZpcUhGZ180VWRpaVFNanpjQ3oycUE3ZHhFZ0pXZU9wZGZlY2VWSnZvRUxnSHdFZzEwM0dEOEdxLXc4TVFTLVNNTEF4OHd3NndGbm9iQXE?oc=5",
-    "rank": 19
+    "rank": 18
    },
    {
     "headline": "اليوم الوطني / المملكة في يومها الوطني.. مسيرة عز - وكالة الأنباء السعودية",
@@ -2754,10 +2746,37 @@
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1iNlozenpsRG9GelJYejdCcDhjZmlsSDF6U1pnQlBMZDF6TFNLX2FKWlhLdGtHN1diQnVFQ2ZQNlBEeGpOamc?oc=5",
+    "rank": 19
+   },
+   {
+    "headline": "الرئيس السيسى يهنئ المملكة العربية السعودية بذكرى اليوم الوطنى - اليوم السابع",
+    "summary": "الرئيس السيسى يهنئ المملكة العربية السعودية بذكرى اليوم الوطنى اليوم السابع",
+    "source": "اليوم السابع",
+    "date": "23 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxNalZqUDA0aVhwRW1TZlFfVXJaQnIwY3gxU1VDVFVpSUktWVRJSmhzcXVfZTZvTXRqVl9DcFpwZlNDTkQ3QVhpSU43ZEM5Yk9GVDJKci1vUl9PMDBSTGlWZ3liT09nYnB3LURNM2wxWjdNc25CWjR6WHBuTVdKdEZ4MjJuOWo5MWhsdmZsdXZxNkhVcHFva2pxS0tVZjJXeklPV25NU2pQaXVZOXFKS21UNmN0Z2NBbjdBa2IyaktzSmtXd3dOMkx0VFN1ZXcxQXJWYlUzNEIzVTExUEFwYXZDeXNxd1NMYzRSV0JkMW9LdEJlY2t3T1UwLTkyckdkRm9Md3llLTdoRHg2cU9hZnh0SHpkWlJuNF9mNk0ydGU4R253aEplNVFtcC1RTlQzZEJqYWJkb002QWJLXzZfVEN2azh1ZG44cW0wbWFrX0NtSDh5bk9rMVlyTzB5UjJxRGtqeVlTc1MwT2tybVRza2sxLXFQNTQ1MFBmSUpkeHpaVFFrM0hsLXdQTUNvV1dleXJfOFJXQ3hHeE5FU0lfUzNmYUFJVXh6TURSWWNTQ3ZGMEVfZllEOVEtdmw1NGdtOTF0Y3RoNFUxV3gyX0ZqQUJ4TnAtaE5JQU5iVjNabzRRMDRzY0dxWU1sQVZEaXljRXFvYmRIVEJ0NFVOdzBoRUhkNTY3TGFFY0JQTVF2enV2MkNfRl9H0gGPBEFVX3lxTFBZWVlDTWpMU2dSbTR0ek5OUnNqTXNRRVpKNHJWclM5NEQ0NXBtdGJUWmhqdTh4czdTbnhkOGdUTXhLbk5TdVFVNDlZbmxyT25FSXhMMnYxaXpXaE5vTGgtZHdFQWRIV1lSRWpPSUhUY010MFhBZzNabHpEZGxXaXNwNzgzY2dkYjB5RjY5czk3R2k5U3dTQ2gtOTAtR2YwMzUtOUhJMkRMc3h4dE1DaG1jb3NfX2NzdFpST0hTcGpWbXZWd0J4UFBYbXFFS2hBNi1GYkswbDNpR0VKd2d6UTFkRXNDQ1lCUjZYbGxYeUhtV0IwRU1qLXYtVUdnUFJ3b3ZRWlU1ZF9RMlBzR1lzQ3hPeGctdjB3TVZBWXRxNU9SWXdMcllta3hzWEZ4ajZGVk1VR0M3b3QxUGtUbFZ3V3hHdXBBVWNiX1lMSEUtZHVBR0p4NEVrczZxM0c5LXFRWEVqdm1JbjVfRG5yWkpSSmJtQVlabEpnbklfUWl6MFhPdkYyUV9fUmxRSy15c1pDYmUyYXktLXY4SXdjMmxUTGItWnpnWVhRQTY0QlF3aFRlRVBYMEJvSnF6THZJb184WDc4V1pySDVyWmxHbUhhdkQ1Q3JDQnNzNkFmcFBJaC1tVFJsWFMxbWNfbnRwSUJOSWZMT3drclZaSFNpT1g1aVc5SVF4Tjl5WTA1VmJQRllF?oc=5",
     "rank": 20
    }
   ],
   "regional": [
+   {
+    "headline": "Pact with Saudi and Pakistan could expand to Muslim world, Iran, Turkish speaker says - reuters.com",
+    "summary": "Pact with Saudi and Pakistan could expand to Muslim world, Iran, Turkish speaker says reuters.com",
+    "source": "reuters.com",
+    "date": "25 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSU13N2RRWHBoTWR0LUNPRUFQb0FHckVYX1FwTG5sMXFWUHlHeFhvYURrbWp1R3pfVVFIYXUwZWN5c3RsWjhBVDNyRHBsQ2RCV2U0ZndOMFdKR2tNZ1pWT1FsSHl4TC1jMmdOb0wwQldnVTZRNEJBOFl6RWs3TnE3LThMSGdUMmJib2hNdGZhQlhQWlc3ai1nRWJlZ0hTT21MYVR3YzlPdFhqSWl6MnBjN3JDcGFmY1U1VHZpXzh1WHpmOUpvZ1BZR2JB?oc=5",
+    "rank": 21
+   },
+   {
+    "headline": "Allies unite behind Saudi Arabia as Houthis step up attacks - The Jerusalem Post",
+    "summary": "Allies unite behind Saudi Arabia as Houthis step up attacks The Jerusalem Post",
+    "source": "The Jerusalem Post",
+    "date": "25 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMYVI4azBsUWFOQWxVQkV1dmdUYzRjUFAtaHNkb3Izd3l0VnNPSHRKR0pqdU54bGljMGI4WmprR2swWGY0RTE4THpBQW85d1J5Tl9BQVRLOWVQWk94?oc=5",
+    "rank": 22
+   },
    {
     "headline": "Macron says ‘military resources’ to be sent to Saudi Arabia - France 24",
     "summary": "Macron says ‘military resources’ to be sent to Saudi Arabia France 24",
@@ -2765,7 +2784,7 @@
     "date": "25 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUEhuMHhGdURIcVczdVU0VWxoMi1KVW5uMXA5dUd3NjI3bkd5TzFnaTNfQVM3SFctelVPX0NnbllmZWxIZXkzc0xLckxTMmxlQm9LTERhaF83MWZGWEdKR2Z4RmV3UlVIek0za05NY0s1NUZXT0FjVXl6QTRMWU9hVlJ0UEpULUYyclp6RkNR?oc=5",
-    "rank": 21
+    "rank": 23
    },
    {
     "headline": "Saudi Stability and Freedom of Navigation Require South Yemen’s Reemergence - Middle East Forum",
@@ -2774,7 +2793,7 @@
     "date": "25 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUl81TkNXZjJsa1BfYkpkbmhiOXpmMVM1Rzd0UXRCVnQ5OXJHbUJTZEREMGdxSkV5UlFQdjNseFlpVkh4X1ZUY2p2bVU2VUhzWVh3cnc4Y0w5ZldXVlhiQlBPZVFESGNQb21JVlNZQ2hxWjFRd19nSGpiam40cXZaVE82bXRVRVVfRHllSEtIc29CMzFLMlAtVHdmSzhsY3plSnN5c1lNamw2NnFiREllVA?oc=5",
-    "rank": 22
+    "rank": 24
    },
    {
     "headline": "Report: Saudi Arabia, UAE urge US to maintain pressure on Iran - i24NEWS",
@@ -2783,16 +2802,16 @@
     "date": "25 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdHdhd0NoQmppY21qdG5KTWhaa3hUNXZPa0xFN3FlM2JCRlBGY3dGU0pSWEJ6RHlMOTFyUkhoekxBWnMxbTVnQlgzeEg1aFQ4Y0c2U0ZNOExSQVprUHJzSVVlQ2hJRnNidG8yT05MN2FqR3dxck81WWdaZVJhb1lRR3lnYzdMSHdmY3F0NklJWEVGdWdjRDF4NWtUNU9Fdm9ZLV9R?oc=5",
-    "rank": 23
+    "rank": 25
    },
    {
-    "headline": "Turkish parliament speaker expects Pakistan, Saudi Arabia defence pact to be submitted for approval next month - Middle East Eye",
-    "summary": "Turkish parliament speaker expects Pakistan, Saudi Arabia defence pact to be submitted for approval next month Middle East Eye",
+    "headline": "UN Security Council condemns Houthi attacks on Saudi - Middle East Eye",
+    "summary": "UN Security Council condemns Houthi attacks on Saudi Middle East Eye",
     "source": "Middle East Eye",
     "date": "25 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTHI1bTZuR2IwclIxamJhQ05YM181LWoxWGdNOUYyMXBDTWpJaWlsb09xcW1oN1ZGdWdBWi0yRkxuU21NSTZaZDhjcDUzcDJCQmtlMzZaUEI5cmlyYk9YS29JOE12OU90QmtGZXA5TmJfdG1OQk95bVkwWkhhX2Z6cHFSd0tyOXY2TFFja055bHhxd2RLUW9JRGtWWTByc19vR2NpdUI5cHFBVUNSMEpqQmMtT0psZl84N3FYNkRwbXplMUFwOTUwRg?oc=5",
-    "rank": 24
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYWxLNmpuR1RJckxkRFJuOEVSZl9BYXRGY0JEVmVIMWRJX0hJb0M2RVpNSHJIX1FVNWc1a3hUaUtKd0NNQXNoOXdrajFlWE40VGdBeGs2ZHAyM0FsQ25XS0xQMC1jLWZzNU5nb3NDZ0N6NjZfYmRIM1VvWi00aTNqd0JaWEVWdDgtZEc1el9wYVZRUzAzckdFOGZMaFRGMlVJdlA1NDROYTZWUQ?oc=5",
+    "rank": 26
    },
    {
     "headline": "Saudi Arabia Faces the Era of Disequilibrium - CSIS | Center for Strategic and International Studies",
@@ -2801,106 +2820,97 @@
     "date": "24 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE10a2VnZXNxOTVvMzhSYXNLdmx5TjZZUWRvd3hvSGJMYjQ2bnhMSGVYaERxYW54U01jTEE4b0xwRmdzNTFERmRuZjVnQjJOX0liY3dqZENNUnJ1Um9Ndk45Zkd2QWRINGUwcEI3aEJ2eUlLakFoRXc?oc=5",
-    "rank": 25
-   },
-   {
-    "headline": "Be ready to sacrifice lives to defend nation from Houthis, Saudi Grand Muftis urges troops - アラブニュース",
-    "summary": "Be ready to sacrifice lives to defend nation from Houthis, Saudi Grand Muftis urges troops アラブニュース",
-    "source": "アラブニュース",
-    "date": "25 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZXB4WmtNeGRBMndOY19sWjFoN3N3aGRxVXFjMFpTSmx2dmJIN01udnIzZWxZdHFpYnY1OE9TVmRKMWt5cTg1NFpQQUVxbl9xTWh4TjRONjNZNnlCeW9ncFhVdC1qS0w4QW5KMmtucjZFa3B2UGJMbXRZRXVNTnFzSVROZDV0OVFXWW9aMHdzTFFNYTRqVjR6elVLOXg0WnRGaVhaUnFEMnRQWmJMU3V2eDNrZHAwY3FBaElZZW9YTTlUdlhfazhKY0ZSWElpUmg4NzdR?oc=5",
-    "rank": 26
-   },
-   {
-    "headline": "«إرنست ويونغ» لـ«الشرق الأوسط»: سيادة الذكاء الاصطناعي في السعودية تتجاوز البيانات إلى بناء القدرات - aawsat.com",
-    "summary": "«إرنست ويونغ» لـ«الشرق الأوسط»: سيادة الذكاء الاصطناعي في السعودية تتجاوز البيانات إلى بناء القدرات aawsat.com",
-    "source": "aawsat.com",
-    "date": "25 Sep 2026",
-    "tag": "housing",
-    "url": "https://news.google.com/rss/articles/CBMiyAVBVV95cUxOVUJyNi1vX0xQT2lOMnNSeU9SQ3hPbFVnclVVX1MzVjY3aWRPbjF1Ujg0VjZXQ0lOcVZsT0JQMF9kRS1FaWppQ0pUVGFQdGJ3dXF6RHVMSFQ4OXFfUE5sM2dlOExULUoxUXl2NGlnQnVzelgtbzJmaGQyV2RvMnlLNjd5Rmp5Ty1YNmhKVXdidDVUMHF0WXhkZC1qT0t2SjN1WWZiajVZQkd4Y1Y2dElFTm9oc2JDYV9HZlNuUDUwQkhkYnBkWl8wLU5XR3Z0NXZoOW1yMWNMU2FLNXFhYUt6MmRfWGs2LXpxLVhIWDJWd0w2MW5mYUZCU2RyVzZVSFNiTWtFVmI5Q3NuVlFiUjlQVEVoang5TkZpclZpdnp6WlROb0s1VGpuSkoyc0o3c3Q3YnBHRlROamxmYnNESE5tWC1uMHgwNmd1Q3pqeG4wNDZpYnhhNV8wTjN5QVY5UXN2aHJWdHp5NUZHek5rQkp1bzNnQnZzN0NoMk44cDF0YWNJNG9oSHJGYTgwbUtaUDFQSXZ6UWZ0LXd3ZWthQmxKM2dfcGhORzR4QVhTNU5Dbmk1ZmY5cU01d3Z2STY5ZTFmZGt6UVk2RTFBNzY5V0lVam1CckJDYkFVejBYZUM2ZklYMzNLeE4xYXFoRFFiTzFJTE9IcDREazBLLU80aFBPRnhUS1cwLTFJTjhsRWFkZlphU0xuSlN2RTltUV9CUmpYaV80V0JWanVNeWVhZGh2S24tODZfSVZtUlMwaG1JV0l1MXZfYWJ1ODc0UEplNmxBX3JFaElaZnFRc1RrYy1pVFNEWjRjRkpVeUFCWGpjZUNwQmpRMkI5ekNxT2dRSE1NOW1aQWN0bkpDanVMc0tva0c1ZGVyLTFQRkNXUUpOcVpGbEJzTWZ6QjhXZDByN3htUS05dDBMakhyaFdlbEEtZnFZUlFPcVBa?oc=5",
     "rank": 27
    },
    {
-    "headline": "«باب المندب» يختبر حدود المصالحة السعودية - الإيرانية - aawsat.com",
-    "summary": "«باب المندب» يختبر حدود المصالحة السعودية - الإيرانية aawsat.com",
-    "source": "aawsat.com",
+    "headline": "«إرنست ويونغ» لـ«الشرق الأوسط»: سيادة الذكاء الاصطناعي في السعودية تتجاوز البيانات إلى بناء القدرات - الشرق الأوسط",
+    "summary": "«إرنست ويونغ» لـ«الشرق الأوسط»: سيادة الذكاء الاصطناعي في السعودية تتجاوز البيانات إلى بناء القدرات الشرق الأوسط",
+    "source": "الشرق الأوسط",
     "date": "25 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMigwRBVV95cUxNVnBSbUlaRmZQN2FPN0V3WU1ERUF6VkZ0T1BxWTV4OFdPQVBERXdyQlc0a25PUjBKTm9tWUZBUmNUOFZiM2tjcFgtQkpKc0NlX2xDTjFrV2JLNFFSbFladXNDcUExNlR5NW9aTWpaWGxZcDlUdnB5WG50REFrQkxHemZkZktkTHVmNlhhVUgtVTMwVER3M291MUdTdjQwTFo2UklyMkRGYzhuaHI4ampMdHBsTUlVaFh2THpTNm0wZlJDTElqcWY3QnVjc3FlNmdPbFpGcGpyOGxkMTM4UlA0TTNOM2x0OTZYemg0UjVJYnRXRzhLd2VXUVlZQ3cxaXNQMlBWU1hCd3dWU2wxanRDZnBIcWRLYTJYTVFtTHV0S0VCTm8wT1dURzNIMFhFemtFX1VDSEZwWkdkRkF0alhNaXNsdHhlalhhZDZtZHFBZUMzTEJmOUdENnVrWGVSR1JYZHFYRHYxeFloUlZKeXNpa0NCNDVYQ0ZCYnhLUUhWYzVyOG1Nd2VmbS1KZEc0ZmJ6dXFQdVRaMmR5RHI1WURKXzh2QVQ4QnBTNDBGNGZoTTh3b3A2RndOVl95VHZVTllod0tiTU5GVlIwcTc2cU1PUW5sSlozM1k1dWktTmxmQmcyVWEyMVh6YmdEemJPSXBCY1hkd0FRX0l0TnBwblBXblV2dw?oc=5",
+    "tag": "housing",
+    "url": "https://news.google.com/rss/articles/CBMiyAVBVV95cUxOVUJyNi1vX0xQT2lOMnNSeU9SQ3hPbFVnclVVX1MzVjY3aWRPbjF1Ujg0VjZXQ0lOcVZsT0JQMF9kRS1FaWppQ0pUVGFQdGJ3dXF6RHVMSFQ4OXFfUE5sM2dlOExULUoxUXl2NGlnQnVzelgtbzJmaGQyV2RvMnlLNjd5Rmp5Ty1YNmhKVXdidDVUMHF0WXhkZC1qT0t2SjN1WWZiajVZQkd4Y1Y2dElFTm9oc2JDYV9HZlNuUDUwQkhkYnBkWl8wLU5XR3Z0NXZoOW1yMWNMU2FLNXFhYUt6MmRfWGs2LXpxLVhIWDJWd0w2MW5mYUZCU2RyVzZVSFNiTWtFVmI5Q3NuVlFiUjlQVEVoang5TkZpclZpdnp6WlROb0s1VGpuSkoyc0o3c3Q3YnBHRlROamxmYnNESE5tWC1uMHgwNmd1Q3pqeG4wNDZpYnhhNV8wTjN5QVY5UXN2aHJWdHp5NUZHek5rQkp1bzNnQnZzN0NoMk44cDF0YWNJNG9oSHJGYTgwbUtaUDFQSXZ6UWZ0LXd3ZWthQmxKM2dfcGhORzR4QVhTNU5Dbmk1ZmY5cU01d3Z2STY5ZTFmZGt6UVk2RTFBNzY5V0lVam1CckJDYkFVejBYZUM2ZklYMzNLeE4xYXFoRFFiTzFJTE9IcDREazBLLU80aFBPRnhUS1cwLTFJTjhsRWFkZlphU0xuSlN2RTltUV9CUmpYaV80V0JWanVNeWVhZGh2S24tODZfSVZtUlMwaG1JV0l1MXZfYWJ1ODc0UEplNmxBX3JFaElaZnFRc1RrYy1pVFNEWjRjRkpVeUFCWGpjZUNwQmpRMkI5ekNxT2dRSE1NOW1aQWN0bkpDanVMc0tva0c1ZGVyLTFQRkNXUUpOcVpGbEJzTWZ6QjhXZDByN3htUS05dDBMakhyaFdlbEEtZnFZUlFPcVBa?oc=5",
     "rank": 28
    },
    {
-    "headline": "«سير» تراهن على بناء صناعة سيارات سعودية متكاملة - aawsat.com",
-    "summary": "«سير» تراهن على بناء صناعة سيارات سعودية متكاملة aawsat.com",
-    "source": "aawsat.com",
+    "headline": "«باب المندب» يختبر حدود المصالحة السعودية - الإيرانية - الشرق الأوسط",
+    "summary": "«باب المندب» يختبر حدود المصالحة السعودية - الإيرانية الشرق الأوسط",
+    "source": "الشرق الأوسط",
     "date": "25 Sep 2026",
-    "tag": "housing",
-    "url": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxQNWFGcV9iUEFHU2Z3cEdySDhuVEdMOU1vdHFpZk5neEpqWk5rLVZIekVxM29mNmlZam9GMDd2dldFa3lXVmRsdjA2eElFMFBpc3lmUUNXd2lLVjZuSmFNQzRqa0pYRE9SWnkzN1hhUllZT1AxVmo5ZWFRVTNTcU41b2VIbHJLaDRlanYtNWNVN2RMQlpGRnhueDB5RDItMUQ3YnFGS3p6X0h0SUJQVjZQcTd3Z1F0NkxWYzFxWUUtSHExNDN1RTRodkMtT0YwcDQ1THdkakdDV1h6ZVVnNFZLamtyY0FfaEZxRG56QmlWeVNqSDJUYWZURWpDVmstb04xYnczLV85eWc3THV2QWpodm5WNnNucDQ0UlZfM3d5R2daWlpkVmVJUVRHcWNjSThNcWRWY1ZxemExSVFORzJ6LTJrX1ZJM1pRUElkZUlEUWkwa0tYS0tCdFVfYzBWaGVPU3BZc2hCZ1dEZ0tHOFZOU3JLZURCem1XazRLSVJmMHRsaFpnQnZNMXJFOGZvLWJ6eGMwaGNPWHR1QTQzX3lqTk03ZHdtLWZVdWtURTFCZ1p6cE1jdjB0NEI2LVAyb3ZzbjQ4?oc=5",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMigwRBVV95cUxNVnBSbUlaRmZQN2FPN0V3WU1ERUF6VkZ0T1BxWTV4OFdPQVBERXdyQlc0a25PUjBKTm9tWUZBUmNUOFZiM2tjcFgtQkpKc0NlX2xDTjFrV2JLNFFSbFladXNDcUExNlR5NW9aTWpaWGxZcDlUdnB5WG50REFrQkxHemZkZktkTHVmNlhhVUgtVTMwVER3M291MUdTdjQwTFo2UklyMkRGYzhuaHI4ampMdHBsTUlVaFh2THpTNm0wZlJDTElqcWY3QnVjc3FlNmdPbFpGcGpyOGxkMTM4UlA0TTNOM2x0OTZYemg0UjVJYnRXRzhLd2VXUVlZQ3cxaXNQMlBWU1hCd3dWU2wxanRDZnBIcWRLYTJYTVFtTHV0S0VCTm8wT1dURzNIMFhFemtFX1VDSEZwWkdkRkF0alhNaXNsdHhlalhhZDZtZHFBZUMzTEJmOUdENnVrWGVSR1JYZHFYRHYxeFloUlZKeXNpa0NCNDVYQ0ZCYnhLUUhWYzVyOG1Nd2VmbS1KZEc0ZmJ6dXFQdVRaMmR5RHI1WURKXzh2QVQ4QnBTNDBGNGZoTTh3b3A2RndOVl95VHZVTllod0tiTU5GVlIwcTc2cU1PUW5sSlozM1k1dWktTmxmQmcyVWEyMVh6YmdEemJPSXBCY1hkd0FRX0l0TnBwblBXblV2dw?oc=5",
     "rank": 29
    },
    {
-    "headline": "«الوزراء» السعودي يبحث جهود خدمة الأمن والسلم الدوليين - aawsat.com",
-    "summary": "«الوزراء» السعودي يبحث جهود خدمة الأمن والسلم الدوليين aawsat.com",
-    "source": "aawsat.com",
-    "date": "24 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMixgRBVV95cUxNVjByazhuMXZDOGRlTTVJSTNRa0x4cE1aLTJOZkRzMVp3QjN0SnV4Q2RHMDZzMWE0VFNwLWZCckRhWjJKS1pOWFdDektYZHYyd2R2endlSWFKNk5WLVlpVjhzN2pUcDNsZlRHXzh1WWM1YWREU0ktOFYwRWdMUGJUbGk2Q1V2WW40NEpIVHZJYW1XalNkNUE4NWdGc0xfY0x2TW5BODF2Vi1WREVtYTVwOWFBZEZIRFVUakhxaExPZG5pcHNWYVN4US1WV19aT3BaU0lSZFBkRVNwNDNnSzY0R2FkcXk0OUY5QWZldDNSa2JXaWJPMDlIdy0yS3hCSXZIdnF4aGlwR3pSVDY3SGFTOUlLRmw4MmhOVGRrY0s4VElXM01qOVhXbk1TbFdHS013azR6TW5jcWk1TVVFNnNzQ2xIRkhaU2x0eEx6WGVhQUhzSGYwS2I2dTJOSHhOa0p1UDJnVVhjc29ZYXM1NVk2TW1zaGlGTWs1NzRYZ1J6UENzREhYRlo1TW1DOURURVhKNnFRbHpWT0FTTlIwTHhmcWZqak5vc0Fkb0xyOHBFRExVUG5JckstN0tMeG9mSHNyblZBZnRUbUtYU0ViVTZXZElSRGlhTHFyYlBPaFJIdXVRQ2FlY0djU2Q0VWtQWVlOcUNOOUV3a1NCa1g1MHZTOVpnbkR6ZGppaFhGWEdCSXpPNEhuQnMyUzFudWt1ZG5xTkd2QlFJT0h6T0lYUmNwODUwNExkaHlkZWt3T09TQlV1TUVoa2c?oc=5",
+    "headline": "«سير» تراهن على بناء صناعة سيارات سعودية متكاملة - الشرق الأوسط",
+    "summary": "«سير» تراهن على بناء صناعة سيارات سعودية متكاملة الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "25 Sep 2026",
+    "tag": "housing",
+    "url": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxQNWFGcV9iUEFHU2Z3cEdySDhuVEdMOU1vdHFpZk5neEpqWk5rLVZIekVxM29mNmlZam9GMDd2dldFa3lXVmRsdjA2eElFMFBpc3lmUUNXd2lLVjZuSmFNQzRqa0pYRE9SWnkzN1hhUllZT1AxVmo5ZWFRVTNTcU41b2VIbHJLaDRlanYtNWNVN2RMQlpGRnhueDB5RDItMUQ3YnFGS3p6X0h0SUJQVjZQcTd3Z1F0NkxWYzFxWUUtSHExNDN1RTRodkMtT0YwcDQ1THdkakdDV1h6ZVVnNFZLamtyY0FfaEZxRG56QmlWeVNqSDJUYWZURWpDVmstb04xYnczLV85eWc3THV2QWpodm5WNnNucDQ0UlZfM3d5R2daWlpkVmVJUVRHcWNjSThNcWRWY1ZxemExSVFORzJ6LTJrX1ZJM1pRUElkZUlEUWkwa0tYS0tCdFVfYzBWaGVPU3BZc2hCZ1dEZ0tHOFZOU3JLZURCem1XazRLSVJmMHRsaFpnQnZNMXJFOGZvLWJ6eGMwaGNPWHR1QTQzX3lqTk03ZHdtLWZVdWtURTFCZ1p6cE1jdjB0NEI2LVAyb3ZzbjQ4?oc=5",
     "rank": 30
    },
    {
-    "headline": "الحكم البحريني محفوظ يقود مباراة السعودية وعُمان - aawsat.com",
-    "summary": "الحكم البحريني محفوظ يقود مباراة السعودية وعُمان aawsat.com",
-    "source": "aawsat.com",
-    "date": "25 Sep 2026",
-    "tag": "sports",
-    "url": "https://news.google.com/rss/articles/CBMipARBVV95cUxNVF9hUTZyODJtRWpQY0UxdmY3RW1lLVhpNTFLWDZoVTdVQlRjMW0zb1dlNXdxUkx3WU0yUDNtNXFHSVpRS0JHaEpFWkU4TjI3WDcxYl9yUkhmUUlROTgzV2VTVDRWTUwzYU9ET1Yyb2NYVGVJTW5EVnliYlA2OTNKbVlWeFozYS1GVEVvektoSHYwZFZiakJORlZzNEZPaDl1UVdGa01fNDUzOWdDOXhfQkY5ZFZhTy1WQlR2REFPcFFKb21tTDZ6SVRLTFZWWEI0QUhxZXhfOHo0RUNWdWU2aVpqeVlURXBBejBRSzRiN2JCV2E1M3NRSmQtYkltZFlFbnMybmxGRU5KOUJwTkM3X1BwblVSZHBqalF2cFVJOHI4Zzg3cTRBa2dYSmxzM3dERHhyM016SS1TVExqZG03dU9mYm4xNVV0WExxYk94SUVNWmkxa2daSDVvYnlrYk1MMWdlNW9PTVp2OXBqdF9BWHdVbV9ZeHJGTXUxY29YWHJTMlhJUjRoSUViXzZiUWFaUjlzSzBMbzNUUTRKbjRZazVTb29aYUd1UUNTQ1RDTlJqdnRLYlEzb3NXa3lXR0RXU3BtMzFreUdkU3pjOWt2Tk9pd1JyekEwWW9kMFdteGJaeVl3MTNwSnZ4VUdWdnNQVkdpdU5Rb0tvNENqU1ZKd1BUMjFzaVVtWFZ0ZUFfUlVudlNDOElFVy1OSjI2MlUyWF85OA?oc=5",
+    "headline": "«الوزراء» السعودي يبحث جهود خدمة الأمن والسلم الدوليين - الشرق الأوسط",
+    "summary": "«الوزراء» السعودي يبحث جهود خدمة الأمن والسلم الدوليين الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "24 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMixgRBVV95cUxNVjByazhuMXZDOGRlTTVJSTNRa0x4cE1aLTJOZkRzMVp3QjN0SnV4Q2RHMDZzMWE0VFNwLWZCckRhWjJKS1pOWFdDektYZHYyd2R2endlSWFKNk5WLVlpVjhzN2pUcDNsZlRHXzh1WWM1YWREU0ktOFYwRWdMUGJUbGk2Q1V2WW40NEpIVHZJYW1XalNkNUE4NWdGc0xfY0x2TW5BODF2Vi1WREVtYTVwOWFBZEZIRFVUakhxaExPZG5pcHNWYVN4US1WV19aT3BaU0lSZFBkRVNwNDNnSzY0R2FkcXk0OUY5QWZldDNSa2JXaWJPMDlIdy0yS3hCSXZIdnF4aGlwR3pSVDY3SGFTOUlLRmw4MmhOVGRrY0s4VElXM01qOVhXbk1TbFdHS013azR6TW5jcWk1TVVFNnNzQ2xIRkhaU2x0eEx6WGVhQUhzSGYwS2I2dTJOSHhOa0p1UDJnVVhjc29ZYXM1NVk2TW1zaGlGTWs1NzRYZ1J6UENzREhYRlo1TW1DOURURVhKNnFRbHpWT0FTTlIwTHhmcWZqak5vc0Fkb0xyOHBFRExVUG5JckstN0tMeG9mSHNyblZBZnRUbUtYU0ViVTZXZElSRGlhTHFyYlBPaFJIdXVRQ2FlY0djU2Q0VWtQWVlOcUNOOUV3a1NCa1g1MHZTOVpnbkR6ZGppaFhGWEdCSXpPNEhuQnMyUzFudWt1ZG5xTkd2QlFJT0h6T0lYUmNwODUwNExkaHlkZWt3T09TQlV1TUVoa2c?oc=5",
     "rank": 31
    },
    {
-    "headline": "السعودية تقود اجتماعاً دولياً موسعاً حفاظاً على «حل الدولتين» - aawsat.com",
-    "summary": "السعودية تقود اجتماعاً دولياً موسعاً حفاظاً على «حل الدولتين» aawsat.com",
-    "source": "aawsat.com",
-    "date": "24 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiqAVBVV95cUxNUmZZVDdNNzdIeXRNUVhSTGpyX3gwYnBJNGVTWVd3VlVVZm96Y1dtX05Kcm45VW5ma2drdkZiX2x5REQxWTlrTWVlUk55UUt2R2JtQTRhNURxUEpHWXZkR05GVDdmMFlBYWpObzNRYlRLWW5aN0Z1dE1FT2VwRHBwWF9jaXA2VXU0djZCRGhwX1RMWExUdTBYbGh0RDRCWUxDUHVBa3dwQTg2RElySk1sTm1rZFBSNTBfRU0welFOb3pUN3hkYkZMclNaXy1od1gzc3BOSGNITjhhNERjVXpIYlYzX25mRGZPWnY5VFRYdG1VMkdoR2ExZXRPOVZOYTJtMVBvZnNGN181VlpvSzJfRHRTMFByZHlMR3JZT2ExUzdPYnh0UklobFZRNndiRzRHazBMdU93eURkakdXbFliSDhYaW9ScmFyYTB1WWhvaGVnM3RyTFBWWk10M0k5RXctb0dkUm1KUi1tLV9RUDBpWlZrUWtvcEc2QkMxVUNOUUI1ZXhLRzJKV0NyOWhDbDBSczlNV0xYa2NRTFptZTVKT3Nkc200MzZTX0FQYUpJa3htdVdXdjdOLUUyVWV4T2xRUG5FYW5zS2RwLV9BTVRIU2ZfZkFBalRnSFBUUlZoWFJrNHlib2drcjlmOUNSaUkxRVdydFlYbkVDT2IzUlotam1HRm1oOEV3NUhLMW9NcjZUMVhRX0hLY1BNT2R6dDdYMzU5QWI0Mi0yYkVWYW9kWGFtbWpNbU1nNXREenNMVDdkRUhLRFRHNDNvS1JwSDVCZnBRY2hPRW9ielVKVjZKVk0zbXZZUEdtcUZEYjNuYkRoa24yaWhCaWJaLVZDTUpCaWVsRjk3a1lyLUk5bVJRMUd3c28tanF2ck5uUG1hY3BHODliRWxVTw?oc=5",
+    "headline": "الحكم البحريني محفوظ يقود مباراة السعودية وعُمان - الشرق الأوسط",
+    "summary": "الحكم البحريني محفوظ يقود مباراة السعودية وعُمان الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "25 Sep 2026",
+    "tag": "sports",
+    "url": "https://news.google.com/rss/articles/CBMipARBVV95cUxNVF9hUTZyODJtRWpQY0UxdmY3RW1lLVhpNTFLWDZoVTdVQlRjMW0zb1dlNXdxUkx3WU0yUDNtNXFHSVpRS0JHaEpFWkU4TjI3WDcxYl9yUkhmUUlROTgzV2VTVDRWTUwzYU9ET1Yyb2NYVGVJTW5EVnliYlA2OTNKbVlWeFozYS1GVEVvektoSHYwZFZiakJORlZzNEZPaDl1UVdGa01fNDUzOWdDOXhfQkY5ZFZhTy1WQlR2REFPcFFKb21tTDZ6SVRLTFZWWEI0QUhxZXhfOHo0RUNWdWU2aVpqeVlURXBBejBRSzRiN2JCV2E1M3NRSmQtYkltZFlFbnMybmxGRU5KOUJwTkM3X1BwblVSZHBqalF2cFVJOHI4Zzg3cTRBa2dYSmxzM3dERHhyM016SS1TVExqZG03dU9mYm4xNVV0WExxYk94SUVNWmkxa2daSDVvYnlrYk1MMWdlNW9PTVp2OXBqdF9BWHdVbV9ZeHJGTXUxY29YWHJTMlhJUjRoSUViXzZiUWFaUjlzSzBMbzNUUTRKbjRZazVTb29aYUd1UUNTQ1RDTlJqdnRLYlEzb3NXa3lXR0RXU3BtMzFreUdkU3pjOWt2Tk9pd1JyekEwWW9kMFdteGJaeVl3MTNwSnZ4VUdWdnNQVkdpdU5Rb0tvNENqU1ZKd1BUMjFzaVVtWFZ0ZUFfUlVudlNDOElFVy1OSjI2MlUyWF85OA?oc=5",
     "rank": 32
    },
    {
-    "headline": "«بيبسيكو» لـ«الشرق الأوسط»: نمو الاقتصاد السعودي يدفعنا لتوسيع الإنتاج - aawsat.com",
-    "summary": "«بيبسيكو» لـ«الشرق الأوسط»: نمو الاقتصاد السعودي يدفعنا لتوسيع الإنتاج aawsat.com",
-    "source": "aawsat.com",
+    "headline": "مجلس الأمن يدين هجمات «الحوثيين» ضد السعودية - الشرق الأوسط",
+    "summary": "مجلس الأمن يدين هجمات «الحوثيين» ضد السعودية الشرق الأوسط",
+    "source": "الشرق الأوسط",
     "date": "25 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi1ARBVV95cUxPT2E0TjBaSVF2RDM2YVVTaFU3MUg3ZnR1NHBvbGtLT0pRUkotWW0xUXZGNUNwOG5JYzFNbW9jc0hKNVdBX196TjdzWF9EUWxnbE56MWdVb3FCMER2N2xCd2gyeUdTcmxQcl9EdGVYaGRaUTViQmtRS215Y3BtblNETFpMbzhhUjVqZTFSeDZCSGR5Z3JpajhhVWdRTllEbXd6bWJFVWhsQ2NOOTBDbWswbkhWN2VlbElLUGZpb3lpS21lOGxoQzhDN09xSGVTQzhvYTJadFE2dDlDWFRLc0hpUW85RE1Cc1JXU1VTQVBMXzNSd1F1Q2dMRmhPOEN2X0dlZEFzTVBfQXhSUldLSFB4SkdtX2E5cFMtV2Y4eEhOTjlPS2pXOEFHaVVFb2d1N0dvMlhTR0plUE5oUjlGUU02QzQ5QUdhNTBIRTBFbDBIQUZTaTdZMENYMFNTZVFTQkhETDFDWFNiOWNEb2RiUDhLY1QybnNMRmh5NkJHUFBuTE1aQWtpWDE2Skp4WVJIYVRSUGR3bGtJWW0wUE9ZRE9La1gzejNhOVBKcUUweEYya0lYWmhSUlk5WnpBeDctcVBGTjhwUzRZSktLdXMwY0JzS0xrR2toQi11d2lORmpYSVF3X3JJNG5mYmJlU3AzZF9nUjVKS2JEVXNiMmJELUFucGJQTE9ReS1Hb29iUUFsamVOQ0FnRVl4MHBveXR5NjV3Zjl3RzFfOGxoUHkwR0JfRXY4UWJCQ3JhbGxHNUJ4aFJocXBuem8tek96c3F6LWNUSVhxTw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxPVXlTeGphWWpOQzBuWDA3Y2hYQ0VLM3ZGcmJqaDlKU0VMYkw1ZDR0T0d6ZlZmTFFRSFJIMV9jTC1NeUFOS3cwTUVxMm84QXVrYzRrNU00djdpQ19STE9XWmVDNG14X3VTX3ZpNld1cUFPODVSX3Nyc1NnMmxxTTI5WDhtVldPOVlQT0dtQTZsbHVRSTN2TDd2cG5uVWcwMHR5SVVQNk9PUG81NmlaTUFGZVd2eHFyYzNJSW1EUl82LUFqdWNzRDJTa1BIN2VMSGhHRDVGaFFDbG55clgwR0cwcERLdkctNTFKbkZDcXFDU3JPdGhpUXdIM21wMmFXLWlVTndOU2dVOWZlSlo3X21MbF9LUm1kUXZ4NGk5RXlpT0EwNFdJNkYtRzRSN2FTMktDb2gwSFhLQjV1ejFGZHV3TnpCRWs0aGoyd3NnQUVfcTNsNXJmMzhJVUtrdFpxOVhwc0JJY1lQT1VXR1BKYXZRRFJNbW9FRFFm?oc=5",
     "rank": 33
    },
    {
-    "headline": "أيتهما أكثر قوة... السعودية أم إيران؟ - aawsat.com",
-    "summary": "أيتهما أكثر قوة... السعودية أم إيران؟ aawsat.com",
-    "source": "aawsat.com",
-    "date": "24 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOcG9qbXNCLUltRDdVRGhMN1g1dlg5dVoyVjNGaWJUNW0wVXp5V3FCS2ozaXFPMkpZUDkwRnMzTUJGaVZKY2FjblV1ZzZOOUpZajVjb3VwVC16MjBLN3pqVERWWUVxY0s4eS1zMGExbmpRMWl0OEhnc0FfOVNDUkZSV0pGNy1YOXljXzhxS2ZmdFk1aTM4X3NhQ0k0TU5idlpWZDBVR1lpY3pFVXFzOUx2alRyRkhocmZRbjgzWG8tcVJtajFhd2RQWUNPY2NuelJVRVAteElQektzUERPVUljRG1fQlBCc0pkWVJKSy1rUDdKeFBRYmhwbkFtaTU2dlNzaVVDVnlNcjZRdHI3eDFuRVpOT0dkZ3lhWEZldFJuWVFlMXM4Q09Za2MzQWtnYzRHcnlTcUZUWndYejY2WW43aFJfNm8yWlBlSnBnQlZ2THdYU1I1SU1YYg?oc=5",
+    "headline": "«بيبسيكو» لـ«الشرق الأوسط»: نمو الاقتصاد السعودي يدفعنا لتوسيع الإنتاج - الشرق الأوسط",
+    "summary": "«بيبسيكو» لـ«الشرق الأوسط»: نمو الاقتصاد السعودي يدفعنا لتوسيع الإنتاج الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "25 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi1ARBVV95cUxPT2E0TjBaSVF2RDM2YVVTaFU3MUg3ZnR1NHBvbGtLT0pRUkotWW0xUXZGNUNwOG5JYzFNbW9jc0hKNVdBX196TjdzWF9EUWxnbE56MWdVb3FCMER2N2xCd2gyeUdTcmxQcl9EdGVYaGRaUTViQmtRS215Y3BtblNETFpMbzhhUjVqZTFSeDZCSGR5Z3JpajhhVWdRTllEbXd6bWJFVWhsQ2NOOTBDbWswbkhWN2VlbElLUGZpb3lpS21lOGxoQzhDN09xSGVTQzhvYTJadFE2dDlDWFRLc0hpUW85RE1Cc1JXU1VTQVBMXzNSd1F1Q2dMRmhPOEN2X0dlZEFzTVBfQXhSUldLSFB4SkdtX2E5cFMtV2Y4eEhOTjlPS2pXOEFHaVVFb2d1N0dvMlhTR0plUE5oUjlGUU02QzQ5QUdhNTBIRTBFbDBIQUZTaTdZMENYMFNTZVFTQkhETDFDWFNiOWNEb2RiUDhLY1QybnNMRmh5NkJHUFBuTE1aQWtpWDE2Skp4WVJIYVRSUGR3bGtJWW0wUE9ZRE9La1gzejNhOVBKcUUweEYya0lYWmhSUlk5WnpBeDctcVBGTjhwUzRZSktLdXMwY0JzS0xrR2toQi11d2lORmpYSVF3X3JJNG5mYmJlU3AzZF9nUjVKS2JEVXNiMmJELUFucGJQTE9ReS1Hb29iUUFsamVOQ0FnRVl4MHBveXR5NjV3Zjl3RzFfOGxoUHkwR0JfRXY4UWJCQ3JhbGxHNUJ4aFJocXBuem8tek96c3F6LWNUSVhxTw?oc=5",
     "rank": 34
    },
    {
-    "headline": "مجلس الأمن الدولي يدين هجمات الحوثيين على السعودية - aawsat.com",
-    "summary": "مجلس الأمن الدولي يدين هجمات الحوثيين على السعودية aawsat.com",
-    "source": "aawsat.com",
-    "date": "25 Sep 2026",
+    "headline": "السعودية تقود اجتماعاً دولياً موسعاً حفاظاً على «حل الدولتين» - الشرق الأوسط",
+    "summary": "السعودية تقود اجتماعاً دولياً موسعاً حفاظاً على «حل الدولتين» الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "24 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMihARBVV95cUxQOWVsWjFhdjNfT0FFb1NiNkF6U0tORVlBRHo1eDhKNFZ6dGJmVF9ZM0VjZmZHV19aYlhyZy13a2VCeXVsQWZ3LUpsajkydXVpMGxtTGFtaWZRazlhR2x1X0ZGMm5vTGI1SGt6emNYeDF5X3I3Q1NLZHliMzhoa05EWVBQU0lhZmtsTkxKc09GUUhwX1JNdms4OHdDcjQ5S0RnRnRMemt6aFRFR1Q2S0Q3c2tzNXkwenl4dDd6VE9yV0FxWGtOOXhaOXA0dTZGMXlSSER3emZVM1BCaVh5YW1Bb2o4TG16LTdWYjlxajZxRkF0VmZIOF9xSFJYenBxOEQwX3hETklYbmZjcjVGU2NDVHlzN0JqZ2ZRckQzNHhqaWZLZFFpNzR1c3M5aWRsZXpWX2dKaFZwckNBQ2dWREN5NVREV3NLYVZMSV9Fc1VYblg0UlJCWFN4ajlockQ0STY4RUtxZk53QjdUenh3RkoxRWJWQVlTc2ZwMGRrTXJqTW80Ul9FNFZLdjFkQnBqZl9Dd2drX3R6RWgwMlEweXh3ajRsLXI5a0x0dF9OVm40QlczZ3VPUjdBMkctX2ZzalkyUC1WYnB6WndmYzhKZ3gxVGNoOUlfeTZVSF9Ya3JmU0hmckdqaWVJQmxBNV93M1lRSjlINEtxbEhRNGRtRWd0NG4yQ1Y?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiqAVBVV95cUxNUmZZVDdNNzdIeXRNUVhSTGpyX3gwYnBJNGVTWVd3VlVVZm96Y1dtX05Kcm45VW5ma2drdkZiX2x5REQxWTlrTWVlUk55UUt2R2JtQTRhNURxUEpHWXZkR05GVDdmMFlBYWpObzNRYlRLWW5aN0Z1dE1FT2VwRHBwWF9jaXA2VXU0djZCRGhwX1RMWExUdTBYbGh0RDRCWUxDUHVBa3dwQTg2RElySk1sTm1rZFBSNTBfRU0welFOb3pUN3hkYkZMclNaXy1od1gzc3BOSGNITjhhNERjVXpIYlYzX25mRGZPWnY5VFRYdG1VMkdoR2ExZXRPOVZOYTJtMVBvZnNGN181VlpvSzJfRHRTMFByZHlMR3JZT2ExUzdPYnh0UklobFZRNndiRzRHazBMdU93eURkakdXbFliSDhYaW9ScmFyYTB1WWhvaGVnM3RyTFBWWk10M0k5RXctb0dkUm1KUi1tLV9RUDBpWlZrUWtvcEc2QkMxVUNOUUI1ZXhLRzJKV0NyOWhDbDBSczlNV0xYa2NRTFptZTVKT3Nkc200MzZTX0FQYUpJa3htdVdXdjdOLUUyVWV4T2xRUG5FYW5zS2RwLV9BTVRIU2ZfZkFBalRnSFBUUlZoWFJrNHlib2drcjlmOUNSaUkxRVdydFlYbkVDT2IzUlotam1HRm1oOEV3NUhLMW9NcjZUMVhRX0hLY1BNT2R6dDdYMzU5QWI0Mi0yYkVWYW9kWGFtbWpNbU1nNXREenNMVDdkRUhLRFRHNDNvS1JwSDVCZnBRY2hPRW9ielVKVjZKVk0zbXZZUEdtcUZEYjNuYkRoa24yaWhCaWJaLVZDTUpCaWVsRjk3a1lyLUk5bVJRMUd3c28tanF2ck5uUG1hY3BHODliRWxVTw?oc=5",
     "rank": 35
    },
    {
-    "headline": "السكتيوي: نحترم المنتخب السعودي... سنلعب بشخصيتنا - aawsat.com",
-    "summary": "السكتيوي: نحترم المنتخب السعودي... سنلعب بشخصيتنا aawsat.com",
-    "source": "aawsat.com",
+    "headline": "مجلس الأمن الدولي يدين هجمات الحوثيين على السعودية - الشرق الأوسط",
+    "summary": "مجلس الأمن الدولي يدين هجمات الحوثيين على السعودية الشرق الأوسط",
+    "source": "الشرق الأوسط",
     "date": "25 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMikwRBVV95cUxQX0U0UnBuc3hYdkxPTU1IZHFCU2Q0T0xmc0MxUS1nenJQN1JDSXc0WHBacmlMeXRLRkFveFFHVmVZY2NNbHFadVNTRkVmMllBdWZkYWFoTU4wdTRjUmlUUWdJclkzVG1GeDJFQWFmMGFIN1JTUDVBelBNa2lkSzJWbGM0WG5jNlB3anhGR3pqMWhKYThWcXBrSmRRSnBhSlhELVRBOFplaGRsV2ZmY2pNVDZrVXRFbnRPQlY0M05TdHlfZTVJTTBCaGc4eVlPT0l2QjJPSWh0UDFTbU5ISms0dHhteDBpZlU0dzNDdW9mN1U2Wi1MOUJ6ZDBNaU50YmFJX2FEeXEzUjBOeXFodjFiSE45RmRzcjVOLU1iSERvM19VMmk5aWlRZmRSMFlTNzJ5VnE1VXl4dkNiWklhX2tVNTQ3MmxpUWF3V0UzRDdqZHFrMXltUEJzYUkzdnlrWmZMYVpBSHFtdHg0dkhiQ3ZIZHgyNjFEMF9OZVpOdDhxMGFfYU1qTVlKTlptcncwM3daRHVubGwzdUhSWFdNMDFZUm9WU3oyN2ZkeGdfaFJjWktLZzFQakNES0gwZmxvUDl2c09TQXFqbzJhRnZNb1hKRTVjSk5jZ1dacXI4ZV9XZHZrY2xIVTVBbUhKV1I0Q21rYWRFR0J3UkpNSkpSemNJdmhGSUtMaFNQUW5qN0VKZUZYYTA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMitgRBVV95cUxNVG1pVWE3N2ljMkdscmE3c3dkU1VuSlFQOGstX3U5VWMwVmV1dWpKa2JuQWtIQVhYYTh5dGRYdVNfVlFjOWVydW96a0lweDRtV3JFYzhWY1BObTZXRl9uTFpQblhWU1czeXRlRDVaYUNMdXdubXY0ZzlfUGlHWUF6ZWFIWUxwRWRQWW1sWERSejRnOHRMWFVLbXEyRlR4d0Z1VnRPZ3Y2MGhhMVdwbk15MVhuc3JhcnE4dTk5WFFvVV85Q2RjNUM3UzZjd1JmVkV5TVNXX3pHVGxkaHRHVHVBaHQ1dUZOb2cxdVpDTmtYb3dRakUtS1dwbEw3N3l2Zk0tYUhPdWJnMnIzOUJ3aFdyTWxvZXpielpIVHBSQ0FtUGFiR2F1LVE3Q0JFcUl0QWhMVDJHYl83SjNHTkpCLXh0WHJ0YkFwYUd6anBwZGlOeWJDbkZUUk5wYS1WVThLZ3VvQzM3a1hlMlhTcTA3N0dlTWdlLUZhV1lpd29sYzJGSTlLUFlrTTVQMk9HN0otNUhncm9XYk52TXpSd1lhcmgxWU9Hck5paTBzZ3VkeDcySG4zR3dxdnhMN252eEJDV1BISFNucV9LUFl1cTFPbXZ2a3BJMks0d3pyMDltRnNHMVhXNzVfXzNpdnNPSGxiRW1KaTNTaUdEZWtwWjRCV1NWd3YyT3dBQk16aXlJa0VSZ1Rmbk5Ub21sR3hEQ0tfbm51RXE2Mm9QaXU4U2ZfWk03ZllLVV9OZw?oc=5",
     "rank": 36
+   },
+   {
+    "headline": "أيتهما أكثر قوة... السعودية أم إيران؟ - الشرق الأوسط",
+    "summary": "أيتهما أكثر قوة... السعودية أم إيران؟ الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "24 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOcG9qbXNCLUltRDdVRGhMN1g1dlg5dVoyVjNGaWJUNW0wVXp5V3FCS2ozaXFPMkpZUDkwRnMzTUJGaVZKY2FjblV1ZzZOOUpZajVjb3VwVC16MjBLN3pqVERWWUVxY0s4eS1zMGExbmpRMWl0OEhnc0FfOVNDUkZSV0pGNy1YOXljXzhxS2ZmdFk1aTM4X3NhQ0k0TU5idlpWZDBVR1lpY3pFVXFzOUx2alRyRkhocmZRbjgzWG8tcVJtajFhd2RQWUNPY2NuelJVRVAteElQektzUERPVUljRG1fQlBCc0pkWVJKSy1rUDdKeFBRYmhwbkFtaTU2dlNzaVVDVnlNcjZRdHI3eDFuRVpOT0dkZ3lhWEZldFJuWVFlMXM4Q09Za2MzQWtnYzRHcnlTcUZUWndYejY2WW43aFJfNm8yWlBlSnBnQlZ2THdYU1I1SU1YYg?oc=5",
+    "rank": 37
    }
   ]
  },
@@ -3403,10 +3413,10 @@
   },
   "#ساعه_استجابه": {
    "english": "#Hour_of_Response (the hour when prayers are answered)",
-   "summary": "Refers to the Islamic belief in a special hour on Friday when supplications are answered, traditionally in the period before sunset prayer. Saudi users post duas and reminders under this hashtag every Friday, which matches the other religious phrases on the board (\"the virtuous day\", \"Gardens of Bliss\", \"upon the Prophet\").",
+   "summary": "A Friday religious hashtag referring to the \"hour of response\" — the short window on Friday when Muslims believe supplications are especially likely to be granted, and users post prayer requests and du'a for themselves, family and the deceased. It trends most Fridays, alongside the other devotional tags on this board such as \"Al-Firdaws Al-A'la\" (the highest paradise) and \"your dead rejoice at a prayer from you\".",
    "kind": "religion",
    "confidence": "high",
-   "at": "2026-09-18T19:00:30.257084+03:00"
+   "at": "2026-09-25T20:00:26.887967+03:00"
   },
   "مساعد بن عبدالرحمن": {
    "english": "Musaid bin Abdulrahman",
@@ -4521,13 +4531,6 @@
    "confidence": "medium",
    "at": "2026-09-25T18:00:30.698891+03:00"
   },
-  "نعيم دايم": {
-   "english": "\"Everlasting bliss\"",
-   "summary": "A devotional phrase describing the permanent comfort of Paradise, used in prayers for the dead and in Friday supplications — it fits the cluster of religious terms on this board such as \"the Muslim dead\" and \"blessed Friday.\"",
-   "kind": "religion",
-   "confidence": "medium",
-   "at": "2026-09-25T18:00:30.698891+03:00"
-  },
   "#حرق_ون_بيس": {
    "english": "#Burn_One_Piece",
    "summary": "A hashtag campaign around the hugely popular Japanese manga/anime series One Piece, calling for it to be \"burned\" — the phrasing signals a moral or religious backlash against the series (a recurring pattern in Gulf social media when anime content is accused of clashing with Islamic values), with fans pushing back in the same tag. The specific trigger is not identifiable from the words alone.",
@@ -4546,13 +4549,6 @@
    "english": "#Your_dead_rejoice_at_a_prayer_from_you",
    "summary": "A devotional hashtag urging people to say a du'a (supplication) for deceased relatives, on the belief that the dead benefit from and are gladdened by the prayers of the living. It is a recurring Friday trend in Saudi Arabia, where Friday is considered the best day for supplication.",
    "kind": "religion",
-   "confidence": "high",
-   "at": "2026-09-25T19:00:26.293226+03:00"
-  },
-  "#جنودنا_البواسل": {
-   "english": "#Our_valiant_soldiers",
-   "summary": "A patriotic hashtag honouring the Saudi armed forces, typically used to post prayers for troops serving on the southern border and elsewhere. It surfaces regularly, and especially on Fridays when users bundle prayers for soldiers with other supplications.",
-   "kind": "social",
    "confidence": "high",
    "at": "2026-09-25T19:00:26.293226+03:00"
   },
@@ -4576,6 +4572,27 @@
    "kind": "religion",
    "confidence": "low",
    "at": "2026-09-25T19:00:26.293226+03:00"
+  },
+  "#الملك_فهد": {
+   "english": "#King_Fahd",
+   "summary": "Refers to King Fahd bin Abdulaziz Al Saud, ruler of Saudi Arabia from 1982 until his death in 2005, and/or the many landmarks named after him — most notably King Fahd Sports City Stadium in Riyadh, the country's main national football venue. Given the football names trending alongside it, the stadium sense is likely, but the exact occasion is not clear from the words alone.",
+   "kind": "other",
+   "confidence": "medium",
+   "at": "2026-09-25T20:00:26.887967+03:00"
+  },
+  "مانشستر سيتي": {
+   "english": "Manchester City",
+   "summary": "The English Premier League club, one of the most followed European teams in Saudi Arabia, with a large local fanbase and strong Gulf ties. Trends on match days or around transfer and managerial news.",
+   "kind": "sport",
+   "confidence": "high",
+   "at": "2026-09-25T20:00:26.887967+03:00"
+  },
+  "جيرارد": {
+   "english": "Gerrard",
+   "summary": "Almost certainly Steven Gerrard, the former Liverpool captain who managed Saudi Pro League side Al-Ettifaq in Dammam, making him a familiar name to Saudi football fans. Appears alongside Manchester City and Carlo Ancelotti on the board, pointing to a football discussion rather than anything specific identifiable here.",
+   "kind": "sport",
+   "confidence": "medium",
+   "at": "2026-09-25T20:00:26.887967+03:00"
   }
  }
 }
