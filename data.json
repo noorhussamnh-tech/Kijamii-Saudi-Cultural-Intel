@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Friday, 25 September 2026 · 04:00 KSA",
+ "lastUpdated": "Friday, 25 September 2026 · 04:33 KSA",
  "days": {
   "2026-09-12": {
    "label": "Sat 12 Sep",
@@ -2154,19 +2154,19 @@
     },
     {
      "rank": 2,
-     "text": "#اصدقاء_بوذيب_الاوفياء",
+     "text": "#ليله_الجمعه",
      "cat": "General",
      "pts": 12
     },
     {
      "rank": 3,
-     "text": "#ليله_الجمعه",
+     "text": "#اصدقاء_بوذيب_الاوفياء",
      "cat": "General",
      "pts": 10
     },
     {
      "rank": 4,
-     "text": "تشافي",
+     "text": "الدفاع المشترك",
      "cat": "General",
      "pts": 8
     },
@@ -2178,7 +2178,7 @@
     },
     {
      "rank": 6,
-     "text": "#السمن_العرابي",
+     "text": "تشافي",
      "cat": "General",
      "pts": 6
     },
@@ -2190,79 +2190,79 @@
     },
     {
      "rank": 8,
-     "text": "هولندا",
+     "text": "#السمن_العرابي",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 9,
-     "text": "كلوب",
+     "text": "فيصل بن فرحان",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 10,
-     "text": "شتيغن",
+     "text": "هولندا",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 11,
-     "text": "البرتغال",
+     "text": "كلوب",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 12,
-     "text": "الانماء الماليه",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 13,
-     "text": "فيصل بن فرحان",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 14,
      "text": "القهوه السعوديه",
      "cat": "General",
      "pts": 4
     },
     {
-     "rank": 15,
-     "text": "فان بوميل",
+     "rank": 13,
+     "text": "المانيا",
      "cat": "General",
      "pts": 4
     },
     {
-     "rank": 16,
+     "rank": 14,
+     "text": "الانماء الماليه",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 15,
      "text": "وزير الخارجيه",
      "cat": "Politics / Diplomacy",
      "pts": 4
     },
     {
+     "rank": 16,
+     "text": "البرتغال",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 17,
-     "text": "شيم الكبار",
+     "text": "اليوم الجمعه",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "المنتخب القطري",
-     "cat": "Football",
+     "text": "شتيغن",
+     "cat": "General",
      "pts": 4
     },
     {
      "rank": 19,
-     "text": "حسن الهيدوس",
+     "text": "شيم الكبار",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "ابو مشعل",
+     "text": "عامر الخوذيري",
      "cat": "General",
      "pts": 4
     }
@@ -2273,11 +2273,11 @@
      "score": 100
     },
     {
-     "text": "#اصدقاء_بوذيب_الاوفياء",
+     "text": "#ليله_الجمعه",
      "score": 88
     },
     {
-     "text": "#ليله_الجمعه",
+     "text": "#اصدقاء_بوذيب_الاوفياء",
      "score": 76
     },
     {
@@ -2292,18 +2292,13 @@
    "signals": [
     {
      "icon": "📌",
-     "label": "General (18)",
-     "items": "#رحله_المليون64 · #اصدقاء_بوذيب_الاوفياء · #ليله_الجمعه · تشافي · #مفتي · #السمن_العرابي · صالح الفوزان · هولندا · كلوب · شتيغن"
+     "label": "General (19)",
+     "items": "#رحله_المليون64 · #ليله_الجمعه · #اصدقاء_بوذيب_الاوفياء · الدفاع المشترك · #مفتي · تشافي · صالح الفوزان · #السمن_العرابي · فيصل بن فرحان · هولندا"
     },
     {
      "icon": "🏛️",
      "label": "Politics / Diplomacy (1)",
      "items": "وزير الخارجيه"
-    },
-    {
-     "icon": "⚽",
-     "label": "Football (1)",
-     "items": "المنتخب القطري"
     }
    ]
   }
@@ -2409,7 +2404,7 @@
   "الثقه الملكيه الكريمه": 8,
   "F-35": 14,
   "#لننصر_مكه_بكلمه": 12,
-  "#ليله_الجمعه": 20,
+  "#ليله_الجمعه": 22,
   "#عوده_الاصاله": 8,
   "#رحله_المليون57": 7,
   "الخارجيه الامريكيه": 6,
@@ -2548,9 +2543,9 @@
   "#الحوثي_يستهدف_مكه_مجددا": 7,
   "منتخب الامارات": 6,
   "هولندا": 12,
-  "كلوب": 12,
-  "المانيا": 6,
-  "تشافي": 12,
+  "كلوب": 10,
+  "المانيا": 10,
+  "تشافي": 10,
   "البرتغال": 8,
   "المنتخب اليمني": 4,
   "القهوه السعوديه": 8,
@@ -2561,31 +2556,21 @@
   "العصب البصري": 4,
   "عيال زايد": 4,
   "#رحله_المليون64": 14,
-  "#اصدقاء_بوذيب_الاوفياء": 12,
+  "#اصدقاء_بوذيب_الاوفياء": 10,
+  "الدفاع المشترك": 8,
   "#مفتي": 7,
-  "#السمن_العرابي": 6,
   "صالح الفوزان": 6,
-  "شتيغن": 6,
-  "فيصل بن فرحان": 4,
-  "فان بوميل": 4,
+  "#السمن_العرابي": 6,
+  "فيصل بن فرحان": 6,
   "وزير الخارجيه": 4,
+  "اليوم الجمعه": 4,
+  "شتيغن": 4,
   "شيم الكبار": 4,
-  "المنتخب القطري": 4,
-  "حسن الهيدوس": 4,
-  "ابو مشعل": 4
+  "عامر الخوذيري": 4
  },
  "news": {
   "date": "25 Sep 2026",
   "domestic": [
-   {
-    "headline": "Saudi-led coalition says shot down 6 ballistic missiles launched by Houthis - Al Jazeera",
-    "summary": "Saudi-led coalition says shot down 6 ballistic missiles launched by Houthis Al Jazeera",
-    "source": "Al Jazeera",
-    "date": "24 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYXBsVHBxNmVKcjlZbTVfR3hfVE1xclVoVlcyYjZKMm9talVQWTlOcFhhWHRjYVhKVHdCaXlMRFBwN0dqYVY4aDVLVE9McGxfWFJxMXBtejlNTnhZU2x3LUswbmVjZm1wSHhvVF9qaGVlaHhFdFplZ1dOYjIzQVJzZFlEd1dMWDI1U1FPMTlmclFQS0lDNmZ4R1ROM1k4VlpzY29lQ1NDeHZoQ09vOTJHbld5ek1NUWPSAbwBQVVfeXFMT25vSG53S2JsWnpLeE96WHVBWU54aEhPZlJqdXpYWmlpTHJXRG82a2Utak1WX2c5TWpoY0tyZEpQUTJSdkZMcE14dFpGdGZPUlFlSVZqS2ZkUlBScktjMDdZQ19GU29nSlBhMHVDdmFfVnNJY29ZQXFwRkxEaVVsakZUU3d1WXFmTmtHeW41ODE2UVBtbGxNNHJOa2dSanRNXzJSbTYtWlpfQTdzR3RfaTkxQjVXQnRxNXZoaDQ?oc=5",
-    "rank": 1
-   },
    {
     "headline": "Saudi Arabia says it intercepted Houthi missiles; group claims strikes on Riyadh, Aramco - Reuters",
     "summary": "Saudi Arabia says it intercepted Houthi missiles; group claims strikes on Riyadh, Aramco Reuters",
@@ -2593,6 +2578,15 @@
     "date": "24 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLW1IRmRaem1xSHEwTjd1VldSMmNqZk55VmdmZkh4QnNhU21SM0ZtWGg4RDdxSkNOM1F6ZUJ4LUYybUlzcWx6S01zbzd5N3BRSWRTc0N6eExNa2RFQXVTYlM3RmtXOFlDUk1Yc2Q0LXNkTEFPQlpCNjgzZHNlbkZXWGtXT1NRNFZ3a2lvWWNxVkk1Rng0Q2ZtNUk4TzZ0YXpNdDFaRUZQa2lBVHpnV05pV1QtZVlJSjJpTFFPTA?oc=5",
+    "rank": 1
+   },
+   {
+    "headline": "Saudi-led coalition says shot down 6 ballistic missiles launched by Houthis - Al Jazeera",
+    "summary": "Saudi-led coalition says shot down 6 ballistic missiles launched by Houthis Al Jazeera",
+    "source": "Al Jazeera",
+    "date": "24 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYXBsVHBxNmVKcjlZbTVfR3hfVE1xclVoVlcyYjZKMm9talVQWTlOcFhhWHRjYVhKVHdCaXlMRFBwN0dqYVY4aDVLVE9McGxfWFJxMXBtejlNTnhZU2x3LUswbmVjZm1wSHhvVF9qaGVlaHhFdFplZ1dOYjIzQVJzZFlEd1dMWDI1U1FPMTlmclFQS0lDNmZ4R1ROM1k4VlpzY29lQ1NDeHZoQ09vOTJHbld5ek1NUWPSAbwBQVVfeXFMT25vSG53S2JsWnpLeE96WHVBWU54aEhPZlJqdXpYWmlpTHJXRG82a2Utak1WX2c5TWpoY0tyZEpQUTJSdkZMcE14dFpGdGZPUlFlSVZqS2ZkUlBScktjMDdZQ19GU29nSlBhMHVDdmFfVnNJY29ZQXFwRkxEaVVsakZUU3d1WXFmTmtHeW41ODE2UVBtbGxNNHJOa2dSanRNXzJSbTYtWlpfQTdzR3RfaTkxQjVXQnRxNXZoaDQ?oc=5",
     "rank": 2
    },
    {
@@ -2632,21 +2626,21 @@
     "rank": 6
    },
    {
-    "headline": "Trump is staying out of Saudi Arabia’s war. Americans could pay at the pump - CNN",
-    "summary": "Trump is staying out of Saudi Arabia’s war. Americans could pay at the pump CNN",
-    "source": "CNN",
-    "date": "24 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOb0FSQzc0YllDejZBTzlSc0Z0TTRNT3JvYjEwcGEzVTFUYTFQMl84N2Q4aThwbGhsLVZmZkFmYmxRYlBVTHp0S2pRSFgwN2RySWVLazctZlR6ZkJTQU8wZjh6U0N0ZEtRVC1nZ3RwLW1tVnhKbWhXZndDYm0wUWN6bnpCMmxCczRnZTFMMEtn?oc=5",
-    "rank": 7
-   },
-   {
     "headline": "Saudi Arabia Bribed the Wrong People - Foreign Policy",
     "summary": "Saudi Arabia Bribed the Wrong People Foreign Policy",
     "source": "Foreign Policy",
     "date": "24 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8zbGc3RTRxR09PT1ZwX2Nmd1F4Y0N3d1g4eTIzRzdTdFUxQ1NPeFRhUTJDbmNVendYYzdReG1xRUJ6dGlUQ0t4dUZpTk1WVmpLOWZLcGZ5aTVXM21CWlAzZi1scGJPV055WTdRbkFCanlINTBlYmhYSTBn?oc=5",
+    "rank": 7
+   },
+   {
+    "headline": "Trump is staying out of Saudi Arabia’s war. Americans could pay at the pump - CNN",
+    "summary": "Trump is staying out of Saudi Arabia’s war. Americans could pay at the pump CNN",
+    "source": "CNN",
+    "date": "24 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOb0FSQzc0YllDejZBTzlSc0Z0TTRNT3JvYjEwcGEzVTFUYTFQMl84N2Q4aThwbGhsLVZmZkFmYmxRYlBVTHp0S2pRSFgwN2RySWVLazctZlR6ZkJTQU8wZjh6U0N0ZEtRVC1nZ3RwLW1tVnhKbWhXZndDYm0wUWN6bnpCMmxCczRnZTFMMEtn?oc=5",
     "rank": 8
    },
    {
@@ -2686,21 +2680,21 @@
     "rank": 12
    },
    {
-    "headline": "السعودية تحتفي بيومها الوطني.. مسيرة مجد من التوحيد إلى رؤية 2030 - العربية",
-    "summary": "السعودية تحتفي بيومها الوطني.. مسيرة مجد من التوحيد إلى رؤية 2030 العربية",
+    "headline": "من \"أمير نجد\" إلى \"ملك المملكة\" ألقاب الملك عبدالعزيز تروي مراحل توحيد السعودية - العربية",
+    "summary": "من \"أمير نجد\" إلى \"ملك المملكة\" ألقاب الملك عبدالعزيز تروي مراحل توحيد السعودية العربية",
     "source": "العربية",
-    "date": "22 Sep 2026",
+    "date": "23 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi-ANBVV95cUxNdzhoOS1MNW9oTVB3SjJaeUJxcVFqUVBIQnM5TGVBUUwtS25hT3NSY3RiQjlRbXZGNGFLQlhJQkFEWHQ3WjNodGhlVTRQVldFNG11emhiS0ZVa0JzQjl4YjZVWUZPSHVUcHVkbWJralJLM3Y2RkREWm5JREVTZnoyMzdiRy1ydGJWc1lBWGZHWXFEcHNKMjlQSm9FMzhGYVFDa09DRnIzUEY2RGd5aV9lWk5ZdlM1aERvYzVrb0ExNFVUTzZHQnBhSFJVSGdvQ2VYTWl4eUhhNTRkb3ktZGQ4SG5IUkJrbEx6WTZBcWdmeU9YbkN2aVV2R3lYaFdfcGZ6eV82OFltcVMzVXA1bkZGQ3h1THprZ2pBb1ZTRll3U2RteFZ6aWNoSkVMa3lydk5hak0wNG5IOFJRZ3B0SFpCTktuMVdQUW9ITjhCNFBVbjladXhyWkFsN25XbkhLbnprSHdwb3RhUncwMVVMeHZYeFBJYmZvRTBlTTdzSXVoQkNuRUM2LTFxR3VsbkhGamNHSUVraXZ4R19pVURRQ0hnRENCZGlfbWhGdUxvUzc2d1N3anFSN2tQOGh4bnNvYkNNaTB1dkpudEFTelBsdDN4dVRPOTk4Y0o3WnRCQnEzRG5PTzlUdnd3UzllV3A0UC1DTXI3RW5rS0LSAf4DQVVfeXFMUEEtVTBoa3VKUTBNamw4eW5tUnVHTW4tM18tX2FhRVRYUkFNZ0dUa1pSV2RDMHFKMkowYlhnYzJhQjFzeWFHa2ZRdVBiTWlIcjlNVWdKcXlDeGpCSUFFdU9CdlhwUnFKZThwUXk3d3VWSzROaTlkSk50RTh4M1gyWExtU2hoejZWeTFndmpoeXhJaDBLc28tNDNPY2FHRWpZeXhvSF91bzB3cDJJZHZwQndXdFlibVFWQ1pYaFotRjhyQk5vVGtyaXJobV9XdkJSTWE0bmRPSWRYWUFOMVdqazlMTXhVY28zSGN5UkthcXJzczFqQ3pFV1VFTjBZMXZxRnpxbmFLWjdQRlBRX3pYN3pyNUppVWVrNUlVQjAwUGk5dy05N3ZwNC1mRWpnRktyeVA4bXBtQUV1d0FXVUhSSG0yUDdzcC1qRDkzTGxZUDF2OE52UnJaeUJPLVA0VEFNbF92ZW1iVVpSVWpTczRDTkliSmJQdGtxbmN3NHJVbHhpZ1RnMk80dlFFR1JGaE4wMVZIYU1Wa0ZQVU1xUUYyblNQVHZwNjJMUmJXTXgxcjRpQjFUN2UyR0tQSW1EaDh6bnB2M0JQcUVWSGpEb0N6Um1GM0lrR3RHQlc0djV5THBveW9sdV9kM05peEo1TTZMMlBQMHFaSWkyNkVzZ3FR?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi5gRBVV95cUxPMkF5VTJNMlpCbXpNOWZqbDFZYkdNdDdQX292dUs4T183aFZnZFktUTJIYk96eE50N3JSdVFGUUVOUVBaYURsbk84eGRTR0xsOEVydVNTR2x2VGt5R2VRdnJwQUNSdnFYa01TR0ZhV0JuTTl1aGpzMDBWcS0tc0w5Tm1FSjctazlNTzQ3SjhCQmF5dVFNdWhpeVFwYUNHcXZVM25SNndieExNdmxOQ3hXdzFobjNwYjVfVFNNQ1BBVDdLRjE3eGFxbzJ2ajFBUmdfQU9sNjdObnhjN0xUQXlFNzZreWJtTWp6MnQ3Ulh2WmdDeWNsR0wxWC1ob1RTYjZvZE1rVVJQRHZETUo1cXVWNXFfekhDTGJWYUlCRk9DYnpKZ1JZanpqR3R1TEtiTTdCQTVFNUhfLW1VQm91b09yNng2TVNjTlZWMVNvTmxZTDZsM2p0dnhDZVRkVGFURnJxSTIzZnVDdlJiSVMtaDdFS1JzQU9tMnc2NzhlYkJuZy1Ea0pfSzhvM1N2ckFhdU5xbE9SY1oxX3VsOF9HODZGdlk1Nk5KUGp1RVRueHcyVWxNb0pHNUJPNzlScUViTkV2dHBKd1VuRnFGNUp1dzF1M3psMm9aM29YRElxS0JoZ01qQktsMlpEcmJzVzVqc0I4U3pyaGJLaWxlZEFHektYaXQ2UFlaczZqaHFDWlRvQXhhR1VqY0w1WGdyZ29VNG91c2xkSFVmWUtCdnBocUJsT1BXYlVvWkV3M3RHWTJEaHVHOU9hUlpOMkFzOTg5VmlsWGhIZVJveEdRR2F0NHFhcm9EeXRmQdIB6wRBVV95cUxNdUl1Q2Q5WGpRQm1hMjZ6ckhtTVBQUFRHcFkyMTJRZDZVRDFRRjRPd2dqa0lhbUx3VXZqNHRqVUdoZndpSE84b0t1X2trWTNLUmZGMm14NzdidHdWRnR4RWh0Q240YzBKSzU2bE91YWRVTXh6TDVfWFA2bzM1OFNYdVRGcjFZVFIwbEtYS3NtaVdyYjVnelpEVXZOWXpNWi04SmEwZGdRQmttZGRnS2xmcmpMTmhXdlYzU3pzREcybXNnUkZCZ3V2UkdJcUZxQUFsZ0R0QTQyVUtkNHJmUl9Cdnd6cGNkN01sRFZsanZ1NWFsZXlvMW4yYUZRSEFEbGZYbHRCTHZ6cm1ZV1B3Z0lwTWJTYkVkRkNTcUotZDN3UjEtRmpxTC1qWHhGUDhHdWRXZWFURngwbUtsYzdZc2FkcnBtRU5KcWNid0taMmJUOG5vcy1mRDZDYTRLOG5zY1JtbnRPdVJZa2ZhZDNoQnp0SmVTUHMyNmFpa01DM21GdmNTWTJaU2I2ZVNVZmx6cTk0UElFVEtpbENQNTZUckNqY2dmRjduaUI4bFJQQUJvazliRDVwaGJtMDNsOWNWcG9RSlpWRWdneHBLbGFfZk1JMWVlYkdOT1JzQU5OUkt3YjBYTHZuSTBIQ181Q28tdGU5bU9va3p6OUxKTlJKN0EzaDZ5ZExkTVU2Y0g4LVpHMi1NSnBsLWVzd29oZ2E1Z3NoRTFGc2htZDUzc0xoVGI0MzFYY2NMTEd6czRYX29naVlDdkZCM3NoeEZCRFBLdnBNaUR1elpFX2laVTFGb05UMW02YXhCaEpMdThn?oc=5",
     "rank": 13
    },
    {
-    "headline": "اليوم الوطني السعودي.. شراكة تاريخية ودعم إنساني - جريدة الجزيرة",
-    "summary": "اليوم الوطني السعودي.. شراكة تاريخية ودعم إنساني جريدة الجزيرة",
+    "headline": "اليوم الوطني والأحداث - د.محمد بن عبدالرحمن البشر - جريدة الجزيرة",
+    "summary": "اليوم الوطني والأحداث - د.محمد بن عبدالرحمن البشر جريدة الجزيرة",
     "source": "جريدة الجزيرة",
-    "date": "25 Sep 2026",
+    "date": "24 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vdk5RbVBRV2ZWall3cUVVam44NFQtQmhWNWVIQU9lQV9ZLXV4ZW94TWJRMmpBSnJZWUQ0cjZWeTBXN0lPZWtXeEZwbUQ1X2VKeUZFdVlOVndVVUtmdVE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtbUdaNlBrVmNRUDYxckJvLTltZENxTmZtV0JFTElMYXRnRG5JTkNPQ056bXRTR1BDXzJLMmRGSmREUFl2SnFKdnBMU2NlY2ZqaC16b1dJaUhfRDJN?oc=5",
     "rank": 14
    },
    {
@@ -2740,18 +2734,18 @@
     "rank": 18
    },
    {
-    "headline": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين - DW.com",
-    "summary": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين DW.com",
-    "source": "DW.com",
+    "headline": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين - dw.com",
+    "summary": "فرنسا وبريطانيا تقدمان الدعم للسعودية ضد الحوثيين dw.com",
+    "source": "dw.com",
     "date": "22 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxPTURPMFJHLUxqVjhYV2M4Rnp1cDFjVDRTS3FZb1c4cjFJTkJsT0pnZTNyRWpZLTNuaS11MUp2QjZYNGFTRHJLcFdBOVlOTlJIX01VWUsya3pWcDc3UFdILWY4S1g5aXVmTU1nWE03aXB5dnlzdlg5U2ktNDV4ckRJcEZKamNXNG90V0NGREhNLThySEhiSUhqb3BLSHUwR3ZaU0FOOWdsc2lrNGpGal9mdXh6OWZrbkV2aUNhZkRsbVlOdFZPN0VuQkFwdl9vREZKb2VkcnREOHZBLWxVeklmc1NucFB5MTY3UjNaWm5sd2N0QWtrU3h2V1NObHM5TFFmbC03Y1VhTjFJNzRXQnFFSWNHMmdKeEZqbWJCSElfallrUGNEeDRlQ0pXVHNJUzNGZUxtcEtHeFVucUJrLUJoc2t0ZGhSQmpOT3E3ZEZaR2ppWi1RREhfcUVReFFPRkNaX09kN2E0ZW5NVzMzTXRWSTdaQXZiRzVGM1NJYnRSOXdUSmhsc2J5ZGtaeHVrWnN0c1RfcThwNi11Yk82bXl5bFBwNG1URzlY0gGoA0FVX3lxTE1MV0M0WUMtMS01WHc4R2JKM2oxZnJvMFRzTVA2MGRSWE4wRjJoOUlRNldLQThQSk11VFRBdzFxck0td2xidzgxM083SDBlWktER0JwVm1kdEhSdjctTVpuZ3VYMDV3MW5DdnZGNDRUNXRyQTE2aHJBYmVtbi1FdUp0WWJJQkNmb2J5Q1N5V2xQaHNLc2VWdlBoTnEwWGRyUzRJcVc4QTJtU0xsY1ctUWg4V3NjeVU0TEJ5ZmJ0b29ZNUFBX04wcEJsN012M1hQM2QxLXlNMzFZQTRxWUNXQ2hqWXdabUlSU2tNOFV6bm9TcHJBYVdVM1dTOW50c0dwY1haYnV0dW44WUk4RmVkcFZLbzFCWnhIalZiV1hZaTVxdXZsMHRES3ZZcDBMU3A0MVd1NTltZjZ2OGEzQzEyUldoY0JSdXRJNjZMb2VvN09heTF1X2VzTzMza2ZpcUhGZ180VWRpaVFNanpjQ3oycUE3ZHhFZ0pXZU9wZGZlY2VWSnZvRUxnSHdFZzEwM0dEOEdxLXc4TVFTLVNNTEF4OHd3NndGbm9iQXE?oc=5",
     "rank": 19
    },
    {
-    "headline": "مملكة البحرين تدين استمرار الاعتداءات الإرهابية الحوثية على المملكة العربية السعودية ومحاولة استهداف الطائف وينبع - alayam.com",
-    "summary": "مملكة البحرين تدين استمرار الاعتداءات الإرهابية الحوثية على المملكة العربية السعودية ومحاولة استهداف الطائف وينبع alayam.com",
-    "source": "alayam.com",
+    "headline": "مملكة البحرين تدين استمرار الاعتداءات الإرهابية الحوثية على المملكة العربية السعودية ومحاولة استهداف الطائف وينبع - الأيام البحرينية",
+    "summary": "مملكة البحرين تدين استمرار الاعتداءات الإرهابية الحوثية على المملكة العربية السعودية ومحاولة استهداف الطائف وينبع الأيام البحرينية",
+    "source": "الأيام البحرينية",
     "date": "24 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxZGFjYi1oV3ZhZE9LNl93ekNvbFBVTUJmczNXOEwzUVoxRG5JU3RudUdyQ20xTWtrR1pHcmJCanlWTXBUclY1SXBsdm40NDdjX3JhZWR5SnFxM2hMT1ZuamRqMNIBakFVX3lxTE5hZW9XMDhUbndUcXp6WDE0N3VLNFZITkZISjNvcVpwUXVUT2FrX3hDUXF0bU9KOFlESjRUR3lRcVEwNDN0aUFWVUVabGFFdW1zb3Y2MGZyVUd5NDg4aVdSejNXaE5obm1ZdWc?oc=5",
@@ -2760,13 +2754,22 @@
   ],
   "regional": [
    {
+    "headline": "Saudi Arabia issues alert for Jazan, says danger passed shortly after - Middle East Eye",
+    "summary": "Saudi Arabia issues alert for Jazan, says danger passed shortly after Middle East Eye",
+    "source": "Middle East Eye",
+    "date": "24 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORHNLeXpsS254N2paMTBQSmVTLUlueVVRSHQwakVXRGZVb2hQZXdDOVBadlN2ZGE0RWNhVXRaRU9CNlZ5eDUxbHhWNlpKd2czel8yQjJwTVl3akZjQmxkX3l6LXBXbC1tWS1PRVFKaGs1dldPcl9NZmxHWFp4Mkw4RGxGSVE2X1hVd0xjbmFlRmZ3Ym1mUDFwMWZEZHlYTlp3ZW1aWWRHRUU3a1pBZVEzNHFMOVlHTEJBdVo4bkZB?oc=5",
+    "rank": 21
+   },
+   {
     "headline": "Saudi Arabia Can’t Trust the US But Has No Other Options - American Enterprise Institute - AEI",
     "summary": "Saudi Arabia Can’t Trust the US But Has No Other Options American Enterprise Institute - AEI",
     "source": "American Enterprise Inst",
     "date": "24 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa0JyZnItSTMtVElKOTRvbDB5NzN2MjJrenRLSU8wMXJoZDRzN1ZSWEJ3T2JUaUVVQkEzZ1pUUFBXYVdGa0RON3FpZ254VEN4SUZUZmVjVnhJSjRyaVk2T2IzUHhKa0FERUE1clFfYXpFQzBkMHMyVExQSTRndi1NLURNdjl3S2pxR3BkaXB6Zmc?oc=5",
-    "rank": 21
+    "rank": 22
    },
    {
     "headline": "Is the United States Abandoning Saudi Arabia at Its Moment of Need? - CSIS | Center for Strategic and International Studies",
@@ -2775,7 +2778,7 @@
     "date": "23 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOelRMQkhPSEhYLUZjZGJIbWpidU83QVhCSDhGSVVSNEpYemYtT1VjcWdjRDN5bFRWVnQ4YVl5eGlhWW9ORU5TWi1oaDl0eHZkdW95MlVqdDZ6R2RXLWJtYmV0SjRVelNHVUZldzJ2NWU2UVp6OVg4dGNrVXZnV0xUa1RWakZNMEEwRkIw?oc=5",
-    "rank": 22
+    "rank": 23
    },
    {
     "headline": "Saudi reports fresh Houthi attacks as France pledges to defend key oil port - France 24",
@@ -2784,24 +2787,15 @@
     "date": "24 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNd19MLUtMMVZaNGd5TlZ1MTNEc2dCNUlNUEUtTjVkOTNUbzVJOFFPUDhkaEhnQW41cm02Nnd2OTVGT3lVcXJISWN6WE5hOXFUTEZ0VmhldnpxNGNlVUVJY1BOYVBQVTlYTFA3NzhPSDROc3o5QlpSVW9PR1pGYVM2NlVPRVd4YklxcDF1akp3?oc=5",
-    "rank": 23
-   },
-   {
-    "headline": "Rep. Rulli proposes nearly impossible scenario on Middle East | Letter - Canton Repository",
-    "summary": "Rep. Rulli proposes nearly impossible scenario on Middle East | Letter Canton Repository",
-    "source": "Canton Repository",
-    "date": "24 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaXk2OWN4UE9Gdk4zcW9FbnNQUmpmMVhCWGMwLWZINFFvOGJqeFNyeXItY1RjZG00aFFPdkpjbHhIckswOTA3MWpZTFBYS2pQVTFRSEMzcXV6RmloYjlrODJickxSM2xGMkFoRHdqVkZRRUJ2U0dXNU9IQVd3cXZReTFCaE1OcGFvU3ZRSzRndGREMVZITmdtelhkQXN0R0ZlQ2lsODROSHBsbmpzZDhsRWtIZ3RuVHBnS0w2S0hJdXlObEdmZE5ONW91SHpqdnpVVUZVREZB?oc=5",
     "rank": 24
    },
    {
-    "headline": "What Does America Actually Need from the Middle East? - Americans for Prosperity",
-    "summary": "What Does America Actually Need from the Middle East? Americans for Prosperity",
-    "source": "Americans for Prosperity",
-    "date": "24 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZFBkSUtXYTZjc0xyZHVmNXF6eGhDNFVtZmlXS3FtOEtLR19CLUFGaWlueE9qYWI4NEt3OHMyMm5JSjRFVTZHLVhoYUgzbjF3N1hZQ2NGWGdTR0FPdVFMRzdxVVZkVHlQVzQzUGUwSW1naWtTWDNJZE52WkZNRTJfbHpaMEROZ05UczNuWkh3OGxmcld6VUh5Y1dibS14OTlmcDhmRA?oc=5",
+    "headline": "Live Updates: Latest from Israel, Iran, and the Middle East - jpost.com",
+    "summary": "Live Updates: Latest from Israel, Iran, and the Middle East jpost.com",
+    "source": "jpost.com",
+    "date": "25 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwUVlVRVVsSXVYeHA5WXg5YnNDOHpHSmNacnVsUmVsbUFkOXBLZFVqekpNZWRsRGZ0bTNHRWgta1dRSFp4TjZOOVFGcnM4RXFYZ3Y5MzZzTGVhMEpGRnhaSGEtVFM4RzV3UW5EWlVnVVo1MGxoNm5IWFZjQ3hSX2c?oc=5",
     "rank": 25
    },
    {
@@ -4455,24 +4449,10 @@
    "confidence": "medium",
    "at": "2026-09-25T00:00:35.697745+03:00"
   },
-  "فان بوميل": {
-   "english": "Van Bommel (Mark van Bommel)",
-   "summary": "Mark van Bommel is the former Netherlands and Bayern Munich midfielder turned coach, best known recently for managing in Belgian and Dutch football. His name trending alongside Netherlands, Van Dijk, Klopp, Xavi and Ter Stegen points to Dutch football chatter — a managerial appointment, squad decision or match talk — rather than anything Saudi-specific.",
-   "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-09-25T01:00:27.438953+03:00"
-  },
   "صالح الفوزان": {
    "english": "Saleh Al-Fawzan",
    "summary": "Sheikh Saleh bin Fawzan Al-Fawzan is one of Saudi Arabia's most senior religious scholars, a long-serving member of the Council of Senior Scholars and the Permanent Committee for Islamic Research and Ifta, widely quoted for his rulings. He trends when a fatwa or statement of his circulates, or when there is news about his health or status; he is very elderly, so speculation of that kind spreads quickly.",
    "kind": "religion",
-   "confidence": "medium",
-   "at": "2026-09-25T01:00:27.438953+03:00"
-  },
-  "حسن الهيدوس": {
-   "english": "Hassan Al-Haydos",
-   "summary": "Hassan Al-Haydos is the long-time captain of the Qatar national football team and an Al Sadd club legend, one of the most-capped players in Asian football. With 'Qatar national team' and the Qatar–Bahrain hashtag also trending, he is being discussed around a Qatar match or a milestone/retirement moment in his career.",
-   "kind": "sport",
    "confidence": "medium",
    "at": "2026-09-25T01:00:27.438953+03:00"
   },
@@ -4487,13 +4467,6 @@
    "english": "#Al-Arabi_Ghee (\"the Arabi clarified butter\")",
    "summary": "Samn is traditional clarified butter (ghee), a staple of Saudi home cooking and hospitality, and \"Al-Arabi\" reads as the brand or family name attached to it. A hashtag in this form is typically a paid or influencer-driven marketing campaign for a ghee brand, which fits the other food-and-heritage entry on the board (\"Saudi coffee\").",
    "kind": "business",
-   "confidence": "low",
-   "at": "2026-09-25T01:27:25.753765+03:00"
-  },
-  "ابو مشعل": {
-   "english": "Abu Mishal (\"father of Mishal\")",
-   "summary": "An Arabic kunya, the customary nickname formed from a man's eldest son's name — here a person widely known as Abu Mishal. Without more context it is not possible to identify which public figure, athlete or online personality is meant.",
-   "kind": "other",
    "confidence": "low",
    "at": "2026-09-25T01:27:25.753765+03:00"
   },
@@ -4525,12 +4498,26 @@
    "confidence": "medium",
    "at": "2026-09-25T04:00:29.360469+03:00"
   },
-  "المنتخب القطري": {
-   "english": "The Qatari national team",
-   "summary": "Qatar's national football team, a regional rival and frequent talking point for Saudi fans; the simultaneous trending of Qatari captain Hassan Al-Haydos and Dutch coach Mark van Bommel points to a match or squad-related development. The specific fixture or result is unknown.",
-   "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-09-25T04:00:29.360469+03:00"
+  "الدفاع المشترك": {
+   "english": "Joint Defence / Mutual Defence",
+   "summary": "A reference to a joint or mutual defence arrangement between states — the phrase is standard diplomatic language for a pact in which signatories treat an attack on one as an attack on all. Its appearance alongside Foreign Minister Faisal bin Farhan and \"وزير الخارجية\" (Minister of Foreign Affairs) on the same board suggests Saudis are discussing a defence/security agreement or a ministerial statement about one, but the specific occasion cannot be identified from the words alone.",
+   "kind": "politics",
+   "confidence": "low",
+   "at": "2026-09-25T04:33:52.410924+03:00"
+  },
+  "اليوم الجمعه": {
+   "english": "Today is Friday",
+   "summary": "A recurring weekly trend rather than a news event: Friday is the Islamic holy day, when Muslims attend the congregational Jumu'ah prayer, and Saudi users post supplications, Quranic verses, reminders to send blessings on the Prophet, and weekend greetings. The board also carries #ليله_الجمعه (\"Thursday night / the eve of Friday\"), which is part of the same weekly devotional cycle.",
+   "kind": "religion",
+   "confidence": "high",
+   "at": "2026-09-25T04:33:52.410924+03:00"
+  },
+  "عامر الخوذيري": {
+   "english": "Amer Al-Khoudhairi",
+   "summary": "A personal name of a Gulf/Saudi individual; the person is not identifiable from the name alone and no durable public figure by this exact spelling is well known. Names trend in Saudi Twitter/X for many reasons — a viral clip, a condolence campaign, a sports or media personality, or a local controversy — so the subject here is unclear.",
+   "kind": "other",
+   "confidence": "low",
+   "at": "2026-09-25T04:33:52.410924+03:00"
   }
  }
 }
