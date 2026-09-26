@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Saturday, 26 September 2026 · 10:00 KSA",
+ "lastUpdated": "Saturday, 26 September 2026 · 10:46 KSA",
  "days": {
   "2026-09-13": {
    "label": "Sun 13 Sep",
@@ -2153,25 +2153,25 @@
    "trends": [
     {
      "rank": 1,
-     "text": "#بلا_ن",
-     "cat": "General",
+     "text": "#شبيه__سهيل_الامير_محمدبن_سلمان",
+     "cat": "Politics / Diplomacy",
      "pts": 14
     },
     {
      "rank": 2,
-     "text": "#قمر_الليله",
+     "text": "#بلا_ن",
      "cat": "General",
      "pts": 12
     },
     {
      "rank": 3,
-     "text": "#رحله_المليون65",
+     "text": "#قمر_الليله",
      "cat": "General",
      "pts": 10
     },
     {
      "rank": 4,
-     "text": "#NO_MORE",
+     "text": "#رحله_المليون65",
      "cat": "General",
      "pts": 8
     },
@@ -2189,7 +2189,7 @@
     },
     {
      "rank": 7,
-     "text": "محمد",
+     "text": "سالم",
      "cat": "General",
      "pts": 6
     },
@@ -2201,37 +2201,37 @@
     },
     {
      "rank": 9,
-     "text": "سالم",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 10,
      "text": "26 سبتمبر",
      "cat": "General",
      "pts": 6
     },
     {
-     "rank": 11,
-     "text": "الدفاع الجوي",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 12,
+     "rank": 10,
      "text": "النفير العام",
      "cat": "General",
-     "pts": 4
+     "pts": 6
     },
     {
-     "rank": 13,
+     "rank": 11,
      "text": "التعبيه العامه",
      "cat": "General",
      "pts": 4
     },
     {
-     "rank": 14,
+     "rank": 12,
      "text": "فرنسا",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 13,
+     "text": "الدفاع الجوي",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 14,
+     "text": "إبراهيم خفاجي",
      "cat": "General",
      "pts": 4
     },
@@ -2243,7 +2243,7 @@
     },
     {
      "rank": 16,
-     "text": "إبراهيم خفاجي",
+     "text": "المملكه العربيه السعوديه",
      "cat": "General",
      "pts": 4
     },
@@ -2255,38 +2255,38 @@
     },
     {
      "rank": 18,
-     "text": "المملكه العربيه السعوديه",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 19,
      "text": "الكويت",
      "cat": "General",
      "pts": 4
     },
     {
-     "rank": 20,
+     "rank": 19,
      "text": "الدفاع المشترك",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 20,
+     "text": "رشاد العليمي",
      "cat": "General",
      "pts": 4
     }
    ],
    "hashtags": [
     {
-     "text": "#بلا_ن",
+     "text": "#شبيه__سهيل_الامير_محمدبن_سلمان",
      "score": 100
     },
     {
-     "text": "#قمر_الليله",
+     "text": "#بلا_ن",
      "score": 88
     },
     {
-     "text": "#رحله_المليون65",
+     "text": "#قمر_الليله",
      "score": 76
     },
     {
-     "text": "#NO_MORE",
+     "text": "#رحله_المليون65",
      "score": 64
     },
     {
@@ -2297,8 +2297,13 @@
    "signals": [
     {
      "icon": "📌",
-     "label": "General (20)",
-     "items": "#بلا_ن · #قمر_الليله · #رحله_المليون65 · #NO_MORE · #يوم_الجمعه · السيتي · محمد · عبدالله الحمدان · سالم · 26 سبتمبر"
+     "label": "General (19)",
+     "items": "#بلا_ن · #قمر_الليله · #رحله_المليون65 · #يوم_الجمعه · السيتي · سالم · عبدالله الحمدان · 26 سبتمبر · النفير العام · التعبيه العامه"
+    },
+    {
+     "icon": "🏛️",
+     "label": "Politics / Diplomacy (1)",
+     "items": "#شبيه__سهيل_الامير_محمدبن_سلمان"
     }
    ]
   }
@@ -2540,13 +2545,13 @@
   "عيال زايد": 4,
   "السيتي": 20,
   "#ايفونات_مرسول": 12,
-  "النفير العام": 14,
-  "#رحله_المليون65": 18,
+  "النفير العام": 16,
+  "#رحله_المليون65": 16,
   "التعبيه العامه": 11,
   "#طرد_الشنقيطي_مطلب_الجمهور": 6,
   "26 سبتمبر": 12,
   "#رحله_ميداوشن": 6,
-  "رشاد العليمي": 6,
+  "رشاد العليمي": 10,
   "مانشستر سيتي": 6,
   "النفير الوطني": 4,
   "زيدان": 4,
@@ -2557,11 +2562,10 @@
   "سالم": 10,
   "إبراهيم خفاجي": 8,
   "رييس مجلس القياده اليمني": 4,
-  "#بلا_ن": 14,
-  "#قمر_الليله": 12,
-  "#NO_MORE": 8,
+  "#شبيه__سهيل_الامير_محمدبن_سلمان": 14,
+  "#بلا_ن": 12,
+  "#قمر_الليله": 10,
   "#يوم_الجمعه": 7,
-  "محمد": 6,
   "عبدالله الحمدان": 6,
   "الدفاع الجوي": 4,
   "علي النبي": 4,
@@ -2591,31 +2595,22 @@
     "rank": 2
    },
    {
+    "headline": "Saudis have not ruled out developing nuclear weapons, U.S. intelligence assesses - The Washington Post",
+    "summary": "Saudis have not ruled out developing nuclear weapons, U.S. intelligence assesses The Washington Post",
+    "source": "The Washington Post",
+    "date": "26 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTEJUT2lldWJOU0RiS1k3ejRod2tWVFkydzJiY0pZZ2Q4YkxpRzFic2VRdW94UU9BMnhRc2daV05vbEFaeFlzTk9pRy1IdnV3UE5XV0xaV3gzaEE3dUxXeWZoczlEQ2ZwVnAzekRiZ2YxZV9aSGFyRXpCM2NvUXFwWmpwWEU3UU1rY1hhWVE3TkxDQm5hUzV0aC1OVDBrcXNHdFFDQmIyd2tpcW9vS2VaMzhGYTVBNUtzbU11UmFJeVpCWTdlcU1MYjJyM1lhb05XVHNVXw?oc=5",
+    "rank": 3
+   },
+   {
     "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
     "summary": "Saudi coalition says it intercepts Houthi missiles, drones Reuters",
     "source": "Reuters",
     "date": "26 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdndqUFdtd2J6b19yZlhhZjlOZXVBYkNvYjVtTjQzYUxlRTVldkZHbjdQdDQtMGI0ZFEwSEY2MTc1OHNTcWJHUXJCbFJjSlpFb0o3blUxMTRBQWZncEVZaEZiMEdJbU9ZOGZIbUFxQzB3SGduZFZ2ZGFDYWNoZEtqVTd0QXRVZUc2UHRXMnpjUi1XM0d0a3dXcDg3ZFRqd2xsWHdzVXlhOXhMMDlQeHlpcEFXWjNncEZWbnBxZ0NaLXI?oc=5",
-    "rank": 3
-   },
-   {
-    "headline": "What France’s military deployment means for Saudi Arabia’s fight against Houthis - Al-Monitor",
-    "summary": "What France’s military deployment means for Saudi Arabia’s fight against Houthis Al-Monitor",
-    "source": "Al-Monitor",
-    "date": "25 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNXhJOW1ISHg1TjNZdkxNdHNpdGVLSlAtMnR6UHkzT05nT3dnUm9YY3hBQkFVRkNBV2lXZGlDNzV5dTdHWEp6blRyVlJHN2trWnVIQkRVLXo2ckYxdXBROEtsR0lCTC1JWmpGemtMSjRlVWFoUWNyMXBLODJhRFhHbFNULS1LYVBCQ0xoc3kwR3hUUnRuOElaM0JZR1oyd2NCUC1yV2xGZENfWHJDajJDT0dBRUVWdDZFTEgw?oc=5",
     "rank": 4
-   },
-   {
-    "headline": "Saudi Arabia Says It Intercepts Another Houthi-Launched Missile, and Other Mideast Developments - U.S. News & World Report",
-    "summary": "Saudi Arabia Says It Intercepts Another Houthi-Launched Missile, and Other Mideast Developments U.S. News & World Report",
-    "source": "U.S. News & World Report",
-    "date": "26 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNkY0M1BoWFJxamZZT0Z2NXdqR2lqczJ1NFd2QURPSVFLY0wxUDFHQ3hsMHV0eXM0UmNaUXdBNU9ORzl3UUEtTzhkS0lVWW8yeUFXY0JmY1BQVndEOGp1aVVOV3hRa1A5dkRiSzRub1h2OW41QjlQQzBkMlV5SmQtV2drd0J3UjdBREU0THpQeFI0MlNZRnFKQkNfODY0QnNJVFFNUzZqRzF6ZFU3dkY1Q0NmREUzdHFlMHM3azB2V05mOTJCQi13ZVN1SVBLaHZVcnlzX1BWT0JwNm0ydm9SZEx3?oc=5",
-    "rank": 5
    },
    {
     "headline": "Saudi Arabia’s Houthi crisis tests its global alliances - The Jerusalem Post",
@@ -2624,16 +2619,16 @@
     "date": "26 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuVjNOVHg4eDZoR0ZJNzlJbFhVTGQtOTFwSHluRjduV05SYmg0dHRTaWlSS3ZucjFZaV9fMi1KMTB4RHJrZTRxeVNVNFgxc1BOWENYNFNyOVFKVXct?oc=5",
-    "rank": 6
+    "rank": 5
    },
    {
-    "headline": "Saudis have not ruled out developing nuclear weapons, U.S. intelligence assesses - The Washington Post",
-    "summary": "Saudis have not ruled out developing nuclear weapons, U.S. intelligence assesses The Washington Post",
-    "source": "The Washington Post",
-    "date": "26 Sep 2026",
+    "headline": "What France’s military deployment means for Saudi Arabia’s fight against Houthis - Al-Monitor",
+    "summary": "What France’s military deployment means for Saudi Arabia’s fight against Houthis Al-Monitor",
+    "source": "Al-Monitor",
+    "date": "25 Sep 2026",
     "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTEJUT2lldWJOU0RiS1k3ejRod2tWVFkydzJiY0pZZ2Q4YkxpRzFic2VRdW94UU9BMnhRc2daV05vbEFaeFlzTk9pRy1IdnV3UE5XV0xaV3gzaEE3dUxXeWZoczlEQ2ZwVnAzekRiZ2YxZV9aSGFyRXpCM2NvUXFwWmpwWEU3UU1rY1hhWVE3TkxDQm5hUzV0aC1OVDBrcXNHdFFDQmIyd2tpcW9vS2VaMzhGYTVBNUtzbU11UmFJeVpCWTdlcU1MYjJyM1lhb05XVHNVXw?oc=5",
-    "rank": 7
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNXhJOW1ISHg1TjNZdkxNdHNpdGVLSlAtMnR6UHkzT05nT3dnUm9YY3hBQkFVRkNBV2lXZGlDNzV5dTdHWEp6blRyVlJHN2trWnVIQkRVLXo2ckYxdXBROEtsR0lCTC1JWmpGemtMSjRlVWFoUWNyMXBLODJhRFhHbFNULS1LYVBCQ0xoc3kwR3hUUnRuOElaM0JZR1oyd2NCUC1yV2xGZENfWHJDajJDT0dBRUVWdDZFTEgw?oc=5",
+    "rank": 6
    },
    {
     "headline": "Saudi Arabia says it intercepts another Houthi-launched missile, and other Mideast developments - Bozeman Daily Chronicle",
@@ -2642,7 +2637,7 @@
     "date": "26 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNVXN4OWlJTERtdXBrMUg1MUZ3elZVbUVFSTNFeVpEb2xUcFdqeHVzUEp2VUVyTmozUFN0anBrNnpCZzdYa3BuVU5zdW1MTlFvYWFvZnloeEw3V01Zc1M3dnk1cFVYb25tS0loY0R2QXY2NDVBeWNtRkxNZUJGVVFWTlJUa1R4N1hjbFRKZUZ3MkZZR0JIRTFONmcyN0txWnc1eWZQVG9IMTNxNEUtVnJhMHRrUTQwUDRndEhqd0xGbVcxaTFaUjhJcjdOYkUzWkoybzUzY0Ewbk1DWGViMVhTV3FIQ3J5cUVJTHU4X19MU21saEhuYXRzbDNDd3pQTXBVQmlSV3NQYllCUWZLek5iaWJlXzZueXNZWU53MA?oc=5",
-    "rank": 8
+    "rank": 7
    },
    {
     "headline": "Iran distances itself from Houthis as Saudi Arabia builds new alliance - newsnationnow.com",
@@ -2651,15 +2646,24 @@
     "date": "26 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbUc0VzNaTHRLQ05LbnNOdC1oYWpGVzNaSTRsRF9JMGJPcjNTc3QydTNKazh2SHRQWm1FU0lkSTFBLV9fTG1CeEtjc0hjN2pEMTVlX2JIYXBRdzJ1eFZSZWo2OHB4akhYR2FldHJ4NXdpdGduN2o5VERFWmpuMkFYemZoSlRpZjg1ZTRLcXRhZWNtZ2PSAZgBQVVfeXFMTlNKVDdmd2NrZk1pQWpMeVhET2FGWnpRbWluLXk0RmZEeF9nQmFOZWh6UkRVQUJTNGc5Rk9XQjlKZTNySXVkWDRvN0w2dHpfODRqdTQ1NURpUml2MDdmVzdqbzdNb0RmSk54blkzdTVhUTh0WjI4LUUydktLTkgyX25nUE5Pbms0bEZEWmVLZm5ETHVQb3l6bkw?oc=5",
-    "rank": 9
+    "rank": 8
    },
    {
-    "headline": "The Choices Saudi Arabia Must Now Make - meforum.org",
-    "summary": "The Choices Saudi Arabia Must Now Make meforum.org",
-    "source": "meforum.org",
+    "headline": "The Choices Saudi Arabia Must Now Make - Middle East Forum",
+    "summary": "The Choices Saudi Arabia Must Now Make Middle East Forum",
+    "source": "Middle East Forum",
     "date": "25 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWGtRdzVUdHJpWHRieUhaQzRfMTRRdGNxRVdGVGNGSmR5UUNMVGFPTGVVVG1rVm9uRXBuYXFlemtiS0xWTjZNbV9LSVF3cHRsQ2R5YTU5a0VBV3h1ZkRfRFl5S3FCNGEyaGJGSFFHNUhqaGxIUkl5Mkl4MGtMcm1vcw?oc=5",
+    "rank": 9
+   },
+   {
+    "headline": "Gulf Cooperation Council Backs Saudi Arabia as Houthi Attacks Escalate - Kurdistan24",
+    "summary": "Gulf Cooperation Council Backs Saudi Arabia as Houthi Attacks Escalate Kurdistan24",
+    "source": "Kurdistan24",
+    "date": "26 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbEp2MU9QdWgwZU5xVFVjOU5XQTI4SHE0OWhoMzljZjUwRFNNWWc4XzE4XzI2d1pyTjF6Vmo1aGJwaGFrV3l0QWxMVk0xSk1SZWIxN1h3X1FzeDJOTGFEejRxUjVOb19IZEVVbThJTDFWNUtYc2tfZlVfSkw5MURySjVpS1BFUHduNU8yNlpLTUlpS3BIal80azlManFfa2dNWmdsaU44cFF3aGpERU5XMnZjWXo?oc=5",
     "rank": 10
    },
    {
@@ -2773,21 +2777,21 @@
     "rank": 22
    },
    {
-    "headline": "Pact with Saudi and Pakistan could expand to Muslim world, Iran, Turkish speaker says - Reuters",
-    "summary": "Pact with Saudi and Pakistan could expand to Muslim world, Iran, Turkish speaker says Reuters",
-    "source": "Reuters",
-    "date": "25 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSU13N2RRWHBoTWR0LUNPRUFQb0FHckVYX1FwTG5sMXFWUHlHeFhvYURrbWp1R3pfVVFIYXUwZWN5c3RsWjhBVDNyRHBsQ2RCV2U0ZndOMFdKR2tNZ1pWT1FsSHl4TC1jMmdOb0wwQldnVTZRNEJBOFl6RWs3TnE3LThMSGdUMmJib2hNdGZhQlhQWlc3ai1nRWJlZ0hTT21MYVR3YzlPdFhqSWl6MnBjN3JDcGFmY1U1VHZpXzh1WHpmOUpvZ1BZR2JB?oc=5",
-    "rank": 23
-   },
-   {
     "headline": "Saudi Arabia Begins Implementing Mecca Joint Defense Agreement - Kurdistan24",
     "summary": "Saudi Arabia Begins Implementing Mecca Joint Defense Agreement Kurdistan24",
     "source": "Kurdistan24",
     "date": "26 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd2pxdkNjakJ0THltNkYteE9VR3lsZjlGNGVPSWhKVUVPTDNFT09zc0ZyYlBpTkJ4YmVRSkNPT0t2Sl94am55ZWM0M2VLLVYzTVVwYm9rcTZISmNiQUxzM3g0UzkweGpRdmVWNmgzaUxpMWhzV2hMd3dGQ1FhX0xRXzRsSmt4Y0otcS1EWjVHdWRrUmx0RFZnVWdVMllha3FJZHp1MUk4ZTk5dw?oc=5",
+    "rank": 23
+   },
+   {
+    "headline": "Saudi coalition says Houthi attack intercepted after regional security talks - haaretz.com",
+    "summary": "Saudi coalition says Houthi attack intercepted after regional security talks haaretz.com",
+    "source": "haaretz.com",
+    "date": "26 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVVFWSnVab0ZXTktYVEx6Rzk2elRzUFBFclZSRERMQUdIWGNESHA1Y2FaOEFuVFRJeGgxdmY1aVpkUnRYMWtpSlh0UmZtb1ljMjRPWlBrdkdaLVRwdVJyWFJWSDhGcDVhY3pzV0xCYnd5NzNPaGhSRHQxRDFuZ1pwaTNSeW8ydFFURDU1N0lzQ19mNWRTVXBOWDVHUXFHclhGb3lYY19LNTRZSGZpczRBWmZYVVJ1U2FMNDNTcHRGcG9QdGNlT3pWR1pnNDdDZ1Z3YVNxVDBDVHg4aW83SW5tSTVRSWFPMXhaOGw2NE1iRlg2YWdKTUozbDdLMHhfZ1Zab09pYlBmRQ?oc=5",
     "rank": 24
    },
    {
@@ -2800,21 +2804,21 @@
     "rank": 25
    },
    {
-    "headline": "Saudi coalition says Houthi attack intercepted after regional security talks - Haaretz",
-    "summary": "Saudi coalition says Houthi attack intercepted after regional security talks Haaretz",
-    "source": "Haaretz",
-    "date": "26 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVVFWSnVab0ZXTktYVEx6Rzk2elRzUFBFclZSRERMQUdIWGNESHA1Y2FaOEFuVFRJeGgxdmY1aVpkUnRYMWtpSlh0UmZtb1ljMjRPWlBrdkdaLVRwdVJyWFJWSDhGcDVhY3pzV0xCYnd5NzNPaGhSRHQxRDFuZ1pwaTNSeW8ydFFURDU1N0lzQ19mNWRTVXBOWDVHUXFHclhGb3lYY19LNTRZSGZpczRBWmZYVVJ1U2FMNDNTcHRGcG9QdGNlT3pWR1pnNDdDZ1Z3YVNxVDBDVHg4aW83SW5tSTVRSWFPMXhaOGw2NE1iRlg2YWdKTUozbDdLMHhfZ1Zab09pYlBmRQ?oc=5",
-    "rank": 26
-   },
-   {
     "headline": "Is the United States Abandoning Saudi Arabia at Its Moment of Need? - CSIS | Center for Strategic and International Studies",
     "summary": "Is the United States Abandoning Saudi Arabia at Its Moment of Need? CSIS | Center for Strategic and International Studies",
     "source": "CSIS | Center for Strate",
     "date": "23 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOelRMQkhPSEhYLUZjZGJIbWpidU83QVhCSDhGSVVSNEpYemYtT1VjcWdjRDN5bFRWVnQ4YVl5eGlhWW9ORU5TWi1oaDl0eHZkdW95MlVqdDZ6R2RXLWJtYmV0SjRVelNHVUZldzJ2NWU2UVp6OVg4dGNrVXZnV0xUa1RWakZNMEEwRkIw?oc=5",
+    "rank": 26
+   },
+   {
+    "headline": "France to Send Soldiers to Saudi Arabia to Help Secure Energy Sites - The New York Times",
+    "summary": "France to Send Soldiers to Saudi Arabia to Help Secure Energy Sites The New York Times",
+    "source": "The New York Times",
+    "date": "25 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWVJpWFBiZDZrMFgzWG1IdG9jVm56ajRMUm9ON3NmbDJJT0JXeTFqcE40WWRsbjVoN3FJbWw5NGFOMy0zUXhHZ1hZak1PTDZHVE5VUDYyRnQ2ZG5VeTNCUWZzX20yWElGQmthNF9WeTRLRFlqdHVibEUwQ1hOYlJaeGh5dVh6X184cWxhREZyMmprRlgtLXhVNU9ORzNYUGM?oc=5",
     "rank": 27
    },
    {
@@ -2827,21 +2831,21 @@
     "rank": 28
    },
    {
-    "headline": "«آي بي إم» لـ«الشرق الأوسط»: السعودية تدخل مرحلة إعادة هندسة المؤسسات بالذكاء الاصطناعي - الشرق الأوسط",
-    "summary": "«آي بي إم» لـ«الشرق الأوسط»: السعودية تدخل مرحلة إعادة هندسة المؤسسات بالذكاء الاصطناعي الشرق الأوسط",
+    "headline": "كيف تجاوز الأخضر البداية الصعبة في «خليجي 27»؟ - الشرق الأوسط",
+    "summary": "كيف تجاوز الأخضر البداية الصعبة في «خليجي 27»؟ الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "25 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMigAVBVV95cUxNT2VFdFI5ZDVHUmdfT0ZseFZMRTk4TG5FNExvTlozcFI5ZWRib0NPbnJuclNwaDVub0toLVNidWxEM1gtdnl2dEFmeG1zLUpYRVVlMFNrX2hwU293Z09obFBCeXFMQm5USE93ekR4U0MxeUFreE9sNjZTeEg5Z2ZiZmUzbHZRMkcxM1dULUF3NThYdEhQZ3I1Z2ZJdkNWdXcxTXlqZVR3YmM4aTBkaXVUU2ViUGotbW9CaklRVV9ERHFJT2JqQkxJbVpZdFlwMV9jWEZiaVFDd0ZlLWp1Yk42Rzlob2sxaUxocGdtT0VlNnJic3BvazlDNTdTakxtQXg5WGc2RE51M0lmWE5Cemh6am9ObmxKWkljQzJ4d2lRRUdaZkRhSFlwd09uYWdaclk0dkVnSlBTc3VuN3BwM3hmQjVRU0ZuSFB5YlFsRjF1N1FRUlFpZVBzRkROWXRxMkg4WEpMc1ZSLW0tRWR3a1pxcGFaa0VrY0JpV3dybkw2VWUwdjRjWUYyakRyeTNDRExWNFQ4VkYzdVdDOEkxMC0yeFRyRzhZYzZHaXFqZ1pyRkNXY0RXN0QwMk5uQ1pHZDZrb05mNXdlbl9yX2RESUV3YVY3U3FPTko1Z09WbGJoQXFKVkVFQmpVSFk1NFMyYmY0aHdwcUdRQWtWZXNoUkxyRy1mX3RGdjdnVEx1ci00Szh5OV9pdUtxWEZIQTVxYlowbHlzbzl4ZEFnSjlyRE9GZDl5UlliZGRIbmxQaGdZQkR2ZTdDd1B6ZjdTQ1VEYzB0NEN4TjhlRXBqSjNtQ2tyZkN6Tk1oelJNMU93WUNlTFJxRWRCTE5USUtqZWRxSXY5?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi-ANBVV95cUxOMHRNQ2pUb2RRdE5XRm04RGh6ZDZvczVZV3NvbEk5MVZHWDNEV0ZVUTFYV2E3U3J6cUhvTU9XVzd0ek5OQk5Nc1JOYTZacGtHRzNyR1FwaDF5VTBqbU9RV1M2SWo5M0ZmajExblIxZFBXODFYOXZVVDduZTRfLXZ1WXVuTVpsZzlkYlVXUHlycWctUy1XVTJEcHJIdVpmVkh5WTY1ODRtT1JkcG50VXZUblpRRVludnlyZTBZS0pCVm5uRWlMYlI4eDBDRUxnTDNISDcwcmJlY3RVUElhaUw5SnZ6ak1KRlgtWFpBbThXM2JCMTNLTTNyTHo4TDVuMmFyVURwWm5zdmI4TDlZMXBIdEhQd0gtWFpfOUczcUQxbWl6SjhIdk1CRjI1ZmdJMVRTdlkzcHJnZEFnZnNzTUFYelJVb1FaQncyYmJMYzdJcENkSEQzdlZoYUxOejFYMDZ0N1Q5MklyYWxlUy1WRFNXR3BDMmtSd2V2US02QnhqdzQ2YjVuSFRHZGJtNXhoSndpQlJTUXZCSjItMHRMNS1WV0d3TUZQNWdfdlJTenIteVRfQ1BsdlNEX2kxWXI1Vm94VUxVQnJWQ2RTNE5SX0xwOV9CbFAtSGhfV1JkOXFNQ1FTN3M1aGxtSk9LbjdybEFMSEFQdHItdW0?oc=5",
     "rank": 29
    },
    {
-    "headline": "سوزا: بكل بساطة... السعودية أقوى من الكويت - الشرق الأوسط",
-    "summary": "سوزا: بكل بساطة... السعودية أقوى من الكويت الشرق الأوسط",
+    "headline": "التحالف: تدمير مسيّرتين باتجاه منطقة الرياض وباليستيين نحو خميس مشيط - الشرق الأوسط",
+    "summary": "التحالف: تدمير مسيّرتين باتجاه منطقة الرياض وباليستيين نحو خميس مشيط الشرق الأوسط",
     "source": "الشرق الأوسط",
-    "date": "25 Sep 2026",
+    "date": "26 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxQckY2ZW9SNHBNZDNTcnFwTU1RVFFyWW1CWnMydV9FcTgxYWF4R3hYc0hZNjJLQ21wd0ZROFZyNmI1RkRyM0lUT2R0MmFKSXMtYm5nQ2s3RFVMRnBhU0FZQXZ2VFFWaGhKaTYyanRQSG5BcTA4UW1aXzlSdzZoX2F3QWFLNmpCWFlqQ014dnpJdjg5MF9SLV90R0lRY0dzaWJKZnJLSEJLQmxsWnpCQldFQWhtbFk0eTNkZkY5S1NjMHg3NzZYU2RTanpjREphUWZpck1JYU9pQlVJNjgwbEp6S005STNybEFBX0dnUXhaWFRoakpDYVhJVTZnNlZIWUI1Rm85LVdZUTl3cXlSX2llYzJod2hXR3hHUXpIU185VTA0ai1nVkRSdGQ3QjJrbG9qSUtaTGZ5ckh1d256WEx2ektSOFQxMVNHNlJiM2EyV0wwZ29lVFhfTnJqS25xYTc0bXlwV1p1cDV0Y01GamlQS0NySkIyS25hc29iV1ZxdWs0bHRLZ3ZZR1dBbDN3dXM3WXpraEJ3akZGT1BIc0Fsa0xZMUtiWXI3Zk1WOER0WnNYUE5wblU0TDFnekQ5dXdvYzlSbm1CV2JkQmg0emQ5Q0ZVX1FFNDBKbHRJdA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMisAVBVV95cUxOS3VjOGhmM2xrRmVidjc1Z3YxQjIyd0ZuV0V5dko3b1NfdHZpdnItcnQ3ZFE0b0xFX2FoQ2NkT1hFVUFIbGZDWnZGVTVkUnhHVE4xM29JWmViTzcxckNmUi1RZ3RsMTVNb0l5SThGem5VcnZEUmFuZk1HWEh4QlZLQTFYWFI1SzdvUFozd25GQnBIcUZFQ1ZPU05YUGEwak1aVHBCYWRBQzdsZ3VaYkJUTHNnNm52eGE3cGhvbzR2WGhBZkM3Y3Zkb0ozNmJkMkFYVllfMk5DUVNzdm8yMXF1VXJvU3hRTWw2eVFobTcycUhtM0ZHWnR4a0czTXhmX3duUGxKZ1N3dXl5TVBxZy1NMWhKdGFLRkN2NzhiUkRxaFlFSHBYSWY4WHllQzlFNXBZc2lMcUR5QmZLWXhKQVY1SDhRN2d4WmRpajBpQWNOVlZFUmNNMjdCNWYzdUxfWkt1cXpOWnF3MGVlck5NZWs3M3l5cFJWZEVQaTVROFUtQmY4ZS1ULTV0SkNkWFVJVXpOczlVcTNNTnROWkxTT1c5SGN2YW1KZjhpNklDeXdNbWVOcERCek5PZHljamhEU2ZHWEtWSmotc2V5VjZkbE4tblplVEtNWWEzZkdQSmVsWXBHZDdOMWg2VjRaMWdLNkpQbmxfbWhOTjdpc3NRNVVqS3RCaHNLRjNJZko2c09ldmNjcmVhUGI3YTJfYlE2NS1NNGI4VGhTMU1ZZllkeWdXRUFjYjR2cWtWWlZEdkd1Mk5pWXhIVTZQZG13b1VON2l2cmVrNmhNRFF1cmdUclFDbm51S0lXQUZxNF94eUllUGtwQ1lGSDN5aURfWE1BbHNkUjI4NllUWkJ2QmRrenlNZFZfSkdPNU5ibFkyaWlSZUNLak1TYy12N2w0ZllSVGo1?oc=5",
     "rank": 30
    },
    {
@@ -2854,22 +2858,13 @@
     "rank": 31
    },
    {
-    "headline": "التحالف: تدمير مسيّرتين باتجاه منطقة الرياض وباليستيين نحو خميس مشيط - الشرق الأوسط",
-    "summary": "التحالف: تدمير مسيّرتين باتجاه منطقة الرياض وباليستيين نحو خميس مشيط الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "26 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMisAVBVV95cUxOS3VjOGhmM2xrRmVidjc1Z3YxQjIyd0ZuV0V5dko3b1NfdHZpdnItcnQ3ZFE0b0xFX2FoQ2NkT1hFVUFIbGZDWnZGVTVkUnhHVE4xM29JWmViTzcxckNmUi1RZ3RsMTVNb0l5SThGem5VcnZEUmFuZk1HWEh4QlZLQTFYWFI1SzdvUFozd25GQnBIcUZFQ1ZPU05YUGEwak1aVHBCYWRBQzdsZ3VaYkJUTHNnNm52eGE3cGhvbzR2WGhBZkM3Y3Zkb0ozNmJkMkFYVllfMk5DUVNzdm8yMXF1VXJvU3hRTWw2eVFobTcycUhtM0ZHWnR4a0czTXhmX3duUGxKZ1N3dXl5TVBxZy1NMWhKdGFLRkN2NzhiUkRxaFlFSHBYSWY4WHllQzlFNXBZc2lMcUR5QmZLWXhKQVY1SDhRN2d4WmRpajBpQWNOVlZFUmNNMjdCNWYzdUxfWkt1cXpOWnF3MGVlck5NZWs3M3l5cFJWZEVQaTVROFUtQmY4ZS1ULTV0SkNkWFVJVXpOczlVcTNNTnROWkxTT1c5SGN2YW1KZjhpNklDeXdNbWVOcERCek5PZHljamhEU2ZHWEtWSmotc2V5VjZkbE4tblplVEtNWWEzZkdQSmVsWXBHZDdOMWg2VjRaMWdLNkpQbmxfbWhOTjdpc3NRNVVqS3RCaHNLRjNJZko2c09ldmNjcmVhUGI3YTJfYlE2NS1NNGI4VGhTMU1ZZllkeWdXRUFjYjR2cWtWWlZEdkd1Mk5pWXhIVTZQZG13b1VON2l2cmVrNmhNRFF1cmdUclFDbm51S0lXQUZxNF94eUllUGtwQ1lGSDN5aURfWE1BbHNkUjI4NllUWkJ2QmRrenlNZFZfSkdPNU5ibFkyaWlSZUNLak1TYy12N2w0ZllSVGo1?oc=5",
-    "rank": 32
-   },
-   {
     "headline": "مصادر لـ«الشرق الأوسط»: إصابة العقيدي في مرفق اليد - الشرق الأوسط",
     "summary": "مصادر لـ«الشرق الأوسط»: إصابة العقيدي في مرفق اليد الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "25 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMingRBVV95cUxNMklNVE41TVh1Wm1oanl5REIwOFdpNTZKSVF1S0tzSlpyNC1Bay0yazVkSTdXQU0xZXI5RE9GT1docFl2UFBHZXBXelRPNEVhTmlwSnRHSWtvNlJaT0xVdzhwcWdGb01wemRKVEEyZi16N2dHX0xNMWltQlc0Vlc2TmFsa25lSmUzbkJ6VS1FaXFvVUZPQjRfZGtiUTdsV1lCZVgxSjkwMGxPNUxqc1l5TFpGZ1F0cVNia2F4X1V4V0dQUk9tZVhUN3RGV2RCMC1vb2Z2RU9kcjdVVHZaNm16TUhCazh6WmdobUdkSmVtdHlNM3NQSEFqZnFWcW9BTjJDTm8tTl9nUUpjd05ZSjUxbU5rXzdyQkpWUmdTdU9fblFzcm9ITlFlazJGbE9qVURDRmZjSUhQTzRDdzRlS1gyMVN1RWZlLVJYRHpvVGlJZFBjQllHajl2eE9WTGhNTVdqM05SMkdhYTc3Z1ktaC05dU1rZ3ducGtVRUx0WDFlWDMtbmNRaFV6SDl4Mk5BR2FQU1hsNUpDTUZkcGp2aGhYdWV6ZVR3UTNiWk54ZGVENVA3bnFna1F2OWZONnB3Y1h6OGVaNGRMN3hza0J0dGU1WENrdXJBQTl3ZTNHN2JDZWVPNXZNSFlvVW5KNjRobG9kZnp2c1kyTUVQWFZFVUl4WDFQRTlNRnZudFk4c3BTLTk3UlBaaWF5emNzYkUxUQ?oc=5",
-    "rank": 33
+    "rank": 32
    },
    {
     "headline": "الحكم البحريني محفوظ يقود مباراة السعودية وعُمان - الشرق الأوسط",
@@ -2878,7 +2873,7 @@
     "date": "25 Sep 2026",
     "tag": "sports",
     "url": "https://news.google.com/rss/articles/CBMipARBVV95cUxNVF9hUTZyODJtRWpQY0UxdmY3RW1lLVhpNTFLWDZoVTdVQlRjMW0zb1dlNXdxUkx3WU0yUDNtNXFHSVpRS0JHaEpFWkU4TjI3WDcxYl9yUkhmUUlROTgzV2VTVDRWTUwzYU9ET1Yyb2NYVGVJTW5EVnliYlA2OTNKbVlWeFozYS1GVEVvektoSHYwZFZiakJORlZzNEZPaDl1UVdGa01fNDUzOWdDOXhfQkY5ZFZhTy1WQlR2REFPcFFKb21tTDZ6SVRLTFZWWEI0QUhxZXhfOHo0RUNWdWU2aVpqeVlURXBBejBRSzRiN2JCV2E1M3NRSmQtYkltZFlFbnMybmxGRU5KOUJwTkM3X1BwblVSZHBqalF2cFVJOHI4Zzg3cTRBa2dYSmxzM3dERHhyM016SS1TVExqZG03dU9mYm4xNVV0WExxYk94SUVNWmkxa2daSDVvYnlrYk1MMWdlNW9PTVp2OXBqdF9BWHdVbV9ZeHJGTXUxY29YWHJTMlhJUjRoSUViXzZiUWFaUjlzSzBMbzNUUTRKbjRZazVTb29aYUd1UUNTQ1RDTlJqdnRLYlEzb3NXa3lXR0RXU3BtMzFreUdkU3pjOWt2Tk9pd1JyekEwWW9kMFdteGJaeVl3MTNwSnZ4VUdWdnNQVkdpdU5Rb0tvNENqU1ZKd1BUMjFzaVVtWFZ0ZUFfUlVudlNDOElFVy1OSjI2MlUyWF85OA?oc=5",
-    "rank": 34
+    "rank": 33
    },
    {
     "headline": "من حديث التاريخ بين صنعاء والرياض - الشرق الأوسط",
@@ -2887,16 +2882,7 @@
     "date": "25 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOTk5YSlNOVkV5R21YVW9fa1pXVGFBZlRJQ29XdXN3dzc3dWk5bkYtdlBVT1RRUlYzaS16bEVGUkVzVWwydjFxYWFGQTRyVHlpMFd2bF9JVUgtZ2ZJa1dBLXdETlFrUTNxU3k0Mmt4YkRmMldMaHk2T0pDYkJ3bEU4NHFHUW5YV0hUYWduT2ZnQW9zUmc0dVY4SjdZbFRBdFlwRl9TRjBqYk5XeDk2bzhORXVMMWcyeEU4QlRib3lmcFhHUXlXazVuNGFyRDBkYzNLN3p5ZmNXUHNoZUY4dFdDMFFHWHFBNVVyb3VDbjBRWWpQUjE2MnFnTTlSMkhZb0ZRN1hPcFZod3hWNzRDOGNRalZCZi1BdUlkQVNZZktFUjlXazZEbXd2S25SYnNGSWlKcWJURHhpeGtuaVBLaVlKY0NHcHFtSkVvU3gxdGJ4YWg?oc=5",
-    "rank": 35
-   },
-   {
-    "headline": "كيف تجاوز الأخضر البداية الصعبة في «خليجي 27»؟ - الشرق الأوسط",
-    "summary": "كيف تجاوز الأخضر البداية الصعبة في «خليجي 27»؟ الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "25 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi-ANBVV95cUxOMHRNQ2pUb2RRdE5XRm04RGh6ZDZvczVZV3NvbEk5MVZHWDNEV0ZVUTFYV2E3U3J6cUhvTU9XVzd0ek5OQk5Nc1JOYTZacGtHRzNyR1FwaDF5VTBqbU9RV1M2SWo5M0ZmajExblIxZFBXODFYOXZVVDduZTRfLXZ1WXVuTVpsZzlkYlVXUHlycWctUy1XVTJEcHJIdVpmVkh5WTY1ODRtT1JkcG50VXZUblpRRVludnlyZTBZS0pCVm5uRWlMYlI4eDBDRUxnTDNISDcwcmJlY3RVUElhaUw5SnZ6ak1KRlgtWFpBbThXM2JCMTNLTTNyTHo4TDVuMmFyVURwWm5zdmI4TDlZMXBIdEhQd0gtWFpfOUczcUQxbWl6SjhIdk1CRjI1ZmdJMVRTdlkzcHJnZEFnZnNzTUFYelJVb1FaQncyYmJMYzdJcENkSEQzdlZoYUxOejFYMDZ0N1Q5MklyYWxlUy1WRFNXR3BDMmtSd2V2US02QnhqdzQ2YjVuSFRHZGJtNXhoSndpQlJTUXZCSjItMHRMNS1WV0d3TUZQNWdfdlJTenIteVRfQ1BsdlNEX2kxWXI1Vm94VUxVQnJWQ2RTNE5SX0xwOV9CbFAtSGhfV1JkOXFNQ1FTN3M1aGxtSk9LbjdybEFMSEFQdHItdW0?oc=5",
-    "rank": 36
+    "rank": 34
    },
    {
     "headline": "رئيس «أرامكو»: نستطيع إصلاح أي اضطرابات خلال أيام - الشرق الأوسط",
@@ -2905,6 +2891,24 @@
     "date": "25 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxOX3U5NzQ1X0F2UmFESmt3OGtELVpTZXU0WWh0Ql9yYlFCYlFJZnRyOE9ZX2RpWTVYUklQQ2x4UnlPVkI4eVFMeWc1WmREM3BnTEJ0TEU1eWNUa3hKTmQ2QzQ1TlJoa3FBUUQxbE1FZVhXTUdKTVhySUpTVjVDaGs5dFBBQ0JyV1FwUk9MODNJV21uQnlCaklheG5ncmR2Sk9RNW1aalRqWmdZaXpZb2ZQdWtBX0dTOWV0aGhvVjJjU2hqWGp2M3lubnlaMFF1a3E2aDRVb19PYnhyejlKYWE2dlEwZG56UUtzNW9Jd3BtZC1oTkpLU0N6WTdZZ2lodVBOUGp2dEc2dkFUNHRIY2ZBSkVrOURDZVJxbXp3SGlPNmVNQ01UM2JnbzVZZFpiUFZJR0RSTTFvSXF5b2M2c3pkOXRyZjduLWJVdUtfcVkxVHQ3a3ZXdnlDZmZ2c21nOUZaejlINUVoNV94WW1xQXFUT1c3X3BTRFA4Y3hpWFRyNWZ3c2ZvM1FCTnZDZUxhc2JJMHN4M2RFUjNVdlZWand3WmxoVE1yT3JTVnRIRWl3LW5tY2VRNUFFMGFEclJxWmM3ZU9B?oc=5",
+    "rank": 35
+   },
+   {
+    "headline": "وزير الخارجية السعودي ورئيس الوزراء اللبناني يستعرضان العلاقات الثنائية ومستجدات المنطقة - الشرق الأوسط",
+    "summary": "وزير الخارجية السعودي ورئيس الوزراء اللبناني يستعرضان العلاقات الثنائية ومستجدات المنطقة الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "25 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMilgVBVV95cUxNb3dOMExxbVBUNDd4SW4zWVZYcUdOakwxOXBubWVrandCM005UjJybWowc1hBMWJ6UTdQbGM5ZHVSVXR6aVhBLU5TZC0zRkNxdExMci11cnYzNU1XeWJTck1TQThhUmlGTWtMeTNScm9sUjM4d19uSU5lUlh6YnZEMUhSbzhPbkszWWV4RkJkX0R5ZUltcG9GbHQzb2dmbTFMX3ZwR1JMeFo5aVNra3BiMlFZYVdIdGpKWHJ4WXFWMWVWYnVQZDgwZDEyeE9ZcEFYdERQTXZtak85d0NHaVhTMzBjZjdEZ3JITjV1ak5Oc29WQVZHM25NcDBnOFNza3dHV0kyUzFCclkybEU1Zmhjd0k0anp4eVFPaktid0UyUkJqdkE2RlFxSGpZZkhPeGpSdms5Mlk0eGVFa3pmcldVdjdja3hSd1lHVW9RYjBaSTJWUEthNnVrbW15Z1JEamRHVEFyTW1mc0V4UGF2SzN5WEJ1TURJdW1iT2xMeWRnaDczcEVZY2c1UkhBYm5hUzFuSmZLRG5uRExUSF8xczJTSGtTRkVoUEx5R1pCNFFMM25fY3BSRUptb2JxSWowdHpiSDl0U0Q5ZkQydGUtaUNqc3VVRFBPRnZjbDdTaXdfYXdNOFNXNEpwUWZ6cHl5ZVU5eWxnVjU1NUJlWUM4ajAzSEJfTjg0ejU2R1k1Qi1jM3lIZTMtVklIOEY5TmdQZnptcWpqWFl4X3IyQ2JtNF9hQWVQZUlYb0x5SWxmSkFzbFhkNTNCbVI3RHdBd3M0T1FZVHRFcGRZWGJXUEp6aVdRaUc2Qk1VLW93T3hQM1V1VHVSb0s1NTZZbGZ3MzJEbkxQMkFQaU13UEJ2Z3ZjbmN5ODJfOVo5UQ?oc=5",
+    "rank": 36
+   },
+   {
+    "headline": "«سيمنس السعودية» لـ«الشرق الأوسط»: المملكة تعيد صياغة نموذج اقتصاد المستقبل الرقمي - الشرق الأوسط",
+    "summary": "«سيمنس السعودية» لـ«الشرق الأوسط»: المملكة تعيد صياغة نموذج اقتصاد المستقبل الرقمي الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "25 Sep 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMirwVBVV95cUxONm9uemExTWgtWHBQbkxEY1dJTi1LSG1TaEJINEpGN25VQlJFVjJOakdySjBMcWxsUnhKVGJpYnRka0JmdDhVcUFneUhFOUp0c3FhNjUtOEVIdWNIb2hfbnp5em9mdEJOOFlYdkhuZ1BVOUpjSkRtXzhDN2hOZ0NfZ05MX1hLZlU4UzVoWXdvNzhTalR0N3pjT2tOQUtxT2dZSG9jR1lnX2M2VndiUFFIMmtjVWpHRk9laVpDQm1FRDZqMDdlQW9HTWlyM3hwU2VMcEJUSTNhUk9sMFhJcGJrWURQdEpvMWZNRU1wLWxtaVltUVl0dExfNUg3djRjdjRvX0E0RnJFWWo5eEdRSUJDUUV0aHd2eXd1T0dhSEJ1SXlvd2oyNjF6Y05yOG1uTVdueVNHekZiMEhuR0ZqWDY4V3VIQVdla2syQWlHWjFoTnJtanBldlluY3VWWTgwc2V1eFFRRER2Sm8tbEtpVTZKZjRBYXZmRlE2VnU0MGVWTWU0Q1J3NmJQdzZtaGJjeE5rRHhfUURwWWRCcWlYNXRRQ3AyZW54NnU3elgtbDFaSGp3UGZ3XzhaVXpxTmczRXMtajRMS1QzQ3ZYdmpHbnZFT0ZmaU1fQUpzMzhqVEEzYkNYVGJKQzRfRmNJekRCNzNRek8xZEVFMFVsdU1zMjVNLWRtTHZJajZ1aTgyRmVISW5ZMXlpbm1vVmlwMTlxQ2hXOUZnTlRKYmdhQ2ZsUWJtMW4zMW5GbVNTX2ZNZmxoR1Y2bURCZTJUMzRPMWp4TXNOUll4bkRxMVBtREtHem0zUGNIZUFVOGY4UF9oRVEwNnNleGQ4dUpidFpJN21oOW5kZGV6S3dNRmtteWVnb21yOVZSSmdGXzZJVmFEZzBqYVFIMXhlMlJNUTdINTlDelE?oc=5",
     "rank": 37
    }
   ]
@@ -3016,7 +3020,7 @@
  },
  "_apify": {
   "google": "2026-09-26T03:00:27.827613+03:00",
-  "tiktok:tried": "2026-09-26T04:00:30.583615+03:00"
+  "tiktok:tried": "2026-09-26T10:46:46.467546+03:00"
  },
  "google": {
   "date": "26 Sep 2026",
@@ -4576,25 +4580,11 @@
    "confidence": "medium",
    "at": "2026-09-26T03:00:27.827613+03:00"
   },
-  "#NO_MORE": {
-   "english": "#NO_MORE",
-   "summary": "An English-language protest or campaign hashtag being pushed by Arabic-speaking accounts; \"No More\" style tags are typically used to demand an end to a war, a policy or a form of abuse. The specific cause behind this round of posting is not identifiable from the words alone.",
-   "kind": "other",
-   "confidence": "low",
-   "at": "2026-09-26T07:00:23.064051+03:00"
-  },
   "الدفاع الجوي": {
    "english": "Air Defense",
    "summary": "Refers to air defense forces — in Saudi context usually the Royal Saudi Air Defense Forces, a separate branch of the armed forces. It spikes around interceptions of missiles or drones in the region, military parades and recruitment/graduation announcements; which of these is driving it now is unclear.",
    "kind": "news",
    "confidence": "low",
-   "at": "2026-09-26T07:00:23.064051+03:00"
-  },
-  "محمد": {
-   "english": "Muhammad / Mohammed",
-   "summary": "The most common name in the Arab world. Given the religious cluster on the board (Friday, \"upon the Prophet\"), it most likely reflects mass posting of blessings on the Prophet Muhammad, though it can equally trend for a footballer or public figure named Mohammed.",
-   "kind": "religion",
-   "confidence": "medium",
    "at": "2026-09-26T07:00:23.064051+03:00"
   },
   "عبدالله الحمدان": {
@@ -4638,6 +4628,13 @@
    "kind": "religion",
    "confidence": "high",
    "at": "2026-09-26T10:00:26.792241+03:00"
+  },
+  "#شبيه__سهيل_الامير_محمدبن_سلمان": {
+   "english": "#Suhail_the_lookalike_of_Prince_Mohammed_bin_Salman",
+   "summary": "Refers to a man named Suhail who is said to bear a striking resemblance to Crown Prince Mohammed bin Salman, the de facto ruler and prime minister of Saudi Arabia. Celebrity-lookalike clips of this kind circulate regularly on Saudi X and TikTok and get boosted by curiosity, jokes and side-by-side photo comparisons; the specific clip or appearance driving this round is not identifiable from the words alone.",
+   "kind": "social",
+   "confidence": "low",
+   "at": "2026-09-26T10:46:46.467546+03:00"
   }
  }
 }
