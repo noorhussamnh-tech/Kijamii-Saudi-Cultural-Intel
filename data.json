@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Sunday, 27 September 2026 · 16:00 KSA",
+ "lastUpdated": "Sunday, 27 September 2026 · 17:00 KSA",
  "days": {
   "2026-09-14": {
    "label": "Mon 14 Sep",
@@ -2176,8 +2176,8 @@
     },
     {
      "rank": 4,
-     "text": "#المواطن_رجل_الامن_الاول",
-     "cat": "Security",
+     "text": "#رحله_المليون66",
+     "cat": "General",
      "pts": 8
     },
     {
@@ -2194,61 +2194,61 @@
     },
     {
      "rank": 7,
-     "text": "المواطن الواعي",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 8,
-     "text": "الجهات المختصه",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 9,
      "text": "اسبانيا",
      "cat": "General",
      "pts": 6
     },
     {
-     "rank": 10,
+     "rank": 8,
      "text": "سالم",
      "cat": "General",
      "pts": 6
     },
     {
+     "rank": 9,
+     "text": "المواطن الواعي",
+     "cat": "General",
+     "pts": 6
+    },
+    {
+     "rank": 10,
+     "text": "جبل السوده",
+     "cat": "General",
+     "pts": 6
+    },
+    {
      "rank": 11,
-     "text": "حفظ الامن",
-     "cat": "Security",
+     "text": "فيجن مصنع",
+     "cat": "General",
      "pts": 4
     },
     {
      "rank": 12,
-     "text": "جبل السوده",
+     "text": "الجهات المختصه",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 13,
-     "text": "المنتخب السعودي",
-     "cat": "Football",
-     "pts": 4
-    },
-    {
-     "rank": 14,
      "text": "تويتر",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 14,
+     "text": "المنتخب السعودي",
+     "cat": "Football",
+     "pts": 4
+    },
+    {
      "rank": 15,
-     "text": "العمري",
+     "text": "اليوم الاحد",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 16,
-     "text": "يوسف ناصر",
+     "text": "العمري",
      "cat": "General",
      "pts": 4
     },
@@ -2260,19 +2260,19 @@
     },
     {
      "rank": 18,
-     "text": "اليوم الاحد",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 19,
      "text": "فوز المنتخب",
      "cat": "Football",
      "pts": 4
     },
     {
+     "rank": 19,
+     "text": "يوسف ناصر",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 20,
-     "text": "عبدالله الحمدان",
+     "text": "سعود الحوشان",
      "cat": "General",
      "pts": 4
     }
@@ -2291,7 +2291,7 @@
      "score": 76
     },
     {
-     "text": "#المواطن_رجل_الامن_الاول",
+     "text": "#رحله_المليون66",
      "score": 64
     },
     {
@@ -2302,13 +2302,8 @@
    "signals": [
     {
      "icon": "📌",
-     "label": "General (15)",
-     "items": "#السعوديه_عمان · #_بلا_ · العراق · فراس · المواطن الواعي · الجهات المختصه · اسبانيا · سالم · جبل السوده · تويتر"
-    },
-    {
-     "icon": "🌊",
-     "label": "Security (2)",
-     "items": "#المواطن_رجل_الامن_الاول · حفظ الامن"
+     "label": "General (17)",
+     "items": "#السعوديه_عمان · #_بلا_ · #رحله_المليون66 · العراق · فراس · اسبانيا · سالم · المواطن الواعي · جبل السوده · فيجن مصنع"
     },
     {
      "icon": "⚽",
@@ -2575,17 +2570,17 @@
   "قول ثالث": 4,
   "#_بلا_": 12,
   "#تعليق_الدراسه": 10,
-  "#المواطن_رجل_الامن_الاول": 8,
+  "#رحله_المليون66": 8,
   "العراق": 7,
   "المواطن الواعي": 6,
-  "الجهات المختصه": 6,
-  "حفظ الامن": 4,
-  "جبل السوده": 4,
+  "جبل السوده": 6,
+  "فيجن مصنع": 4,
+  "الجهات المختصه": 4,
   "تويتر": 4,
-  "علي النقاب": 4,
   "اليوم الاحد": 4,
+  "علي النقاب": 4,
   "فوز المنتخب": 4,
-  "عبدالله الحمدان": 4
+  "سعود الحوشان": 4
  },
  "news": {
   "date": "27 Sep 2026",
@@ -2618,18 +2613,18 @@
     "rank": 3
    },
    {
-    "headline": "Saudi Arabia warns Gulf security inseparable from global stability amid regional tensions - news.un.org",
-    "summary": "Saudi Arabia warns Gulf security inseparable from global stability amid regional tensions news.un.org",
-    "source": "news.un.org",
+    "headline": "Saudi Arabia warns Gulf security inseparable from global stability amid regional tensions - UN News",
+    "summary": "Saudi Arabia warns Gulf security inseparable from global stability amid regional tensions UN News",
+    "source": "UN News",
     "date": "26 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8zbVlJampWeHBOb1ZwSFV6U3hGblBma0FOc1F6Mk5Dc082N3lMMS1XT0pRUjYyWlMyQUJOODVSbERyQ05KUEU5LXZpdENiVkI4V000azM0dw?oc=5",
     "rank": 4
    },
    {
-    "headline": "Riyadh Suspends In-Person Classes Following Renewed Houthi Attacks on Saudi Arabia - The Media Line",
-    "summary": "Riyadh Suspends In-Person Classes Following Renewed Houthi Attacks on Saudi Arabia The Media Line",
-    "source": "The Media Line",
+    "headline": "Riyadh Suspends In-Person Classes Following Renewed Houthi Attacks on Saudi Arabia - themedialine.org",
+    "summary": "Riyadh Suspends In-Person Classes Following Renewed Houthi Attacks on Saudi Arabia themedialine.org",
+    "source": "themedialine.org",
     "date": "27 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSGk3dTdpZVVlU0VKaDlrNTZxajYxclBIdUM3bkZ1eE42NkZpSzlRbHc1RjdNVFJPeFllX1RYQi0tcVlhQk43ZE9wZlROQ1FQQk1neHAweVVJeXctS195QkdVSGZwbGZ1cnoxenJMaXRZVGhkT0tWLTNyaks4eGJZX2NkZV8tZTVRQ19tRFlOdk9mc01xWDdIckpFM0tYYVQ5SE93MFN5d2NrOV9LMzFiQXFKNUkybFdQc2c?oc=5",
@@ -2645,39 +2640,39 @@
     "rank": 6
    },
    {
-    "headline": "Morocco's king expresses solidarity with Saudi Arabia after Houthi attacks - Anadolu Ajansı",
-    "summary": "Morocco's king expresses solidarity with Saudi Arabia after Houthi attacks Anadolu Ajansı",
-    "source": "Anadolu Ajansı",
+    "headline": "Morocco's king expresses solidarity with Saudi Arabia after Houthi attacks - aa.com.tr",
+    "summary": "Morocco's king expresses solidarity with Saudi Arabia after Houthi attacks aa.com.tr",
+    "source": "aa.com.tr",
     "date": "27 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUTU5aTVMYmpQZmdtSjFXYlZnS3ZJbERSaEdGZlFyQy1Cb29QQ0xFOEQwRlpwWEF2cmFSbVo4SW1HMDNmcDc2YTJVTEV0VFZtdGFqUWZaalNsQnpVSW52eDlpUmRCbGgzVDZqNld2RVBTcFNrc3VyR2J5c1lKaG5fTlRTYjc5blNYYkJIWnBVcjZzMWlUNmFsMEoyNnFGc29CcVlacVJGMEpOOEw1eWFQak40dUY?oc=5",
     "rank": 7
    },
    {
-    "headline": "Saudi Arabia Advances $24 Billion F-35 Deal - aero-news.net",
-    "summary": "Saudi Arabia Advances $24 Billion F-35 Deal aero-news.net",
-    "source": "aero-news.net",
+    "headline": "Saudi Arabia stocks higher at close of trade; Tadawul All Share up 0.78% - Investing.com",
+    "summary": "Saudi Arabia stocks higher at close of trade; Tadawul All Share up 0.78% Investing.com",
+    "source": "Investing.com",
     "date": "27 Sep 2026",
     "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMDVEaWxOZVVjS2dUQllGSXNnQ01CdzhnRUZIVlAtQWd5V2FmQkVtLU9qN3NPa0Mza0dBWmtCcG5OanUyUEtfWTdWbDJ2cnRNMWtpSDAwMWpkWW9MbXRIaVhabnRlYlhhN1c4MG5kM3BWd212Nzc0MUdubmNMMkE0RUlobDNtQTdzcEdVTk9WVEIzN1BzR0NZ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMUEyOUVEUWJtSEFub1dsX1hkN0xLRGYxeGdVZ3Z0ZlF4ZlVEN2pHWTFERlJCck1HY1R4LTZLeDhqQWY2N0ZaanJfOERBYXIzeG1nanBtTzhJeUNfczFDUmdtTXp4NGcwSGhRX1ZHUGJScHFibkFOUU44eVdPbGFfcDdJcTZ5enllUS14dUJOQy11RmwxTUVqWnFOQ2NoRW16UHdaUFQtWFkwNk1lTlBKcEsyTWp4dENna2k0YTZvSjlQN0Zl?oc=5",
     "rank": 8
    },
    {
-    "headline": "Saudi Arabia climbs to 29th in global tourism index - arabnews.jp",
-    "summary": "Saudi Arabia climbs to 29th in global tourism index arabnews.jp",
-    "source": "arabnews.jp",
+    "headline": "Saudi Arabia Advances $24 Billion F-35 Deal - Aero-News Network",
+    "summary": "Saudi Arabia Advances $24 Billion F-35 Deal Aero-News Network",
+    "source": "Aero-News Network",
     "date": "27 Sep 2026",
-    "tag": "tourism",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSjBYRVJtb0N2ZkFESTVWbjVNM0FMdUg1azczQXhWandtMEhBYjdzRnlQazZtRjA4NFhpd00xRUZJSU91ek9WRWY2N3ByalRCb1hzaHVqN3hQakZDM2VYR09mUlQyLU9GQlNqSHg4SjlsVm1zWlNCVmlCQmtmUENkeERjQTJ5b1BEcXpGd1pRc0k1clotRHAtc0RQNA?oc=5",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMDVEaWxOZVVjS2dUQllGSXNnQ01CdzhnRUZIVlAtQWd5V2FmQkVtLU9qN3NPa0Mza0dBWmtCcG5OanUyUEtfWTdWbDJ2cnRNMWtpSDAwMWpkWW9MbXRIaVhabnRlYlhhN1c4MG5kM3BWd212Nzc0MUdubmNMMkE0RUlobDNtQTdzcEdVTk9WVEIzN1BzR0NZ?oc=5",
     "rank": 9
    },
    {
-    "headline": "Saudi Capital Schools Shift Online Amid Houthi Escalation - kurdistan24.net",
-    "summary": "Saudi Capital Schools Shift Online Amid Houthi Escalation kurdistan24.net",
-    "source": "kurdistan24.net",
+    "headline": "Why the global economy depends on Saudi Arabia - DW.com",
+    "summary": "Why the global economy depends on Saudi Arabia DW.com",
+    "source": "DW.com",
     "date": "27 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ3JjVDJhczZUZnpaTUlzSkhNenYwd21wb2xteTY2ZFozTi05R3pFazdjN3FSTjktMXVYT0wtMlpBSWpmYWZ1R0R2cERXcnV1MGlvakYwenN3dHBRYVBfVVZCamF6NThSUTFTVEJyZzVZQm9scTV6RmZXR0N0SDMxVE8zUnBCM0w1N1Z0SzFMRnUtX2lmdGw1cEF2YUl6S1dWczZZ?oc=5",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcDFXQXlqVEFLZXB6VUR6MHNVaHB1TnJoRDFVeVQ4cVZleEhvRFNINUVHSFlHdTBvTFdCVTE3bnRkN0FVNEpNX2pabkk1eTE1bTQ4eWRpTVU5bU1rR3IxVjFROVdfRGtJN1VTMHlYQmpzOTZEQ0RRU3F1eVBndlpJdm5PRDI3Ti0tNnRV?oc=5",
     "rank": 10
    },
    {
@@ -2708,22 +2703,13 @@
     "rank": 13
    },
    {
-    "headline": "تقييم استخباراتي أميركي يثير قلقًا بشأن نوايا السعودية النووية.. ماذا كشفت الوثائق السرية؟ - arabic.euronews.com",
-    "summary": "تقييم استخباراتي أميركي يثير قلقًا بشأن نوايا السعودية النووية.. ماذا كشفت الوثائق السرية؟ arabic.euronews.com",
-    "source": "arabic.euronews.com",
+    "headline": "تقييم استخباراتي أميركي يثير قلقًا بشأن نوايا السعودية النووية.. ماذا كشفت الوثائق السرية؟ - Euronews.com",
+    "summary": "تقييم استخباراتي أميركي يثير قلقًا بشأن نوايا السعودية النووية.. ماذا كشفت الوثائق السرية؟ Euronews.com",
+    "source": "Euronews.com",
     "date": "26 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRzgzUlFhRnZJcVRyT3gyN1RDS3p5dFk2VnlUQ0NZV2JfWWNyc3huVWxmWHlyOFpvOUNuVnVNalNnN1oyY2J5SEIwWjFfRmJTMVJnd25STTRhTV96T2tNQW9WRjVHT2hGVExoY0JVMFlRb1RfVHhPZlEyMmZ1UUw4S2RHb2RuYlFxa3JvcTU4elg2bC1YN19SeVhUb0tZWmVXQWlKM2w4UkpkOXhnMTQ5OTVOQ2Z1MWdMRzc5bnNwMEU?oc=5",
     "rank": 14
-   },
-   {
-    "headline": "التحالف يعترض صواريخ ومسيّرات حوثية على الرياض وجنوب السعودية - الجزيرة نت",
-    "summary": "التحالف يعترض صواريخ ومسيّرات حوثية على الرياض وجنوب السعودية الجزيرة نت",
-    "source": "الجزيرة نت",
-    "date": "26 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPemV1RzBBQkZDX3lnZUFMeEZUbEJOTGdkaFZEbk5yRzA5WkY2WU1SdVpzYmFfWDdKWlJSN2N4QXRBa0pkXzRtWk9aRHFfYzdSRlVMZFN4Q2VVRkRCZDh6SVRxa2F1Y3JXRWVlQzF0Z0N3Wk1RWEc1RU5GSW5sV2UxbEZvdllaejV3UDhNNU1wRXVfV2RicUxaeFRPNzhIVWM1Y2NyTUF6NVE0VHNqOWRKOHJLZ2R3b2MxQlFvSGU0bjhtcEVSLTB0RnFzY0NrTWFvWlpEOWg4NjFWMTBsMmRNUWt2MFhUVU1WbUtKZzdJOHdlVG1JX1lfMldjb19Fby13UzNTUVI3a0pITktFQk5yQ0RBMUNpZ0ZsNXBZRVQzMW7SAaYCQVVfeXFMUGNha2NGZHJEQUVZU3V6RGxLSzhKeHdvY2pNVVY1eC1uN0s1ZHg5ZHg2UWl5eC02Y3hFcU03blRiNE5mTjVPTkcxRnhNaGktLXRqZTY2aV9DNzhiWFRFb2o5bDlvT1o2RWRRQWVhemcxR1RITzlBMjdrYkIxNkk3dkJoNGxJN1lyYy1GeUNhemVXM2FMLTdkd3R3MndpRy1YOGEyTmd2UkxSell1NVByT2tkUFhlTWpDekhvMkFQWER5YlVzRWxMa3kxenQwSFQwUzBPNE54ZEpQSkdtQ3k3enBXQUFOcV9CX2sxYXBOamZVWVFNMTB2eDRKTnRyOVdJOVFLd1pqbmNxSWJQY1owV0QzTkVldTQxdkNZdk9aZEtobVg1bmNB?oc=5",
-    "rank": 15
    },
    {
     "headline": "الملك: استهداف السعودية اعتداء على مشاعر أكثر من مليار مسلم - Hespress",
@@ -2732,6 +2718,15 @@
     "date": "26 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQZl85LUJpN0hoV0E3U21PZ091SG9QcU1QTFo4NW1CSEt5RldsVmlkVWR6bjdnbi0wcW9ZbVBsaDRyUEFKeTg1UGZTWGY5NlpXaWQ2Q19XVFlBbXozYzRzcTNiNV9TXzRqRkZNcmxYekVtYlFFbE9LUVNyRUtiUUFrU2t4UDVMakRwZE9kMmZfcWM1clVReTUxUWtOd1AwSzVNbmlyZUU3UWd4cUc1WG1pdTMwS0haeGhYQ0x1cVE2R0k2MXh1YlRoWFBKRmhSVkNJREdQWEJQYVM3OWxkZUs2TUdKbnBIa3BDQzlBX2UxYm1zWG04UEdLejQzYlRScWJab29mY2o3djI5T0xNRnI3TXRPTVB0Uzg3VS1Lcm9DakFEN1owTFJHMFozM3RGV2JoUDQ2alBkTVNDZGVmSDEzc21oUnU0UXNQQmx3TExVRnNJTXdKaEE?oc=5",
+    "rank": 15
+   },
+   {
+    "headline": "التحالف يعترض صواريخ ومسيّرات حوثية على الرياض وجنوب السعودية - aljazeera.net",
+    "summary": "التحالف يعترض صواريخ ومسيّرات حوثية على الرياض وجنوب السعودية aljazeera.net",
+    "source": "aljazeera.net",
+    "date": "26 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPemV1RzBBQkZDX3lnZUFMeEZUbEJOTGdkaFZEbk5yRzA5WkY2WU1SdVpzYmFfWDdKWlJSN2N4QXRBa0pkXzRtWk9aRHFfYzdSRlVMZFN4Q2VVRkRCZDh6SVRxa2F1Y3JXRWVlQzF0Z0N3Wk1RWEc1RU5GSW5sV2UxbEZvdllaejV3UDhNNU1wRXVfV2RicUxaeFRPNzhIVWM1Y2NyTUF6NVE0VHNqOWRKOHJLZ2R3b2MxQlFvSGU0bjhtcEVSLTB0RnFzY0NrTWFvWlpEOWg4NjFWMTBsMmRNUWt2MFhUVU1WbUtKZzdJOHdlVG1JX1lfMldjb19Fby13UzNTUVI3a0pITktFQk5yQ0RBMUNpZ0ZsNXBZRVQzMW7SAaYCQVVfeXFMUGNha2NGZHJEQUVZU3V6RGxLSzhKeHdvY2pNVVY1eC1uN0s1ZHg5ZHg2UWl5eC02Y3hFcU03blRiNE5mTjVPTkcxRnhNaGktLXRqZTY2aV9DNzhiWFRFb2o5bDlvT1o2RWRRQWVhemcxR1RITzlBMjdrYkIxNkk3dkJoNGxJN1lyYy1GeUNhemVXM2FMLTdkd3R3MndpRy1YOGEyTmd2UkxSell1NVByT2tkUFhlTWpDekhvMkFQWER5YlVzRWxMa3kxenQwSFQwUzBPNE54ZEpQSkdtQ3k3enBXQUFOcV9CX2sxYXBOamZVWVFNMTB2eDRKTnRyOVdJOVFLd1pqbmNxSWJQY1owV0QzTkVldTQxdkNZdk9aZEtobVg1bmNB?oc=5",
     "rank": 16
    },
    {
@@ -2762,9 +2757,9 @@
     "rank": 19
    },
    {
-    "headline": "الحوثيون: هاجمنا الرياض ومنشآت تابعة لأرامكو في ينبع - reuters.com",
-    "summary": "الحوثيون: هاجمنا الرياض ومنشآت تابعة لأرامكو في ينبع reuters.com",
-    "source": "reuters.com",
+    "headline": "الحوثيون: هاجمنا الرياض ومنشآت تابعة لأرامكو في ينبع - Reuters",
+    "summary": "الحوثيون: هاجمنا الرياض ومنشآت تابعة لأرامكو في ينبع Reuters",
+    "source": "Reuters",
     "date": "24 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BVWdFd2FUdHJrUnZkR0dFd1JsQ1oxQVZqUDVVaDlBOG1jODFUOUJodGVscjZJUkhlTVhxT3VGdy1jTUI2anZmZkd0UE53MWpIbUFHaG9zZnV1UFFfT2hZTUh3dVkxTllKODcza1R2anJYdHl5Wm5SaUdJaWZYTlU?oc=5",
@@ -2782,12 +2777,12 @@
     "rank": 21
    },
    {
-    "headline": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
-    "summary": "Live Updates: Latest from Israel, Iran, and the Middle East The Jerusalem Post",
-    "source": "The Jerusalem Post",
+    "headline": "Saudi FM warns the world to take Gulf security seriously - アラブニュース",
+    "summary": "Saudi FM warns the world to take Gulf security seriously アラブニュース",
+    "source": "アラブニュース",
     "date": "27 Sep 2026",
     "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82S1NiVGlfWDJLZHFrUnFpbExONXhPaWxpOVRDa1haTUtrbjBMVW9mSXRFR19XZTM0REhGUkVEekxYdE1kdjM4RlNoWkxoYUk0RFFLQm9IbWQtYWpNM19ia2liWEN4RmNWRnI3Z2hSQjYyNDVxZTdud1h6QVF2Z2s?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSzBUM2RmclNPUi01WFdaeEQwMlJVWjUtNnpuRl9abG5EOEJyUlZManY2VHI1S2NraTllel85ZUdpS2lZeEJGemlIb2ptbWh2Mk12ZFdOLWZlMmw5SUZ0aEVCdFZvZWxUeWZudXQ0cDdpcGg5TWJielpPRy1LZEVyRHlTNk5zQ1lQN25RT0phd0E3Zm1HUHM5eE9HMEJrb1hlUzJ6VkpkMA?oc=5",
     "rank": 22
    },
    {
@@ -2800,12 +2795,12 @@
     "rank": 23
    },
    {
-    "headline": "Saudi FM warns the world to take Gulf security seriously - arabnews.jp",
-    "summary": "Saudi FM warns the world to take Gulf security seriously arabnews.jp",
-    "source": "arabnews.jp",
-    "date": "27 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSzBUM2RmclNPUi01WFdaeEQwMlJVWjUtNnpuRl9abG5EOEJyUlZManY2VHI1S2NraTllel85ZUdpS2lZeEJGemlIb2ptbWh2Mk12ZFdOLWZlMmw5SUZ0aEVCdFZvZWxUeWZudXQ0cDdpcGg5TWJielpPRy1LZEVyRHlTNk5zQ1lQN25RT0phd0E3Zm1HUHM5eE9HMEJrb1hlUzJ6VkpkMA?oc=5",
+    "headline": "Trump rejects Iranian peace proposal, WSJ reports - reuters.com",
+    "summary": "Trump rejects Iranian peace proposal, WSJ reports reuters.com",
+    "source": "reuters.com",
+    "date": "26 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSktoVFV5TmFoZFFlNGJOdHNQbl9ZNWVfOFVvRTN2UXpLMlBhSnZ6ZVZLdFNlRU5CR3RjaHYxWDJRclcyb1lrVzh1WG83MWtmcjRyVnpRdTZIcTdtY01WRlFaVXZ5aWFBSXgzdk9LdzZNdmlQWHJlUmJuci1TSFI1bWRtYXJwYWdEYjBVMHJlVnpYbndpR1lQbllKNkphM0t1SmhXaXNYQmVncDFVOHFJ?oc=5",
     "rank": 24
    },
    {
@@ -2836,13 +2831,22 @@
     "rank": 27
    },
    {
+    "headline": "أمير الشرقية ينقل تعازي القيادة السعودية في وفاة أحمد بن راشد - الشرق الأوسط",
+    "summary": "أمير الشرقية ينقل تعازي القيادة السعودية في وفاة أحمد بن راشد الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "27 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi-gRBVV95cUxObTdsbElfdTlCZXpQdHVnY2gza3ZRa05TTE5oV0dEdTM3MHBjRGlwaHVfcXVJZjhpYWpEQnltaVVmWFdESk1KSnZ2YnZOMzB2Z2JzTzcxMUhlQ0ZPR2I2REhtMzhsV1RmZWJ3Rm0wSXlSSkx3dHFhcVBPZWQxRjRTN2Zmd3B4eG1qWlZYNDhna3NoY2k3cDlHbGJwaWdpSjBHV2l1TENUZk9rOFRLc2RENjNQWUNRU0RHWDJ1alllcG5pZEtLLTZlbjJMejR6S2poRDFmWndITm8tMUtmRUctd3pDWTluS1RjMW9vOUp2TFplWjBvN0NBWVJ3RHFTbHFsTkFPSFBSWU9Na1ZzS3N4UTV5ODZ0azVPbFNITVE0YkFfalVxN0E3UGstU1F6d3lXV3JiMmpxMkJoQXJUalhXTVBaUFVKX1JxMmdoZ0FPNnJaMFBmVFZ2dFhBM3hkb09jb0ZmRTFPOXNveE53VE9TUllaMDZZajdKSklrUmNTSzh6UHIwbzRDeW1UdHJNUHdFZmRycDBQencwUTVKRnMyMFFqSGRFdHU3QWQyRjZXcnpzVElMYm85VFBTelpRTDJxdGUwVmROOGdvMldhV1ZaTVNpa0luV1Y3SnVYcVhLbzFLOHZOM2tJRTZTMVZ0MmdqMEtEYzgtc2MwSVRZSWtYcWg5TzB3TnB5SXN4WFJOQm80dkpwcXFfVjI3Tk9mMkFJWmtsaTZYZE01ckFyRkQxWTdoZURaMVgyTHlRbEVRMmxuWENZNDZIZTI5Y3ppWkF3Qm9RRUJic0dMZWtmRTRYNDFsQzBST1h1b1hnUWRWcnY0djJZWlhHeDN3?oc=5",
+    "rank": 28
+   },
+   {
     "headline": "التحالف: تدمير مسيّرتين باتجاه منطقة الرياض وباليستيين نحو خميس مشيط - الشرق الأوسط",
     "summary": "التحالف: تدمير مسيّرتين باتجاه منطقة الرياض وباليستيين نحو خميس مشيط الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "27 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMisAVBVV95cUxOS3VjOGhmM2xrRmVidjc1Z3YxQjIyd0ZuV0V5dko3b1NfdHZpdnItcnQ3ZFE0b0xFX2FoQ2NkT1hFVUFIbGZDWnZGVTVkUnhHVE4xM29JWmViTzcxckNmUi1RZ3RsMTVNb0l5SThGem5VcnZEUmFuZk1HWEh4QlZLQTFYWFI1SzdvUFozd25GQnBIcUZFQ1ZPU05YUGEwak1aVHBCYWRBQzdsZ3VaYkJUTHNnNm52eGE3cGhvbzR2WGhBZkM3Y3Zkb0ozNmJkMkFYVllfMk5DUVNzdm8yMXF1VXJvU3hRTWw2eVFobTcycUhtM0ZHWnR4a0czTXhmX3duUGxKZ1N3dXl5TVBxZy1NMWhKdGFLRkN2NzhiUkRxaFlFSHBYSWY4WHllQzlFNXBZc2lMcUR5QmZLWXhKQVY1SDhRN2d4WmRpajBpQWNOVlZFUmNNMjdCNWYzdUxfWkt1cXpOWnF3MGVlck5NZWs3M3l5cFJWZEVQaTVROFUtQmY4ZS1ULTV0SkNkWFVJVXpOczlVcTNNTnROWkxTT1c5SGN2YW1KZjhpNklDeXdNbWVOcERCek5PZHljamhEU2ZHWEtWSmotc2V5VjZkbE4tblplVEtNWWEzZkdQSmVsWXBHZDdOMWg2VjRaMWdLNkpQbmxfbWhOTjdpc3NRNVVqS3RCaHNLRjNJZko2c09ldmNjcmVhUGI3YTJfYlE2NS1NNGI4VGhTMU1ZZllkeWdXRUFjYjR2cWtWWlZEdkd1Mk5pWXhIVTZQZG13b1VON2l2cmVrNmhNRFF1cmdUclFDbm51S0lXQUZxNF94eUllUGtwQ1lGSDN5aURfWE1BbHNkUjI4NllUWkJ2QmRrenlNZFZfSkdPNU5ibFkyaWlSZUNLak1TYy12N2w0ZllSVGo1?oc=5",
-    "rank": 28
+    "rank": 29
    },
    {
     "headline": "من «الغزال» إلى «سير» - الشرق الأوسط",
@@ -2851,7 +2855,7 @@
     "date": "27 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMVVaVk5MR0ROd0NoYzd0WmRoYXNIc1hZeFlMMXZJUUFxNzNkLU1yT3k4STNnanhKU2ZZeHZiMjNCNUo3dFlQTk1oNkZHdXVWOHhYTWdmZ3NyazMtdDRQN2dMb1pvbFNjU2FSOER3Q2ZQWF9uMUU3c0w1OGpaTjBHWTVIdVJoMG9uVnlISjY4YjFuODVuWlBkMEpDam1naTU4RnoyY09MelFTSEk3R2t3UUNnWXBKZWN1WXpUeE1va2ZLaGRwMU15dGVqUXBsSGFHRktBQWtleFhEbENoWnc?oc=5",
-    "rank": 29
+    "rank": 30
    },
    {
     "headline": "السعودية تؤكد أمام الأمم المتحدة أهمية ضمان حماية حرية الملاحة - الشرق الأوسط",
@@ -2860,7 +2864,7 @@
     "date": "26 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiiAVBVV95cUxNaHNfWl9QQlVteVRhcnRrVmQ1N2ZNM2JMbUVDLUdMM0Uzc19zR21JdVNDWERCYk1UUndsdjdTZTc3T0lVR2tObTFBc3lWV0NUUGpiRzdvUGotWm5zX1pEZ2gwUlVyUUZMdHZ2Tm5tT00xOFZmcGdJSm51QVNUbXdQWnQ0M29WR0dkdDZTaU1yZHJQWG5KWFYxVjRCRXJVdjJ0Z2hOZVY1S2syQWVWNXJ2ZjN6bmExaGFDQ1Bjc1AzeDU0blpPeFVnX3pJclZuNWdOQ3RnVlVNSDFVN0xlcTA3YU1JY0FIUXNKSGxjNUZxRkdCZWt3U3dCY2hNTE5qWC1KbklyZi1Nd190OVhQTU84TmozV2s0OGVhaDMtUUZPWjRJZG5ocklEQ3FIbGR0LWlOSlFEQThjNmpoZEhhQ29LQnZWYXRKUEdyRDQyY0hkUXZEdElEQ3Z0LUdRdnhUbDZRYzlCSlh4Y0t5ajFqallNSDBXckw3djNjNndyZG90ek1XMlhKSDh5TDhuOFhGRjZncmxpNEY0LWRJcXFtN0JiTkM1Z3J0YzZIUWdmT09TWF92RUFtZGdvODB6clREYWtyV3NsS3ZGSGZUbFBLclpkX3Bfa3BNdDlwZHdIMTQ0a2pJVWNyVjR0UWFzeEFNMU1qS0Z1bDRKUHJsM21RTUJMWGlROEN5Q0I3NmFfdHFHc2sxb1VWanBtRDNZOHpNOU0yN3VlamtSdE9QeWp4WnlJM2UyMDZoeDBPQWRsaVZYTVBQV2VaVFZBU0xDemIyRmZFOWIzOUE5bTRWZ2d1RDF5aE52U2NOVi1kV3hXVnZVX1ZWSVkwVUFhMlAxZmRRWU1LYV9MWkFrR2w?oc=5",
-    "rank": 30
+    "rank": 31
    },
    {
     "headline": "قراءة في مجلس الملك - الشرق الأوسط",
@@ -2869,7 +2873,25 @@
     "date": "27 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUTNKUEJMTGdoNjRKTldseGRCd0FZdWNyckk0Q2ZTYlk0TVgwSEF6YlYtVnZKSFpuM25RdWhmbkx2MGw1eWdTRDBkTUNSeTZSSlRMbGYzcFYyWUxYYUM5Q0VWZFhGTDBqa01iYVQ3SWZvTEprbGp3VGkyNjNlSmgxWkV5R001WmpkZ0JfTnpMakJoMUI3X0VtZjd1NkczWXlFR3F6YjBibHdZellFNGFyWl9aSTlXRkM2Yk5JY3pXSFhiZTM0SGJCSDEwNUtVZUpITVVyTGR6Q29FMWtVck1nR09vZGp4S0Uwc3hFSFNB?oc=5",
-    "rank": 31
+    "rank": 32
+   },
+   {
+    "headline": "رؤساء أركان دول «اتفاقية مكة» يستعرضون الوضع الأمني والتهديدات - الشرق الأوسط",
+    "summary": "رؤساء أركان دول «اتفاقية مكة» يستعرضون الوضع الأمني والتهديدات الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "27 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxNN09ZblVib1NYRjJueHlodUtJd25oQnJaR3R3Q1ZBV3VBYVhkd0R5eWhtZnM1VEkwRnVEcmtYYy1FcjljNW9SRTNYb0dZbklQaDdzVHVxSGtVOFc2TVZPb1pyckh5N2d5SVFEbTRZRUstLUdXd1BKUEpORVg3Z28welJyOHE1eHNxS2FRZ3NaOXcyb0ttR3NoaDZtZ0JXZk1EbUNHRHBSQ1owOFlJZUlPaHZjLW5TUkJSQjRnNVdrb0x0S3VQSW5FQnpFeGdyRkhjX3huQjRlV2pVX0RnaTVzRTIwQmN6NmR6Yk5pU0NMUkZZcXQtWWpKMFVydVR0bWdybVlkYUJPTDJ1RjV0X29UaXVrSkdkaDVjYkVnN05odEJQRkU2c0RqS3N3eXdvaFlBLURNcGtWMDk2OHdCYXEyQkdJUElDMG5kUlhaWVBrR1pRcEhwVVNkYWRVektnNFI0ZVpZME14RWdVX09fSW5SQ205bU1MRzNZSUhGZU5QTTJhanFSVnlLcGpDYXAxQWFfNm1jT2lZN3lwbGRKd3RKaHJiUm9vRkZhQzA4bGZ4amdPU25GcXZrQkdsWHhreFRRSFdwbWtYT2VZR2pPY3VIZTV1MmYxcUpFcHpiNE5tX29IdmM2NFBlamc1OXlzOGJ3S0tXaG9DUjBTWlVhRHg1WXIxalFvdnBPQTBQemVWajJtdC1nYzQ4eGl1WkRqMndXUV9XS0FUSmdUREhDRGh3WWZPQ19QV2R3bm05TFRnTE5yRjZnQzFWYUNCbUc4TG1RV1J5dTdiNTBZeWIxZGh2bGVaLTB2bTBZMkRPRFFRejgtVXhHeXA2Ul91azhBV28?oc=5",
+    "rank": 33
+   },
+   {
+    "headline": "السعودية تدعم برامج الأمم المتحدة لمكافحة الإرهاب بـ 6 ملايين دولار - الشرق الأوسط",
+    "summary": "السعودية تدعم برامج الأمم المتحدة لمكافحة الإرهاب بـ 6 ملايين دولار الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "27 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiowVBVV95cUxOWXcwVVNhdzEwdkxpcEU5SzNYUlB0R05xa1VSTWhXalk3eFRlX2RGcTBjcjZ2Zm9XSC1VM1NXVi11aHA2NVl3a3FMYWNveE00OEc2LWdGXzFENW91VFduZkd0NFhJVGg0N3Z4bWRJWGx5ZGRSeWFPV2hvQm5RSWZ1UEwxd25KRjRkRlR4SUtQb1VxbXV0ZHJCa1Z1TWVtNk5qZENxOU8wV0U1dzZCMlpWcjBFakhIRFJGV3VZWUJ1N2VWNk9wOUtUa0Q5TE9JY1psU3ZITFJaeUhvQXRNQnFKb0YtcFJwamNES3FuMl9oTzdKaWNWVEdmZmJoZFZuc1NYSk5aQnZsNk1GZ3Q3YXg2X1RpOW5idktjTjA4UHNkWHJacUR1cl9UXzgzMVV1V1FZTkw0YjZpeHJvM1BYTXhVeTljTnNkejBfbDE2NkRLaHpDQkJhc1FKMzNodGdvcENuMlZEcEdDZ0daQWRYNW9vbW9rSllNY2xvYVdBRUo4R2VFTjlYSEVlYmVUWW5yWi1IYUZMYU9LdlA3bTE1cDhLYXVzbmJpOGZGTEJzMXlLbHhocE92VEdvNUFERjFvUDdTdEw0dThBOVZHUXhzZDk5YkFqMEhwT3R6QS1kNGZSdDNjMHl3QWlDR2JPamNKdVgtS1I1SXBvM0JNckVTb0ozdmswVlJsSXB4ekpLb2lfWGl0TnlGeWFSNXJCYm1MUTJMSXZEOTZCM29JV0pkT2hWdXp6WGcyOWFvWVpZLTZ5SHpRdWtpMlMtRUtnMTBhUDN4TW5Pd1VCMTNMWVg2XzViUUktWE9RVVduVjFUSVVNMWRYLXY5SlY4bjNJcm8tUnYyX2lGeG4xYnhGYm1pdjg4MHNNdFY4OXJyTGdKRzJ0bUxEUk0?oc=5",
+    "rank": 34
    },
    {
     "headline": "من حديث التاريخ بين صنعاء والرياض - الشرق الأوسط",
@@ -2878,33 +2900,6 @@
     "date": "27 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOTk5YSlNOVkV5R21YVW9fa1pXVGFBZlRJQ29XdXN3dzc3dWk5bkYtdlBVT1RRUlYzaS16bEVGUkVzVWwydjFxYWFGQTRyVHlpMFd2bF9JVUgtZ2ZJa1dBLXdETlFrUTNxU3k0Mmt4YkRmMldMaHk2T0pDYkJ3bEU4NHFHUW5YV0hUYWduT2ZnQW9zUmc0dVY4SjdZbFRBdFlwRl9TRjBqYk5XeDk2bzhORXVMMWcyeEU4QlRib3lmcFhHUXlXazVuNGFyRDBkYzNLN3p5ZmNXUHNoZUY4dFdDMFFHWHFBNVVyb3VDbjBRWWpQUjE2MnFnTTlSMkhZb0ZRN1hPcFZod3hWNzRDOGNRalZCZi1BdUlkQVNZZktFUjlXazZEbXd2S25SYnNGSWlKcWJURHhpeGtuaVBLaVlKY0NHcHFtSkVvU3gxdGJ4YWg?oc=5",
-    "rank": 32
-   },
-   {
-    "headline": "مدير ملعب الفيصل لـ«الشرق الأوسط»: معايير العشب «عالمية» - الشرق الأوسط",
-    "summary": "مدير ملعب الفيصل لـ«الشرق الأوسط»: معايير العشب «عالمية» الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "27 Sep 2026",
-    "tag": "sports",
-    "url": "https://news.google.com/rss/articles/CBMivgRBVV95cUxPa0ZJYlJMTDBMYzBzOTBJcWdTYzQ5TEc2WDlfbmZFekx6bUhPRWl2OUpGaUtJNXN3VjZuTFNlWXNGUnoxczA4Y2lvelNmZXdYYlZzOVlvMmJ0VnhhN1dBR3hmZWZWamtoT2EwMmhRMUE5bUFVN3k1Snk4ODZzbnZiSXJMd0JSMEpob0tRZjZwaEFhUWtnZmVxa3ZnLUIzS0RnZE1FaUJkUzRyRzJFeko5c1g1OGh0Zm9nQ0pLNXljVlJ5eklyWmpXeGNBa1RuNVQyeExfV1ZwSUp0RExCWjluZHI4RmhPMGFUXzJqZmhvZzQ0NUZrOUZIN1FhbHJfZnptcDl1cGsxeHJBRk1iZ1l0aERubTRCTGFDd2ZlMHJybmZLdTg4VllyVFIwLVdob3ZsY01xWFpMT1J1STdWS2dvanUtTS1hYkNQb2VIX0pNMXhNd2JsZWtUVkF0TUVGdU9HdDN0SUdWaWwyUk9iOVlYM1RRU0RCM29hVVhYd09nZDhMbUlrNGczSEpHZ1JrMUZRaF9GMk1IUDdJSk9SQllOSVpUZVBqTFRfLVhOX0tHVk1INlJMa1ZaY2MxYnJUek9mdjU1UmZKa2ZfV0l4bS1kOVlMbGpoU3k0R3o5b0lTSm85LUFpY1VKaU16TndRRmxmcXdjZGtZUGpBX1QxZ0VVNnNNY3M2VHlWb3lMd1NsbWFqeDFrRklCaHVHdjhjR3pTazNuV1BEWWpyakNrQktUb2ZLaEs4TnZmellwTG9R?oc=5",
-    "rank": 33
-   },
-   {
-    "headline": "والد الحمدان لـ«الشرق الأوسط»: ابني يتعرض لتصفية حسابات - الشرق الأوسط",
-    "summary": "والد الحمدان لـ«الشرق الأوسط»: ابني يتعرض لتصفية حسابات الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "27 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMixgRBVV95cUxQWEZLZ3Q3YUxKbk54dEJsTV96a2d3ZDNNNGJPeWs5TEpsd01YS1hZUzBtT2EtRlZ0a1Z6R2J6UlRqMnpnRTJlbGZfNEFvWUpOcTU4UWRoTWFEN0NkQlhuU1FYdFkySm51VHRTdmFTcjd1NG5IOFJXOUNVbFpFd1h0YkNQVC15U3pfVEllQWdaZmFrSlctNXBCS2ljZG5QTVQ5X0Z1WUstUjdPWG9LUFNvd2s2cmo1V2tfV2FBQmVjSVFNLTBZeW1SZkMyY1BCZFB0dmJwY1FBaGpzeVpMT2lOUTRJVUpvcEtmeVJ5a0E2aU1EZ2hqYjVSUlZIeDlmNFl6RGw4WUpWQlIyN3FDQkJCMXV1Uk5aVEV4OHhETUNkMWFoaFRrMklIc0MwWFgyb3c4eDZydVNSOWhNaVNpbE9KZ3RjT05TNmNWQktZRkUzZXJQNC1hRzVjS0Y3S1NmRnpUN1pHX3NTVkZBZ0VSWVpkZHN4bFQtem1EVmdkZHJTNWRhdVJQWWpqLUJGRE1JWjJ6X0tidEw3Q0ViektOZURqd2RUb0FOQ0VQWGZiWnJEMGJUekk3c2x5UEpFQVA4WDBNdFFveXhmMjFFSnlJYU9fdTdJVHdmamNJUjV6T195UVNuVGJJcjA5aGpVU0NvaEtyWW8ybUhudV9zVklVTnZDMjZ3SnFMdlAxdm04Nnd0U1lpVUkzX2RPRk9vWGpURGpNNU9KWnFHWGltUTN5Z0JDLUdZTnBfTlJYeWQxYXRXcVc4TXBDR3c?oc=5",
-    "rank": 34
-   },
-   {
-    "headline": "وزراء خارجية دول «اتفاقية مكة» يبحثون ترتيبات اجتماع عاجل لرؤساء الأركان - الشرق الأوسط",
-    "summary": "وزراء خارجية دول «اتفاقية مكة» يبحثون ترتيبات اجتماع عاجل لرؤساء الأركان الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "26 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiwgVBVV95cUxOWHFOZFh5Y3dUT0htbGpRVW1Rby1FNVU0c3h1VWhleDJpRW51blhBVWw5RVZZWnUtNGE5aUF5Nlg4WHNiYzF2cWVSSWN4ajJkWl9pS25jRlpRdHBmb2kxX2lXTjRZTDk4T2stQlJrZkRDNGtJTzFBZ3pfaVdkTkZZNXZ4LTFpeUJBcDB1VDg1X3JySkZmS2l4Q1FfeGhZQWV1U0xWUzhQT3BuTFFPYXFLX0doYVhuNGRxLXhlSzJHT2FZTG90U29VWkR3ZktjZUpidmRUdDd6OVgwQ2lZa0d6RnVpSE5DdUhoRXdqcy1JZUtGc3pzNDhtT09BNU9hWXF1WDVoaEUzTW5JcTFuUDUtZWNWSGRaNWR0dFJScEhuRGZpOGZYdTZWREw2SXJmaFp4OU14aDFMSl9ZbFR5MHFuNm9abHFCY3pzY2t3cnBEZGNlenVRTWdSZFRKVnlJZzVOREViRERqUzVRRE9qcjIxSC1iQjhNVVA5djlCVWdQc0hwN1NlMlNGNFpTc2FZQW1Ub3gxVWc2VEh4eDhPbXZKOUlmc3ZZMHZmWXlZdkFaM3V3U0JNTlJiOUt1dGxITEl4VHNlQ1hDdDJjUXlXaUdkcmdYVmk1UW9oT0xQbkVjNEdGVWtxRXdxeGtJZWFfd1IxdFNZdG5Yb0pkQTlUZm9WcnIyY25MOUplUUpuUEZ4S3RPSW0xMjNGR2FuLThqZzRfVUFyVXEtbDVZRHloRmhKZFBkVmJKTnFYV0IyUEwxNkJzM0FaNE5kdnBBQUdvWml3V284SUZpSDZ4WWVrUGptU05xSGV3MWQ0UlRtVW5jUVVvOTJlWEJJQVZKUnp0TTBYd2hoUllYTVZsbTNqal9ZZl9vdUthR2lXa2czTklRUXBOUm85QWtIZUFRcjRYcVBrb0tId3gyckc3U1FaOGtIMjJn?oc=5",
     "rank": 35
    }
   ]
@@ -4715,13 +4710,6 @@
    "confidence": "low",
    "at": "2026-09-27T15:00:27.831443+03:00"
   },
-  "#المواطن_رجل_الامن_الاول": {
-   "english": "#The_Citizen_Is_The_First_Security_Officer",
-   "summary": "A Saudi public-safety awareness slogan promoting the idea that ordinary citizens are the first line of defence and should report suspicious activity to the police. Hashtags like this are typically pushed by the Ministry of Interior, General Directorate of Public Security or regional police accounts, often alongside the 911/999 reporting numbers.",
-   "kind": "social",
-   "confidence": "medium",
-   "at": "2026-09-27T15:00:27.831443+03:00"
-  },
   "العراق": {
    "english": "Iraq",
    "summary": "Iraq, the neighbouring Arab country. Given that the same board carries \"the Saudi national team\", \"Saudi-Oman\" and \"the team's win\", Iraq is most likely trending as a football opponent or fellow competitor in a regional/qualifying tournament, though political and regional news about Iraq also trends regularly in Saudi Arabia.",
@@ -4733,13 +4721,6 @@
    "english": "The aware citizen",
    "summary": "A stock phrase from Saudi security and civic-awareness messaging, describing the vigilant citizen who notices and reports anything unusual. It is trending alongside \"#The_Citizen_Is_The_First_Security_Officer\" and \"preserving security\", so all three are almost certainly part of one coordinated awareness campaign or official statement.",
    "kind": "social",
-   "confidence": "medium",
-   "at": "2026-09-27T15:00:27.831443+03:00"
-  },
-  "حفظ الامن": {
-   "english": "Preserving security / maintaining public safety",
-   "summary": "Standard official phrasing used by Saudi authorities about maintaining public order and safety. Its appearance next to the \"first security officer\" and \"aware citizen\" hashtags indicates a security-awareness push or an official statement urging public cooperation with police.",
-   "kind": "news",
    "confidence": "medium",
    "at": "2026-09-27T15:00:27.831443+03:00"
   },
@@ -4756,6 +4737,27 @@
    "kind": "social",
    "confidence": "low",
    "at": "2026-09-27T16:00:29.669520+03:00"
+  },
+  "#رحله_المليون66": {
+   "english": "#The_Million_Journey66 (Rihlat Al-Million 66)",
+   "summary": "An Arabic hashtag reading \"the million journey\" with a sequential number tacked on, the signature format of a running giveaway, prize-draw or engagement campaign in which fans repost a numbered tag to enter or to push it up the trend list. The numbering (66) indicates an ongoing series of rounds rather than a one-off news event; the sponsor behind it is not identifiable from the words alone.",
+   "kind": "other",
+   "confidence": "low",
+   "at": "2026-09-27T17:00:31.612230+03:00"
+  },
+  "فيجن مصنع": {
+   "english": "\"Vision Factory\" (feejin masna' — \"Vision\" transliterated into Arabic letters plus the word for factory)",
+   "summary": "A two-word phrase pairing the English loanword \"Vision\" with the Arabic for \"factory,\" most plausibly tied to industrial or manufacturing content framed around Saudi Vision 2030, the kingdom's economic diversification programme that heavily promotes local factories. Without more context this could equally be a brand name, an ad slogan or a line from a viral clip, so the specific subject is not clear from the words alone.",
+   "kind": "other",
+   "confidence": "low",
+   "at": "2026-09-27T17:00:31.612230+03:00"
+  },
+  "سعود الحوشان": {
+   "english": "Saud Al-Hawshan",
+   "summary": "The personal name of a Saudi man; Al-Hawshan is a recognised Najdi family name in the kingdom. A name trending on its own in Saudi Arabia usually means the person has made a widely shared remark or media appearance, been appointed to a post, or is the subject of a condolence or congratulation wave — which of these applies here cannot be determined from the name alone.",
+   "kind": "other",
+   "confidence": "low",
+   "at": "2026-09-27T17:00:31.612230+03:00"
   }
  }
 }
