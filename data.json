@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Monday, 28 September 2026 · 06:00 KSA",
+ "lastUpdated": "Monday, 28 September 2026 · 07:00 KSA",
  "days": {
   "2026-09-15": {
    "label": "Tue 15 Sep",
@@ -2158,7 +2158,7 @@
    "trends": [
     {
      "rank": 1,
-     "text": "#٢٠٣٠_بلا_نقاب",
+     "text": "#_بلا_",
      "cat": "General",
      "pts": 14
     },
@@ -2182,31 +2182,31 @@
     },
     {
      "rank": 5,
-     "text": "ميسي",
+     "text": "#تحدي_التسعينات",
      "cat": "General",
      "pts": 7
     },
     {
      "rank": 6,
-     "text": "#شبيه__سهيل_الامير_محمدبن_سلمان",
-     "cat": "Politics / Diplomacy",
-     "pts": 6
-    },
-    {
-     "rank": 7,
      "text": "العراق",
      "cat": "General",
      "pts": 6
     },
     {
+     "rank": 7,
+     "text": "سعيد المليونير",
+     "cat": "General",
+     "pts": 6
+    },
+    {
      "rank": 8,
-     "text": "فيصل اليامي",
+     "text": "ميسي",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 9,
-     "text": "حارس النرويج",
+     "text": "فيصل اليامي",
      "cat": "General",
      "pts": 6
     },
@@ -2236,13 +2236,13 @@
     },
     {
      "rank": 14,
-     "text": "قصر الاواني",
+     "text": "معاذ بن جبل رضي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 15,
-     "text": "معاذ بن جبل رضي",
+     "text": "قصر الاواني",
      "cat": "General",
      "pts": 4
     },
@@ -2266,20 +2266,20 @@
     },
     {
      "rank": 19,
-     "text": "انتر",
+     "text": "فيجن مصنع",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "فيجن مصنع",
+     "text": "فراس البريكان",
      "cat": "General",
      "pts": 4
     }
    ],
    "hashtags": [
     {
-     "text": "#٢٠٣٠_بلا_نقاب",
+     "text": "#_بلا_",
      "score": 100
     },
     {
@@ -2295,25 +2295,20 @@
      "score": 64
     },
     {
-     "text": "#شبيه__سهيل_الامير_محمدبن_سلمان",
+     "text": "#تحدي_التسعينات",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (18)",
-     "items": "#٢٠٣٠_بلا_نقاب · #رحله_المليون67 · #السعوديه_عمان · ميسي · العراق · فيصل اليامي · حارس النرويج · راموس · تويتر · جواو"
+     "label": "General (19)",
+     "items": "#_بلا_ · #رحله_المليون67 · #السعوديه_عمان · #تحدي_التسعينات · العراق · سعيد المليونير · ميسي · فيصل اليامي · راموس · تويتر"
     },
     {
      "icon": "📚",
      "label": "Education (1)",
      "items": "#تعليق_الدراسه"
-    },
-    {
-     "icon": "🏛️",
-     "label": "Politics / Diplomacy (1)",
-     "items": "#شبيه__سهيل_الامير_محمدبن_سلمان"
     }
    ]
   }
@@ -2535,7 +2530,7 @@
   "رييس مجلس القياده اليمني": 4,
   "#السعوديه_عمان": 22,
   "فراس": 12,
-  "#شبيه__سهيل_الامير_محمدبن_سلمان": 16,
+  "#شبيه__سهيل_الامير_محمدبن_سلمان": 10,
   "حسن كادش": 11,
   "#ا_نق": 6,
   "يوسف ناصر": 6,
@@ -2566,19 +2561,20 @@
   "فيجن مصنع": 8,
   "يابو الجوهره": 4,
   "خراب مالطا": 4,
-  "#٢٠٣٠_بلا_نقاب": 14,
+  "#_بلا_": 14,
   "#تعليق_الدراسه": 10,
-  "ميسي": 7,
+  "#تحدي_التسعينات": 7,
   "العراق": 6,
+  "سعيد المليونير": 6,
+  "ميسي": 6,
   "فيصل اليامي": 6,
-  "حارس النرويج": 6,
   "راموس": 6,
   "تويتر": 4,
   "جواو": 4,
   "معاذ بن جبل رضي": 4,
   "اليوم الاحد": 4,
   "علي النقاب": 4,
-  "انتر": 4
+  "فراس البريكان": 4
  },
  "news": {
   "date": "28 Sep 2026",
@@ -2602,9 +2598,9 @@
     "rank": 2
    },
    {
-    "headline": "Schools in Riyadh move to remote learning without warning amid renewed Saudi-Houthi tensions - The Jerusalem Post",
-    "summary": "Schools in Riyadh move to remote learning without warning amid renewed Saudi-Houthi tensions The Jerusalem Post",
-    "source": "The Jerusalem Post",
+    "headline": "Schools in Riyadh move to remote learning without warning amid renewed Saudi-Houthi tensions - jpost.com",
+    "summary": "Schools in Riyadh move to remote learning without warning amid renewed Saudi-Houthi tensions jpost.com",
+    "source": "jpost.com",
     "date": "27 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1WERITFpiU0ZtNHJFQ2ZBWTd3YVhubGtRZGkyN2l1NmpPLUFNRXVXbDk3dU9jU194SDNvRkIxcFgxLURuLVczcFVxWHJvM01hLXZQOU82NDcwcG93?oc=5",
@@ -2638,9 +2634,9 @@
     "rank": 6
    },
    {
-    "headline": "Iran offers to mediate talks between Saudi Arabia and Yemen - Middle East Eye",
-    "summary": "Iran offers to mediate talks between Saudi Arabia and Yemen Middle East Eye",
-    "source": "Middle East Eye",
+    "headline": "Iran offers to mediate talks between Saudi Arabia and Yemen - middleeasteye.net",
+    "summary": "Iran offers to mediate talks between Saudi Arabia and Yemen middleeasteye.net",
+    "source": "middleeasteye.net",
     "date": "27 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTU02eEtPVEU2a2xGM3dJc1htMGhrRk5oRmJoTWlKbDVxVW1aQkhqdjhqTURFODh6MUQyY2V3RTVFeUQ2QWx0VnRHcW9welBTdWNlSHFYOXZuc2R5ckF2NGdiV0pFc0xXbGdVQzhjUkl3VG1YdUNzQVRIZ1FvZjJhV0Q4TVBBLTVnNE5UekFTQk14TTAydGx0akt3NEdpRVdFU3NZVUlXX3hqUVZwa1hmU0F1VQ?oc=5",
@@ -2701,9 +2697,9 @@
     "rank": 13
    },
    {
-    "headline": "\"أمن الخليج من أمن العالم\"..السعودية تدعو أمام الأمم المتحدة لحماية حرية الملاحة في هرمز وباب المندب - Euronews",
-    "summary": "\"أمن الخليج من أمن العالم\"..السعودية تدعو أمام الأمم المتحدة لحماية حرية الملاحة في هرمز وباب المندب Euronews",
-    "source": "Euronews",
+    "headline": "\"أمن الخليج من أمن العالم\"..السعودية تدعو أمام الأمم المتحدة لحماية حرية الملاحة في هرمز وباب المندب - Euronews.com",
+    "summary": "\"أمن الخليج من أمن العالم\"..السعودية تدعو أمام الأمم المتحدة لحماية حرية الملاحة في هرمز وباب المندب Euronews.com",
+    "source": "Euronews.com",
     "date": "26 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQXRVN1E5UUNMMEpQbnBPRTZIYmFJTWExR2ZGdnlGb01HQlYwQkRiZXJRM0ttQVBPcGRmckl1a2hiVWtoNmwzQTAxMU1pY1FPc3R1dVBlMUtQWUxFQU9sOGEzUC1iU1pxU2RGczZhaVlhZzZ1dlh0OUd4MjM3WjZfWnZhZmNvLTdXTkxyT0xuXzZPeTY2ZjdmOG9xaFhyRVNxM0Q1a1VwRnhESFd0ajJPWDV2ZWdrY2tMd2w0RVFzRVM1TFU?oc=5",
@@ -2784,9 +2780,9 @@
     "rank": 22
    },
    {
-    "headline": "Houthis warn Saudi Arabia after strikes in Taiz killed seven, left 40 wounded - The Jerusalem Post",
-    "summary": "Houthis warn Saudi Arabia after strikes in Taiz killed seven, left 40 wounded The Jerusalem Post",
-    "source": "The Jerusalem Post",
+    "headline": "Houthis warn Saudi Arabia after strikes in Taiz killed seven, left 40 wounded - jpost.com",
+    "summary": "Houthis warn Saudi Arabia after strikes in Taiz killed seven, left 40 wounded jpost.com",
+    "source": "jpost.com",
     "date": "27 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5FWFczOVF5VGdibHQ2QXhPV29IeTB0c2U3Nk5YRkV1NzJIdHl6a1JRaHZqUWMxT3k1c2t6WWFPY18wZTA0UFphYXV6Z1ZFT3RySUZ6Q2RzMXFnSmZJ?oc=5",
@@ -2847,21 +2843,21 @@
     "rank": 29
    },
    {
-    "headline": "كيف يمكن تحدي «الحوثي»؟ - الشرق الأوسط",
-    "summary": "كيف يمكن تحدي «الحوثي»؟ الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "27 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPaFdLazJsZDgzWDNOUGZLUHlIQjgyaks4M1NseE9tNGRyY2ExR3I1YktITU1jZGlTTE5IbFp4MEQxQlZ3RXYwbjNyQy1ieVJOUGVadlJ6ZjVZalRubzNLMGo1QzhLcnVaN3plNzh2Yk55R2pxdkhwaEFQaXpGZm1GZmdTNGtId3NHQUhab2FqY1Vad3Y0dWc0WGhfRGVvMkxhN19PVG9CVlNDbXUxaTllSDZZakZlS3RnbEVLckVrZVNPRTVnU1lVZ0FUcHNZNXFJVk03YldOeFVsd3RCbjlwMV9Wano2ZDdlckRfMmJOTC1VLXZPYTd0aGh5Z0tOUQ?oc=5",
-    "rank": 30
-   },
-   {
     "headline": "لماذا الدراسات عن الهُويّة الوطنية؟ - الشرق الأوسط",
     "summary": "لماذا الدراسات عن الهُويّة الوطنية؟ الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "27 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxQWjloZTYyRzFjTWxjb2M5TGZWWG90dFpvekpZRjYzbERfT3ZrT3k5d0hscE9md2E5QlhIOWw0ejRsMUpkY3ZRNEJuNmltVlhOcWNUY1Y1WXFhaERtNjlVTnhQWHg1TWdqUUxNZFQxdmQyS09kVjBMV0libXlmTHI3d2ZnS0ozUkNDR0VyQmR4YXJBOUVvb1dOREV3VU4wS0JvR3dBR1FiN3lXdVUyWnRpSUs0eTJ6cFJQZDY3bjVMTmxETGRwYzJLRjJpdS0zTENWalJTVFM2MUxOUktaZnlvRlBoU3BZalFBeG9PVFI2aTQ2RWdOTU9mUXNnczZ3WnJrUnRjMDdlMjlRMUFpZlM0ZGI2djlwcWVLQVA4Ul9fR2tDT0pGX1JWbWtiT285d0ljTTVOdjNYeGhVMGRObEdJUVNsVTg3VHhiazJXYl9xVVZjRVptTDhQMklIMlc3UFlEa3piRHBJYw?oc=5",
+    "rank": 30
+   },
+   {
+    "headline": "كيف يمكن تحدي «الحوثي»؟ - الشرق الأوسط",
+    "summary": "كيف يمكن تحدي «الحوثي»؟ الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "27 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPaFdLazJsZDgzWDNOUGZLUHlIQjgyaks4M1NseE9tNGRyY2ExR3I1YktITU1jZGlTTE5IbFp4MEQxQlZ3RXYwbjNyQy1ieVJOUGVadlJ6ZjVZalRubzNLMGo1QzhLcnVaN3plNzh2Yk55R2pxdkhwaEFQaXpGZm1GZmdTNGtId3NHQUhab2FqY1Vad3Y0dWc0WGhfRGVvMkxhN19PVG9CVlNDbXUxaTllSDZZakZlS3RnbEVLckVrZVNPRTVnU1lVZ0FUcHNZNXFJVk03YldOeFVsd3RCbjlwMV9Wano2ZDdlckRfMmJOTC1VLXZPYTd0aGh5Z0tOUQ?oc=5",
     "rank": 31
    },
    {
@@ -4815,13 +4811,6 @@
    "confidence": "medium",
    "at": "2026-09-28T01:00:26.030949+03:00"
   },
-  "حارس النرويج": {
-   "english": "Norway's goalkeeper",
-   "summary": "A reference to the goalkeeper of the Norwegian national team, trending alongside Arsenal and Norway captain Martin Ødegaard, which points to a Norway international fixture or a save/error clip circulating from it. The specific match or incident is not readable from the words.",
-   "kind": "sport",
-   "confidence": "low",
-   "at": "2026-09-28T01:00:26.030949+03:00"
-  },
   "معاذ بن جبل رضي": {
    "english": "Mu'adh ibn Jabal, may [God] be pleased with him",
    "summary": "Mu'adh ibn Jabal was a companion of the Prophet Muhammad, celebrated in Islamic tradition for his knowledge of what is permitted and forbidden and for being sent by the Prophet to teach in Yemen. The truncated phrase suggests a quoted hadith or a quiz question circulating; note that the religious quiz hashtag #مسابقة_على_بصيرة (\"On Insight Competition\") and \"Monday fasting\" are also trending, which points to devotional or quiz-driven posting.",
@@ -4835,13 +4824,6 @@
    "kind": "other",
    "confidence": "low",
    "at": "2026-09-28T05:00:33.541781+03:00"
-  },
-  "#٢٠٣٠_بلا_نقاب": {
-   "english": "#2030_Without_the_Niqab",
-   "summary": "A campaign-style hashtag arguing that the face veil (niqab) has no place in the Saudi Arabia envisioned by Vision 2030, the kingdom's economic and social reform programme. Threads like this typically draw heated argument between social liberals and religious conservatives rather than reporting any single news event.",
-   "kind": "social",
-   "confidence": "medium",
-   "at": "2026-09-28T06:00:26.304685+03:00"
   },
   "#تعليق_الدراسه": {
    "english": "#Suspension_of_Studies (school closures)",
@@ -4885,12 +4867,33 @@
    "confidence": "medium",
    "at": "2026-09-28T06:00:26.304685+03:00"
   },
-  "انتر": {
-   "english": "Inter",
-   "summary": "Shorthand for an \"Inter\" football club — either Inter Milan of Italy's Serie A or Inter Miami of MLS. Given that Messi is trending on the same board, Inter Miami is the likelier reference, though both clubs have large Saudi followings.",
-   "kind": "sport",
+  "#_بلا_": {
+   "english": "#_Bila_ / #_Without_ (literally \"without\" or \"no\")",
+   "summary": "The Arabic word \"bila\" means \"without\" or \"no\", and here it sits alone between underscores, which usually means the hashtag is a truncated fragment of a longer slogan-style campaign tag (e.g. \"a [something]-free Saudi\") or a game/quiz prompt where users fill in the blank. The subject is not recoverable from the word alone.",
+   "kind": "other",
+   "confidence": "low",
+   "at": "2026-09-28T07:00:28.487293+03:00"
+  },
+  "#تحدي_التسعينات": {
+   "english": "#Nineties_Challenge",
+   "summary": "A nostalgia participation trend in which users post 1990s memories — old TV shows, cartoons, snacks, school photos, cassette tapes, phone models — and challenge followers to name or match them. These retro challenge hashtags recur periodically on Saudi and wider Gulf Twitter/X and are popular with brands for throwback marketing.",
+   "kind": "social",
    "confidence": "medium",
-   "at": "2026-09-28T06:00:26.304685+03:00"
+   "at": "2026-09-28T07:00:28.487293+03:00"
+  },
+  "سعيد المليونير": {
+   "english": "Saeed the Millionaire",
+   "summary": "A personal name (Saeed) paired with the nickname \"the Millionaire\", most likely a person or character being talked about after a windfall, a prize-draw or game-show win, or a viral comedy sketch persona. Notably the board also carries \"#رحله_المليون67\" (\"Million Journey 67\"), suggesting a prize or giveaway campaign may be the common thread, but the specific story cannot be confirmed.",
+   "kind": "entertainment",
+   "confidence": "low",
+   "at": "2026-09-28T07:00:28.487293+03:00"
+  },
+  "فراس البريكان": {
+   "english": "Firas Al-Buraikan",
+   "summary": "Saudi international striker Firas Al-Buraikan, who rose at Al-Fateh, spent time at Al-Nassr and moved to Al-Ahli of Jeddah, and is a regular centre-forward for the Saudi national team. He trends around Saudi Pro League matchdays and national-team fixtures — goals, injuries or transfer talk — and the rest of the board (Messi, Ramos, Jorge Jesus, Joao) confirms a football-heavy news cycle.",
+   "kind": "sport",
+   "confidence": "high",
+   "at": "2026-09-28T07:00:28.487293+03:00"
   }
  }
 }
