@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Monday, 28 September 2026 · 18:00 KSA",
+ "lastUpdated": "Monday, 28 September 2026 · 18:33 KSA",
  "days": {
   "2026-09-15": {
    "label": "Tue 15 Sep",
@@ -2158,7 +2158,7 @@
    "trends": [
     {
      "rank": 1,
-     "text": "#تحت_الحزام_ممنوع",
+     "text": "#حت_ال",
      "cat": "General",
      "pts": 14
     },
@@ -2176,8 +2176,8 @@
     },
     {
      "rank": 4,
-     "text": "#تعليق_الدراسه",
-     "cat": "Education",
+     "text": "#اثنينيه_دومينوز",
+     "cat": "General",
      "pts": 8
     },
     {
@@ -2188,74 +2188,74 @@
     },
     {
      "rank": 6,
-     "text": "$XDC",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 7,
      "text": "اليوم الاثنين",
      "cat": "General",
      "pts": 6
     },
     {
+     "rank": 7,
+     "text": "فيصل بن نواف بن عبدالعزيز",
+     "cat": "General",
+     "pts": 6
+    },
+    {
      "rank": 8,
-     "text": "معاذ بن جبل رضي",
+     "text": "مركز البحوث",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 9,
-     "text": "قصر الاواني",
+     "text": "معاذ بن جبل رضي",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 10,
-     "text": "تويتر",
+     "text": "حارس النرويج",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 11,
-     "text": "مركز البحوث",
+     "text": "قصر الاواني",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 12,
-     "text": "ميسي",
+     "text": "تويتر",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 13,
-     "text": "الدايره الاولي",
+     "text": "ميسي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 14,
-     "text": "نظام المعاملات المدنيه",
+     "text": "الدايره الاولي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 15,
-     "text": "يزن الشريف",
+     "text": "نظام المعاملات المدنيه",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 16,
-     "text": "المستوطنين المتطرفين",
+     "text": "مدير رياضي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 17,
-     "text": "راموس",
-     "cat": "General",
+     "text": "مجلس النواب اليمني",
+     "cat": "Politics / Diplomacy",
      "pts": 4
     },
     {
@@ -2266,20 +2266,20 @@
     },
     {
      "rank": 19,
-     "text": "فيجن مصنع",
+     "text": "راموس",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "جواو",
+     "text": "فيجن مصنع",
      "cat": "General",
      "pts": 4
     }
    ],
    "hashtags": [
     {
-     "text": "#تحت_الحزام_ممنوع",
+     "text": "#حت_ال",
      "score": 100
     },
     {
@@ -2291,7 +2291,7 @@
      "score": 76
     },
     {
-     "text": "#تعليق_الدراسه",
+     "text": "#اثنينيه_دومينوز",
      "score": 64
     },
     {
@@ -2303,12 +2303,12 @@
     {
      "icon": "📌",
      "label": "General (19)",
-     "items": "#تحت_الحزام_ممنوع · #ولي__العهد · #_بلا_ · العراق · $XDC · اليوم الاثنين · معاذ بن جبل رضي · قصر الاواني · تويتر · مركز البحوث"
+     "items": "#حت_ال · #ولي__العهد · #_بلا_ · #اثنينيه_دومينوز · العراق · اليوم الاثنين · فيصل بن نواف بن عبدالعزيز · مركز البحوث · معاذ بن جبل رضي · حارس النرويج"
     },
     {
-     "icon": "📚",
-     "label": "Education (1)",
-     "items": "#تعليق_الدراسه"
+     "icon": "🏛️",
+     "label": "Politics / Diplomacy (1)",
+     "items": "مجلس النواب اليمني"
     }
    ]
   }
@@ -2553,7 +2553,7 @@
   "منتخب قطر": 6,
   "يوسف عبدالرزاق": 4,
   "الربع الخالي": 4,
-  "قصر الاواني": 10,
+  "قصر الاواني": 8,
   "أسامة هوساوي": 4,
   "القوات المسلحه اليمنيه": 4,
   "المنتخب القطري": 4,
@@ -2561,37 +2561,28 @@
   "فيجن مصنع": 8,
   "يابو الجوهره": 4,
   "خراب مالطا": 4,
-  "#تحت_الحزام_ممنوع": 14,
+  "#حت_ال": 14,
   "#ولي__العهد": 12,
   "#_بلا_": 10,
-  "#تعليق_الدراسه": 8,
+  "#اثنينيه_دومينوز": 8,
   "العراق": 7,
-  "$XDC": 6,
   "اليوم الاثنين": 6,
+  "فيصل بن نواف بن عبدالعزيز": 6,
+  "مركز البحوث": 6,
   "معاذ بن جبل رضي": 6,
-  "تويتر": 6,
-  "مركز البحوث": 4,
+  "حارس النرويج": 6,
+  "تويتر": 4,
   "ميسي": 4,
   "الدايره الاولي": 4,
   "نظام المعاملات المدنيه": 4,
-  "يزن الشريف": 4,
-  "المستوطنين المتطرفين": 4,
-  "راموس": 4,
+  "مدير رياضي": 4,
+  "مجلس النواب اليمني": 4,
   "علي النقاب": 4,
-  "جواو": 4
+  "راموس": 4
  },
  "news": {
   "date": "28 Sep 2026",
   "domestic": [
-   {
-    "headline": "Saudi Arabia’s Key Oil Pipeline Starts Exports After Repairs - Bloomberg.com",
-    "summary": "Saudi Arabia’s Key Oil Pipeline Starts Exports After Repairs Bloomberg.com",
-    "source": "Bloomberg.com",
-    "date": "28 Sep 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWG4wbWZuVUlMby1wTk1zSURXY2tUM1NtM1BlVVRlUjF0UDJ1bmgxOEgyOE9MMjZWX09vRmhaWElGQ0VmNTJDX1dycHctS2xmTU04VUZrLUQ5emttVEZzdm5kMUJnMFlIY3FvVEgzd2RMTFg0RlpSM2hYTk11Uk1INDA2SlVoWEtPZlhGQjlNYmR0RUY5T2hrZGtmXzhrNDFpcjREckR4UTJ5X0RJRkw0dDZXdFFtQQ?oc=5",
-    "rank": 1
-   },
    {
     "headline": "Why the Iran-Backed Houthis in Yemen and Saudi Arabia Are at War Again - The New York Times",
     "summary": "Why the Iran-Backed Houthis in Yemen and Saudi Arabia Are at War Again The New York Times",
@@ -2599,6 +2590,15 @@
     "date": "28 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa3ZvZG1DVHkwY2JmZkZlVjJLeFRCTE1udWpqdnZKcEJwWjQ4eW5RUTR0dGp1ak1uODluWFY4YlNWakV3SmxMQi02OWprNHhyT252RHprcjRIVDhGTHRMRUx0VEs0c1UtLXdlZ3huMGJxNTJPMkhfYXdQdlZ6aWFoR21aZks5amM?oc=5",
+    "rank": 1
+   },
+   {
+    "headline": "Saudi Arabia’s Key Oil Pipeline Starts Exports After Repairs - Bloomberg.com",
+    "summary": "Saudi Arabia’s Key Oil Pipeline Starts Exports After Repairs Bloomberg.com",
+    "source": "Bloomberg.com",
+    "date": "28 Sep 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWG4wbWZuVUlMby1wTk1zSURXY2tUM1NtM1BlVVRlUjF0UDJ1bmgxOEgyOE9MMjZWX09vRmhaWElGQ0VmNTJDX1dycHctS2xmTU04VUZrLUQ5emttVEZzdm5kMUJnMFlIY3FvVEgzd2RMTFg0RlpSM2hYTk11Uk1INDA2SlVoWEtPZlhGQjlNYmR0RUY5T2hrZGtmXzhrNDFpcjREckR4UTJ5X0RJRkw0dDZXdFFtQQ?oc=5",
     "rank": 2
    },
    {
@@ -2620,13 +2620,22 @@
     "rank": 4
    },
    {
+    "headline": "Saudi Arabia's Key Oil Pipeline Starts Exports - Rigzone",
+    "summary": "Saudi Arabia's Key Oil Pipeline Starts Exports Rigzone",
+    "source": "Rigzone",
+    "date": "28 Sep 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaTNuR3hVVkF2clpJU2lyWUdZTkpjLUx6M09wZVpZSjg2N21nSUttajdRbW96RERIWWhkRTFQRXNvUFlna0lhVlRaUXA0M25vbFhLb0VoUXV2bHYzVzJUVXJZZ3hmNzZ5Q2djb0VrSEsyQktkQTBCdC1HLUZlV1pUQ2xiX0ZFRzdXVkRrNG53MDV1S0Z1WVIxWC05d0U0MVd1QTcxb0RNeUROTnM?oc=5",
+    "rank": 5
+   },
+   {
     "headline": "World's first Formula E karting experience in Abha fuels Saudi Arabia's motorsport future - Formula E",
     "summary": "World's first Formula E karting experience in Abha fuels Saudi Arabia's motorsport future Formula E",
     "source": "Formula E",
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTk9QOGhXRjA3UWs1RVZCYzg3RWFxa3ZXU0duN1Vqcmo5RXZ4MnFfWEx6SDJULURadGhudThkM1YwX1oxS1E4RUpJcGZVTUMtdEtzX0NCS0FJb1htNTF6UUtyT2hHYklXSlUwYkM1QkdURDduTmxHVEpHdmlObWhZLVc3V1BEVzhZb01NOFlYcXpiakpoSURTLXNna3RpbGdYZUlKVXhkeU5hZEx4MjBmcWE4ZkFiR3BPb3VyTWNpZ0JtMEZZVTlWbFJ1RQ?oc=5",
-    "rank": 5
+    "rank": 6
    },
    {
     "headline": "Golf Saudi Strengthens Long-Term Commitment to Women’s Golf in the Kingdom and on the World Stage - LPGA",
@@ -2635,16 +2644,16 @@
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQckd0bnpuT1VsQWRNOGo5SDlodzFjVXB2eER5MUZ3ZmZzdjFGSVBKQmFBWC0yQkM4WUNUbm9BNUo5T200dlVyQ3VqeUIya08zNDhqZS03YlNFdHhURmMtM19yeTc3Uk9rQXk1RkhSbU5QNzRuQkFFdjg5UlRXYnNoMERLSlB6NVQ5ZEkyQ3NLcU5jUDNtYlZ0SnFYTkVvanh2c1lEU1FJQ0dzdlkxX3pORFlSUGhyS1FLNTlVTlhfdmxsNThHSVE?oc=5",
-    "rank": 6
+    "rank": 7
    },
    {
-    "headline": "Yemen's Houthis threaten to strike Saudi bridges in retaliation for airstrikes - report - The Jerusalem Post",
-    "summary": "Yemen's Houthis threaten to strike Saudi bridges in retaliation for airstrikes - report The Jerusalem Post",
-    "source": "The Jerusalem Post",
+    "headline": "Yemen's Houthis threaten to strike Saudi bridges in retaliation for airstrikes - report - jpost.com",
+    "summary": "Yemen's Houthis threaten to strike Saudi bridges in retaliation for airstrikes - report jpost.com",
+    "source": "jpost.com",
     "date": "28 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE14OUMxZWp4Y3dLNmxLUVBJMXlfZnRQTnRJeTdBRUlxN2NIcUhKRFhBemV1U0syYnBkWVdmWUdmb2N3QWJ0UlpYdUpveWFmY21UVVFYcHBtcnRxUUlm?oc=5",
-    "rank": 7
+    "rank": 8
    },
    {
     "headline": "Saudi Arabia is Making…EVs?!? - Core77",
@@ -2653,7 +2662,7 @@
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNd3pNYWdmbEdtUEFwNHJ4ZXlRWng1Uk52cmllOHc2U3R3ZjcxaTNMTGJ5MGFHMHFpeWVEV1dwVWNHcld6OU8ybkN5dGg3Wkl4NUZWUW85cTMxT3cteE9YTWRLSWpPNGpFSF9Sa19WRlc0WGI5TGk2VWljZ2YyREpmaS1DeHVhYmxqV1ZtMFp5RjIzdW9sMzc4Xzl5N25xem1GcDZFUjBqaWc5d3N3Z2dN?oc=5",
-    "rank": 8
+    "rank": 9
    },
    {
     "headline": "Saudi Arabia Hands Out Oil & Gas Production Well Contracts to SLB during War - Industrial Info Resources",
@@ -2662,21 +2671,12 @@
     "date": "28 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVFB3WTFfMGMtdmFEa1h5SXAyVkYwTzlrT3Q2azRmLWRtb1JvaFRyMW1wUktaMzNkb28tMHh0T09aRjhwUkMxTEVqQWRGZ28xRnJTRHB5RXZKMWdDWjVHTWtLU1hPTndkWnM1clNLRk5LWTJoT3JnUmpzRUZpMXJCQ0tBUURHSnJDTmZXZm9jb2FrSmtKTEFmS3FKLVFud0RxOHRHVDZla25VeTlodnB2TmQ0b2tYOGhFYnNpdzNtSk4tN0dNdjF1Qm9mUkVNaTRxQS1ITDJZWlVxcWRQX0NIUHdwcw?oc=5",
-    "rank": 9
-   },
-   {
-    "headline": "Saudi Arabia's Key Oil Pipeline Starts Exports - Rigzone",
-    "summary": "Saudi Arabia's Key Oil Pipeline Starts Exports Rigzone",
-    "source": "Rigzone",
-    "date": "28 Sep 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaTNuR3hVVkF2clpJU2lyWUdZTkpjLUx6M09wZVpZSjg2N21nSUttajdRbW96RERIWWhkRTFQRXNvUFlna0lhVlRaUXA0M25vbFhLb0VoUXV2bHYzVzJUVXJZZ3hmNzZ5Q2djb0VrSEsyQktkQTBCdC1HLUZlV1pUQ2xiX0ZFRzdXVkRrNG53MDV1S0Z1WVIxWC05d0U0MVd1QTcxb0RNeUROTnM?oc=5",
     "rank": 10
    },
    {
-    "headline": "مجلس الأمن يدين هجمات جماعة أنصار الله الحوثية على الرياض، والرئاسة اليمنية تعلن \"التعبئة\"، و السعودية تحث على \"الرباط والجهاد\" - bbc.com",
-    "summary": "مجلس الأمن يدين هجمات جماعة أنصار الله الحوثية على الرياض، والرئاسة اليمنية تعلن \"التعبئة\"، و السعودية تحث على \"الرباط والجهاد\" bbc.com",
-    "source": "bbc.com",
+    "headline": "مجلس الأمن يدين هجمات جماعة أنصار الله الحوثية على الرياض، والرئاسة اليمنية تعلن \"التعبئة\"، و السعودية تحث على \"الرباط والجهاد\" - BBC",
+    "summary": "مجلس الأمن يدين هجمات جماعة أنصار الله الحوثية على الرياض، والرئاسة اليمنية تعلن \"التعبئة\"، و السعودية تحث على \"الرباط والجهاد\" BBC",
+    "source": "BBC",
     "date": "26 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBKUDNMX0h0T2MyOXBjaUVuRkxOSGtvUXI1dlg2YVJfZUdrTU55MUs2LTBrbVZZRjgya3lzcHVSdnpycjZOVWNtcUhxSFIzRi1FNVZSa0NjTDlVbzBnYWfSAWNBVV95cUxQWGI4VVlFUm5McEFfblg4Y2diOTFzUVktTDh6dFEyWndvWXF1RTM1cW9uN0NDTEUxVFN2VlA1WUEwMjdJVnlMY05yRDZxUUhEdmZGR0ZFYkVLMVY3RmdSZ0pzNHM?oc=5",
@@ -2710,9 +2710,9 @@
     "rank": 14
    },
    {
-    "headline": "التحالف يعترض صواريخ ومسيّرات حوثية على الرياض وجنوب السعودية - aljazeera.net",
-    "summary": "التحالف يعترض صواريخ ومسيّرات حوثية على الرياض وجنوب السعودية aljazeera.net",
-    "source": "aljazeera.net",
+    "headline": "التحالف يعترض صواريخ ومسيّرات حوثية على الرياض وجنوب السعودية - الجزيرة نت",
+    "summary": "التحالف يعترض صواريخ ومسيّرات حوثية على الرياض وجنوب السعودية الجزيرة نت",
+    "source": "الجزيرة نت",
     "date": "26 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPemV1RzBBQkZDX3lnZUFMeEZUbEJOTGdkaFZEbk5yRzA5WkY2WU1SdVpzYmFfWDdKWlJSN2N4QXRBa0pkXzRtWk9aRHFfYzdSRlVMZFN4Q2VVRkRCZDh6SVRxa2F1Y3JXRWVlQzF0Z0N3Wk1RWEc1RU5GSW5sV2UxbEZvdllaejV3UDhNNU1wRXVfV2RicUxaeFRPNzhIVWM1Y2NyTUF6NVE0VHNqOWRKOHJLZ2R3b2MxQlFvSGU0bjhtcEVSLTB0RnFzY0NrTWFvWlpEOWg4NjFWMTBsMmRNUWt2MFhUVU1WbUtKZzdJOHdlVG1JX1lfMldjb19Fby13UzNTUVI3a0pITktFQk5yQ0RBMUNpZ0ZsNXBZRVQzMW4?oc=5",
@@ -2784,21 +2784,21 @@
     "rank": 22
    },
    {
+    "headline": "MedAire expands Middle East presence as operators prioritize risk management - Business Airport International",
+    "summary": "MedAire expands Middle East presence as operators prioritize risk management Business Airport International",
+    "source": "Business Airport Interna",
+    "date": "28 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX0Fvazd0Tloxb0Z2TmFxR0djOHUyVFAyY3pJTXAyS1REUGFQSGRJM3pscHNOdGpseE9SSEpvSTE5RnhhSlppSzZBakM2ZThCM3pTZEk0WW40ZkI2ZHBldldUa2Q2WE81eUdkNDF0U1diUk5HLUgyckcyc29OSWgxS3BaOWpUZVN5Y29SVTZnUW5YNW1WWmFHMDdfckp0XzRKRXRwX194QUJYSmotN1JUNHdHQndOWUFMUk9IYlo5b3kxNzRySmhveklTOA?oc=5",
+    "rank": 23
+   },
+   {
     "headline": "Why is Saudi Arabia, the Middle East’s second-largest power, in this situation? - TodayPress.tv",
     "summary": "Why is Saudi Arabia, the Middle East’s second-largest power, in this situation? TodayPress.tv",
     "source": "TodayPress.tv",
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZ3IzQklSd1pxa04yb2JnNUtHN09uOU9aT2kwMngxSE1yRXFlVHRfUXR5MEdTWk1QdnF6MVMtaTBZM0FrMWpheW5ybE1nWE41YWEzbHZDSkxIb0hSbnRWdFNJM050UWprVDQ0bFpTZzg4OVk2YU9oWE5KaUFGUnAtOTUtWXFQZ25vQU1xY2xROA?oc=5",
-    "rank": 23
-   },
-   {
-    "headline": "Middle East Oil Exports Surge as Saudi Arabia Drives September Recovery - Egypt Oil & Gas",
-    "summary": "Middle East Oil Exports Surge as Saudi Arabia Drives September Recovery Egypt Oil & Gas",
-    "source": "Egypt Oil & Gas",
-    "date": "28 Sep 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWTFDNkZRU1ZONjBQYjdweV9iZm5JaXJUUnBEeV9sY0pFR1g3Sk1sLWhNRXR1US1UMnZITnBsbmxCX3prZEh5QW1hWGxYQXpsS0NiWlRoeUIxbTdRT25Ka3BBbEJuRUVDb1EzZ0R5UVJZWndRNWVFYnMwYm5LMFBSMnUwRnN3d3NMTDNhRlEzTk4wZXNscHMxRW9Va0t4akNaTTdmVWl3NUE2YW83?oc=5",
     "rank": 24
    },
    {
@@ -2811,12 +2811,12 @@
     "rank": 25
    },
    {
-    "headline": "Middle East Oil Exports Rebound in September as Saudi Arabia Increases Shipments - صحيفة مال",
-    "summary": "Middle East Oil Exports Rebound in September as Saudi Arabia Increases Shipments صحيفة مال",
-    "source": "صحيفة مال",
+    "headline": "Middle East Oil Exports Surge as Saudi Arabia Drives September Recovery - Egypt Oil & Gas",
+    "summary": "Middle East Oil Exports Surge as Saudi Arabia Drives September Recovery Egypt Oil & Gas",
+    "source": "Egypt Oil & Gas",
     "date": "28 Sep 2026",
     "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zZEVZSllETXlRcUtwR2s0Q2dNd3hWQTQxdjREOC1QTU55Y1NMWWJnU2VfQmkwNEZDc1Fkc1dQSHpjSEhfVjAxbXN4NDFYbGF4enBXeEJSd1k4czR5d2hNd1lKNjlwTkNZUDJLcg?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWTFDNkZRU1ZONjBQYjdweV9iZm5JaXJUUnBEeV9sY0pFR1g3Sk1sLWhNRXR1US1UMnZITnBsbmxCX3prZEh5QW1hWGxYQXpsS0NiWlRoeUIxbTdRT25Ka3BBbEJuRUVDb1EzZ0R5UVJZWndRNWVFYnMwYm5LMFBSMnUwRnN3d3NMTDNhRlEzTk4wZXNscHMxRW9Va0t4akNaTTdmVWl3NUE2YW83?oc=5",
     "rank": 26
    },
    {
@@ -4724,13 +4724,6 @@
    "confidence": "low",
    "at": "2026-09-27T23:00:27.427897+03:00"
   },
-  "جواو": {
-   "english": "João (Joao)",
-   "summary": "A Portuguese first name, most likely referring to one of the João's in the Portugal national team squad — João Félix (who plays club football in Saudi Arabia for Al-Nassr), João Cancelo (Al-Hilal) or João Neves — trending alongside the Portugal v Norway fixture on the same board. Saudi fans follow these players closely because several of them play in the Saudi Pro League.",
-   "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-09-28T00:00:29.209352+03:00"
-  },
   "راموس": {
    "english": "Ramos",
    "summary": "Almost certainly Sergio Ramos, the veteran Spanish centre-back and former Real Madrid captain who has been repeatedly linked with, and courted by, Saudi Pro League clubs. Saudi football Twitter spikes on his name around transfer talk, match performances or retirement chatter.",
@@ -4751,13 +4744,6 @@
    "kind": "religion",
    "confidence": "medium",
    "at": "2026-09-28T03:00:30.093616+03:00"
-  },
-  "#تعليق_الدراسه": {
-   "english": "#Suspension_of_Studies (school closures)",
-   "summary": "A recurring Saudi hashtag in which parents and students call for, or report on, the suspension of in-person classes — usually triggered by heavy rain, flooding, dust storms or extreme weather warnings from the National Center for Meteorology. It spikes at the start of the academic year and during storm season.",
-   "kind": "news",
-   "confidence": "medium",
-   "at": "2026-09-28T06:00:26.304685+03:00"
   },
   "العراق": {
    "english": "Iraq",
@@ -4899,33 +4885,40 @@
    "confidence": "high",
    "at": "2026-09-28T17:00:31.959869+03:00"
   },
-  "$XDC": {
-   "english": "$XDC (cashtag for the XDC Network token)",
-   "summary": "A stock-market-style 'cashtag' for XDC, the cryptocurrency of the XDC Network (formerly XinFin), a blockchain project marketed for trade finance and tokenised assets. Cashtags trend when traders pile into price-move chatter, and Gulf crypto retail investors are an active segment on X.",
-   "kind": "business",
-   "confidence": "medium",
-   "at": "2026-09-28T17:00:31.959869+03:00"
-  },
-  "#تحت_الحزام_ممنوع": {
-   "english": "#No_Hitting_Below_The_Belt (literally \"below the belt is forbidden\")",
-   "summary": "An Arabic idiom borrowed from boxing, used to mean personal attacks and cheap shots are off-limits; as a hashtag it typically fronts a campaign, talk-show segment or online pile-on calling for arguments to stay civil and avoid smearing people's families, looks or private lives. The specific trigger is not readable from the words alone and could equally be a literal combat-sports topic.",
-   "kind": "social",
-   "confidence": "low",
-   "at": "2026-09-28T18:00:28.295935+03:00"
-  },
-  "يزن الشريف": {
-   "english": "Yazan Al-Sharif",
-   "summary": "A personal name of Levantine (Jordanian/Palestinian) origin; people trending a bare name on Saudi Twitter/X are usually reacting to a footballer, a content creator or a person in the news. Without further context there is no reliable way to identify which Yazan Al-Sharif is meant.",
+  "#حت_ال": {
+   "english": "#ht_al (fragment)",
+   "summary": "A truncated Arabic hashtag fragment that carries no readable meaning on its own — most likely the middle or tail of a longer hashtag that has been clipped by the trending feed, a pattern also visible in other entries on this board such as #_bila_ and #wali__al-ahd. The underlying subject cannot be identified from these letters alone.",
    "kind": "other",
    "confidence": "low",
-   "at": "2026-09-28T18:00:28.295935+03:00"
+   "at": "2026-09-28T18:33:09.389121+03:00"
   },
-  "المستوطنين المتطرفين": {
-   "english": "the extremist settlers",
-   "summary": "Standard Arabic-media phrasing for radical Israeli settlers in the occupied West Bank, routinely used in coverage of settler attacks on Palestinian villages, farmland and holy sites. Saudi users post the phrase when Palestinian-territories violence is in the news cycle; the particular incident driving it here is not determinable.",
-   "kind": "news",
+  "فيصل بن نواف بن عبدالعزيز": {
+   "english": "Faisal bin Nawaf bin Abdulaziz",
+   "summary": "Prince Faisal bin Nawaf bin Abdulaziz Al Saud, the Governor of Al-Jouf Province in northern Saudi Arabia. Regional governors trend when they inaugurate projects, receive officials, chair council meetings or issue directives, and citizens often tag them in appeals; the specific occasion is not identifiable here.",
+   "kind": "politics",
    "confidence": "medium",
-   "at": "2026-09-28T18:00:28.295935+03:00"
+   "at": "2026-09-28T18:33:09.389121+03:00"
+  },
+  "حارس النرويج": {
+   "english": "Norway's goalkeeper",
+   "summary": "A football reference to the goalkeeper of the Norwegian national team or a Norwegian keeper playing club football. Saudi fans discuss foreign goalkeepers mainly around transfer speculation to Saudi Pro League clubs or a notable performance in an international fixture.",
+   "kind": "sport",
+   "confidence": "low",
+   "at": "2026-09-28T18:33:09.389121+03:00"
+  },
+  "مدير رياضي": {
+   "english": "Sporting director",
+   "summary": "The football club role responsible for recruitment, squad planning and coaching appointments. In Saudi Arabia this phrase trends when a major club such as Al-Hilal, Al-Nassr, Al-Ittihad or Al-Ahli hires, fires or is rumoured to be courting a sporting director, and fans debate who should hold the job.",
+   "kind": "sport",
+   "confidence": "medium",
+   "at": "2026-09-28T18:33:09.389121+03:00"
+  },
+  "مجلس النواب اليمني": {
+   "english": "The Yemeni House of Representatives",
+   "summary": "Yemen's parliament, part of the internationally recognised government that has been based largely in Aden and Riyadh during the country's long conflict. It trends in Saudi feeds around parliamentary sessions, appointments, statements on the war or economy, and Saudi-brokered political developments in Yemen.",
+   "kind": "politics",
+   "confidence": "medium",
+   "at": "2026-09-28T18:33:09.389121+03:00"
   }
  }
 }
