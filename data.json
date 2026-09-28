@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Monday, 28 September 2026 · 15:00 KSA",
+ "lastUpdated": "Monday, 28 September 2026 · 16:00 KSA",
  "days": {
   "2026-09-15": {
    "label": "Tue 15 Sep",
@@ -2206,31 +2206,31 @@
     },
     {
      "rank": 9,
-     "text": "معاذ بن جبل رضي",
+     "text": "نظام المعاملات المدنيه",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 10,
-     "text": "قصر الاواني",
+     "text": "معاذ بن جبل رضي",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 11,
-     "text": "تويتر",
+     "text": "مركز البحوث",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 12,
-     "text": "راموس",
+     "text": "قصر الاواني",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 13,
-     "text": "اليوم الاحد",
+     "text": "تويتر",
      "cat": "General",
      "pts": 4
     },
@@ -2242,31 +2242,31 @@
     },
     {
      "rank": 15,
-     "text": "جواو",
+     "text": "راموس",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 16,
-     "text": "فيجن مصنع",
+     "text": "جواو",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 17,
-     "text": "علي النقاب",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 18,
      "text": "الدايره الاولي",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 18,
+     "text": "فيجن مصنع",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 19,
-     "text": "الباقه الشامله",
+     "text": "علي النقاب",
      "cat": "General",
      "pts": 4
     },
@@ -2303,7 +2303,7 @@
     {
      "icon": "📌",
      "label": "General (19)",
-     "items": "#_بلا_ · #رحله_المليون67 · #الحمد_الله · #السعوديه_عمان · العراق · حارس النرويج · اليوم الاثنين · معاذ بن جبل رضي · قصر الاواني · تويتر"
+     "items": "#_بلا_ · #رحله_المليون67 · #الحمد_الله · #السعوديه_عمان · العراق · حارس النرويج · اليوم الاثنين · نظام المعاملات المدنيه · معاذ بن جبل رضي · مركز البحوث"
     },
     {
      "icon": "📚",
@@ -2553,7 +2553,7 @@
   "منتخب قطر": 6,
   "يوسف عبدالرزاق": 4,
   "الربع الخالي": 4,
-  "قصر الاواني": 10,
+  "قصر الاواني": 8,
   "أسامة هوساوي": 4,
   "القوات المسلحه اليمنيه": 4,
   "المنتخب القطري": 4,
@@ -2567,20 +2567,29 @@
   "العراق": 6,
   "حارس النرويج": 6,
   "اليوم الاثنين": 6,
+  "نظام المعاملات المدنيه": 6,
   "معاذ بن جبل رضي": 6,
+  "مركز البحوث": 4,
   "تويتر": 4,
-  "راموس": 4,
-  "اليوم الاحد": 4,
   "ميسي": 4,
+  "راموس": 4,
   "جواو": 4,
-  "علي النقاب": 4,
   "الدايره الاولي": 4,
-  "الباقه الشامله": 4,
+  "علي النقاب": 4,
   "فيصل اليامي": 4
  },
  "news": {
   "date": "28 Sep 2026",
   "domestic": [
+   {
+    "headline": "Saudi Arabia’s Key Oil Pipeline Starts Exports After Repairs - Bloomberg",
+    "summary": "Saudi Arabia’s Key Oil Pipeline Starts Exports After Repairs Bloomberg",
+    "source": "Bloomberg",
+    "date": "28 Sep 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWG4wbWZuVUlMby1wTk1zSURXY2tUM1NtM1BlVVRlUjF0UDJ1bmgxOEgyOE9MMjZWX09vRmhaWElGQ0VmNTJDX1dycHctS2xmTU04VUZrLUQ5emttVEZzdm5kMUJnMFlIY3FvVEgzd2RMTFg0RlpSM2hYTk11Uk1INDA2SlVoWEtPZlhGQjlNYmR0RUY5T2hrZGtmXzhrNDFpcjREckR4UTJ5X0RJRkw0dDZXdFFtQQ?oc=5",
+    "rank": 1
+   },
    {
     "headline": "Mideast oil exports rebound in September as Saudi Arabia boosts shipments - Reuters",
     "summary": "Mideast oil exports rebound in September as Saudi Arabia boosts shipments Reuters",
@@ -2588,25 +2597,25 @@
     "date": "28 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHV0WUlQdWJ2UVdjY2FzaFliQU1TaEEtYmJQUzVUbjUwcWJkNkhZSXYwV1BwbkFqY3Z6MVRkT21jbWhCUEg0eGY0TnFnY25XVjFiQzBMbE5yOXJlbzZVYVZ3UTJMc1BjLUFtb0FVaDRWVW9jRVFUZDQ0N2hGX19NREk0MHhZZVNSekNVb01JLWVPR0gzdm9fQ1ZTbFlHa2hYSDFBY2JpdkpmeDRFM0dpU0VmdHluNzZGbkpZ?oc=5",
-    "rank": 1
-   },
-   {
-    "headline": "World's first Formula E karting experience in Abha fuels Saudi Arabia's motorsport future - Formula E",
-    "summary": "World's first Formula E karting experience in Abha fuels Saudi Arabia's motorsport future Formula E",
-    "source": "Formula E",
-    "date": "28 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTk9QOGhXRjA3UWs1RVZCYzg3RWFxa3ZXU0duN1Vqcmo5RXZ4MnFfWEx6SDJULURadGhudThkM1YwX1oxS1E4RUpJcGZVTUMtdEtzX0NCS0FJb1htNTF6UUtyT2hHYklXSlUwYkM1QkdURDduTmxHVEpHdmlObWhZLVc3V1BEVzhZb01NOFlYcXpiakpoSURTLXNna3RpbGdYZUlKVXhkeU5hZEx4MjBmcWE4ZkFiR3BPb3VyTWNpZ0JtMEZZVTlWbFJ1RQ?oc=5",
     "rank": 2
    },
    {
-    "headline": "Saudi Arabia’s Crucial Oil Pipeline Starts Exports After Repairs - Bloomberg",
-    "summary": "Saudi Arabia’s Crucial Oil Pipeline Starts Exports After Repairs Bloomberg",
-    "source": "Bloomberg",
+    "headline": "World's first Formula E karting experience in Abha fuels Saudi Arabia's motorsport future - fiaformulae.com",
+    "summary": "World's first Formula E karting experience in Abha fuels Saudi Arabia's motorsport future fiaformulae.com",
+    "source": "fiaformulae.com",
     "date": "28 Sep 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWG4wbWZuVUlMby1wTk1zSURXY2tUM1NtM1BlVVRlUjF0UDJ1bmgxOEgyOE9MMjZWX09vRmhaWElGQ0VmNTJDX1dycHctS2xmTU04VUZrLUQ5emttVEZzdm5kMUJnMFlIY3FvVEgzd2RMTFg0RlpSM2hYTk11Uk1INDA2SlVoWEtPZlhGQjlNYmR0RUY5T2hrZGtmXzhrNDFpcjREckR4UTJ5X0RJRkw0dDZXdFFtQQ?oc=5",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTk9QOGhXRjA3UWs1RVZCYzg3RWFxa3ZXU0duN1Vqcmo5RXZ4MnFfWEx6SDJULURadGhudThkM1YwX1oxS1E4RUpJcGZVTUMtdEtzX0NCS0FJb1htNTF6UUtyT2hHYklXSlUwYkM1QkdURDduTmxHVEpHdmlObWhZLVc3V1BEVzhZb01NOFlYcXpiakpoSURTLXNna3RpbGdYZUlKVXhkeU5hZEx4MjBmcWE4ZkFiR3BPb3VyTWNpZ0JtMEZZVTlWbFJ1RQ?oc=5",
     "rank": 3
+   },
+   {
+    "headline": "Golf Saudi Strengthens Long-Term Commitment to Women’s Golf in the Kingdom and on the World Stage - LPGA",
+    "summary": "Golf Saudi Strengthens Long-Term Commitment to Women’s Golf in the Kingdom and on the World Stage LPGA",
+    "source": "LPGA",
+    "date": "28 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQckd0bnpuT1VsQWRNOGo5SDlodzFjVXB2eER5MUZ3ZmZzdjFGSVBKQmFBWC0yQkM4WUNUbm9BNUo5T200dlVyQ3VqeUIya08zNDhqZS03YlNFdHhURmMtM19yeTc3Uk9rQXk1RkhSbU5QNzRuQkFFdjg5UlRXYnNoMERLSlB6NVQ5ZEkyQ3NLcU5jUDNtYlZ0SnFYTkVvanh2c1lEU1FJQ0dzdlkxX3pORFlSUGhyS1FLNTlVTlhfdmxsNThHSVE?oc=5",
+    "rank": 4
    },
    {
     "headline": "Saudi Arabia Hands Out Oil & Gas Production Well Contracts to SLB during War - Industrial Info Resources",
@@ -2615,34 +2624,16 @@
     "date": "28 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVFB3WTFfMGMtdmFEa1h5SXAyVkYwTzlrT3Q2azRmLWRtb1JvaFRyMW1wUktaMzNkb28tMHh0T09aRjhwUkMxTEVqQWRGZ28xRnJTRHB5RXZKMWdDWjVHTWtLU1hPTndkWnM1clNLRk5LWTJoT3JnUmpzRUZpMXJCQ0tBUURHSnJDTmZXZm9jb2FrSmtKTEFmS3FKLVFud0RxOHRHVDZla25VeTlodnB2TmQ0b2tYOGhFYnNpdzNtSk4tN0dNdjF1Qm9mUkVNaTRxQS1ITDJZWlVxcWRQX0NIUHdwcw?oc=5",
-    "rank": 4
-   },
-   {
-    "headline": "US nuclear pact puts Saudi Arabia on path to the bomb - asiatimes.com",
-    "summary": "US nuclear pact puts Saudi Arabia on path to the bomb asiatimes.com",
-    "source": "asiatimes.com",
-    "date": "28 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZlZGNTd5Wm5JQjNxcHgwaGYxdURndGxEaEUwMEVtNjhQRVROWEQ5ZnZXejNMY2htT1FzWGlhQnZpSGNuam1MajVfalU2LTBjaHNsTnpPQU15MW5zNVdlcU1QcEQ4SVhSdUhMNV9IcU1vV0E0ajRhWll6TEVKUkZHWkpOWmZXdkk5WmdmTQ?oc=5",
     "rank": 5
    },
    {
-    "headline": "Houthis source claims Saudis attacked bridges, threatens retaliation - The Jerusalem Post",
-    "summary": "Houthis source claims Saudis attacked bridges, threatens retaliation The Jerusalem Post",
+    "headline": "Yemen's Houthis threaten to strike Saudi bridges in retaliation for airstrikes - report - The Jerusalem Post",
+    "summary": "Yemen's Houthis threaten to strike Saudi bridges in retaliation for airstrikes - report The Jerusalem Post",
     "source": "The Jerusalem Post",
     "date": "28 Sep 2026",
-    "tag": "politics",
+    "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE14OUMxZWp4Y3dLNmxLUVBJMXlfZnRQTnRJeTdBRUlxN2NIcUhKRFhBemV1U0syYnBkWVdmWUdmb2N3QWJ0UlpYdUpveWFmY21UVVFYcHBtcnRxUUlm?oc=5",
     "rank": 6
-   },
-   {
-    "headline": "Aljazira Bank Selects Thunes to Power Next-Generation Global Remittances from Saudi Arabia Thunes.com - Thunes",
-    "summary": "Aljazira Bank Selects Thunes to Power Next-Generation Global Remittances from Saudi Arabia Thunes.com Thunes",
-    "source": "Thunes",
-    "date": "28 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xLThOdlEtSnlTbFBjNk1XTzE4bnhxa05DSlNfWkJjeFVlTjJIcTNPWkpZRERzODNoWHV5aHZ6Rl9iT3pRbjVRTXo2LTFxQmd4ZVFISWpBSU4zeDVUNHNmQnZZWk1yRktjM29fZjhR?oc=5",
-    "rank": 7
    },
    {
     "headline": "View / More IPOs won’t be enough to fix the Saudi market - Semafor",
@@ -2651,6 +2642,15 @@
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb2NXM3NRQnNYdGZSdzN3Z1dqTGxTc1J4bF9LSEE3VGEtOUx2MDFJOURZeDlnRGxFV0dpZGpOOWY2S2RRdVlUUDcta0lPYnZOeHctOUgwM2ZBbzdzcGxnYmVjRzBJbWlRUzNBZFZBM2NZX3BPZ0t0XzNiV2dhcEdwT2R3S2VrYnpxZ0ZWdnNQODQ1TUlPUHc?oc=5",
+    "rank": 7
+   },
+   {
+    "headline": "US nuclear pact puts Saudi Arabia on path to the bomb - Asia Times",
+    "summary": "US nuclear pact puts Saudi Arabia on path to the bomb Asia Times",
+    "source": "Asia Times",
+    "date": "28 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZlZGNTd5Wm5JQjNxcHgwaGYxdURndGxEaEUwMEVtNjhQRVROWEQ5ZnZXejNMY2htT1FzWGlhQnZpSGNuam1MajVfalU2LTBjaHNsTnpPQU15MW5zNVdlcU1QcEQ4SVhSdUhMNV9IcU1vV0E0ajRhWll6TEVKUkZHWkpOWmZXdkk5WmdmTQ?oc=5",
     "rank": 8
    },
    {
@@ -2726,9 +2726,9 @@
     "rank": 16
    },
    {
-    "headline": "السفارة السعودية في إيران تحتفل باليوم الوطني - عكاظ",
-    "summary": "السفارة السعودية في إيران تحتفل باليوم الوطني عكاظ",
-    "source": "عكاظ",
+    "headline": "السفارة السعودية في إيران تحتفل باليوم الوطني - okaz.com.sa",
+    "summary": "السفارة السعودية في إيران تحتفل باليوم الوطني okaz.com.sa",
+    "source": "okaz.com.sa",
     "date": "25 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44ajdMOWJJaVoySHpPMHhUUmJFcFFoQ2h1bllvNVAzQlhMS0ZWVTVDSTI4dmJTY1FSck9TSm04aXh0aWFnazF0VTl5T2ZDRGQtSGlseTln0gFUQVVfeXFMTkxSRDN2elk4MWttdFFoSi1veFVyUUhheVB1VkNkSGpha1doSFBEVW9sUE1ZNlk5Rm82S2JuWTZpMkFKVWdVS0NBWDRtZVNQUmREOU9F?oc=5",
@@ -2782,22 +2782,31 @@
     "rank": 22
    },
    {
-    "headline": "Aljazira Bank Selects Thunes to Power Next-Generation Global Remittances from Saudi Arabia - PR Newswire",
-    "summary": "Aljazira Bank Selects Thunes to Power Next-Generation Global Remittances from Saudi Arabia PR Newswire",
-    "source": "PR Newswire",
-    "date": "28 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNEVORzZqZ3lKeWJUVjVqWlhVd0NKQXdPT2R1OVlkRVZpaDdUSGRLMGdlNEFvbGs2NGdnSlU0QmdTWHlObUpJT0YycDBHWW1uZ0IteHJfNFlvNVo5MGdGemZES3pxTTNDV2F0TDZsaTNwaWRkSWRvSUZRdUw5TVJ6V3c1SGlnMjVoR284S290b2RHWlhRY3N0S2FrMmY0X3g5Q3pnamJyM3ZUVWlUcVFudjA4QU5DZXBmanpQTk5mempuZktQV0tNd2tnQXBlbzVmYVF2TjJEdnZZYVkzQ1R0V1NBMA?oc=5",
-    "rank": 23
-   },
-   {
     "headline": "Iran offers to mediate talks between Saudi Arabia and Yemen - Middle East Eye",
     "summary": "Iran offers to mediate talks between Saudi Arabia and Yemen Middle East Eye",
     "source": "Middle East Eye",
     "date": "27 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTU02eEtPVEU2a2xGM3dJc1htMGhrRk5oRmJoTWlKbDVxVW1aQkhqdjhqTURFODh6MUQyY2V3RTVFeUQ2QWx0VnRHcW9welBTdWNlSHFYOXZuc2R5ckF2NGdiV0pFc0xXbGdVQzhjUkl3VG1YdUNzQVRIZ1FvZjJhV0Q4TVBBLTVnNE5UekFTQk14TTAydGx0akt3NEdpRVdFU3NZVUlXX3hqUVZwa1hmU0F1VQ?oc=5",
+    "rank": 23
+   },
+   {
+    "headline": "Aljazira Bank Selects Thunes to Power Next-Generation Global Remittances from Saudi Arabia - PR Newswire",
+    "summary": "Aljazira Bank Selects Thunes to Power Next-Generation Global Remittances from Saudi Arabia PR Newswire",
+    "source": "PR Newswire",
+    "date": "28 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNEVORzZqZ3lKeWJUVjVqWlhVd0NKQXdPT2R1OVlkRVZpaDdUSGRLMGdlNEFvbGs2NGdnSlU0QmdTWHlObUpJT0YycDBHWW1uZ0IteHJfNFlvNVo5MGdGemZES3pxTTNDV2F0TDZsaTNwaWRkSWRvSUZRdUw5TVJ6V3c1SGlnMjVoR284S290b2RHWlhRY3N0S2FrMmY0X3g5Q3pnamJyM3ZUVWlUcVFudjA4QU5DZXBmanpQTk5mempuZktQV0tNd2tnQXBlbzVmYVF2TjJEdnZZYVkzQ1R0V1NBMA?oc=5",
     "rank": 24
+   },
+   {
+    "headline": "Middle East Oil Exports Rebound in September as Saudi Arabia Increases Shipments - صحيفة مال",
+    "summary": "Middle East Oil Exports Rebound in September as Saudi Arabia Increases Shipments صحيفة مال",
+    "source": "صحيفة مال",
+    "date": "28 Sep 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zZEVZSllETXlRcUtwR2s0Q2dNd3hWQTQxdjREOC1QTU55Y1NMWWJnU2VfQmkwNEZDc1Fkc1dQSHpjSEhfVjAxbXN4NDFYbGF4enBXeEJSd1k4czR5d2hNd1lKNjlwTkNZUDJLcg?oc=5",
+    "rank": 25
    },
    {
     "headline": "Saudi foreign minister heads to Washington for talks amid Middle East tensions - AnewZ",
@@ -2806,15 +2815,6 @@
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSjhqY0pLNm43eThoTFExUU9FMkF5SjhXRy1IczZIZl9lVW52TTFtajhraVVIMHpObm9zbnJZNkdmdnFtMk9IZ2R3VUVGNnZTRVZBaXNKRTlNdzBLX2RsTUNrQjBHaVkxaEFfR2JlSUF1ZHJQZXFQMWNKbDVqUFRoNTM3WThMMjM0ZkEwMThxQ19yQnFQTHo5Qkh5VmRmVHJBZ0RRVVpMdGdmd2NscUZB?oc=5",
-    "rank": 25
-   },
-   {
-    "headline": "Middle East oil exports rebound as Saudi shipments rise in September - وكالة الأنباء السورية – سانا",
-    "summary": "Middle East oil exports rebound as Saudi shipments rise in September وكالة الأنباء السورية – سانا",
-    "source": "وكالة الأنباء السورية – ",
-    "date": "28 Sep 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9aMm1CX1JLeE1wYm9PY3BCQ0R0dUJZZWppV2JNRUVZNGxDcWVzTDlBUFdHNXNQbE1EV01BejlqNXlhcU44dzBFZm1UWE8?oc=5",
     "rank": 26
    },
    {
@@ -2890,21 +2890,21 @@
     "rank": 34
    },
    {
-    "headline": "الملك محمد السادس: أمن واستقرار السعودية جزء لا يتجزأ من أمن المغرب - الشرق الأوسط",
-    "summary": "الملك محمد السادس: أمن واستقرار السعودية جزء لا يتجزأ من أمن المغرب الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "27 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMimwVBVV95cUxQcWJGZjVNRmtCaEl6SGZaVWhmOXFFcGhpTEhBWkdtenI5bm5pNVFJWTg0REMycTl2ZWpBOU5FeEVtTGZCbXJwUFhWTWJ4MV9IZF8wUDk2OWZsUU1lWVJxeDB6UWh3M25yVFg3SGxMV3RBUmlCc3VXclg3UTJPNmNFaHQ3MWw0QmtRUjZNMWhEWEJFV2N6Sk1YY3ZPY2RYN1FKOXFOb2xSa19wWHB1SHNYb0J2TGQyMjk0ZERVRjZLaTMxakwwTHRYYjliY1dzR3ZOb25leGpWeTBWNlB5ajhiSElseG5xYWF1eHBZdnVvanlEXzl2d1FGV0g2S3pNdGVULThWNGlTdzVscWxCbFFrVnhyWUUxOXZodTBYNmhLMnM3WlQ4ejc1a0I1TUx0Q2ZmOE1YTVhPanNKaE94RjlXeGxwTGtLM3lnZHV2TGxOVzlqRW9GRk1tTm56TWlJMnBFSUJ3UXBDT19RUFg4VnU2bmhKZWZIdktuUGFtc1d5aFBHWHN4akg5MkUydlJGOV9ULWM1YldTWFZPeFRmZmF6VVpGQW5XaUFoMzcyMWZaU3pORWMtd1RmQWdSMVpqNTRYZkpXcFdWaVpnbzJmX1IzTFhmSHlEamZlSzhxSjRkQjRxUFpZbTBCWjJwRjdGWFFzWkY5R1JxV1ZxNFdxX1RIbDZxTmRRZEZseUpUTm1nNGd2RlItc2ZRQlZWa2o2TnY4RXJGZlNSX1g0ZmR4REZaa3ZKeWpjUXdNTkM2ZG5JZHZXWC0zcHVjWkR5OU0wMUxJWGcyYjh4RkZtb2Y3QW5DQ1RNUFg4WnNNdTR3eWRkRVdiUGRvOUJHNE05Qmc3Mk91WVVLWktfQXVoWXRkXzVaSjlqUGNFQ0ttTElZ?oc=5",
-    "rank": 35
-   },
-   {
     "headline": "رئيس «هنكل» لـ«الشرق الأوسط»: المرونة أصبحت جزءاً أساسياً من تصميم سلاسل الإمداد - الشرق الأوسط",
     "summary": "رئيس «هنكل» لـ«الشرق الأوسط»: المرونة أصبحت جزءاً أساسياً من تصميم سلاسل الإمداد الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMikAVBVV95cUxPTWtpSXVOVk42ajRpUUc5TkFrR3N1aEEyUE1UYllRRGV0Snd5RmIzOEstTFdTMGd1d25FZTkzM0Rab2VDeGJQVGFSVC1LaXVCOHZfY2dKR3l6clVXTThHVnBIRzR1QmNlUkdQajVZSFhfSURuUFBMMkJUYjJVeWVxbDluaUg2RmZiYnVjRGlVMjNsMFdUMnpvSEQ1SEJ2NEU0OVQycnVQaURzdTkzSHVPcjZNeklNdVFaNDFSeExPNjRMN1h3TGhXSVFnRmFGNS1EcHNFNnVzM1JKNnR6SjZUS3lOcTV1bHNuYkcwX1hGQ0w2RTJEZVoxS1I2VXZ6WEMtQTM3Q2lwTjJCZGZyNTVScXNvdk9jelljZFhoUXFYSllvOFFHM3FzZEtiQlZ1YmdraHp0MWgxVU5MRGN6SlpsV3BTR1FxZlIxQ3ZiZ3QyR1lnOGxGTG5uVFlsVGhyMGVwV2lKYjFJX2ZJcW9nN1luekxHelRFUnFsNllqQkRsaS1wdEVCZ0lscUhvRTFtUXh2d0JwZTdvOVNvSUxzTUJwUHB3WTdpLWxHNWptLTQxdFFNMFMxVkZHM0NUbWNxYjl5ckhQLXdpSDlRd2V5MmJiTk1Wd1ZjUkxKZTRYOWt6MkJuMXRaaFllNjdQdDdpbEpLc19wUjJGcC1qMU1JY21ublNyLUh5RGg5Y3dpaEpfWXVmbkRTNFdqRkVld0RaNmo2VDZsaVB2Y0ZnLXJPLUN5d0FBbi1ldGdnMXVYcnJHdmNYVUNIYi1yYk5vSHV6X2pDQU1DTm9nR0dCUUd6NXdMZXZEa1lzSk85YWZLVm1HRDNtb1NXckotZktPWnhUSl9YWDlidll6aGUxaEJNa3JuYw?oc=5",
+    "rank": 35
+   },
+   {
+    "headline": "«الصندوق الصناعي للاستثمار» يرصد فجوات السوق لاختيار الفرص السعودية - الشرق الأوسط",
+    "summary": "«الصندوق الصناعي للاستثمار» يرصد فجوات السوق لاختيار الفرص السعودية الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "28 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi1ARBVV95cUxNN3Z1Q1hXVUdNODFheUxxbk05bk5NdDFVYmhDbFRwcXdwRjczbU1DUGpndXZGd2tSenB0MExDMEY5aDVBZE91Rk1sR2ZWWEdJSkJwcEZTU1dEeHdVemJPVFg0M0FEY29UTkp3dEV1N2paX1VvakFkUEZGRHV2SmhrelJhUXRHN1NkUXM0WS1Nc09feW1WRXc5LTFYdFYwMTdFREJEWk5LdzNocUptRmhxcl9QdmNlbkhrYnBFZFowN29hQ0FoYnljMWV5QkpHMVFLdE83Rm8xU0pSd2hGNDdrV2JZR1d1UktMMXZMSXNaWlRLU1JaZkptMXFRTGZkZFB1TXR3VDNuSUNfQTBVVzJKNy1kNUoyTzZxNTBpSGlwSlRpT3E4RHNfaU1OM2VaYWtldnVRc2RHd3g3WHJvdGt5TzBfd3lvTUp3aG9UVHBzQmV3YmlVTE1UOXhKV1EwRmVOLWk0V0Z2VEVYQ3RHNWQ3Q3d6SVgzaWQ1YmRKVVcyQzRieEFoNVRuM0VpcnMxcXdOUkEyeWZfMGprcHRRRl92MG1CQTl2X0VUSmhvSjg0dE9SWkZaaklLNkJBZ2hhQXY1QVRHeFVEaTJHZVZGUEduYTZIT3pmelNoNERIR24xbHIwOTlQOWY1eUl0Q0NPR3otLV8xbXowRUdHaUFxRGhMQlVTUVZuSFFnUWVyRlg5cHNDeHp0MU42dXhCdVlpdEh5MEdMZTBPTGxYdmowQ241b09sWS1BR0Ewa0lhSGJSYjZISTNTQ3A2czd2SGxYZHZuNkJtZw?oc=5",
     "rank": 36
    }
   ]
@@ -3015,70 +3015,70 @@
   "stale_days": 30
  },
  "_apify": {
-  "google": "2026-09-27T20:00:27.781194+03:00",
+  "google": "2026-09-28T16:00:31.826088+03:00",
   "tiktok:tried": "2026-09-28T14:00:42.031101+03:00"
  },
  "google": {
-  "date": "27 Sep 2026",
+  "date": "28 Sep 2026",
   "items": [
    {
-    "text": "البقرة الضاحكة",
+    "text": "صحيفة عكاظ",
     "count": 200,
     "cat": "General",
     "source": "google"
    },
    {
-    "text": "زيدان إقبال",
-    "count": 5000,
-    "cat": "General",
+    "text": "south korea vs uruguay",
+    "count": 2000,
+    "cat": "Football",
     "source": "google"
    },
    {
-    "text": "النمسا ضد كوسوفو",
-    "count": 200,
-    "cat": "General",
-    "source": "google"
-   },
-   {
-    "text": "خبر",
+    "text": "كوريا الجنوبية ضد أوروغواي",
     "count": 2000,
     "cat": "General",
     "source": "google"
    },
    {
-    "text": "chelsea vs arsenal",
-    "count": 200,
-    "cat": "Football",
-    "source": "google"
-   },
-   {
-    "text": "school",
-    "count": 200,
+    "text": "كهبوب",
+    "count": 1000,
     "cat": "General",
     "source": "google"
    },
    {
-    "text": "austria vs kosovo",
-    "count": 1000,
+    "text": "japan vs venezuela",
+    "count": 5000,
     "cat": "Football",
     "source": "google"
    },
    {
-    "text": "denmark vs wales",
+    "text": "تيجراي",
+    "count": 500,
+    "cat": "General",
+    "source": "google"
+   },
+   {
+    "text": "مهاتير محمد",
+    "count": 1000,
+    "cat": "General",
+    "source": "google"
+   },
+   {
+    "text": "bangladesh vs singapore",
     "count": 500,
     "cat": "Football",
     "source": "google"
    },
    {
-    "text": "اليمن ضد قطر",
-    "count": 10000,
-    "cat": "Politics / Diplomacy",
+    "text": "സ്വര്ണം",
+    "count": 100,
+    "cat": "General",
     "source": "google"
    },
    {
-    "text": "serbia vs netherlands",
+    "text": "القتل",
     "count": 2000,
-    "cat": "Football",
+    "cat": "General",
     "source": "google"
    }
   ]
@@ -4610,76 +4610,6 @@
    "confidence": "high",
    "at": "2026-09-27T18:00:30.680298+03:00"
   },
-  "البقرة الضاحكة": {
-   "english": "The Laughing Cow",
-   "summary": "The French processed-cheese brand (La vache qui rit), a pantry staple across the Arab world and a fixture of childhood breakfasts and school sandwiches. It usually trends via nostalgia threads or a joke/meme rather than company news — note the #Nineties_Challenge also trending, which fits.",
-   "kind": "social",
-   "confidence": "medium",
-   "at": "2026-09-27T20:00:27.781194+03:00"
-  },
-  "زيدان إقبال": {
-   "english": "Zidane Iqbal",
-   "summary": "A footballer born in Manchester to Iraqi-Pakistani parents who came through Manchester United's academy, later moved to FC Utrecht in the Netherlands, and plays internationally for Iraq. Saudi and Gulf fans follow him closely as one of the region's highest-profile European-based players; he trends around Iraq matches or transfer talk.",
-   "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-09-27T20:00:27.781194+03:00"
-  },
-  "النمسا ضد كوسوفو": {
-   "english": "Austria vs Kosovo",
-   "summary": "The Arabic listing for an Austria–Kosovo men's football international. Arabic-language sports accounts and betting/streaming pages push European qualifier and Nations League fixtures into Saudi trends on match days.",
-   "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-09-27T20:00:27.781194+03:00"
-  },
-  "خبر": {
-   "english": "News / a report",
-   "summary": "The generic Arabic word for 'a piece of news', which trends when a single breaking story is being shared with phrasing like 'news just in'. The word alone gives no indication of the subject.",
-   "kind": "news",
-   "confidence": "low",
-   "at": "2026-09-27T20:00:27.781194+03:00"
-  },
-  "chelsea vs arsenal": {
-   "english": "Chelsea vs Arsenal",
-   "summary": "The English Premier League London derby between Chelsea and Arsenal. The Premier League has a huge Saudi audience and big English fixtures routinely trend in Saudi Arabia in English as well as Arabic.",
-   "kind": "sport",
-   "confidence": "high",
-   "at": "2026-09-27T20:00:27.781194+03:00"
-  },
-  "school": {
-   "english": "school",
-   "summary": "The English word trending alongside other English-language football fixtures, which usually signals bot-amplified or globally spilled-over trend traffic rather than a Saudi story; it can also ride on back-to-school season posts. The specific trigger is not readable from the word itself.",
-   "kind": "other",
-   "confidence": "low",
-   "at": "2026-09-27T20:00:27.781194+03:00"
-  },
-  "austria vs kosovo": {
-   "english": "Austria vs Kosovo",
-   "summary": "The English-language version of the same Austria–Kosovo football fixture trending in Arabic on this board. Duplicate English/Arabic fixture listings are typical of match-day trend boards.",
-   "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-09-27T20:00:27.781194+03:00"
-  },
-  "denmark vs wales": {
-   "english": "Denmark vs Wales",
-   "summary": "A men's football international between Denmark and Wales, listed in English as part of a cluster of European national-team fixtures trending the same day. It points to a European qualifying or Nations League matchday.",
-   "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-09-27T20:00:27.781194+03:00"
-  },
-  "اليمن ضد قطر": {
-   "english": "Yemen vs Qatar",
-   "summary": "A football match between the Yemeni and Qatari national teams, an Asian regional fixture with strong interest among the large Yemeni community in Saudi Arabia. Other Yemen-related terms on the board suggest heightened Yemeni attention online today.",
-   "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-09-27T20:00:27.781194+03:00"
-  },
-  "serbia vs netherlands": {
-   "english": "Serbia vs Netherlands",
-   "summary": "A men's football international between Serbia and the Netherlands, matching the separate Arabic trend 'صربيا' (Serbia) on the same board. Part of the day's run of European national-team fixtures followed by Saudi football fans.",
-   "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-09-27T20:00:27.781194+03:00"
-  },
   "#قطر_اليمن": {
    "english": "#Qatar_Yemen",
    "summary": "Qatar versus Yemen, almost certainly a football fixture between the two national teams — Qatar (\"Al-Annabi\", the 2019 and 2023 Asian Cup winners) and Yemen — in a continental qualifier or Gulf tournament. Saudi audiences follow regional Arab fixtures closely, and the presence of Qatari star Akram Afif elsewhere on the board supports a match-day conversation.",
@@ -4841,13 +4771,6 @@
    "confidence": "medium",
    "at": "2026-09-28T06:00:26.304685+03:00"
   },
-  "اليوم الاحد": {
-   "english": "Today is Sunday",
-   "summary": "A generic day-of-the-week phrase that trends through sheer volume of routine posts — morning greetings, religious supplications, weather and school notices, and daily horoscope or offers content. It carries no single news story.",
-   "kind": "social",
-   "confidence": "medium",
-   "at": "2026-09-28T06:00:26.304685+03:00"
-  },
   "علي النقاب": {
    "english": "On/About the Niqab",
    "summary": "Almost certainly the spin-off conversation from the #2030_Without_the_Niqab hashtag also trending — commentary for and against the face veil, its religious basis and whether it should remain customary in Saudi public life.",
@@ -4904,12 +4827,89 @@
    "confidence": "medium",
    "at": "2026-09-28T15:00:30.111069+03:00"
   },
-  "الباقه الشامله": {
-   "english": "The Comprehensive Package / The All-Inclusive Bundle",
-   "summary": "\"Al-Baqah al-Shamilah\" is standard marketing language for an all-in-one subscription bundle, most often a mobile or internet plan from Saudi telecom operators such as stc, Mobily or Zain, though the same phrasing is used for insurance, health and streaming offers. A trend around it typically reflects a promotional push, a price or terms change, or a wave of customer complaints about what the bundle actually includes.",
-   "kind": "business",
+  "نظام المعاملات المدنيه": {
+   "english": "The Civil Transactions Law",
+   "summary": "Saudi Arabia's codified civil code, issued in 2023 as part of the Kingdom's legal-reform drive under Vision 2030, covering contracts, property, obligations and damages. It trends whenever amendments, implementing regulations, court rulings or explainer threads about citizens' rights under the code circulate.",
+   "kind": "news",
+   "confidence": "medium",
+   "at": "2026-09-28T16:00:31.826088+03:00"
+  },
+  "مركز البحوث": {
+   "english": "The Research Center",
+   "summary": "A generic Arabic phrase meaning \"the research centre\"; in Saudi usage it could refer to any of several institutions, such as university research centres or the research arms of government bodies. Without more context the specific centre being discussed is not identifiable from the words alone.",
+   "kind": "other",
    "confidence": "low",
-   "at": "2026-09-28T15:00:30.111069+03:00"
+   "at": "2026-09-28T16:00:31.826088+03:00"
+  },
+  "صحيفة عكاظ": {
+   "english": "Okaz newspaper",
+   "summary": "Okaz is one of Saudi Arabia's oldest and largest Arabic daily newspapers, based in Jeddah and named after the historic pre-Islamic Okaz market. It trends when one of its reports, columns or front pages is widely shared or disputed.",
+   "kind": "news",
+   "confidence": "high",
+   "at": "2026-09-28T16:00:31.826088+03:00"
+  },
+  "south korea vs uruguay": {
+   "english": "South Korea vs Uruguay",
+   "summary": "A football fixture between the South Korean national team (the Taegeuk Warriors) and Uruguay (La Celeste), most likely an international friendly during a FIFA window. Saudi fans follow global internationals closely and Arabic sports media cover them heavily; the exact competition and result are not something I can confirm.",
+   "kind": "sport",
+   "confidence": "low",
+   "at": "2026-09-28T16:00:31.826088+03:00"
+  },
+  "كوريا الجنوبية ضد أوروغواي": {
+   "english": "South Korea vs Uruguay",
+   "summary": "The Arabic-language version of the same football fixture between South Korea and Uruguay, trending in parallel with the English hashtag as Arabic-speaking fans live-tweet the match.",
+   "kind": "sport",
+   "confidence": "low",
+   "at": "2026-09-28T16:00:31.826088+03:00"
+  },
+  "كهبوب": {
+   "english": "Kahboub",
+   "summary": "A Gulf colloquial word or nickname that does not map to a widely known person, place or brand; it may be a slang term or an individual's social-media handle. The subject behind this trend is not clear from the word alone.",
+   "kind": "other",
+   "confidence": "low",
+   "at": "2026-09-28T16:00:31.826088+03:00"
+  },
+  "japan vs venezuela": {
+   "english": "Japan vs Venezuela",
+   "summary": "A football match between Japan's national team (Samurai Blue) and Venezuela (La Vinotinto), most likely an international friendly in a FIFA window. It appears alongside other national-team fixtures on the board, indicating a cluster of internationals being watched by Saudi fans.",
+   "kind": "sport",
+   "confidence": "low",
+   "at": "2026-09-28T16:00:31.826088+03:00"
+  },
+  "تيجراي": {
+   "english": "Tigray",
+   "summary": "The northern Ethiopian region that was the centre of a devastating civil war between federal forces and Tigrayan authorities from 2020 to 2022. Arabic-language accounts post about it when political tensions, humanitarian conditions or renewed unrest in the Horn of Africa make the news.",
+   "kind": "news",
+   "confidence": "low",
+   "at": "2026-09-28T16:00:31.826088+03:00"
+  },
+  "مهاتير محمد": {
+   "english": "Mahathir Mohamad",
+   "summary": "The veteran Malaysian politician who served twice as prime minister and is one of the Muslim world's best-known elder statesmen, now well past 100 years old. He is widely quoted in Arabic social media on Islamic-world politics and development, and news about his health or statements draws heavy engagement.",
+   "kind": "politics",
+   "confidence": "medium",
+   "at": "2026-09-28T16:00:31.826088+03:00"
+  },
+  "bangladesh vs singapore": {
+   "english": "Bangladesh vs Singapore",
+   "summary": "A football fixture between the Bangladesh and Singapore national teams, typically an AFC Asian Cup qualifier or friendly. It trends in Saudi Arabia largely because of the very large Bangladeshi expatriate workforce in the Kingdom following their team.",
+   "kind": "sport",
+   "confidence": "medium",
+   "at": "2026-09-28T16:00:31.826088+03:00"
+  },
+  "സ്വര്ണം": {
+   "english": "Swarnam (\"gold\" in Malayalam)",
+   "summary": "The Malayalam word for gold, posted by the large community of Indian expatriates from Kerala living in Saudi Arabia, who track daily gold rates closely for savings, remittances and wedding purchases. Spikes usually follow sharp moves in the gold price.",
+   "kind": "business",
+   "confidence": "medium",
+   "at": "2026-09-28T16:00:31.826088+03:00"
+  },
+  "القتل": {
+   "english": "Killing / murder",
+   "summary": "The Arabic noun for killing or homicide, which trends around crime reports, court verdicts, sentencing or capital-punishment cases, or around conflict coverage abroad. The specific case or story driving it cannot be determined from the word alone.",
+   "kind": "news",
+   "confidence": "low",
+   "at": "2026-09-28T16:00:31.826088+03:00"
   }
  }
 }
