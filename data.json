@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Monday, 28 September 2026 · 16:00 KSA",
+ "lastUpdated": "Monday, 28 September 2026 · 17:00 KSA",
  "days": {
   "2026-09-15": {
    "label": "Tue 15 Sep",
@@ -2158,31 +2158,31 @@
    "trends": [
     {
      "rank": 1,
-     "text": "#_بلا_",
+     "text": "#ولي__العهد",
      "cat": "General",
      "pts": 14
     },
     {
      "rank": 2,
-     "text": "#تعليق_الدراسه",
-     "cat": "Education",
+     "text": "#_بلا_",
+     "cat": "General",
      "pts": 12
     },
     {
      "rank": 3,
-     "text": "#رحله_المليون67",
-     "cat": "General",
+     "text": "#تعليق_الدراسه",
+     "cat": "Education",
      "pts": 10
     },
     {
      "rank": 4,
-     "text": "#الحمد_الله",
+     "text": "#رحله_المليون67",
      "cat": "General",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "#السعوديه_عمان",
+     "text": "#الحمد_الله",
      "cat": "General",
      "pts": 7
     },
@@ -2194,7 +2194,7 @@
     },
     {
      "rank": 7,
-     "text": "حارس النرويج",
+     "text": "$XDC",
      "cat": "General",
      "pts": 6
     },
@@ -2206,7 +2206,7 @@
     },
     {
      "rank": 9,
-     "text": "نظام المعاملات المدنيه",
+     "text": "قصر الاواني",
      "cat": "General",
      "pts": 6
     },
@@ -2218,19 +2218,19 @@
     },
     {
      "rank": 11,
-     "text": "مركز البحوث",
+     "text": "تويتر",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 12,
-     "text": "قصر الاواني",
+     "text": "مركز البحوث",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 13,
-     "text": "تويتر",
+     "text": "نظام المعاملات المدنيه",
      "cat": "General",
      "pts": 4
     },
@@ -2248,13 +2248,13 @@
     },
     {
      "rank": 16,
-     "text": "جواو",
+     "text": "الدايره الاولي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 17,
-     "text": "الدايره الاولي",
+     "text": "جواو",
      "cat": "General",
      "pts": 4
     },
@@ -2272,43 +2272,48 @@
     },
     {
      "rank": 20,
-     "text": "فيصل اليامي",
-     "cat": "General",
+     "text": "وزير العدل",
+     "cat": "Politics / Diplomacy",
      "pts": 4
     }
    ],
    "hashtags": [
     {
-     "text": "#_بلا_",
+     "text": "#ولي__العهد",
      "score": 100
     },
     {
-     "text": "#تعليق_الدراسه",
+     "text": "#_بلا_",
      "score": 88
     },
     {
-     "text": "#رحله_المليون67",
+     "text": "#تعليق_الدراسه",
      "score": 76
     },
     {
-     "text": "#الحمد_الله",
+     "text": "#رحله_المليون67",
      "score": 64
     },
     {
-     "text": "#السعوديه_عمان",
+     "text": "#الحمد_الله",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (19)",
-     "items": "#_بلا_ · #رحله_المليون67 · #الحمد_الله · #السعوديه_عمان · العراق · حارس النرويج · اليوم الاثنين · نظام المعاملات المدنيه · معاذ بن جبل رضي · مركز البحوث"
+     "label": "General (18)",
+     "items": "#ولي__العهد · #_بلا_ · #رحله_المليون67 · #الحمد_الله · العراق · $XDC · اليوم الاثنين · قصر الاواني · معاذ بن جبل رضي · تويتر"
     },
     {
      "icon": "📚",
      "label": "Education (1)",
      "items": "#تعليق_الدراسه"
+    },
+    {
+     "icon": "🏛️",
+     "label": "Politics / Diplomacy (1)",
+     "items": "وزير العدل"
     }
    ]
   }
@@ -2528,7 +2533,7 @@
   "سالم": 4,
   "إبراهيم خفاجي": 4,
   "رييس مجلس القياده اليمني": 4,
-  "#السعوديه_عمان": 21,
+  "#السعوديه_عمان": 14,
   "فراس": 12,
   "#شبيه__سهيل_الامير_محمدبن_سلمان": 10,
   "حسن كادش": 7,
@@ -2547,13 +2552,13 @@
   "#ننخاك_ياسرحان_العفو": 12,
   "#قطر_اليمن": 10,
   "#تطبيق_استقرار_للزواج": 8,
-  "#رحله_المليون67": 17,
+  "#رحله_المليون67": 15,
   "حارس اليمن": 6,
   "اكرم عفيف": 6,
   "منتخب قطر": 6,
   "يوسف عبدالرزاق": 4,
   "الربع الخالي": 4,
-  "قصر الاواني": 8,
+  "قصر الاواني": 10,
   "أسامة هوساوي": 4,
   "القوات المسلحه اليمنيه": 4,
   "المنتخب القطري": 4,
@@ -2561,34 +2566,44 @@
   "فيجن مصنع": 8,
   "يابو الجوهره": 4,
   "خراب مالطا": 4,
-  "#_بلا_": 14,
-  "#تعليق_الدراسه": 12,
-  "#الحمد_الله": 8,
+  "#ولي__العهد": 14,
+  "#_بلا_": 12,
+  "#تعليق_الدراسه": 10,
+  "#الحمد_الله": 7,
   "العراق": 6,
-  "حارس النرويج": 6,
+  "$XDC": 6,
   "اليوم الاثنين": 6,
-  "نظام المعاملات المدنيه": 6,
   "معاذ بن جبل رضي": 6,
-  "مركز البحوث": 4,
   "تويتر": 4,
+  "مركز البحوث": 4,
+  "نظام المعاملات المدنيه": 4,
   "ميسي": 4,
   "راموس": 4,
-  "جواو": 4,
   "الدايره الاولي": 4,
+  "جواو": 4,
   "علي النقاب": 4,
-  "فيصل اليامي": 4
+  "وزير العدل": 4
  },
  "news": {
   "date": "28 Sep 2026",
   "domestic": [
    {
-    "headline": "Saudi Arabia’s Key Oil Pipeline Starts Exports After Repairs - Bloomberg",
-    "summary": "Saudi Arabia’s Key Oil Pipeline Starts Exports After Repairs Bloomberg",
-    "source": "Bloomberg",
+    "headline": "Why the Iran-Backed Houthis in Yemen and Saudi Arabia Are at War Again - The New York Times",
+    "summary": "Why the Iran-Backed Houthis in Yemen and Saudi Arabia Are at War Again The New York Times",
+    "source": "The New York Times",
+    "date": "28 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa3ZvZG1DVHkwY2JmZkZlVjJLeFRCTE1udWpqdnZKcEJwWjQ4eW5RUTR0dGp1ak1uODluWFY4YlNWakV3SmxMQi02OWprNHhyT252RHprcjRIVDhGTHRMRUx0VEs0c1UtLXdlZ3huMGJxNTJPMkhfYXdQdlZ6aWFoR21aZks5amM?oc=5",
+    "rank": 1
+   },
+   {
+    "headline": "Saudi Arabia’s Key Oil Pipeline Starts Exports After Repairs - Bloomberg.com",
+    "summary": "Saudi Arabia’s Key Oil Pipeline Starts Exports After Repairs Bloomberg.com",
+    "source": "Bloomberg.com",
     "date": "28 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWG4wbWZuVUlMby1wTk1zSURXY2tUM1NtM1BlVVRlUjF0UDJ1bmgxOEgyOE9MMjZWX09vRmhaWElGQ0VmNTJDX1dycHctS2xmTU04VUZrLUQ5emttVEZzdm5kMUJnMFlIY3FvVEgzd2RMTFg0RlpSM2hYTk11Uk1INDA2SlVoWEtPZlhGQjlNYmR0RUY5T2hrZGtmXzhrNDFpcjREckR4UTJ5X0RJRkw0dDZXdFFtQQ?oc=5",
-    "rank": 1
+    "rank": 2
    },
    {
     "headline": "Mideast oil exports rebound in September as Saudi Arabia boosts shipments - Reuters",
@@ -2597,16 +2612,25 @@
     "date": "28 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHV0WUlQdWJ2UVdjY2FzaFliQU1TaEEtYmJQUzVUbjUwcWJkNkhZSXYwV1BwbkFqY3Z6MVRkT21jbWhCUEg0eGY0TnFnY25XVjFiQzBMbE5yOXJlbzZVYVZ3UTJMc1BjLUFtb0FVaDRWVW9jRVFUZDQ0N2hGX19NREk0MHhZZVNSekNVb01JLWVPR0gzdm9fQ1ZTbFlHa2hYSDFBY2JpdkpmeDRFM0dpU0VmdHluNzZGbkpZ?oc=5",
-    "rank": 2
+    "rank": 3
    },
    {
-    "headline": "World's first Formula E karting experience in Abha fuels Saudi Arabia's motorsport future - fiaformulae.com",
-    "summary": "World's first Formula E karting experience in Abha fuels Saudi Arabia's motorsport future fiaformulae.com",
-    "source": "fiaformulae.com",
+    "headline": "Cornered By Houthis And Iran, Saudi Arabia Garners Allied Defense Support - Forbes",
+    "summary": "Cornered By Houthis And Iran, Saudi Arabia Garners Allied Defense Support Forbes",
+    "source": "Forbes",
+    "date": "28 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZHA4MWVqejMwUHE0cEYzOXFpZTd0TDRPblVZcjdOZEhLQUVwdEthNFdaVHY0WWotT2JhSHBvdGlfblFpTThDX212YUo2ZFUzRDBNNF9NUW9qQ2J6RlZwdmQ3TEpFc3pvNlFNM2dPbGFZVC1Hak5xdjZzMlF1dnJOME1VRVBTcUpMbG9wNEk5VXJTT1FQcVVGRnVyak1zdGljZ1dlTEJVWnBFdWdYREVmZi10bHV0bXBiZnVDTkx1b2c?oc=5",
+    "rank": 4
+   },
+   {
+    "headline": "World's first Formula E karting experience in Abha fuels Saudi Arabia's motorsport future - Formula E",
+    "summary": "World's first Formula E karting experience in Abha fuels Saudi Arabia's motorsport future Formula E",
+    "source": "Formula E",
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTk9QOGhXRjA3UWs1RVZCYzg3RWFxa3ZXU0duN1Vqcmo5RXZ4MnFfWEx6SDJULURadGhudThkM1YwX1oxS1E4RUpJcGZVTUMtdEtzX0NCS0FJb1htNTF6UUtyT2hHYklXSlUwYkM1QkdURDduTmxHVEpHdmlObWhZLVc3V1BEVzhZb01NOFlYcXpiakpoSURTLXNna3RpbGdYZUlKVXhkeU5hZEx4MjBmcWE4ZkFiR3BPb3VyTWNpZ0JtMEZZVTlWbFJ1RQ?oc=5",
-    "rank": 3
+    "rank": 5
    },
    {
     "headline": "Golf Saudi Strengthens Long-Term Commitment to Women’s Golf in the Kingdom and on the World Stage - LPGA",
@@ -2615,16 +2639,7 @@
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQckd0bnpuT1VsQWRNOGo5SDlodzFjVXB2eER5MUZ3ZmZzdjFGSVBKQmFBWC0yQkM4WUNUbm9BNUo5T200dlVyQ3VqeUIya08zNDhqZS03YlNFdHhURmMtM19yeTc3Uk9rQXk1RkhSbU5QNzRuQkFFdjg5UlRXYnNoMERLSlB6NVQ5ZEkyQ3NLcU5jUDNtYlZ0SnFYTkVvanh2c1lEU1FJQ0dzdlkxX3pORFlSUGhyS1FLNTlVTlhfdmxsNThHSVE?oc=5",
-    "rank": 4
-   },
-   {
-    "headline": "Saudi Arabia Hands Out Oil & Gas Production Well Contracts to SLB during War - Industrial Info Resources",
-    "summary": "Saudi Arabia Hands Out Oil & Gas Production Well Contracts to SLB during War Industrial Info Resources",
-    "source": "Industrial Info Resource",
-    "date": "28 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVFB3WTFfMGMtdmFEa1h5SXAyVkYwTzlrT3Q2azRmLWRtb1JvaFRyMW1wUktaMzNkb28tMHh0T09aRjhwUkMxTEVqQWRGZ28xRnJTRHB5RXZKMWdDWjVHTWtLU1hPTndkWnM1clNLRk5LWTJoT3JnUmpzRUZpMXJCQ0tBUURHSnJDTmZXZm9jb2FrSmtKTEFmS3FKLVFud0RxOHRHVDZla25VeTlodnB2TmQ0b2tYOGhFYnNpdzNtSk4tN0dNdjF1Qm9mUkVNaTRxQS1ITDJZWlVxcWRQX0NIUHdwcw?oc=5",
-    "rank": 5
+    "rank": 6
    },
    {
     "headline": "Yemen's Houthis threaten to strike Saudi bridges in retaliation for airstrikes - report - The Jerusalem Post",
@@ -2633,34 +2648,7 @@
     "date": "28 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE14OUMxZWp4Y3dLNmxLUVBJMXlfZnRQTnRJeTdBRUlxN2NIcUhKRFhBemV1U0syYnBkWVdmWUdmb2N3QWJ0UlpYdUpveWFmY21UVVFYcHBtcnRxUUlm?oc=5",
-    "rank": 6
-   },
-   {
-    "headline": "View / More IPOs won’t be enough to fix the Saudi market - Semafor",
-    "summary": "View / More IPOs won’t be enough to fix the Saudi market Semafor",
-    "source": "Semafor",
-    "date": "28 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb2NXM3NRQnNYdGZSdzN3Z1dqTGxTc1J4bF9LSEE3VGEtOUx2MDFJOURZeDlnRGxFV0dpZGpOOWY2S2RRdVlUUDcta0lPYnZOeHctOUgwM2ZBbzdzcGxnYmVjRzBJbWlRUzNBZFZBM2NZX3BPZ0t0XzNiV2dhcEdwT2R3S2VrYnpxZ0ZWdnNQODQ1TUlPUHc?oc=5",
     "rank": 7
-   },
-   {
-    "headline": "US nuclear pact puts Saudi Arabia on path to the bomb - Asia Times",
-    "summary": "US nuclear pact puts Saudi Arabia on path to the bomb Asia Times",
-    "source": "Asia Times",
-    "date": "28 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZlZGNTd5Wm5JQjNxcHgwaGYxdURndGxEaEUwMEVtNjhQRVROWEQ5ZnZXejNMY2htT1FzWGlhQnZpSGNuam1MajVfalU2LTBjaHNsTnpPQU15MW5zNVdlcU1QcEQ4SVhSdUhMNV9IcU1vV0E0ajRhWll6TEVKUkZHWkpOWmZXdkk5WmdmTQ?oc=5",
-    "rank": 8
-   },
-   {
-    "headline": "With Saudi Arabia, Bahrain and Oman consistently - EEAS",
-    "summary": "With Saudi Arabia, Bahrain and Oman consistently EEAS",
-    "source": "EEAS",
-    "date": "28 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaFlCcGZxTGpFQ1A0cUZVMWUzVl84TG83OTZRYjd2N1RJbTU5bFRCTTZWQ1hNVmZ3RGxEMU83bXlramxWU0dNaEJQUkNWN3JJcGV2MjJxUHRLZF91cGItSWJwXzZaQ2RLbDhjTWNJTHg5Q05xLXliLVk4bzctYXdlbTdDNUI4VnZCenBTczNBNXBkUFlIWDNWd2p0eW5lUQ?oc=5",
-    "rank": 9
    },
    {
     "headline": "Yemen: Houthis report deadly Saudi strikes on Taiz market - DW.com",
@@ -2669,15 +2657,33 @@
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY2tiTmtOT3NLUTZvN1hYZHlETHUySG5iMnRvU0ltVS03QXAzWmtocndacEhvVGViM2xnbnFFbkhQLWt6eDlkQVhoUWtMRHNrSVBoS2l3VzlCQzVJTXdPTTVNZVg5WHF5eGdSZzN0ZmNBQlRZeDhmSkNOd3VJRElmbDU4aFVCUFFBTDFVLXl2U01OemfSAZMBQVVfeXFMTVJmck1SdmphcTFYLXhiV1U5ZHI5TzZMcVFjZDBZMFk4NTQ5U1RJSHVyM3pFU3pFZTlsTmNiTUQyODU4VFNRU2FOMGZuSVBfVjlfOXpQZk8zZlJWUDBDZmtmVG1CUHhKamZEVnpuTUoyU253U1g3cS05cWZMWHdMZXBkYXEzUTZsT19lNjg0dW1EcVc0?oc=5",
+    "rank": 8
+   },
+   {
+    "headline": "Saudi Arabia Hands Out Oil & Gas Production Well Contracts to SLB during War - Industrial Info Resources",
+    "summary": "Saudi Arabia Hands Out Oil & Gas Production Well Contracts to SLB during War Industrial Info Resources",
+    "source": "Industrial Info Resource",
+    "date": "28 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdVM1SkFCMUlUNnczU3lOR2VRLVVoQ1IzNWJUYWNiYUo1X0VpV3NPZnA5TGpxRW9QWVAzSGdXeGpCRlM4MmdMX1ZFZWpRYXc4SlF1cnEta1h6SS1acXBDMmpqNEROZ0Y0LVhXSlhFVUVlMG9ZMVN1VkJrME5ZOW5hVUYtM3h3dWhuUHZHeG5aVVRfWWZWRFNac3pJak9HSXFGdDUzX21FWlMzTlVEWmFQQ2FJUTRhN2NFTEpUOWJpRFV5eDRQM09MQTVR?oc=5",
+    "rank": 9
+   },
+   {
+    "headline": "Africa’s wealthiest king declares that any attack on Saudi Arabia is an attack on his kingdom - Business Insider Africa",
+    "summary": "Africa’s wealthiest king declares that any attack on Saudi Arabia is an attack on his kingdom Business Insider Africa",
+    "source": "Business Insider Africa",
+    "date": "28 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQb2dmOG5lYmN3YnJYbjY1OFZoYl9jZ1Zvcmp1azBJSkd1QTZ2T0cyUVRXTVpUVm5QN3hIZXhLQmtFaDc0Uld0SG1nQ3hJUkw1VjNpRHd5SWk2VWtSdWJoQjV2Y3huUnZ4Z3VQMjlaUFJreWEzdTRSdThIWFA5cWUyN1RlZ3RsTURjQ2xZUVVhNkktOVd3YmIyaDhOQk9wRm04MEFfbVZpckNkM2Zic0JvcFozYWEzUXlhU3RCLUd2cVZiY29tRFA3WTJNZGExcHQ1NXZOd3hwc2FoY0E?oc=5",
     "rank": 10
    },
    {
-    "headline": "السعودية تعلن ما توصل إليه قادة جيوش دول \"اتفاقية مكة\" خلال اجتماع الرياض - CNN Arabic",
-    "summary": "السعودية تعلن ما توصل إليه قادة جيوش دول \"اتفاقية مكة\" خلال اجتماع الرياض CNN Arabic",
-    "source": "CNN Arabic",
-    "date": "25 Sep 2026",
+    "headline": "مجلس الأمن يدين هجمات جماعة أنصار الله الحوثية على الرياض، والرئاسة اليمنية تعلن \"التعبئة\"، و السعودية تحث على \"الرباط والجهاد\" - bbc.com",
+    "summary": "مجلس الأمن يدين هجمات جماعة أنصار الله الحوثية على الرياض، والرئاسة اليمنية تعلن \"التعبئة\"، و السعودية تحث على \"الرباط والجهاد\" bbc.com",
+    "source": "bbc.com",
+    "date": "26 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcEk3SmlXZEpNWkkxYkd0eUQ2amNVdHczMUtOM3JCQzk5WWlyMUI3NWlRcVg5LVo2bG9OUVUtVGQwSndnb3VvRXhYTkluQUg5VHhHTTBQXzR4ZG1vNS11ZUJFT0lWelVnS0R2dEI1d2F1Zm9MRUdmLWU1Zm9pNmF0TlRpS1hXWFctWExBN3A2LXhpbmdUbzVicC1ZbkJuaUZ2bUpEcnpBZEFuTDhHSTFReTVBSQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBKUDNMX0h0T2MyOXBjaUVuRkxOSGtvUXI1dlg2YVJfZUdrTU55MUs2LTBrbVZZRjgya3lzcHVSdnpycjZOVWNtcUhxSFIzRi1FNVZSa0NjTDlVbzBnYWfSAWNBVV95cUxQWGI4VVlFUm5McEFfblg4Y2diOTFzUVktTDh6dFEyWndvWXF1RTM1cW9uN0NDTEUxVFN2VlA1WUEwMjdJVnlMY05yRDZxUUhEdmZGR0ZFYkVLMVY3RmdSZ0pzNHM?oc=5",
     "rank": 11
    },
    {
@@ -2690,21 +2696,21 @@
     "rank": 12
    },
    {
-    "headline": "مجلس الأمن يدين هجمات جماعة أنصار الله الحوثية على الرياض، والرئاسة اليمنية تعلن \"التعبئة\"، و السعودية تحث على \"الرباط والجهاد\" - bbc.com",
-    "summary": "مجلس الأمن يدين هجمات جماعة أنصار الله الحوثية على الرياض، والرئاسة اليمنية تعلن \"التعبئة\"، و السعودية تحث على \"الرباط والجهاد\" bbc.com",
-    "source": "bbc.com",
-    "date": "26 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBKUDNMX0h0T2MyOXBjaUVuRkxOSGtvUXI1dlg2YVJfZUdrTU55MUs2LTBrbVZZRjgya3lzcHVSdnpycjZOVWNtcUhxSFIzRi1FNVZSa0NjTDlVbzBnYWfSAWNBVV95cUxQWGI4VVlFUm5McEFfblg4Y2diOTFzUVktTDh6dFEyWndvWXF1RTM1cW9uN0NDTEUxVFN2VlA1WUEwMjdJVnlMY05yRDZxUUhEdmZGR0ZFYkVLMVY3RmdSZ0pzNHM?oc=5",
-    "rank": 13
-   },
-   {
     "headline": "ملك المغرب: أي اعتداء على السعودية هو اعتداء على علينا - جريدة الجزيرة",
     "summary": "ملك المغرب: أي اعتداء على السعودية هو اعتداء على علينا جريدة الجزيرة",
     "source": "جريدة الجزيرة",
     "date": "27 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE10M0pMYkRXVWZzVlgzM1pnNlEtNTRTNkdVd2FBY2RRRC1OWVZubi1JNS1fVUgweVVOdzJBM3d6eXlmU2QwbWMwT3dPU2JGbWtlcDJaWWhiOU1IVW91?oc=5",
+    "rank": 13
+   },
+   {
+    "headline": "السعودية تعلن ما توصل إليه قادة جيوش دول \"اتفاقية مكة\" خلال اجتماع الرياض - CNN Arabic",
+    "summary": "السعودية تعلن ما توصل إليه قادة جيوش دول \"اتفاقية مكة\" خلال اجتماع الرياض CNN Arabic",
+    "source": "CNN Arabic",
+    "date": "25 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcEk3SmlXZEpNWkkxYkd0eUQ2amNVdHczMUtOM3JCQzk5WWlyMUI3NWlRcVg5LVo2bG9OUVUtVGQwSndnb3VvRXhYTkluQUg5VHhHTTBQXzR4ZG1vNS11ZUJFT0lWelVnS0R2dEI1d2F1Zm9MRUdmLWU1Zm9pNmF0TlRpS1hXWFctWExBN3A2LXhpbmdUbzVicC1ZbkJuaUZ2bUpEcnpBZEFuTDhHSTFReTVBSQ?oc=5",
     "rank": 14
    },
    {
@@ -2722,13 +2728,13 @@
     "source": "الجزيرة نت",
     "date": "26 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPemV1RzBBQkZDX3lnZUFMeEZUbEJOTGdkaFZEbk5yRzA5WkY2WU1SdVpzYmFfWDdKWlJSN2N4QXRBa0pkXzRtWk9aRHFfYzdSRlVMZFN4Q2VVRkRCZDh6SVRxa2F1Y3JXRWVlQzF0Z0N3Wk1RWEc1RU5GSW5sV2UxbEZvdllaejV3UDhNNU1wRXVfV2RicUxaeFRPNzhIVWM1Y2NyTUF6NVE0VHNqOWRKOHJLZ2R3b2MxQlFvSGU0bjhtcEVSLTB0RnFzY0NrTWFvWlpEOWg4NjFWMTBsMmRNUWt2MFhUVU1WbUtKZzdJOHdlVG1JX1lfMldjb19Fby13UzNTUVI3a0pITktFQk5yQ0RBMUNpZ0ZsNXBZRVQzMW7SAaYCQVVfeXFMUGNha2NGZHJEQUVZU3V6RGxLSzhKeHdvY2pNVVY1eC1uN0s1ZHg5ZHg2UWl5eC02Y3hFcU03blRiNE5mTjVPTkcxRnhNaGktLXRqZTY2aV9DNzhiWFRFb2o5bDlvT1o2RWRRQWVhemcxR1RITzlBMjdrYkIxNkk3dkJoNGxJN1lyYy1GeUNhemVXM2FMLTdkd3R3MndpRy1YOGEyTmd2UkxSell1NVByT2tkUFhlTWpDekhvMkFQWER5YlVzRWxMa3kxenQwSFQwUzBPNE54ZEpQSkdtQ3k3enBXQUFOcV9CX2sxYXBOamZVWVFNMTB2eDRKTnRyOVdJOVFLd1pqbmNxSWJQY1owV0QzTkVldTQxdkNZdk9aZEtobVg1bmNB?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPemV1RzBBQkZDX3lnZUFMeEZUbEJOTGdkaFZEbk5yRzA5WkY2WU1SdVpzYmFfWDdKWlJSN2N4QXRBa0pkXzRtWk9aRHFfYzdSRlVMZFN4Q2VVRkRCZDh6SVRxa2F1Y3JXRWVlQzF0Z0N3Wk1RWEc1RU5GSW5sV2UxbEZvdllaejV3UDhNNU1wRXVfV2RicUxaeFRPNzhIVWM1Y2NyTUF6NVE0VHNqOWRKOHJLZ2R3b2MxQlFvSGU0bjhtcEVSLTB0RnFzY0NrTWFvWlpEOWg4NjFWMTBsMmRNUWt2MFhUVU1WbUtKZzdJOHdlVG1JX1lfMldjb19Fby13UzNTUVI3a0pITktFQk5yQ0RBMUNpZ0ZsNXBZRVQzMW4?oc=5",
     "rank": 16
    },
    {
-    "headline": "السفارة السعودية في إيران تحتفل باليوم الوطني - okaz.com.sa",
-    "summary": "السفارة السعودية في إيران تحتفل باليوم الوطني okaz.com.sa",
-    "source": "okaz.com.sa",
+    "headline": "السفارة السعودية في إيران تحتفل باليوم الوطني - عكاظ",
+    "summary": "السفارة السعودية في إيران تحتفل باليوم الوطني عكاظ",
+    "source": "عكاظ",
     "date": "25 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44ajdMOWJJaVoySHpPMHhUUmJFcFFoQ2h1bllvNVAzQlhMS0ZWVTVDSTI4dmJTY1FSck9TSm04aXh0aWFnazF0VTl5T2ZDRGQtSGlseTln0gFUQVVfeXFMTkxSRDN2elk4MWttdFFoSi1veFVyUUhheVB1VkNkSGpha1doSFBEVW9sUE1ZNlk5Rm82S2JuWTZpMkFKVWdVS0NBWDRtZVNQUmREOU9F?oc=5",
@@ -2782,22 +2788,31 @@
     "rank": 22
    },
    {
+    "headline": "Why is Saudi Arabia, the Middle East’s second-largest power, in this situation? - TodayPress.tv",
+    "summary": "Why is Saudi Arabia, the Middle East’s second-largest power, in this situation? TodayPress.tv",
+    "source": "TodayPress.tv",
+    "date": "28 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZ3IzQklSd1pxa04yb2JnNUtHN09uOU9aT2kwMngxSE1yRXFlVHRfUXR5MEdTWk1QdnF6MVMtaTBZM0FrMWpheW5ybE1nWE41YWEzbHZDSkxIb0hSbnRWdFNJM050UWprVDQ0bFpTZzg4OVk2YU9oWE5KaUFGUnAtOTUtWXFQZ25vQU1xY2xROA?oc=5",
+    "rank": 23
+   },
+   {
+    "headline": "US nuclear pact puts Saudi Arabia on path to the bomb - Asia Times",
+    "summary": "US nuclear pact puts Saudi Arabia on path to the bomb Asia Times",
+    "source": "Asia Times",
+    "date": "28 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZlZGNTd5Wm5JQjNxcHgwaGYxdURndGxEaEUwMEVtNjhQRVROWEQ5ZnZXejNMY2htT1FzWGlhQnZpSGNuam1MajVfalU2LTBjaHNsTnpPQU15MW5zNVdlcU1QcEQ4SVhSdUhMNV9IcU1vV0E0ajRhWll6TEVKUkZHWkpOWmZXdkk5WmdmTQ?oc=5",
+    "rank": 24
+   },
+   {
     "headline": "Iran offers to mediate talks between Saudi Arabia and Yemen - Middle East Eye",
     "summary": "Iran offers to mediate talks between Saudi Arabia and Yemen Middle East Eye",
     "source": "Middle East Eye",
     "date": "27 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTU02eEtPVEU2a2xGM3dJc1htMGhrRk5oRmJoTWlKbDVxVW1aQkhqdjhqTURFODh6MUQyY2V3RTVFeUQ2QWx0VnRHcW9welBTdWNlSHFYOXZuc2R5ckF2NGdiV0pFc0xXbGdVQzhjUkl3VG1YdUNzQVRIZ1FvZjJhV0Q4TVBBLTVnNE5UekFTQk14TTAydGx0akt3NEdpRVdFU3NZVUlXX3hqUVZwa1hmU0F1VQ?oc=5",
-    "rank": 23
-   },
-   {
-    "headline": "Aljazira Bank Selects Thunes to Power Next-Generation Global Remittances from Saudi Arabia - PR Newswire",
-    "summary": "Aljazira Bank Selects Thunes to Power Next-Generation Global Remittances from Saudi Arabia PR Newswire",
-    "source": "PR Newswire",
-    "date": "28 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNEVORzZqZ3lKeWJUVjVqWlhVd0NKQXdPT2R1OVlkRVZpaDdUSGRLMGdlNEFvbGs2NGdnSlU0QmdTWHlObUpJT0YycDBHWW1uZ0IteHJfNFlvNVo5MGdGemZES3pxTTNDV2F0TDZsaTNwaWRkSWRvSUZRdUw5TVJ6V3c1SGlnMjVoR284S290b2RHWlhRY3N0S2FrMmY0X3g5Q3pnamJyM3ZUVWlUcVFudjA4QU5DZXBmanpQTk5mempuZktQV0tNd2tnQXBlbzVmYVF2TjJEdnZZYVkzQ1R0V1NBMA?oc=5",
-    "rank": 24
+    "rank": 25
    },
    {
     "headline": "Middle East Oil Exports Rebound in September as Saudi Arabia Increases Shipments - صحيفة مال",
@@ -2806,15 +2821,6 @@
     "date": "28 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zZEVZSllETXlRcUtwR2s0Q2dNd3hWQTQxdjREOC1QTU55Y1NMWWJnU2VfQmkwNEZDc1Fkc1dQSHpjSEhfVjAxbXN4NDFYbGF4enBXeEJSd1k4czR5d2hNd1lKNjlwTkNZUDJLcg?oc=5",
-    "rank": 25
-   },
-   {
-    "headline": "Saudi foreign minister heads to Washington for talks amid Middle East tensions - AnewZ",
-    "summary": "Saudi foreign minister heads to Washington for talks amid Middle East tensions AnewZ",
-    "source": "AnewZ",
-    "date": "28 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSjhqY0pLNm43eThoTFExUU9FMkF5SjhXRy1IczZIZl9lVW52TTFtajhraVVIMHpObm9zbnJZNkdmdnFtMk9IZ2R3VUVGNnZTRVZBaXNKRTlNdzBLX2RsTUNrQjBHaVkxaEFfR2JlSUF1ZHJQZXFQMWNKbDVqUFRoNTM3WThMMjM0ZkEwMThxQ19yQnFQTHo5Qkh5VmRmVHJBZ0RRVVpMdGdmd2NscUZB?oc=5",
     "rank": 26
    },
    {
@@ -2845,12 +2851,12 @@
     "rank": 29
    },
    {
-    "headline": "أيتهما أكثر قوة... السعودية أم إيران؟ - الشرق الأوسط",
-    "summary": "أيتهما أكثر قوة... السعودية أم إيران؟ الشرق الأوسط",
+    "headline": "السوق السعودية تتراجع 1 % إلى أدنى إغلاق منذ يوليو - الشرق الأوسط",
+    "summary": "السوق السعودية تتراجع 1 % إلى أدنى إغلاق منذ يوليو الشرق الأوسط",
     "source": "الشرق الأوسط",
-    "date": "27 Sep 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOcG9qbXNCLUltRDdVRGhMN1g1dlg5dVoyVjNGaWJUNW0wVXp5V3FCS2ozaXFPMkpZUDkwRnMzTUJGaVZKY2FjblV1ZzZOOUpZajVjb3VwVC16MjBLN3pqVERWWUVxY0s4eS1zMGExbmpRMWl0OEhnc0FfOVNDUkZSV0pGNy1YOXljXzhxS2ZmdFk1aTM4X3NhQ0k0TU5idlpWZDBVR1lpY3pFVXFzOUx2alRyRkhocmZRbjgzWG8tcVJtajFhd2RQWUNPY2NuelJVRVAteElQektzUERPVUljRG1fQlBCc0pkWVJKSy1rUDdKeFBRYmhwbkFtaTU2dlNzaVVDVnlNcjZRdHI3eDFuRVpOT0dkZ3lhWEZldFJuWVFlMXM4Q09Za2MzQWtnYzRHcnlTcUZUWndYejY2WW43aFJfNm8yWlBlSnBnQlZ2THdYU1I1SU1YYg?oc=5",
+    "date": "28 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMixgNBVV95cUxNdUZlSGo0UkR4TU1WTkVNdkxJb1o4aUVFUUZHQndXT2Nhc2Q1aFdkSlBlMEZULXREREVNS0dDc1VTQXBobkVrMHlnRkFOVG1IUTVnZHJuU0hhOXF3S1pBYnhwVzQ3Mi1oTzJiSGwwX2s5QzhSSjZqSFExeFRFSDZJMzl4M1pOb1V3SXM5YjkwTk9rWDNOWjRqZDFPVkZYWUlPZTJuOEJfeU91MEk5U2xHNjdvM0FjSmdYcmMyMF8wcWZEMEx2M0hLT3gwUU9ma0hNWDRCLTdmZHctblRuUV9rRXU5NHlaZTFUUXZ1eVdVUUNqUjhaZzVJRjRkcUJ2c29zNWJkM0lIUEd0VDlVQzNnSnJwb3RyMDhEenFQODV4S2ZaWGM0MU1sYnYzNC1hSWpudWtyZFRTUTZOb2pxTmZkZldyZjB2dG14WDQzUmFwV1A2enY1UHY4eWozMVBfRW1JLWRyTmxpTktRQWpyMUV0SUZYQlpvSTBLODktemE2d0taQXZRVEFqNGRkMTBxRnVjdGRpcDhmME16cVRCTWZrNnpnb0xwUkMxXzZKd1VCWjBFMFA4cmZadXZVT2E4VmhPV2JCdXlB?oc=5",
     "rank": 30
    },
    {
@@ -2872,30 +2878,30 @@
     "rank": 32
    },
    {
-    "headline": "وزراء خارجية دول «اتفاقية مكة» يبحثون ترتيبات اجتماع عاجل لرؤساء الأركان - الشرق الأوسط",
-    "summary": "وزراء خارجية دول «اتفاقية مكة» يبحثون ترتيبات اجتماع عاجل لرؤساء الأركان الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "28 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiwgVBVV95cUxOWHFOZFh5Y3dUT0htbGpRVW1Rby1FNVU0c3h1VWhleDJpRW51blhBVWw5RVZZWnUtNGE5aUF5Nlg4WHNiYzF2cWVSSWN4ajJkWl9pS25jRlpRdHBmb2kxX2lXTjRZTDk4T2stQlJrZkRDNGtJTzFBZ3pfaVdkTkZZNXZ4LTFpeUJBcDB1VDg1X3JySkZmS2l4Q1FfeGhZQWV1U0xWUzhQT3BuTFFPYXFLX0doYVhuNGRxLXhlSzJHT2FZTG90U29VWkR3ZktjZUpidmRUdDd6OVgwQ2lZa0d6RnVpSE5DdUhoRXdqcy1JZUtGc3pzNDhtT09BNU9hWXF1WDVoaEUzTW5JcTFuUDUtZWNWSGRaNWR0dFJScEhuRGZpOGZYdTZWREw2SXJmaFp4OU14aDFMSl9ZbFR5MHFuNm9abHFCY3pzY2t3cnBEZGNlenVRTWdSZFRKVnlJZzVOREViRERqUzVRRE9qcjIxSC1iQjhNVVA5djlCVWdQc0hwN1NlMlNGNFpTc2FZQW1Ub3gxVWc2VEh4eDhPbXZKOUlmc3ZZMHZmWXlZdkFaM3V3U0JNTlJiOUt1dGxITEl4VHNlQ1hDdDJjUXlXaUdkcmdYVmk1UW9oT0xQbkVjNEdGVWtxRXdxeGtJZWFfd1IxdFNZdG5Yb0pkQTlUZm9WcnIyY25MOUplUUpuUEZ4S3RPSW0xMjNGR2FuLThqZzRfVUFyVXEtbDVZRHloRmhKZFBkVmJKTnFYV0IyUEwxNkJzM0FaNE5kdnBBQUdvWml3V284SUZpSDZ4WWVrUGptU05xSGV3MWQ0UlRtVW5jUVVvOTJlWEJJQVZKUnp0TTBYd2hoUllYTVZsbTNqal9ZZl9vdUthR2lXa2czTklRUXBOUm85QWtIZUFRcjRYcVBrb0tId3gyckc3U1FaOGtIMjJn?oc=5",
-    "rank": 33
-   },
-   {
     "headline": "لماذا تسعى السعودية لوقف الحرب؟ - الشرق الأوسط",
     "summary": "لماذا تسعى السعودية لوقف الحرب؟ الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "27 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPWllTUm43S25KZVR5aU1RbjNOX3lVLVFVU0lSQ0gtcUhKRFF3YlZ3WVpoT3BuQWZZcUtrcUVBZ2ZCZldJdzhEZ2hqNlM5VmxYZk9zX1RNTWczdE5Gb3V4SGc2M3ZXa2FMOWZ4T3F3VExUV2UtRjFSNEVKb2lJNjNOMXNVYTE3QVFzU3dWaUlRUkJnUTJfajRNTTJvWTBSb1JQSnJQZHFOYXBPSUFHMVhZdU5ORzduaVI3UkpxLWtaYVFfUS13aG1WVVFlMm9ma3pMa0RqeDJjd082OEFKNVl3MXFwQVRJSDZkZEktOUVyRmlvbkNNOVdSOUx0ZUNOMGQxSVRQcm1yb1QtWWh6ZFpQRE9hMEtJU0YweVRlcDdxa1ZYZFZpNy1sLTNXdG1VRWcyVGk3M0ZSUkt5bjR0MGY0bTJxQlp0VEU?oc=5",
+    "rank": 33
+   },
+   {
+    "headline": "أيتهما أكثر قوة... السعودية أم إيران؟ - الشرق الأوسط",
+    "summary": "أيتهما أكثر قوة... السعودية أم إيران؟ الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "27 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOcG9qbXNCLUltRDdVRGhMN1g1dlg5dVoyVjNGaWJUNW0wVXp5V3FCS2ozaXFPMkpZUDkwRnMzTUJGaVZKY2FjblV1ZzZOOUpZajVjb3VwVC16MjBLN3pqVERWWUVxY0s4eS1zMGExbmpRMWl0OEhnc0FfOVNDUkZSV0pGNy1YOXljXzhxS2ZmdFk1aTM4X3NhQ0k0TU5idlpWZDBVR1lpY3pFVXFzOUx2alRyRkhocmZRbjgzWG8tcVJtajFhd2RQWUNPY2NuelJVRVAteElQektzUERPVUljRG1fQlBCc0pkWVJKSy1rUDdKeFBRYmhwbkFtaTU2dlNzaVVDVnlNcjZRdHI3eDFuRVpOT0dkZ3lhWEZldFJuWVFlMXM4Q09Za2MzQWtnYzRHcnlTcUZUWndYejY2WW43aFJfNm8yWlBlSnBnQlZ2THdYU1I1SU1YYg?oc=5",
     "rank": 34
    },
    {
-    "headline": "رئيس «هنكل» لـ«الشرق الأوسط»: المرونة أصبحت جزءاً أساسياً من تصميم سلاسل الإمداد - الشرق الأوسط",
-    "summary": "رئيس «هنكل» لـ«الشرق الأوسط»: المرونة أصبحت جزءاً أساسياً من تصميم سلاسل الإمداد الشرق الأوسط",
+    "headline": "وزراء خارجية دول «اتفاقية مكة» يبحثون ترتيبات اجتماع عاجل لرؤساء الأركان - الشرق الأوسط",
+    "summary": "وزراء خارجية دول «اتفاقية مكة» يبحثون ترتيبات اجتماع عاجل لرؤساء الأركان الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "28 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMikAVBVV95cUxPTWtpSXVOVk42ajRpUUc5TkFrR3N1aEEyUE1UYllRRGV0Snd5RmIzOEstTFdTMGd1d25FZTkzM0Rab2VDeGJQVGFSVC1LaXVCOHZfY2dKR3l6clVXTThHVnBIRzR1QmNlUkdQajVZSFhfSURuUFBMMkJUYjJVeWVxbDluaUg2RmZiYnVjRGlVMjNsMFdUMnpvSEQ1SEJ2NEU0OVQycnVQaURzdTkzSHVPcjZNeklNdVFaNDFSeExPNjRMN1h3TGhXSVFnRmFGNS1EcHNFNnVzM1JKNnR6SjZUS3lOcTV1bHNuYkcwX1hGQ0w2RTJEZVoxS1I2VXZ6WEMtQTM3Q2lwTjJCZGZyNTVScXNvdk9jelljZFhoUXFYSllvOFFHM3FzZEtiQlZ1YmdraHp0MWgxVU5MRGN6SlpsV3BTR1FxZlIxQ3ZiZ3QyR1lnOGxGTG5uVFlsVGhyMGVwV2lKYjFJX2ZJcW9nN1luekxHelRFUnFsNllqQkRsaS1wdEVCZ0lscUhvRTFtUXh2d0JwZTdvOVNvSUxzTUJwUHB3WTdpLWxHNWptLTQxdFFNMFMxVkZHM0NUbWNxYjl5ckhQLXdpSDlRd2V5MmJiTk1Wd1ZjUkxKZTRYOWt6MkJuMXRaaFllNjdQdDdpbEpLc19wUjJGcC1qMU1JY21ublNyLUh5RGg5Y3dpaEpfWXVmbkRTNFdqRkVld0RaNmo2VDZsaVB2Y0ZnLXJPLUN5d0FBbi1ldGdnMXVYcnJHdmNYVUNIYi1yYk5vSHV6X2pDQU1DTm9nR0dCUUd6NXdMZXZEa1lzSk85YWZLVm1HRDNtb1NXckotZktPWnhUSl9YWDlidll6aGUxaEJNa3JuYw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiwgVBVV95cUxOWHFOZFh5Y3dUT0htbGpRVW1Rby1FNVU0c3h1VWhleDJpRW51blhBVWw5RVZZWnUtNGE5aUF5Nlg4WHNiYzF2cWVSSWN4ajJkWl9pS25jRlpRdHBmb2kxX2lXTjRZTDk4T2stQlJrZkRDNGtJTzFBZ3pfaVdkTkZZNXZ4LTFpeUJBcDB1VDg1X3JySkZmS2l4Q1FfeGhZQWV1U0xWUzhQT3BuTFFPYXFLX0doYVhuNGRxLXhlSzJHT2FZTG90U29VWkR3ZktjZUpidmRUdDd6OVgwQ2lZa0d6RnVpSE5DdUhoRXdqcy1JZUtGc3pzNDhtT09BNU9hWXF1WDVoaEUzTW5JcTFuUDUtZWNWSGRaNWR0dFJScEhuRGZpOGZYdTZWREw2SXJmaFp4OU14aDFMSl9ZbFR5MHFuNm9abHFCY3pzY2t3cnBEZGNlenVRTWdSZFRKVnlJZzVOREViRERqUzVRRE9qcjIxSC1iQjhNVVA5djlCVWdQc0hwN1NlMlNGNFpTc2FZQW1Ub3gxVWc2VEh4eDhPbXZKOUlmc3ZZMHZmWXlZdkFaM3V3U0JNTlJiOUt1dGxITEl4VHNlQ1hDdDJjUXlXaUdkcmdYVmk1UW9oT0xQbkVjNEdGVWtxRXdxeGtJZWFfd1IxdFNZdG5Yb0pkQTlUZm9WcnIyY25MOUplUUpuUEZ4S3RPSW0xMjNGR2FuLThqZzRfVUFyVXEtbDVZRHloRmhKZFBkVmJKTnFYV0IyUEwxNkJzM0FaNE5kdnBBQUdvWml3V284SUZpSDZ4WWVrUGptU05xSGV3MWQ0UlRtVW5jUVVvOTJlWEJJQVZKUnp0TTBYd2hoUllYTVZsbTNqal9ZZl9vdUthR2lXa2czTklRUXBOUm85QWtIZUFRcjRYcVBrb0tId3gyckc3U1FaOGtIMjJn?oc=5",
     "rank": 35
    },
    {
@@ -4799,26 +4805,12 @@
    "confidence": "low",
    "at": "2026-09-28T11:01:04.705682+03:00"
   },
-  "فيصل اليامي": {
-   "english": "Faisal Al-Yami",
-   "summary": "A Saudi man's name — Al-Yami is a family name associated with the Yam tribe of the Najran region in the south. Given that the same board features football figures such as referee Hassan Kadesh and players named Ramos, Joao and Jesus, this is most likely a sports personality (player, referee or pundit) being discussed after a match or a broadcast remark, but the specific person and occasion cannot be confirmed.",
-   "kind": "sport",
-   "confidence": "low",
-   "at": "2026-09-28T11:01:04.705682+03:00"
-  },
   "ميسي": {
    "english": "Messi",
    "summary": "Lionel Messi, the Argentine footballer and World Cup winner, currently playing in MLS with Inter Miami. Saudi audiences follow him constantly — he is a perennial benchmark in Ronaldo comparisons since Cristiano Ronaldo joined Al-Nassr, and he is recurrently linked with Saudi Pro League clubs; the surrounding trends (Ramos, Joao, Jesus/Jorge Jesus) suggest a general football news or transfer-chatter cycle rather than a single identifiable event.",
    "kind": "sport",
    "confidence": "medium",
    "at": "2026-09-28T12:00:27.513038+03:00"
-  },
-  "حارس النرويج": {
-   "english": "Norway's goalkeeper",
-   "summary": "Refers to the goalkeeper of Norway's national football team (in recent years most often Ørjan Nyland or Egil Selvik) — the wording is how Saudi football fans label a player by country and position rather than by name. Given the football-heavy board around it (Messi, Ramos, Jesus, João), it points to either a standout or heavily criticised goalkeeping display in an international match or a transfer rumour linking him to a Saudi club, but the specific occasion cannot be determined from the words alone.",
-   "kind": "sport",
-   "confidence": "low",
-   "at": "2026-09-28T14:00:42.031101+03:00"
   },
   "#الحمد_الله": {
    "english": "#Alhamdulillah (\"Praise be to God\")",
@@ -4910,6 +4902,27 @@
    "kind": "news",
    "confidence": "low",
    "at": "2026-09-28T16:00:31.826088+03:00"
+  },
+  "#ولي__العهد": {
+   "english": "#The_Crown_Prince",
+   "summary": "Refers to Mohammed bin Salman, Saudi Arabia's Crown Prince and Prime Minister, who is the country's day-to-day ruler and the driving force behind Vision 2030. The hashtag trends constantly around his speeches, meetings, decrees, foreign visits and public-praise campaigns, so the specific trigger cannot be pinned down from the words alone.",
+   "kind": "politics",
+   "confidence": "high",
+   "at": "2026-09-28T17:00:31.959869+03:00"
+  },
+  "$XDC": {
+   "english": "$XDC (cashtag for the XDC Network token)",
+   "summary": "A stock-market-style 'cashtag' for XDC, the cryptocurrency of the XDC Network (formerly XinFin), a blockchain project marketed for trade finance and tokenised assets. Cashtags trend when traders pile into price-move chatter, and Gulf crypto retail investors are an active segment on X.",
+   "kind": "business",
+   "confidence": "medium",
+   "at": "2026-09-28T17:00:31.959869+03:00"
+  },
+  "وزير العدل": {
+   "english": "Minister of Justice",
+   "summary": "The Saudi Minister of Justice, a post held by Walid bin Mohammed Al-Samaani, who oversees the courts, notary services and judicial digitisation. Given that the Civil Transactions Law (نظام المعاملات المدنية) is also trending on the same board, this most likely reflects discussion of a legal or judicial announcement, ruling or reform rather than anything personal.",
+   "kind": "politics",
+   "confidence": "medium",
+   "at": "2026-09-28T17:00:31.959869+03:00"
   }
  }
 }
