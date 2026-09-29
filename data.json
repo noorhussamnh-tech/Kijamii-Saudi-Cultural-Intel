@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Tuesday, 29 September 2026 · 10:00 KSA",
+ "lastUpdated": "Tuesday, 29 September 2026 · 11:00 KSA",
  "days": {
   "2026-09-16": {
    "label": "Wed 16 Sep",
@@ -2174,115 +2174,115 @@
     },
     {
      "rank": 2,
-     "text": "#رحله_المليون68",
+     "text": "التميز المالي",
      "cat": "General",
      "pts": 12
     },
     {
      "rank": 3,
-     "text": "#٢٠٣٠_بلا_نقاب",
-     "cat": "General",
+     "text": "التفوق الاقتصادي",
+     "cat": "Finance / Royalty",
      "pts": 10
     },
     {
      "rank": 4,
-     "text": "#تحت_الحزام_ممنوع",
+     "text": "الاعمال المزدهره",
      "cat": "General",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "#صباح_الخير",
+     "text": "المبادرات المتميزه",
      "cat": "General",
      "pts": 7
     },
     {
      "rank": 6,
-     "text": "خالد مسعد",
+     "text": "القرارات الماليه السليمه",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 7,
-     "text": "اليوم الاثنين",
+     "text": "الخطط الرابحه",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 8,
-     "text": "الدايره الاولي",
+     "text": "#صباح_الخير",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 9,
-     "text": "منصور بن زايد",
+     "text": "المبادرات الصلبه",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 10,
-     "text": "تويتر",
+     "text": "الشركات الرايده",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 11,
-     "text": "النقل التلفزيوني",
+     "text": "المشاريع العظيمه",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 12,
-     "text": "علي النقاب",
+     "text": "#بلا_",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 13,
-     "text": "إبراهيم خفاجي",
+     "text": "الاعمال المتينه",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 14,
-     "text": "عبدالعزيز بغلف",
+     "text": "خالد مسعد",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 15,
-     "text": "فيصل بن نواف بن عبدالعزيز",
+     "text": "الاعمال الناجحه",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 16,
-     "text": "المواطن الموثر",
+     "text": "رضا العملاء",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 17,
-     "text": "عمان",
+     "text": "#صباحيات",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "قصر الاواني",
+     "text": "#اذكار_الصباح",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 19,
-     "text": "اليوم الثلاثاء",
+     "text": "علي المدي الطويل",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "ميسي",
+     "text": "اليوم الثلاثاء",
      "cat": "General",
      "pts": 4
     }
@@ -2293,27 +2293,32 @@
      "score": 100
     },
     {
-     "text": "#رحله_المليون68",
+     "text": "#صباح_الخير",
      "score": 88
     },
     {
-     "text": "#٢٠٣٠_بلا_نقاب",
+     "text": "#بلا_",
      "score": 76
     },
     {
-     "text": "#تحت_الحزام_ممنوع",
+     "text": "#صباحيات",
      "score": 64
     },
     {
-     "text": "#صباح_الخير",
+     "text": "#اذكار_الصباح",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (20)",
-     "items": "#بوح_الخاطر · #رحله_المليون68 · #٢٠٣٠_بلا_نقاب · #تحت_الحزام_ممنوع · #صباح_الخير · خالد مسعد · اليوم الاثنين · الدايره الاولي · منصور بن زايد · تويتر"
+     "label": "General (19)",
+     "items": "#بوح_الخاطر · التميز المالي · الاعمال المزدهره · المبادرات المتميزه · القرارات الماليه السليمه · الخطط الرابحه · #صباح_الخير · المبادرات الصلبه · الشركات الرايده · المشاريع العظيمه"
+    },
+    {
+     "icon": "💰",
+     "label": "Finance / Royalty (1)",
+     "items": "التفوق الاقتصادي"
     }
    ]
   }
@@ -2328,7 +2333,7 @@
   "ابو عابد": 6,
   "٢٣ سبتمبر": 6,
   "كلين لايف": 6,
-  "عمان": 10,
+  "عمان": 6,
   "راكان الطليحي": 4,
   "بنفيكا": 4,
   "Tap to Pay": 4,
@@ -2512,7 +2517,7 @@
   "فهد بن فصلا": 4,
   "فرنسا": 4,
   "سالم": 4,
-  "إبراهيم خفاجي": 12,
+  "إبراهيم خفاجي": 8,
   "رييس مجلس القياده اليمني": 4,
   "#السعوديه_عمان": 14,
   "فراس": 12,
@@ -2540,7 +2545,7 @@
   "منتخب قطر": 6,
   "يوسف عبدالرزاق": 4,
   "الربع الخالي": 4,
-  "قصر الاواني": 8,
+  "قصر الاواني": 4,
   "أسامة هوساوي": 4,
   "القوات المسلحه اليمنيه": 4,
   "المنتخب القطري": 4,
@@ -2548,34 +2553,42 @@
   "فيجن مصنع": 4,
   "يابو الجوهره": 4,
   "خراب مالطا": 4,
-  "#تحت_الحزام_ممنوع": 22,
+  "#تحت_الحزام_ممنوع": 14,
   "#الان__تزوج_من_تطبيق_استقرار": 12,
   "#ولي__العهد": 10,
   "#ختام_مسلسل_الدم_الواحد": 8,
-  "#رحله_المليون68": 19,
-  "منصور بن زايد": 12,
-  "النقل التلفزيوني": 10,
+  "#رحله_المليون68": 7,
+  "منصور بن زايد": 6,
+  "النقل التلفزيوني": 6,
   "جميل العتيبي": 6,
   "العوده الامنه": 4,
   "الطموح السعودي": 4,
   "الفحص الدوري": 4,
   "المنطقه الشرقيه": 4,
   "نظام المعاملات المدنيه": 4,
-  "الدايره الاولي": 10,
+  "الدايره الاولي": 4,
   "مجلس النواب": 4,
   "مركز البحوث": 4,
   "#بوح_الخاطر": 14,
-  "#٢٠٣٠_بلا_نقاب": 10,
-  "#صباح_الخير": 7,
-  "خالد مسعد": 6,
-  "اليوم الاثنين": 6,
-  "تويتر": 6,
-  "علي النقاب": 4,
-  "عبدالعزيز بغلف": 4,
-  "فيصل بن نواف بن عبدالعزيز": 4,
-  "المواطن الموثر": 4,
-  "اليوم الثلاثاء": 4,
-  "ميسي": 4
+  "التميز المالي": 12,
+  "التفوق الاقتصادي": 10,
+  "الاعمال المزدهره": 8,
+  "المبادرات المتميزه": 7,
+  "القرارات الماليه السليمه": 6,
+  "الخطط الرابحه": 6,
+  "#صباح_الخير": 6,
+  "المبادرات الصلبه": 6,
+  "الشركات الرايده": 6,
+  "المشاريع العظيمه": 4,
+  "#بلا_": 4,
+  "الاعمال المتينه": 4,
+  "خالد مسعد": 4,
+  "الاعمال الناجحه": 4,
+  "رضا العملاء": 4,
+  "#صباحيات": 4,
+  "#اذكار_الصباح": 4,
+  "علي المدي الطويل": 4,
+  "اليوم الثلاثاء": 4
  },
  "news": {
   "date": "29 Sep 2026",
@@ -2608,9 +2621,9 @@
     "rank": 3
    },
    {
-    "headline": "Cornered By Houthis And Iran, Saudi Arabia Garners Allied Defense Support - Forbes",
-    "summary": "Cornered By Houthis And Iran, Saudi Arabia Garners Allied Defense Support Forbes",
-    "source": "Forbes",
+    "headline": "Cornered By Houthis And Iran, Saudi Arabia Garners Allied Defense Support - forbes.com",
+    "summary": "Cornered By Houthis And Iran, Saudi Arabia Garners Allied Defense Support forbes.com",
+    "source": "forbes.com",
     "date": "28 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZHA4MWVqejMwUHE0cEYzOXFpZTd0TDRPblVZcjdOZEhLQUVwdEthNFdaVHY0WWotT2JhSHBvdGlfblFpTThDX212YUo2ZFUzRDBNNF9NUW9qQ2J6RlZwdmQ3TEpFc3pvNlFNM2dPbGFZVC1Hak5xdjZzMlF1dnJOME1VRVBTcUpMbG9wNEk5VXJTT1FQcVVGRnVyak1zdGljZ1dlTEJVWnBFdWdYREVmZi10bHV0bXBiZnVDTkx1b2c?oc=5",
@@ -2635,9 +2648,9 @@
     "rank": 6
    },
    {
-    "headline": "Seyed M. Marandi: Israel, Saudi Arabia and the US: All-in on War? (Transcript) - The Singju Post",
-    "summary": "Seyed M. Marandi: Israel, Saudi Arabia and the US: All-in on War? (Transcript) The Singju Post",
-    "source": "The Singju Post",
+    "headline": "Seyed M. Marandi: Israel, Saudi Arabia and the US: All-in on War? (Transcript) - singjupost.com",
+    "summary": "Seyed M. Marandi: Israel, Saudi Arabia and the US: All-in on War? (Transcript) singjupost.com",
+    "source": "singjupost.com",
     "date": "29 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUGNfOEZvZTdCbFZqLVRkemtyaFV5TGRhWmZBYjR4aGdQMWRPS1RUakd2VzE5Y05SQTlDWGVoempxMVFhWDVsU0R6UEJIZmItMVI4OWVWMldLdkYzek1DUEs3WFZiRGpwZ0NkQlN0UUpoMTRDWHlaYzlNdlFBZzdhQ1RjVUhfRkI0ZWo3YUNwMmU3YlFxY2tDeExObw?oc=5",
@@ -2689,31 +2702,22 @@
     "rank": 12
    },
    {
-    "headline": "نائب رئيس الإمارات منصور بن زايد يزور السعودية بدعوة من وزير الدفاع في المملكة - CNN Arabic",
-    "summary": "نائب رئيس الإمارات منصور بن زايد يزور السعودية بدعوة من وزير الدفاع في المملكة CNN Arabic",
-    "source": "CNN Arabic",
-    "date": "28 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSWw2Z1VJb2xWZ2FRMm5ZXy1Oa25GWm1sOUsybDUySV9MSHlrd1ltOHIwNlVTUWk5YXRtX2sxVGxfUTJLMHRhU0drUTZtZHFGcGZKeUh6cUFYc2dHaVJzOFhXU2FyeUFVZFYtRWRMM0gwU1VlaHNGOEZ1dmQ4ay0wdXRJSVQ3MHdTSm9nT2F4T0VGMWY5LUpLVmREZHh3R3E2QWxCaGphYWUyUWYxZTA2UV9fbDQtcjdPQUI1NFFERDhOV1JqTHhDTDBIaFVBcmdaR19lSWJhTDhmMTY1QlVlRQ?oc=5",
-    "rank": 13
-   },
-   {
     "headline": "منصور بن زايد يتوجه غداً إلى المملكة العربية السعودية - إرم نيوز",
     "summary": "منصور بن زايد يتوجه غداً إلى المملكة العربية السعودية إرم نيوز",
     "source": "إرم نيوز",
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Bdzg2VXgzVVpzaVFYaDB3ajNnTHZsUEdfU0MxRUlJQ1lqYWNKSkpuaHFrQXFicUEzU3oyOWVGVmJVSFFxWWV5TWsxX0F4QTA5Wkd6bUpPNVptOGhp?oc=5",
-    "rank": 14
+    "rank": 13
    },
    {
-    "headline": "منصور بن زايد يتوجه غداً الثلاثاء إلى السعودية في زيارة أخوية - alkhaleej.ae",
-    "summary": "منصور بن زايد يتوجه غداً الثلاثاء إلى السعودية في زيارة أخوية alkhaleej.ae",
-    "source": "alkhaleej.ae",
+    "headline": "منصور بن زايد يتوجه غداً الثلاثاء إلى السعودية في زيارة أخوية - صحيفة الخليج",
+    "summary": "منصور بن زايد يتوجه غداً الثلاثاء إلى السعودية في زيارة أخوية صحيفة الخليج",
+    "source": "صحيفة الخليج",
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi_gRBVV95cUxQQUdrTVNxaW14VjFaNzBYbExXeG1seVpyUk9yUzYwOFVmYzFvdHB5TkhOYnBFRDlfUnloRUEwY3g4b2ROY2NCbVhnOWdNOXdwbnk2cWpSTHFOMnR4eGo2a25yVEZEUkZfeVpxYkpLMWJ2Z2cza1hTdmcwMHl1M0F2S0xLaF9UTzJHS3oxWFNjc3JyTUdEenpuRU0wSGU3dl9jWXFoMnRlcV9EN2YyS2Y4Z3VmV0JLVTVTWWxoSm5UdmlQZVRRTEs1SC1QaXdGQmhvSlYwWEFTankyaFdjSERyVjhPMXNsUkJOWExEeXZGUTZMRXpzSWQ1WDFtd045Qnd3X2xqY1g1c09CMldwNXV5aTVWVnpQNE9Ea0VnczV2Z2JYUkpSZkRHcXNYbE9JeGtwMWNndUtlb01HWW0xZFpDM19ybUtnTi05dlh6Z2k4ZHp5MDBkWENhaUw2R0Fvd3Y2ZnhBM3RsVFBEN0VJQmVlU2ZwQkNFaU1ITld4M0FiSkxNclgxcG9pS1d0Y0k4eVlMUHZwRW8xU3NlV1FXcm5jUDlHeUZRdEhmbFpYOF9INnM3NG9Tb3dtT2IySE4xMnBfdUg1RjNwVUZra1pacXBscGVDZ3RDZXJtc0l5TjJfWEFfVmdzVmVsQWhmdUcwVFZ0TGs3LWRESnRicmtnT1hfYVBjY2xQanhpdXJfYlZXdEhQQWRiLTFzUnM2djhEX2JVa1RnQmFZNmNZUTdubWpQWDFpOTBaWW51SU9iMmpqNEttakdnblRfdHZXMnZlLVdlTGNKTjJ4a09BbWJhZFdjbVRFSEY5cmNCWFVlaEJ3RUhwQnh6M09JeERHSThoZw?oc=5",
-    "rank": 15
+    "rank": 14
    },
    {
     "headline": "صادرات المنتجات الزراعية والغذائية الإيطالية إلى السعودية تقترب من 2.2 مليار ريال - عاجل",
@@ -2722,7 +2726,7 @@
     "date": "28 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwZE5MUTVuMWg1NVVzTVdMQ2RQODRXazRSRmpNc1laMDlMR3U2LWF5ZjlTdkRsc2dJWkxOUE96amdfUFZuTUxyRA?oc=5",
-    "rank": 16
+    "rank": 15
    },
    {
     "headline": "هجوم عراقي جديد يضرب السعودية في خليجي 27 - Kooora",
@@ -2731,7 +2735,7 @@
     "date": "28 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPeWZzd2VfQW90dVhTMUVUOHVuSEFNdHVWZ0NKV3ZkUHhpdlNkLXM0Q090bEFXdjBudDJKdjkyVVlEQk9jc3ZkcHZWWXBHSkZnaG1sQURKVENXZmlhNHFrU3M5LVB3c2llblhReUNzVHNqd2JzaUhGRWU4NUdNd3FvSUthRThBLUlNZWxRS3YyZ0liOXNUSVBibnZqYVY2TW50WU1QOEU1UkhGOE9VOHE2QXl4QmoyQUxaTTRST0lWVFB4OExfbFAxU0RMMGtwQVczU2lEQlZOYjBUMVgwd1ZUMUxjWTFYUmdibkFDNUNrdEtWc1F6d0twSjVJVFBlX29TVThJUE9nRnpZZHNHYWI0a0pzOWswLTVNQm1fWFVvY2t1UzlkSDBYWU53azZRVmdUSlZkNTFvVkp4RnFDM3g4V3lUVFVic0REOXQ2ODFBOXprT0I3YVRqUWtsZzJuVmVhelRzeG9sYVRSb1liTWIzekh6eUVYdmItcjZBM0tCel9KOEJZaGREZGlxSE4xSDhhdGduOXhXQmtYVDU5RDVJSU1mbjB5YlhUck5ZZ0pUamFIcmxWSlFPQjhLREFYQQ?oc=5",
-    "rank": 17
+    "rank": 16
    },
    {
     "headline": "56 بحثاً في مؤتمر دولي يرصد تجربة السعودية في مواجهة الانحراف الفكري - العربية",
@@ -2740,7 +2744,7 @@
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMinwRBVV95cUxQOWQ0SFRLQS1nQVJFSkhEbHU4VnFxVWFrZ2xieXhVMVpFSENkTkZWckM4ajUtSFJPR0lGNGpBanlLdFctX1F2NW5fN0luZ2ppeVRQT2JqdnBGSGlPYU90Z0dYY25RVXAzSXczU05HVEFyRU8wQVE0Zmh3X1FhSGU0RW5PZWk2M0VaRmx0MXNLaU9ra251VEFlV0JEcG1neE5lRExJQ3pmemVJNzlfTDVOSldmd0ZRb2lOOFVGYWFQYUxiazMxSXV4M2Q4aUtya3NWeTA5RDBnY1UybjdZRXFfSHlOVmdFWVNDa0lmbWdRa19MREZURTNfdGV3dk9uM1VDSUYxaHVTOHV5SEtXWU9ObjVUQXd2TWdvVDk1dEVCQ3plNllDWVRjUnV2cW44ekt3QnlOa3F4U05NTFRkMm9xUE9abkFFYW9sdXJ0NnhuN0xtYjg5Y0JVejU4UDBIQTVKanJxVXptcXM2enJEYVg2Vm5wMlo2R21VWjFVY0YtZXRVeXp1cUFXXy02QTJRanNKaDNxSE9EZURMM3dhX0c3N1dxTGp1UGFTdjlHWWVHWmVXbU9rRE5uaXJXblBKMm5rMEJSN0xTd05raldFeXFoOTRuclJkN3BkdDZ1VnNNWTZfWTMyU21UM2wtRDJvYUNncmE2RDBpVURoRHduY0d4N0RxQXlKYkN1VWRmR2wxcGZSeVhxZmtSekZUQnF1bUXSAaQEQVVfeXFMUFoxcjBYTUV0MjBoS0hrNjlzakFFSG13SzR3UFVaRm1tNXNTVFNiSTZXdXFIeGo5NTBsSHVjaTdsdUtaYzUzYnBfTzBuY2dpaGExWHJlejA0eHE1MkxRWG95TTBEcjZxNWJRbHBBeFNvS1VqakMxR3NHNUZEeFJaMVU2TERtTFRwLTlHTE9XNUVmdXczSTFzdjhmQUpLOWdTbWxkeHpsWkpSRDZkNEV4Z3dFN3lWTmh0WkYwUnhpUWcwdm96WWlLMldXUlZOT2RMREozVzJocVVQR1kxd29pZ1k5NEhvTU5BV0V5TlV2TzZQc29FOWZ1bW1GeUVET1dYMWxha0tFcTY3X3c0NURodFotenRwLXpoc3RJNXNwOHZoOWxyVWVzQ2ZpRXYwYU9GaVJxUUlfbjU3ZzhXVXdjdFVoNnhhM2Q5c1RqeUdqUXFhR3MwMHpDS2FRYU9uazZZZHhmb2JxMDNaazFCXzBLUVBIenlZcXJINjNQWFBPMElEelhzTi1ZVW1FNFhaQW5VUGlhSUVQU3JzUkhOT200ZXc5UnhCUUZ3MzhTUDFBLVVqS0NUNFpFMmF5UUZVNDRqdl9leG1NTnJDZlo1T0h2VmFXWFI0dkZHS2RLWkJMNnNhTzh6RlpYU1BDZ3RBMkxESWlzV3NGaDlXRS1RN040c0IxenZySlB3aGN5N0dBVEJzbTVneW54cEFseVJVQXFoMmFLX24?oc=5",
-    "rank": 18
+    "rank": 17
    },
    {
     "headline": "انتعاش صادرات النفط من الشرق الأوسط في سبتمبر مع زيادة السعودية لشحناتها | رويترز - Reuters",
@@ -2749,7 +2753,7 @@
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzRGZ4aFJDUjdTR2lwR1dWb1lxR09nRS0xM0RjNGFqNUFIS29kVmVqUDdDWXVLa2MtQmNiNjZJX1VEWmUtY2lCUFFEbGtxZV9Bb2YzdFE4SkVZOER1aDZfOG15Zk9sUkMxdllNdTBvc3NHLURhVlFvR2VnT0VMVzg?oc=5",
-    "rank": 19
+    "rank": 18
    },
    {
     "headline": "السعودية كالجبال.. وتبقى الجبال جبالاً.. والغبار غباراً - جريدة الجزيرة",
@@ -2758,6 +2762,15 @@
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XYW51SXctOUZfM09adjYwM2xESzYzd0JvRVNmVExoUXNPOXQwWWduWXpqVVBES1VwMEZZX3dBMHl5VWh2eW5uQndiaGlJM0N6OU94blZpakg0X2li?oc=5",
+    "rank": 19
+   },
+   {
+    "headline": "السعودية تعلن ما توصل إليه قادة جيوش دول \"اتفاقية مكة\" خلال اجتماع الرياض - CNN Arabic",
+    "summary": "السعودية تعلن ما توصل إليه قادة جيوش دول \"اتفاقية مكة\" خلال اجتماع الرياض CNN Arabic",
+    "source": "CNN Arabic",
+    "date": "25 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcEk3SmlXZEpNWkkxYkd0eUQ2amNVdHczMUtOM3JCQzk5WWlyMUI3NWlRcVg5LVo2bG9OUVUtVGQwSndnb3VvRXhYTkluQUg5VHhHTTBQXzR4ZG1vNS11ZUJFT0lWelVnS0R2dEI1d2F1Zm9MRUdmLWU1Zm9pNmF0TlRpS1hXWFctWExBN3A2LXhpbmdUbzVicC1ZbkJuaUZ2bUpEcnpBZEFuTDhHSTFReTVBSQ?oc=5",
     "rank": 20
    }
   ],
@@ -2781,13 +2794,22 @@
     "rank": 22
    },
    {
+    "headline": "Oil prices rise for second session on continued Middle East supply concerns - Arab News",
+    "summary": "Oil prices rise for second session on continued Middle East supply concerns Arab News",
+    "source": "Arab News",
+    "date": "29 Sep 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTUxydW5ub3RDcWRHaTg5ZkZiWFZjTENiVmw4ekg3Vkx5eFc2X3pQRFNyRFhYSm1udXZud3d1TzR1U2VGOFNPc3VVSElDM1JwMm5qY3gwaDFBM0p2RkNkUGVoM1U0Sk4xdUNnejRMR2xqY0h0WWhXUXJoeUFxR2RibjRDSjgzTHJ6TEFTdVl0UjF3R0RMQXZVbnVXd3U2aWlfRWY0cXNYbk5ReFV6V01NUXF1VEppQQ?oc=5",
+    "rank": 23
+   },
+   {
     "headline": "Saudi FM, US counterpart discuss maritime security through Hormuz and Bab Al-Mandab straits - アラブニュース",
     "summary": "Saudi FM, US counterpart discuss maritime security through Hormuz and Bab Al-Mandab straits アラブニュース",
     "source": "アラブニュース",
     "date": "29 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONl9fUGhLcm1SWURZZFlUeFAxaHlWV2tYV2VHM1E2cUhmb0hKOHBUbnlrZlBOcEFIaVYzSlFsbGNRS1BYVlNlRUtjS204UmNDN09Tc3ExTFVnNUZFNF82QjM1YUN1aGotNUFHSTJYbTJUdnJpaTcxbjI0RHU1d2ozemNSSkltZmtkZXlBOW5pNlNld002UnlEdXdWOFF0RURFUzZaRHpzTF9qS01xVzJfeXNhZjVNMjhkdGV2REVpcG5CM3U5MFpPc2JXVVFxd0VRU2dYTg?oc=5",
-    "rank": 23
+    "rank": 24
    },
    {
     "headline": "Middle East Oil Exports Reach a Wartime High as Saudi Shipments Surge - Межа. Новини України.",
@@ -2796,7 +2818,7 @@
     "date": "29 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBSc21NVVZyNXNOcHJJaFJjdXp3d0wtOVAtNW5pX18tS2NJVkp3YkFlVkQzTURQbzRKZFFfR1pmTUE3OEVqZHA5U2FzdVdwM1RwT3cwNUlPSGQ0UGdoeFN3X2Vn?oc=5",
-    "rank": 24
+    "rank": 25
    },
    {
     "headline": "Saudi Arabia resumes oil exports through East-West Pipeline as Brent nears $107 - Oil & Gas Middle East",
@@ -2805,105 +2827,96 @@
     "date": "29 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdkZkNml3WXpzb2hYX2l4QVZ5ZXVxNHpuYm9zakxmVHFrS0dGREVxMHJWWU1fNi05cWxNa05lNVU2VGc1UFBIaS1fVTd3Tzh3eGlwLW1XckFrZ3g1UkxtWWlzYUI1eWdiVUFaUUFDS3VwdFZrVmtnVS1xSi1JNkVFVjRQZzYyOUpkUWlMdFZjYkhaaDF4V0tRVlVPTlZvVXFEMFp6S2RYTkR3UFA3ZklUVWRPX3JHd0lxWjdr?oc=5",
-    "rank": 25
-   },
-   {
-    "headline": "Saudi defence minister invites UAE vice president to kingdom - Middle East Eye",
-    "summary": "Saudi defence minister invites UAE vice president to kingdom Middle East Eye",
-    "source": "Middle East Eye",
-    "date": "28 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcEp1emQ3Zno3U3BPWVM4ZUZxaDVlX19FSkE2R1A3RDZIbF9VamMtZnNVUXBOQk1INTE3bER6c2VBSG1mQ1BHV0hVZHlmemZZTUhwcWxWLWw5TmVsZGp6VVdUUzhGRkdvekZYZ0xvTnZKU2o2ZGcwUWkxWHFJWG55ZXpKQ09yTHFaSDFuUzN1LWtGOEFvQm9kYWl5bVRiNGswTkxFVll6VGhweldhdGtiQVVrYmM?oc=5",
     "rank": 26
    },
    {
-    "headline": "أيتهما أكثر قوة... السعودية أم إيران؟ - aawsat.com",
-    "summary": "أيتهما أكثر قوة... السعودية أم إيران؟ aawsat.com",
-    "source": "aawsat.com",
+    "headline": "أيتهما أكثر قوة... السعودية أم إيران؟ - الشرق الأوسط",
+    "summary": "أيتهما أكثر قوة... السعودية أم إيران؟ الشرق الأوسط",
+    "source": "الشرق الأوسط",
     "date": "29 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOcG9qbXNCLUltRDdVRGhMN1g1dlg5dVoyVjNGaWJUNW0wVXp5V3FCS2ozaXFPMkpZUDkwRnMzTUJGaVZKY2FjblV1ZzZOOUpZajVjb3VwVC16MjBLN3pqVERWWUVxY0s4eS1zMGExbmpRMWl0OEhnc0FfOVNDUkZSV0pGNy1YOXljXzhxS2ZmdFk1aTM4X3NhQ0k0TU5idlpWZDBVR1lpY3pFVXFzOUx2alRyRkhocmZRbjgzWG8tcVJtajFhd2RQWUNPY2NuelJVRVAteElQektzUERPVUljRG1fQlBCc0pkWVJKSy1rUDdKeFBRYmhwbkFtaTU2dlNzaVVDVnlNcjZRdHI3eDFuRVpOT0dkZ3lhWEZldFJuWVFlMXM4Q09Za2MzQWtnYzRHcnlTcUZUWndYejY2WW43aFJfNm8yWlBlSnBnQlZ2THdYU1I1SU1YYg?oc=5",
     "rank": 27
    },
    {
-    "headline": "رئيس «كوالكوم» لـ«الشرق الأوسط»: نوسّع استثماراتنا في السعودية ونراهن على اقتصاد الذكاء الاصطناعي - aawsat.com",
-    "summary": "رئيس «كوالكوم» لـ«الشرق الأوسط»: نوسّع استثماراتنا في السعودية ونراهن على اقتصاد الذكاء الاصطناعي aawsat.com",
-    "source": "aawsat.com",
+    "headline": "رئيس «كوالكوم» لـ«الشرق الأوسط»: نوسّع استثماراتنا في السعودية ونراهن على اقتصاد الذكاء الاصطناعي - الشرق الأوسط",
+    "summary": "رئيس «كوالكوم» لـ«الشرق الأوسط»: نوسّع استثماراتنا في السعودية ونراهن على اقتصاد الذكاء الاصطناعي الشرق الأوسط",
+    "source": "الشرق الأوسط",
     "date": "29 Sep 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMinwVBVV95cUxQMnlLbmRhYkJfdXBMcWt6ekFNMzBDdGFYV21CTk1QLThYcXpBSHNOYmk4Ul9SVjRTOHZMTGdNY0d1UkFaZ0VTRVlLcGJqaXlpQ3lsX2d2YnptQUh1WkNmTTl5OTNxMHNDd1JXZV9QTGl5OVFFbjdwN2NHeFpLT0RHaE4tOHJqWldwZ1FOamMtVTZQQUQ3M0hLa2dsQ3Q2YzhyVjUyN3lIQmFHUmItRUNkLVU0U1I0VVRmd0dSNnR1V1VEUFdBeWRXeHVPeUw5UkV1MWdNaV9JU1lEdVp0Yzd0S1FINV9kdkNVMmxjWXlGWGM1Ym5NME8ydFlwVWFMNTBwdTJiRFZZTjFzU1F0cENtNEZoQmJEaHZDamsxN0N1WDh6ZnJWTTREb0FKblRvUThxdjk4UFJyRVNvc0NIU0NsM1dIdlZpTFd6R3d4Tk5KUWZuQ0E2RkQyVDJwRGRST1BOd1Z2anVqRWtsTTc2b3ZmZlV4X2RlZE9pdjVoTmtER04xMUZBZXNGNTBVQjluWlYtdUlBakVjanpFQW1NWURDeWdBMVpaaURkUXRycTIyZVZnQmthRmJiV0RMWHB3cFQ3TjNOV0xvSzdPYk1OLWVPMlRObXJCOVhJeVlFZE9BdkhqMkg2dHRTMl9sMlpDdDgwLVRpR054M2JncTVYWW50Ym9FcXVhdmFFZGRSa0hHbEk3bTVCYzhSYVRmeVJzdzB2LTRHWkFBa085M3N0NktZNFVyT0dxcjBjdmdxSkVoVWE4NDctRjEwM2tZM0lhT0U4M3BWdWg4QXRra0Z6Ulg4NnFCWGNNM1pNbkpSUWNRMGM1U2lrWlFBSm1LVUpqQ0Z3ZEoyendMNlB3dHNrQUFxMlFkM2hHX2ZkN1VGeVFWUQ?oc=5",
     "rank": 28
    },
    {
-    "headline": "السعودية تؤكد أمام الأمم المتحدة أهمية ضمان حماية حرية الملاحة - aawsat.com",
-    "summary": "السعودية تؤكد أمام الأمم المتحدة أهمية ضمان حماية حرية الملاحة aawsat.com",
-    "source": "aawsat.com",
+    "headline": "السعودية تؤكد أمام الأمم المتحدة أهمية ضمان حماية حرية الملاحة - الشرق الأوسط",
+    "summary": "السعودية تؤكد أمام الأمم المتحدة أهمية ضمان حماية حرية الملاحة الشرق الأوسط",
+    "source": "الشرق الأوسط",
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiiAVBVV95cUxNaHNfWl9QQlVteVRhcnRrVmQ1N2ZNM2JMbUVDLUdMM0Uzc19zR21JdVNDWERCYk1UUndsdjdTZTc3T0lVR2tObTFBc3lWV0NUUGpiRzdvUGotWm5zX1pEZ2gwUlVyUUZMdHZ2Tm5tT00xOFZmcGdJSm51QVNUbXdQWnQ0M29WR0dkdDZTaU1yZHJQWG5KWFYxVjRCRXJVdjJ0Z2hOZVY1S2syQWVWNXJ2ZjN6bmExaGFDQ1Bjc1AzeDU0blpPeFVnX3pJclZuNWdOQ3RnVlVNSDFVN0xlcTA3YU1JY0FIUXNKSGxjNUZxRkdCZWt3U3dCY2hNTE5qWC1KbklyZi1Nd190OVhQTU84TmozV2s0OGVhaDMtUUZPWjRJZG5ocklEQ3FIbGR0LWlOSlFEQThjNmpoZEhhQ29LQnZWYXRKUEdyRDQyY0hkUXZEdElEQ3Z0LUdRdnhUbDZRYzlCSlh4Y0t5ajFqallNSDBXckw3djNjNndyZG90ek1XMlhKSDh5TDhuOFhGRjZncmxpNEY0LWRJcXFtN0JiTkM1Z3J0YzZIUWdmT09TWF92RUFtZGdvODB6clREYWtyV3NsS3ZGSGZUbFBLclpkX3Bfa3BNdDlwZHdIMTQ0a2pJVWNyVjR0UWFzeEFNMU1qS0Z1bDRKUHJsM21RTUJMWGlROEN5Q0I3NmFfdHFHc2sxb1VWanBtRDNZOHpNOU0yN3VlamtSdE9QeWp4WnlJM2UyMDZoeDBPQWRsaVZYTVBQV2VaVFZBU0xDemIyRmZFOWIzOUE5bTRWZ2d1RDF5aE52U2NOVi1kV3hXVnZVX1ZWSVkwVUFhMlAxZmRRWU1LYV9MWkFrR2w?oc=5",
     "rank": 29
    },
    {
-    "headline": "السعودية وأستراليا تبحثان فُرص التعاون المناخي - aawsat.com",
-    "summary": "السعودية وأستراليا تبحثان فُرص التعاون المناخي aawsat.com",
-    "source": "aawsat.com",
+    "headline": "السعودية وأستراليا تبحثان فُرص التعاون المناخي - الشرق الأوسط",
+    "summary": "السعودية وأستراليا تبحثان فُرص التعاون المناخي الشرق الأوسط",
+    "source": "الشرق الأوسط",
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxOcldOU1dOLVdiUzNYdjJVakh2bGJtUFVJWk5tajFyVkJqSVh2WHk5SW95Y1k0OXJNTG1GQUhibElSLXNSMC1NR3FDYUdCWmNHQzVtVmtETkNSX3VMOVI0cEowNmE1WkVscTRMTlBKMXZYbVE2N2JXTWViVlV2ODZubjRzWV96TjIwaDdXVmVUQk5Nd3hyaUxNaUUxT19VLWp6dFZLOXFvcG56YjlRcnFYWVYyeXZYc1laN2g5Q2NTRDBnR0FuRHJuVVlPOHpkN2hhanR3dC11T3ZOVGZvZ2xNTkRLaWVmN2trZXhfb2t0U1ZHa3Ewb2dScXNQMmVlM1JNX2NsNHZlVVQxX05PSWUxTmpVNTlEcEl4Sm9FZnpXRGMyZWZOQVpiczlWcFZBMVoyQlNEZHU0MDdZOWdMWEdQRldhN3ZjdncwM0FHU1pYOUt6bnh6VDJlenRfbUVhd1ZIVjFRaVBzTXBjN3J5SEZhd1B1cnJDaXVTWHdtc2JXMTBiYVJVS080SGxEWm9fVy1wT01kX1dmcE5SbmY3WmlES1dnODRRM3BOQWw4Z0w5NDA0Y2xxZmROWGN2QmFQdWdTVlN2ak94VlRSTmc3cldGWg?oc=5",
     "rank": 30
    },
    {
-    "headline": "السعودية والمغرب تبحثان تعزيز التعاون الدفاعي - aawsat.com",
-    "summary": "السعودية والمغرب تبحثان تعزيز التعاون الدفاعي aawsat.com",
-    "source": "aawsat.com",
+    "headline": "السعودية والمغرب تبحثان تعزيز التعاون الدفاعي - الشرق الأوسط",
+    "summary": "السعودية والمغرب تبحثان تعزيز التعاون الدفاعي الشرق الأوسط",
+    "source": "الشرق الأوسط",
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMimwRBVV95cUxNUGZrUWJDakluVjRqVzFrUDRyOVFSdHhaYWdyenBSa2hESi1FTEdvZGlTeUtlWm5QOC1LVWN4NExpX01NZ01PU0wtcHdOS2VkS1RvQk9Vb1ZleWtfQl9fNU0wcm1INFNTSHJwSzVuNHB5NmQ5SDRoeWtteDA3TkhfQ0hveGFXaEU4MFUzSEwzMlcxR3JsNXZuc3BHWFExeXhhaEx0cmR0d2ZjNXNEVzZnWHdkVmlkY1ZVYVNJS19OeUdwS0RLcTdBUVRURldvMGtrU1NaMUwxZE5iSElYZ29RVTZrckQ0YjlMdTlhbXF5UkVRMjcxblU2VEJIY3BGcG45TWxOLWZwZUZ2SmhkeHdUWW84cVpST2lncmkyeF9mdzV1aTAxaXJOSTdjYkFXRlVKUFpZajFBZ1JuODgzeTVZWFdjZzdQM2JVWnFDdUNvWi1PT216amQ3aHhWa3dkZ2hMRHFOLXVzLWtvWmNrQ3pqUGZmbWZ6SDBYSms5MWs2cnZUMlJ5RTF1SXhuYkt3VXRiam5TRU5oZFdLamxWM2R2N1hNYWR4WTctT19veEJxODZ0UmIyeVlydTVyV0k2T3Bodm4zMmR0OUxBVkVrdWJWM1JqRXctYzkyQ1g1YU4wT1ZrN0VaeDltTGQ2TXprVVJibVF5czNJSU8ydHR4Tnlvdy1nUjZBdTNxN29OdlZkQnE5WEN1bzFOSmVGbw?oc=5",
     "rank": 31
    },
    {
-    "headline": "السعودية لبناء منظومة متكاملة لموارد الطاقة - aawsat.com",
-    "summary": "السعودية لبناء منظومة متكاملة لموارد الطاقة aawsat.com",
-    "source": "aawsat.com",
+    "headline": "السعودية لبناء منظومة متكاملة لموارد الطاقة - الشرق الأوسط",
+    "summary": "السعودية لبناء منظومة متكاملة لموارد الطاقة الشرق الأوسط",
+    "source": "الشرق الأوسط",
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMioANBVV95cUxPcU9rMXlQRnp5UlAwelVsZzA3UkMybEFQWE5MckdTYlp2U0N1ZE1Fb1owLVUzanRUSzQwMWd6VzllVUJiTTd5cWg2ODJNOEdEZEFUVXBod2M1TFpNc2lFbmVmNTBPcmxMd2JtWkF4SjAxUS14SGdMRFdCTmw0Q3FYcHFpTFJTa2YzMmxxaFNhdWhWY09VcDFqM2FvVldvelJnb3FOUEs3VTVGdGt0a3lJWEpfc3ZPekN5QkZJRFlHenMyeFpYbFlaSjk1SWY2RVJ4NkxrRWtmV1hwNGFyYzFhcHE0WHh6LXdwU3VtRktvM1J2T0d5ZXgtSnNVb0poZno3a25QZGsxSXJaOFJLQkVtQ0Rsbl9MMVptSEpCVzBCN2pROUU5VnJ3LTN1WVhNVEdRZlhpdHgyOEFjQTNwcW9ZRTdjbDRvT3BidGcwRWEzdVpIZFhGTzZoLXVueXZNUG11bFpVLThzUG1wTFp1WUpQQ3pUWXRTUk13WUVfQjlTZjZIY285b1RiaG5WUzZ4WWppb3diOG1PQlVjb0JfUHU1Nw?oc=5",
     "rank": 32
    },
    {
-    "headline": "السعودية تصطدم بالعراق في قمة خليجية ساخنة بحثاً عن «العلامة الكاملة» - aawsat.com",
-    "summary": "السعودية تصطدم بالعراق في قمة خليجية ساخنة بحثاً عن «العلامة الكاملة» aawsat.com",
-    "source": "aawsat.com",
+    "headline": "السعودية تصطدم بالعراق في قمة خليجية ساخنة بحثاً عن «العلامة الكاملة» - الشرق الأوسط",
+    "summary": "السعودية تصطدم بالعراق في قمة خليجية ساخنة بحثاً عن «العلامة الكاملة» الشرق الأوسط",
+    "source": "الشرق الأوسط",
     "date": "29 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiqgVBVV95cUxOcEFhYXIwMktlSm5HQmdQWDJxSlY0VVBkVmNJUXE4S3ZIeEFLbE1zWVlfdW1aM1p4MkVmNzlEUWlOOUZ5Qkloa3pjeUJoS0R2V1h4QW5sTm42WVlhTTdlMEtlaHhUcmQ2Q3RaOE1QWURQdnNNTk9IM1FmZUxXNFJkMEx3Rm0zNXp3S3o1QjR5MF9IX0FvME4yZzNDeHRHZHgxZ29FVnhxVTkxYW16SF9ONFRtQVVGOTZUVEFPdlQxRTQ1U19sZWpLbjYwalRKRE5CaVhHZVpEbW5KMmtHWHRtZXctM2ZIRGRtWTY0WnFEQTFNZG1JbkVzNndpZDhaazdsMHQyVzF3M1NVUWxGMnZfVTNWbWtwVS1TeTZiRlhCUks3MFdjUEJraS1rbzFQTDZveE9nVFRKTTFBUHdidGZKNEI3cGt1bFJjNGpVSFB0dzJHRXNDcDhXV1hTSXF1b2NxV1YxeEVoNWVRa2lMY0ZnUEZxMGU5WVBtRFFxdXN1TjFILTI3ZkRxdjhicExFLUswZUJxWUNkV3ZaLVdDWVQ2MmdKcWdJZUxRQjVaSFF5OTVxcXFwVjlNYy1UbFlBNTJENUlkR0tITlpHSTljMmFsRnQxYU1FdDh1aFFLSU5HRFkteEcyRFg2el8zRHJJQV9mUV9jVVpDSU1zMHVoSVBTVVFxNHhEY2NJVDJPaTVzVUR0aFF5dHpWaWVPaVRvYnJxeGRUQ2J5MjdNRDhGYnJyNFdkLXpkdzgtMVpYOGJBNENDako2SXJUckpqOTl2WkdLMnhQVS1RNVRycTVnVEQtaVF1b2gzRy14bFpPaERIWnpuc0lmc2FhenF3LTV3ek9qU3FjT0haWDlkN2VXbVpIellaMVF6dE5PcWlFOXFCMGFBTTNWaVk2bFdn?oc=5",
     "rank": 33
    },
    {
-    "headline": "السكتيوي بعد ثلاثية السعودية: النتيجة مخيبة.. لن نستسلم - aawsat.com",
-    "summary": "السكتيوي بعد ثلاثية السعودية: النتيجة مخيبة.. لن نستسلم aawsat.com",
-    "source": "aawsat.com",
+    "headline": "السكتيوي بعد ثلاثية السعودية: النتيجة مخيبة.. لن نستسلم - الشرق الأوسط",
+    "summary": "السكتيوي بعد ثلاثية السعودية: النتيجة مخيبة.. لن نستسلم الشرق الأوسط",
+    "source": "الشرق الأوسط",
     "date": "28 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMivgRBVV95cUxPVGRkVkd4MThNVVVPSEVwLVNwMG85eTVuZWVpVlhTNnVDbEZfNlZ3MDlhLTI5QXdxdlNQY3dkLWpUS3RFbVNhVDlMUkd2YkJlc1ViZG1vaWNWUHFlcGVaUlRaYllXVlhyalZhMUFVQl91V0FiNjZUQlpXZHpyNDF6VExWZUlDYUVTTGlVYlN5LVlfVTVGMUxnR2tEc1lyYzN2ZHpOdXRRQzQweWdMd1BsaHFXY1BRTVNMRVhBdGFiODlDdEpseDVtMmE4a09weDQ5Ni1iMUNDVy1jTzA4NWthUjUwTGZyM2NHSHU1N0ZnTGliY0g4NVV6YXZLVkphUE1ZaElwS25EOHZDLXpOVE1EenRfQW1iMGlIR21ub2ZXd3VjU2ltR3V2ZHdNLUpKWG1qdENxbEg4NVhoSHhTak9sQ3VFTTByaUhMeDRBZEFySWFPX0p4N29DTS1TZVlSajZVTEpqc3VHRUN0VE9lV0JpRzhRSW4yNW1YbTJYMF9zWENxUlBud1BHaWdLMXIyZV9HbzRJb2dsckx1M0JEVFlBWURzNFhfWDk0RjcteXkyeHRtWWNPU2kxN0ZaZEN2M3N6TWxrYjQ1M050dzAzWEhVMDg3dm5SMDV5QXV1bi1YdjZtRzF5SFJGMGJIbTFQZHpvMzF1TWVJbmJpRzFabHhoZkJ3Rm9GRFRDUE11OEZkdHc3QmVjMTB5b3FKLXY1V3cwWW9oTVdGTUtGeTJRWWVtWnF5MVNyV2lhQzVrajhB?oc=5",
     "rank": 34
    },
    {
-    "headline": "لماذا تسعى السعودية لوقف الحرب؟ - aawsat.com",
-    "summary": "لماذا تسعى السعودية لوقف الحرب؟ aawsat.com",
-    "source": "aawsat.com",
-    "date": "27 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPWllTUm43S25KZVR5aU1RbjNOX3lVLVFVU0lSQ0gtcUhKRFF3YlZ3WVpoT3BuQWZZcUtrcUVBZ2ZCZldJdzhEZ2hqNlM5VmxYZk9zX1RNTWczdE5Gb3V4SGc2M3ZXa2FMOWZ4T3F3VExUV2UtRjFSNEVKb2lJNjNOMXNVYTE3QVFzU3dWaUlRUkJnUTJfajRNTTJvWTBSb1JQSnJQZHFOYXBPSUFHMVhZdU5ORzduaVI3UkpxLWtaYVFfUS13aG1WVVFlMm9ma3pMa0RqeDJjd082OEFKNVl3MXFwQVRJSDZkZEktOUVyRmlvbkNNOVdSOUx0ZUNOMGQxSVRQcm1yb1QtWWh6ZFpQRE9hMEtJU0YweVRlcDdxa1ZYZFZpNy1sLTNXdG1VRWcyVGk3M0ZSUkt5bjR0MGY0bTJxQlp0VEU?oc=5",
-    "rank": 35
-   },
-   {
-    "headline": "مصادر لـ«الشرق الأوسط»: استبعاد الجوير «ردع وضبط» - aawsat.com",
-    "summary": "مصادر لـ«الشرق الأوسط»: استبعاد الجوير «ردع وضبط» aawsat.com",
-    "source": "aawsat.com",
+    "headline": "مصادر لـ«الشرق الأوسط»: استبعاد الجوير «ردع وضبط» - الشرق الأوسط",
+    "summary": "مصادر لـ«الشرق الأوسط»: استبعاد الجوير «ردع وضبط» الشرق الأوسط",
+    "source": "الشرق الأوسط",
     "date": "29 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMijARBVV95cUxPWERHSnRwX28xQ1paV2l2Sk5WVG9fcEd6WWpiY3Q2cElfNlhXanVxMkh2dHZ2M2FTRVR5Wl9EM0IxYVA4TFl1MjNlNDJ1N1RDX2RDdnNwRVBEU1MtcENtNmhwS2s4aGgtaGlMS2ZPcU8xZy03U1RwWUowYlNMdXpNNi1OR1RGa3piWnlzbThmMTJJaTMyT09rcVBnVkRKMUF4TGE1ZFN6eTlQU2RyZjV1WkZJOGxNY205eGNRTFYyUV95dHk4QUtkZUdNSXprQWFSSlY2OUgyS1pMWS15WHM3X2lRdXNTT2MtbzNWN0tyd2dqb2hnOEZ1SUJzSU5qQnJ2WkJ6NGtrdnBHTFRxSlpOWERTcElmeWhETFZGeUs4WVlCVVItV1dEcEFpcmNwckZmOTVCSDBIRlZONkQ4REtWVC1ENXhzS2o3a0dmelg4MklsSkhnQU5TVmxNV0pkZ2s4VUFmYmdubHdtWEpGRzJmbEQwZ25hUEd3ejBkcERqZU9DU2lVN25HdF9VUkNiMFB0R0Jkc1EyTUx1aDZMVmZDU1M3Q25Ldmh4elVJQlpEV0IyS2NuZmlQMHNZVTZKc2M5WURac1o3bU5qUHpQck1QQnlpWkFfTkdCM1l6WFRjMU5ySlJpOU96Z0xTWVVUaVRMbGFKZTVVbkl3UDB6ZjlHX2RZTzcwckVXdlpSVg?oc=5",
+    "rank": 35
+   },
+   {
+    "headline": "محمد بن زايد ونتنياهو يبحثان تعزيز العلاقات - الشرق الأوسط",
+    "summary": "محمد بن زايد ونتنياهو يبحثان تعزيز العلاقات الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "28 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMihARBVV95cUxPd01CclNnY2ZSaHQyOEg1QkRvYUl6dWkxYzdZeVdoUlBmWG4wN0dmRm9pVW5oOXN0Rmx2Mm9rMFNGcFN5Mnp6MVpmUmt6bXhGM2wzd2Vqc2VudUplQWltNkdYY1g4YW5TZ0h0M3Z1MlBQcVdjZzZHTS1XUWU4QnpEaGlwaUtzT1JvLTAxTm9mZHVXV2lxNVZtcDdzdGxSaWQ5YVZYSlVrQzB1UVpKUzRwT2dBanNLUUNZRDBIVVM2dFVHUlZjaEl3cmdReGdOUGhVU1NIdERZSTJ0djl2QnV2X2p4UklpaGpKTWlIX3daODdFZGExSTUtbHZHbExVZ1ZQUEstVmJMejItZG5MZGJOdjNNQ3hwWFh0cFRjbUpEVXlVYmJjS1lIeDRaRkFncXV3VVFQbUdmLUJtZndkaUZjMDZnVmZqVHhxTTJ5VnMwU1l5QVZmb0ZObElyR0NuUm5rZXl6TTFGREF6enF6RWNJRXZ0Sk5PWFAwUlJfQnJXYVNMYUVGNENMNGZDYzN4VzQzTHlmNDlmWVp2Q2s4aFk2UGJpaldLcDU2RlpaY0phLVJ6Ukp5ODM2UzVwVXBKa1o3eEh2c3hFWEpWMXZrNzZzdGtHNzVVYXNhaHdjYXJQSVZPRzFDV2g0aUdSZVl0LVFWQ3BkUHVBT3VlblJtSVZZM1BXUlE?oc=5",
     "rank": 36
    }
   ]
@@ -4875,41 +4888,6 @@
    "confidence": "medium",
    "at": "2026-09-28T23:00:30.361847+03:00"
   },
-  "المواطن الموثر": {
-   "english": "The influential citizen",
-   "summary": "The key slogan phrase from the Abdulaziz Baghlaf hashtag, circulating on its own as posters repeat the title. Framing someone as an \"influential citizen\" is standard Saudi social-media praise for a person seen as serving the community or representing the country well.",
-   "kind": "social",
-   "confidence": "medium",
-   "at": "2026-09-29T01:05:31.726658+03:00"
-  },
-  "تويتر": {
-   "english": "Twitter",
-   "summary": "The social platform Twitter, now officially rebranded as X, though Saudi users overwhelmingly still call it \"Twitter\" in Arabic. It trends whenever there is an outage, a policy or feature change, an account suspension controversy, or simply a wave of meta-posts about the platform itself.",
-   "kind": "social",
-   "confidence": "medium",
-   "at": "2026-09-29T07:00:30.354648+03:00"
-  },
-  "اليوم الاثنين": {
-   "english": "Today is Monday",
-   "summary": "A routine day-of-the-week phrase that recurs on Saudi Twitter through morning greetings, religious supplications, weekly TV and football schedules, and workday complaints. It carries no specific news event on its own.",
-   "kind": "social",
-   "confidence": "medium",
-   "at": "2026-09-29T07:00:30.354648+03:00"
-  },
-  "علي النقاب": {
-   "english": "Ali al-Niqab / \"on the niqab\"",
-   "summary": "Arabic written without vowel marks makes this ambiguous: it reads either as the personal name \"Ali al-Niqab\" or as the phrase \"on the niqab\", the face veil worn by some Saudi women. The latter reading points to one of the recurring public debates about face covering, dress codes and religious practice that periodically flare up on Saudi social media.",
-   "kind": "social",
-   "confidence": "low",
-   "at": "2026-09-29T07:00:30.354648+03:00"
-  },
-  "ميسي": {
-   "english": "Messi",
-   "summary": "Lionel Messi, the Argentine footballer and World Cup winner now playing for Inter Miami. Saudi football fans follow him closely — partly because of his long rivalry with Cristiano Ronaldo, who plays for Riyadh's Al-Nassr — so any match performance, transfer rumour or Saudi-related appearance drives him into the local trends.",
-   "kind": "sport",
-   "confidence": "high",
-   "at": "2026-09-29T07:00:30.354648+03:00"
-  },
   "#بوح_الخاطر": {
    "english": "#Bouh_Al-Khatir — \"Outpouring of the Mind\" / \"Confessions of a Passing Thought\"",
    "summary": "A recurring literary hashtag used by Saudi and Gulf users to post short poetry, aphorisms and personal reflections, often late at night. It is a participation tag rather than a news story — people pile in to share their own verses and quotes.",
@@ -4931,13 +4909,6 @@
    "confidence": "low",
    "at": "2026-09-29T09:00:28.975723+03:00"
   },
-  "#٢٠٣٠_بلا_نقاب": {
-   "english": "#2030_Without_the_Niqab",
-   "summary": "A campaign hashtag arguing that the niqab (full face veil) has no place in the Saudi Arabia being built under Vision 2030, the kingdom's social and economic reform programme. Face-covering is a recurring flashpoint between social liberals and religious conservatives online, and the related trend 'علي النقاب' (on the niqab) suggests an active back-and-forth debate rather than a single news event.",
-   "kind": "social",
-   "confidence": "medium",
-   "at": "2026-09-29T10:00:34.535657+03:00"
-  },
   "#صباح_الخير": {
    "english": "#Good_Morning",
    "summary": "The Arabic greeting 'good morning', one of the most durable everyday hashtags on Saudi Twitter/X, used each morning for greetings, religious supplications, photos and motivational posts. It trends routinely and carries no specific news value.",
@@ -4945,19 +4916,117 @@
    "confidence": "high",
    "at": "2026-09-29T10:00:34.535657+03:00"
   },
-  "عبدالعزيز بغلف": {
-   "english": "Abdulaziz Baghlaf",
-   "summary": "A personal name; Baghlaf is a well-known Hijazi (Jeddah/Mecca region) family name. Which Abdulaziz Baghlaf is being discussed is not clear from the name alone, though the surrounding board includes other Saudi cultural figures such as Ibrahim Khafaji, the lyricist of the national anthem, hinting at an arts or media context.",
+  "التميز المالي": {
+   "english": "Financial excellence",
+   "summary": "Corporate-speak phrase meaning \"financial excellence,\" trending as part of a large block of near-identical business slogans on the board — the signature of a coordinated promotional or engagement-farming campaign (often a bank, investment firm or consultancy push, or paid bot amplification) rather than organic conversation.",
+   "kind": "business",
+   "confidence": "medium",
+   "at": "2026-09-29T11:00:28.399070+03:00"
+  },
+  "التفوق الاقتصادي": {
+   "english": "Economic superiority / outperformance",
+   "summary": "\"Economic outperformance,\" another slogan from the same cluster of generic business phrases dominating the board. Such wording also echoes Saudi Vision 2030 economic-growth messaging, which marketing accounts routinely borrow.",
+   "kind": "business",
+   "confidence": "medium",
+   "at": "2026-09-29T11:00:28.399070+03:00"
+  },
+  "الاعمال المزدهره": {
+   "english": "Thriving businesses",
+   "summary": "\"Thriving businesses\" — one of roughly ten interchangeable commercial catchphrases trending simultaneously, indicating a scripted campaign in which many accounts post variations of the same marketing copy.",
+   "kind": "business",
+   "confidence": "medium",
+   "at": "2026-09-29T11:00:28.399070+03:00"
+  },
+  "المبادرات المتميزه": {
+   "english": "Outstanding initiatives",
+   "summary": "\"Outstanding initiatives,\" phrasing borrowed from Saudi government and corporate press-release language about programmes and initiatives. Appears here as filler text in the same bulk business-slogan trend.",
+   "kind": "business",
+   "confidence": "medium",
+   "at": "2026-09-29T11:00:28.399070+03:00"
+  },
+  "القرارات الماليه السليمه": {
+   "english": "Sound financial decisions",
+   "summary": "\"Sound financial decisions\" — advice-style wording typical of financial literacy or investment-advisory marketing, trending alongside a dozen similar phrases that point to an automated or sponsored posting push.",
+   "kind": "business",
+   "confidence": "medium",
+   "at": "2026-09-29T11:00:28.399070+03:00"
+  },
+  "الخطط الرابحه": {
+   "english": "Winning plans",
+   "summary": "\"Winning plans,\" a motivational business phrase in the same coordinated cluster. On its own it names no company, event or person.",
+   "kind": "business",
+   "confidence": "medium",
+   "at": "2026-09-29T11:00:28.399070+03:00"
+  },
+  "المبادرات الصلبه": {
+   "english": "Solid initiatives",
+   "summary": "\"Solid initiatives,\" an awkward, translation-like phrase that reinforces the impression of machine-generated or template marketing copy being posted at volume.",
+   "kind": "business",
+   "confidence": "medium",
+   "at": "2026-09-29T11:00:28.399070+03:00"
+  },
+  "الشركات الرايده": {
+   "english": "Leading companies",
+   "summary": "\"Leading companies,\" a stock phrase used in Saudi corporate and PR writing about market leaders. Here it is part of the same block of generic business terms rather than a discussion of any named firm.",
+   "kind": "business",
+   "confidence": "medium",
+   "at": "2026-09-29T11:00:28.399070+03:00"
+  },
+  "المشاريع العظيمه": {
+   "english": "Great projects",
+   "summary": "\"Great projects\" — wording that evokes Saudi Arabia's giga-projects (NEOM, Qiddiya, the Red Sea developments) but is used here as generic slogan text inside the same promotional trend cluster.",
+   "kind": "business",
+   "confidence": "medium",
+   "at": "2026-09-29T11:00:28.399070+03:00"
+  },
+  "#بلا_": {
+   "english": "#Without_ (truncated hashtag)",
+   "summary": "A hashtag that has been cut off mid-phrase: \"bila\" means \"without\" and is normally the opening word of a longer hashtag. The actual subject cannot be determined from the fragment alone.",
    "kind": "other",
    "confidence": "low",
-   "at": "2026-09-29T10:00:34.535657+03:00"
+   "at": "2026-09-29T11:00:28.399070+03:00"
   },
-  "فيصل بن نواف بن عبدالعزيز": {
-   "english": "Faisal bin Nawwaf bin Abdulaziz",
-   "summary": "Prince Faisal bin Nawwaf bin Abdulaziz Al Saud, the governor of the Al-Jawf region in northern Saudi Arabia. Regional governors trend when they open projects, receive officials, issue directives or attend local ceremonies; the specific occasion here cannot be determined from the name alone.",
-   "kind": "politics",
+  "الاعمال المتينه": {
+   "english": "Robust businesses",
+   "summary": "\"Robust/solid businesses,\" another interchangeable phrase in the mass of commercial slogans trending together, with no identifiable company or event attached.",
+   "kind": "business",
    "confidence": "medium",
-   "at": "2026-09-29T10:00:34.535657+03:00"
+   "at": "2026-09-29T11:00:28.399070+03:00"
+  },
+  "الاعمال الناجحه": {
+   "english": "Successful businesses",
+   "summary": "\"Successful businesses,\" standard motivational-entrepreneurship wording. Its appearance beside nine near-synonyms is strong evidence of an inorganic, bulk-posted campaign.",
+   "kind": "business",
+   "confidence": "medium",
+   "at": "2026-09-29T11:00:28.399070+03:00"
+  },
+  "رضا العملاء": {
+   "english": "Customer satisfaction",
+   "summary": "\"Customer satisfaction,\" a service-industry KPI phrase used constantly in Saudi retail, banking and telecom marketing, trending here as part of the same block of business boilerplate.",
+   "kind": "business",
+   "confidence": "medium",
+   "at": "2026-09-29T11:00:28.399070+03:00"
+  },
+  "#صباحيات": {
+   "english": "#Mornings / Morning posts",
+   "summary": "A perennial daily hashtag used for morning greetings, coffee photos, poetry and good-vibes posts. It trends most mornings in Saudi Arabia and carries no specific news event.",
+   "kind": "social",
+   "confidence": "high",
+   "at": "2026-09-29T11:00:28.399070+03:00"
+  },
+  "#اذكار_الصباح": {
+   "english": "#Morning remembrances (adhkar)",
+   "summary": "The set of Islamic supplications and phrases of remembrance Muslims recite after dawn prayer. Accounts post them daily, so the hashtag trends almost every morning in Saudi Arabia.",
+   "kind": "religion",
+   "confidence": "high",
+   "at": "2026-09-29T11:00:28.399070+03:00"
+  },
+  "علي المدي الطويل": {
+   "english": "In the long term / over the long run",
+   "summary": "\"Over the long term,\" an investment and planning phrase that completes the set of generic business slogans flooding the board, most plausibly from a financial-advice or savings campaign.",
+   "kind": "business",
+   "confidence": "medium",
+   "at": "2026-09-29T11:00:28.399070+03:00"
   }
  }
 }
