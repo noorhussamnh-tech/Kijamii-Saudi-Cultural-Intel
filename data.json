@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Wednesday, 30 September 2026 · 15:00 KSA",
+ "lastUpdated": "Wednesday, 30 September 2026 · 16:00 KSA",
  "days": {
   "2026-09-17": {
    "label": "Thu 17 Sep",
@@ -2164,19 +2164,19 @@
     },
     {
      "rank": 2,
-     "text": "العراق",
+     "text": "تبوك",
      "cat": "General",
      "pts": 12
     },
     {
      "rank": 3,
-     "text": "فلاي دبي",
+     "text": "عمان",
      "cat": "General",
      "pts": 10
     },
     {
      "rank": 4,
-     "text": "تبوك",
+     "text": "فلاي دبي",
      "cat": "General",
      "pts": 8
     },
@@ -2200,19 +2200,19 @@
     },
     {
      "rank": 8,
-     "text": "#ام_فهد_تنخاكمم_احسان",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 9,
      "text": "#تكفون_ساعدو_زوجي_معسر_باحسان",
      "cat": "General",
      "pts": 6
     },
     {
-     "rank": 10,
+     "rank": 9,
      "text": "العلامه الكامله",
+     "cat": "General",
+     "pts": 6
+    },
+    {
+     "rank": 10,
+     "text": "#اليوم_العالمي_للقلب",
      "cat": "General",
      "pts": 6
     },
@@ -2224,55 +2224,55 @@
     },
     {
      "rank": 12,
-     "text": "أبيب",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 13,
      "text": "نصف النهايي",
      "cat": "General",
      "pts": 4
     },
     {
-     "rank": 14,
+     "rank": 13,
      "text": "يونس محمود",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 14,
+     "text": "مطار الامير",
+     "cat": "Politics / Diplomacy",
+     "pts": 4
+    },
+    {
      "rank": 15,
-     "text": "منصور بن زايد",
+     "text": "أبيب",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 16,
-     "text": "برا البطوله",
+     "text": "الاجواء السعوديه",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 17,
-     "text": "عبدالله السالم",
+     "text": "منصور بن زايد",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "الطيار المساعد",
+     "text": "برا البطوله",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 19,
-     "text": "كابتن الطايره",
+     "text": "الهبوط الاضطراري",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "الاجواء السعوديه",
+     "text": "قول السالم",
      "cat": "General",
      "pts": 4
     }
@@ -2291,19 +2291,24 @@
      "score": 76
     },
     {
-     "text": "#ام_فهد_تنخاكمم_احسان",
+     "text": "#تكفون_ساعدو_زوجي_معسر_باحسان",
      "score": 64
     },
     {
-     "text": "#تكفون_ساعدو_زوجي_معسر_باحسان",
+     "text": "#اليوم_العالمي_للقلب",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (20)",
-     "items": "#السعوديه_العراق · العراق · فلاي دبي · تبوك · #رحله_المليون69 · #بلا_ · $DUCAT · #ام_فهد_تنخاكمم_احسان · #تكفون_ساعدو_زوجي_معسر_باحسان · العلامه الكامله"
+     "label": "General (19)",
+     "items": "#السعوديه_العراق · تبوك · عمان · فلاي دبي · #رحله_المليون69 · #بلا_ · $DUCAT · #تكفون_ساعدو_زوجي_معسر_باحسان · العلامه الكامله · #اليوم_العالمي_للقلب"
+    },
+    {
+     "icon": "🏛️",
+     "label": "Politics / Diplomacy (1)",
+     "items": "مطار الامير"
     }
    ]
   }
@@ -2415,7 +2420,7 @@
   "#ما_تنقطع": 7,
   "تشيكن ماك": 6,
   "بريدة": 6,
-  "تبوك": 14,
+  "تبوك": 18,
   "قصر المصمك": 6,
   "سير المركبه": 6,
   "الاتحاد الخليجي": 4,
@@ -2545,7 +2550,7 @@
   "نصف النهايي": 10,
   "زكريا": 6,
   "القحطاني": 6,
-  "عبدالله السالم": 10,
+  "عبدالله السالم": 6,
   "الخيبري": 4,
   "#الناس_والليل300": 4,
   "يونس محمود": 8,
@@ -2553,16 +2558,17 @@
   "#رحله_المليون69": 11,
   "كلين شيت": 4,
   "الكروت الصفراء": 4,
-  "العراق": 12,
-  "فلاي دبي": 10,
+  "عمان": 10,
+  "فلاي دبي": 8,
   "#بلا_": 6,
   "$DUCAT": 6,
-  "#ام_فهد_تنخاكمم_احسان": 6,
   "#تكفون_ساعدو_زوجي_معسر_باحسان": 6,
+  "#اليوم_العالمي_للقلب": 6,
+  "مطار الامير": 4,
   "أبيب": 4,
-  "الطيار المساعد": 4,
-  "كابتن الطايره": 4,
-  "الاجواء السعوديه": 4
+  "الاجواء السعوديه": 4,
+  "الهبوط الاضطراري": 4,
+  "قول السالم": 4
  },
  "news": {
   "date": "30 Sep 2026",
@@ -2577,22 +2583,13 @@
     "rank": 1
    },
    {
-    "headline": "Dubai to Israel flight broadcasts emergency alert, diverts to Saudi Arabia after reported feud between pilots - CBS News",
-    "summary": "Dubai to Israel flight broadcasts emergency alert, diverts to Saudi Arabia after reported feud between pilots CBS News",
-    "source": "CBS News",
-    "date": "30 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdEVnSmlhSFJ2SDI4M3B1SVhEd2VFQk1OZXRGRVVTaVpRRUdjLUtVTVJtZDZIWGlXekRxUVFrTTNFd21xUWNaRjF1dzRvYTk5N25Cdkg4eE16WnBIeEhYMm12OXpqSzBVVVNfSEg1bnZqbGd6V0pQTDhJZUw0a2dKSkcxTklSdUkyQUFfQXBDYk5ZMmk1?oc=5",
-    "rank": 2
-   },
-   {
     "headline": "Cockpit Struggle on Israel-Bound Flight Forces Emergency Landing - WSJ",
     "summary": "Cockpit Struggle on Israel-Bound Flight Forces Emergency Landing WSJ",
     "source": "WSJ",
     "date": "30 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUE03QmpOQjdEaVZkY1FucnlLVzhHckJBaHBEN3BTQ1RQeFBySnNjVjJoamoyb2dMdk1CeXpqWXozczMtZ1BlVWNVanFfZmppQk9fbXFsekgxVV95aEZBQS12X0lrMU5DYTlGWGg5VWExSzY2bmxYZHk3SDBGd3NWa1VyMUlqblZ1cHVQdXdaN2JQT01SSUJzeHpvc25zckh6eE9oSTNn?oc=5",
-    "rank": 3
+    "rank": 2
    },
    {
     "headline": "Flight to Tel Aviv diverted to Saudi Arabia after potential terror incident in cockpit, Israeli security source says - ABC News - Breaking News, Latest News and Videos",
@@ -2601,16 +2598,43 @@
     "date": "30 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZkdKU25NUFppS1h1OVBib2FDRTRrbmRGUk90MU9TM01zVzZUeEFrOTZ2RGFleGxJd2JQakhYTExYRGZYSUpTUXlVWkJlTExBVUJVSjlycVpGWThMaWNBYWFGajg5QlgyRVFRWjRKMmQ3RVJvTTJ1Y3lVeVByMjlTZzMtR0RSN1RiclpVTDR0d2hzajFPOVlEOEd6SjI2U3BSa3EwcWJlMnHSAa4BQVVfeXFMUF9sbEVqZ2c0MW9lMkRJaTBOa0UtdVFMR3pyNWJoNVE1SDJVWDlYM0xDbTFNMWFHdlNldXJVVHV5OUxWU1lRcXd1RFdpVmVkUjl4dFJ6WHQ2Ynl2SjRDSVhfNG5WSks0am5XMUZFNlJWUGJnbUFDNlRlYWQteG5xLWpEdWt5MWpNS0VTX3JHc3hlOFAtQkZaS2VtX2NnRjVnZlJjNDRWOXlOamR6a2RB?oc=5",
+    "rank": 3
+   },
+   {
+    "headline": "A fight between pilots forces a flight to Tel Aviv to make an emergency landing, officials say - AP News",
+    "summary": "A fight between pilots forces a flight to Tel Aviv to make an emergency landing, officials say AP News",
+    "source": "AP News",
+    "date": "30 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSUVoWWFZd2hfb29WZ0tCQV83bTRCdFI5TTVLbWh4bHdxcWRxTTY5N2gxN0I4ZkN5TUp4YVpaVGMtSTRjTGRTMkV5cHVLeEl4a19lWXNBdzZVeXVnMGNCanJWdTRSNjVDUzRtSndzQ2ZBV3JsdlBXNkRlVGd5WXRaU2UweXFIVG1DVWpWby1sekV4Y1FBTDZtS1Z5aFVXSE9venYxdTRn?oc=5",
     "rank": 4
    },
    {
-    "headline": "Israel-bound flight makes emergency landing in Saudi Arabia amid reports of bloody onboard altercation - NBC News",
-    "summary": "Israel-bound flight makes emergency landing in Saudi Arabia amid reports of bloody onboard altercation NBC News",
-    "source": "NBC News",
+    "headline": "Dubai to Israel flight diverts to Saudi Arabia after one pilot reportedly stabs another - CBS News",
+    "summary": "Dubai to Israel flight diverts to Saudi Arabia after one pilot reportedly stabs another CBS News",
+    "source": "CBS News",
     "date": "30 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPb1BONDhjY3NiaFljUWMyY3V5ZnYxb2JRVXBHRWMyRjlBRDFPbUpXTW9RSEpRbncxOURJMllGVnV3T3VWLW8xRG91bDRYOVl4bjZZVWNYSXprOWx2d3BLZlREMnhIZ09LblYwNFQ1ekxTVEljNjJZZXNEMnBSV1NWNVBYWjV4dnZ0eVBHaFFwVVNPMGtFSE9Zc2otZHJEM2Yt?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdEVnSmlhSFJ2SDI4M3B1SVhEd2VFQk1OZXRGRVVTaVpRRUdjLUtVTVJtZDZIWGlXekRxUVFrTTNFd21xUWNaRjF1dzRvYTk5N25Cdkg4eE16WnBIeEhYMm12OXpqSzBVVVNfSEg1bnZqbGd6V0pQTDhJZUw0a2dKSkcxTklSdUkyQUFfQXBDYk5ZMmk1?oc=5",
     "rank": 5
+   },
+   {
+    "headline": "Israeli officials say diverted flydubai incident may be attempted 'terror attack' - Reuters",
+    "summary": "Israeli officials say diverted flydubai incident may be attempted 'terror attack' Reuters",
+    "source": "Reuters",
+    "date": "30 Sep 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWnpLNmZJUXN6UzQ0RlhKSFhxT2xYMWZ1R1VwYVdZX3ZuZWFTYUZyV1VYTVhralA5Y0ROVjlNVl9XOGpTSWhEcGM3UE01WVA3clNKcm5KdDZ2dUY1U3FyODdsWkkzSWs2VW5NZUJWQXFYQ0dxamNudlljZl92REs3SnFXSEUzTEswdjh4NnRia2VWZGd2TGE2SmZ6VDBQTXpiRDM0SDZSZ29ubUZUd3Zsa0E4LTBoRmxpSDRjd0JkcmhYbkNV?oc=5",
+    "rank": 6
+   },
+   {
+    "headline": "Suspected Terror Incident Diverts Israel-Bound Flydubai Flight to Saudi Arabia; Pilot May Have Tried to Crash Plane - Haaretz",
+    "summary": "Suspected Terror Incident Diverts Israel-Bound Flydubai Flight to Saudi Arabia; Pilot May Have Tried to Crash Plane Haaretz",
+    "source": "Haaretz",
+    "date": "30 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPTDBEcmg1RU1oU3VZWUh4VlZEUlhFeGwtUEM2dGhKT0QtbXpyX1pPTXg2ZTBkaWE2VjBkVXczN2FaQ1dpMFNldnlmcXJoQ2RrNHZQNUI3ZGt1OFNFR2VMRWFfTVE2SHM2enIwVVd6UlFLUERJMnJpUktjNGE3V2dvaVZQNEFFOEt5OGJaQVRKaDUyRlUyNE54MDhHM19idThCOFd1V2hEUWNUTnV2QWtJZGRtdGl6ZmlrTTNSZHdoWGNpaEVDVWF4WjIwUjFLSE9qVjM5RXVYbFB3dEdLWGJGLWcweGFlM0RjR1dzSGh4emhDUEN3dEltMTI3ZWtkUnU1NjFLU1E1MlZyWTgzZFVVaTlJSVRad19k?oc=5",
+    "rank": 7
    },
    {
     "headline": "Flydubai flight to Israel diverted to Saudi Arabia after emergency alert - Al Jazeera",
@@ -2619,61 +2643,34 @@
     "date": "30 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUWFtNkNNTGFKZVBkNGNoczZpdVJCYnp4VW9hbmNPUGtnSU9UczBuUXp4enJsUndCWXZPWG5uOGduVk02RlBRaUNDVFI1WU9DVjNYVW5sa0s1M1FMbWRPZmtwWUpmZE4zcGNLM1JRMUJtQUtRbEJGNFBMM1VsV3p5XzRINERyMkRKRDhrVWlGUkxFSEJGSGs2UU5TOFFReGdHTks1bGhuV2pDRGtlV0FnLUlKc9IBuAFBVV95cUxPNjdtMGhKYlQ3UWRXNVZ4UVNyY1dNUFcxc01fQS1vbm96MmVRWjM1NmVPTUZHcmlkOWx1djNxMnZjNkJleXpPenNRSVlrTlNrOV9CVEV2ajBFcGNXemJtMWpSMHNfVE5laFFiOVhIdWliU1pDbk1uZmlnX2s0bG9xMTJNVW9kd2MxeXB6QWRlV3VTS3JPN1hGbzZnTjRVWGVRN3lvZ0FJMkduNzZsd1ZCSVd2SHZ6a2Zt?oc=5",
-    "rank": 6
+    "rank": 8
    },
    {
-    "headline": "Israel-bound passenger plane makes emergency landing in Saudi Arabia after reported fight between pilots - The Guardian",
-    "summary": "Israel-bound passenger plane makes emergency landing in Saudi Arabia after reported fight between pilots The Guardian",
-    "source": "The Guardian",
-    "date": "30 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTXFXaVNaOUdPQ1FOSTNBOGppc1ZuVEREcGlBMHItM01tMDEzYlFIZlREajJ6SjZZcXo0cF9ieDUxYlRDNVBfemt4aHh2VWlmY0tFTHJ3UU13S2ZUTThwbDBBV0c0N0VKdzVVLWVRS1VCdnhrdFdibjBVamZGdDJySG5YQ1BlOVhUQVEyZ0J5TWZHUTRsSmJsN0FjTVVJSndacmt4dklyRzAzcjdxZy1NX0tXcUFxdWJX?oc=5",
-    "rank": 7
-   },
-   {
-    "headline": "Pilots on UAE-Israel flight hospitalised after brawl forces emergency landing - France 24",
-    "summary": "Pilots on UAE-Israel flight hospitalised after brawl forces emergency landing France 24",
+    "headline": "Israel-bound flight diverted to Saudi Arabia after brawl between pilots - France 24",
+    "summary": "Israel-bound flight diverted to Saudi Arabia after brawl between pilots France 24",
     "source": "France 24",
     "date": "30 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVNYclZlWTNKWGF0VUVjWGRuQXJpQkxNdzRVRlZadVdkZE5lTG9FU1NvZU9ZTEQxdmdHQmxuU2tHMDFfOW9CLTVsUmQ0NUdhcDQ3eWN5eDJzYVdZS1M0R1V4LWtma0FUbWEwRktGeEZDMHhMa2FZUnRlemUxeWc5bld2SmhhaXRrZjdYNjlsa28tdUVWTEdmQVplc2x2OWFmNERNaHFyVGlQMEs4dlVDbzJXYTZ6N2NnRWw3LQ?oc=5",
-    "rank": 8
-   },
-   {
-    "headline": "A commercial plane traveling from Dubai to Israel is diverted to Saudi Arabia after a distress call - AP News",
-    "summary": "A commercial plane traveling from Dubai to Israel is diverted to Saudi Arabia after a distress call AP News",
-    "source": "AP News",
-    "date": "30 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSUVoWWFZd2hfb29WZ0tCQV83bTRCdFI5TTVLbWh4bHdxcWRxTTY5N2gxN0I4ZkN5TUp4YVpaVGMtSTRjTGRTMkV5cHVLeEl4a19lWXNBdzZVeXVnMGNCanJWdTRSNjVDUzRtSndzQ2ZBV3JsdlBXNkRlVGd5WXRaU2UweXFIVG1DVWpWby1sekV4Y1FBTDZtS1Z5aFVXSE9venYxdTRn?oc=5",
     "rank": 9
    },
    {
-    "headline": "Flydubai flight to Tel Aviv diverted to Saudi Arabia after onboard altercation - The Washington Post",
-    "summary": "Flydubai flight to Tel Aviv diverted to Saudi Arabia after onboard altercation The Washington Post",
-    "source": "The Washington Post",
+    "headline": "Israel-bound flight makes emergency landing in Saudi Arabia amid accounts of a bloody onboard altercation - NBC News",
+    "summary": "Israel-bound flight makes emergency landing in Saudi Arabia amid accounts of a bloody onboard altercation NBC News",
+    "source": "NBC News",
     "date": "30 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaHEtV1MwTWhVbF9HT2tjVUpkaEpHVTVRSWU3NFhoYkN3bVpTYk1BQWlXU21Jc0FxMkVXX0tJcUw4aGUwOXR6UW5KQjB3OHhJcXBJcDFFY2p4MXJvU0ZjUFp3dmh2LUFRODV3N3lrR3lGMjg4SVEtWllYWGFjMEtSUThvN2VTQTJmRUotdmpid0hzX0p2TVY3YTNOOUVDSFN3WWhFTUhhR21hSmFBOFJCalA2QURFVEE5VC1ya3p3?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPb1BONDhjY3NiaFljUWMyY3V5ZnYxb2JRVXBHRWMyRjlBRDFPbUpXTW9RSEpRbncxOURJMllGVnV3T3VWLW8xRG91bDRYOVl4bjZZVWNYSXprOWx2d3BLZlREMnhIZ09LblYwNFQ1ekxTVEljNjJZZXNEMnBSV1NWNVBYWjV4dnZ0eVBHaFFwVVNPMGtFSE9Zc2otZHJEM2Yt?oc=5",
     "rank": 10
    },
    {
-    "headline": "خبير سابق بـ\"غولدمان ساكس\": النفط قد يجعل السعودية \"الرابح الوحيد\" في الحرب - الشرق بلومبرغ",
-    "summary": "خبير سابق بـ\"غولدمان ساكس\": النفط قد يجعل السعودية \"الرابح الوحيد\" في الحرب الشرق بلومبرغ",
-    "source": "الشرق بلومبرغ",
+    "headline": "غرائب خليجي 27.. قرعة نادرة تحسم مرافق السعودية في نصف النهائي! - Kooora",
+    "summary": "غرائب خليجي 27.. قرعة نادرة تحسم مرافق السعودية في نصف النهائي! Kooora",
+    "source": "Kooora",
     "date": "29 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxNMzNaOGVRRGwxQzRiMnBiX0NsRXFPdHVkdHJZSExBX2VVLTBYeElLejB4X3VhUjlubThrOS1YUWFlVlN5akF1SjNWQVgyakoxWWxFakJDMUpiLV9qN01VdnhBdjBONU4xaG5LOS1mUTJyOHZRWGlYUFpNWmxraExGcmZ3cE9mSEMtRXNVQ1Z5STNjbk9OVl9lOVJkdFRjRDJ0NVBZdk83bEJUVTFYSVdSaHhSNWZRTG9LNk1zMFRvYkR3NHFMa0pwa3BSQ2xjRlFvc1hCYnBoZnZHaWctYmVUM3VhRnZpbTV2SEtaci04SkJ1TDFPVVItRkxUQWxDc3RNWGlRaFJUR0FFa3lQcTZ6a0tGdnFxbHlDQTZVTWZWSnNVZ1ZDVG1MMG14SzlyZWc0S0dDVTB3Y3Zfd2h0ZWRCSXo2TWxrQ2lJYXRxd1ZqdUFlVUJIUFBMUzQyX3R1T0JMVVFlR1hPNTdVZHFEYVhOM3Y5a2hCWUxEMzk2VjhRcklmQ3NadmplSVo2N0FoU1hfMVBpVXhnTk43VnozT1o0TzdUVGRwNTRid2pEZ3A5LWJkd1lJbUh5TENOSG85N2hzNnhvc2gxaGZHeDRrS0pUcE9fZFlremZ1X1Ntaw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi0wRBVV95cUxPT2xEOFlUMk5MR3p6eUlxdk1oT21pVnlmdnpZNVZSMTZKX2UzaTN3VlcwS1pqN25ZbkNmUkp3Q0lEVFBtZ01PYmVWUXZNdVVreUxmSkZISHcyVWMyN2h0cThRbXNMRjhKR1pZa3E0VC1zVUkyZXdiWWFkUHFqV3hQbTk1REhnTXYtYWR5Vl91MVg1TU5VSVZSbmJ2V1RzSjA5U25vSDdOcWxmSTV4ZmFGaVd3VVhiTjFwU2g2cjNBczBXQXFiTzdRMm9IV3B0ZUk5MUFPcVdwQk1kSXF3MXktdElsRG9kNnpnN1BoMTNVcU9zMlJZd1o5ZF92aHdwbDE2YnUxYkFBdG53aVR2VnJnR01jX3g2d01tcTBCLThfbkFmdHFkTFpQMnBJUTdiVGJrS3V6NXZrS0V3WlhTTFVhMWdEWnFsYmllemFONHFGS0dMMEVReWJXeFZwemZLb0hTdWpsbmNNTGFfN092aW5WSms4Z1RCWlN4SEREdGJ2eF9Cb3NSU0hyTzA5YVVOWlUtTzVKb0lTTFBMTzk0dE1GMVdwU1ZsazhGMmk4Yy1pdDVRZjJ5N1JKYnFpU08xRDRQOHpJTWF5V3VzaHJwSF9HWHRQM0lOOFItNzU4R213TEdlRDJmWGhZbnBFQzFWa0M2LTR6bHVzN2lVYktIcnlVTWhQZGJOWmNxXzloR2NSWnJpeXFTQWdrbWJVLUh5dTJXMEZ1Z1A1aHRnVHVwaWQ0OEdjR3hwTkRMeVVqQ1ozNjV3b2lTUlE2dFNleHBOWC1lWnJr?oc=5",
     "rank": 11
-   },
-   {
-    "headline": "الأمير خالد بن سلمان يوجه دعوة للشيخ منصور بن زايد لزيارة السعودية - العربية",
-    "summary": "الأمير خالد بن سلمان يوجه دعوة للشيخ منصور بن زايد لزيارة السعودية العربية",
-    "source": "العربية",
-    "date": "28 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMivwRBVV95cUxPZHBkTW9lR0FnYlZyVUgxLVhJclVkTHpCSUtaZ1FYQ29EVGY1Q2U1a25aLXJjTUxNLWo0cS1rTzZwZUdxVHNMWFE0X2lJUEVlYUx6djQzaHpNbGQ2N1BoZjU3ZHlUU0R5cER4T2NKV2kwdEdZc1JXeWpWWk42QWpaelZuUmZzZk5lTmRNakx5MGw2TXVqVXFTbzZMdk9LQWFvWWJjZUlOQldEZi1fOWJkU1EwT1Fkbm9scVF3SDNObnVZb29IS29YUjkwTkczUHg1Y05OU3FCLVNnMnFwZWlZdXNsejBsYldlekR5MWw5QVB1d2Z1WXkwc1FiSHAtM25kT0M0UE1fcjFoekhobERYTG51Qy0zM3I5OVRwSk02MWVTSTByb1o1VV9XdU9zaDM4bzlNb2tjTnU3aERwY3pScmVjQmdGU3VmNTh1YXlfdVI2bW9taS04TUVCV25xM3MwYVdZZVYwMTVWRWRpU09sbHVBYU9USm9CZDVvOHQtTzY2Xzl0MHBjT28yaGRJRHdmOXMzckdYT1hmZGtVRXpJVmp0WHpqNUhhMWlKdFg4cFJJcnJZREZCZXg4RVdOOVZzd3M4SDNSdWhZUmJaUmRlWmtaTnVwMWc3VnRuMlkyT1V2N3hRaUdsbXVFa3pxUzF2UkRsLVJQRHQwNTF0R1BaYlFXQ2tua28yU1plRldwM05xeWVIOW1qbF9PbkdEdHpZTVhyVXJYS0Z1TDN6WGY3YUkwN29PMl85LXVqa3dVMNIBxARBVV95cUxOQU04OGpLa1F1U3FHRV9RSHp0UV93MldrT3d5SklDVXBvWjFrN3Y1V1dWMzlUeEIxYVNWSXdELTBuT2VHNTRiWG05YkFxX3RBT2VzcHJ0LWF4OHNoX0NsemtiX200dXJ2VFlFR1Bod2RSMGthd0VUX3YxVV83MmltT1FnUzNoMkJKb2UxYnR1UFNHMTVMNElVNzlRaF9udHo0aHk2cUR4bEwxV1JGV1ptcU53TlNuUW9XcU05aE1valliX2hQYVVFSU9HN09aVVVUVXktOTYzZ2pyaW1ybUtuTGRIb1U3Wm9oUGlXakJqWVhMNlBkSDlpaEl1WjVyTXlKT0ZPRTNRMTFta3ZIY3RTRV93V2V4WF9ZbVlsenBFcHhBa1h0Q1BrSjd4cGRvdnppa21yZHljSUhrZUZGZDNjSUoxR3lwUldYOENfRGNOMWoxQnJZbUdTOE5XcmppOGxtXzA0N3dZcDM4djVuaDJnMUtGdW1tNmtGMmJIeThXX29NQVlwYkdSdU9pSUhjdU1Nb0RxMUxueDZJQnRSUUx5TVJYdGV3b2lUTEs2eFc5UzV6cDBKcUpQcTU0Wm92X0VqWmpqSlB3WDdfNUFvSmwyWUFmVHV5U05NUnFOWHRTb1BHTGt2djdFY3Iza3lPbWtBR0JuZFpDa19KMkZFOXBMZnhieWIyaGhtaXJxLTRYQVp1WTBfMDFIUVFPblJnSnJFVlJrU3hnMU52UTRPbGEwNnY1aWR1aEU2T2VtWUFFdWRKLWl3?oc=5",
-    "rank": 12
    },
    {
     "headline": "\"زيارة أخوية\" رفيعة المستوى بين الرياض وأبوظبي تختبر فرص تجاوز الخلافات - BBC",
@@ -2682,7 +2679,7 @@
     "date": "29 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9iZEkzR3R6WlBWUXRRZzgtUDBLTm5lb3UxMmd2VklWamZmVXVFMnNpd0kySWFWNEtyWmNQdU8wSmg0R1h2cnhHNGVma282UUdBWEJ4TzdnWUlLdFZZb2c?oc=5",
-    "rank": 13
+    "rank": 12
    },
    {
     "headline": "منصور بن زايد وولي عهد السعودية يبحثان العلاقات الأخوية - سكاي نيوز عربية",
@@ -2691,15 +2688,24 @@
     "date": "29 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxPYlI3eVVXUEc1TklZYzFhalJ2bTJZanUwSkR6LVFsZlRHUmFyNUZWVU9zMk1tLXZoVEJWbUp5OHMySlM4NkhjVkVaTG04VklzYkJGZkNzVGxaWDVXQ21NaUlySHh4NFhLcVl1OUdHdXQ3dU14UFFZOEdPX0k4bzRIdlA2dWFsblZRZTQxUnJjYTE5a0pUVGpCaTFTVUJTUVZlVnBDYV94X2d2R0ZuOHpobWZFN2duZTVOd19sandzeXR2QkpfYjZKdHhfUjZIVVRvOWI3Ym5qVDV0Y0pFclA1bjBHbGJxSk04N0N3YkZEN190aV82VWp6Y3dBV2NFajdfcGt4dkhZYlFTRUtHTHYtVHp1VkozeFlQdkxUOHJQTm9Gd1ZBS1k1TVd0SlpKZzl4Z0N2ZkNTOWJpN3hBWV9mc0N5ZE1VdnpJUUZiVlhHdXdNaTYyejlxVTlvQ0tKZm1NSGNnV1g2SzJkdng0bVJBSFdUVmJ5UjRuanhlLUFmOFoyTlRGTTItLUt0MlR5a2dxM2NhYUZ6a0dQU0pobk1kQnVUbWpubWs1UzluYXQ2M2xjTFBjQ3J5cW5ublNiQ3hwNHhxbmlsNlZNdlpncTExdF9MVDZmUlFWdURjWERLM1hCUdIB5wNBVV95cUxPS25yeFM3bUpuQkdrcE15M3M3SVpTX0JoR0VaMXd2ZVBXc1I0T1Q4eVFfNld1WW51T01sNTNTWGpNTWVNY1VpU3hKTEFQQjRHei03QlU5SHc3dTdHZjRuQ051VnlVRFZ2NUVSOE9HSkdsM195NFhrQ3BEYVVnZGJUaHExWHZtZGFXdUR0bldJaEluNnphQVlIM1pfZGV3bXZ1R0lUREFDdE1zTndJWUdzSnpBUHFZOWR3amtxbWxLVW10VUtvTHcxeFdtaXVvM1J0eTRHdjI4QUVZbFpNT2xoM2Zyd0w4X2JScmtDOHItOU1YSHJKYmhIdmRpOWVBQUQ2TktvUndnN0k3UmxrWnIyeFZiNWxWWWZLVGE5ZlRXWk9Ud1YybXpSWmQ2R2dxSW9ucHRPV1FKSFdvZ3RqWV9qNEtNNFBiWEtiRDJXMzZqY2ptUlBoYUEzMGlvenRFUlkzcVN3SHNFVWhfOVd3Sm1WTlZHVDJiQlEwSE1KTlNFMDZwdzdqZjI4eUUxSmgyNUlRT0IydFIzQjktUWhNSEE1bE8wRUM1SXhCbTE2WHg2SVFiMG12NXFjY0drWGNvMmlsMnVJb2h2dlJYdWZ2SXJhQzlVUlZydjZUdWl5Q2NQdmRkMmpQNVVN?oc=5",
+    "rank": 13
+   },
+   {
+    "headline": "الأمير خالد بن سلمان يوجه دعوة للشيخ منصور بن زايد لزيارة السعودية - العربية",
+    "summary": "الأمير خالد بن سلمان يوجه دعوة للشيخ منصور بن زايد لزيارة السعودية العربية",
+    "source": "العربية",
+    "date": "28 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMivwRBVV95cUxPZHBkTW9lR0FnYlZyVUgxLVhJclVkTHpCSUtaZ1FYQ29EVGY1Q2U1a25aLXJjTUxNLWo0cS1rTzZwZUdxVHNMWFE0X2lJUEVlYUx6djQzaHpNbGQ2N1BoZjU3ZHlUU0R5cER4T2NKV2kwdEdZc1JXeWpWWk42QWpaelZuUmZzZk5lTmRNakx5MGw2TXVqVXFTbzZMdk9LQWFvWWJjZUlOQldEZi1fOWJkU1EwT1Fkbm9scVF3SDNObnVZb29IS29YUjkwTkczUHg1Y05OU3FCLVNnMnFwZWlZdXNsejBsYldlekR5MWw5QVB1d2Z1WXkwc1FiSHAtM25kT0M0UE1fcjFoekhobERYTG51Qy0zM3I5OVRwSk02MWVTSTByb1o1VV9XdU9zaDM4bzlNb2tjTnU3aERwY3pScmVjQmdGU3VmNTh1YXlfdVI2bW9taS04TUVCV25xM3MwYVdZZVYwMTVWRWRpU09sbHVBYU9USm9CZDVvOHQtTzY2Xzl0MHBjT28yaGRJRHdmOXMzckdYT1hmZGtVRXpJVmp0WHpqNUhhMWlKdFg4cFJJcnJZREZCZXg4RVdOOVZzd3M4SDNSdWhZUmJaUmRlWmtaTnVwMWc3VnRuMlkyT1V2N3hRaUdsbXVFa3pxUzF2UkRsLVJQRHQwNTF0R1BaYlFXQ2tua28yU1plRldwM05xeWVIOW1qbF9PbkdEdHpZTVhyVXJYS0Z1TDN6WGY3YUkwN29PMl85LXVqa3dVMNIBxARBVV95cUxOQU04OGpLa1F1U3FHRV9RSHp0UV93MldrT3d5SklDVXBvWjFrN3Y1V1dWMzlUeEIxYVNWSXdELTBuT2VHNTRiWG05YkFxX3RBT2VzcHJ0LWF4OHNoX0NsemtiX200dXJ2VFlFR1Bod2RSMGthd0VUX3YxVV83MmltT1FnUzNoMkJKb2UxYnR1UFNHMTVMNElVNzlRaF9udHo0aHk2cUR4bEwxV1JGV1ptcU53TlNuUW9XcU05aE1valliX2hQYVVFSU9HN09aVVVUVXktOTYzZ2pyaW1ybUtuTGRIb1U3Wm9oUGlXakJqWVhMNlBkSDlpaEl1WjVyTXlKT0ZPRTNRMTFta3ZIY3RTRV93V2V4WF9ZbVlsenBFcHhBa1h0Q1BrSjd4cGRvdnppa21yZHljSUhrZUZGZDNjSUoxR3lwUldYOENfRGNOMWoxQnJZbUdTOE5XcmppOGxtXzA0N3dZcDM4djVuaDJnMUtGdW1tNmtGMmJIeThXX29NQVlwYkdSdU9pSUhjdU1Nb0RxMUxueDZJQnRSUUx5TVJYdGV3b2lUTEs2eFc5UzV6cDBKcUpQcTU0Wm92X0VqWmpqSlB3WDdfNUFvSmwyWUFmVHV5U05NUnFOWHRTb1BHTGt2djdFY3Iza3lPbWtBR0JuZFpDa19KMkZFOXBMZnhieWIyaGhtaXJxLTRYQVp1WTBfMDFIUVFPblJnSnJFVlJrU3hnMU52UTRPbGEwNnY1aWR1aEU2T2VtWUFFdWRKLWl3?oc=5",
     "rank": 14
    },
    {
-    "headline": "المنتخب السعودي بالعلامة الكاملة.. هزم العراق بثنائية وأقصاه من خليجي 27 - Kooora",
-    "summary": "المنتخب السعودي بالعلامة الكاملة.. هزم العراق بثنائية وأقصاه من خليجي 27 Kooora",
-    "source": "Kooora",
+    "headline": "خبير سابق بـ\"غولدمان ساكس\": النفط قد يجعل السعودية \"الرابح الوحيد\" في الحرب - الشرق بلومبرغ",
+    "summary": "خبير سابق بـ\"غولدمان ساكس\": النفط قد يجعل السعودية \"الرابح الوحيد\" في الحرب الشرق بلومبرغ",
+    "source": "الشرق بلومبرغ",
     "date": "29 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiowVBVV95cUxORWxvdTEyaGFsZDRCY01DS0FxMHZicWlyTDVvTzlNSFd6RXhhUzExN0U5Ul9yOGdIWGdkYm0wdEVXTjBjUEd0MDk2Sk1GWmh2Z0Zubm5NMU5sc3ByWWsyeXBHcUZVSGdYQTFRY2JXUUV0c1JMSEI2UzNFTkotWWJVcDhaY01BTGF1blo1RXMzOEdCc0dLMWpxZDhHejFodGlyT1dfMlcxTGNKdXBzV3RBX1I3OURiN3pjZWVhQ3FKWGxtRVQ3R2pzdC1LMzBTYnNFQjNYbjVxUlRsMnBGdHZaS000QkZHYTNRMjNwQjRFQlVGZC1aM0RBVXZoWWFhQkFQdWMwOEcwam0yS2VOUHJtbURMMjlZT3Q1XzY5STJBN0Q5SWxXZEJwV2RmUi1TSGxweHg2a1luM0pSQ3hxeUhocHhIeEN3T2tIbW9BRGJPWEhZMmlZNGdUaTExbzkyTlM2dk1GQklEQnBRd2lzM29iMngwZDlPN2pFbHdrVEt2TmpyVVFDbDFockRndVRXaHlGVXVaLXFQNkJhUzJyVXZFLXNXQS0xR0s0T2xFaDd0cVpNYl9Eek52NWdhNTd0ZnR2Zi1RWHo5TzYzZ3c3dXdIX3A0VjBjWmxnYzdOVUFNMFEyUlhvREcxdmJ3MVRQS3lvWFVWWTdVdHp3dGQwMkVkd1RGdTZ6a2ptRzl4LXlVcWlZSTQ3aXRjN2VxckFTakRlbk5UV19qdkh6ZURGNHNyS2pZSjdhb0h2R1ZGanJIZ09XLV9NempiWENQSGY5Qk5XUXFwVDJ4Q2gwdFpZaXNtZzlabVB1RmpKakg3UVJ1ZGNpbkEtMHhNZnk3SE1sVVpscHhuR09LMW8xVUhRV0JoNlJ4NGxxM1djalh6ZlVmX3JQMzQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxNMzNaOGVRRGwxQzRiMnBiX0NsRXFPdHVkdHJZSExBX2VVLTBYeElLejB4X3VhUjlubThrOS1YUWFlVlN5akF1SjNWQVgyakoxWWxFakJDMUpiLV9qN01VdnhBdjBONU4xaG5LOS1mUTJyOHZRWGlYUFpNWmxraExGcmZ3cE9mSEMtRXNVQ1Z5STNjbk9OVl9lOVJkdFRjRDJ0NVBZdk83bEJUVTFYSVdSaHhSNWZRTG9LNk1zMFRvYkR3NHFMa0pwa3BSQ2xjRlFvc1hCYnBoZnZHaWctYmVUM3VhRnZpbTV2SEtaci04SkJ1TDFPVVItRkxUQWxDc3RNWGlRaFJUR0FFa3lQcTZ6a0tGdnFxbHlDQTZVTWZWSnNVZ1ZDVG1MMG14SzlyZWc0S0dDVTB3Y3Zfd2h0ZWRCSXo2TWxrQ2lJYXRxd1ZqdUFlVUJIUFBMUzQyX3R1T0JMVVFlR1hPNTdVZHFEYVhOM3Y5a2hCWUxEMzk2VjhRcklmQ3NadmplSVo2N0FoU1hfMVBpVXhnTk43VnozT1o0TzdUVGRwNTRid2pEZ3A5LWJkd1lJbUh5TENOSG85N2hzNnhvc2gxaGZHeDRrS0pUcE9fZFlremZ1X1Ntaw?oc=5",
     "rank": 15
    },
    {
@@ -2721,12 +2727,12 @@
     "rank": 17
    },
    {
-    "headline": "ما أبعاد التصعيد العسكري بين السعودية والحوثيين في اليمن؟ - القدس العربي",
-    "summary": "ما أبعاد التصعيد العسكري بين السعودية والحوثيين في اليمن؟ القدس العربي",
-    "source": "القدس العربي",
+    "headline": "السعودية تدين الهجوم الإرهابي الذي استهدف نقطة تفتيش أمنية في باكستان - عكاظ",
+    "summary": "السعودية تدين الهجوم الإرهابي الذي استهدف نقطة تفتيش أمنية في باكستان عكاظ",
+    "source": "عكاظ",
     "date": "28 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOYWNUaWNsY09RLUZkdlg3TmhYT2Q2LThqOWZvVHVKMS0zd05LUWxnT3lwX3YwRnJmMFc2REt6RDlwNVppY3hNdDVodzV6NVZwRmt2SVJ0Sk5vQ1JvTXJIVGJsODJ5RnJuQWh6eEY5bDlIUWQ2ODlmZnd3dTFqQUdwalBHY3pWMWVsbWhkOHFENjVBM213cVRKcUg1MVVQbURQcFVuLTlKcFd2cnc0VElIS3dISTJOc19LbGV3dTNKa3N1QUd6RnRYVlBySzN2bjlfRDd5b0U1bl9JOElXOUc5dGVlbktmeVZRWEVRaVFlcUc4MTZzbWl5MllpeUc0Ymtwc0dsdllGSTVNczR1SGJkc1BxRXBBUC1TOVdZTUVlVkFuV3Nzb2F6M1VUYlNFUlg0YTNGYjJoQlNxQm5qOU1PdUQ3RzE0QQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1Zkh6a2FFZFk4Rmk1OTJidU90MkJPRHV0cl9oOENDTUktTC1IS0s4eTZmcG9mT1VzQndFRExtVXlTdzJUQmxsZnVMOXVHYWdpUVHSAVRBVV95cUxQcERObzVtclRNSS1ickF6OU1DVTVNUkx2N05pb1d5dFVONW9uM01PZTIzbVVGV250MjItemJpX1otNFV5VXNDOWUyalBob2duZjBGNHk?oc=5",
     "rank": 18
    },
    {
@@ -2739,12 +2745,12 @@
     "rank": 19
    },
    {
-    "headline": "نائب رئيس الإمارات منصور بن زايد يزور السعودية بدعوة من وزير الدفاع في المملكة - CNN Arabic",
-    "summary": "نائب رئيس الإمارات منصور بن زايد يزور السعودية بدعوة من وزير الدفاع في المملكة CNN Arabic",
-    "source": "CNN Arabic",
+    "headline": "ما أبعاد التصعيد العسكري بين السعودية والحوثيين في اليمن؟ - القدس العربي",
+    "summary": "ما أبعاد التصعيد العسكري بين السعودية والحوثيين في اليمن؟ القدس العربي",
+    "source": "القدس العربي",
     "date": "28 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSWw2Z1VJb2xWZ2FRMm5ZXy1Oa25GWm1sOUsybDUySV9MSHlrd1ltOHIwNlVTUWk5YXRtX2sxVGxfUTJLMHRhU0drUTZtZHFGcGZKeUh6cUFYc2dHaVJzOFhXU2FyeUFVZFYtRWRMM0gwU1VlaHNGOEZ1dmQ4ay0wdXRJSVQ3MHdTSm9nT2F4T0VGMWY5LUpLVmREZHh3R3E2QWxCaGphYWUyUWYxZTA2UV9fbDQtcjdPQUI1NFFERDhOV1JqTHhDTDBIaFVBcmdaR19lSWJhTDhmMTY1QlVlRQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOYWNUaWNsY09RLUZkdlg3TmhYT2Q2LThqOWZvVHVKMS0zd05LUWxnT3lwX3YwRnJmMFc2REt6RDlwNVppY3hNdDVodzV6NVZwRmt2SVJ0Sk5vQ1JvTXJIVGJsODJ5RnJuQWh6eEY5bDlIUWQ2ODlmZnd3dTFqQUdwalBHY3pWMWVsbWhkOHFENjVBM213cVRKcUg1MVVQbURQcFVuLTlKcFd2cnc0VElIS3dISTJOc19LbGV3dTNKa3N1QUd6RnRYVlBySzN2bjlfRDd5b0U1bl9JOElXOUc5dGVlbktmeVZRWEVRaVFlcUc4MTZzbWl5MllpeUc0Ymtwc0dsdllGSTVNczR1SGJkc1BxRXBBUC1TOVdZTUVlVkFuV3Nzb2F6M1VUYlNFUlg0YTNGYjJoQlNxQm5qOU1PdUQ3RzE0QQ?oc=5",
     "rank": 20
    }
   ],
@@ -2755,8 +2761,17 @@
     "source": "Middle East Eye",
     "date": "30 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWHZjeTBkMlpibE4zalZZcU9Xa3hybG05SWNhOHlhbVZqSm15OWd3MFlYVktoTE9jbElEdWVHNS1vdll5dEx3S2psRG9wR1BFTlFnTFplakstWTcwV08zREl5eXVaUldSNGdVb214RnluSVo3NHM3ZjhaWFp0RURTOUlPaWZhenV5WDVYY3o4MGViRURmeEhFNnU3eFNZT0pkaUxpVTFZMEktV1lFMkxDWG9DMWJLdw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcm1UejA4LS1ZZVBiSW5JVFpSYVJvaXJ0RC01YVRYeGVsd2UtdG8xdlkwVnNDMGNhM0d0V1BqWVo2TUFSMXZLdW45Qi11YUFyd1RrMVFhNlBnX1RYajhlUWdXVmo3Zk5xM0VFcDBwWmRmRWVnbHBHRmg5cVk5bUpjbWx3ZmZnOUhqODVxNFgtN29zalpSU1VOcmZnX3JzaGRNdnAxMllQSUZ5aHZtQUZ1ZlFtNTdETW9DZERveEo5SUtfWkU?oc=5",
     "rank": 21
+   },
+   {
+    "headline": "Pilots on UAE-Israel flight hospitalised after brawl forces emergency landing - France 24",
+    "summary": "Pilots on UAE-Israel flight hospitalised after brawl forces emergency landing France 24",
+    "source": "France 24",
+    "date": "30 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVNYclZlWTNKWGF0VUVjWGRuQXJpQkxNdzRVRlZadVdkZE5lTG9FU1NvZU9ZTEQxdmdHQmxuU2tHMDFfOW9CLTVsUmQ0NUdhcDQ3eWN5eDJzYVdZS1M0R1V4LWtma0FUbWEwRktGeEZDMHhMa2FZUnRlemUxeWc5bld2SmhhaXRrZjdYNjlsa28tdUVWTEdmQVplc2x2OWFmNERNaHFyVGlQMEs4dlVDbzJXYTZ6N2NnRWw3LQ?oc=5",
+    "rank": 22
    },
    {
     "headline": "Israel-bound flight diverted to Saudi Arabia after brawl between pilots, Israeli official says - Reuters",
@@ -2765,7 +2780,7 @@
     "date": "30 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWnpLNmZJUXN6UzQ0RlhKSFhxT2xYMWZ1R1VwYVdZX3ZuZWFTYUZyV1VYTVhralA5Y0ROVjlNVl9XOGpTSWhEcGM3UE01WVA3clNKcm5KdDZ2dUY1U3FyODdsWkkzSWs2VW5NZUJWQXFYQ0dxamNudlljZl92REs3SnFXSEUzTEswdjh4NnRia2VWZGd2TGE2SmZ6VDBQTXpiRDM0SDZSZ29ubUZUd3Zsa0E4LTBoRmxpSDRjd0JkcmhYbkNV?oc=5",
-    "rank": 22
+    "rank": 23
    },
    {
     "headline": "Flight to Israel diverted to Saudi Arabia after incident in cockpit - South China Morning Post",
@@ -2774,7 +2789,7 @@
     "date": "30 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaXRmdTNyUEZXUlB4UnIwQUhPOHlscUFSNENhS2xtYVl0U043aFRWRGd0MnBNdDlmQWNEcERkTjdYTEpEM1pVYzQ5ZEFsN1BaNGlsRFJwUGJDMUpMQ3UwV2xQR1BWcXd5WXZmZTkwTVp3NldrVHVpOG9lQkgyZzJPRnNSNy1WUm1RYk5ENWFPTEtlUjM3WlBqNU5aWE4tSjlXbU5lNzZiNjZHTFNIMjB1RG5LQXhYOWdrNDNPX25GaGh2dm5kR0HSAcYBQVVfeXFMTlVTalQyQkxzRE1yLTZTVkpLYTBFM2h0ZkNBODl4TGxLTW1XWlVESkVNTU55dDkxMDNjcUU2TC1OUWcyUFpSa1FYNGVYRjhDOGFmb0NRLUg3aVF6V01SdGdPb2x1SGFXakJEa1NySjlnbEJvUkEzN0NNT180OHAxRjJDNkhUVWlJeTlrZVdIZDRQNXNEandHb0o1OU1yN3lOSU1qdWhKbjJiOEIycUt6MlNDbHdiSGZZWTAwQXpyUzRyUG1FVzhR?oc=5",
-    "rank": 23
+    "rank": 24
    },
    {
     "headline": "Saudi Arabia Rethinks IPO Rules as Investor Appetite Weakens - Fortune",
@@ -2783,16 +2798,25 @@
     "date": "30 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNEh2TGVZRG05TGY1RmZ6ZFhUT1ROcGVNVWctUXpvTEZ2S0ZjM3RQS1I3T0l3YlBDMjVBeWdFbjdMc0hMS0Qwb1Q1N3JJcDJPcVBmWlBKNENRb0hTTC1qWkh2c1RGRlhqd1lsY2JlWWN6LTBrSUFMZDk0Rl9YWmJsU2pXaExoWWh5dUk0TnBkdjhWT2R0SnVxVzVrQmpqTk5YOURhcVFtdnlUOHBaOThDUHI2eFFXRUQtREpnVjhyU3R0WV9Q?oc=5",
-    "rank": 24
+    "rank": 25
    },
    {
-    "headline": "‘Violent incident’ between pilots sparks diversion of Israel-bound flight to Saudi Arabia, sources say - CNN",
-    "summary": "‘Violent incident’ between pilots sparks diversion of Israel-bound flight to Saudi Arabia, sources say CNN",
-    "source": "CNN",
+    "headline": "Israel-bound passenger plane makes emergency landing in Saudi Arabia after reported fight between pilots - The Guardian",
+    "summary": "Israel-bound passenger plane makes emergency landing in Saudi Arabia after reported fight between pilots The Guardian",
+    "source": "The Guardian",
     "date": "30 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZkc0YVVpSUc0aWExWkZxTThEZGQ4RXZhajdfUUwwMmRSN2lzcDlla3M2VVg2R3ZiUG1USi13c3BXYmlYLVhEQzZBZTE2am9pcGtQb1ZUTG1fYUdnU0kzeXRXM2NSUEdlRW9QSmN0ajhYd1BaandWVEVIQlBUUWpOcmxR?oc=5",
-    "rank": 25
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTXFXaVNaOUdPQ1FOSTNBOGppc1ZuVEREcGlBMHItM01tMDEzYlFIZlREajJ6SjZZcXo0cF9ieDUxYlRDNVBfemt4aHh2VWlmY0tFTHJ3UU13S2ZUTThwbDBBV0c0N0VKdzVVLWVRS1VCdnhrdFdibjBVamZGdDJySG5YQ1BlOVhUQVEyZ0J5TWZHUTRsSmJsN0FjTVVJSndacmt4dklyRzAzcjdxZy1NX0tXcUFxdWJX?oc=5",
+    "rank": 26
+   },
+   {
+    "headline": "السعودية لبناء منظومة متكاملة لموارد الطاقة - الشرق الأوسط",
+    "summary": "السعودية لبناء منظومة متكاملة لموارد الطاقة الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "30 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMioANBVV95cUxPcU9rMXlQRnp5UlAwelVsZzA3UkMybEFQWE5MckdTYlp2U0N1ZE1Fb1owLVUzanRUSzQwMWd6VzllVUJiTTd5cWg2ODJNOEdEZEFUVXBod2M1TFpNc2lFbmVmNTBPcmxMd2JtWkF4SjAxUS14SGdMRFdCTmw0Q3FYcHFpTFJTa2YzMmxxaFNhdWhWY09VcDFqM2FvVldvelJnb3FOUEs3VTVGdGt0a3lJWEpfc3ZPekN5QkZJRFlHenMyeFpYbFlaSjk1SWY2RVJ4NkxrRWtmV1hwNGFyYzFhcHE0WHh6LXdwU3VtRktvM1J2T0d5ZXgtSnNVb0poZno3a25QZGsxSXJaOFJLQkVtQ0Rsbl9MMVptSEpCVzBCN2pROUU5VnJ3LTN1WVhNVEdRZlhpdHgyOEFjQTNwcW9ZRTdjbDRvT3BidGcwRWEzdVpIZFhGTzZoLXVueXZNUG11bFpVLThzUG1wTFp1WUpQQ3pUWXRTUk13WUVfQjlTZjZIY285b1RiaG5WUzZ4WWppb3diOG1PQlVjb0JfUHU1Nw?oc=5",
+    "rank": 27
    },
    {
     "headline": "السعودية والمغرب تبحثان تعزيز التعاون الدفاعي - الشرق الأوسط",
@@ -2801,7 +2825,7 @@
     "date": "30 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMimwRBVV95cUxNUGZrUWJDakluVjRqVzFrUDRyOVFSdHhaYWdyenBSa2hESi1FTEdvZGlTeUtlWm5QOC1LVWN4NExpX01NZ01PU0wtcHdOS2VkS1RvQk9Vb1ZleWtfQl9fNU0wcm1INFNTSHJwSzVuNHB5NmQ5SDRoeWtteDA3TkhfQ0hveGFXaEU4MFUzSEwzMlcxR3JsNXZuc3BHWFExeXhhaEx0cmR0d2ZjNXNEVzZnWHdkVmlkY1ZVYVNJS19OeUdwS0RLcTdBUVRURldvMGtrU1NaMUwxZE5iSElYZ29RVTZrckQ0YjlMdTlhbXF5UkVRMjcxblU2VEJIY3BGcG45TWxOLWZwZUZ2SmhkeHdUWW84cVpST2lncmkyeF9mdzV1aTAxaXJOSTdjYkFXRlVKUFpZajFBZ1JuODgzeTVZWFdjZzdQM2JVWnFDdUNvWi1PT216amQ3aHhWa3dkZ2hMRHFOLXVzLWtvWmNrQ3pqUGZmbWZ6SDBYSms5MWs2cnZUMlJ5RTF1SXhuYkt3VXRiam5TRU5oZFdLamxWM2R2N1hNYWR4WTctT19veEJxODZ0UmIyeVlydTVyV0k2T3Bodm4zMmR0OUxBVkVrdWJWM1JqRXctYzkyQ1g1YU4wT1ZrN0VaeDltTGQ2TXprVVJibVF5czNJSU8ydHR4Tnlvdy1nUjZBdTNxN29OdlZkQnE5WEN1bzFOSmVGbw?oc=5",
-    "rank": 26
+    "rank": 28
    },
    {
     "headline": "وزير الدفاع السعودي يدعو منصور بن زايد لزيارة المملكة الثلاثاء - الشرق الأوسط",
@@ -2810,16 +2834,7 @@
     "date": "30 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiiAVBVV95cUxPVUlsaVNwNW5SbjRwME4xUzduWGY5Y0xQSzFVYy1GX01YQXhCdHRzaG5VSmQxdk5fcWFOb2ZyZnl0U21TOW9BZ0FXOERpV2RMLTNaa3VCUVEzYmpDYklEX2w3a1lsNnRyeFdQb2RxME43LWxCWlVJOVlPdkQtcjVNaVdYVEc2N1V5X0dJb0xEdkQ0aE5XR1dzZU0zamJqWGNTN1hyVzVhVTFQZEEyQjFINldfUl9SUVpsNXl5MTY1eFZHd1Z1OWt2aE9FOWJjRHlkVjQ0eDRYWGhDRlUxc3VTR0dQeWs2eTR1Mk1tOUdMSlFrSEFkZWVwVC1BdnNtRGlXVEp0U3g1NVViQ1drV2R3ei1TbHBiSVU0djVWRW1OZHJkQmdlNkRHRmVHUnd5R0g1bUNQdTFsdENpWG5wVnhyaFh5N0U0dEFUUlJSZndKTGFGMlVPNVgtdUM2QTVPMkNYaU82TDF4bGlCRDJfVUNZTkZ4SnlvZHhxdDVCLUJwZU9hRk1waUtkamYyYnlpdUxXTnBlaXh6d0xuT1lsbUFBUmVfU3FDZjF6dzR0SWVhRzRnWExNSDRtakZ6Z1kzeWNYcDQ1NG9aRGhhaTdKbGhZZDhlbGJMSnVpLXFETjk1UklOcUIxRkx0STNRV1czZVRJeDQwVUMxNGFRdmdhbGRROTRha2J5bW9HdXRpRGllb0xBX29nS2NOekxzSVRkcVk4ZGFNcnRLRGNWdzFibnFLQ3poLVFYODUtMHpVT214T3NVaEsyYW5DVmRnR3RQU0lvOUNZb1VxbFN1WUxUMmMyaFdDVXNBRnowaFNGd0FGVVNMelphZXdkUXhYb0NDSFBLV0RORHVNZ3Q?oc=5",
-    "rank": 27
-   },
-   {
-    "headline": "محادثات سعودية ــ إماراتية في الرياض - الشرق الأوسط",
-    "summary": "محادثات سعودية ــ إماراتية في الرياض الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "29 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxPNHZER3l1bklIUG1adTZybUdIUm9scG1Mcl9iV2xIcjFic2gtZFJYRXhJcTgxX3NKOW5DY2RRRHFSaVdETzU5VmFfYWpIMmJZSkhDUW9zNXRZM0RScC0zM2REZ1k4YnNZck9UclBrTkRacHFjNllndjU0bmJOUGRyYWNYOFZkMmxuWS1yc2NPaWNVNUhEcHpxODJ1dXhvaF9Lb1JHR3lyYm1mdWZzZkJFaVI2SVctNllEdXdZS2dBdjlIdWFBcG9fZ2RKZ0tOX3pxUTN6ZE0teFpIX2Jya3R3a0lBX1phdnNCX0dnRnZiRnBTWDg2OUZ1OGlYVHBXR0hzREt4dXpEQnhhZ3A0RTI1SGZkQzRCYnhfbEpqMmtvVExiMkR0U3hEQU1fcFhsSjBkRzkyTnA3U0F4U2t2SzNIZ1hyQzNkMFV6S3Q3NGRwcVB6M01pSmZmRzA1dk84V2twZ0I3Z2Z6TV90YU0yN01oaF8wSzE2aHpyNTd2ZWx1NjRVcHVJUE1OMHhhNHgtdTFGR2hKZVdXMk5tY041elpibnBrSEFTMEVBb25MODhaTE9GVmpiWEMtemVua0dMOGdGLTdqaUNoLWJKTzdfeUE5WUp6Zw?oc=5",
-    "rank": 28
+    "rank": 29
    },
    {
     "headline": "أسواق الخليج تتباين مع نفي ترمب تخفيف العقوبات على إيران - الشرق الأوسط",
@@ -2828,7 +2843,16 @@
     "date": "30 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMihgRBVV95cUxNXzVDdE5YMkZ1OGdGTG5ORWtya2NPT2F6TjJRTmRwN2tyeWdvTDhnTGVfMVk2THZqV0RiSXhwV1d1M1ZWenZ6MW1lT0dnQVZGU0pnV0lzODNLWHFUQ0lNMEtXaFBzYnI4UUpIVF9zM0RDVG1RUmxjMHFVRDFDTHdabVFrTUZxQUNYX1hUTjVzWS0wcVdObGpBS25leTZHdzFmMkdWNmF4Y0EwVU1ldHc0UFJQcU8zUFIyM3dsOXl4Qk1sUm1ib1hhdV9GRWV6dV9KQndrMmE4LUdoc1cxUFZxV2lTZ0M5eGF2ZUpxS2hnZmhPb05Ea2ZFcHM5X2NYd3ZfeEhKQ09XbHpjVGdBOU5nVXUwbVRmRGxMOHFjYUJpLUJVTERCeFM0TW5iVEZYQVlBQTY3aTJsT3dfbGh4akVnRk5iRjRRSHljMy1lQW1Qc3pzOTRTemo2VUJWVlAxc3FydlktOVJVeEp0UmtWVnhwa04yVXdyVkQxRDVJQnRtbmYzMW0zVWgzY2FxTXEwb0RkcEYtQUc2LUhhNDVOMTgwbG9jdlkxalZoa0NydlViVTBTNldCM0tXWTROcXBSa2hBdnBIbHNESmc5RWE0UzNUN1QtQTBhTGRpb180RGFlR18zamtHaHkxcW5pMXI0c0RNSXRLay1ub0p0QmhqdFdOSHVGeWFhZw?oc=5",
-    "rank": 29
+    "rank": 30
+   },
+   {
+    "headline": "محادثات سعودية ــ إماراتية في الرياض - الشرق الأوسط",
+    "summary": "محادثات سعودية ــ إماراتية في الرياض الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "29 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxPNHZER3l1bklIUG1adTZybUdIUm9scG1Mcl9iV2xIcjFic2gtZFJYRXhJcTgxX3NKOW5DY2RRRHFSaVdETzU5VmFfYWpIMmJZSkhDUW9zNXRZM0RScC0zM2REZ1k4YnNZck9UclBrTkRacHFjNllndjU0bmJOUGRyYWNYOFZkMmxuWS1yc2NPaWNVNUhEcHpxODJ1dXhvaF9Lb1JHR3lyYm1mdWZzZkJFaVI2SVctNllEdXdZS2dBdjlIdWFBcG9fZ2RKZ0tOX3pxUTN6ZE0teFpIX2Jya3R3a0lBX1phdnNCX0dnRnZiRnBTWDg2OUZ1OGlYVHBXR0hzREt4dXpEQnhhZ3A0RTI1SGZkQzRCYnhfbEpqMmtvVExiMkR0U3hEQU1fcFhsSjBkRzkyTnA3U0F4U2t2SzNIZ1hyQzNkMFV6S3Q3NGRwcVB6M01pSmZmRzA1dk84V2twZ0I3Z2Z6TV90YU0yN01oaF8wSzE2aHpyNTd2ZWx1NjRVcHVJUE1OMHhhNHgtdTFGR2hKZVdXMk5tY041elpibnBrSEFTMEVBb25MODhaTE9GVmpiWEMtemVua0dMOGdGLTdqaUNoLWJKTzdfeUE5WUp6Zw?oc=5",
+    "rank": 31
    },
    {
     "headline": "فيصل بن فرحان يبحث مع مشرّعين أميركيين مستجدات الأوضاع الإقليمية - الشرق الأوسط",
@@ -2837,7 +2861,7 @@
     "date": "30 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMimAVBVV95cUxOU2pidjNFQmVjd3NNQjFjX1lfX0RLbU52U0ViaUhGaTMtSm02Mm1WMlpEbm1fX3dyT1ZtQU1hUWx5VmxBeWVzWjFnX1FMc242VnB3cW16SEVRbXhleERBMmtDRl80bldZMDFPa0MyRFdoRC1vdWk0eUdpVk5YOFQtT1pOQ1A5bXpNRWphcExKOGc1Z0psNXptN0lTOHV3bHU5MDVwQWpOdFAwdWo2aVc3eXVpUVFMMzZIOUlaVVN4NXZWeGc4cWRvZmdKRFBySzZ5UGl4UDFJOVYtZ2x6U2ZCV2RtNDFfZnJlM0hvOW5wZ1U3dlhtT25wUTM2azJLRVYtbUNDQ3BibzF6SF9odkwxMzhNaUc2cXZseUswYXVkMU5zWFNkaVpjVGZJWjZ4SlFPSVdtQ3lOdVV4WUtxLTlYTEN4U0MxLUJxeWhKYlhsU1pmR2RTZ0pCTVViZ1pqT1VRVkpYYnBaNU5xQzBXb3NsLXVtZEZTYkxiZzMxQ3VXamxWcVFjU2Jlb1ZIQV9GN1BBQzQ2THhPWTFxdTJ1eU53b05DcWJsWTJMeUk5Ty1acjF6SWp0bnZOeVZrUkJzNlVVUFFtcE95N0tCUzJKckV3QVN6S2RkUFN1UjFoQlhrVFFSNUZaU011Y0JrYnByR2dMQjZSdGVMV0ExM0JXOWtLRS1PYjBaQ1hlbjFla3hnTWhjdEpxYTA3d0hoLVJwOVhsOW1jbk9YVWlXSWRGbmJJY1dZVFJrLXlOa3Q3ajN1N3BtYUZ6dTIwUktOWVIxUHhVWGo3dnpOQ01QUTJaSC1XLXFVQ0F4R3BMSWJKQ0I2TTBsZjdFRTBScFhRX0Rmd2kzWjd6SDJIZkhMODF6akYwcFVaUW4yM3Iz?oc=5",
-    "rank": 30
+    "rank": 32
    },
    {
     "headline": "البطالة السعودية دون مستهدف 2030... والمشاركة تتوسع - الشرق الأوسط",
@@ -2846,16 +2870,7 @@
     "date": "30 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMivwNBVV95cUxPZC1qT1JWbVo0OVdwWnpWTkJSR0ZHNjZBd1lpSTRhR01BbXZ1aTViQ3FVQ0hFNU5md1pwQ0EyV0tQNERQTFdXZnZ5UHluaGc1Q0x6ZDZMejhTb3dESDFBeXlCcER2d0YxT2FpTW1XY2d3THR3cnA4eEhvVDBpVFlxdEV3RUF1bDZnWVcya3JNbXVCRzZ1OVZ5d0hJUHpleGlhNnFocGRjcVpzZXY4elp3SFF6U1VMSi10cGhSZmJqQUdhUk1XR3VITUdxMU9teGxNeURlakNOQzhXNTFlREdZNG1DcmFLOG11WncxaXJaa3paeEFwbEJ1SlF5dTNDd2hYeTlRa1BGaDRFS05JQVpLcDE0ek9Qb3VWN3d0MElhazM4WWxqWHNNR0ZNOC10V3paRXl6MFZQTTJwRnZqWFpZRjlpbHhtWTdZU3d2NDNxWVRES3BpWnVPdHlJYURNMWttbDBiM3FaNWstZWI0Y3l4bkJFcW9IajEzSlY4bXBGZ3F0ci1Ga2VDZlVWd1U5eXNIS1k0SElLQ3kzWTZLcnplcXFIekFaVzFuN1FMalZKLTQ2YVktZGlNVUpaeUtZYVk?oc=5",
-    "rank": 31
-   },
-   {
-    "headline": "«ديزني+» تقدم أول فيلم مدبلج باللهجة السعودية وتطلق تطبيقاً جديداً في المنطقة - الشرق الأوسط",
-    "summary": "«ديزني+» تقدم أول فيلم مدبلج باللهجة السعودية وتطلق تطبيقاً جديداً في المنطقة الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "30 Sep 2026",
-    "tag": "culture",
-    "url": "https://news.google.com/rss/articles/CBMiogVBVV95cUxQWTkxZ2E3NkU5RGQ4TDNmQzlqNnFNT3VRTm1kazB4N1ZhNURVNGx4Qm5yUUozYXVXQjVjOW1zTk4xSWNoUG1mWWR6SlJYYV9xNFFtRkxSb3lHb1hnZkc5WktadTZHSmlheUZhdjhJTnVuVnlnYnRGdlF4OVVhSTZyYjZjdkdUcEUxdTNQTEpndVJmcGZtRC1MNDYzRDdUN2ZjODJqcm85d05CcUcyTEtkNXJEc2hIN3N3ZFI4cjJ2NzdhYWFKaU9xTFJDTEU4TnBmRzdiYmd3WWd4dHF2bjR0WFNHUElMa0dBRUNOLU9PS1RybWdhbjc2cWxNYUl1VWstQWw5NU91b05ETVdfR2txVzlSRE8wVkdPSnJYQzNOOHpKcE1Pd1FUdGtRQnd3TXhLTFFGQWdwOTJuUVU4NGZvWkp1TG9STGlwTndjelFjbFZLc2ZTa0FVYXNBWHJPRWpRWV9JMDc0Q291WWxBV1dVVXQ5UHUyV0l5b01rZ2Y5QzBrNURGb2N5dU1GM09QOEdodE5MS2ZpakRRUGdKMDJ3M3dVTElIWm82dGpOdWp0ZzdKWVVtZFdEblk3R3BhRW1WWDNsOExJR2dOcHRGN0IyaVA5eFB6bk96YmozRTdvWE9uMnBmcDNGZVhaUjRhTElFZkVkaExyelFLRE1kZWhTV1J3TWpTd0RzR0xuMEN1NF9hZjRJaUJwRDdzZEk1Z2JFRHFfWF9NY3l3SjFBcjFSYmtmUzM1QTF2OWtiZy16LUN1QUZaWGlyanVsbk1NRkxWRURucmo1dFlTN3NTZF9vbGlGYnd3dXZVUkNfeUVuRGdPLVQzMDd2V0poY1hyRkx5bmZJMk5TRGlUcURFcXFza1ZJd2xOdWV6QnlITGY0MGxOQQ?oc=5",
-    "rank": 32
+    "rank": 33
    },
    {
     "headline": "السعودية تصطدم بالعراق في قمة خليجية ساخنة بحثاً عن «العلامة الكاملة» - الشرق الأوسط",
@@ -2864,16 +2879,16 @@
     "date": "30 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiqgVBVV95cUxOcEFhYXIwMktlSm5HQmdQWDJxSlY0VVBkVmNJUXE4S3ZIeEFLbE1zWVlfdW1aM1p4MkVmNzlEUWlOOUZ5Qkloa3pjeUJoS0R2V1h4QW5sTm42WVlhTTdlMEtlaHhUcmQ2Q3RaOE1QWURQdnNNTk9IM1FmZUxXNFJkMEx3Rm0zNXp3S3o1QjR5MF9IX0FvME4yZzNDeHRHZHgxZ29FVnhxVTkxYW16SF9ONFRtQVVGOTZUVEFPdlQxRTQ1U19sZWpLbjYwalRKRE5CaVhHZVpEbW5KMmtHWHRtZXctM2ZIRGRtWTY0WnFEQTFNZG1JbkVzNndpZDhaazdsMHQyVzF3M1NVUWxGMnZfVTNWbWtwVS1TeTZiRlhCUks3MFdjUEJraS1rbzFQTDZveE9nVFRKTTFBUHdidGZKNEI3cGt1bFJjNGpVSFB0dzJHRXNDcDhXV1hTSXF1b2NxV1YxeEVoNWVRa2lMY0ZnUEZxMGU5WVBtRFFxdXN1TjFILTI3ZkRxdjhicExFLUswZUJxWUNkV3ZaLVdDWVQ2MmdKcWdJZUxRQjVaSFF5OTVxcXFwVjlNYy1UbFlBNTJENUlkR0tITlpHSTljMmFsRnQxYU1FdDh1aFFLSU5HRFkteEcyRFg2el8zRHJJQV9mUV9jVVpDSU1zMHVoSVBTVVFxNHhEY2NJVDJPaTVzVUR0aFF5dHpWaWVPaVRvYnJxeGRUQ2J5MjdNRDhGYnJyNFdkLXpkdzgtMVpYOGJBNENDako2SXJUckpqOTl2WkdLMnhQVS1RNVRycTVnVEQtaVF1b2gzRy14bFpPaERIWnpuc0lmc2FhenF3LTV3ek9qU3FjT0haWDlkN2VXbVpIellaMVF6dE5PcWlFOXFCMGFBTTNWaVk2bFdn?oc=5",
-    "rank": 33
+    "rank": 34
    },
    {
-    "headline": "المستثمرون الأجانب ينهون موجة شراء للأسهم الهندية استمرت شهرين - الشرق الأوسط",
-    "summary": "المستثمرون الأجانب ينهون موجة شراء للأسهم الهندية استمرت شهرين الشرق الأوسط",
+    "headline": "«دار غلوبال» ترفع أرباحها 149 % في النصف الأول إلى 30.4 مليون دولار - الشرق الأوسط",
+    "summary": "«دار غلوبال» ترفع أرباحها 149 % في النصف الأول إلى 30.4 مليون دولار الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "30 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMivARBVV95cUxQUE1DOVlDNFM5Uk8wbkp1U3pwMHNUc0NLaVB0cGs4dXplNWdWVXRJRFp0NktpckxJZzh1bVVucmFSS01IRURjNjZ0MFBwLUVsX19lSHVsYkkxbUhVSTd1ZWdlUVNWZXhWRWJRWmhTTjJMZVBUUUh0QXBwYnNKZTZ1RHQ2bkZBcEstT21xNXNGUV9mUjNRVmlCenBqbWhlVnRHWnRFU1RtdXRhWDJObnZXQ1VOZkxJNS1uRkFrbk1RM1RfZ0pXMjRkVkE4SFVWcnhYR2tPZGpFbzh1OGFSanVDaGxUUnFYSmJ6X1F2NFU0SXRNTVJRMlRyeGJqTFNkZ2l3bHc2b3RNa0FXNG5MdzdzczFRZUphbzhRYXJPeTNpQmtJb1JKS1M5YUUtZ1Y4T2VZdW1aUjMxdDk2VjdEN0g0WHRPSnB1M3BuYVhTZlQtb3pkcnl1Z0NDRE9HNER4b1AxZkFqMkRDRWF1VGZkN0VIZG1Ha1ZYbzdnYVVZOG4xY3Uzb1BycTJ5WXQ1M3FQLTVETUpoR3VuNU54RWZfZTRpM050bXl3T0tlQXZ1TXFjUzRKbUFqNjFJcVYyOF9xNzF4SjlBTXZNRkJoSjY2ZG1xWU9iZEMzbzBLUG1fYTJNUnJiOXdzMjM4a2dPUTVrSkE0cVM0Nk04Z240LTFKZlk1NV9uMXVmU1J0cWZiUEVNbXA1UVR4TlZYeXowSXZFRk1qTFRObkVjdkhMcGxVWlFGMGRLVDFHRU5DWldocQ?oc=5",
-    "rank": 34
+    "url": "https://news.google.com/rss/articles/CBMigARBVV95cUxPTmRmMGx2QXhKdTA3ajd5bmpTaUxfbFV5cnVuNThaaGQ3Rk1zSGNjbmZyVm1NSWdhMWJuZmZXVDc4WjBCLS1va3VFcGR6N1QtN1B3UW9SUXF4djFZeW1uaE1CVjBnWUI5UkMwajBMOGtWaE5RYWk3M0xFcFluNXJKdWJJbEFJYjBDTkNSX2RLSTdhX3Y5bUhGbXhBeHNmT0FsTU9QRDdaUmNzWjN5Q1Ryal9veXN1NG9mOTQxcXFYWXFrRTRJX0lfNWZWZEQtd0c3QTZnbkZoeGlMM05lTWkyY0hCZ3pQcGNjRjVURnRUSmd2azdKRG5zTEp2eFF3YjlHbkxjdnloWFZYdkRfQ3JvZHdDSFlsbWt5ek1kaVRmNUNiVjZ3dkRORXEzblBsdTRYdlJtbU9NOXlXekQwSlV4UGxVY0pFd0RJLXRfRWlNOGlQQ0FkT0JUd2hFa05ZN2J2Y2Y4dmhtZUtKMHRsLUZ3Y2NKYzJoN2FPQjQ1dWtIa2dNa245UF9iOG9hQjViSWVBLVFNUVBLdDFMWWlpUmY1aDdDU2sydWV6TnVWWXJhMnlKUVVqMHo5UUlLNmNMc1FOMzFCZ1h0MVlzOXd5OGxUOEI4b091ZWlUNWlXOWE0UnJHZGxRQjNsWnF2eUdtSDJfbU5lYWJwbEFkSTA0cWhGZQ?oc=5",
+    "rank": 35
    },
    {
     "headline": "السعودية تؤكد رفض استخدام الممرات الحيوية أداةً للإضرار بمصالح الدول - الشرق الأوسط",
@@ -2882,7 +2897,7 @@
     "date": "29 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiuAVBVV95cUxQNXlVeVRvOUFCLWNqN3VDdVRDUUlqMHdRSlRoVFVGZmtrQ3d4cW03b3BXNzV5MWJITjJnLUk5bUZjaEQzb2JURFEwUnFpY196NlVWdTQ0Vmo5b2tIUFZvc3RFWTVWd25KZTl4cjFfdjZHdHdhNzJsM0NyU3hCMVF1TGZQZGlfcklqWHpBVk9QRlloWGdkcWhYWk9sY2p1VUktU19HdEtZRkU1VkdWX1VHZ0lWSFA4cmtJNU1mQi1wRFVtZmdWem05dDRRbDExY0JaOTlSUVdoQzRwdnQzcVdoSWJEbEk0S3l3X1pXRmtXLUpBN1lmNFJkMDlvRlR6NndYcVBuZ1NXeDAzRDBtWTZ1MjV6Z2lYS2RpZ1NIR1JuNElrWm9qWE9BS3FrMXBzUmNIdFZycTUyQzlQdklEUGluUDlkWTZKZVY3QTNTNnlEWFdxMmI5VDlKN2xycFBxUmI0QXJnbnpvdGNlZkFjZVJKbkJrTFJta3pYVlZzY1drWHFpLTFlUFU1cU1SQXp2b1p3WkphQWdqZDZ1R29jUmxkSjVPd0lmTFpIRXQyUVRfOG8xLUdQWWhqQWZEQXJPZWN4amMwV2xZRnNvempYVHpEWS1ReVJqWE1iaEdMOWRvaEdKdjM0SFo5dW5KVGMyVTUwNmZTSWtWVlNvMU83XzRrVkhQZzlFNF9OdGU4MWd2TDZLSTBsakRhZlh0ZmJGcDFuMG5fV2VSREVkV05ad3dpblMyejc3dmI3NW44N0VReVJDMzRTRFk0V3ZvOC04dE5meFFrLWtTZ1ZtVVRaWVE1ZlgtalJyTGZzOE9DLU1yczhpbzFYeS1qLTFKN1ZQLU52UHVrV2hkYU1SRnZlYm51WW5NWDJEYWNwdDRJRlZvS2RaR1Q0VGlkTE9xTnNrZTNPZWE5MHlldXA?oc=5",
-    "rank": 35
+    "rank": 36
    }
   ]
  },
@@ -4937,13 +4952,6 @@
    "confidence": "low",
    "at": "2026-09-30T12:00:31.430890+03:00"
   },
-  "#ام_فهد_تنخاكمم_احسان": {
-   "english": "#Umm_Fahd_appeals_to_your_generosity_charity",
-   "summary": "A charity appeal hashtag: \"Umm Fahd\" (literally \"mother of Fahd\", how a woman is respectfully referred to in the Gulf) is described as \"appealing to your chivalry\" (tankhakum, invoking the tribal duty to help someone in need), with ihsan meaning benevolence or almsgiving. Such hashtags are pushed by volunteer accounts to crowdfund a specific family's medical bills, debts or rent, and often trend briefly through mass retweeting.",
-   "kind": "social",
-   "confidence": "medium",
-   "at": "2026-09-30T13:00:33.853195+03:00"
-  },
   "أبيب": {
    "english": "Abib / (Tel) Aviv",
    "summary": "Most likely a fragment of \"تل أبيب\" (Tel Aviv), the Israeli city, which would put it in the regional-politics conversation that Saudi users follow closely. It could alternatively be a personal name pulled out of a viral post, and the single word alone does not settle which.",
@@ -4958,33 +4966,47 @@
    "confidence": "high",
    "at": "2026-09-30T14:00:29.939308+03:00"
   },
-  "العراق": {
-   "english": "Iraq",
-   "summary": "Iraq, the neighbouring Arab country; here it is trending alongside the hashtag #Saudi_Iraq, the Iraqi football legend Younis Mahmoud and words like \"semi-final\", \"full marks\" and \"fair play\", which points to a Saudi Arabia vs Iraq football fixture and the arguments around it. Saudi–Iraq matches reliably generate large volumes of fan posts on both sides.",
-   "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-09-30T15:00:32.735331+03:00"
-  },
-  "الطيار المساعد": {
-   "english": "The co-pilot / first officer",
-   "summary": "The second pilot in an airliner cockpit. It is trending in a cluster with \"flydubai\" (the Dubai low-cost airline), \"Tabuk\" (a city in north-west Saudi Arabia), \"aircraft captain\" and \"Saudi airspace\", which indicates people are discussing a specific aviation incident or viral cockpit story; the details are not recoverable from the words alone.",
-   "kind": "news",
-   "confidence": "low",
-   "at": "2026-09-30T15:00:32.735331+03:00"
-  },
-  "كابتن الطايره": {
-   "english": "The aircraft captain (colloquial spelling of \"captain of the plane\")",
-   "summary": "Everyday Gulf-dialect phrase for an airliner's commanding pilot, trending together with \"co-pilot\", \"flydubai\", \"Tabuk\" and \"Saudi airspace\". The grouping suggests a widely shared story about a flight crew's handling of something in flight — praise, criticism or an emergency — rather than a general aviation topic.",
-   "kind": "news",
-   "confidence": "low",
-   "at": "2026-09-30T15:00:32.735331+03:00"
-  },
   "الاجواء السعوديه": {
    "english": "Saudi airspace",
    "summary": "The airspace over Saudi Arabia, controlled by the kingdom's civil aviation authority and a major corridor for regional and long-haul traffic. Its appearance next to \"flydubai\", \"Tabuk\", \"captain\" and \"co-pilot\" points to a flight event that took place over or diverted within Saudi airspace being debated online.",
    "kind": "news",
    "confidence": "low",
    "at": "2026-09-30T15:00:32.735331+03:00"
+  },
+  "عمان": {
+   "english": "Oman / Amman",
+   "summary": "Written without diacritics this is ambiguous between the Sultanate of Oman and Amman, the capital of Jordan. Alongside flydubai, Tabuk, \"Saudi airspace\" and \"emergency landing\" on the same board, it most likely refers to a destination or origin point in an aviation story rather than to politics or football.",
+   "kind": "news",
+   "confidence": "medium",
+   "at": "2026-09-30T16:00:37.864546+03:00"
+  },
+  "#اليوم_العالمي_للقلب": {
+   "english": "#World_Heart_Day",
+   "summary": "World Heart Day, the World Heart Federation's annual awareness day marked on 29 September, which Saudi health bodies such as the Ministry of Health and the Saudi Heart Association promote with campaigns on cholesterol, smoking and physical activity. It trends every year as hospitals, companies and influencers post awareness content.",
+   "kind": "social",
+   "confidence": "high",
+   "at": "2026-09-30T16:00:37.864546+03:00"
+  },
+  "مطار الامير": {
+   "english": "Prince ... Airport",
+   "summary": "A truncated airport name — many Saudi airports are named for princes, and given that Tabuk is also trending this points to Prince Sultan bin Abdulaziz Airport in Tabuk in the northwest of the kingdom. The clustering with \"emergency landing\" and flydubai suggests an aircraft diverting to or landing at the airport.",
+   "kind": "news",
+   "confidence": "medium",
+   "at": "2026-09-30T16:00:37.864546+03:00"
+  },
+  "الهبوط الاضطراري": {
+   "english": "the emergency landing",
+   "summary": "The Arabic term for an unscheduled or emergency aircraft landing. Together with flydubai, Tabuk, an airport name and \"Saudi airspace\" on the board, this indicates a flight diverting or making a precautionary landing in Saudi Arabia; the specific flight and cause are not identifiable from the words alone.",
+   "kind": "news",
+   "confidence": "low",
+   "at": "2026-09-30T16:00:37.864546+03:00"
+  },
+  "قول السالم": {
+   "english": "\"Say: safe and sound\"",
+   "summary": "A Gulf colloquial expression used when people escape an accident unharmed — roughly \"thank God everyone's safe, the damage doesn't matter.\" Its appearance next to \"emergency landing\" suggests Saudis are using it as the standard reaction phrase to an incident where passengers came through unhurt.",
+   "kind": "social",
+   "confidence": "medium",
+   "at": "2026-09-30T16:00:37.864546+03:00"
   }
  }
 }
