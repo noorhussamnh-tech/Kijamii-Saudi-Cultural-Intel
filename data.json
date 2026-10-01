@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Thursday, 01 October 2026 · 18:00 KSA",
+ "lastUpdated": "Thursday, 01 October 2026 · 19:00 KSA",
  "days": {
   "2026-09-18": {
    "label": "Fri 18 Sep",
@@ -2169,25 +2169,25 @@
     },
     {
      "rank": 2,
-     "text": "#يوم_القهوه_العالمي",
-     "cat": "General",
+     "text": "#الوظايف_التعليميه",
+     "cat": "Education",
      "pts": 12
     },
     {
      "rank": 3,
-     "text": "#الوظايف_التعليميه",
-     "cat": "Education",
+     "text": "#يوم_القهوه_العالمي",
+     "cat": "General",
      "pts": 10
     },
     {
      "rank": 4,
-     "text": "#_نقا",
+     "text": "#نطالب_بالغاء_شرط_المعدل",
      "cat": "General",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "#الماجستير_المهني_في_التدريس",
+     "text": "#قهوه_ومزاج",
      "cat": "General",
      "pts": 7
     },
@@ -2199,20 +2199,20 @@
     },
     {
      "rank": 7,
-     "text": "اليوم العالمي",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 8,
      "text": "اوسكار الفضي",
      "cat": "General",
      "pts": 6
     },
     {
-     "rank": 9,
+     "rank": 8,
      "text": "وزارة التعليم",
      "cat": "Education",
+     "pts": 6
+    },
+    {
+     "rank": 9,
+     "text": "اليوم العالمي",
+     "cat": "General",
      "pts": 6
     },
     {
@@ -2223,61 +2223,61 @@
     },
     {
      "rank": 11,
-     "text": "التربيه الاجتماعيه",
+     "text": "راتب الموظف",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 12,
-     "text": "المعدل الجامعي",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 13,
-     "text": "التربيه الخاصه",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 14,
-     "text": "القهوه العالمي",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 15,
      "text": "راتب التقاعد",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 13,
+     "text": "المعدل الجامعي",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 14,
+     "text": "التربيه الاجتماعيه",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 15,
+     "text": "القهوه العالمي",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 16,
-     "text": "العلوم الاداريه",
+     "text": "الدبلوم التربوي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 17,
-     "text": "اليوم الخميس",
+     "text": "الكشف المبكر",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "القهوه السعوديه",
+     "text": "اليوم الخميس",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 19,
-     "text": "رافاييل لياو",
+     "text": "القهوه السعوديه",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "الكشف المبكر",
+     "text": "العلوم الاداريه",
      "cat": "General",
      "pts": 4
     }
@@ -2288,19 +2288,19 @@
      "score": 100
     },
     {
-     "text": "#يوم_القهوه_العالمي",
+     "text": "#الوظايف_التعليميه",
      "score": 88
     },
     {
-     "text": "#الوظايف_التعليميه",
+     "text": "#يوم_القهوه_العالمي",
      "score": 76
     },
     {
-     "text": "#_نقا",
+     "text": "#نطالب_بالغاء_شرط_المعدل",
      "score": 64
     },
     {
-     "text": "#الماجستير_المهني_في_التدريس",
+     "text": "#قهوه_ومزاج",
      "score": 52
     }
    ],
@@ -2308,7 +2308,7 @@
     {
      "icon": "📌",
      "label": "General (18)",
-     "items": "#الكشف_عن_الموهوبين · #يوم_القهوه_العالمي · #_نقا · #الماجستير_المهني_في_التدريس · الرخصه المهنيه · اليوم العالمي · اوسكار الفضي · علي راس العمل · التربيه الاجتماعيه · المعدل الجامعي"
+     "items": "#الكشف_عن_الموهوبين · #يوم_القهوه_العالمي · #نطالب_بالغاء_شرط_المعدل · #قهوه_ومزاج · الرخصه المهنيه · اوسكار الفضي · اليوم العالمي · علي راس العمل · راتب الموظف · راتب التقاعد"
     },
     {
      "icon": "📚",
@@ -2563,32 +2563,32 @@
   "سيدي ولي العهد": 4,
   "علي كامل البلاد": 4,
   "#الكشف_عن_الموهوبين": 14,
-  "#يوم_القهوه_العالمي": 12,
-  "#الوظايف_التعليميه": 10,
-  "#_نقا": 8,
-  "#الماجستير_المهني_في_التدريس": 7,
+  "#الوظايف_التعليميه": 12,
+  "#يوم_القهوه_العالمي": 10,
+  "#نطالب_بالغاء_شرط_المعدل": 8,
+  "#قهوه_ومزاج": 7,
   "الرخصه المهنيه": 6,
-  "اليوم العالمي": 6,
   "اوسكار الفضي": 6,
   "وزارة التعليم": 6,
+  "اليوم العالمي": 6,
   "علي راس العمل": 6,
-  "التربيه الاجتماعيه": 4,
-  "المعدل الجامعي": 4,
-  "التربيه الخاصه": 4,
-  "القهوه العالمي": 4,
+  "راتب الموظف": 4,
   "راتب التقاعد": 4,
-  "العلوم الاداريه": 4,
+  "المعدل الجامعي": 4,
+  "التربيه الاجتماعيه": 4,
+  "القهوه العالمي": 4,
+  "الدبلوم التربوي": 4,
+  "الكشف المبكر": 4,
   "اليوم الخميس": 4,
-  "رافاييل لياو": 4,
-  "الكشف المبكر": 4
+  "العلوم الاداريه": 4
  },
  "news": {
   "date": "01 Oct 2026",
   "domestic": [
    {
-    "headline": "FlyDubai co-pilot stabbed captain, tried to crash flight to Israel after \"radical indoctrination,\" Netanyahu says - cbsnews.com",
-    "summary": "FlyDubai co-pilot stabbed captain, tried to crash flight to Israel after \"radical indoctrination,\" Netanyahu says cbsnews.com",
-    "source": "cbsnews.com",
+    "headline": "FlyDubai co-pilot stabbed captain, tried to crash flight to Israel after \"radical indoctrination,\" Netanyahu says - CBS News",
+    "summary": "FlyDubai co-pilot stabbed captain, tried to crash flight to Israel after \"radical indoctrination,\" Netanyahu says CBS News",
+    "source": "CBS News",
     "date": "01 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdEVnSmlhSFJ2SDI4M3B1SVhEd2VFQk1OZXRGRVVTaVpRRUdjLUtVTVJtZDZIWGlXekRxUVFrTTNFd21xUWNaRjF1dzRvYTk5N25Cdkg4eE16WnBIeEhYMm12OXpqSzBVVVNfSEg1bnZqbGd6V0pQTDhJZUw0a2dKSkcxTklSdUkyQUFfQXBDYk5ZMmk1?oc=5",
@@ -2604,22 +2604,13 @@
     "rank": 2
    },
    {
-    "headline": "Israel's Netanyahu: Co-pilot of flydubai plane underwent radical Islamist indoctrination - Reuters",
-    "summary": "Israel's Netanyahu: Co-pilot of flydubai plane underwent radical Islamist indoctrination Reuters",
-    "source": "Reuters",
+    "headline": "Saudi Arabia was reluctant to fully cooperate with Israel during attempted flydubai hijacking - jpost.com",
+    "summary": "Saudi Arabia was reluctant to fully cooperate with Israel during attempted flydubai hijacking jpost.com",
+    "source": "jpost.com",
     "date": "01 Oct 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT1RDU0l3eU5nTnBlVmRsYkpBYTdSTEVRRE1WRk1qbVZYT0MxVzVMSWJMbHk3OElRU1M5RHlGXzV6UWFSdVJiU0cydV9qMlZvSE9mV0ZCcEZSVzJyVGx4X2x2SFJYTUw4N2lialRSOFoxSElUSHVMQ3RHZHZBamNQU21WdWJhbmJHUG9mXzFPbGpfbDRkUzBMYlVOODBPMUc1TTZzSHJYc0d5ME5Ud1NGQjR3d0xSUzdz?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FX0tFS3ZZSkl0U1k0OHR0NzREZXp4N1FlcmRRUk4xNEh0ZVVQbTZmb0lNT1c4WHJfcEJMY3dIWFo2WVhRZ3o5dmhLcmVsRmlKbnNfVzJ3Y0NQeHVB?oc=5",
     "rank": 3
-   },
-   {
-    "headline": "Stop chasing Saudi Arabia. The future of the Abraham Accords isn’t Arab - Washington Examiner",
-    "summary": "Stop chasing Saudi Arabia. The future of the Abraham Accords isn’t Arab Washington Examiner",
-    "source": "Washington Examiner",
-    "date": "01 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaUdiVWVIa2pIdDlmUXhwTDRTUW9zRlpJQVlLSk1LWWpkZWZXdjRvRy1GQXZjRkdvVFhsTXdRVlJ6Tll3UWh6WmJtWkJjYy0xaXVXaXd4MGpPOVRTd0xGVC1xRkdENUtEZlNfWjZ0aFgzejFTczV6ckFXMUEzZW00c0JkMHFzTGhlUnRCLXhualBrTFVzXzJKemptanQ?oc=5",
-    "rank": 4
    },
    {
     "headline": "Saudi Arabia not to compromise on security as Houthis choose ‘chaos’: MBS - Al Jazeera",
@@ -2628,6 +2619,15 @@
     "date": "30 Sep 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLThfd1Q3em1qOGdmckYybUVCcmdtNW84RFRIMjJtM1p5SE5Kc1B3cE5zLUZLbXZpdzhuVVRILVF2SUZSazRua0pjdGl2RjhlcHk5WjBWcEZTcXJfRS1KdkpVYjVhSlNKSVFBaS0tSlE4WFY0MkFvenFtSHNLZEtWUzdIeFBXTUpUWUljaXBPRFg2c2ZQcXJYNVRlN1B6WE1SVVk5b3B3elBDUXZIMHNKNGstczZwUdIBuwFBVV95cUxNWmx5clBfR1lkSXZhb2p1cjh6dFU2OW1mTjBfVlphR20zOUVYR2tWUUNlSGRENTJQTjZiUmJQTE5aVGZLSU9uSGthS2Z6ZXgzVVZiNkR6dHAxZUE4WF90MG9maHdQTWNEVUE0Nkg3c0ZuT0RjY3lQc0NucmI2TlQ0a2R6QkVHNFRKYkswc1Q5TjExUDVVWXVXcGhsNFAxbWRWRVZHSDgycHBxazAyZDNJU2JtUHhzNHdnSWlv?oc=5",
+    "rank": 4
+   },
+   {
+    "headline": "Stop chasing Saudi Arabia. The future of the Abraham Accords isn’t Arab - Washington Examiner",
+    "summary": "Stop chasing Saudi Arabia. The future of the Abraham Accords isn’t Arab Washington Examiner",
+    "source": "Washington Examiner",
+    "date": "01 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaUdiVWVIa2pIdDlmUXhwTDRTUW9zRlpJQVlLSk1LWWpkZWZXdjRvRy1GQXZjRkdvVFhsTXdRVlJ6Tll3UWh6WmJtWkJjYy0xaXVXaXd4MGpPOVRTd0xGVC1xRkdENUtEZlNfWjZ0aFgzejFTczV6ckFXMUEzZW00c0JkMHFzTGhlUnRCLXhualBrTFVzXzJKemptanQ?oc=5",
     "rank": 5
    },
    {
@@ -2649,30 +2649,30 @@
     "rank": 7
    },
    {
-    "headline": "Saudi Arabia was reluctant to fully cooperate with Israel during attempted flydubai hijacking - The Jerusalem Post",
-    "summary": "Saudi Arabia was reluctant to fully cooperate with Israel during attempted flydubai hijacking The Jerusalem Post",
-    "source": "The Jerusalem Post",
-    "date": "01 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FX0tFS3ZZSkl0U1k0OHR0NzREZXp4N1FlcmRRUk4xNEh0ZVVQbTZmb0lNT1c4WHJfcEJMY3dIWFo2WVhRZ3o5dmhLcmVsRmlKbnNfVzJ3Y0NQeHVB?oc=5",
-    "rank": 8
-   },
-   {
     "headline": "Saudi Arabia Is Encircled. The Way Out May Run through Jerusalem - Jewish Journal",
     "summary": "Saudi Arabia Is Encircled. The Way Out May Run through Jerusalem Jewish Journal",
     "source": "Jewish Journal",
     "date": "01 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYnd1Y2tQZUdrYXRXbHY0UW9zeWJPS19oZURZSGI1WDhNTlIyT3lHeExzbmJTdHU3OGc3NlJzTUVSY0x3alJhMU95c3B5QTZveVNPd29QMi15TmV1cmlCQjY5Y09nX0tEaEtETXhQMmp5RjZRaHdHb0tnSzFjNEJXQWthY1hNMjlnRFZ6QW5sSDg3Rkt0RE9tWHlwLVJ0bVhTYXRFSGJOeXAxMmxxeDN4bnQwOUdRN28?oc=5",
-    "rank": 9
+    "rank": 8
    },
    {
-    "headline": "What we know about stabbing on Flydubai flight to Israel - bbc.com",
-    "summary": "What we know about stabbing on Flydubai flight to Israel bbc.com",
-    "source": "bbc.com",
+    "headline": "What we know about stabbing on Flydubai flight to Israel - BBC",
+    "summary": "What we know about stabbing on Flydubai flight to Israel BBC",
+    "source": "BBC",
     "date": "01 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hMkphWkx4ZWFNYVBzdGczb2ozTnNNM2R1X0t5ajczLUk1MlVHOG9xRlM0eTZpUjZvNjZINUVQdmprRDVHMVZPRWUzbTlwQUZhR1BYdm1zaDJSdWc?oc=5",
+    "rank": 9
+   },
+   {
+    "headline": "Pilot stabs fellow pilot on flight to Israel before passengers intervene to stop attack - AP News",
+    "summary": "Pilot stabs fellow pilot on flight to Israel before passengers intervene to stop attack AP News",
+    "source": "AP News",
+    "date": "01 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSUVoWWFZd2hfb29WZ0tCQV83bTRCdFI5TTVLbWh4bHdxcWRxTTY5N2gxN0I4ZkN5TUp4YVpaVGMtSTRjTGRTMkV5cHVLeEl4a19lWXNBdzZVeXVnMGNCanJWdTRSNjVDUzRtSndzQ2ZBV3JsdlBXNkRlVGd5WXRaU2UweXFIVG1DVWpWby1sekV4Y1FBTDZtS1Z5aFVXSE9venYxdTRn?oc=5",
     "rank": 10
    },
    {
@@ -2703,21 +2703,21 @@
     "rank": 13
    },
    {
-    "headline": "خبير سابق بـ\"غولدمان ساكس\": النفط قد يجعل السعودية \"الرابح الوحيد\" في الحرب - الشرق بلومبرغ",
-    "summary": "خبير سابق بـ\"غولدمان ساكس\": النفط قد يجعل السعودية \"الرابح الوحيد\" في الحرب الشرق بلومبرغ",
-    "source": "الشرق بلومبرغ",
-    "date": "28 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxNMzNaOGVRRGwxQzRiMnBiX0NsRXFPdHVkdHJZSExBX2VVLTBYeElLejB4X3VhUjlubThrOS1YUWFlVlN5akF1SjNWQVgyakoxWWxFakJDMUpiLV9qN01VdnhBdjBONU4xaG5LOS1mUTJyOHZRWGlYUFpNWmxraExGcmZ3cE9mSEMtRXNVQ1Z5STNjbk9OVl9lOVJkdFRjRDJ0NVBZdk83bEJUVTFYSVdSaHhSNWZRTG9LNk1zMFRvYkR3NHFMa0pwa3BSQ2xjRlFvc1hCYnBoZnZHaWctYmVUM3VhRnZpbTV2SEtaci04SkJ1TDFPVVItRkxUQWxDc3RNWGlRaFJUR0FFa3lQcTZ6a0tGdnFxbHlDQTZVTWZWSnNVZ1ZDVG1MMG14SzlyZWc0S0dDVTB3Y3Zfd2h0ZWRCSXo2TWxrQ2lJYXRxd1ZqdUFlVUJIUFBMUzQyX3R1T0JMVVFlR1hPNTdVZHFEYVhOM3Y5a2hCWUxEMzk2VjhRcklmQ3NadmplSVo2N0FoU1hfMVBpVXhnTk43VnozT1o0TzdUVGRwNTRid2pEZ3A5LWJkd1lJbUh5TENOSG85N2hzNnhvc2gxaGZHeDRrS0pUcE9fZFlremZ1X1Ntaw?oc=5",
-    "rank": 14
-   },
-   {
     "headline": "«الدولي للتمور» يستعرض تجربة المملكة في تطوير القطاع وتعزيز حضور التمور السعودية عالميًا - عاجل",
     "summary": "«الدولي للتمور» يستعرض تجربة المملكة في تطوير القطاع وتعزيز حضور التمور السعودية عالميًا عاجل",
     "source": "عاجل",
     "date": "01 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5LYjRlX0o5QWQzZkJMN25MQ3JMeUczYThUN2FXenEySjBkcFVsczNEekctOU1xam5JNEhSanphSTBubTN1cmc?oc=5",
+    "rank": 14
+   },
+   {
+    "headline": "خبير سابق بـ\"غولدمان ساكس\": النفط قد يجعل السعودية \"الرابح الوحيد\" في الحرب - الشرق بلومبرغ",
+    "summary": "خبير سابق بـ\"غولدمان ساكس\": النفط قد يجعل السعودية \"الرابح الوحيد\" في الحرب الشرق بلومبرغ",
+    "source": "الشرق بلومبرغ",
+    "date": "28 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxNMzNaOGVRRGwxQzRiMnBiX0NsRXFPdHVkdHJZSExBX2VVLTBYeElLejB4X3VhUjlubThrOS1YUWFlVlN5akF1SjNWQVgyakoxWWxFakJDMUpiLV9qN01VdnhBdjBONU4xaG5LOS1mUTJyOHZRWGlYUFpNWmxraExGcmZ3cE9mSEMtRXNVQ1Z5STNjbk9OVl9lOVJkdFRjRDJ0NVBZdk83bEJUVTFYSVdSaHhSNWZRTG9LNk1zMFRvYkR3NHFMa0pwa3BSQ2xjRlFvc1hCYnBoZnZHaWctYmVUM3VhRnZpbTV2SEtaci04SkJ1TDFPVVItRkxUQWxDc3RNWGlRaFJUR0FFa3lQcTZ6a0tGdnFxbHlDQTZVTWZWSnNVZ1ZDVG1MMG14SzlyZWc0S0dDVTB3Y3Zfd2h0ZWRCSXo2TWxrQ2lJYXRxd1ZqdUFlVUJIUFBMUzQyX3R1T0JMVVFlR1hPNTdVZHFEYVhOM3Y5a2hCWUxEMzk2VjhRcklmQ3NadmplSVo2N0FoU1hfMVBpVXhnTk43VnozT1o0TzdUVGRwNTRid2pEZ3A5LWJkd1lJbUh5TENOSG85N2hzNnhvc2gxaGZHeDRrS0pUcE9fZFlremZ1X1Ntaw?oc=5",
     "rank": 15
    },
    {
@@ -2786,31 +2786,22 @@
     "rank": 22
    },
    {
-    "headline": "FlyDubai Flight to Israel Diverted After Clash Between Pilots: What We Know and Don’t Know - nytimes.com",
-    "summary": "FlyDubai Flight to Israel Diverted After Clash Between Pilots: What We Know and Don’t Know nytimes.com",
-    "source": "nytimes.com",
-    "date": "01 Oct 2026",
+    "headline": "EU aviation agency issues Saudi airspace advisory after Houthi attacks - Reuters",
+    "summary": "EU aviation agency issues Saudi airspace advisory after Houthi attacks Reuters",
+    "source": "Reuters",
+    "date": "30 Sep 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdHpuT190UjhnNS03Z3hzYU4xQ3NzQ0x4WGxBb2xqSDk3MjJkWEg4TzF1RFg0R21oS1RiT0VnUE5GUllLbXBaRjRlMV9MRWJDMU5RV3lKbWlodTVFT0NRVFVQMzFvMXRVQlZVS2duLVpEVk9SZGNneWRLa1A3ZVYzSl9oeHBCMUxROTVCNzJJVEpnM1JJaFRVbEdn?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQWJfYXZITmYzSU9mUTRTTlBVdm5fWm5IUHE0dWxwY28wR2tqbUI4eGdNTU0tRDJvR2Y4SDFLWlUxUUY4dkdEdzlOcGoyWTcyN3Z0eXc3bzRkQWlEMUZyZE80cXpnZjg0VDZvZXNsRElURDdDTDROOFNEZTAydWRpQkJiX2hfNGQ0UmU1Y2Q2NF92REtqNVExeDFEZVotNmxLZXdRUVlXRzRsTFk2UWJ5REMxZXROSnRnUXI3UHNBQnVFdw?oc=5",
     "rank": 23
    },
    {
-    "headline": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
-    "summary": "Live Updates: Latest from Israel, Iran, and the Middle East The Jerusalem Post",
-    "source": "The Jerusalem Post",
-    "date": "01 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NOHR0cHdiVGFyYlNaMjN4RVR3Y3V2VXVBeFhLbGptb0JKYU5pQXgxQjRHMDEyQjJJWlltNTNhMnRMUjIxSVIyRGtEV2NjTFJNUlFtS1FKV1lhWnowT0Fua2tjSm1aR0YwWFByYWtIQng2b0Nlbk85UWdpQUdCbnc?oc=5",
-    "rank": 24
-   },
-   {
-    "headline": "Is American policy in the Middle East more than disruptor-style cosplay? - Tomorrow's Affairs",
-    "summary": "Is American policy in the Middle East more than disruptor-style cosplay? Tomorrow's Affairs",
-    "source": "Tomorrow's Affairs",
+    "headline": "What we know about the cockpit stabbing on Israel-bound flight - NBC News",
+    "summary": "What we know about the cockpit stabbing on Israel-bound flight NBC News",
+    "source": "NBC News",
     "date": "01 Oct 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcDhMN19yd3drUUR4S3ZpMUhubjhLdUpaRWJ5ZnhrQmt1dzB5MDNJQTJkLWNiSjJ4NlBpV1ZmR21XUk9xRG1RWk53djlGdzhPYlR2S1F6YUdaSXhHRmVzNEVTSkYtN2t2NVlnenVQRkZ6eEVPMG1nYWY5c1ZfOUFpdTNHWjdSNlJnd0p2QkNHRFp6dHBNVFpnbkcwMnA1RENzSlE?oc=5",
-    "rank": 25
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZjVEaXNJR29IaDN4YWE4aVFVNldoZ29VWEpWWF9raGxhX0w2Q2hnRFFHTEg2MlhhVUJpZ3E1NERDY0tfX2JZVEotWFZILXVnT1J3SW1KSVdSclNHTTFJUnU0ckhoRkd5aDRaLUpvY0tucXdLMlRPOGlQWi0yZ0JMRHZkZUpRUE00MkRRNW5ZaVVYUXpJUU9QelFR?oc=5",
+    "rank": 24
    },
    {
     "headline": "Israel-bound plane lands in Saudi Arabia after pilot allegedly tries to crash it - Middle East Eye",
@@ -2819,7 +2810,34 @@
     "date": "30 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWHZjeTBkMlpibE4zalZZcU9Xa3hybG05SWNhOHlhbVZqSm15OWd3MFlYVktoTE9jbElEdWVHNS1vdll5dEx3S2psRG9wR1BFTlFnTFplakstWTcwV08zREl5eXVaUldSNGdVb214RnluSVo3NHM3ZjhaWFp0RURTOUlPaWZhenV5WDVYY3o4MGViRURmeEhFNnU3eFNZT0pkaUxpVTFZMEktV1lFMkxDWG9DMWJLdw?oc=5",
+    "rank": 25
+   },
+   {
+    "headline": "Is American policy in the Middle East more than disruptor-style cosplay? - Tomorrow's Affairs",
+    "summary": "Is American policy in the Middle East more than disruptor-style cosplay? Tomorrow's Affairs",
+    "source": "Tomorrow's Affairs",
+    "date": "01 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcDhMN19yd3drUUR4S3ZpMUhubjhLdUpaRWJ5ZnhrQmt1dzB5MDNJQTJkLWNiSjJ4NlBpV1ZmR21XUk9xRG1RWk53djlGdzhPYlR2S1F6YUdaSXhHRmVzNEVTSkYtN2t2NVlnenVQRkZ6eEVPMG1nYWY5c1ZfOUFpdTNHWjdSNlJnd0p2QkNHRFp6dHBNVFpnbkcwMnA1RENzSlE?oc=5",
     "rank": 26
+   },
+   {
+    "headline": "Investigators probe why co-pilot stabbed captain of flyDubai flight to Israel - South China Morning Post",
+    "summary": "Investigators probe why co-pilot stabbed captain of flyDubai flight to Israel South China Morning Post",
+    "source": "South China Morning Post",
+    "date": "01 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZXM2SElfV3Y1aG1oRVh0cmppcFV2QTh3YnBVelNsZC1YYVRXVEJ1TlQyQmxrWmNzRjhkMk95c3JVQzZpS2FnU1Y0M05NSEhXTDFTNE12YWVGeGdsQlhUUWJTYWc1X2N0NFlXekRJQVpCY1RmM01wZXRMdzhLZVQ4Qzc0bkVleFktRjB1Rmc1dWM0MFh0XzB3Q19YUVowX1NQWFJLMUZFV2xyRnVNVG53YmRFZGZJV0RkSDJDUE9XTDlSZGFaNGdpSTVyb9IBywFBVV95cUxPZXM2SElfV3Y1aG1oRVh0cmppcFV2QTh3YnBVelNsZC1YYVRXVEJ1TlQyQmxrWmNzRjhkMk95c3JVQzZpS2FnU1Y0M05NSEhXTDFTNE12YWVGeGdsQlhUUWJTYWc1X2N0NFlXekRJQVpCY1RmM01wZXRMdzhLZVQ4Qzc0bkVleFktRjB1Rmc1dWM0MFh0XzB3Q19YUVowX1NQWFJLMUZFV2xyRnVNVG53YmRFZGZJV0RkSDJDUE9XTDlSZGFaNGdpSTVybw?oc=5",
+    "rank": 27
+   },
+   {
+    "headline": "FlyDubai Flight to Israel Diverted After Clash Between Pilots: What We Know and Don’t Know - The New York Times",
+    "summary": "FlyDubai Flight to Israel Diverted After Clash Between Pilots: What We Know and Don’t Know The New York Times",
+    "source": "The New York Times",
+    "date": "01 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdHpuT190UjhnNS03Z3hzYU4xQ3NzQ0x4WGxBb2xqSDk3MjJkWEg4TzF1RFg0R21oS1RiT0VnUE5GUllLbXBaRjRlMV9MRWJDMU5RV3lKbWlodTVFT0NRVFVQMzFvMXRVQlZVS2duLVpEVk9SZGNneWRLa1A3ZVYzSl9oeHBCMUxROTVCNzJJVEpnM1JJaFRVbEdn?oc=5",
+    "rank": 28
    },
    {
     "headline": "Middle East - MUFG Research",
@@ -2828,7 +2846,7 @@
     "date": "01 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9iLXFFeXg0NVZiZUVvcFVXV0NvSFBiVzRrR2dhSkFTWm1tRm1FZThaeDhpaUVhNnZBclZEX2RUbDlUcm1EYkRBRTcwS01UR3d0NzROZWhra1VKMVdQMG9WWTZFQjN4ZWpTVk9iUl81RnFVWENIVzFVSQ?oc=5",
-    "rank": 27
+    "rank": 29
    },
    {
     "headline": "عنايتي لـ«الشرق الأوسط»: توافق إيراني مع السعودية على تجنيب المنطقة الحرب - الشرق الأوسط",
@@ -2837,7 +2855,7 @@
     "date": "30 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiwgVBVV95cUxPWnRxLWhXTHUySFpIUzcxeEZZYVZXY0p3Q2tsLUdiVlNpS05aMkp2UWh4d2tuQWFuMHc3Y19ZZzlSRlE2dU14WGE4amZKSHE5UzJlazgyam94cFFUeEpfSGRlQkZCRTk2aEZEQTFieGlIV3RUSDN4am1ldEpqc0tMblRTaTFWZlNwVXlSOS1NTVFXN3JJcGhaOFdRZmdXbl91LTRManVWaE5aak5PVHBXamFEdDg5UVVwMTR4Zl9ZWUNWY2gwWXhNdTVqYzhHYkxMOUR2Z2VQVkdpTW9uWHBtcHZjWXZNVVRBcWtxRWticWdPLTFwaDRYUFV6cmtRckRlck02VTJFRDFiQXBPYklwUlhLWVhSeEdfYWt3Y2s3MUVjMVV0dloxaGRDcDhWV2l3RTVEWUt1bmJ4dzdEc2ktYWNielZOSmR4VGp1Q21Yd2hxdFBqR2NaZTlWclBiMndkS0h5SkUxUVloZkZncWZZVGtwV0VfSk4wTWpMX25URVdBdjhib0l6dXBUcTVmc1BXVzBISWMtckZSUWhKdWwwVmhsMnRkSzZQbkYwWkJ2Q3lva3JCYUoxS3AyWk1JWjlvT2FHOW5MX1Z5N2YzOTM2SXZSR1dzMjFlbExkQXR5SkFwSW5vdVhwQURaZEVpdXA3NEdwUjJ4NFdNMmVwLXNMQjRqazZ6YXVwMTU4SFdGRW1jakVnVWlmSUFzS1ZoTEFfVDc0VFpPcmZaNnBUVzJuazdaTzN0akN2a2FCaGNEVXFxYldMQ1ZJZV9kMGVrTThLYzdKb2dJWUR2cDJBU2pyeHl5RXNUVmc0Rld4Q2o5azFpdHVDbGtkWjFqNnhZTzZPbGJOLWRSeDRmWjNWUVJYMzJUUFJ0eDVGMUdwSHBubFo2Nkxra2Joc1A4TUNkZHdpWnRPUmhOLVBSamdxTGFFZXNR?oc=5",
-    "rank": 28
+    "rank": 30
    },
    {
     "headline": "أيتهما أكثر قوة... السعودية أم إيران؟ - الشرق الأوسط",
@@ -2846,7 +2864,16 @@
     "date": "01 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOcG9qbXNCLUltRDdVRGhMN1g1dlg5dVoyVjNGaWJUNW0wVXp5V3FCS2ozaXFPMkpZUDkwRnMzTUJGaVZKY2FjblV1ZzZOOUpZajVjb3VwVC16MjBLN3pqVERWWUVxY0s4eS1zMGExbmpRMWl0OEhnc0FfOVNDUkZSV0pGNy1YOXljXzhxS2ZmdFk1aTM4X3NhQ0k0TU5idlpWZDBVR1lpY3pFVXFzOUx2alRyRkhocmZRbjgzWG8tcVJtajFhd2RQWUNPY2NuelJVRVAteElQektzUERPVUljRG1fQlBCc0pkWVJKSy1rUDdKeFBRYmhwbkFtaTU2dlNzaVVDVnlNcjZRdHI3eDFuRVpOT0dkZ3lhWEZldFJuWVFlMXM4Q09Za2MzQWtnYzRHcnlTcUZUWndYejY2WW43aFJfNm8yWlBlSnBnQlZ2THdYU1I1SU1YYg?oc=5",
-    "rank": 29
+    "rank": 31
+   },
+   {
+    "headline": "منتدى «سيرفكورب»: السعودية أمام تحولات اقتصادية متسارعة - الشرق الأوسط",
+    "summary": "منتدى «سيرفكورب»: السعودية أمام تحولات اقتصادية متسارعة الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "01 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi-gNBVV95cUxPbDV1bnBpQzA3eVJCeWtzd2M4Qi14cnpaUkpOc25ESG5mT0pic3JldHowMmhLeFdEalBCb2ZBY3BUc0ZfRVlQcEZ2VktTcGtONkpEVm5iNEpVX3Vxd0RjYnh0SjJFRm5qRnBDS3ZuVHdtV2sycnpBdW1TYjRXWVFQX1ViZzFpYk5md2E1VHBRRkFUOFQtT1pWV3hXd0V6ZmRtaTNqYktQRVVSc2dCMVpxQ2JVeEI4bXFBa09BM0lCRTNGUi1UZHJZWTR3X3JtZnJQZHpKeU55c2VNRlZNTG5ITEpyTTV6MTlrc3p5Zm1BZG03ZkVFczBIQ0JIcHNmSlNrTU0tWTBOYU9yWXQwaGM4NzE0TWUyMUdBUWZYRnFfVlo0Y3EyMmJHNUkyeElhZWI3RFprVDZUUGJ3ZW44VXFCSkwyRUJUM3ZWWjZ0RzBWcEU2WW9Ia0paQUFycUZEMGlXWWZndlhXUlRpOWFLZXo3OFhhMWpLRjJlVDlJQVFfNDlQbVZ4ckl5SWc3QTQ3bWpWTkNGUkRWOEZvaWp6ZU9INUN6d0RZQTJ2RDZEeTloM3JYTXJqeUw2eU5MTlNyWkxhZy1xWmtJY1J5QVItWnV0V3hBZmFaQVM3ZGl6aF9HbHViLW0ybXllTWpyRjhMOXhQNm9YTDFldFJtdw?oc=5",
+    "rank": 32
    },
    {
     "headline": "ولي العهد السعودي ونائب الرئيس الإماراتي يستعرضان تطورات المنطقة - الشرق الأوسط",
@@ -2855,7 +2882,7 @@
     "date": "01 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMinwVBVV95cUxPLWlORjJFc0JJSkg2MXVnSF9VVTExb0Y5b0dSczNXMnUzNXZnWVdVV3huRlU2U2YzWnFUODJrRVlfTEVtZlBRZEJtNVpPbkRwYmpPSmJaYUpYZmZYQmU3TVVyVlV6WjJZTzJTbWxQR0pES0hDNFBvNDVxUHM5UUZhMVZ1NkFjWXVqRmRWVnhxRmI1SFR5ZWJYVWhSNWI5anlLZUE5VU9DUllqb3doUXgtYlBneTh3Zy1ZdS1RWThHZHp2dzJJRy1vN05aNGNZcnQ5b3FnTjd6Ry1JYWYtSUhCNHRCbG1SZUlaclNVNmNWWXFQOFVSRjA0VHBwVTlpeVRpTmZpcnZZb2s1RDZ1Znoxa25mbjN3cHQ1VjdDT1BRRE53TC10c1dOQmtVZEoxTWpzZUxZVWVfNktJTlZiRXg0NGFweGtWREdvNkhSNzNadDloTFI3UGt5RnhxcG9XZXdKT0QtRVVhWXZoMmFvRllseGFaWTU5MlV4eFJFR1VMRWRCV2hveVpOWTZxNWd5YXBza2VPRl9DbkVKRjYzeFppVl9mUllpVG80eUFNWUJBUU9NSWxBcmhYeEdYQ0VRajlnMjFVTWZQWWhERVFhU3daaUgtVGtCeHR0VUN4bW4wVkFFbmctb0I2dm5zVmhSRjZtbmUxY2ZhT0NnaTd2elFPT2hSODhQVUNLd2tRM042LWgyVTRwelgteEhuenFDYUxqazRUeV9Vc1N1VUlnb2laV3RpZlp2ZG5nNk5NbnBPRm51MUNveGVwZnlkanozbTNmcTBwUXl2QzFtMkFKRjBEODdxY20xbHJ2VkZlZEtCS0lEczFxaDYtNXhBSlEwd0djU0FBS21mSE5lQnlxS3ltVVFPYVoyV29LQUV5cUZfYw?oc=5",
-    "rank": 30
+    "rank": 33
    },
    {
     "headline": "مسؤول إيطالي لـ«الشرق الأوسط»: سنعمل مع السعودية لدخول أسواق ثالثة - الشرق الأوسط",
@@ -2864,7 +2891,7 @@
     "date": "01 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMivgRBVV95cUxQQzRkYzVTeU56azFNOTE4MzU4S09aLWZ1akRGbnhhX3BhT0dTQ09WT2dWUlJsYnZDM203dTVPY1RkR29aVXFoT3pkamU4SkhxbmUzLWV6b0hkNjFfdGIteHVSOWNTaWxIVU9YRVpsSHJCcXhuYUlZVzVlOHpHdUlnNGtya28zRG41WHJBZUZlZks5YnhwaElsUm5nNUdCVzRscFdCd3k3U3NBZXhGZXlmbHRPTmtHcThLM1hGS295d2Ytb1djV000ZEgtQjRTcTZSQWpkUVVXOE0wVHY3OHZKLWQ4QW9iNnhvM0JvYnd4c2J0d19PUXMweEUzS1dEaUFRcmg3QjZ3ekZSRWpBLTRBU0pJRVFROUtRTXFENEtTdTExcmU0OTFLcGV4N1Z4cDJRallqWk9zZmI2ekFLZzRTcXdZd3pwbFY4dHp4ZDBySFQ2NEdUN0dCcjNZQlM5bU10UjdpTHM4YTFOUTFRSW1mczNQUFFsSXE5YmxxdmdUZ3lpTkxMbzFMUDdjZmphbk9LdkhVNVhKeUMwUlBDMUFQdGhBVFNaSW9UeUM3Y0dnSGtKOEU3Szc4RXYxMG9HR0dPdXNMNG9JRTRzaUtndjdMWVV2QkxwcWI5NVNlVW1kandzSUU1MVlVRFdycmZweDZCNlY1Wk5NOEQtZ3pPcGVEOU82amxmaVZuejdhY0xuMHF6Y1J1ZEs2dkM1Nm05WXkzclhJci1UaTlfT1RRNG1ybUtONzlDX3NGbFJEZzFB?oc=5",
-    "rank": 31
+    "rank": 34
    },
    {
     "headline": "السعودية: لا تهاون في حفظ أمننا وسنرد بحزم على أي تهديد - الشرق الأوسط",
@@ -2873,16 +2900,7 @@
     "date": "30 Sep 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiwgRBVV95cUxORmJIQUFiZVBEeGdtc0J0TjhoMjdmcEM2Mk9yMHd4bHZ4NGFZclROb2hzY1dvMVJJdVNRZ0NmNHo0Q0hab2NVM1RvMF9TWnJ6SE5PeW1sdDBueFlQLXdWY3NVQ1MtVlBzejBUV3FxZlktSUhGWXd5VHJrYlptTGpTZjhXckpwTThMdlg4Y2UwZzl5ZWhzNGxCSWFIVHN0dFJyMkF3QnhIbmhIemFJTUo4bUhfSV9fRVphaVNaZWI5YXpKRWxhZUd5dndXR0h6cnloWHY2bkZLZndUS09kc1RFU2xuUy1GcmF1TUc1R1RjYTI0eXYwbXlJZlBucG1nRzJiSWF2RHY1UUxOdkFua2tyVklMZ0NMNF80X1lHTVlDZ3h2UEl0YUg2aXZJSEZjdmthMXFLZ09YNFdOUnVkS2lWYXBoR0tjRTFQbUZsWVgyMkxFQ213djc1SzB2S2o1dzBzMVgtRWktOHN0eVJuazczOTRtLUdlZi1uM2E4SWxia0pEeExVUVQtWWh3QnZGeFlCbVNlZVlMb0R5OHE5VGRuWm9wc0wxUElHRlZySm0zSUtQOWhGUkUtVjdhemw0a1ZwdEhiQ2JvZXZzd2syV01SVDUtUjVRUjROYkJ1clVPTTlkTlFNWGpldjhodUtWQS1fbTFTblJkYWFSS3dOeG1Od2d4cktFZ09Xa2lXbFVxbVFCbVM2RHpHWVA1SXF0cTExVGpzbXh3NDM5UHRsS3RuZDY0enl2cVBmY29RdERHNWNEdw?oc=5",
-    "rank": 32
-   },
-   {
-    "headline": "عبد الله بن فهد لـ«الشرق الأوسط»: قتالية فرسان السعودية قادتهم لذهب ناغويا - الشرق الأوسط",
-    "summary": "عبد الله بن فهد لـ«الشرق الأوسط»: قتالية فرسان السعودية قادتهم لذهب ناغويا الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "01 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMikgVBVV95cUxPaGkyVDkwU3R1UE50bE0tWjNnaDJDV1ZEQjdRR2d2SFlUOVRVcDNLMDZCWk01TGE0OTQ4bThyMjRxNndpcjRFblkxel9aRE1wNUZ5WV9MSU9Cd2VRMG5LUjFrUV93WUN0RzN1NlNFOXVUdHFWcXF0a3FKX1ZyM0NDcXI4aFZPNE5KUHdpSDFzT1BrT1JFQlpsLXB4eXh3WmREejBCbHlEcG01ajljeksyR3ptTjh3T291dEItd3VxYTZXT3NkNVMwVGw4OEdrYnFQYU4yUXlvbnZsempyeTRjeGhvcXNmY1liUE1YcVN0dDExbVpfMlNYSUpJMFZsZVFMMktLUjUtUld3UE9SWE9WRHB1ZWRmMU1meDBKZW9YUjYyTXZPMHNtaXNMb1FPbl9yZ1NVU0MzdXNlbUQ4bjVQNkdDQVM0ZVJWSWJ2R2drYkxRaEFrck5oSjFwTHlFODNMWDJEbHVTN3BzdzQzR3FkX1A3eHQxYmticktnbm1NZGlEdENkWDB4Qk8zZXF3WjF6RHE0Q2d2cGJRZXZJUkx5QnQ4cV9tRGFaNndtWWhPcmtsS0JFNlJxaGh5MnUzV0J3ejFSVlpwdkU4LTdjbjAyOWJjS1k5QWxGbktDaG9ockZDYnUxTDJtN3U5bS1FTlNTZEw5M24zb0Yxb2Zjb04yLVNmR2RHXzNHUl9ra3pHN0o5S1dUd0FTeUNOQUNUSEVxNjFWVjFCY3AtQUxkNWljNGM3QXBxR2tORWpCUWx6TzVhUE5OVjcwTjd0bzNIdGt4dWVuZWZVSThBa282LWJGVmEteG9TOFUtRUZFN3dsMGpNb1VTblJqR3ZBcy00enA4Q1dDWVpoVERVdG50T3hERnNB?oc=5",
-    "rank": 33
+    "rank": 35
    },
    {
     "headline": "السوق السعودية تتجه لتسجيل خامس خسارة أسبوعية على التوالي - الشرق الأوسط",
@@ -2891,16 +2909,7 @@
     "date": "01 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxOUEtXQVdEaHhsemdGbWZkcmlCZmxqVDY1WWxXMUd6UW50NlY0RkZkUklmTjkwZVdxTDl0WkJac2tDR3B6NXhyMVY2REFwYU92YmtOM1ZyRThCREZlMHRWLWV1QkluVXdnWnFLZ3VoWndkXzFMLWI2Mml3NG1uTHVJUmN2c2Q5VVFVaXJsbHdPSm5GcnFKTGJLYkdXREY5dnA0emNMd3E3M2k5MkJyekREX3dZWG1KTVhRZU0tWHYyVGZLNmp3WnJ5cFpUY19FMEo0WmJ4UFIzLWh3UkQwczlNbFlxaEE2UVgwMWd1UTAxQzdhRkpKWGJNOVcwd003blktZHNZWmNEU05jcU1qRzItcGo1aGtWUzFXNEdXU2FDSlFwWmxpaE11dkdWWDNTVnRCRmU5ZVRqdFJQVEJfYUFTNm1qQmpTNHQzdlNwLWpMRngxTy1HVGZuS2RMcnI2elZUUndwZ1JxVmF4WVpyb3FZek5pNVlEbVAyTW1WaW1nREpGYThlUU1OZ3RLSnZ4Tk5ybFd5X1FtZnNWc0hXZTBBUEFjd0ZIRkhPSDh6Qk9pa1BrUVdaVG9JdFU4ZmRHeUR0OEJMbUpuc1RMODBHeDRKWDJERE51MF9GcUJGWkNPUFJFaHdTR2FrTWJ0V2F1LXc2c0ZpTERyaDlOLXRDa0dyQ0hnYlBPQ0V2b3d1M09BcHZuOWU4?oc=5",
-    "rank": 34
-   },
-   {
-    "headline": "«سير» تراهن على بناء صناعة سيارات سعودية متكاملة - الشرق الأوسط",
-    "summary": "«سير» تراهن على بناء صناعة سيارات سعودية متكاملة الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "30 Sep 2026",
-    "tag": "housing",
-    "url": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxQNWFGcV9iUEFHU2Z3cEdySDhuVEdMOU1vdHFpZk5neEpqWk5rLVZIekVxM29mNmlZam9GMDd2dldFa3lXVmRsdjA2eElFMFBpc3lmUUNXd2lLVjZuSmFNQzRqa0pYRE9SWnkzN1hhUllZT1AxVmo5ZWFRVTNTcU41b2VIbHJLaDRlanYtNWNVN2RMQlpGRnhueDB5RDItMUQ3YnFGS3p6X0h0SUJQVjZQcTd3Z1F0NkxWYzFxWUUtSHExNDN1RTRodkMtT0YwcDQ1THdkakdDV1h6ZVVnNFZLamtyY0FfaEZxRG56QmlWeVNqSDJUYWZURWpDVmstb04xYnczLV85eWc3THV2QWpodm5WNnNucDQ0UlZfM3d5R2daWlpkVmVJUVRHcWNjSThNcWRWY1ZxemExSVFORzJ6LTJrX1ZJM1pRUElkZUlEUWkwa0tYS0tCdFVfYzBWaGVPU3BZc2hCZ1dEZ0tHOFZOU3JLZURCem1XazRLSVJmMHRsaFpnQnZNMXJFOGZvLWJ6eGMwaGNPWHR1QTQzX3lqTk03ZHdtLWZVdWtURTFCZ1p6cE1jdjB0NEI2LVAyb3ZzbjQ4?oc=5",
-    "rank": 35
+    "rank": 36
    },
    {
     "headline": "محمد بن سلمان: لن نتردد في الرد بحزم - الشرق الأوسط",
@@ -2909,16 +2918,25 @@
     "date": "01 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxNMm51QjNCSGw5TGRzc1dIbVJxRGRqeGZVZVVHV1NERWE0d1ZFRXBsU2VGS28xbUhwc3VFS3dURlU1RVU1UUtTdkNndV9NWUc4cmJ6RnpGUUUyWlpnUVMxbENuQzdsTjdlQWljQURRS3BHTzdEYmt6V3hWWXVFdmtiX0tSbFNOc1pGMUpFSTFIWHB4ZzhZcUx6T2pmcVBMSFlwSEZhSDY0X3BHaEVFWEZ0MHVEeVN4QUR3bjBNX1dfbjFqTHE0MjBkRjBrYVdWSEpicUF5UW9wZzZQS2hUcWRKUll3NC1GWDVuVnBVUjR5Y0t2TWhLMlNSODBRZ0k3SmdsV3FhM0RqNVozTlZUd0RuanJxM0ptZjFjRTEzeFpQSGNFd2tvdGFJYV9zeDZLV2l2Wk1STFBVMm5IUjlhU1hQUlpxX3h0UW9LVHhzRVJ0RTNsTDY1dXFZSHpuMmFvSDlNVUFZZ1ZBOFpDaXN2SzNHTmtOaWFNZW1fT2VWQ0RDSGt3RkxFeXRYaTVSbXg1ZHFuV19GNUtGb25OOW9VRGNMeXlIaVVPUmZ0Z2JzS2JhODl1MUY0T0VyZ0tDZlB5Zw?oc=5",
-    "rank": 36
+    "rank": 37
    },
    {
-    "headline": "فيصل بن فرحان يبحث مع مسؤولين أميركيين تطورات المنطقة واحتواء التوترات - الشرق الأوسط",
-    "summary": "فيصل بن فرحان يبحث مع مسؤولين أميركيين تطورات المنطقة واحتواء التوترات الشرق الأوسط",
+    "headline": "عبد الله بن فهد لـ«الشرق الأوسط»: قتالية فرسان السعودية قادتهم لذهب ناغويا - الشرق الأوسط",
+    "summary": "عبد الله بن فهد لـ«الشرق الأوسط»: قتالية فرسان السعودية قادتهم لذهب ناغويا الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "01 Oct 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiwgVBVV95cUxOUkZFdldTUVZsQmZ1d1EyT1g4TXJlVnRHcHFXbDl0TkY0OExVOWVNeFMwYU1UX2hDQTczX3VPZkhxT1I2aGdBYUUySkR6VS0xeWVtWnZjdEJKN2dzRmNBbnVvd0pZd2hsMWtqRXpleWNMRkJhQWN6UFYyMUZ3d0N0X1FDd3pLMl9qcFJyNjNrbURucXozSkRqTndsZUlVY2cyX2lWRXQ2NHJ6cW9LM24zeGhUdlZWbkswcV9SZzZvcFNiY1JqS1EzT2p1THJwTHhxLXhCTlgzVjU0X1N5dndhV3BsdGxZdGtQd1FrejlYcXRiQVZVdFFyMFhJY0pJZlhZVUhOaUJ3V0lNN3lfVkt1OEZIVS1pa2RzM1JSeENpWEdPUWlsaTRPQUJyYkRhanVSSlppZ3ZFQ0JlSkNDUjA2eVhtZmdLcEdSR1owenlCV3V0U1lzNzFJczBLYkExWXdYcVp5Q0pUWHRiaVdmQ0VZQUF1bFdXYjA3ckk4RVNDa0U2Vjl3cmZBZjE5UThDSXlYNlVvUjUzT05WWVpMVnE1LThXdzEyc0thZkc2dGtfZkpCcmRRdWRBYlhRYzJWeGlEcFpPNTBNT29BSXdOLTFFSVBpbjZ3bXY3WURSTGNKUE9VR3NUVGVDWVVYLTZTYl9tbnpwdl8zcEs1UmtOdi1MZzFyMDJPVkZfR2dwVEJTNy1SbmkwN0tiaGRwakw5ZXV6eWJMcTdZbVdpOWlnU2gyaEZTYVdOaGpnU2ZPSzRPSXk0MWswanVmZWpVTTlZOHNISV9VSkZvWkRKaDNMMjhZUXZmVy1jWWU2ZWNiWWFoejcxX2NQTWNmUGRhT3VMNVdkR1dhei1RdTVxYzMwWnJyLW5rWDZrZzJVT29FYjgxekFiSFYxMzVZZ2I1ajhlWW5rN3Z1dTNQYi1xTzVFMlV5ZW53?oc=5",
-    "rank": 37
+    "url": "https://news.google.com/rss/articles/CBMikgVBVV95cUxPaGkyVDkwU3R1UE50bE0tWjNnaDJDV1ZEQjdRR2d2SFlUOVRVcDNLMDZCWk01TGE0OTQ4bThyMjRxNndpcjRFblkxel9aRE1wNUZ5WV9MSU9Cd2VRMG5LUjFrUV93WUN0RzN1NlNFOXVUdHFWcXF0a3FKX1ZyM0NDcXI4aFZPNE5KUHdpSDFzT1BrT1JFQlpsLXB4eXh3WmREejBCbHlEcG01ajljeksyR3ptTjh3T291dEItd3VxYTZXT3NkNVMwVGw4OEdrYnFQYU4yUXlvbnZsempyeTRjeGhvcXNmY1liUE1YcVN0dDExbVpfMlNYSUpJMFZsZVFMMktLUjUtUld3UE9SWE9WRHB1ZWRmMU1meDBKZW9YUjYyTXZPMHNtaXNMb1FPbl9yZ1NVU0MzdXNlbUQ4bjVQNkdDQVM0ZVJWSWJ2R2drYkxRaEFrck5oSjFwTHlFODNMWDJEbHVTN3BzdzQzR3FkX1A3eHQxYmticktnbm1NZGlEdENkWDB4Qk8zZXF3WjF6RHE0Q2d2cGJRZXZJUkx5QnQ4cV9tRGFaNndtWWhPcmtsS0JFNlJxaGh5MnUzV0J3ejFSVlpwdkU4LTdjbjAyOWJjS1k5QWxGbktDaG9ockZDYnUxTDJtN3U5bS1FTlNTZEw5M24zb0Yxb2Zjb04yLVNmR2RHXzNHUl9ra3pHN0o5S1dUd0FTeUNOQUNUSEVxNjFWVjFCY3AtQUxkNWljNGM3QXBxR2tORWpCUWx6TzVhUE5OVjcwTjd0bzNIdGt4dWVuZWZVSThBa282LWJGVmEteG9TOFUtRUZFN3dsMGpNb1VTblJqR3ZBcy00enA4Q1dDWVpoVERVdG50T3hERnNB?oc=5",
+    "rank": 38
+   },
+   {
+    "headline": "فرسان الذهب لـ«الشرق الأوسط»: الجميع ينافس السعودية… والفوز ليس سهلاً - الشرق الأوسط",
+    "summary": "فرسان الذهب لـ«الشرق الأوسط»: الجميع ينافس السعودية… والفوز ليس سهلاً الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "01 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMirAVBVV95cUxPZkQ5bWFBaTVQeUZuQWNQZzg4cjh6ZWxGSS12Q280VF93MERMRl9xRzB6MWxzOVhQdWozakRGQVM3TXJLWldhTFMwTUtiU1cwdjJ3akY1T3RuMzJ0MGxNeXJIcUZTMXpxWXRySjdoc1BSc3A5R29POFdSQUhjenp5enZHUnNCYy1hZWhka2Z0SGR3RmpJX3h5dkVpQ1dJSHBxZWUxMmtEemljYW9Edk9FNzJLcy1jZnowOW5DQzdpMThTdUNoYVE1ZXJlMExQWDlydERNYnBjbk1vdDUzaDl6SlpBODJLaml6Tm1nQVlmaEVDSFlScG1NcUtjb21LWkZSRTVfaTNqRFdMZGczZGJuNHNnbWM5MWZnSjB3MElSbzRwUHd4el9Cdzc5ZUtBSVB0NkNNN2VuV1E2TXVlaFVlcjFzMlJ4bGMyeUw4V1pkcjBZUjE2TF83aDNPdnZ2LXh5OGJyNFBROE9GZGprbUxnUS1iVklBdXFkbEpIenZkbHdsQ1czRWljOTdsWXZlWGtQdzREY1hUdkhVU2dVa1lNdHZaLUtjT2JURURuTkZBM1BObnZTNDlnaEpUUnFEWldtb0twTUJfajNub1dJbkdPY2RhNzVTNXNjOUlnNUxPajJnaXl0U1ZYZWxGbldCcW1peVY4VU1WYmZ0N2FrNGtJYkQyWUNBVjh0RklWcTNtSHljZHlTVzZaRV9VQ1JqT3BocGhSRDRPZHBkdXJia3loSmZXQzh6bVk0TEpMSjlTY0lOd2x1Y1hzRnFnZ3lnTTY2TEJOUEU0ZUhxb3BXcGVMOGpPTFplei1iRTEwVUJiUndNVGlsOUJQcnBiNFV0dFRHQVZTbXVWV3A3VWRxV21tR1NHVjlEMENKeldfYmpYWExNSEQ2LTByQXVsaHg?oc=5",
+    "rank": 39
    }
   ]
  },
@@ -4980,13 +4998,6 @@
    "confidence": "medium",
    "at": "2026-10-01T15:00:33.852674+03:00"
   },
-  "#_نقا": {
-   "english": "#_naqa (fragment)",
-   "summary": "A truncated Arabic hashtag fragment — the visible letters do not form a complete word, so the subject cannot be determined from the text alone. Given the rest of the board is dominated by teacher-recruitment chatter, it is most likely a clipped piece of a longer education-related hashtag.",
-   "kind": "other",
-   "confidence": "low",
-   "at": "2026-10-01T16:23:43.572351+03:00"
-  },
   "#الوظايف_التعليميه": {
    "english": "#Teaching_Jobs",
    "summary": "Hashtag used by Saudi graduates and job-seekers around Ministry of Education teaching vacancy cycles — application windows, shortlists, specialisation quotas and appointment results. It surges whenever a recruitment announcement or candidate list is expected.",
@@ -5015,25 +5026,11 @@
    "confidence": "medium",
    "at": "2026-10-01T16:23:43.572351+03:00"
   },
-  "التربيه الخاصه": {
-   "english": "Special Education",
-   "summary": "Special education as a teaching specialisation — a category in Ministry of Education vacancy lists and licence exams. It trends when applicants in that track compare scores or question the number of seats allocated.",
-   "kind": "business",
-   "confidence": "medium",
-   "at": "2026-10-01T16:23:43.572351+03:00"
-  },
   "القهوه العالمي": {
    "english": "International Coffee (Day)",
    "summary": "Shorthand for International Coffee Day, marked on 1 October. In Saudi Arabia it draws heavy posting from cafés, specialty-coffee brands and fans of Saudi coffee culture, with promotions and heritage content.",
    "kind": "social",
    "confidence": "high",
-   "at": "2026-10-01T16:23:43.572351+03:00"
-  },
-  "رافاييل لياو": {
-   "english": "Rafael Leão",
-   "summary": "Portuguese forward Rafael Leão of AC Milan, widely followed by Arabic-speaking football fans. Saudi trends around him typically involve match performances or recurring Saudi Pro League transfer speculation; the specific trigger here is not identifiable.",
-   "kind": "sport",
-   "confidence": "medium",
    "at": "2026-10-01T16:23:43.572351+03:00"
   },
   "العلوم الاداريه": {
@@ -5057,13 +5054,6 @@
    "confidence": "medium",
    "at": "2026-10-01T18:00:34.227257+03:00"
   },
-  "#الماجستير_المهني_في_التدريس": {
-   "english": "#Professional_Master's_in_Teaching",
-   "summary": "A postgraduate qualification offered by Saudi universities that prepares graduates for classroom teaching and is increasingly tied to eligibility for teaching posts and the professional teaching licence. It is trending alongside hashtags about education jobs, GPA requirements and the Ministry of Education, suggesting debate over whether or how this degree counts toward applying for government teaching positions.",
-   "kind": "news",
-   "confidence": "medium",
-   "at": "2026-10-01T18:00:34.227257+03:00"
-  },
   "راتب التقاعد": {
    "english": "Retirement salary / pension",
    "summary": "Discussion of government pension payments, administered in Saudi Arabia by GOSI (the General Organization for Social Insurance) after its merger with the Public Pension Agency. Pension topics spike around payment dates, eligibility and service-year rules, and here likely connects to teachers and other public-sector staff weighing early retirement against new job and licensing requirements.",
@@ -5077,6 +5067,34 @@
    "kind": "other",
    "confidence": "low",
    "at": "2026-10-01T18:00:34.227257+03:00"
+  },
+  "#نطالب_بالغاء_شرط_المعدل": {
+   "english": "#We_Demand_Cancelling_The_GPA_Requirement",
+   "summary": "A campaign hashtag by Saudi graduates demanding that the minimum university GPA condition be dropped from eligibility for government teaching jobs, which the Ministry of Education and the Human Resources Ministry use to screen applicants. It is trending alongside other education-recruitment terms such as 'teaching jobs', 'professional licence' and 'university GPA', pointing to an open application round or newly published hiring criteria.",
+   "kind": "social",
+   "confidence": "medium",
+   "at": "2026-10-01T19:00:31.858067+03:00"
+  },
+  "#قهوه_ومزاج": {
+   "english": "#Coffee_and_Mood",
+   "summary": "A lifestyle hashtag meaning roughly 'coffee and good vibes', used for photos of coffee cups, cafés and brewing setups. It is spiking because 1 October is International Coffee Day, which Saudis mark heavily given the cultural importance of Saudi/Arabic coffee (qahwa) — the board also carries #International_Coffee_Day and 'Saudi coffee'.",
+   "kind": "social",
+   "confidence": "high",
+   "at": "2026-10-01T19:00:31.858067+03:00"
+  },
+  "راتب الموظف": {
+   "english": "Employee salary",
+   "summary": "Discussion of public-sector pay — salary scales, allowances and payday timing for Saudi government employees. Trending next to 'pension salary', 'on the job' and the teaching-jobs cluster, so it most likely relates to pay grades attached to newly advertised education posts or to a payroll/benefits discussion rather than any confirmed announcement.",
+   "kind": "business",
+   "confidence": "medium",
+   "at": "2026-10-01T19:00:31.858067+03:00"
+  },
+  "الدبلوم التربوي": {
+   "english": "The educational (teaching) diploma",
+   "summary": "A postgraduate diploma in education that non-education graduates in Saudi Arabia take to qualify as schoolteachers, required alongside the Professional Teaching Licence issued by the Education & Training Evaluation Commission. It is trending as part of the wider conversation about eligibility conditions for Ministry of Education teaching vacancies.",
+   "kind": "other",
+   "confidence": "high",
+   "at": "2026-10-01T19:00:31.858067+03:00"
   }
  }
 }
