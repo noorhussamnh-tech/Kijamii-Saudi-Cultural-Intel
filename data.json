@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Friday, 02 October 2026 · 19:00 KSA",
+ "lastUpdated": "Friday, 02 October 2026 · 20:00 KSA",
  "days": {
   "2026-09-19": {
    "label": "Sat 19 Sep",
@@ -2164,7 +2164,7 @@
     },
     {
      "rank": 2,
-     "text": "#يب_تاب",
+     "text": "#سلفه_من_الشايب_تابي_تمارا",
      "cat": "General",
      "pts": 12
     },
@@ -2188,13 +2188,13 @@
     },
     {
      "rank": 6,
-     "text": "اليوم الفضيل",
+     "text": "جنات النعيم",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 7,
-     "text": "جنات النعيم",
+     "text": "اليوم الفضيل",
      "cat": "General",
      "pts": 6
     },
@@ -2206,7 +2206,7 @@
     },
     {
      "rank": 9,
-     "text": "علي النبي",
+     "text": "علي محمد",
      "cat": "General",
      "pts": 6
     },
@@ -2224,25 +2224,25 @@
     },
     {
      "rank": 12,
-     "text": "الثوب الابيض",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 13,
      "text": "الخبر الشماليه",
      "cat": "General",
      "pts": 4
     },
     {
-     "rank": 14,
+     "rank": 13,
      "text": "بشري تشبه الغيث",
      "cat": "General",
      "pts": 4
     },
     {
-     "rank": 15,
+     "rank": 14,
      "text": "نعيم مقيم",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 15,
+     "text": "الثوب الابيض",
      "cat": "General",
      "pts": 4
     },
@@ -2254,13 +2254,13 @@
     },
     {
      "rank": 17,
-     "text": "فيصل غزاوي",
+     "text": "بنور الجنه",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "عبد مسلم",
+     "text": "رفعت الايادي",
      "cat": "General",
      "pts": 4
     },
@@ -2272,7 +2272,7 @@
     },
     {
      "rank": 20,
-     "text": "رفعت الايادي",
+     "text": "عبد مسلم",
      "cat": "General",
      "pts": 4
     }
@@ -2283,7 +2283,7 @@
      "score": 100
     },
     {
-     "text": "#يب_تاب",
+     "text": "#سلفه_من_الشايب_تابي_تمارا",
      "score": 88
     },
     {
@@ -2303,7 +2303,7 @@
     {
      "icon": "📌",
      "label": "General (20)",
-     "items": "#ساعه_استجابه · #يب_تاب · #وض_ال · #ام_نوره_تنخاكمم_احسان · موتي المسلمين · اليوم الفضيل · جنات النعيم · اليوم المبارك · علي النبي · الضاحكين المستبشرين"
+     "items": "#ساعه_استجابه · #سلفه_من_الشايب_تابي_تمارا · #وض_ال · #ام_نوره_تنخاكمم_احسان · موتي المسلمين · جنات النعيم · اليوم الفضيل · اليوم المبارك · علي محمد · الضاحكين المستبشرين"
     }
    ]
   }
@@ -2553,28 +2553,37 @@
   "الحرم النبوي": 4,
   "الشبكه الكهرباييه": 4,
   "اليوم العالمي": 4,
-  "#يب_تاب": 12,
+  "#سلفه_من_الشايب_تابي_تمارا": 12,
   "#ام_نوره_تنخاكمم_احسان": 8,
   "موتي المسلمين": 7,
-  "اليوم الفضيل": 6,
   "جنات النعيم": 6,
+  "اليوم الفضيل": 6,
   "اليوم المبارك": 6,
-  "علي النبي": 6,
+  "علي محمد": 6,
   "الضاحكين المستبشرين": 6,
   "منزل مبارك": 4,
-  "الثوب الابيض": 4,
   "الخبر الشماليه": 4,
   "بشري تشبه الغيث": 4,
   "نعيم مقيم": 4,
+  "الثوب الابيض": 4,
   "نور دايم": 4,
-  "فيصل غزاوي": 4,
-  "عبد مسلم": 4,
+  "بنور الجنه": 4,
+  "رفعت الايادي": 4,
   "سلم علي": 4,
-  "رفعت الايادي": 4
+  "عبد مسلم": 4
  },
  "news": {
   "date": "02 Oct 2026",
   "domestic": [
+   {
+    "headline": "Saudis plan assault on Houthis to break Red Sea chokehold - Reuters",
+    "summary": "Saudis plan assault on Houthis to break Red Sea chokehold Reuters",
+    "source": "Reuters",
+    "date": "02 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUVJialJyWHg0VzlHXzBiaTU3elZhbWEtQzd0TjhNOGNsWFFZNTYyMGFqODJGcVc3aVBaYVY3QkRzWWpEZDlQNEpJeVp6ZjMxYkZKYi1nZ0FUenFUSFRFRTNCb3NaTmdCaTJ1WWV1RmlqcmhSZGtsZWZobE5jSHp3RkJiVXpueWdVOHJmbDhzUEEzVXB6OF9jYkJHcnpfQklTNDVHZ20yS1J6QQ?oc=5",
+    "rank": 1
+   },
    {
     "headline": "Saudi Arabia Once Counted on US Protection. Now It’s Pivoting to New Alliances - Military.com",
     "summary": "Saudi Arabia Once Counted on US Protection. Now It’s Pivoting to New Alliances Military.com",
@@ -2582,15 +2591,6 @@
     "date": "02 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNLWFMSDVaeWdURDNIb2JsZnAzQWM5ZGVwNXRnLVlvaTNyZVREdmJfSGp2S2tmcGhPOWIzVDVHd1RYaGZmcThpclBRYl83UTJpUmtyVnRZSGU5X0ExQ2V1bElZanJyeFY4VVZVM0xzRVVQZFdwTXBENkp4NmNzY2hyRGdncDBtc3ByUkxhRzAtV2U4VU1RZEpTYnhQUzJkUHlYS1NR?oc=5",
-    "rank": 1
-   },
-   {
-    "headline": "Scoop: U.S. sent more Patriots to protect Saudi, Qatari energy sites - Axios",
-    "summary": "Scoop: U.S. sent more Patriots to protect Saudi, Qatari energy sites Axios",
-    "source": "Axios",
-    "date": "02 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbW9nY2JyUlRwbWlIYXMzaFJ4UElELUprckxfLU9Fa2FlREtjX2I1c3BSWl9qSS1SSGg3VU44UE9KbjlUaDNDcUQ5ZExmUG9Na3dwZjczX0xjbktrWDgxdWU0UzZIbmktNzNxa0o5TWV3cUgydGRNY2tXOVlFbnpzOU9oRQ?oc=5",
     "rank": 2
    },
    {
@@ -2603,13 +2603,22 @@
     "rank": 3
    },
    {
-    "headline": "Saudi Arabia says Houthis attempted to target Mecca, Medina 3 times over 9 years: Report - Anadolu Ajansı",
-    "summary": "Saudi Arabia says Houthis attempted to target Mecca, Medina 3 times over 9 years: Report Anadolu Ajansı",
-    "source": "Anadolu Ajansı",
+    "headline": "Scoop: U.S. sent more Patriots to protect Saudi, Qatari energy sites - Axios",
+    "summary": "Scoop: U.S. sent more Patriots to protect Saudi, Qatari energy sites Axios",
+    "source": "Axios",
     "date": "02 Oct 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRUQwa0pWYnNHTmp1dkxpQXcxOWZKeDhGZFo4U19hMVJYY3lZNklVaWNMXzBkN1Y1YmoxbVhTZC1yLVZ1alM2cmJkVkVtMk9EZHMtNV93VDNONWQ3ZkZrdV9PeUR2UXRHb01zbXQzX0VJcjdZSlRDMmZfLUlpdmhoeUg0eFZQRHJuanJwWFFUckVVcVBwN0pCaXliRUlRN29acW9Db1JhMzE3ZmtSZXhtalViVTRjQUVyTnpGYzR2Vl9Qd1pZTHR1NUFIOA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbW9nY2JyUlRwbWlIYXMzaFJ4UElELUprckxfLU9Fa2FlREtjX2I1c3BSWl9qSS1SSGg3VU44UE9KbjlUaDNDcUQ5ZExmUG9Na3dwZjczX0xjbktrWDgxdWU0UzZIbmktNzNxa0o5TWV3cUgydGRNY2tXOVlFbnpzOU9oRQ?oc=5",
     "rank": 4
+   },
+   {
+    "headline": "\"Yemen's retaliatory attacks on Saudi Arabia; Explosions heard in Riyadh\", reports SNN - Newsquawk",
+    "summary": "\"Yemen's retaliatory attacks on Saudi Arabia; Explosions heard in Riyadh\", reports SNN Newsquawk",
+    "source": "Newsquawk",
+    "date": "02 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdjRzWkZCb0tQUG1JcVB3MEF3MlY5MTU3eWdnU0pFU2RVWTNkaHI4eXU2bEVFWGpjSno4NjFYWE5Rd1VNSFduNmlYbTRIdkxvVGhpUnZqRUdYWE1zOXo0WmNjT0RQV3FJcWd0cUxlQk9zMEdyQWNsQVJ3M1JqS3AzdXRLcVpicDljRkpvNE1DeXdfMkJmX1NEUl90WnN4RWpuQ1V0WVE3TE91VldEb05uQlduTTFCUlIw?oc=5",
+    "rank": 5
    },
    {
     "headline": "Saudi Arabia Hikes Oil Flow on Key Pipeline to Over 80% Capacity - Bloomberg.com",
@@ -2618,7 +2627,16 @@
     "date": "02 Oct 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMVFoRHBobVlibHVtNk16T1NGRG9YVnozSm50ZEZnOGhZZkhULXRmUlhQeTJhLVYycnJIMEJRYXVhUm0xZlQ5ZURZVF9xREgxSG50Nm9xb295NFlQRTkySVlUazdzalg1WklCcUZhbU1mWkEwazRuVmxFeS1NWDVlTFlkTVU4OEdScXpHOFZqcWx4YU9obnZiNzdvNHk2T0lING1HQ1VyS1V4R2NfdDE2Rlg4Qkw?oc=5",
-    "rank": 5
+    "rank": 6
+   },
+   {
+    "headline": "Saudi Arabia says Houthis attempted to target Mecca, Medina 3 times over 9 years: Report - Anadolu Ajansı",
+    "summary": "Saudi Arabia says Houthis attempted to target Mecca, Medina 3 times over 9 years: Report Anadolu Ajansı",
+    "source": "Anadolu Ajansı",
+    "date": "02 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRUQwa0pWYnNHTmp1dkxpQXcxOWZKeDhGZFo4U19hMVJYY3lZNklVaWNMXzBkN1Y1YmoxbVhTZC1yLVZ1alM2cmJkVkVtMk9EZHMtNV93VDNONWQ3ZkZrdV9PeUR2UXRHb01zbXQzX0VJcjdZSlRDMmZfLUlpdmhoeUg0eFZQRHJuanJwWFFUckVVcVBwN0pCaXliRUlRN29acW9Db1JhMzE3ZmtSZXhtalViVTRjQUVyTnpGYzR2Vl9Qd1pZTHR1NUFIOA?oc=5",
+    "rank": 7
    },
    {
     "headline": "Turkey unlikely to automatically use force if Saudi Arabia is attacked: expert - Turkish Minute",
@@ -2627,16 +2645,7 @@
     "date": "02 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQakVsb2UzZWJraTcwWnNVSC1zSDU0UUhvdTI5eGl4RVVHVmhjTzZmTEVTZDNFZ3cyb1psRE44eFZGS0xrbTM3b2treDRMZzlfNWREWmNrR3MxRzNiZEl0MlpjamtKdmlTdGpCSlJZcExQU05qNFRnUzdYcGRaZTZ0Q05RRDNoc3d4bmJHV0dfWUdOMExyXzJ2YTJ0M2NsV05MRXZjbnE5V0R4WjBXaHRpR25XeHc3cFMzZkZF0gHAAUFVX3lxTE1ZNk43VkJ3WV9RVjFsWFhGZlMwY2s0OTREWlQ4SE9XR001WkN3REJ2aFFtSXo2emNJdmJ5NmRFaUFOWS0wdDRYck9QbUdJNVdDdXlqNDQ3WlZkV0tWdTlqWkVwS2lrb1pUWEdodlNiS0d0ZkZ4ZTlITXQzN1JRcVJRdFJWc0t5dlNCZHRvdS1FSV9VYTQtdU5pRVBtTjV2eTlYak9PeVg3WEIxMkdyTG9xM281UGdHNXR4c2JvWk9QVg?oc=5",
-    "rank": 6
-   },
-   {
-    "headline": "Saudi-led coalition says power station attacked in Medina, blames Houthis - Al Jazeera",
-    "summary": "Saudi-led coalition says power station attacked in Medina, blames Houthis Al Jazeera",
-    "source": "Al Jazeera",
-    "date": "01 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNjZNTVNkQV80ZkpaSG03OV9reW10bTZDaFdGbldBMkJhQlRBV1p4RjM3LVk5cWowVjJPUTRNdjcyOGVFUThUUnNmQnducGtJcDlFQlFKUWJERTFmZktYZWs0MzBnRGlWbU9DRE9MTGxpa1RlaUhhODVDV0wyVk1fcmg5bTU0NHhCZ0l4NHBQa09xOElzZFhBcDEwZG54UVAyUXZ0a0w2RE8zYWJSUTlxV3htRdIBuAFBVV95cUxPcU1jOUF2TUZkaldaYlhFNjhtX0ZPeXZKM0VtbUUtMFlHYkpWeThaLUltUVZKc0JKZGhBTzdUTndGVXFnS3VKUTJ1Z0Z5cmczZlZvLU5oN3hiUGZkNF9iMVFxN2VGMmZjNlk1UlZNZDUzc1JSYzdYWGg5Sy03dnk3ZVAyVkFwWV93ZXJ6RG1zcXlfdURJOFVBdjNZWGE1dGE4YjVrY2VOdVpaXzZNMHVGc2E2eWptdU5f?oc=5",
-    "rank": 7
+    "rank": 8
    },
    {
     "headline": "IFS Bets on Saudi Arabia's Industrial AI Opportunity - The Futurum Group",
@@ -2645,24 +2654,15 @@
     "date": "02 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON0ZXbmFweE81YmxkbXZEX3hIZXJIT1dVRmxZbUpmQVZBNkxzaDMyZElvc3dNcUxsUUJ3SE9UMnRuWWt5WXdwTG1JR3lBbkphNVo0S3lkM012UExLNXlDOVhsRXFybVgxTnllSW1yNi1lMlM3c0NsOEFVa2JET2tibzkzYjUzaXJta3NrS1Zndw?oc=5",
-    "rank": 8
-   },
-   {
-    "headline": "Pakistan, Turkey and Saudi Arabia to hold emergency talks on Houthi attacks - Middle East Eye",
-    "summary": "Pakistan, Turkey and Saudi Arabia to hold emergency talks on Houthi attacks Middle East Eye",
-    "source": "Middle East Eye",
-    "date": "02 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQklMSnB5X0RjdzBxWDBPN0RXaG4zOXlxVWY0QlBhb3dmSmRCOVhfWE5yd1dkNUR5MFdKaDJDS2F2Mk1KU2RaZVhsbW5pWnBCbU5BN016Sm1JWExneGpuc1RlMExfaHF2ZF9DeDBtUGhHbldBOEZBdDVjUEowUGkwVjN4SzEteHNtUDQtNjdwa2NPZlFIU2lITXljMmhxQVRLTVpiU1lLcHpLbWJVNHRYLURGSWZ2VU5SX3cwWG9pSlZYc28?oc=5",
     "rank": 9
    },
    {
-    "headline": "Saudi Arabia accuses Houthis of Medina strike - Al-Monitor",
-    "summary": "Saudi Arabia accuses Houthis of Medina strike Al-Monitor",
-    "source": "Al-Monitor",
-    "date": "02 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUTRweE5YSDQ1c2FJOW5RdHdkNWFDMHZubXZYcUZ0X0hkaVFzZC1fM2lyUnlselNMUnpkeXg3Vk5yX0puUFFPblRBaUFXSUhsajI3N0tSNUFuM2pJeHFtRFFNeExQMzgwNFBmZVBmeTlHR3o1ZEFQOWppZHpuc19DSnNqTnRHWFZHMmpOOXAzLTFjOUNrQlE?oc=5",
+    "headline": "Saudi-led coalition says power station attacked in Medina, blames Houthis - Al Jazeera",
+    "summary": "Saudi-led coalition says power station attacked in Medina, blames Houthis Al Jazeera",
+    "source": "Al Jazeera",
+    "date": "01 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNjZNTVNkQV80ZkpaSG03OV9reW10bTZDaFdGbldBMkJhQlRBV1p4RjM3LVk5cWowVjJPUTRNdjcyOGVFUThUUnNmQnducGtJcDlFQlFKUWJERTFmZktYZWs0MzBnRGlWbU9DRE9MTGxpa1RlaUhhODVDV0wyVk1fcmg5bTU0NHhCZ0l4NHBQa09xOElzZFhBcDEwZG54UVAyUXZ0a0w2RE8zYWJSUTlxV3htRdIBuAFBVV95cUxPcU1jOUF2TUZkaldaYlhFNjhtX0ZPeXZKM0VtbUUtMFlHYkpWeThaLUltUVZKc0JKZGhBTzdUTndGVXFnS3VKUTJ1Z0Z5cmczZlZvLU5oN3hiUGZkNF9iMVFxN2VGMmZjNlk1UlZNZDUzc1JSYzdYWGg5Sy03dnk3ZVAyVkFwWV93ZXJ6RG1zcXlfdURJOFVBdjNZWGE1dGE4YjVrY2VOdVpaXzZNMHVGc2E2eWptdU5f?oc=5",
     "rank": 10
    },
    {
@@ -2702,22 +2702,31 @@
     "rank": 14
    },
    {
-    "headline": "الأخوة تجمع بين السعودية والإمارات - Hespress",
-    "summary": "الأخوة تجمع بين السعودية والإمارات Hespress",
-    "source": "Hespress",
-    "date": "29 Sep 2026",
+    "headline": "ما القنوات الناقلة لمباراة المنتخب السعودي وقطر في نصف نهائي كأس الخليج العربي \"خليجي 27\"؟ وكيف تشاهدها مجانًا عبر الإنترنت؟ - Kooora",
+    "summary": "ما القنوات الناقلة لمباراة المنتخب السعودي وقطر في نصف نهائي كأس الخليج العربي \"خليجي 27\"؟ وكيف تشاهدها مجانًا عبر الإنترنت؟ Kooora",
+    "source": "Kooora",
+    "date": "01 Oct 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQT0VQREg1WXpEWUU5UERLVzRHNF9TMnR5QnIxZ2FmRkY3dzF1S3o1STVhRWkyMjR2WV83QjBJclBPMDVPZEZIYmZhQWJaOFJRUWxxM1NXOERtMXoyRGNmNWEzcW5QUGt6UnJCVVR2SWtSME92XzlOTFplWHBCTHN4R0VVQWJCOTBsSkQ4a0l0NWpfeTRUOUF2ZFBMYkNTbXBSS0hDLXVwLS1uZ3RUQzhIeWR3cm9mOExjNlF6VGFacVZTQlpEVVE0RHJqZGFEcDAyQVpiVGxveTVWVDdOaEcta3hIbHZZajNNb0VZNHlYSUdhYXVoUzEtWjl4SDdYV0xyVUsxdjY0WFRSTi1UVC0zYklubk94UXZaQ2tBSUwxek1pUWxXRXVxeDNaWU9GTzhwcklRWkRzUGh5b2xLZWkzSHYtS0s?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMixAdBVV95cUxQZFJhUWhIYVhyTnczV29PQ2ladmJFQnE4YnUtd2RuaUFsNFVPaWpUdU81c2dLa05XQTlXdXd6OXVuVUdKRWdPRmgxWU5lVzhDWURFWXo3Y0hILVZ2NGtCbWlUWGs3cW5sZWlfakxzSE9RMDZBczBIT3k0TnI3ZDJpTnN0VmQ3dWNmaW1DMGkwd1FsYnI2SXNrMUdHY0JsRzhMOHlReDZYb3Y0akZzYmdRRVoxTXctTGVCSVB4Um9hbFcyVG1TVzFaYjBUVk1GSVFWd2otWjhzZWoxQUM5VjBpRE05MHphQm9raXRvZl9aV2hBTnlmWkZfeVd2eWUzcmZTRnV1UVB4UjAyM0R5a3B2T1BYdk82cGhfbFlYRTlNMlpXRVNYOVFFQ3I1YjN1OTlpT0NiX2FvRDFLdVpRX29JWGNqVWIzM0FfX1UzdnRrT1laeEFjTURiOUM2cXJGb2FXbEV1RkR5bkwwUW9Yb0dZY0szbVNhREp2VVpyYVhXenZVVTQ4Mm5GX0V4MkVjdFJWaU81Q3E0RWlIMUN6NVJfQVdEVHZCcVhSQ0lONUxHc1RXeGg4LVlQVGsxQjZBQjRrRndJbWhnZm5OU2pQYVVYWXdOVkJNM1JfdmZCYjQ0RTNQUGFrTVlNdFlpZm5BMEpZeDRfcHNlZ2dkTWRfckNpWVdaejUzMzlHSlNkc1pSdVRyYTZDT3NnLXdKN184X2xZVWdQZ1h6ajJpc2x5MENmQ0xiejBNY01md2NZVzBRMEJFUUI1andoQmpPZERwZzhxTEp0STdCby14QnJsamlvRG9QNXNTWWZiMkJESmpKZURwUVdVN0VCcmlRc1E1V21peXYtZFliZzRsSzJ5ekFJNUZQdHBLamZBZ25XdXg0QmM2aFYzeERGY2JfazZJNUw0WVo0UHdyZFIydldDdnJPdktVOWVXRmRoSmpudVdWS29WTVpYal9BQi1WQlJxQ0pJWEVHWWpkSjU2emZ0TGZUaUJwVGc0dVRRN0liT3l4ZVFIT1hSOFlIYUstZWU2dE1nR3FfaUFjVk5tNHZMYU5UbzU3U0JnbnJOM3lZcEhOMWFXWDNpNFUzRzNwWmltQzJPR2VFc0lReHhOZkVfZGdoSEMwY2FtSVYtZ3dVS2VPZi1VaXVkcEwwYzJFWlllbHhFaXhzbFJsMm1xSXBpOUNpV2RONzZyQjdNaGdzVzNSRGpVOWt3b0ZrNlUwR1MzazhFVFNnZkdQMHQ3OWt4Zzh0M2d1QjI4LU5nc1BaTDA0SHV3b3dx?oc=5",
     "rank": 15
    },
    {
-    "headline": "بث مباشر .. شاهد مباراة المنتخب السعودي والعراق في كأس الخليج العربي \"خليجي 27\" - Goal.com",
-    "summary": "بث مباشر .. شاهد مباراة المنتخب السعودي والعراق في كأس الخليج العربي \"خليجي 27\" Goal.com",
-    "source": "Goal.com",
-    "date": "29 Sep 2026",
-    "tag": "sports",
-    "url": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxQUFJJNzNfa1NBS0xxeU5RNFM0UGxxV05JWE52YUFjUWx3bzF6b2FuNWhtckhWZUpvSjh3bVMyVVJKVnJpb0ZzZFZ3U2pPbURSY2pxUVdkdmlXOGtsQ0V2NERFNkY3TTJIT3V1U2k4RTZyaHB4X192Q1ZLVUhGOVREUnBmU3dYMS15dTJiQ1BXTmNQbE9laXdmV3JHTUlxa2tYRUhDd2JHR3AtRjhqTS14X1VlYmJqZDJaQVZ0T1gyNnJvaGFVbU9nMzNtQ3lUYnBBTnd3MERxNFduSnBsNlBCcURiQ042ZXl5NmFkOGdoR1RETEdtNzg5aXVLMUxYNV9ZZks5RS11UFF1NTBLZWRzcEJrUk82emp2OTI4MVE5SXpVV0hNcm5NM2hrcE5zd1pUem93d3RRRnRHc2dxWTRxMUphYXR5MVN1MXZiVkVod3hYM2ZNRUFuSy1OLUduWWJxVjUzeGl2QXRReXBhbDNFYmhDWFRPdjRTeno2djVGU1BZckltTGprSUx6TDk1QUpBLUVpUVRUSnVNWjdYVUc5aFBINGF6SDlHb3Q3dGpLRl9fakhZbHZja0ZrQ1RoZXVKY3NyU1dOMDdZWkNDa2pDSUQyam9qeXZHa1VWblB2Zjk3SGdnWlJ6SDNSZzRKZTk3eTRGWEtWclY4MWpjNGU1RXpiREhwUk5yaTVsYWEwUlFLRFRTYk15RmNaVXlGUDNrZE9ROXVmWlJ3QTBZYzlsZnFIaGROX0NGNmZYTHkxbjVjS3NWWDFWNFl3QWZ1NXlYakhRVldTcmpiVXpJeUIyMWYwN0xkNWJ0WmdreWZMaHRsbFNBTzVFcEtqRUVzOTQ?oc=5",
+    "headline": "لبنان يدين استهداف محطة كهربائية في المدينة المنورة في السعودية - بوابة الشروق",
+    "summary": "لبنان يدين استهداف محطة كهربائية في المدينة المنورة في السعودية بوابة الشروق",
+    "source": "بوابة الشروق",
+    "date": "02 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOU9rMWg4T1Y0djFYQ3FXSldENWtJbjlHWEZxOTAzSjA3QTVmRUtqemo2YTBQNlNrWnVqSUt2Z3ByV3QxSTNBNjI2ZnBnVUhhYjdXVWY1VlhLV2VYY1JRTXBQRkg3N2NnZnppbHNIZ0E5dTN3X3VBSi0zSlhfc3hJWUxHWWU0UlVjVndsNm9yUk5kVDBqLVJJQ3RLQnI2UlVVWTg5Rm1WTQ?oc=5",
     "rank": 16
+   },
+   {
+    "headline": "لقاء محمد بن سلمان ومنصور بن زايد.. أبرز ردود الفعل في الإمارات والسعودية - CNN Arabic",
+    "summary": "لقاء محمد بن سلمان ومنصور بن زايد.. أبرز ردود الفعل في الإمارات والسعودية CNN Arabic",
+    "source": "CNN Arabic",
+    "date": "30 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHV1RlpEWHFoaFpwNnk1NmNmdUNmNjNwZXF0aXNxbW95YnRjOVZxbUVuVXFsXzA1OUYxcTZpNnRKeFRQUWl4R2FzVjc3dHF1TGlmZTJPRXpoZGR5ZUdiNVI2VW42cklqeHJQMzkzb2I1bmhqb2FQUERUUDc2aDV2Q1YzNmNyN1YtSk1RSG5xVlRQWjB2MXMtTGlTeXp1QWJR?oc=5",
+    "rank": 17
    },
    {
     "headline": "مصر تدين استهداف محطة كهرباء بالمدينة المنورة في السعودية - اليوم السابع",
@@ -2726,37 +2735,37 @@
     "date": "01 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxOeXRDYzF1dm5tTXYzZHA5S2QyMms4b3RLbWFINGZsMk5RYmxxU1B3TXVUVy1WNmV1Zjc0Tm9KQ2lrTEFCUlZaRGJOZV85SHNzMGtHZ3ZaeTRUWFBlNWN4RG91WHdUemFmUG5kendCajVnWUxoblZobHVkd2ZqVnNEd21ncVpLX0h0bnVzV1VrOVZ6R1BQenEzYXRodUNsMEtnVXJNQVhCX0ZaOGJ4SWQ4ZEdnU3VVVjlhdk1kcERIcXhuaERGUnpaV01VLVpYWnh6SlpoWFlaMWhXaDM1TWV2QnIxbFZOZVViWDM2RllxWDlyMEZNSjAxdEZQMlZOLUI2VzVjazVfQ0hXWEp3SWpOTnZXbWFURk15WS0xS21WZmdWSVBDTHVkNFdia1JKemhlRnR2TjVocFYtVmd3TWluV0VOVmtzVlcwUndIM0dxb2JDSUVvUjB0SFFMWklKckpUVExqQk5JNzducEhmWlY4T3VPM3EwOVVuSHZBTkRXbUkzRmdadU1OVGVxYUtxQ2RLcGdCVk45VlVKUWpFYTdSTDRudmxyUVJKOEMwVkk5ZUFEdTUyNmlmUDNTMU9DWFVmRDkwb1VmVWh2UjNYdGpXajRxSFhPZ3dMZC1FOXpoc0IwckhWNjBWYko1R0PSAecDQVVfeXFMUG91RGp2ZmxXdWdyY3ZPSHNJZ2NlQ1BZUjNLYWVWdzlPTzB0aGNGSlMyQXNsMjVvSHhrWDNJNlhpTEsyRk8tajlsNlBlV1Z5ME1YOE1VWlUydUJqSWVCNDM1Wk5uc0FkUG1WZmQ0U0I5Q2JkZXNHRzJyTjRDTEpVdWVGQ0VhN2s3bllzdTQxYlZITHl2Qm5IeVlIdXcwVjNwQkNQQ1JrSW9BUTc0M2dLQ2pzNnBGMXFrbGxFcWtuT25ybk8wUmhoWl93OWJXZnp0azFBQWwtV3FOYjB3dlVUeHN2ZENXOUpQMzE0NG1EQXh5TGtKRlF5SnNsemRHR1pzLTdLa2Z0S2E1RHJ3Uy1jWnc1X3dYQ29MeW81UlRTRE9DOEJOdXNwSXFGdVNCVFdDQzFCYWozVUxjVmlHeHc0U2RhdXFDcDNxYnViN3p6ZEZqcWdLS0l3NHNMRnBBczl0NmlWaHRXa0tqVm1kRmZ1cUVrZWZsbXktTnpOZk5sUHdkUGt6ZEZKTU83UlFZUkJUYkwxNXA5RzdtT21sUnpUcFpaMWx1bWg1UXJ4UTY2Ql9RSWtoSmNvXzY1amJfT2FMRUpseGhFczNMMGtNVzBsQjMyTExYUUdYOHJUUVl0SFp1SjBhb3g4Zw?oc=5",
-    "rank": 17
-   },
-   {
-    "headline": "كيف تجلي السعودية ركاب \"فلاي دبي\" إلى إسرائيل في غياب العلاقات الرسمية؟ - الجزيرة نت",
-    "summary": "كيف تجلي السعودية ركاب \"فلاي دبي\" إلى إسرائيل في غياب العلاقات الرسمية؟ الجزيرة نت",
-    "source": "الجزيرة نت",
-    "date": "30 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNbUt4VGRIdXpRRlM1Y01XUlMxdEZ3cFYwd3JnZGtuU1d6aVB1Z1lYLXgtcS1aSHJZdnctdXdiUlNqRnc3OWlncEtuSGNqT2ctMUZJRUppdjhkVlFra21sdEhSdG5aTElhRFFtYkZ1WjU4TV81YjVlR2VjaTdlNVJCQTdodnRmLWhUcW51TTNhdXFrOV9XXzk1VFJOcFQ1NWR0ZVZfalhnVjZpUGRJeHMzOVZaQmhaYlRXeE5XNml5bHVuNnhMWkZZMnNZX2xOM0RodC1FUnFEQS1TeWhMbnJ3VmxmY1k4QTJEYkh3SUVCcERxUGFZbmpaS2Znd1hLYXZZYm45LWJLajRlLVZLNlB2ZHRXemw4ZTRGX0RtRXpXTm9nX2R3S3VyT0szbkZveUR2Rm8weEVBbmxBN2NrRGtmM0g2aXBOQnl2bEpR0gHQAkFVX3lxTE00QnUtY3lqU2VDYUpJREh0U2tpLTV6dUFXdDVEUVB2LUFaMmlNQldyRUtoZW44SlhWZXdZeUFNeDN4Vno4NmNuSEJIaTloMVp5QXJ5eVo5U3VMLXhBaUhKRWRzeVdOVk93UTVKb180RDZCYmtaeEJONnNudnJGa0QwZXFlVGZfVnRMb21zOEhKUElaUFNuQ3BxN1QyVFNzWHQ3N0dTeVgxamw4OERVbjUtcnNHLUFIalZEa3BqbFZTY0tXSm5STmUzak9rM1EzU1FPWXpxY0xsM3RQS1R6YlhuQlRWbVhPSWZhdVNXM2JiVVFJcWVZZHNMZk53ZGVNZUJtdXdRRFp1TDl1MnZ4eGt1OVVyLV9aakJDMUhLNlVfa05CdGFnQzJmU1NUSWNEV0ZpOC12QWFud2hQWTZES1lKdnh1R1hoeWRnTWUyYXNZZg?oc=5",
     "rank": 18
    },
    {
-    "headline": "بعد انكماش بـ3.6%.. السعودية تتوقع قفزة في النمو إلى 12.8% في 2027 - الجزيرة نت",
-    "summary": "بعد انكماش بـ3.6%.. السعودية تتوقع قفزة في النمو إلى 12.8% في 2027 الجزيرة نت",
-    "source": "الجزيرة نت",
-    "date": "30 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxQOEc0SmY0ZWZLWG1nenZ2cVFRUS01N2FXVkgzVTZjd1VyeEZ1XzdWOW1XdlJrM00xZXNXaXBnSUZneU5TQVZfMjJKbkZudGhPVXo2VUo4UGl5SnBPRzg0bFVpcWZsNGpHQjFrRnN2eHN2X1Z6Z1pHeFlnZUZ0OTh0UTNNZmtGc01MWlRwbDZ1MEd5Ny1Yb1Q4V3M4d3drMHRWdzBIUG9qakVTNWRRVGVieTBPOWxDeWF5N1FfazdRN3U1TEI2ckJ2REctZEFtdnZ0eG0yanZaRDZGdnd4NlozSDZEc2xSTTZ2NFZMV0VEMENCUTJlMHZQa0hhM1cwMzlEZU1tV2dCVjVjV2hnRUpzT3lKb3lobDBJY1NqT2JtN3gtMlRzd0prZ196NjhEMlhGR3hidmZfOFlzNDZ2cDlqd29rbUt4WWtlX2dZVjVVUVpwQnd1bHNPU21LNTnSAeICQVVfeXFMT0trLVZRZW9hV1FRQmlFdVF1TXJySEMxT3A0MVFKdkJ2TzY3aUlXSFFjNExLQkhiMGlzOTdwWUUyeWl1cVNycU80azZzMkRqTldKSFUtNG5EcTFBV0dFNXdFZWRLZ2FCUzJKTklvYkZRNVBDUEZxdnVRWTNPdl8tdHNrRHllYTJMYlhXNk1KcEloeFZrQmpJTHRLZkdYSlpnaU1ZTG5FMThvcFR1ZlRILVREUTBnblZWYXp4Y3FsNmM5bF9tVkFtWDZTTHlfcThfSVUwZzZsYTJSeXo5R3Jsd0h6cmlDaEJFZ3JqVS01RUh6aGN1QktEOVhuUUp0QnQ0My1QaTRCdE1YUk92MVd4WnBfWXVoWi1keVlKSXF0WGdDbXlhU0lRbUpzNjhzdmpXcENjMWtOdmZrRjI4WlhKcjFsWWkzRk9VTVZKQ0YxOUVEODFBU0VVQ0FUWlBWaDJ1a1h3?oc=5",
+    "headline": "بث مباشر .. شاهد مباراة المنتخب السعودي والعراق في كأس الخليج العربي \"خليجي 27\" - Goal.com",
+    "summary": "بث مباشر .. شاهد مباراة المنتخب السعودي والعراق في كأس الخليج العربي \"خليجي 27\" Goal.com",
+    "source": "Goal.com",
+    "date": "29 Sep 2026",
+    "tag": "sports",
+    "url": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxQUFJJNzNfa1NBS0xxeU5RNFM0UGxxV05JWE52YUFjUWx3bzF6b2FuNWhtckhWZUpvSjh3bVMyVVJKVnJpb0ZzZFZ3U2pPbURSY2pxUVdkdmlXOGtsQ0V2NERFNkY3TTJIT3V1U2k4RTZyaHB4X192Q1ZLVUhGOVREUnBmU3dYMS15dTJiQ1BXTmNQbE9laXdmV3JHTUlxa2tYRUhDd2JHR3AtRjhqTS14X1VlYmJqZDJaQVZ0T1gyNnJvaGFVbU9nMzNtQ3lUYnBBTnd3MERxNFduSnBsNlBCcURiQ042ZXl5NmFkOGdoR1RETEdtNzg5aXVLMUxYNV9ZZks5RS11UFF1NTBLZWRzcEJrUk82emp2OTI4MVE5SXpVV0hNcm5NM2hrcE5zd1pUem93d3RRRnRHc2dxWTRxMUphYXR5MVN1MXZiVkVod3hYM2ZNRUFuSy1OLUduWWJxVjUzeGl2QXRReXBhbDNFYmhDWFRPdjRTeno2djVGU1BZckltTGprSUx6TDk1QUpBLUVpUVRUSnVNWjdYVUc5aFBINGF6SDlHb3Q3dGpLRl9fakhZbHZja0ZrQ1RoZXVKY3NyU1dOMDdZWkNDa2pDSUQyam9qeXZHa1VWblB2Zjk3SGdnWlJ6SDNSZzRKZTk3eTRGWEtWclY4MWpjNGU1RXpiREhwUk5yaTVsYWEwUlFLRFRTYk15RmNaVXlGUDNrZE9ROXVmWlJ3QTBZYzlsZnFIaGROX0NGNmZYTHkxbjVjS3NWWDFWNFl3QWZ1NXlYakhRVldTcmpiVXpJeUIyMWYwN0xkNWJ0WmdreWZMaHRsbFNBTzVFcEtqRUVzOTQ?oc=5",
     "rank": 19
    },
    {
-    "headline": "122.6 مليون سائح في السعودية خلال 2025.. والإنفاق السياحي يرتفع إلى 303.7 مليار ريال - ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي",
-    "summary": "122.6 مليون سائح في السعودية خلال 2025.. والإنفاق السياحي يرتفع إلى 303.7 مليار ريال ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي",
-    "source": "ارقام : اخبار ومعلومات س",
-    "date": "02 Oct 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaZjJkTVRxQUpTbUFtTnJhNDY3V0p5aHFRRHRsQmRlZ1N1OU9VSmxvdDVZRjM3OTFtUzVfTEpiTXVsNEhIX3loZlJCSjU4RDVtblctNWlVZ3ZqdFpKaFBSQWpTbW9QUi12SGc?oc=5",
+    "headline": "الأخوة تجمع بين السعودية والإمارات - Hespress",
+    "summary": "الأخوة تجمع بين السعودية والإمارات Hespress",
+    "source": "Hespress",
+    "date": "29 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQT0VQREg1WXpEWUU5UERLVzRHNF9TMnR5QnIxZ2FmRkY3dzF1S3o1STVhRWkyMjR2WV83QjBJclBPMDVPZEZIYmZhQWJaOFJRUWxxM1NXOERtMXoyRGNmNWEzcW5QUGt6UnJCVVR2SWtSME92XzlOTFplWHBCTHN4R0VVQWJCOTBsSkQ4a0l0NWpfeTRUOUF2ZFBMYkNTbXBSS0hDLXVwLS1uZ3RUQzhIeWR3cm9mOExjNlF6VGFacVZTQlpEVVE0RHJqZGFEcDAyQVpiVGxveTVWVDdOaEcta3hIbHZZajNNb0VZNHlYSUdhYXVoUzEtWjl4SDdYV0xyVUsxdjY0WFRSTi1UVC0zYklubk94UXZaQ2tBSUwxek1pUWxXRXVxeDNaWU9GTzhwcklRWkRzUGh5b2xLZWkzSHYtS0s?oc=5",
     "rank": 20
    }
   ],
   "regional": [
+   {
+    "headline": "Pakistan, Turkey and Saudi Arabia to hold emergency talks on Houthi attacks - Middle East Eye",
+    "summary": "Pakistan, Turkey and Saudi Arabia to hold emergency talks on Houthi attacks Middle East Eye",
+    "source": "Middle East Eye",
+    "date": "02 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQklMSnB5X0RjdzBxWDBPN0RXaG4zOXlxVWY0QlBhb3dmSmRCOVhfWE5yd1dkNUR5MFdKaDJDS2F2Mk1KU2RaZVhsbW5pWnBCbU5BN016Sm1JWExneGpuc1RlMExfaHF2ZF9DeDBtUGhHbldBOEZBdDVjUEowUGkwVjN4SzEteHNtUDQtNjdwa2NPZlFIU2lITXljMmhxQVRLTVpiU1lLcHpLbWJVNHRYLURGSWZ2VU5SX3cwWG9pSlZYc28?oc=5",
+    "rank": 21
+   },
    {
     "headline": "Flydubai flight shows Israel’s changing Middle East ties, and Saudi's old limits - The Jerusalem Post",
     "summary": "Flydubai flight shows Israel’s changing Middle East ties, and Saudi's old limits The Jerusalem Post",
@@ -2764,7 +2773,7 @@
     "date": "02 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MZjhfRHRYeVFJUVp2WkxSMV8xNEprSVp3UERyTUo4QmtaTHh2cEVnMXZzY2VNa3V4ZUllVlRNYUVHVHNwTlJISnJWMHBReExlODdOY1hOUlhzMy11?oc=5",
-    "rank": 21
+    "rank": 22
    },
    {
     "headline": "Saudi Arabia Still Hasn’t Found the Answer to Its Security Problem - الحرة",
@@ -2773,52 +2782,7 @@
     "date": "01 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE55ZzdMZElwNVlrblFVNjBiaFVQMTlGMERoNU5lbXdqSzIzSnNYQTVGZWpTLWxhaEs4Mjg5R0Z0cms5dw?oc=5",
-    "rank": 22
-   },
-   {
-    "headline": "FM Motegi highlights Saudi Arabia's “pivotal role in Middle East stability - アラブニュース",
-    "summary": "FM Motegi highlights Saudi Arabia's “pivotal role in Middle East stability アラブニュース",
-    "source": "アラブニュース",
-    "date": "02 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQTdub2NwY2l0N1l5Wk1jMjhHdzRTeFN4dkRrSW4wQy1acnZCUWgwUDhEUTNndy1fc0pacl91SWY0em9lMzhfNmtFaFVFQmpsZkdlVUwyOVpWR1dlTEVGMm8xOUxVaVlXUGdLZTVzdUVTUXRVOExUeE5nSC1iOHNWeUZTZFZFZ3ZySjdmNWlBSmZ5Umx5UGZla3NtNVEyTDVnY2RyTFVyVzJObUR5WFZibDZGNA?oc=5",
     "rank": 23
-   },
-   {
-    "headline": "National Energy Services Reunited: Capturing Growth In The Middle East (NESR) - Seeking Alpha",
-    "summary": "National Energy Services Reunited: Capturing Growth In The Middle East (NESR) Seeking Alpha",
-    "source": "Seeking Alpha",
-    "date": "02 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdEFQcUtUTUdRNTVhMzdpMVVUR09UczVZZWhLOHNLa2diV3BkRGpqQl9qS2NKbWpKdFRzOVVjejROSWlPQk1fR3g1OHUyOC1EeE9LZ3BZMEtocHNhU3d6dFBBRlhWUkl5MWR4aUE0MG53SkJFdElrUk1DY09Bbnl6WFV3R1RhM2tEWWJMd05fZGZ2LWNqNlotVE5BcFN5UElhcExfN0xCZTlOOFdRSUE?oc=5",
-    "rank": 24
-   },
-   {
-    "headline": "Israel, Saudi Arabia and UAE: A new scenario for the Middle East? - Latest news from Azerbaijan",
-    "summary": "Israel, Saudi Arabia and UAE: A new scenario for the Middle East? Latest news from Azerbaijan",
-    "source": "Latest news from Azerbai",
-    "date": "02 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSnh3LTdLSnVtYUNLb2lJVEdJc0U4SGZyZ1BFUGUwRGZXaFNmanFBOW45NGhkOHo1TkEtLUdWSGRJM2ZNQkdDdnJvM3lXVURNdTh3dFpJbXByLXR4NHVUZnlua3lYdHpPRklzc0tHNXdTSndRUkItZ2ZBb1ZXOUhWeU1JZWJ5VUktUmU4?oc=5",
-    "rank": 25
-   },
-   {
-    "headline": "EU aviation agency issues Saudi airspace advisory after Houthi attacks - Reuters",
-    "summary": "EU aviation agency issues Saudi airspace advisory after Houthi attacks Reuters",
-    "source": "Reuters",
-    "date": "30 Sep 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQWJfYXZITmYzSU9mUTRTTlBVdm5fWm5IUHE0dWxwY28wR2tqbUI4eGdNTU0tRDJvR2Y4SDFLWlUxUUY4dkdEdzlOcGoyWTcyN3Z0eXc3bzRkQWlEMUZyZE80cXpnZjg0VDZvZXNsRElURDdDTDROOFNEZTAydWRpQkJiX2hfNGQ0UmU1Y2Q2NF92REtqNVExeDFEZVotNmxLZXdRUVlXRzRsTFk2UWJ5REMxZXROSnRnUXI3UHNBQnVFdw?oc=5",
-    "rank": 26
-   },
-   {
-    "headline": "Saudi-led coalition accuses Houthis of striking Medina power station - France 24",
-    "summary": "Saudi-led coalition accuses Houthis of striking Medina power station France 24",
-    "source": "France 24",
-    "date": "02 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcmIyOHM4bWtqTGdCenhBd1EwYm9hV21PbmhfWFYwX0lVZlNyYW00Q3JiNldsMEwxcDVzYmdFdEhXc0F0cmp3enEydDk2TVlzOEFuaGlaQlNhN2V1MXNHQ29YNWJmZk9wNXRfeGVIWWwtZWNEX09QUklQTEZUZUR1NVVaLTBjbTFCZ3A4V3hWNGttdjdBMWpuLWN0ajY0UDJFTHZUM3RwWm0ydw?oc=5",
-    "rank": 27
    },
    {
     "headline": "U.S. deploys another carrier to the Middle East; Putin escalates Kaliningrad threats; Mass funeral in Gaza - Drop Site News",
@@ -2827,7 +2791,61 @@
     "date": "02 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWWNjb3BhQ0luNmJpTmRLeDF3QWNiNEV3bkQ1UUg4ckZLak9KNGE1aE83ZkhBelMtclotbVBUb2sxLVFPZFlnOFJGMEtIdWRFVHNkNDN1Q1N6WWV3M2h3QXI3MzNBU1Rma0xsWDVNZ0RCY2I2cnZIN0oyVldSSjAtaFVCcnVfdDlBYUlzTEdlZ3hMdjh6NmJzdElfODlYZw?oc=5",
+    "rank": 24
+   },
+   {
+    "headline": "Saudi Arabia accuses Houthis of Medina strike - Al-Monitor",
+    "summary": "Saudi Arabia accuses Houthis of Medina strike Al-Monitor",
+    "source": "Al-Monitor",
+    "date": "02 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUTRweE5YSDQ1c2FJOW5RdHdkNWFDMHZubXZYcUZ0X0hkaVFzZC1fM2lyUnlselNMUnpkeXg3Vk5yX0puUFFPblRBaUFXSUhsajI3N0tSNUFuM2pJeHFtRFFNeExQMzgwNFBmZVBmeTlHR3o1ZEFQOWppZHpuc19DSnNqTnRHWFZHMmpOOXAzLTFjOUNrQlE?oc=5",
+    "rank": 25
+   },
+   {
+    "headline": "FM Motegi highlights Saudi Arabia's “pivotal role in Middle East stability - アラブニュース",
+    "summary": "FM Motegi highlights Saudi Arabia's “pivotal role in Middle East stability アラブニュース",
+    "source": "アラブニュース",
+    "date": "02 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQTdub2NwY2l0N1l5Wk1jMjhHdzRTeFN4dkRrSW4wQy1acnZCUWgwUDhEUTNndy1fc0pacl91SWY0em9lMzhfNmtFaFVFQmpsZkdlVUwyOVpWR1dlTEVGMm8xOUxVaVlXUGdLZTVzdUVTUXRVOExUeE5nSC1iOHNWeUZTZFZFZ3ZySjdmNWlBSmZ5Umx5UGZla3NtNVEyTDVnY2RyTFVyVzJObUR5WFZibDZGNA?oc=5",
+    "rank": 26
+   },
+   {
+    "headline": "National Energy Services Reunited: Capturing Growth In The Middle East (NESR) - Seeking Alpha",
+    "summary": "National Energy Services Reunited: Capturing Growth In The Middle East (NESR) Seeking Alpha",
+    "source": "Seeking Alpha",
+    "date": "02 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdEFQcUtUTUdRNTVhMzdpMVVUR09UczVZZWhLOHNLa2diV3BkRGpqQl9qS2NKbWpKdFRzOVVjejROSWlPQk1fR3g1OHUyOC1EeE9LZ3BZMEtocHNhU3d6dFBBRlhWUkl5MWR4aUE0MG53SkJFdElrUk1DY09Bbnl6WFV3R1RhM2tEWWJMd05fZGZ2LWNqNlotVE5BcFN5UElhcExfN0xCZTlOOFdRSUE?oc=5",
+    "rank": 27
+   },
+   {
+    "headline": "Israel, Saudi Arabia and UAE: A new scenario for the Middle East? - Latest news from Azerbaijan",
+    "summary": "Israel, Saudi Arabia and UAE: A new scenario for the Middle East? Latest news from Azerbaijan",
+    "source": "Latest news from Azerbai",
+    "date": "02 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSnh3LTdLSnVtYUNLb2lJVEdJc0U4SGZyZ1BFUGUwRGZXaFNmanFBOW45NGhkOHo1TkEtLUdWSGRJM2ZNQkdDdnJvM3lXVURNdTh3dFpJbXByLXR4NHVUZnlua3lYdHpPRklzc0tHNXdTSndRUkItZ2ZBb1ZXOUhWeU1JZWJ5VUktUmU4?oc=5",
     "rank": 28
+   },
+   {
+    "headline": "EU aviation agency issues Saudi airspace advisory after Houthi attacks - Reuters",
+    "summary": "EU aviation agency issues Saudi airspace advisory after Houthi attacks Reuters",
+    "source": "Reuters",
+    "date": "30 Sep 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQWJfYXZITmYzSU9mUTRTTlBVdm5fWm5IUHE0dWxwY28wR2tqbUI4eGdNTU0tRDJvR2Y4SDFLWlUxUUY4dkdEdzlOcGoyWTcyN3Z0eXc3bzRkQWlEMUZyZE80cXpnZjg0VDZvZXNsRElURDdDTDROOFNEZTAydWRpQkJiX2hfNGQ0UmU1Y2Q2NF92REtqNVExeDFEZVotNmxLZXdRUVlXRzRsTFk2UWJ5REMxZXROSnRnUXI3UHNBQnVFdw?oc=5",
+    "rank": 29
+   },
+   {
+    "headline": "Saudi-led coalition accuses Houthis of striking Medina power station - France 24",
+    "summary": "Saudi-led coalition accuses Houthis of striking Medina power station France 24",
+    "source": "France 24",
+    "date": "02 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcmIyOHM4bWtqTGdCenhBd1EwYm9hV21PbmhfWFYwX0lVZlNyYW00Q3JiNldsMEwxcDVzYmdFdEhXc0F0cmp3enEydDk2TVlzOEFuaGlaQlNhN2V1MXNHQ29YNWJmZk9wNXRfeGVIWWwtZWNEX09QUklQTEZUZUR1NVVaLTBjbTFCZ3A4V3hWNGttdjdBMWpuLWN0ajY0UDJFTHZUM3RwWm0ydw?oc=5",
+    "rank": 30
    },
    {
     "headline": "أيتهما أكثر قوة... السعودية أم إيران؟ - الشرق الأوسط",
@@ -2836,7 +2854,7 @@
     "date": "02 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOcG9qbXNCLUltRDdVRGhMN1g1dlg5dVoyVjNGaWJUNW0wVXp5V3FCS2ozaXFPMkpZUDkwRnMzTUJGaVZKY2FjblV1ZzZOOUpZajVjb3VwVC16MjBLN3pqVERWWUVxY0s4eS1zMGExbmpRMWl0OEhnc0FfOVNDUkZSV0pGNy1YOXljXzhxS2ZmdFk1aTM4X3NhQ0k0TU5idlpWZDBVR1lpY3pFVXFzOUx2alRyRkhocmZRbjgzWG8tcVJtajFhd2RQWUNPY2NuelJVRVAteElQektzUERPVUljRG1fQlBCc0pkWVJKSy1rUDdKeFBRYmhwbkFtaTU2dlNzaVVDVnlNcjZRdHI3eDFuRVpOT0dkZ3lhWEZldFJuWVFlMXM4Q09Za2MzQWtnYzRHcnlTcUZUWndYejY2WW43aFJfNm8yWlBlSnBnQlZ2THdYU1I1SU1YYg?oc=5",
-    "rank": 29
+    "rank": 31
    },
    {
     "headline": "الأخضر السعودي أمام قطر… لا يعرف التعثر في نصف النهائي - الشرق الأوسط",
@@ -2845,7 +2863,7 @@
     "date": "02 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMizARBVV95cUxOUW80LUFKM0R0OTZxZTRqNHdrRlVWY2tYYUtfVVJjZk9tNVctblctSWRtdW9PcHY4dDh6c21kOE5WM1plRzBqM2Q2NkZlSHMxWXRPY2d3bkUwNWdNeEk0UWw4eDdIVEJMODNNUk91T1lIOXhGZFFCUTBEY0JZZzlONmFtSjctNzB6eElfLWs1V0V3QVFRRmEtaE5rWDl0ejVsbTVrOVVjb1NTcnJGclhld1RQT0xyWm8xZWdZc1p2T3liTFVuNFg4UnJCNmFOTHRfOWNFVG5XYnROaTJyRERVWEV4NVdIVUFFUGo0ZXBOa1pYYXpzRmgzdmtYWlFXeWZ3WVU5MFZkZnVHalJMb3hiZ3lWX1BzWWhGRVhpRmxSS0kzUjZaU3ltREg3UXphbHo0bG04amlRQ3lJTnpKeTZjTlctckVraG5Jc09JbEpsdWRuVW5IaV9WcVdfZzlpT1hzUTNSYlRNY0p6VnJEdGRHb2J1dmtfcjNFMXlrVnA2a1dzVDJxaXF0TnNtYzB5REJzQ0lnczBzUjJCbGpiTTJCakRTZ0NDOGgwRHRTbElzRlNDMUlBRWZWbTlKTDRuOGpmVGh6TEFqVUpsVTlaY3VHMXdtY09DcHIzLTNNWWZpTVRMUTZWeXlBNUt6WElROXgwZEZ4M2VQdjBsVGZIYUZHOW1tZ2JRZDM5bEZVVXU5a2g4OVV1UzBOM2xrOFZCX0NYckF1YUpwUnBSUHVpVGRQSFI2OWl2bjQ5Y0hhSkJGMUQwQlVycFdpcEVmUl8?oc=5",
-    "rank": 30
+    "rank": 32
    },
    {
     "headline": "السوق السعودية تتجه لتسجيل خامس خسارة أسبوعية على التوالي - الشرق الأوسط",
@@ -2854,7 +2872,7 @@
     "date": "02 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxOUEtXQVdEaHhsemdGbWZkcmlCZmxqVDY1WWxXMUd6UW50NlY0RkZkUklmTjkwZVdxTDl0WkJac2tDR3B6NXhyMVY2REFwYU92YmtOM1ZyRThCREZlMHRWLWV1QkluVXdnWnFLZ3VoWndkXzFMLWI2Mml3NG1uTHVJUmN2c2Q5VVFVaXJsbHdPSm5GcnFKTGJLYkdXREY5dnA0emNMd3E3M2k5MkJyekREX3dZWG1KTVhRZU0tWHYyVGZLNmp3WnJ5cFpUY19FMEo0WmJ4UFIzLWh3UkQwczlNbFlxaEE2UVgwMWd1UTAxQzdhRkpKWGJNOVcwd003blktZHNZWmNEU05jcU1qRzItcGo1aGtWUzFXNEdXU2FDSlFwWmxpaE11dkdWWDNTVnRCRmU5ZVRqdFJQVEJfYUFTNm1qQmpTNHQzdlNwLWpMRngxTy1HVGZuS2RMcnI2elZUUndwZ1JxVmF4WVpyb3FZek5pNVlEbVAyTW1WaW1nREpGYThlUU1OZ3RLSnZ4Tk5ybFd5X1FtZnNWc0hXZTBBUEFjd0ZIRkhPSDh6Qk9pa1BrUVdaVG9JdFU4ZmRHeUR0OEJMbUpuc1RMODBHeDRKWDJERE51MF9GcUJGWkNPUFJFaHdTR2FrTWJ0V2F1LXc2c0ZpTERyaDlOLXRDa0dyQ0hnYlBPQ0V2b3d1M09BcHZuOWU4?oc=5",
-    "rank": 31
+    "rank": 33
    },
    {
     "headline": "دي مايو لـ«الشرق الأوسط»: قمة السعودية تدفع لشراكة خليجية - أوروبية أكثر طموحاً - الشرق الأوسط",
@@ -2863,7 +2881,7 @@
     "date": "02 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiqgVBVV95cUxNZ09JQWJ2czl3S0ZqWGJHMmlvZUFfTUZCQ29TNUFGSHNXX3Rwa1FqMm92VUliVDNlTmNkM3NTSEZNMnFDZmloeHNXdXJDYkROZXZ3eElBeHhUalZtMmpZVTlHaHNqOW5QcWhKUFZlaWk2NFBFWXFLeVAwQlRKQ2VvWDYzelh2RG9neGwyaTNQbng2VVN5WDVmVVRTbmphZ1lEczFtTW1NMlNaOV9FU1kxR19HMkFGQUItME5zcktPUkg4ckxzU0RFVWxpQkc0WnFWUVJzWVFzTUFBdlpLQVh6NUEtd2NGbDZwSHNmT1ZZdDI4OF9iWVBDM3dya3RVcnBPT0pWMlBLcnRBWmF2RlljeDhVSnFqWDRlc3QwbVI2aEt2YmxSZFZWZUlFSEd6NFFWT0NLQnpMOGZKYWFDTlhYbU9xcmtUZWZsYXE4aTc1Q1VxczMxN1dEVC1QY2JOUTRIQ0ZQTS1RcmgtOVJ0Tkd0WWNoWU5rbldfWXd6dWRuWmU0UjVNcVltWjdwOWVOdFhTQm12OHcyQk8tdHlXRlNfZlNRZ2w2Ulpnc0pLVS1DZGlVczh1bE5uc1dGTGRTd0IwUG5ueXp5VVJqT0J6Y05SSGtLbHBWVWVGY0VicVBaZTBnQ2M2TDlaX3ZQSnNfeC1sVFlCSl9FaDRTY0ZMVTF4blNoT3pIeW1QckxrVG9ZVk1HV2xCQ3BzbGIxZzctNVdIOUhWeHhiT095akthWFp0UVl3TXJLbTNhMGxBZ2NqWGk3MkZGY0hwTDBKV05qOUZ5RDhBcXYySkplZ2dmQnZod1c1b2FESlNWN3Z0dlBHOURQWVZYTTl5Q1hGSmFBTzFXVUd4R1FPYmxfOVV4MXVjbDU0NDROenZ4cDJQblJvaEkzYkRjWmVIV0V3?oc=5",
-    "rank": 32
+    "rank": 34
    },
    {
     "headline": "عبد الله بن فهد لـ«الشرق الأوسط»: قتالية فرسان السعودية قادتهم لذهب ناغويا - الشرق الأوسط",
@@ -2872,7 +2890,7 @@
     "date": "02 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMikgVBVV95cUxPaGkyVDkwU3R1UE50bE0tWjNnaDJDV1ZEQjdRR2d2SFlUOVRVcDNLMDZCWk01TGE0OTQ4bThyMjRxNndpcjRFblkxel9aRE1wNUZ5WV9MSU9Cd2VRMG5LUjFrUV93WUN0RzN1NlNFOXVUdHFWcXF0a3FKX1ZyM0NDcXI4aFZPNE5KUHdpSDFzT1BrT1JFQlpsLXB4eXh3WmREejBCbHlEcG01ajljeksyR3ptTjh3T291dEItd3VxYTZXT3NkNVMwVGw4OEdrYnFQYU4yUXlvbnZsempyeTRjeGhvcXNmY1liUE1YcVN0dDExbVpfMlNYSUpJMFZsZVFMMktLUjUtUld3UE9SWE9WRHB1ZWRmMU1meDBKZW9YUjYyTXZPMHNtaXNMb1FPbl9yZ1NVU0MzdXNlbUQ4bjVQNkdDQVM0ZVJWSWJ2R2drYkxRaEFrck5oSjFwTHlFODNMWDJEbHVTN3BzdzQzR3FkX1A3eHQxYmticktnbm1NZGlEdENkWDB4Qk8zZXF3WjF6RHE0Q2d2cGJRZXZJUkx5QnQ4cV9tRGFaNndtWWhPcmtsS0JFNlJxaGh5MnUzV0J3ejFSVlpwdkU4LTdjbjAyOWJjS1k5QWxGbktDaG9ockZDYnUxTDJtN3U5bS1FTlNTZEw5M24zb0Yxb2Zjb04yLVNmR2RHXzNHUl9ra3pHN0o5S1dUd0FTeUNOQUNUSEVxNjFWVjFCY3AtQUxkNWljNGM3QXBxR2tORWpCUWx6TzVhUE5OVjcwTjd0bzNIdGt4dWVuZWZVSThBa282LWJGVmEteG9TOFUtRUZFN3dsMGpNb1VTblJqR3ZBcy00enA4Q1dDWVpoVERVdG50T3hERnNB?oc=5",
-    "rank": 33
+    "rank": 35
    },
    {
     "headline": "صافرة «بينيرو» تضبط قمة السعودية وقطر في «خليجي 27» - الشرق الأوسط",
@@ -2881,24 +2899,6 @@
     "date": "02 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiggRBVV95cUxQdnhuYnhQbm9oZFlPLTVtcFVtd0pUVHlCN3BaX2pZNmxMNjVhemJfVklWZFk3LS15bl9TQ3JPakdsclZWQXhsNjZrYXFuVWNIdy1zVU43UkptaGFSOWVmTXBDVG1lRE5DMVZRc2w2cXM2eHR0U0ItckFsZFpRTVdIbFhLVjlYQ25xZ194b2Q4bFdIZzJwbjhSM2d1VDZ1VHd3bkZNWklwdzYyRXZWbzlZNExZd1JjYWNady1mYm5hTWhXTk5UcDVSLXdobTItREdTVXBwTVdJbWo3OW1GSGd4TFRzMlk2M0x3M0NENzQ5NmFGVHlST3ZyZGd0OTUyTVI1dzdDY1dKQnUzdy1qSWxGNzFhSGtrd0h6WXpfUlR5VTExSlgxR2hZNWpRaXFPTWpwcTVnNXVsTzdrRjBoMFJVSHA1empIRXJnWklNa3NUamdtdEdJNDNZVnMyczlFWUpuVnVTU04waWFUUEVFLXN1QjlXdlkyTG9ENXdfenp0dEl4YnZiV18zczQySUZBZ1FnMTZiMXBJNmI5V2ZWZXRYR2M3QWdiYjNXVFh1d3VKOC1tRDI2LVpZX3JicjZXNkY1ejZ0U2poZUNOZ1dYeFFpWEFlVHRNZmdzc3dVQ3Z2a2pDWEZaLTQ4bEEwUGtQTHN0Z3N1eUZmTGVvaEFmUmtCSS1R?oc=5",
-    "rank": 34
-   },
-   {
-    "headline": "«آسياد 2026»: بـ«الإخضاع»… عمر ندا يهدي السعودية ذهبية الجوجيتسو الأولى - الشرق الأوسط",
-    "summary": "«آسياد 2026»: بـ«الإخضاع»… عمر ندا يهدي السعودية ذهبية الجوجيتسو الأولى الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "02 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMikgVBVV95cUxOaFVXWVhpZ0EwenZ0ZFV0WnZ4MzVWMGV6cUgzOEZveFltX20waGlUcFR4bEZuRndVc05EMGgwTjNXUkQ1MGlhM24wS0IwXzVOeTQ5VlBoSTZyb2pSVjVCSlBQY2M3STRHMDBwV2JveWFGby1NU3JwaHMzZGZXc2ZycTlrbHk1c2d0UThidW42c1p4VlhlX181Zmk0b2ZaYkJYY21xeHBCRmRtNFJubXRud3NaUDFWeXdYOFE1XzVzLWZNZDk4b1kzS3ZuWk4ySno1SlVZOWlOQWVsR01UOWZDRDhZUDlTSkZtYUFnaGxJUkJUMDN6VlgxRG9hUnRpV2E3TF9nUFNYdDV4RG5ReUFXVGdpUnNCbHJfcHlSVHdLenQxQmsyTXFvalh2eGV1SWM3cmVwY0wxcjhQdlg1Z3djcDFBaXQ4ajQ5ZDF4TktEUHBRU2tfblZjNEJYUzhvZGxxTHAxNUNfdUxwSVRZZFNSTDE4LUZtcHFneGVUR3NsSGI2MkJuOTRSNEhXcG82ZFlNNlJVQXFiNmdyc1RmODJWLTFtME1raXRhME9LZkRRMnBlakpjaXZfc2lxWXpTbExJbVI1TUJFZldSUVFWVEdJbE42VVJFQjFwR2l3eE9FMWdlSDJQRGxmaEhEMjIxa2Nidlk4eDlDZV9FSFRQZXdTQktka2RUemJ1djdQOWxWTUgtV1hVbnZvVDljcE9Ld19DSGlnUlF2T3BVMkI1R1o5UmxkaEtZSDlkQVdLUjUtcEpBV2ZRMVQ5NWlHMTZYZ3NVTDFxWFMzWXBJOV9YWUVXRFFTWDh4NGtpWEZBcDZFVDhNRDR0ZEliWVBaZmNmTDF5TTN4Z1d4ZERHU2dDSTNVVzZR?oc=5",
-    "rank": 35
-   },
-   {
-    "headline": "«خليجي 27»: الإمارات تتصدر «الثانية» بتعادلها مع قطر… والعنابي يصطدم بالسعودية - الشرق الأوسط",
-    "summary": "«خليجي 27»: الإمارات تتصدر «الثانية» بتعادلها مع قطر… والعنابي يصطدم بالسعودية الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "02 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMihwVBVV95cUxOSjVkTFZiRjNuRjJWWnhyREkxTE1XY2JvMzdEV0N2T1AwazVjanRjOGpGOWJMeGtSbE96UFhxaEFSVXMyYTVrb2ctekdpQVdkcFdWVTV5a2JVYklEZTE3S3BmVXhfVENSaWV2NDg5WHNmOVpHdDk4cV8yTHZzNmxjVU5IZEZ6NWs4TWM1VUNzYW1rVVlGWTVEc0FLck9GbTg5YTZ6c18yd0g4SlRuNGYyS0RNUERiR242QmJXRlNwQm5Ed01JSFRVU0pKV1luUXVKRVFIRkxKNzdmUS1qSFJyQmk2SVdlMG9wVzlPa1l3WkZHOGdXeFB5MVhTeVJUZi1BeWpNSkxXQ3pEMzc1ZllZY2swbF9ObVJVcG42UnR1OWtvaWYzSnQzQkhZd2lCVVhxVUp0OVBfM2hBaldGUE83RXVoR25lWUpVcE5aa1RScU5PM0x0Z21FVXdDUFU1LXRvUkRRczd4VDVoZm5PSDMzYjVOdURmOU56SjlfMGV6U25MajhVSW1aMVoxMElOUzFqbHlWMDVkOTZ0TDBPT2stYTB5dmdCY1dMSS1tdTRCMDNZdWc5Wlp0OHFLdW5zMGVwMjNRcEVrNldTY0xaVVdndmxSTE8tRXNyaUR3enVmekVxU1dDUnhsYjRqV0lTdUsyU2VtbWpJblUzS29MYUFkM1I2bmtJM3pqS2dmVFB1UTdtRV9OdjdoT0FLc29CVUNVQW1SY3NuSEV2S0tIdENNZWE2Z2Z4S1ExbmlER01Uc2FCY0JtOGdVay1QSFZselRJNU5hNU8yWDBhYWhMckVCMFVSUFVKOUp0SlJwLUVFMVp1eUdMekhvSFYycHpfZTdYRVR5RlZfZw?oc=5",
     "rank": 36
    },
    {
@@ -2918,6 +2918,24 @@
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMi8gNBVV95cUxOcDdIVUZuRm5Geno4enl4bDBiaDBkVEk4OURvOS00R0NXbTM4ZVVld2d5V1l3V3dBdmEwcXZINVNpeFIzSEFrZHRCMl9UYnI1a0psVXZ1N00wYjktbXV2TXN3UFRhNG9SQ1dvTkthT2ZkRjNMeHlxcTJWU001R1l3RVdIazQ5cmJGVTBRdHA2aGFwTUtXMm0zOWlSckg1TVdsV0xlYTdBc293WnNiSVhfdVZ4NVZDZEhPVnQwQ1JSZFhsOTRkdk5TaUVMYllmUmpyN0ZpcFVZYl9SX2RKS0FFRGRRcVc0d0NiWkMwQmVVMEFOZnBIS01mbWRxZE9MaVZPdXZRbGFjbzRpeXV2X1dpQXRPN0dLM1RteEdhaG5OT0JmM3F5YjZhV3h0QU9FYWJBbW1teEdUclh6Q2pfR2F0b01OeG5fME0zMTVJRVBTRUFhU2x3Umx6UjVtMklmRUNzS2paM2hkSlVvNWVtNUtRMEtjZzUtV3NybnQtSUpyNW5VVXVrU1EzUDROUnZySllGRXFDeVVVT3dHa0pKdEZPb2NrY3p2WDhIRmJnMDd6SW5rZW9Vd0hOMzQ3bEtjNXQwNnY0YWx1cUlIMU9CaUp2azlEdF9mdTU2cjRKX1lTTWkteHpBbkFhdWY2NWF0Z0lyV2c?oc=5",
     "rank": 38
+   },
+   {
+    "headline": "«آسياد 2026»: بـ«الإخضاع»… عمر ندا يهدي السعودية ذهبية الجوجيتسو الأولى - الشرق الأوسط",
+    "summary": "«آسياد 2026»: بـ«الإخضاع»… عمر ندا يهدي السعودية ذهبية الجوجيتسو الأولى الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "02 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMikgVBVV95cUxOaFVXWVhpZ0EwenZ0ZFV0WnZ4MzVWMGV6cUgzOEZveFltX20waGlUcFR4bEZuRndVc05EMGgwTjNXUkQ1MGlhM24wS0IwXzVOeTQ5VlBoSTZyb2pSVjVCSlBQY2M3STRHMDBwV2JveWFGby1NU3JwaHMzZGZXc2ZycTlrbHk1c2d0UThidW42c1p4VlhlX181Zmk0b2ZaYkJYY21xeHBCRmRtNFJubXRud3NaUDFWeXdYOFE1XzVzLWZNZDk4b1kzS3ZuWk4ySno1SlVZOWlOQWVsR01UOWZDRDhZUDlTSkZtYUFnaGxJUkJUMDN6VlgxRG9hUnRpV2E3TF9nUFNYdDV4RG5ReUFXVGdpUnNCbHJfcHlSVHdLenQxQmsyTXFvalh2eGV1SWM3cmVwY0wxcjhQdlg1Z3djcDFBaXQ4ajQ5ZDF4TktEUHBRU2tfblZjNEJYUzhvZGxxTHAxNUNfdUxwSVRZZFNSTDE4LUZtcHFneGVUR3NsSGI2MkJuOTRSNEhXcG82ZFlNNlJVQXFiNmdyc1RmODJWLTFtME1raXRhME9LZkRRMnBlakpjaXZfc2lxWXpTbExJbVI1TUJFZldSUVFWVEdJbE42VVJFQjFwR2l3eE9FMWdlSDJQRGxmaEhEMjIxa2Nidlk4eDlDZV9FSFRQZXdTQktka2RUemJ1djdQOWxWTUgtV1hVbnZvVDljcE9Ld19DSGlnUlF2T3BVMkI1R1o5UmxkaEtZSDlkQVdLUjUtcEpBV2ZRMVQ5NWlHMTZYZ3NVTDFxWFMzWXBJOV9YWUVXRFFTWDh4NGtpWEZBcDZFVDhNRDR0ZEliWVBaZmNmTDF5TTN4Z1d4ZERHU2dDSTNVVzZR?oc=5",
+    "rank": 39
+   },
+   {
+    "headline": "هيمنة «خضراء» على مواجهات السعودية وقطر «خليجياً» - الشرق الأوسط",
+    "summary": "هيمنة «خضراء» على مواجهات السعودية وقطر «خليجياً» الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "02 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMijARBVV95cUxPa1FyRVdmNS1KTEw5NUd1MFI4WmVHejY2ZXFCVWhMTEdBSzFPWjJ3ZnVxdnM5VEdGMHZ1ejEyQXk0RWl3Y0dZeVIyWnhhR2oxdjF6dkg2NVpZSHVpbEJLcDNwQU1HMXR2WjZjVGE3YnVQSkk3dVZoZkVzYkx2RzFEVXU3b2FXQ0ZBME5LSmFPR05OTGdFSGp4eWllV29aTllZbHc0Z0pFVVRGYlk4LVd4UW1jYl9zMVJnLWZ2NWlJWHZ4UnhqejRFZTE1LVk5ZkxkNy1jNjZYT09Dd25VUlFuaEFaS2Mtd2hadUVUd3VnOUwtZV9KTkV4YWFWSWQ0b2pLeUsyMXhuT09KN21JSFJBY2t2eGhsa1JqSXNkSzA2TmZ2cXA3czdrc1lvazZjc0FvdHFSWHhQdXBPcm4yYzc1dFg0NG40d2NhSEowLWQ5NVp1MTQxTU1NVE9oaUhLbG1BYzFXT0hQbGJQbm1mN2Z4UndNY1U2c2lzWVlJdTk0eDUyekxhX3dnekdfb0M4UGhmaE41M3YxOXkwYXFXWWtxZC01dExKQ0tSOXRCVU1nYm5Oek4tQ1lLZGgtaEZ1TEtrVzVmSW9rd0tFekUxT09MVlFTNDRtWFdIV19OdFEzRk5SRkx0NTh1a1lhb1Y1Z2d0WjVRM2hPdVpwaUg5WUN0NE44RXBIMEQxOW1yNQ?oc=5",
+    "rank": 40
    }
   ]
  },
@@ -3203,10 +3221,10 @@
   },
   "#ساعه_استجابه": {
    "english": "#Hour_of_Response (the hour when prayers are answered)",
-   "summary": "A Friday religious hashtag referring to the \"hour of response\" — the short window on Friday when Muslims believe supplications are especially likely to be granted, and users post prayer requests and du'a for themselves, family and the deceased. It trends most Fridays, alongside the other devotional tags on this board such as \"Al-Firdaws Al-A'la\" (the highest paradise) and \"your dead rejoice at a prayer from you\".",
+   "summary": "Refers to the final hour of Friday before sunset, which Muslims believe is a time when supplications are especially likely to be answered. Saudi users post mass prayer threads and dua chains under this hashtag every Friday, which is why it trends weekly alongside other devotional phrases.",
    "kind": "religion",
    "confidence": "high",
-   "at": "2026-09-25T20:00:26.887967+03:00"
+   "at": "2026-10-02T20:00:27.352492+03:00"
   },
   "#كاس_القارات": {
    "english": "#Cup_of_the_Continents (Intercontinental / Confederations Cup)",
@@ -4944,26 +4962,12 @@
    "confidence": "high",
    "at": "2026-10-02T02:55:16.403096+03:00"
   },
-  "علي النبي": {
-   "english": "\"ala al-Nabi\" — \"upon the Prophet\"",
-   "summary": "Part of the formula \"salloo ala al-Nabi\" (\"send blessings upon the Prophet Muhammad\"), which Muslims repeat heavily on Thursday evenings and Fridays. Given the rest of the board is dominated by Madinah, the Prophet's Mosque and \"Friday night\", this is devotional posting rather than news.",
-   "kind": "religion",
-   "confidence": "high",
-   "at": "2026-10-02T05:01:05.325886+03:00"
-  },
   "اليوم الفضيل": {
    "english": "\"The blessed day\" / \"the virtuous day\"",
    "summary": "A devotional phrase for Friday (al-Jumu'ah), considered the most blessed day of the week in Islam, when Muslims attend congregational prayer and are encouraged to send blessings on the Prophet Muhammad and make supplications. It trends routinely on Fridays alongside related tags on the same board such as #يوم_الجمعة (\"Friday\"), علي النبي (\"[blessings] upon the Prophet\") and references to the Prophet's Mosque in Medina, as users post greetings, prayers and religious imagery.",
    "kind": "religion",
    "confidence": "high",
    "at": "2026-10-02T11:00:30.192985+03:00"
-  },
-  "فيصل غزاوي": {
-   "english": "Faisal Ghazawi",
-   "summary": "Sheikh Faisal Ghazawi is a long-serving imam and Friday preacher at the Grand Mosque (Masjid al-Haram) in Mecca. His name trends on Fridays when worshippers quote or react to his khutbah (sermon), which is broadcast nationally.",
-   "kind": "religion",
-   "confidence": "high",
-   "at": "2026-10-02T15:00:26.639853+03:00"
   },
   "اليوم المبارك": {
    "english": "The Blessed Day",
@@ -4992,13 +4996,6 @@
    "kind": "religion",
    "confidence": "medium",
    "at": "2026-10-02T15:41:59.451321+03:00"
-  },
-  "#يب_تاب": {
-   "english": "\"Yab Tab\" (letters only; not a meaningful Arabic phrase)",
-   "summary": "The characters do not form a recognisable Arabic word or name, and the board also contains another fragment (#وض_ال), which suggests clipped or mangled hashtag text rather than a real topic. This appears to be a viral or garbled hashtag whose subject cannot be determined from the words alone.",
-   "kind": "other",
-   "confidence": "low",
-   "at": "2026-10-02T17:00:33.638088+03:00"
   },
   "#ام_نوره_تنخاكمم_احسان": {
    "english": "\"Umm Nourah appeals to you — Ehsan\"",
@@ -5069,6 +5066,27 @@
    "kind": "religion",
    "confidence": "medium",
    "at": "2026-10-02T19:00:28.173517+03:00"
+  },
+  "#سلفه_من_الشايب_تابي_تمارا": {
+   "english": "#A_loan_from_the_old_man_Tabby_Tamara",
+   "summary": "A jokey consumer-finance hashtag pairing \"a loan from the old man\" (borrowing from an elderly relative) with Tabby and Tamara, the two big Saudi buy-now-pay-later apps. Most likely a meme or promotional/giveaway trend about how young Saudis fund purchases; the specific campaign or account behind it is not identifiable from the words alone.",
+   "kind": "business",
+   "confidence": "low",
+   "at": "2026-10-02T20:00:27.352492+03:00"
+  },
+  "علي محمد": {
+   "english": "Ali Mohammed",
+   "summary": "A very common Arabic personal name. Given that the rest of the board is a Friday prayer-chain trend, this is most plausibly a named individual being prayed for or commemorated, but the words alone do not identify which Ali Mohammed.",
+   "kind": "other",
+   "confidence": "low",
+   "at": "2026-10-02T20:00:27.352492+03:00"
+  },
+  "بنور الجنه": {
+   "english": "With the light of Paradise",
+   "summary": "A fragment of a standard Arabic supplication for the dead or for believers, asking God to fill a grave or a face with the light of Paradise. It is trending as part of the same Friday dua chain as \"hour of response\", \"gardens of bliss\" and \"the blessed day\" on the board.",
+   "kind": "religion",
+   "confidence": "high",
+   "at": "2026-10-02T20:00:27.352492+03:00"
   }
  }
 }
