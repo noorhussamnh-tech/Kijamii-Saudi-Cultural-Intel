@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Sunday, 04 October 2026 · 19:00 KSA",
+ "lastUpdated": "Sunday, 04 October 2026 · 20:00 KSA",
  "days": {
   "2026-09-21": {
    "label": "Mon 21 Sep",
@@ -2162,20 +2162,20 @@
     },
     {
      "rank": 5,
-     "text": "#معسر__٥٣عاام_منصه_احسان",
-     "cat": "General",
+     "text": "الحرس الملكي",
+     "cat": "Politics / Diplomacy",
      "pts": 7
     },
     {
      "rank": 6,
-     "text": "مازن السديري",
+     "text": "#رحله_المليون74",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 7,
-     "text": "الحرس الملكي",
-     "cat": "Politics / Diplomacy",
+     "text": "مازن السديري",
+     "cat": "General",
      "pts": 6
     },
     {
@@ -2186,73 +2186,73 @@
     },
     {
      "rank": 9,
+     "text": "ابو عابد",
+     "cat": "General",
+     "pts": 6
+    },
+    {
+     "rank": 10,
      "text": "الرييس العليمي",
      "cat": "Politics / Diplomacy",
      "pts": 6
     },
     {
-     "rank": 10,
-     "text": "كيوم القيامه",
-     "cat": "General",
-     "pts": 6
-    },
-    {
      "rank": 11,
-     "text": "#الماجستير_المهني",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 12,
-     "text": "الرييس اليمني",
-     "cat": "Politics / Diplomacy",
-     "pts": 4
-    },
-    {
-     "rank": 13,
      "text": "علي الامام",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 12,
+     "text": "تيم الابراج",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 13,
+     "text": "#قاب4",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 14,
-     "text": "النفقات التشغيليه",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 15,
-     "text": "السوق الماليه",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 16,
-     "text": "باسم الشعب",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 17,
      "text": "تحرير اليمن",
      "cat": "Politics / Diplomacy",
      "pts": 4
     },
     {
+     "rank": 15,
+     "text": "#الماجستير_المهني",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 16,
+     "text": "الرييس اليمني",
+     "cat": "Politics / Diplomacy",
+     "pts": 4
+    },
+    {
+     "rank": 17,
+     "text": "كيوم القيامه",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 18,
-     "text": "علي كامل التراب الوطني",
-     "cat": "Culture / Society",
+     "text": "القوات المسلحه اليمنيه",
+     "cat": "Politics / Diplomacy",
      "pts": 4
     },
     {
      "rank": 19,
-     "text": "رييس مجلس القياده الرياسي",
+     "text": "كيري",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "جاك الموت",
+     "text": "ابو نوح",
      "cat": "General",
      "pts": 4
     }
@@ -2267,15 +2267,15 @@
      "score": 88
     },
     {
-     "text": "#معسر__٥٣عاام_منصه_احسان",
+     "text": "#رحله_المليون74",
      "score": 76
     },
     {
-     "text": "#الماجستير_المهني",
+     "text": "#قاب4",
      "score": 64
     },
     {
-     "text": "#قاب4",
+     "text": "#الماجستير_المهني",
      "score": 52
     }
    ],
@@ -2283,22 +2283,17 @@
     {
      "icon": "📌",
      "label": "General (14)",
-     "items": "#عليهم_كيوم_القيامه · #معركه_التحرير · رشاد العليمي · #معسر__٥٣عاام_منصه_احسان · مازن السديري · فضل شاكر · كيوم القيامه · #الماجستير_المهني · علي الامام · النفقات التشغيليه"
+     "items": "#عليهم_كيوم_القيامه · #معركه_التحرير · رشاد العليمي · #رحله_المليون74 · مازن السديري · فضل شاكر · ابو عابد · علي الامام · تيم الابراج · #قاب4"
     },
     {
      "icon": "🏛️",
-     "label": "Politics / Diplomacy (4)",
-     "items": "الحرس الملكي · الرييس العليمي · الرييس اليمني · تحرير اليمن"
+     "label": "Politics / Diplomacy (5)",
+     "items": "الحرس الملكي · الرييس العليمي · تحرير اليمن · الرييس اليمني · القوات المسلحه اليمنيه"
     },
     {
      "icon": "🌊",
      "label": "Security (1)",
      "items": "العمليات العسكريه"
-    },
-    {
-     "icon": "🎭",
-     "label": "Culture / Society (1)",
-     "items": "علي كامل التراب الوطني"
     }
    ]
   }
@@ -2432,7 +2427,7 @@
   "الربع الخالي": 4,
   "قصر الاواني": 4,
   "أسامة هوساوي": 4,
-  "القوات المسلحه اليمنيه": 4,
+  "القوات المسلحه اليمنيه": 8,
   "المنتخب القطري": 8,
   "اوديغارد": 4,
   "فيجن مصنع": 4,
@@ -2545,33 +2540,32 @@
   "#عليهم_كيوم_القيامه": 14,
   "#معركه_التحرير": 12,
   "العمليات العسكريه": 10,
-  "#معسر__٥٣عاام_منصه_احسان": 7,
+  "الحرس الملكي": 7,
+  "#رحله_المليون74": 6,
   "مازن السديري": 6,
-  "الحرس الملكي": 6,
   "فضل شاكر": 6,
+  "ابو عابد": 6,
   "الرييس العليمي": 6,
-  "كيوم القيامه": 6,
+  "علي الامام": 4,
+  "تيم الابراج": 4,
+  "#قاب4": 4,
+  "تحرير اليمن": 4,
   "#الماجستير_المهني": 4,
   "الرييس اليمني": 4,
-  "علي الامام": 4,
-  "النفقات التشغيليه": 4,
-  "السوق الماليه": 4,
-  "باسم الشعب": 4,
-  "تحرير اليمن": 4,
-  "علي كامل التراب الوطني": 4,
-  "رييس مجلس القياده الرياسي": 4,
-  "جاك الموت": 4
+  "كيوم القيامه": 4,
+  "كيري": 4,
+  "ابو نوح": 4
  },
  "news": {
   "date": "04 Oct 2026",
   "domestic": [
    {
-    "headline": "EXCLUSIVE: Saudi Arabia quietly shelving NEOM Stadium, one of 2034 World Cup venues - Reuters",
-    "summary": "EXCLUSIVE: Saudi Arabia quietly shelving NEOM Stadium, one of 2034 World Cup venues Reuters",
-    "source": "Reuters",
+    "headline": "Houthis claim strike on Aramco site as Yemen fighting intensifies - Al Jazeera",
+    "summary": "Houthis claim strike on Aramco site as Yemen fighting intensifies Al Jazeera",
+    "source": "Al Jazeera",
     "date": "04 Oct 2026",
-    "tag": "sports",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ2pRTER4OGtQS01WaGYxMkVLOWVnRVNlTGFKb1ZuQjVFT296TUhVSkNsSV9BTXItRVhlQUNUZG56OC1KS3B5WUVIWVIzZG1EUEUwbkt3Tm80NEc4dVloT0RLMkVZZlQ0WlFTRGVGeW1Va2NxdThBY1hSeHM2Wkg0S0hNcjFaa0ZBVm9QMVhodGxSRHVGVjduVmliTlhQQ3VLY2xWVnNLVnlZVzlKS0J2YXVRRWZIa3hIUWc?oc=5",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONmY5RE5ILWt6MWtRZTJBS2VXVzdQdERuNHZFbk9PVHVuZFNfTVhjdm1yTWdUSTR0Q0xlNTN2eGhOUkE2WThVcXdDZ1pEcDAtQWJWWUFQbUM2RE9pbmtCa2lfM2t2RUxxVF9kUkJxd0htRjA0aXprc0NEQWZlNHVQTWpPVDdPNDVmZ25sNXFISGhaa0MxdEJzNEQxekE1ZVRoZWFkVEZsOElNR1g1amRXRFdkZm85RnPSAbwBQVVfeXFMUHdUakUzMklBc1VSRGZwMXN1X2M1NVg3b1dmUFZ5aXUtX2tmbW84UHNSckw2TlBmS1pXdmx1VE4tclZ6cGpSSFU1WTZRRmg3c3V2N3lYME1BRmUwa0RHZS1rd1BINkowa0xrMHNReUxXdmZyRzduTkN0TTlpVWV4c0p2Um5uWHRlNG14b0MwNF8zd2JTMHppaHlnN0tHMWJJTlhKMTltOE5MN0ktQVdoNGhRekg1RmhoVVBrdGM?oc=5",
     "rank": 1
    },
    {
@@ -2584,49 +2578,31 @@
     "rank": 2
    },
    {
-    "headline": "Houthis claim strike on Aramco site as Yemen fighting intensifies - aljazeera.com",
-    "summary": "Houthis claim strike on Aramco site as Yemen fighting intensifies aljazeera.com",
-    "source": "aljazeera.com",
+    "headline": "EXCLUSIVE: Saudi Arabia quietly shelving NEOM Stadium, one of 2034 World Cup venues - Reuters",
+    "summary": "EXCLUSIVE: Saudi Arabia quietly shelving NEOM Stadium, one of 2034 World Cup venues Reuters",
+    "source": "Reuters",
     "date": "04 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONmY5RE5ILWt6MWtRZTJBS2VXVzdQdERuNHZFbk9PVHVuZFNfTVhjdm1yTWdUSTR0Q0xlNTN2eGhOUkE2WThVcXdDZ1pEcDAtQWJWWUFQbUM2RE9pbmtCa2lfM2t2RUxxVF9kUkJxd0htRjA0aXprc0NEQWZlNHVQTWpPVDdPNDVmZ25sNXFISGhaa0MxdEJzNEQxekE1ZVRoZWFkVEZsOElNR1g1amRXRFdkZm85RnPSAbwBQVVfeXFMUHdUakUzMklBc1VSRGZwMXN1X2M1NVg3b1dmUFZ5aXUtX2tmbW84UHNSckw2TlBmS1pXdmx1VE4tclZ6cGpSSFU1WTZRRmg3c3V2N3lYME1BRmUwa0RHZS1rd1BINkowa0xrMHNReUxXdmZyRzduTkN0TTlpVWV4c0p2Um5uWHRlNG14b0MwNF8zd2JTMHppaHlnN0tHMWJJTlhKMTltOE5MN0ktQVdoNGhRekg1RmhoVVBrdGM?oc=5",
+    "tag": "sports",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ2pRTER4OGtQS01WaGYxMkVLOWVnRVNlTGFKb1ZuQjVFT296TUhVSkNsSV9BTXItRVhlQUNUZG56OC1KS3B5WUVIWVIzZG1EUEUwbkt3Tm80NEc4dVloT0RLMkVZZlQ0WlFTRGVGeW1Va2NxdThBY1hSeHM2Wkg0S0hNcjFaa0ZBVm9QMVhodGxSRHVGVjduVmliTlhQQ3VLY2xWVnNLVnlZVzlKS0J2YXVRRWZIa3hIUWc?oc=5",
     "rank": 3
    },
    {
-    "headline": "Yemeni and Saudi forces launch counteroffensive against the Houthis - Axios",
-    "summary": "Yemeni and Saudi forces launch counteroffensive against the Houthis Axios",
-    "source": "Axios",
-    "date": "04 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01d1lsRnBldWpXRGNLUUdiRDBkd0dGMVJ1cUJBTVY2clRnTTJ2V3VBYUZUbU5aMXEtOTh6ekVUbFNlNEpyZUFvb3QwU3BCV2lNWGp0V2RsTVBBUEp5NDg0djI1YXU4VkRYUS10YndJdXM5c3hpc0RDeA?oc=5",
-    "rank": 4
-   },
-   {
-    "headline": "Saudi Arabia vs the Houthis – when strategic patience ends - Tomorrow's Affairs",
-    "summary": "Saudi Arabia vs the Houthis – when strategic patience ends Tomorrow's Affairs",
-    "source": "Tomorrow's Affairs",
-    "date": "04 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOb205QzhHaDF3MGxTR0FJS0U5cG5FMW9nWU1ZdTNsUmcxOC0tZ0JYMHNyOUI3dFp5RjJ6Q1VMNjhmU3A2VHBVcGprM1JOU2RtSEVSTmtESGJjWGNyQXBkTVZHbGpPclFmVnotWGVVdDFHcldtMmJRN3EtQmZrcmo3SFFad2RiTFpwWkxycmln?oc=5",
-    "rank": 5
-   },
-   {
-    "headline": "Houthis claim attacks on Aramco sites in Saudi Arabia - Middle East Eye",
-    "summary": "Houthis claim attacks on Aramco sites in Saudi Arabia Middle East Eye",
-    "source": "Middle East Eye",
+    "headline": "Houthis claim attacks on Aramco sites in Saudi Arabia - middleeasteye.net",
+    "summary": "Houthis claim attacks on Aramco sites in Saudi Arabia middleeasteye.net",
+    "source": "middleeasteye.net",
     "date": "04 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbnVKRDMxUGY2T1hUN2FTX3BUTTJnc0FWU2E2UHRfbGp1M0hHVEtMbXE0Q3djMXpVYWtHRUd0MVUzN29sUXBTOTB0YlN4ekROVmhVOHZSUGZWRjJVcXFNQWVkMTdwOW9rcmg5THc5ZkpIQ1FkdmJzTFNEZF9TRDVtd0xVWlM0TUU0cTdDSHo5UDNYcU9kTTlMZC1rUWNoTG5YTm5QcjBvNA?oc=5",
-    "rank": 6
+    "rank": 4
    },
    {
-    "headline": "Fears of a wider war in Yemen as Houthis and Saudi Arabia continue to trade strikes - CNN",
-    "summary": "Fears of a wider war in Yemen as Houthis and Saudi Arabia continue to trade strikes CNN",
-    "source": "CNN",
+    "headline": "Key Biden aide Brett McGurk on Hamas, Iran, Saudi Arabia and why U.S. nearly took \"draconian measures\" against Israel - CBS News",
+    "summary": "Key Biden aide Brett McGurk on Hamas, Iran, Saudi Arabia and why U.S. nearly took \"draconian measures\" against Israel CBS News",
+    "source": "CBS News",
     "date": "04 Oct 2026",
     "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObzJGMWR0VkJNQU9pTm5GRWt4alIxdHlpSFhfQk1VM244aWliTlh5dTJ5QWxyVWpSVW11OGRhN3VndnZneUJOcVNGa0VmekxvbmN1MTd3cEk5aVJMSllfdU53WEl4SzJiOUIwd2VMQ2JneWIzekd2ckk5NXRIT3lSa0tlNFoxWU1hcnpHTlBMVnBTYlZGWmc1X0hvcmJoZWZTcjdwcncyNjZPLVV6NHptSFVZbHFzd19MME5jak1kLWxpYXht?oc=5",
-    "rank": 7
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ld3o4d2RuWGlVUG5scXB4d3AxRkVkTTdWMVUwN3VHU1Y3VVhQcmtySUtsUnVDZ1BFM25GTXY3akxCQzRSZnFxZ0I2dmw5YmxpX0xQTFplMjVxOVBXU191Yk5UZ0hIOE9tamdqZElDSTRvcEZ4cnk4YjVtTmE?oc=5",
+    "rank": 5
    },
    {
     "headline": "How Should Saudi Arabia Approach the Conflict in Northern Ethiopia? - horn review",
@@ -2635,7 +2611,7 @@
     "date": "04 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVWdJMmI1bmF1Q1VXaTNXXzBKZGRFU3ctaExyQ3ZYWnRkb19QZ3lpb3JjcUJOY0NMODd6NnNsZ09iWHZfU2ZQb3MwdjlxazZJRFB4d29TV285TXRhZDBZbVN3cGdHV2NWeU9xMnZxZGUxRG5seUlLNUdRVHg3OWVoQ2R3Ul9XdWd3RG8yYXpJZEVSa0MzVlkwemduM1VSOE1YSGc4?oc=5",
-    "rank": 8
+    "rank": 6
    },
    {
     "headline": "Houthis claim attack on Saudi oil facilities - upi.com",
@@ -2644,15 +2620,33 @@
     "date": "04 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM3I0M3RLc0pLcDZXZXRTdXBPcDV4NDVOcUFQZnRINUJRN0hYUXpOZmpnN00zdXR3cUZjV05ka1RDUFpTY1dNSmhLX1JlMWppc3VhOXBSTzJUakhIM1lWNUI0OS1LSGhQbDZFZkV1UTVhb1A1a1BDT2RvTDN5aTZDOGgxWWRaRmlzR3pXeE5HSFhLR3Zxd1lzd3pqcHpzcG80U3fSAacBQVVfeXFMT08zUzZkcDl5eXFfR3lrTDdMY0JYdGFfUF9DN1pDUlVQam52TnFqMnMzSTlqcnJiNHo5WUxUbkE2ZV9vbXlkLW92enV5RFdNX3RJOHJpZnZ4TVo0RllzV2ViSkp5dDdFS29NSEg2WkVWLVQ1dUFSSDMwNWpieFBEVEd6OWFrLTNCTVFmRTlLd0FiVmlLVExwaDlwTzZfNmRPbW5wWDhrVkU?oc=5",
+    "rank": 7
+   },
+   {
+    "headline": "Yemeni and Saudi forces launch counteroffensive against the Houthis - Axios",
+    "summary": "Yemeni and Saudi forces launch counteroffensive against the Houthis Axios",
+    "source": "Axios",
+    "date": "04 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01d1lsRnBldWpXRGNLUUdiRDBkd0dGMVJ1cUJBTVY2clRnTTJ2V3VBYUZUbU5aMXEtOTh6ekVUbFNlNEpyZUFvb3QwU3BCV2lNWGp0V2RsTVBBUEp5NDg0djI1YXU4VkRYUS10YndJdXM5c3hpc0RDeA?oc=5",
+    "rank": 8
+   },
+   {
+    "headline": "Saudi Arabia stocks higher at close of trade; Tadawul All Share up 1.09% - Investing.com",
+    "summary": "Saudi Arabia stocks higher at close of trade; Tadawul All Share up 1.09% Investing.com",
+    "source": "Investing.com",
+    "date": "04 Oct 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTjN5TGY5VUQ4RFE5TVR1QXRDZnNOdjNMS0ktb3FwdHVfT2tGdHdvWTNERFpWa2tHV3lKZ05JSTlIN0RoOUd6cHpLTGJzS0ltMFdUSk9BMFdMM0lncklDVGVRMXVuRzZVZ0cydk4xNTRSSUJtU3N5UmlUTktGemNSWUhfOEM3MlZTMlhhOVduZ01VMTM2NXJZNGdvUlBZaVhBYkU1ZnVIS3dHcnVnX21ibk5OUHRxRG5UZEhOdnZtaFhVWExH?oc=5",
     "rank": 9
    },
    {
-    "headline": "Houthis Claim Drone and Missile Attack on Saudi Aramco Facility in Riyadh - Haaretz",
-    "summary": "Houthis Claim Drone and Missile Attack on Saudi Aramco Facility in Riyadh Haaretz",
-    "source": "Haaretz",
+    "headline": "Fears of a wider war in Yemen as Houthis and Saudi Arabia continue to trade strikes - CNN",
+    "summary": "Fears of a wider war in Yemen as Houthis and Saudi Arabia continue to trade strikes CNN",
+    "source": "CNN",
     "date": "04 Oct 2026",
     "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPUWFiT3lRM1ozQVd0d2p1N0ZuQnhjcFkweE1PckV3QTV1XzFpcUVxdm01bTd3bnhhWkhCb3VjTTNEbURYNkN2TmJpeXpMRkdwSEYtMS1udy02YnFnN2xnX003RFlEdF9IUXVJNERCeXlaNlV2aTJkVm1yRWwzbkVFWFhwS2VPZlVsbGpoRnFxM2xrMkFyXy1rbU44QVRpQkp3T0dYbmlyczFGR1RlS0dpbnluazgyS1dCMUJOVFRfMTZsQUVUYjJwV1BDZ2RvVHF4Mmk1VUtkcVVydWx3OEppcVk2OWVza09NaHFhQUZ5bEdLUzM3dFd0SHJoX3NsQ3NGMTdj?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObzJGMWR0VkJNQU9pTm5GRWt4alIxdHlpSFhfQk1VM244aWliTlh5dTJ5QWxyVWpSVW11OGRhN3VndnZneUJOcVNGa0VmekxvbmN1MTd3cEk5aVJMSllfdU53WEl4SzJiOUIwd2VMQ2JneWIzekd2ckk5NXRIT3lSa0tlNFoxWU1hcnpHTlBMVnBTYlZGWmc1X0hvcmJoZWZTcjdwcncyNjZPLVV6NHptSFVZbHFzd19MME5jak1kLWxpYXht?oc=5",
     "rank": 10
    },
    {
@@ -2665,9 +2659,9 @@
     "rank": 11
    },
    {
-    "headline": "نهائي كأس الخليج العربي خليجي 27.. موعد مباراة السعودية والإمارات والقنوات الناقلة وكل ما تريد معرفته - kooora.com",
-    "summary": "نهائي كأس الخليج العربي خليجي 27.. موعد مباراة السعودية والإمارات والقنوات الناقلة وكل ما تريد معرفته kooora.com",
-    "source": "kooora.com",
+    "headline": "نهائي كأس الخليج العربي خليجي 27.. موعد مباراة السعودية والإمارات والقنوات الناقلة وكل ما تريد معرفته - Kooora",
+    "summary": "نهائي كأس الخليج العربي خليجي 27.. موعد مباراة السعودية والإمارات والقنوات الناقلة وكل ما تريد معرفته Kooora",
+    "source": "Kooora",
     "date": "03 Oct 2026",
     "tag": "sports",
     "url": "https://news.google.com/rss/articles/CBMi8AZBVV95cUxPVnJWcURETklhMUswNURPVEU0T2VRSmUtNlhDM3dLZlVvU0F4WHFnYzBHcVRQS2sxYThYZWVrWGRPR0hRdXRMM3ZESm5wNW01ZWlmZHVHZFA3LWJ6dFRYTzhhcS1LRi1GRFQ5a0NoWTQ4WVZScUdpT3IxRTBQYk5HQzhScmRkY0FycnZKWlJnYlktYmRYYWI3UWpsT3BmcmVIeEhkdmJrTmZmQktKOE0tckdpSURCTHdKUUdJNWViYVZmLTZDVXpsM0FEd1l0anJSNFg3YlNUdnV6Umk3ekhBdmNtTFFBdjBrMzMyS0c3MjVNNnZqaDRraUlMQ21wSXdUZTlkVVljaXl2c3JjYUdkME10U1piMFlMblB6b0xreHNqblhUSVl2SDJLZTBjN201X19GVFB3dXphbGNnMDgzV3pONkRPdl9MczNqcGtmVzhmN1p4YWZHZ09kN3pLUGxvVUJsbm5QQTkwbmp4VkFOaHJyZEs4bmN0a1JKbWZrMVByR05hVjQ1TTBzcWltdDFWa0dDRnNtaXFBenpqc2s3cEhnM0FERHlFUjVuWEdDS0ZKNDVkc2ZSVGV3R082U09xbE5VZUhXSlVWT2VGeWU3Ny1IOGc0ZERwaUZ3VmZhUkF0Z2lDRDI1LUlHbG5KSDZueVd5Y2F5Y3R0bi1GS0Z2Q3A3ZmIwV3NiTFBPRDc1WUd3bUJkVGctcm05NVF6MHpzRVdmZlotWXl1SzQ0WkRxTHdjSllWamNpeVlQR0dVcEFEdndHelNHVWoxX0FuNG5CWmhQMEc2cTNjQldLN1RIUzc1bFFMZGloLXVKMVpyY09GQ0p3Qy00c0xHT2ZFX3gwaWRFcXQ5MERoMklNSUVHaW5IT3puekZyZlEyeVBZTUExaHFKQ3pWVmFuYWJTME9PZzAzb2MwdDdiODgxSmFjQ3U4VGxIZ3NLX1pGcTBNLXV5RWFySTVENG0yOG8tMDZJY1AzQlY0Vjd5eUZqRWNqRGdRSVhtUTRLblQyWlhhbzg2dnFUeThDVGNFVUtRVDZBcnlFM1JFUlExRzd6Q0hRRXREV3Rac0NxbVNYdDItRGlEcnoydDV3eHdJLV9ScHlVRGxkQXdEb1diT2NfbFFvaGhtY2JfSTdDR0xmcnhJaEMxZzh0T0xKSlJhYVlXYkdt?oc=5",
@@ -2737,9 +2731,9 @@
     "rank": 19
    },
    {
-    "headline": "122.6 مليون سائح في السعودية خلال 2025.. والإنفاق السياحي يرتفع إلى 303.7 مليار ريال - argaam.com",
-    "summary": "122.6 مليون سائح في السعودية خلال 2025.. والإنفاق السياحي يرتفع إلى 303.7 مليار ريال argaam.com",
-    "source": "argaam.com",
+    "headline": "122.6 مليون سائح في السعودية خلال 2025.. والإنفاق السياحي يرتفع إلى 303.7 مليار ريال - ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي",
+    "summary": "122.6 مليون سائح في السعودية خلال 2025.. والإنفاق السياحي يرتفع إلى 303.7 مليار ريال ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي",
+    "source": "ارقام : اخبار ومعلومات س",
     "date": "04 Oct 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaZjJkTVRxQUpTbUFtTnJhNDY3V0p5aHFRRHRsQmRlZ1N1OU9VSmxvdDVZRjM3OTFtUzVfTEpiTXVsNEhIX3loZlJCSjU4RDVtblctNWlVZ3ZqdFpKaFBSQWpTbW9QUi12SGc?oc=5",
@@ -2757,21 +2751,21 @@
     "rank": 21
    },
    {
-    "headline": "The Persian Gulf Arms Race and the Changing Security Bargain - Middle East Forum",
-    "summary": "The Persian Gulf Arms Race and the Changing Security Bargain Middle East Forum",
-    "source": "Middle East Forum",
-    "date": "04 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdUE3LXotNmxIbk14WjVrYzZ5dzJQQlAwZE9CYnI5b0VTUnB0Z1FpeS1oTTZWRmZLSkFnMTFVc21jQk9YMzNIc2VpalhZckgyOFAzSmJyUndBcldWSE1sbXFJV0d2LWlLdENCZTJHbTJ5d2xRR1RkVzVyUlREdmRzVFhpeDR1MFM3UlpPMllOSzRhUmd2Z0RrSEhnUU1SZw?oc=5",
-    "rank": 22
-   },
-   {
     "headline": "Yemen’s Houthis say they attacked Aramco facility in Riyadh with missiles, drones - NBC News",
     "summary": "Yemen’s Houthis say they attacked Aramco facility in Riyadh with missiles, drones NBC News",
     "source": "NBC News",
     "date": "04 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNd1ZLOFNBcDk2c25oTk1GbDV0Q2FZd3hzOWl4cm52TzhnbC1ZblJWVzBBaTJvTE1KbjdsalM4TGNIbTNQODNlaWo3cUROVDRlSVZFQ3RBdzBWU2ZMa2s2V1hXcVIyQ2xUU19VRmlNV1c1YVd1Xzd5Q0dNeW8wRDd2YURjb1RISlE2SFQ1ZUpDZ1ZmWU1PeHc?oc=5",
+    "rank": 22
+   },
+   {
+    "headline": "The Persian Gulf Arms Race and the Changing Security Bargain - Middle East Forum",
+    "summary": "The Persian Gulf Arms Race and the Changing Security Bargain Middle East Forum",
+    "source": "Middle East Forum",
+    "date": "04 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdUE3LXotNmxIbk14WjVrYzZ5dzJQQlAwZE9CYnI5b0VTUnB0Z1FpeS1oTTZWRmZLSkFnMTFVc21jQk9YMzNIc2VpalhZckgyOFAzSmJyUndBcldWSE1sbXFJV0d2LWlLdENCZTJHbTJ5d2xRR1RkVzVyUlREdmRzVFhpeDR1MFM3UlpPMllOSzRhUmd2Z0RrSEhnUU1SZw?oc=5",
     "rank": 23
    },
    {
@@ -2784,13 +2778,22 @@
     "rank": 24
    },
    {
+    "headline": "Houthis Claim Drone and Missile Attack on Saudi Aramco Facility in Riyadh - Haaretz",
+    "summary": "Houthis Claim Drone and Missile Attack on Saudi Aramco Facility in Riyadh Haaretz",
+    "source": "Haaretz",
+    "date": "04 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPUWFiT3lRM1ozQVd0d2p1N0ZuQnhjcFkweE1PckV3QTV1XzFpcUVxdm01bTd3bnhhWkhCb3VjTTNEbURYNkN2TmJpeXpMRkdwSEYtMS1udy02YnFnN2xnX003RFlEdF9IUXVJNERCeXlaNlV2aTJkVm1yRWwzbkVFWFhwS2VPZlVsbGpoRnFxM2xrMkFyXy1rbU44QVRpQkp3T0dYbmlyczFGR1RlS0dpbnluazgyS1dCMUJOVFRfMTZsQUVUYjJwV1BDZ2RvVHF4Mmk1VUtkcVVydWx3OEppcVk2OWVza09NaHFhQUZ5bEdLUzM3dFd0SHJoX3NsQ3NGMTdj?oc=5",
+    "rank": 25
+   },
+   {
     "headline": "Scoop: U.S. sent more Patriots to protect Saudi, Qatari energy sites - Axios",
     "summary": "Scoop: U.S. sent more Patriots to protect Saudi, Qatari energy sites Axios",
     "source": "Axios",
     "date": "02 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbW9nY2JyUlRwbWlIYXMzaFJ4UElELUprckxfLU9Fa2FlREtjX2I1c3BSWl9qSS1SSGg3VU44UE9KbjlUaDNDcUQ5ZExmUG9Na3dwZjczX0xjbktrWDgxdWU0UzZIbmktNzNxa0o5TWV3cUgydGRNY2tXOVlFbnpzOU9oRQ?oc=5",
-    "rank": 25
+    "rank": 26
    },
    {
     "headline": "Rent the Coast, Don’t Pick a Side: The Horn of Africa’s Middle East Problem - Modern Diplomacy",
@@ -2799,16 +2802,16 @@
     "date": "04 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQzdaZTB6RDdockJObTBLMG1yUUZCQzVkbWQ2TEZzVjlZcFAtX01DOGt5d3VZTHlwbXhaM3BhSDdMYzBMNXpuYUJudDRSVFNSSUMwWEJfZ2JsU21BaWNfNmJ4RGV6TmhkQnp2dWh3Z1RUcjFWR0Yzek5OOUNMbmJRUkhic29uS25ZSHpZOEh3R1pRQlRucEppaUxYSmV6QlJfRGtCT1A0dw?oc=5",
-    "rank": 26
+    "rank": 27
    },
    {
-    "headline": "Houthis Claim 94 Saudi Strikes on Yemen as Smoke Rises From Aramco Refinery Near Riyadh - themedialine.org",
-    "summary": "Houthis Claim 94 Saudi Strikes on Yemen as Smoke Rises From Aramco Refinery Near Riyadh themedialine.org",
-    "source": "themedialine.org",
+    "headline": "Yemen's leader announces counter-offensive as Houthis cut off supply route to besieged city - France 24",
+    "summary": "Yemen's leader announces counter-offensive as Houthis cut off supply route to besieged city France 24",
+    "source": "France 24",
     "date": "04 Oct 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLVZEZlktb21CYktCS3E5dnFWZllzV05LaktnM3VMS192Nkpsc3BQaVItX19Xa0hWZGVsQmFFWUh3Q1psWDEyZkxoNVNrdXNqQi1Pa3BzZzFMSFpOZEJyQnlwTTBRazVxY2lCZ1A2Z3o0dTlrVGd1MEwzVkFrZ1RFMHFLRDRNc3FVakd4aGhKdTFVbDZ0a1JqVUJDblVfNmpXVm9Md1ZSblRTQ3FlRzYyeGY1TFFYR2JVVjVOMjRkb2s?oc=5",
-    "rank": 27
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOejE1SjZjaDNLeXU3Vmd1ZjZ2WUFtNU9NbTRKR2wtNWVOcWhsWk9ETkg1bThLMndNbU5EbTNadFFzRWF1QklBRXA5Y3R3WlNFdXNLMVlkR1JPNE9SYV9oeUI5RnNmVTVoQVJsaTlvQThEREVhS0hkVDVMZzNVRkc1c3F3TElMOGhTUVgyZlltMk0zdFF1czlVWUotdE9LWEwybTRqVU1kcmk2NllZbVY0QloxbW1GZTI4TlQ3VTZSOFJ1X29RdXptaDRma3pucTJSMmtIU1Fxaw?oc=5",
+    "rank": 28
    },
    {
     "headline": "القيادة السعودية تقدم 59.7 مليون دولار لدعم موازنة اليمن وصرف الرواتب - الشرق الأوسط",
@@ -2817,16 +2820,16 @@
     "date": "04 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMingVBVV95cUxQdElyaWE4SVVRTHZmM3h3R2J2YWtyZ09GTEdja0U5b0FENDVWS0ZkN2ZYa3RKUW1BRmVnRndVRDVsdjNtMUhmcm9lUFZxY0wySWNFa1RHRTR1MVVGb19ncUpPVHBWVG1ZRDNURU0yT1VKSk1fWG9WM0Q2M3FDQlotSGgxQUU1TnNFZlowNEZuUUhNOW91THk1QUY2UUZPU2lZY19ua0NlUzBtZmpIeE8zS3dkTUlmeGpMTkxXeXZvRXJIVWJTcWloWFozTDd3MkxVRTg3bVZjSHc2bGRxQkZfcVBqOGt6LVpBeWQwSjlWSWllNmRGa1FiWm5RZ2ExMmVFaUdaTXh4cG12X3hkcnRET0VUWkJVTFV1V3VsU19nTG9DSEU0emFiVHJsQ3FrOV9uTDYwbEV2TExwQmZBMEJjQmZUSjU2VWxnMnMxMXdKRnBXOURRbDk5WWFtd2h3Mnk0TEhETlFxSXM1UHpxV2JPbnBTaE5UZDZ1M25LWDVFemNQTUV3QXFzSU8xb29yaDdQODlXNHZGNDNlUVpoa1g1RHFZRVh2RjFXTU5FMkc1VDlVYnppNGg5S3FRYUZ1VTdMQloxRE1rcThyNktiQzljcEw2WHlGdW9vREt6NWVUR3hjenprZGhJS3hIbjV2dTBPY3FZNHBZVW9ZZno3cVUwZ0g4VjlCVWd6VE1CdC1zeGhRYThxT2wxWXEtczUtQ1dLTWFCRnBYU1JZODdralpTekc2RFJ5aDBOdVk0UjdZUlhjeE5uakRVUnJ1NXBQUE1rXzZDUGJXX3JIUjVMVy1NcGo5VUxlOVVBWWtERkp3Q2NmTWJpT2lGdTlUSzYwT0pCTDc3aFhRQWNfdVpnc1d4MkhibnRJRnRpU0hzTl9R?oc=5",
-    "rank": 28
+    "rank": 29
    },
    {
-    "headline": "ملحق طوارئ - الشرق الأوسط",
-    "summary": "ملحق طوارئ الشرق الأوسط",
+    "headline": "عمر ندا يسطر ليلة ذهبية لجوجيتسو السعودية في «دورة الألعاب الآسيوية» - الشرق الأوسط",
+    "summary": "عمر ندا يسطر ليلة ذهبية لجوجيتسو السعودية في «دورة الألعاب الآسيوية» الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "04 Oct 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNTBOZnhhU0w3WnNSZ0l6aV9hVjJVWHA0S2pvQ1l6U3VySlQ1MnY4elFSeWp6V1MyWWY3MWNCZW14STMzcWczX1phRDNqbmZrekdOMnFOZ1VhM2EtUnp3STE5N1laeFBQMm1OUTU3M2tLbW5hWGRJT1czZHBuNDN6dkdZMmx4aEtUQlNRNDlHMmJ5eV9pM2ItbkRyX25KWlM0MU1zbWJrMW4xdngzYU9fdDJwSQ?oc=5",
-    "rank": 29
+    "url": "https://news.google.com/rss/articles/CBMiogVBVV95cUxPWVp0em1HbDNoSEtxWHEyZlMyblcyZktwYjZZRmdYZU9CQmMxVmZRNWtrQ1l0dFpPSnVVd3FpTEEwMG4xSHIzUlpKT0oydC1ad1J1SXFHb0lNSWZlWWJScjlXakg4Z1pVU05fb1JhN0Z2b3RocHJOZmpnbkRVdGFsSlBPdlBwcjB6c0l5SF9uTDItMTFSOHdlb0JMUWpsbXh2dFF3aHBvOFFZNDh6dnNVQmhSWkFCNjJhY1BaNy1iOTdpa0xzSVNCeTJjbWdmU3UycF9WM2oyZE9meE9JbU4wMV9lNUNhQ29HTVBBQkc2eklyUzYtdzNJck92YnY4SXdxTURLYXRpbXNzbVZteHQwUXE0MGg4aTR2YUE3V0VTbk5vb3FiV0JlbUhQVXJZZTR4UWU0SmYtT3FfdHVYWjVBTzBtMlpmY3NpV0EyQjJzTDVLNHFVTnBLUjdSOUhVMHIxT3YwS0VobkNqcTdhOU5jMkk0bTBHbTFKa28xdGtxeUJYTGVTNkhBYUtWaC1WbHhnRXlaNjFsZmo1TlBlOGw2bEJCR3RTUVlUR0J1TmtyMERvTjl4SEY4SXBoVVJrMzMyZUVObzBreHFMY1JNa2tQb0JYckJ2ZG1kNFRaY29ISFljdkdQUDJJcGZVTHl0NTFKb0JqZlNkU2UzZWVzTW9RejN1NmpGUS0wakZWOEtvMThGZFZ2N1c0Q2RhMG95SEFVTmxqNnZKa1U2TV9QY045MDB0ZzJXZEVRT1Y0Y3NVNE9URzE1VXVSZjUxdGI4emFtRm1JTTkyTnN1QXZQQ0dsODd0OExjd21fOVo4d2JYT3NEeDk3Y0xjMEt1MGZrMjl1UGxQc20tVERjNzFwSHphenlRRHR3UDUwWkJQclJHUlItdw?oc=5",
+    "rank": 30
    },
    {
     "headline": "صافرة «بينيرو» تضبط قمة السعودية وقطر في «خليجي 27» - الشرق الأوسط",
@@ -2835,7 +2838,16 @@
     "date": "04 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiggRBVV95cUxQdnhuYnhQbm9oZFlPLTVtcFVtd0pUVHlCN3BaX2pZNmxMNjVhemJfVklWZFk3LS15bl9TQ3JPakdsclZWQXhsNjZrYXFuVWNIdy1zVU43UkptaGFSOWVmTXBDVG1lRE5DMVZRc2w2cXM2eHR0U0ItckFsZFpRTVdIbFhLVjlYQ25xZ194b2Q4bFdIZzJwbjhSM2d1VDZ1VHd3bkZNWklwdzYyRXZWbzlZNExZd1JjYWNady1mYm5hTWhXTk5UcDVSLXdobTItREdTVXBwTVdJbWo3OW1GSGd4TFRzMlk2M0x3M0NENzQ5NmFGVHlST3ZyZGd0OTUyTVI1dzdDY1dKQnUzdy1qSWxGNzFhSGtrd0h6WXpfUlR5VTExSlgxR2hZNWpRaXFPTWpwcTVnNXVsTzdrRjBoMFJVSHA1empIRXJnWklNa3NUamdtdEdJNDNZVnMyczlFWUpuVnVTU04waWFUUEVFLXN1QjlXdlkyTG9ENXdfenp0dEl4YnZiV18zczQySUZBZ1FnMTZiMXBJNmI5V2ZWZXRYR2M3QWdiYjNXVFh1d3VKOC1tRDI2LVpZX3JicjZXNkY1ejZ0U2poZUNOZ1dYeFFpWEFlVHRNZmdzc3dVQ3Z2a2pDWEZaLTQ4bEEwUGtQTHN0Z3N1eUZmTGVvaEFmUmtCSS1R?oc=5",
-    "rank": 30
+    "rank": 31
+   },
+   {
+    "headline": "ملحق طوارئ - الشرق الأوسط",
+    "summary": "ملحق طوارئ الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "04 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNTBOZnhhU0w3WnNSZ0l6aV9hVjJVWHA0S2pvQ1l6U3VySlQ1MnY4elFSeWp6V1MyWWY3MWNCZW14STMzcWczX1phRDNqbmZrekdOMnFOZ1VhM2EtUnp3STE5N1laeFBQMm1OUTU3M2tLbW5hWGRJT1czZHBuNDN6dkdZMmx4aEtUQlNRNDlHMmJ5eV9pM2ItbkRyX25KWlM0MU1zbWJrMW4xdngzYU9fdDJwSQ?oc=5",
+    "rank": 32
    },
    {
     "headline": "بن حريمل لـ«الشرق الأوسط»: اليوم برونزية وغداً ذهبية - الشرق الأوسط",
@@ -2844,7 +2856,7 @@
     "date": "04 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMirgRBVV95cUxPM2JrUVN6aVAxUjdwaWlkWjBQcndRZDJkRWNPQTRUTWRjSnNqaTZ2UVBjWUlnSmZhRUpTb3hUejUxNWxURldENHZHeWRodGJCUnBQczlDTWI3ajMyT3pEU1VsLVlObXhobXNrM2NpZHR3RDdUNlRJeWRIaDVHYVllWVZkVHl0OVZxM1pDcll1NnZTbks2cGJVUENKSWNUSUkwRFM2TzFZbEY0Q1JpTThXMWwyaUtZdnBDNlM5SUlCYWF3YTQ0bnBxZ3hTOFJlV3NTVTdLaU1pZE5vNmQ0MmNsNmhJNVBMV2o4OGdNdVlIRkFBNUZQWW43dlpHUlFLSmpraHo5U2ZvSUJkUmhlY0h4YS1UdWtRMzZ2NlFjYktaSExRbFJjckl1QmNLNjZXVEM0R2p1cXBPeFdGNlJiWEw1TkpqeWZuNzZzS2NYLWROM3QzajlYanZIa1kydlVlejNLdTJqcnJZVm9jclk0NWN0bFJBdWhFQ3BGTnNPOWV2dEZPT3V1YnNyd2UxZUVjaWdTT1EtSE00VHpLMTJmdVlRUDZiQkF1SEd3N05qd1AzZnBDOWZQOFFTNzdfQnFfTjgxbUxsTWJvaFRLRVlmRVJ6QmlWZTFwakRaYXVMM2k0NGotRmlyMEwwbjZlbS1BNE5IaXdLdWVyWWVwRS04WGphVTBuWENUU3RRbE1LNFJmWWdjTXNRcGg4RHZTbjFzVS1LT1RKR3c0cnFUT241SVE?oc=5",
-    "rank": 31
+    "rank": 33
    },
    {
     "headline": "الأسهم السعودية تقفز 1.4 % في أول يوم لتطبيق آلية أوامر السوق الجديدة - الشرق الأوسط",
@@ -2853,7 +2865,7 @@
     "date": "04 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiuwRBVV95cUxPOHlLcDRUaXkzVGZBTUVjeldmUHNQcFhVbnozRzdLWkxSNExpa2RhNE5zQXh3a01CcXhWcWhpaGZkUThHdUs5WlNCTmRrUWdNZzNWQnFqTkFwYm9oLVJObGZfX2lha3k3TUN5a1JoT3BOWE84Z3gzTFY2ZmNrN0J4dkNXREdoMGZRdU1WR29yTGhnTDk3QTU0Wmo5RkFNdGNaYmEtTVVBTHRtSnVCQmVZck52ckpjOVFacjRIRlZaSXowckxaclkyMGRoWFRhTmVkb0ZmWlpQdWx2dUdQNFU5MDk4Uzk2Q2laa0NidU1jYVowRFhQUm8xWmFtdG9rZGJyb2JGaUlhRG1tbElFeDJpbW5mMWVHbW5aZmVSMldtcU9sRnVJaFYyZHhqV1ZYTFNBU21iNnVSZFJzcGhfbEhlb0V6UktmQU9pcXUxLWQydUVwZWlRS1RvUE9wVGl3TzRpa0p2YkotaU9oYmJVX09wY1JuMkNfVTczN3IxZnhDckRMVmgxZG93SWcyZVRIbU45WlFKN203d1ItSVlVRHpoOW00UEU1YVNKWU9vZE9DZEZFWFhfZ2NEV3BaOUROWWhWZ2p6ODhOdnotcGNiYVhQeTRHTVZ2cjlJb2JSNWpVWHlnR2VYODkxd3h2S0JsdU1CX3VvT1I1V193cUtXLWlDSXhGenZnM2ZkbXVsSjJqdWRVb1ZrU0R0OVBtVUFES1M2b1pCMHdQd0dyZW0yOXItS3NMLWhzWUJ6Y2I0?oc=5",
-    "rank": 32
+    "rank": 34
    },
    {
     "headline": "زياد الجهني: لا يهمنا الكلام... ولن نستعجل «التتويج» - الشرق الأوسط",
@@ -2862,7 +2874,7 @@
     "date": "04 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMilgRBVV95cUxNOXNmOGVEWXF4cjZLV2tFSlVLVEE4WEx1dG5LR2Q0NmtucmRlZlRZTFFHTVFDTkQ3Q2FNSHc5dHRkRlF6dVBtT19uLVk1Znp4elR0MXZ5RC1KZHFzZ18zc3pCMXFTNzFIRTUwNXJ0azR4cWFqZTJFY2g4b196YTdVenJHVE53VndjQlhtQjZnOFNEYzZhOC1wVXZRMGRPeWRZVjI3NG5JOVpLN0o4bXdQQVd2RTFoVmkwaUptMmI0X2hXNjVPY3kzYnY0dEd2aXNOYTk4aFR0UWxuN0lYREtBZHpoOHZNbGdqeWVVTG5iNjJzdmEtNzVwTm5LX01SWWtBOFNPeFRvMDFPb0lvWHg2S1R0b0Z1cEtIYVUzaThfbzVCZFFoYkJZUWJnSWZfa2N1REJOOUpFVFRDZlEzYWRkT19OUG5PZzFkeXlRWmNmbEpyTUViNnIyelV5RU52VU9udU5CdE1xT2lWTXNyZ2l4WmFrSmNwRzQ3eWx4NktkWVR4ZE9UZDFEN3VhUEJiUm1VN09xWTI2aWJxWnJMZ1ZQRTJrV3BRbkQ1ZWtoR1haVXNMbGEzcDB5cnJ5enF4ejhtNkpzT2o0U1pGX05SWURYd1NXaHNVX3NaOUk4dXMzVlBtclZyX1VETjFadmdHR3drMGNIT2R4TndyUS1DSDZSc0NUdkMyMWx4aExKZVBsQnhnQ3hlQWc?oc=5",
-    "rank": 33
+    "rank": 35
    },
    {
     "headline": "وزير خارجية باكستان: «حلف مكة» يبحث في الرياض هجمات الحوثيين - الشرق الأوسط",
@@ -2871,25 +2883,16 @@
     "date": "04 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi4ARBVV95cUxOWU82ZTVKUzY1bGlZT3l3aDFpQmVJdElMWW40ZzMxeUtzblRuLW5ndy1QVE0wanU4LXBrMk0xcGFrY0NpVG9BR1lHaVJrNWhYS1UzUXljaU1pM2ZtY20zaWdQRVN0bmJ3cEdIVDZnT1lCdF9WY0EyWHZlTkt6UzgyM0FTTENXOXdZYmIya0hvUUNZYTk1QW5yN2VpNjRaeE1XR2ZnOU5nLXljcDlVSUhnei14ZlF0X3ZOSm92b0dPdU9LRnZRY1FsejUtNl9sb01HRFNjRDVqdGZnY0pVWGVxY2ltX2ZYbmpDOWdZeEptOE1rb3ZPaGFxZ2ZMUmNQYXRLeG8xakt5WGhYUXZWZVAxWUtMNkVpTFFiVDhmLWdjZHRTaUxpS0MyWWRyTFRYZS1NckMzTHBhV09aVlRsWWhIYjVCWUt6S0dyZ2tVVThRVV9BalVZLW9CejdXNjk0elBucWdEbW9KWXJjMFFlZFpQQXYzbGJ2dXNOc19CV3otZ2tPaUk3VEkxZEhOcDUwS09sYkltdUlLOHRkSnhGNGFGalBsVEpWY2hfQng3bmFEM2Z6aWZtNzhhZzlyaXhSNjRnclNDVGVMclpqdDhneGdsa1JZdjVLT2ZmMGFIQ29TSTYydFpOMXZHZUJBd1cxVTlGaDU0Q0xLYkNGZXZybS0wUFF5ZWlvZVZMcGZXRlV2UnZsdzdqSlBHQThNcmtZdTVBUHNPLXd6Q0FyZFlJX1g1anZaNnNPSVJHbkVrRGFtSmZ0SzdhdG1sRmFnUFpQM0t3bldsRTRPMlBsN3Y4dmZ4eg?oc=5",
-    "rank": 34
-   },
-   {
-    "headline": "السوق السعودية تغلق مرتفعة 1.09 % في أول تداول بالنظام الجديد للأوامر - الشرق الأوسط",
-    "summary": "السوق السعودية تغلق مرتفعة 1.09 % في أول تداول بالنظام الجديد للأوامر الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "04 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiuwRBVV95cUxNM1pOeThxODRVd01jZXBRV04xQVlqR2FuekV2ckl6QzdSUWtaU1hsM0w4eUNNQ2FDTzZ4UVVvbE5nUUhGNUZ2U01XTjFZQ2otdXI3RzY2Q2k2WFNvT0p5WGJvSlhWcHFYS0ZuN0J5LTIta25VVWZ6Q0lhamdUY2x2N2VTSjhDSFd1dG5lM01NVXJ5MDZsT3A4aFBDOWVSYUs2TUh1cjBwY0FIUGR3MF82SV9tZWU1U2xSaGtoVWlqWGFGYkZhRmtKNVZGVVVBOW5ESmxBWmZnUDM1QmwtcUJkWVpIaDlaOGFpd1lrNnFIaFdtT0xEbU1KUUNJdkxMMnBpT1FtMjNOT3M3b1hxX3dBdUQzckFzZVZfZ0NLN1RMSlUwR210UXlTZXpqOVBvNzRURUE1TDd5T1VKMm1HblFOMmpNRTJQSWQwaVF0aDdpajMzSDhqNVZxdmlfN1N5bVIxTGtQSjRWeFNUUXJCZGhEWTZLbm4yaUdfTG9CUHZ6aUJWdmRVS2JHc3JiUkdtWnFNZWJnSVUzVXVITzZCWlY1QjgtbDJMVWJhbV81ejRoQjVYOVpWZEV4bGlPcFdwNG8zdkJoUUh0dE13WVMxVTk5YUhvTS0wRDhQa3QxRGVSbTVuOXQxRHJhQ3N5a005QVBuVlJtWmhZTm1hNDR0TUZ3UkdsMXN1dkJKUFV1WE5SdzlscC12X1JJVlEwUDQ3UmJjUkJZb0FtTG5CZ2RKZzFZOEtoYzJjZGNFN1dj?oc=5",
-    "rank": 35
-   },
-   {
-    "headline": "المبطي لـ«الشرق الأوسط»: الحاجز الأخير حرمني ذهب ناغويا... وأطمح لميدالية أولمبية - الشرق الأوسط",
-    "summary": "المبطي لـ«الشرق الأوسط»: الحاجز الأخير حرمني ذهب ناغويا... وأطمح لميدالية أولمبية الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "04 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMisAVBVV95cUxPU2t4LWhuM1haY0xFZGNoYkVpeUlBdDRNVHNOZDNHSGpfVFAtVnI4Y3I5LTdMY0lYNHh0OTM1WHFGeGQ2XzN3S3lIOWVBcXdzemF4ZGVZR1gxaUxXM3M3RFhaQnhrT3dyYThqakRQcDNhTTVkdzE3cnlIdU1fRk5PeUFHVzR5ZFNBWWtzTVJ3dkVaak12X0hfNENXaWlKaFZ4WXBmVUFiNEpFQy1FWVljbVFoclhGZTBYVjlCVElWeV93OFZBUmg2SkN5NUpCWE5UUWZkbXdmbWsydUZJd0UxM1NiR3pMcVdFWkxJYVlwNWMzZXVnVkdyZS1MUnVtOWJySlpQZWp1U3RIM3l5eXFwR0NqVDdRRmJCRmoxNG9fZko5MmlUeDRMWGhNaUFJT3VmU29VVGFTR3pwRDB5ZmtUOWJfQTBBZHJfZmhUMlVYaFFGMkNYRU16Z1YwYlNlc1FrWXplZ3FfWVFlT0VXeC1nZWdmOTZITzZpa21uUWtvYURpcGxlY0t3Z1cwbW16ZldHeUFkSE1mcnNWMWJreVFFRmYwVlFveFpqOERTU21uWU90dkI0cGhHZUJ2YTc0RHlmRWhWaE9QMUJPR3hMcVl6MGlMSklXeDVXRVhOX3pkQ1lZQ2NZV3hxSFhweVZaeVpyU1RCRDlGZ1J0U2FIbl9wSkhaRjRsTnA5T3JLNk9iMzJIZzI3QnlZaHdQOFRqOE5Qd0EyWTFLZV9hTWJ4S2R3SDdUUjJ5VlVFUXE2M3RwSUNNekprSVh6ZjJkTkFDdVA2YllBNlFINHoteG5SZ2Q4M1RLOERwQV8zQWFaeVppZEcxaGRHVVFEb18tS2VxTW94QzVjc21kNlFOWHJjclVpR19RUXhwN0R3UEhCSWRVb3JVYzdITDd2T3IxUXlZdkUz?oc=5",
     "rank": 36
+   },
+   {
+    "headline": "التحالف: تدمير 3 صواريخ باليستية حوثية باتجاه خميس مشيط - الشرق الأوسط",
+    "summary": "التحالف: تدمير 3 صواريخ باليستية حوثية باتجاه خميس مشيط الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "04 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiyARBVV95cUxNRm1hdE8wUFhEdl9oMG9ESGxYMzIwNWdGNVFPX1A2Ry1NUnJ5QW5nVkhaZV9vT0dpZXdiMUYyZnZZYVJhQm5hT3lzcGUwOEUwb1M4cG42V2ZuWTg4MnRDdFdKQXYzX2h5TlZXbTBnZFpzaDV1V3VGWkFtN2tUalFEY3cyUFlaal90RHVPUmc4Nll2cE9oaE1zdkNqVTJPNlM1c2dGWkd3NVplTFl6bzBMVUhNQXFTdy10MkU4M2dIQ1AtYVJ2RzJWSXQwQzBRZmUwUzFnalQ4MGlMblVaU2dsVVFTY3loX2FCWDJnWkI2dDBPSm1oLW4zLTE1UHV5Wk41cV92SzJNdEVocENvY2JXMzRKX3lleDdBYnd2RHIweGNUYzkzS2lIZmpHNk02N1FoeTBVR2VNVjZXa2M3YnEzWnE2YkRBMVhrc1ZlSzl1c1k3WWZEMEdOMVd1NkcwS2x6SktRS1lMNDBhQXowZFFBS3B6VXJrOUptS2tCWU04NlFNYjBBWTJOd2ZnaGFYZk1pRk1COGx2cV9zdW9DRzVtekV2Vzl5dnBvMWlKZVBQSlBqQU5oNno0am5GVGkwYU11YWxXMHA3RUlYSng3d0YtRXo2eDlWWml6NEV2elVhUW5zU2JhYkN3cDZjSzh3QUpsMTdYMm0zdDNBcnQzZlBqOV9leFZyM1hxekFmQk1vZnp1MzItWnVCaUZMZFlxRDR6OWZFSEVXY0Jzb3ZXQlFNVFRydWU0RG1zUFJrXzdZdHVYRkpFTjc0YQ?oc=5",
+    "rank": 37
    }
   ]
  },
@@ -3000,7 +3003,7 @@
  },
  "_apify": {
   "google": "2026-10-04T16:00:27.558026+03:00",
-  "tiktok:tried": "2026-10-04T13:00:27.487570+03:00"
+  "tiktok:tried": "2026-10-04T20:00:25.402755+03:00"
  },
  "google": {
   "date": "04 Oct 2026",
@@ -4909,13 +4912,6 @@
    "confidence": "low",
    "at": "2026-10-04T18:00:30.808505+03:00"
   },
-  "#معسر__٥٣عاام_منصه_احسان": {
-   "english": "#An_insolvent_debtor_53_years_Ehsan_platform",
-   "summary": "A charity appeal hashtag about an imprisoned or distressed debtor, pointing followers to Ehsan, Saudi Arabia's official national donation platform, which runs campaigns to settle debts and free debt prisoners. Such hashtags circulate when a specific case is publicised and users crowdfund the amount.",
-   "kind": "social",
-   "confidence": "medium",
-   "at": "2026-10-04T18:00:30.808505+03:00"
-  },
   "مازن السديري": {
    "english": "Mazen Al-Sudairi",
    "summary": "A well-known Saudi equity research head and financial analyst who comments frequently on Tadawul, the Saudi stock exchange, and the wider economy. He trends when he gives a market call or TV interview that investors react to.",
@@ -4944,13 +4940,6 @@
    "confidence": "low",
    "at": "2026-10-04T18:00:30.808505+03:00"
   },
-  "السوق الماليه": {
-   "english": "The financial market / Capital Market Authority",
-   "summary": "Refers to the Saudi stock market (Tadawul) and its regulator, the Capital Market Authority. It trends on days of sharp index moves, major listings or regulatory announcements, and here sits next to analyst Mazen Al-Sudairi.",
-   "kind": "business",
-   "confidence": "medium",
-   "at": "2026-10-04T18:00:30.808505+03:00"
-  },
   "الحرس الملكي": {
    "english": "The Royal Guard",
    "summary": "The Royal Guard, the elite force responsible for protecting the Saudi king and royal family; the term is also used for similar units elsewhere in the region. It typically trends around recruitment openings, ceremonial appearances or protection duties at state events.",
@@ -4958,32 +4947,11 @@
    "confidence": "medium",
    "at": "2026-10-04T18:00:30.808505+03:00"
   },
-  "رييس مجلس القياده الرياسي": {
-   "english": "Chairman of the Presidential Leadership Council",
-   "summary": "The formal title of Rashad al-Alimi, who heads the eight-member council formed in 2022 to lead Yemen's internationally recognised government under Saudi and Emirati sponsorship. The full title trends when he issues an official address or decree.",
-   "kind": "politics",
-   "confidence": "high",
-   "at": "2026-10-04T18:00:30.808505+03:00"
-  },
   "تحرير اليمن": {
    "english": "Liberating Yemen",
    "summary": "A slogan used by supporters of Yemen's recognised government for driving the Houthis out and restoring state control. It spikes during declarations of military intent or offensives.",
    "kind": "politics",
    "confidence": "medium",
-   "at": "2026-10-04T18:00:30.808505+03:00"
-  },
-  "علي كامل التراب الوطني": {
-   "english": "\"Over the entire national soil\"",
-   "summary": "A set political phrase about restoring state sovereignty across all of a country's territory, here quoted from Yemeni official rhetoric about ending Houthi control. Quoted lines like this trend when a leader's speech is clipped and shared.",
-   "kind": "politics",
-   "confidence": "medium",
-   "at": "2026-10-04T18:00:30.808505+03:00"
-  },
-  "جاك الموت": {
-   "english": "\"Death has come to you\"",
-   "summary": "A menacing or admonitory Arabic phrase, familiar from religious exhortation and from song and poetry lines about mortality. Without more context it is unclear whether it is being quoted from a speech, a sermon or a piece of music.",
-   "kind": "other",
-   "confidence": "low",
    "at": "2026-10-04T18:00:30.808505+03:00"
   },
   "#عليهم_كيوم_القيامه": {
@@ -5000,19 +4968,47 @@
    "confidence": "medium",
    "at": "2026-10-04T19:00:26.259360+03:00"
   },
-  "النفقات التشغيليه": {
-   "english": "Operating expenses",
-   "summary": "A standard accounting and budgeting term for the day-to-day running costs of a company or government body. It trends when quarterly earnings, a state budget statement, or a cost-cutting discussion is circulating — note that \"the financial market\" (Tadawul, the Saudi stock exchange) is also on the board.",
-   "kind": "business",
-   "confidence": "medium",
-   "at": "2026-10-04T19:00:26.259360+03:00"
-  },
-  "باسم الشعب": {
-   "english": "In the name of the people",
-   "summary": "The formal opening formula used when court verdicts and official decrees are issued in several Arab states, and also a common political slogan. Given the Yemen-heavy board around it, it is most likely tied to a judicial ruling or a leadership statement issued in the people's name, though the exact occasion is not clear from the phrase.",
-   "kind": "politics",
+  "#رحله_المليون74": {
+   "english": "#Million_Journey74 (\"the journey to a million, 74\")",
+   "summary": "A numbered instalment (#74) of a recurring online campaign or giveaway series built around reaching one million — typically a follower-count milestone push, a prize draw, or a creator's episodic series on X/Snapchat. The number suffix is the signature of a serialised hashtag that is re-run and re-numbered each round, which is how it climbs the trend board.",
+   "kind": "entertainment",
    "confidence": "low",
-   "at": "2026-10-04T19:00:26.259360+03:00"
+   "at": "2026-10-04T20:00:25.402755+03:00"
+  },
+  "ابو عابد": {
+   "english": "Abu Abed (\"father of Abed\")",
+   "summary": "An Arabic kunya-style nickname. Given that today's board is dominated by Yemen (Rashad al-Alimi, \"battle of liberation,\" the Yemeni armed forces), this most likely refers to a figure being discussed in that context by his nom de guerre or popular nickname; the name is also widely known as the stock character of Lebanese joke culture, so an entertainment reading is possible.",
+   "kind": "news",
+   "confidence": "low",
+   "at": "2026-10-04T20:00:25.402755+03:00"
+  },
+  "تيم الابراج": {
+   "english": "Team Al-Abraj (\"the Towers team\" / \"the Zodiac team\")",
+   "summary": "The name of a group or squad — \"team\" is used in Gulf social media for content-creator collectives, gaming clans and gifting-battle teams on TikTok and Snapchat. \"Al-Abraj\" can mean either towers or star signs; without more context the specific team and the contest it is competing in cannot be identified.",
+   "kind": "entertainment",
+   "confidence": "low",
+   "at": "2026-10-04T20:00:25.402755+03:00"
+  },
+  "#قاب4": {
+   "english": "#Qab4",
+   "summary": "A short coded hashtag, most likely an abbreviation or programme name followed by an episode/season number (4). The letters alone do not identify the subject, and it could equally be a show, a tournament round or a campaign tag.",
+   "kind": "other",
+   "confidence": "low",
+   "at": "2026-10-04T20:00:25.402755+03:00"
+  },
+  "كيري": {
+   "english": "Kerry / Keery / Kiri",
+   "summary": "A single transliterated name with several possible owners: a foreign footballer or coach in the Saudi league, a streamer or online personality's handle, or the surname Kerry as in the American politician. Nothing in the word itself settles which, and no recent event can be confirmed.",
+   "kind": "other",
+   "confidence": "low",
+   "at": "2026-10-04T20:00:25.402755+03:00"
+  },
+  "ابو نوح": {
+   "english": "Abu Nuh (\"father of Noah\")",
+   "summary": "Another kunya-style nickname trending alongside \"Abu Abed,\" suggesting the two belong to the same conversation — either named individuals in the Yemen military and political thread that dominates the board, or personalities in an online entertainment feud. The specific person cannot be identified from the name alone.",
+   "kind": "other",
+   "confidence": "low",
+   "at": "2026-10-04T20:00:25.402755+03:00"
   }
  }
 }
