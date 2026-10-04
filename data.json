@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Sunday, 04 October 2026 · 04:00 KSA",
+ "lastUpdated": "Sunday, 04 October 2026 · 05:00 KSA",
  "days": {
   "2026-09-21": {
    "label": "Mon 21 Sep",
@@ -2138,8 +2138,8 @@
    "trends": [
     {
      "rank": 1,
-     "text": "#البنك_الرسمي_للكره_السعوديه",
-     "cat": "General",
+     "text": "#منتخبنا",
+     "cat": "Football",
      "pts": 14
     },
     {
@@ -2150,37 +2150,37 @@
     },
     {
      "rank": 3,
-     "text": "العويس",
+     "text": "#البنك_الرسمي_للكره_السعوديه",
      "cat": "General",
      "pts": 10
     },
     {
      "rank": 4,
-     "text": "#السعوديه_قطر",
+     "text": "#٢٠٣٠_بلا_نقاب4",
      "cat": "General",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "#قاب4",
+     "text": "#السعوديه_قطر",
      "cat": "General",
      "pts": 7
     },
     {
      "rank": 6,
-     "text": "#ملعب_الانماء",
+     "text": "عيال زايد",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 7,
-     "text": "معتز",
+     "text": "العويس",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 8,
-     "text": "عيال زايد",
+     "text": "معتز",
      "cat": "General",
      "pts": 6
     },
@@ -2210,7 +2210,7 @@
     },
     {
      "rank": 13,
-     "text": "الحارثي",
+     "text": "علي الفوز",
      "cat": "General",
      "pts": 4
     },
@@ -2222,44 +2222,44 @@
     },
     {
      "rank": 15,
-     "text": "علي الفوز",
+     "text": "الحارثي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 16,
-     "text": "مختار علي",
+     "text": "الكاس الغالي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 17,
-     "text": "المباراه النهاييه",
+     "text": "البرازيل",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "منتخب الامارات",
-     "cat": "Football",
+     "text": "مختار علي",
+     "cat": "General",
      "pts": 4
     },
     {
      "rank": 19,
-     "text": "الاخضر السعودي",
+     "text": "بوركينا فاسو",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "ناصر",
-     "cat": "General",
+     "text": "منتخب الامارات",
+     "cat": "Football",
      "pts": 4
     }
    ],
    "hashtags": [
     {
-     "text": "#البنك_الرسمي_للكره_السعوديه",
+     "text": "#منتخبنا",
      "score": 100
     },
     {
@@ -2267,28 +2267,28 @@
      "score": 88
     },
     {
-     "text": "#السعوديه_قطر",
+     "text": "#البنك_الرسمي_للكره_السعوديه",
      "score": 76
     },
     {
-     "text": "#قاب4",
+     "text": "#٢٠٣٠_بلا_نقاب4",
      "score": 64
     },
     {
-     "text": "#ملعب_الانماء",
+     "text": "#السعوديه_قطر",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (18)",
-     "items": "#البنك_الرسمي_للكره_السعوديه · #رحله_المليون73 · العويس · #السعوديه_قطر · #قاب4 · #ملعب_الانماء · معتز · عيال زايد · الصقور الخضر · كاس الخليج"
+     "label": "General (17)",
+     "items": "#رحله_المليون73 · #البنك_الرسمي_للكره_السعوديه · #٢٠٣٠_بلا_نقاب4 · #السعوديه_قطر · عيال زايد · العويس · معتز · الصقور الخضر · كاس الخليج · تمبكتي"
     },
     {
      "icon": "⚽",
-     "label": "Football (2)",
-     "items": "فوز المنتخب · منتخب الامارات"
+     "label": "Football (3)",
+     "items": "#منتخبنا · فوز المنتخب · منتخب الامارات"
     }
    ]
   }
@@ -2346,7 +2346,7 @@
   "قول همام": 6,
   "نواف العقيدي": 4,
   "متعب الحربي": 4,
-  "العويس": 32,
+  "العويس": 28,
   "المنتخب السعودي": 12,
   "قول سعودي": 4,
   "العطور الرجاليه": 4,
@@ -2367,7 +2367,7 @@
   "البرتغال": 8,
   "المنتخب اليمني": 10,
   "القهوه السعوديه": 4,
-  "البرازيل": 4,
+  "البرازيل": 8,
   "خالد عيسى": 4,
   "منتخب المجنسين": 4,
   "صربيا": 10,
@@ -2520,11 +2520,11 @@
   "البليهي": 4,
   "الطيار الهندي": 4,
   "الجنه اللهم": 4,
-  "#السعوديه_قطر": 20,
+  "#السعوديه_قطر": 19,
   "تمبكتي": 14,
   "مختار": 7,
   "ابو لطيفة": 6,
-  "ناصر": 10,
+  "ناصر": 6,
   "الاشواط الاضافيه": 4,
   "ابو ندي": 4,
   "هات النهايي": 4,
@@ -2532,31 +2532,31 @@
   "#كاس_خليجي_٢٧": 4,
   "الشوط الثاني": 4,
   "الشوط الاول": 4,
-  "#البنك_الرسمي_للكره_السعوديه": 14,
+  "#منتخبنا": 14,
   "#رحله_المليون73": 12,
-  "#قاب4": 7,
-  "#ملعب_الانماء": 6,
+  "#البنك_الرسمي_للكره_السعوديه": 10,
+  "#٢٠٣٠_بلا_نقاب4": 8,
   "معتز": 6,
   "الصقور الخضر": 6,
   "فوز المنتخب": 6,
   "كاس الخليج": 4,
-  "الحارثي": 4,
-  "مهدي": 4,
   "علي الفوز": 4,
+  "مهدي": 4,
+  "الحارثي": 4,
+  "الكاس الغالي": 4,
   "مختار علي": 4,
-  "المباراه النهاييه": 4,
-  "الاخضر السعودي": 4
+  "بوركينا فاسو": 4
  },
  "news": {
   "date": "04 Oct 2026",
   "domestic": [
    {
-    "headline": "Tel Aviv flight drops thousands of feet after pilot stabbed in alleged terror attack - ABC News - Breaking News, Latest News and Videos",
-    "summary": "Tel Aviv flight drops thousands of feet after pilot stabbed in alleged terror attack ABC News - Breaking News, Latest News and Videos",
-    "source": "ABC News - Breaking News",
+    "headline": "Yemen's Houthis say they attacked Aramco facility in Riyadh with missiles, drones - Reuters",
+    "summary": "Yemen's Houthis say they attacked Aramco facility in Riyadh with missiles, drones Reuters",
+    "source": "Reuters",
     "date": "03 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZkdKU25NUFppS1h1OVBib2FDRTRrbmRGUk90MU9TM01zVzZUeEFrOTZ2RGFleGxJd2JQakhYTExYRGZYSUpTUXlVWkJlTExBVUJVSjlycVpGWThMaWNBYWFGajg5QlgyRVFRWjRKMmQ3RVJvTTJ1Y3lVeVByMjlTZzMtR0RSN1RiclpVTDR0d2hzajFPOVlEOEd6SjI2U3BSa3EwcWJlMnHSAa4BQVVfeXFMUF9sbEVqZ2c0MW9lMkRJaTBOa0UtdVFMR3pyNWJoNVE1SDJVWDlYM0xDbTFNMWFHdlNldXJVVHV5OUxWU1lRcXd1RFdpVmVkUjl4dFJ6WHQ2Ynl2SjRDSVhfNG5WSks0am5XMUZFNlJWUGJnbUFDNlRlYWQteG5xLWpEdWt5MWpNS0VTX3JHc3hlOFAtQkZaS2VtX2NnRjVnZlJjNDRWOXlOamR6a2RB?oc=5",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUmVOVEVCTVdITFV4aHd1aWM4aC1lZzBQTUIxcG9zSkU0ZXJKbHVRdTRWTUVsRWVsRmZHYlI2ZW01dnp3NlQ4WEV3Wnp0YXpVV2VCQ2RmeVBQQ3BUN0E3S1ZrRkw0ODdkVVJsSnFWWVM5YWVZZExacUlwdGRrc3h1LVJkNHNWY1dZS1F2UE1aR1JHYzNkX0ktS0RIQW4zX3RJUWV4eVBqVFd6X0t1?oc=5",
     "rank": 1
    },
    {
@@ -2569,22 +2569,13 @@
     "rank": 2
    },
    {
-    "headline": "Yemen's Houthis say they attacked Aramco facility in Riyadh with missiles, drones - Reuters",
-    "summary": "Yemen's Houthis say they attacked Aramco facility in Riyadh with missiles, drones Reuters",
-    "source": "Reuters",
+    "headline": "Houthis claim missile, drone attack on Saudi Aramco in Riyadh - Anadolu Ajansı",
+    "summary": "Houthis claim missile, drone attack on Saudi Aramco in Riyadh Anadolu Ajansı",
+    "source": "Anadolu Ajansı",
     "date": "03 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUmVOVEVCTVdITFV4aHd1aWM4aC1lZzBQTUIxcG9zSkU0ZXJKbHVRdTRWTUVsRWVsRmZHYlI2ZW01dnp3NlQ4WEV3Wnp0YXpVV2VCQ2RmeVBQQ3BUN0E3S1ZrRkw0ODdkVVJsSnFWWVM5YWVZZExacUlwdGRrc3h1LVJkNHNWY1dZS1F2UE1aR1JHYzNkX0ktS0RIQW4zX3RJUWV4eVBqVFd6X0t1?oc=5",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSVpkLWVIOVJXUTVudFBMMDFGYlRIM0wyNzRqYnhldGxra0JVandSSlp4eFFpWDNkUDU1d1MyeUdta3BINFJjbnpiMG4ycjhLYVZGNkZjNHBvaTM4TkVRalh0TmRBaXdGT1FvV2xXWUx0OFhpT2NnNXYxSTFZX3BpcVVZdXFlNFI2Q1JOVVhaMmsycjhMbXhocTZTZmdSYjJKNzl6R2VBRVA?oc=5",
     "rank": 3
-   },
-   {
-    "headline": "Flames, smoke seen at Aramco facility south of Saudi capital - The New Arab",
-    "summary": "Flames, smoke seen at Aramco facility south of Saudi capital The New Arab",
-    "source": "The New Arab",
-    "date": "03 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUHFMQVRYVFRKNk05eHJib3pNNlJCYzVlT0hHcDl6dWdFNU1pVmZ0dGpDa2JYOHY3aC1DWE5XcHlMREl3TWJwaS12N3FlckF0bTFoQkdaMTVTSzdyVmRkLVBHTVdBMC1valFVWG53NktkeXhWTEd6aXg1U2FFWGdqS0VsNHR2VU9zNGc?oc=5",
-    "rank": 4
    },
    {
     "headline": "Houthis claim strike on oil facilty near Riyadh, accuse Saudi forces of pounding Yemen's capital - France 24",
@@ -2593,7 +2584,7 @@
     "date": "03 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWXFOZ19fTnRLdFoybW8zNWJ2OTAxT2xQd3poMTVzcFpvQTFMV2Q1SnhnaHhLSUY5OXBXZGN5NXlEVWVqTGZMQkVUelZQUkZORWtONUtqNFpjTlV5cTM2Vk9YbHVZZ0lQQ3BuTy1vM2dVY2xReWgxWWR1LUY1TUtRWDlfUUFoZEFkOUdybkVFQXZJZHVMalJiNm1hX3M2a2ZYOHlVc0xPV0p1RDU2YjN1M2wtSGtvY2w1?oc=5",
-    "rank": 5
+    "rank": 4
    },
    {
     "headline": "Saudi-Houthi conflict escalates with reported strikes on one another - The Jerusalem Post",
@@ -2602,7 +2593,7 @@
     "date": "03 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9nbE11TTREeDdqS1dUdHpvakdqRU9vMjhCdWdqU0VULTJKZHZvUDRHekV3X2tySVpFQW1RZTE2d0N4RExpUEk4QlFSYXFCSmlCQzNKNUxFMVJVTjA1?oc=5",
-    "rank": 6
+    "rank": 5
    },
    {
     "headline": "An exciting statistic brings good news to Saudi Arabia about destroying Qatar's net in the 27th Gulf Cup - Goal.com",
@@ -2611,7 +2602,34 @@
     "date": "03 Oct 2026",
     "tag": "sports",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVGI4MnhuX1pkRkN3MlBPMk9EY0ozS0ZpNE45dHljN3MwUnRPd0tqSTJDdTFZbVJwNVR4cDhXSkNGZ2pQWV91RF9MOVNfVlZZRlBhdUJjOUlpYUpUOVZlVHBIMkhJMjlWZ21ZQjkydkNHVThDMDVDX1R6RWJWV0ttWnViLWJBd0swam9ZWlY1RV95VXlqMnA4dG9ZSjZQX1JnX201WkdrNHM4VkNDU2txRjM2Uk4wTS1IVmdWaFZJUGhXRW95UzNTSzhBTQ?oc=5",
+    "rank": 6
+   },
+   {
+    "headline": "Houthis say Saudi Arabia launched dozens of strikes on Yemen capital - timesofisrael.com",
+    "summary": "Houthis say Saudi Arabia launched dozens of strikes on Yemen capital timesofisrael.com",
+    "source": "timesofisrael.com",
+    "date": "03 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNM00xQ1l2X2VkS01WUkg0bmJWMzFYU3hlN3lxRGhEaVFqbVg2dHhPYmhCaWRiNHlZS3NmZWlDaDhlXzZOdnlTTnRVZGhzQ05IU0ZILVZXV2pNT3VsU1A4WU1MM0NwQTZvVGxSSVUtQnNJa002cGNIclh5cnhaZUItUG9VbWptSmlWTE9DcnV1dmYwbUtrT0tpZTVBcVNIejFC0gGmAUFVX3lxTFA1b0txZUN2VnpHeU5SMnBXdXhIZFlTRHRPUlJ1RGNNbGROODJYWTB0LXpEcVZrNVNqajUwUnh5Q0tJcnJWVjZOUFlYODFLajRaZWhpMUptclFNQzJuQXNqa241Q2Z5ejQxQUIyeFB2NDQwd2dvV1BqWEZIdXhLSjVfVW04cFFxVlJzaXVHQzlabFhkOTFSdXlfb1M5TnFrS05xSDhLLXc?oc=5",
     "rank": 7
+   },
+   {
+    "headline": "Flames, smoke seen at Aramco facility south of Saudi capital - The New Arab",
+    "summary": "Flames, smoke seen at Aramco facility south of Saudi capital The New Arab",
+    "source": "The New Arab",
+    "date": "03 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUHFMQVRYVFRKNk05eHJib3pNNlJCYzVlT0hHcDl6dWdFNU1pVmZ0dGpDa2JYOHY3aC1DWE5XcHlMREl3TWJwaS12N3FlckF0bTFoQkdaMTVTSzdyVmRkLVBHTVdBMC1valFVWG53NktkeXhWTEd6aXg1U2FFWGdqS0VsNHR2VU9zNGc?oc=5",
+    "rank": 8
+   },
+   {
+    "headline": "Houthis claim attack on Aramco oil facility in Saudi Arabia - Middle East Eye",
+    "summary": "Houthis claim attack on Aramco oil facility in Saudi Arabia Middle East Eye",
+    "source": "Middle East Eye",
+    "date": "04 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUnQ2bXFKNDBsamw3cWc5Q2NZdERJRjQ4Tk9JRW9zS2hGZTNmU3FJSkZVM1B6c3VwalppNnNaOVdaZi1STnNxYm1fZHUzb0VPcFg1ZjlyZTdCNmhRV0ExeUdDWU16N25KNHo3dEJITmc5YUt6ZmhETFlCbU1vUFpoNmZfR0NRQnVURkYxVTd2eFg2RG51d3FkTkNVMFkxbUtiSWtlY0FQTnFxNWczSHlLTWU0SXc3ejdEY3NUYVNmdjNpS3VZLUZIbUFiaDBHYnJ5UjN0VmdQczdDRlhQdDAyMzU3N3RfYk1lY3p1U3k5Zw?oc=5",
+    "rank": 9
    },
    {
     "headline": "Fire Erupts Near Aramco Facility in Riyadh as Saudi-Houthi Fighting Escalates - کوردستان 24",
@@ -2620,31 +2638,13 @@
     "date": "03 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPR0lsMU40NjN2dWEwa0p0REItVTRLN0hVOUg0OTNtYlRaTlRnakt6eTBQVjhyOWxkLU5oY09QY296OHExUHA3U3dwWmxaYTBMOFJyelVJVDBsVGVrN2xkV3QzMTRyN1dvQTZQdHNwRHNhMWJNdUt3SU9qNjNOMG9LbFVyQTJIQ0FNaDNybFVqNGZTMTQwTmNFclNJTFBkeVBaQVQwOFZfTXVmRXMxZXdtZ09aUXI1NEF2dE5mVl9n?oc=5",
-    "rank": 8
-   },
-   {
-    "headline": "Saudi Arabia Planning Assault on Houthis to Break Red Sea Chokehold - Haaretz",
-    "summary": "Saudi Arabia Planning Assault on Houthis to Break Red Sea Chokehold Haaretz",
-    "source": "Haaretz",
-    "date": "03 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbUVZaFNyUEZ0WG41bnBnMUlKZ25Ya3k2V3FXY2Z2SWxGOURaSEZJUU4yUHlMUnpYcFU1V3pVV2RMcVlBRHRfSzV0dHJ0Vm1tMTRXSkZXeEV3T0RyTEtUNkZxSlc0Y2xyTVZSWmpPMV9NejlCOG5QaDFYcDRzbDMzTVRrTTV2bEZwZ2s0eXprUUZWb29DMWt0QWpNUGF1djNLM1labVlvWGtlVmpkZEE2Njl4MHFva3p6b0ZoYXh6TzBPUHNuNTVQU0tmSW01M2IzckxqQi1md2MxVS03Y2w0NjhfSllfMEZLUGROS1F5Y2J3RC1sYmJmWVA3RQ?oc=5",
-    "rank": 9
-   },
-   {
-    "headline": "Scoop: U.S. sent more Patriots to protect Saudi, Qatari energy sites - axios.com",
-    "summary": "Scoop: U.S. sent more Patriots to protect Saudi, Qatari energy sites axios.com",
-    "source": "axios.com",
-    "date": "02 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbW9nY2JyUlRwbWlIYXMzaFJ4UElELUprckxfLU9Fa2FlREtjX2I1c3BSWl9qSS1SSGg3VU44UE9KbjlUaDNDcUQ5ZExmUG9Na3dwZjczX0xjbktrWDgxdWU0UzZIbmktNzNxa0o5TWV3cUgydGRNY2tXOVlFbnpzOU9oRQ?oc=5",
     "rank": 10
    },
    {
     "headline": "السعودية... الثبات على الأسس والمرونة في الأدوات - aawsat.com",
     "summary": "السعودية... الثبات على الأسس والمرونة في الأدوات aawsat.com",
     "source": "aawsat.com",
-    "date": "03 Oct 2026",
+    "date": "04 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxNQU9zeVFfYkZGbV9YUWg4SjZBLTFPZ19mTFNWYTNuRHZ2MDFndmJETy11M3VPMVZFRXBrc1FBWnlHTFgwUXd0Y3MzTExDMGQtVUl3a1p0RnZnN1BuLUNEdTVnRkJtbVVBN3lUREYzcEZiVGZFMmhaWmdsSkJWRHhFTk1fcURtcmd1MThIa1kyQVZZMWJ3dm5iV0xoYUIzcEpnY1VMemU5MHhtMmVfTzJRMzU3SGw5VlFTX3FhQjJSUGZYaVZyb29sdEFpVHNmX1Ayelp5Yy0yZkpWTGRpb0dGNmt1aU91bmFkUjZVbkZjOFhsejhwdkJBdHNDYzVoaFNvQzlSa0ZnOGdfVDRmVFk5dGtsLXNfc3gtcWRZZW9jcmZJdDJ2ZzlkY3lsX1U3TXNDbFNTU1ZpNm5oUTN5R1hNbWx1ME1DN082VHR5Wm5IQVBJZ2tZbnlNYW5XMkNXbHFjeThxUDVYNmFKZ3pEQmN5b0RDX3UxZTk4XzRpajNRMy03c0Z1WVFRbDJUWVVpX09QTTgtRHBaanhpZ2dhbUxwTGdTMmNMV3F1VXc?oc=5",
     "rank": 11
@@ -2659,22 +2659,31 @@
     "rank": 12
    },
    {
+    "headline": "نهائي كأس الخليج العربي خليجي 27.. موعد مباراة السعودية والإمارات والقنوات الناقلة وكل ما تريد معرفته - Kooora",
+    "summary": "نهائي كأس الخليج العربي خليجي 27.. موعد مباراة السعودية والإمارات والقنوات الناقلة وكل ما تريد معرفته Kooora",
+    "source": "Kooora",
+    "date": "03 Oct 2026",
+    "tag": "sports",
+    "url": "https://news.google.com/rss/articles/CBMi8AZBVV95cUxPVnJWcURETklhMUswNURPVEU0T2VRSmUtNlhDM3dLZlVvU0F4WHFnYzBHcVRQS2sxYThYZWVrWGRPR0hRdXRMM3ZESm5wNW01ZWlmZHVHZFA3LWJ6dFRYTzhhcS1LRi1GRFQ5a0NoWTQ4WVZScUdpT3IxRTBQYk5HQzhScmRkY0FycnZKWlJnYlktYmRYYWI3UWpsT3BmcmVIeEhkdmJrTmZmQktKOE0tckdpSURCTHdKUUdJNWViYVZmLTZDVXpsM0FEd1l0anJSNFg3YlNUdnV6Umk3ekhBdmNtTFFBdjBrMzMyS0c3MjVNNnZqaDRraUlMQ21wSXdUZTlkVVljaXl2c3JjYUdkME10U1piMFlMblB6b0xreHNqblhUSVl2SDJLZTBjN201X19GVFB3dXphbGNnMDgzV3pONkRPdl9MczNqcGtmVzhmN1p4YWZHZ09kN3pLUGxvVUJsbm5QQTkwbmp4VkFOaHJyZEs4bmN0a1JKbWZrMVByR05hVjQ1TTBzcWltdDFWa0dDRnNtaXFBenpqc2s3cEhnM0FERHlFUjVuWEdDS0ZKNDVkc2ZSVGV3R082U09xbE5VZUhXSlVWT2VGeWU3Ny1IOGc0ZERwaUZ3VmZhUkF0Z2lDRDI1LUlHbG5KSDZueVd5Y2F5Y3R0bi1GS0Z2Q3A3ZmIwV3NiTFBPRDc1WUd3bUJkVGctcm05NVF6MHpzRVdmZlotWXl1SzQ0WkRxTHdjSllWamNpeVlQR0dVcEFEdndHelNHVWoxX0FuNG5CWmhQMEc2cTNjQldLN1RIUzc1bFFMZGloLXVKMVpyY09GQ0p3Qy00c0xHT2ZFX3gwaWRFcXQ5MERoMklNSUVHaW5IT3puekZyZlEyeVBZTUExaHFKQ3pWVmFuYWJTME9PZzAzb2MwdDdiODgxSmFjQ3U4VGxIZ3NLX1pGcTBNLXV5RWFySTVENG0yOG8tMDZJY1AzQlY0Vjd5eUZqRWNqRGdRSVhtUTRLblQyWlhhbzg2dnFUeThDVGNFVUtRVDZBcnlFM1JFUlExRzd6Q0hRRXREV3Rac0NxbVNYdDItRGlEcnoydDV3eHdJLV9ScHlVRGxkQXdEb1diT2NfbFFvaGhtY2JfSTdDR0xmcnhJaEMxZzh0T0xKSlJhYVlXYkdt?oc=5",
+    "rank": 13
+   },
+   {
     "headline": "مصر تدين استهداف محطة كهرباء بالمدينة المنورة في المملكة العربية السعودية - العربية",
     "summary": "مصر تدين استهداف محطة كهرباء بالمدينة المنورة في المملكة العربية السعودية العربية",
     "source": "العربية",
     "date": "01 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMi7wRBVV95cUxOY0lseTJoaUY0U2ZPVGcwZkxuWThtUnJndUxsdkdTNmQxdDhFcmZUcmpWM2hkTHI0ZlNmcTV0a0RzZF80LW9KZnZaRzdkMlUtTlFscktqRGxscEhoaHZ1UnVuZUJGa1pkazU2aU9xUXRnT3lNUTJPb2ZVRU5Nem1vTGZBRlZuc2FEeXh0R3Vpb00zNm51WGlab2RpVzJtUnNnaGt2d09wSnJvbXRrUzhORVdScWlQSmVrQ2Z5UkFldzZIZkNpSDdraDBfZm44dmduVm0tQVNnTW92aWJHVmJpRmI5bTNMdkFkNmIzZDVrQ3RBaDdSWHBsS0RxbzFNX0NBOE1wT2NCQnlTYzlVa0MxbXRQaFdteUEzWGh6TFdMVjVBYmJnY3pOdGpJV3JHcGV5VVlRS1l0RklSUnFySkIxS3lTMUpLWHcwUE8yWlNHMWNvcnIyY2xxbjBQeDZsVjZ4YUc3TC1tMVVLdW9sWXdyZ2NkeHRqQ2lCTERRdUdWaDgzaExBaFNJMy1pYXFhd0ZPeHFMN1dKcFFqZHNJalMxRzlpM1dWa0VmYTc3ZHQwUGwyalJQVzdpTzRtbFNEMnJaLXNWckdSY1BGdTdvVmJNdjEyRllxc1psWlM2alB5amJyUzBpWHYtT0ZkUm14OGFKT05rM3IwbU1lU3VWUmNtMV9TZm1TUEpMMlgxS3lEVDBybXNDZEE0MnRSSjhyQ3l4WTQyYVloN2ZaQzBRcEZta1dfVHc4M0JjS2k5TklnM1BIbDFXTUxMWF8yc01vNmNvS0JUTWZmLWxHekhrdjRmZVNVZ0EyVGxrbnJkcFZoSdIB3wRBVV95cUxQamlMNzBhTmZiVDVPUDVnUjdRVl9uazlDZm5pb1llb3E2UzZLYjUxa21SS1ZwWWl2US1BN21LbjR4SHhJNF9OVmE2Y2JSTUE4aS1DMmlJR2tkZGo3Unkya1NBekVwcTZpb0QySzlFXzZTd0czQWxnNFdFclRtRXFDTVd6WTlEbVo0d2ctWmx2SWtHTmVURzk4cEhrS2lxYkhUNTBvSEdSVnFtTUpWbUcweVBsZ05BUEk5M1FKMEVpT21lQk1rYWJGN0tuR0FadHMzX0dWdHl5TDc3TThDRjZ0dUVHY3pITEhLS0F0aEVaWGs3YUk2LUNJdW9ocHhIamtoQkJUZjF3Z28zdE8yWkZqUjE1Y2l5Ym5ncDBoNDlQSENVaUdWVkItZ0hubWxIamQ4cmdnZ0luOWdSbFpFVkJaTlg3OUprTG5ISGE4WVJsdE5tZHZsQVEzc1U0dW1saVRUZ3hmRDV6RGRPWDlVNzVhbWhqYTBaLUg0a1B1aTVGanB2UEtzNUFPU2w1eG1SZXUxbmplV2w5WjVKTXNFQUt6TjNDUjRRSWFCR0xPZ01kT1lKZ211Z1JkZThhOGwxUVM4WWJ5dDNUdHRYbDdBYlpzR0hfT1R5YVpNN2FUZGNiZWJWQUxhMnRHWGFleWY4cnJ3M1JpUlpPNHNuNDRMVUQ5WmN0RUIxMC1PR3JWNlZqUTdGemtCaXU3anFSVnNlVklDWGxZem56QXBUVGFobjFqeGxkbndlSi0zWjZsNWM3UWV1aWgzRzF2Vy10SEpvMllIWEtqYTFhY2RENl95SGFV?oc=5",
-    "rank": 13
+    "rank": 14
    },
    {
-    "headline": "ولي العهد السعودي: لن نتردد في الرد الحازم على أي تهديد والحوثيون اختاروا الفوضى - الجزيرة نت",
-    "summary": "ولي العهد السعودي: لن نتردد في الرد الحازم على أي تهديد والحوثيون اختاروا الفوضى الجزيرة نت",
-    "source": "الجزيرة نت",
+    "headline": "ولي العهد السعودي: لن نتردد في الرد الحازم على أي تهديد والحوثيون اختاروا الفوضى - aljazeera.net",
+    "summary": "ولي العهد السعودي: لن نتردد في الرد الحازم على أي تهديد والحوثيون اختاروا الفوضى aljazeera.net",
+    "source": "aljazeera.net",
     "date": "01 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxOdlAzTkQyZk9kNTU1OC1YQjFwejRMYmY4NFJnMlRoeFU3LWJ0MlpVOWU4Mk5qbks0VVJOSk4teWFwZWNMZXlCYmptcFh3d0k4QmNJekZZZXJtMmJlc1lMYnJrM2ZjQWNhN3hEOHA0dE5jUDZKZ1pvdUw2ZnhDMjM2a2NlMFNNUy1qME9fSW1hcTI2ODBsYUF6QkRZS09qa3lUam5FU0dFQk01NlhsekFZVDRlZjhCYlNuNkRhTm96TWFkekREZjQ3Q0RSejlxbHdJU01aVEtyR2xQOEo5b3g4emIyQ3FHQWhWRFBObFREVl9YQjllOWtkcjVLNlo5Y1liSHVudlhsNTJSM1pCQkpvUW4xNkdqQUg3SFRFNUJKRWE0MFlBdU9VdnlEckZXS09ON1VVbkZDUTZMd3FmR0lyalRvTFZtRXE4RjVVX2UxQkxFMzjSAdgCQVVfeXFMUHJ4eFRoUEtzckVGd3J0bzVOMDFFcUd6Szd2RklmVTNZdlU4WHpQZ2lxeEFhTS1pX0xSNWFtVDF1ZmtyNUdaTEtUTFpnSnZRRm9uWm5zZ3NBZTJTakFkNDFMUXV0QmROa3VWUllpMnZ4ZTdsQms5bjFtVms0cXYzNDBYd0pGVkZCUlZucnFnN0dwa0ZXTC10UmUzbVVJTmQ3cm55cEdZY2pqNkkySmhweng3R3MzdVlzbEpzX1RicFFqNE15ZlBmRTJBZ0pJQTBWck5pMGFzVEt1S2pERWlsc3NTenpjUjQ4djN3cFdHak1ZcUhXcE5iTTMyUmJic0hKQ2U0UTV0UW9PYk8wWkhadVVqWGxZX09SWDB4Y0wwTWI0ZnA0YmZoYjZqclN3VVJZX2FRMzktUTFWVk1Lb3U3VENIOU1vc2hMVm1iYW9SUk51YW93bVhZSzU?oc=5",
-    "rank": 14
+    "rank": 15
    },
    {
     "headline": "«النونو» لـ«عكاظ»: السعودية أبدعت في تنظيم «خليجي 27».. وجمهور اليمن «نكهة البطولة» - عكاظ",
@@ -2683,25 +2692,7 @@
     "date": "03 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKNkhIYVdYeFh5dC1qd3ZVakgzVS1fTjRrVl9WaG40RGdxeEVobElyNW5PNkYyWEV5eF9tRDhFUU5QVV9UNEk5ZDFTRHdKejRlVVHSAVRBVV95cUxOQVh5ZmtzMF9VWnNPS3pjRU9iNkZ1OVNEVjFSd1lFVHpmUmpJRWRZWjZwVHZzZHNhdTJCNUJGUjRUVWZaMUltSGV5WDlWTWd1NDJCMHM?oc=5",
-    "rank": 15
-   },
-   {
-    "headline": "بث مباشر .. شاهد مباراة المنتخب السعودي وقطر في نصف نهائي كأس الخليج العربي \"خليجي 27\" - Goal.com",
-    "summary": "بث مباشر .. شاهد مباراة المنتخب السعودي وقطر في نصف نهائي كأس الخليج العربي \"خليجي 27\" Goal.com",
-    "source": "Goal.com",
-    "date": "03 Oct 2026",
-    "tag": "sports",
-    "url": "https://news.google.com/rss/articles/CBMirgVBVV95cUxPVXZFUUQyNzlCTXdqTGlTbGJ4RUdwcHA5VlZ0d0tvNHVxejE1WE9OWk1HRTFSNmRRcTRyWDBXelRvczRkakpOblVCZjdBSDBlVUJkUTFhU0h2WVE2YjR4OUFVbnRqZnpKQ2dKOHlGckVBaEdyd1RsdFY1aU96ck0xSXVtOW1TS0hVZE9rdUtjdUZVSjA0TGxoXzhBSzdheDNYVnk5azJBYl9JYWNpQnkzYkw0TFkxX3M3bnVpcmVwdV9EWG4tV1FNcG1HUUI0R1VJRVNsYkkzaFl2dzNpX0lMMHlCRTdVYTRYZlFjWEExQ3pLZW1ha2I4OUtFYTItdVRWMTBjeUVBY0o1ODd3Z0h5bjY1clJmSG1FUDVFSGRRd0xXZWhfUnhBMzQwZE9jMzI1dlYzM1NSWC11ajhXSmgzT1psRkJtQUJzM2ZCYXM1bXZhRWprX2c3NXlMMmJjTXc5YTBYQnp1eWt0Q1hqNXdfOXpQMXhVcTc1UzZsVmF1a29kb3ZzMmhhTENheWpiQ00xUlVDbEZWLTVJcHg5cWVxalJpbVFURDNxeDEya2tKSU1OUTEyMjhWTUlwaXo0NnpNM3NlcFpvZkhvYW94czJEc1BzQXhZa2JFMVFMc3NHZVc5QnBENE4xSGxBbTRWXzdVQndLN1I4bDVSc3pWaDZTWVpVTzhJcmxmQUZ2Sy1IOVBacmg5bzltWFZyX25jRkxoNEhteHpja2xyekN1WWpGelczOHlwZ2twekxFeEFmT2NUOHRQbEVjZW9seWhuT2s4QmowcmdFNWJYYWZ6STd4S3Bibkh3Rl9IZzU3MC1JZEdtTDJkQnhhalpDdnEwVldUQ05zTmNKYXB0d2JEX2xFRDgzTDNZbldoc0NKMFR2TkpEV0hSbUsySlVIb0lHQQ?oc=5",
     "rank": 16
-   },
-   {
-    "headline": "الصومال يدين استهداف محطة لتوزيع الكهرباء في المدينة المنورة ويؤكد تضامنه مع السعودية - جريدة الشرق",
-    "summary": "الصومال يدين استهداف محطة لتوزيع الكهرباء في المدينة المنورة ويؤكد تضامنه مع السعودية جريدة الشرق",
-    "source": "جريدة الشرق",
-    "date": "03 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiqgVBVV95cUxOMGExWldJNWpzVU9NWHhLbjZWYzVwV1lPWS1JSjk4Z2RCSFZ0ZzhvdEVyVkFWNldYd2UyMXZIcHE5dnJzYVlQSU1XNzFWTUpDUzEtOGNSNHZsSE5QbmJnQ1dQSkxmTGZqQS1BeGNWWU55T0lBNFBGVUJsbG5xMk1yV09aQkYyMEVqOHZ6WkNXRkZNMVkyX21wQlRWZ054YUtYOTJTWDJRbXp1blVEU1JkbEhJVGM2U0NZTW5SMUNWNVRzckxsRUY4RmM3NGNkQ3VEMHdTbVc4MHBjSjRCd21Kb05QdmlKeDRDRElMb2FJc0FrbWR1eVJaMHBfTnhHc2ZlcEcxaVRmT2EzYzNybzh0dEVpQjJ5TUlrT3NiYmlDd3FQNzN3aUphMFIyUDgxY2lNZWM2Q2lLazkwMmdRR3Z0QUtxYjFYbzZKMWY4eVVGNFV4d1pyYWlKMmZzRHdvWWFsanh2MGw5Y2tkc05ubzlNSFF4bmtsVjdhMERQOVpZNlNrRTNNcHYyU1FiblhRTmNrbkpNUmxFWFBFdGIzMVZvVlYxOGxOYUhyZkk0akN3RDdLS2NDa1RtYXF2ZG5MQl9HamQyZDVxM0pQZmd5aFIyclQ4N2dQZ19nZEZDZ1ZhOS1mNDdLYURFLTBVUDN1SzZ0U0pfaG16SUwtUnBhMWhOTTFhV2JrZUNMeUc1blhmOHpWcTBNem9YeFBNelBwWEk0cUZKNUdOR0tLa1ZuMTlmaFNXSjVfSlVwTkNROF9FUk5yeHRrTm0wTGV6ODdnVWx6VkJxQjVnc2l0R1FTcFVTV21wZ19EN3ZMNTFkaDU0cTRGOWhxUEg3U2VMUDJQVDhxellXbkVTVEo4V2xHMkk0dWpTN3c4U1pGM2FEVzlxQURNMGQxamNpUFVn?oc=5",
-    "rank": 17
    },
    {
     "headline": "نتيجة مباراة منتخب السعودية ضد قطر اليوم في كأس الخليج 2026.. ركلات الترجيح تتسم للأخضر - المصري اليوم",
@@ -2710,7 +2701,25 @@
     "date": "03 Oct 2026",
     "tag": "sports",
     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmcVpkd3Q2YUd6aDhRbzd2WVNld2tRNmNFSGJmbFhkR0NaaWZkQjRnVEVFZVdfekZJTFJka2hCZVFEWWVnbTRJc29GdGdZZFlhTjJGUGtkMnhGQWNYSXdR?oc=5",
+    "rank": 17
+   },
+   {
+    "headline": "الصومال يدين استهداف محطة لتوزيع الكهرباء في المدينة المنورة ويؤكد تضامنه مع السعودية - جريدة الشرق",
+    "summary": "الصومال يدين استهداف محطة لتوزيع الكهرباء في المدينة المنورة ويؤكد تضامنه مع السعودية جريدة الشرق",
+    "source": "جريدة الشرق",
+    "date": "03 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiqgVBVV95cUxOMGExWldJNWpzVU9NWHhLbjZWYzVwV1lPWS1JSjk4Z2RCSFZ0ZzhvdEVyVkFWNldYd2UyMXZIcHE5dnJzYVlQSU1XNzFWTUpDUzEtOGNSNHZsSE5QbmJnQ1dQSkxmTGZqQS1BeGNWWU55T0lBNFBGVUJsbG5xMk1yV09aQkYyMEVqOHZ6WkNXRkZNMVkyX21wQlRWZ054YUtYOTJTWDJRbXp1blVEU1JkbEhJVGM2U0NZTW5SMUNWNVRzckxsRUY4RmM3NGNkQ3VEMHdTbVc4MHBjSjRCd21Kb05QdmlKeDRDRElMb2FJc0FrbWR1eVJaMHBfTnhHc2ZlcEcxaVRmT2EzYzNybzh0dEVpQjJ5TUlrT3NiYmlDd3FQNzN3aUphMFIyUDgxY2lNZWM2Q2lLazkwMmdRR3Z0QUtxYjFYbzZKMWY4eVVGNFV4d1pyYWlKMmZzRHdvWWFsanh2MGw5Y2tkc05ubzlNSFF4bmtsVjdhMERQOVpZNlNrRTNNcHYyU1FiblhRTmNrbkpNUmxFWFBFdGIzMVZvVlYxOGxOYUhyZkk0akN3RDdLS2NDa1RtYXF2ZG5MQl9HamQyZDVxM0pQZmd5aFIyclQ4N2dQZ19nZEZDZ1ZhOS1mNDdLYURFLTBVUDN1SzZ0U0pfaG16SUwtUnBhMWhOTTFhV2JrZUNMeUc1blhmOHpWcTBNem9YeFBNelBwWEk0cUZKNUdOR0tLa1ZuMTlmaFNXSjVfSlVwTkNROF9FUk5yeHRrTm0wTGV6ODdnVWx6VkJxQjVnc2l0R1FTcFVTV21wZ19EN3ZMNTFkaDU0cTRGOWhxUEg3U2VMUDJQVDhxellXbkVTVEo4V2xHMkk0dWpTN3c4U1pGM2FEVzlxQURNMGQxamNpUFVn?oc=5",
     "rank": 18
+   },
+   {
+    "headline": "بث مباشر .. شاهد مباراة المنتخب السعودي وقطر في نصف نهائي كأس الخليج العربي \"خليجي 27\" - Goal.com",
+    "summary": "بث مباشر .. شاهد مباراة المنتخب السعودي وقطر في نصف نهائي كأس الخليج العربي \"خليجي 27\" Goal.com",
+    "source": "Goal.com",
+    "date": "03 Oct 2026",
+    "tag": "sports",
+    "url": "https://news.google.com/rss/articles/CBMirgVBVV95cUxPVXZFUUQyNzlCTXdqTGlTbGJ4RUdwcHA5VlZ0d0tvNHVxejE1WE9OWk1HRTFSNmRRcTRyWDBXelRvczRkakpOblVCZjdBSDBlVUJkUTFhU0h2WVE2YjR4OUFVbnRqZnpKQ2dKOHlGckVBaEdyd1RsdFY1aU96ck0xSXVtOW1TS0hVZE9rdUtjdUZVSjA0TGxoXzhBSzdheDNYVnk5azJBYl9JYWNpQnkzYkw0TFkxX3M3bnVpcmVwdV9EWG4tV1FNcG1HUUI0R1VJRVNsYkkzaFl2dzNpX0lMMHlCRTdVYTRYZlFjWEExQ3pLZW1ha2I4OUtFYTItdVRWMTBjeUVBY0o1ODd3Z0h5bjY1clJmSG1FUDVFSGRRd0xXZWhfUnhBMzQwZE9jMzI1dlYzM1NSWC11ajhXSmgzT1psRkJtQUJzM2ZCYXM1bXZhRWprX2c3NXlMMmJjTXc5YTBYQnp1eWt0Q1hqNXdfOXpQMXhVcTc1UzZsVmF1a29kb3ZzMmhhTENheWpiQ00xUlVDbEZWLTVJcHg5cWVxalJpbVFURDNxeDEya2tKSU1OUTEyMjhWTUlwaXo0NnpNM3NlcFpvZkhvYW94czJEc1BzQXhZa2JFMVFMc3NHZVc5QnBENE4xSGxBbTRWXzdVQndLN1I4bDVSc3pWaDZTWVpVTzhJcmxmQUZ2Sy1IOVBacmg5bzltWFZyX25jRkxoNEhteHpja2xyekN1WWpGelczOHlwZ2twekxFeEFmT2NUOHRQbEVjZW9seWhuT2s4QmowcmdFNWJYYWZ6STd4S3Bibkh3Rl9IZzU3MC1JZEdtTDJkQnhhalpDdnEwVldUQ05zTmNKYXB0d2JEX2xFRDgzTDNZbldoc0NKMFR2TkpEV0hSbUsySlVIb0lHQQ?oc=5",
+    "rank": 19
    },
    {
     "headline": "\"إنفيديا\" تستعين باللهجات السعودية للتعرف على الكلام بالذكاء الاصطناعي.. إليكم التفاصيل - مجلة سيدتي",
@@ -2719,15 +2728,6 @@
     "date": "03 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMizARBVV95cUxPVnEta3o2bDZZaXRka1NtRlhJNWhrZHpUamtXdjNuNDF3eXIwaU1LaDlOZDNDbWg1OFM3S0Y0MTlzWk5oRGFfWmc4c2E5ZEpCbk9GZ2x0UDY5WXhnRm1CODJQc2kzX2xQRXVlcmVnRnhJSVFNaEUtWFo1ZDVRYVpNWnQwOVBfZHM4QTBQWUpXNjR2bGhMUVVmeUZNRTI2akp5djFLNktZdnRuSnA5dHBUU2tNb0xSUWwwTmx5NlhOeGJ5V3JXczZsNF9DR0FHaHVqVlNDdVF4eVJaMHFUVkhRdVZOUXNtaWozam9nQXBYbGtud2ZKc1hlYUhpUktSQU8xcE00amEwVUtrZ09QTXo1akVnT1JwWERodDF3cC01TWRxNmp0VEJmSFN2aV9DeEl6V3RXb29ibnZrcXhYTjZRRUszMmJhclFDVkI0b3FkT0syQkZ6WmZoSmZ4UW1tby1YQ2ZPeEdKX281c0JKT1Q1bkFpNXBiUTduLTRZRHBGTVdoaTFCelAzUkFQSlBZal9lTE1zbDFCejctbFRkWEw0LUc2NlR1TzdEelV3ZHUyWndDV0RwOHluSUVEYTZUU1k0b1QycVFGQ1FMM3FfYWtiOFI3eDFoODBLOWVHNk5pRTREcXpPdDFIWE9yRHhGR1d4UV9lMTBtNVBLU1I2ZEEzQUp4M05aSTBEcnNoUGJRbExNMXA4UXpfcHNzZ1RLU2xTMldkRi1MYzRPbzJWcUcwSkZtS042WU1qM2FfbUtlQjBkbU05VUlJSFhhM3g?oc=5",
-    "rank": 19
-   },
-   {
-    "headline": "مصر تدين استهداف محطة كهرباء بالمدينة المنورة في السعودية - اليوم السابع",
-    "summary": "مصر تدين استهداف محطة كهرباء بالمدينة المنورة في السعودية اليوم السابع",
-    "source": "اليوم السابع",
-    "date": "01 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxOeXRDYzF1dm5tTXYzZHA5S2QyMms4b3RLbWFINGZsMk5RYmxxU1B3TXVUVy1WNmV1Zjc0Tm9KQ2lrTEFCUlZaRGJOZV85SHNzMGtHZ3ZaeTRUWFBlNWN4RG91WHdUemFmUG5kendCajVnWUxoblZobHVkd2ZqVnNEd21ncVpLX0h0bnVzV1VrOVZ6R1BQenEzYXRodUNsMEtnVXJNQVhCX0ZaOGJ4SWQ4ZEdnU3VVVjlhdk1kcERIcXhuaERGUnpaV01VLVpYWnh6SlpoWFlaMWhXaDM1TWV2QnIxbFZOZVViWDM2RllxWDlyMEZNSjAxdEZQMlZOLUI2VzVjazVfQ0hXWEp3SWpOTnZXbWFURk15WS0xS21WZmdWSVBDTHVkNFdia1JKemhlRnR2TjVocFYtVmd3TWluV0VOVmtzVlcwUndIM0dxb2JDSUVvUjB0SFFMWklKckpUVExqQk5JNzducEhmWlY4T3VPM3EwOVVuSHZBTkRXbUkzRmdadU1OVGVxYUtxQ2RLcGdCVk45VlVKUWpFYTdSTDRudmxyUVJKOEMwVkk5ZUFEdTUyNmlmUDNTMU9DWFVmRDkwb1VmVWh2UjNYdGpXajRxSFhPZ3dMZC1FOXpoc0IwckhWNjBWYko1R0PSAecDQVVfeXFMUG91RGp2ZmxXdWdyY3ZPSHNJZ2NlQ1BZUjNLYWVWdzlPTzB0aGNGSlMyQXNsMjVvSHhrWDNJNlhpTEsyRk8tajlsNlBlV1Z5ME1YOE1VWlUydUJqSWVCNDM1Wk5uc0FkUG1WZmQ0U0I5Q2JkZXNHRzJyTjRDTEpVdWVGQ0VhN2s3bllzdTQxYlZITHl2Qm5IeVlIdXcwVjNwQkNQQ1JrSW9BUTc0M2dLQ2pzNnBGMXFrbGxFcWtuT25ybk8wUmhoWl93OWJXZnp0azFBQWwtV3FOYjB3dlVUeHN2ZENXOUpQMzE0NG1EQXh5TGtKRlF5SnNsemRHR1pzLTdLa2Z0S2E1RHJ3Uy1jWnc1X3dYQ29MeW81UlRTRE9DOEJOdXNwSXFGdVNCVFdDQzFCYWozVUxjVmlHeHc0U2RhdXFDcDNxYnViN3p6ZEZqcWdLS0l3NHNMRnBBczl0NmlWaHRXa0tqVm1kRmZ1cUVrZWZsbXktTnpOZk5sUHdkUGt6ZEZKTU83UlFZUkJUYkwxNXA5RzdtT21sUnpUcFpaMWx1bWg1UXJ4UTY2Ql9RSWtoSmNvXzY1amJfT2FMRUpseGhFczNMMGtNVzBsQjMyTExYUUdYOHJUUVl0SFp1SjBhb3g4Zw?oc=5",
     "rank": 20
    }
   ],
@@ -2751,13 +2751,31 @@
     "rank": 22
    },
    {
-    "headline": "Yemen's Houthi-run Al Masirah TV reports Saudi attack on Sanaa - Middle East Eye",
-    "summary": "Yemen's Houthi-run Al Masirah TV reports Saudi attack on Sanaa Middle East Eye",
-    "source": "Middle East Eye",
-    "date": "03 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZDA0Nk1ic1FsV2d6QkViSGhySXZQUXFCWkR6dVNHSnlLdVZrQ3N0NkJ0T3FoMGpaZG1iZUpkZjl2ZWROTXIxWG1DRWlzT0IwUGdsbDIzQ1JiOVM1bUlSdHp3VTcwOEV5YkwxYnVzblBFYWtUVEUzM3BidlZnY0pReWJyNTRsdmVUMERucmpsUjhqNUxYZzU3by1ZSWlxdDlSemFmZ280YzJ4RE1QUGNOeGlyb3BWUQ?oc=5",
+    "headline": "Scoop: U.S. sent more Patriots to protect Saudi, Qatari energy sites - Axios",
+    "summary": "Scoop: U.S. sent more Patriots to protect Saudi, Qatari energy sites Axios",
+    "source": "Axios",
+    "date": "02 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbW9nY2JyUlRwbWlIYXMzaFJ4UElELUprckxfLU9Fa2FlREtjX2I1c3BSWl9qSS1SSGg3VU44UE9KbjlUaDNDcUQ5ZExmUG9Na3dwZjczX0xjbktrWDgxdWU0UzZIbmktNzNxa0o5TWV3cUgydGRNY2tXOVlFbnpzOU9oRQ?oc=5",
     "rank": 23
+   },
+   {
+    "headline": "Houthis Claim Drone and Missile Attack on Saudi Aramco Facility in Riyadh - Haaretz",
+    "summary": "Houthis Claim Drone and Missile Attack on Saudi Aramco Facility in Riyadh Haaretz",
+    "source": "Haaretz",
+    "date": "04 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPUWFiT3lRM1ozQVd0d2p1N0ZuQnhjcFkweE1PckV3QTV1XzFpcUVxdm01bTd3bnhhWkhCb3VjTTNEbURYNkN2TmJpeXpMRkdwSEYtMS1udy02YnFnN2xnX003RFlEdF9IUXVJNERCeXlaNlV2aTJkVm1yRWwzbkVFWFhwS2VPZlVsbGpoRnFxM2xrMkFyXy1rbU44QVRpQkp3T0dYbmlyczFGR1RlS0dpbnluazgyS1dCMUJOVFRfMTZsQUVUYjJwV1BDZ2RvVHF4Mmk1VUtkcVVydWx3OEppcVk2OWVza09NaHFhQUZ5bEdLUzM3dFd0SHJoX3NsQ3NGMTdj?oc=5",
+    "rank": 24
+   },
+   {
+    "headline": "Houthis Claim 94 Saudi Strikes on Yemen as Smoke Rises From Aramco Refinery Near Riyadh - themedialine.org",
+    "summary": "Houthis Claim 94 Saudi Strikes on Yemen as Smoke Rises From Aramco Refinery Near Riyadh themedialine.org",
+    "source": "themedialine.org",
+    "date": "04 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLVZEZlktb21CYktCS3E5dnFWZllzV05LaktnM3VMS192Nkpsc3BQaVItX19Xa0hWZGVsQmFFWUh3Q1psWDEyZkxoNVNrdXNqQi1Pa3BzZzFMSFpOZEJyQnlwTTBRazVxY2lCZ1A2Z3o0dTlrVGd1MEwzVkFrZ1RFMHFLRDRNc3FVakd4aGhKdTFVbDZ0a1JqVUJDblVfNmpXVm9Md1ZSblRTQ3FlRzYyeGY1TFFYR2JVVjVOMjRkb2s?oc=5",
+    "rank": 25
    },
    {
     "headline": "Escalation in the Middle East: Houthi rebels claim attacks on Saudi oil facilities, raising new uncertainties over crude supply outlook? - Moomoo",
@@ -2766,16 +2784,16 @@
     "date": "04 Oct 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRmphUEM2cVZXS0toN2pWMG5iWWcxMG1YNTB2QmVoN2JtdlMxQ0otVmNHTnNMakh5ZnJFdVVWQW90MGx1UHZsOUZtelczUU9wQU91OVlYbkMxV1RSZXExSjdGRHlBb1ZzbkpKRkFnb3lkMkNFRmFzS3BhZFpkV014WmF6SW8ydHZTRElGay0wbVdDZ1labmpSWV9NVi1sNE5jNm9Ic1dyQQ?oc=5",
-    "rank": 24
+    "rank": 26
    },
    {
-    "headline": "Why Trump May Want to Avoid Messing With the Houthis - politico.com",
-    "summary": "Why Trump May Want to Avoid Messing With the Houthis politico.com",
-    "source": "politico.com",
+    "headline": "Why Trump May Want to Avoid Messing With the Houthis - Politico",
+    "summary": "Why Trump May Want to Avoid Messing With the Houthis Politico",
+    "source": "Politico",
     "date": "03 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMWlqeEd6WDNJcF84SG82SjVPYUhPb3dQdU5aeUV1MVJEUVo0dFMwX1kzaUQzVFMzQktpOU5jaDV3RlhlYkNxdEx2MGZLWDMxVGFhZF9HcE5FUFR2cl82VEVsbUhtNzFUbDhqZ2tiVUhZZDgwZllONkNmMkxwa180SzBDZkoxQ09janc?oc=5",
-    "rank": 25
+    "rank": 27
    },
    {
     "headline": "As Saudi Arabia steps up war against Houthis, Pakistan set to play support role - South China Morning Post",
@@ -2784,16 +2802,7 @@
     "date": "03 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkROUzVfYW1IUWlpS29iRkVUemNzWk9vRTVDTG5Lb01JenYybXBwVzhpaTBpaFpzNHRBZktMUTZwb3J2S2h0WGZoYnk3ZG5KZW1VU1pjTXhhazZwTzllQ2ZMZkRTTzJuUllQNDUzajk4d0c1UmwxSWk4MmJWb3J0SUxVY0JPSXBjdGtCdEg5M3VXOThNQm9saDBNWFdEbWNmNU5hTUNMQ3hVWlRpc010bFNhZ2s3RVNDd0lvVkI4UDFJMU83NEphRG5ScUbSAcwBQVVfeXFMTjJETlM1X2FtSFFpaUtvYkZFVHpjc1pPb0U1Q0xuS29NSXp2Mm1wcFc4aWkwaWhaczR0QWZLTFE2cG9ydktodFhmaGJ5N2RuSmVtVVNaY014YWs2cE85ZUNmTGZEU08yblJZUDQ1M2o5OHdHNVJsMUlpODJiVm9ydElMVWNCT0lwY3RrQnRIOTN1Vzk4TUJvbGgwTVhXRG1jZjVOYU1DTEN4VVpUaXNNdGxTYWdrN0VTQ3dJb1ZCOFAxSTFPNzRKYURuUnFG?oc=5",
-    "rank": 26
-   },
-   {
-    "headline": "Saudi Arabia Still Hasn’t Found the Answer to Its Security Problem - الحرة",
-    "summary": "Saudi Arabia Still Hasn’t Found the Answer to Its Security Problem الحرة",
-    "source": "الحرة",
-    "date": "01 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE55ZzdMZElwNVlrblFVNjBiaFVQMTlGMERoNU5lbXdqSzIzSnNYQTVGZWpTLWxhaEs4Mjg5R0Z0cms5dw?oc=5",
-    "rank": 27
+    "rank": 28
    },
    {
     "headline": "«سير» تراهن على بناء صناعة سيارات سعودية متكاملة - aawsat.com",
@@ -2802,7 +2811,7 @@
     "date": "03 Oct 2026",
     "tag": "housing",
     "url": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxQNWFGcV9iUEFHU2Z3cEdySDhuVEdMOU1vdHFpZk5neEpqWk5rLVZIekVxM29mNmlZam9GMDd2dldFa3lXVmRsdjA2eElFMFBpc3lmUUNXd2lLVjZuSmFNQzRqa0pYRE9SWnkzN1hhUllZT1AxVmo5ZWFRVTNTcU41b2VIbHJLaDRlanYtNWNVN2RMQlpGRnhueDB5RDItMUQ3YnFGS3p6X0h0SUJQVjZQcTd3Z1F0NkxWYzFxWUUtSHExNDN1RTRodkMtT0YwcDQ1THdkakdDV1h6ZVVnNFZLamtyY0FfaEZxRG56QmlWeVNqSDJUYWZURWpDVmstb04xYnczLV85eWc3THV2QWpodm5WNnNucDQ0UlZfM3d5R2daWlpkVmVJUVRHcWNjSThNcWRWY1ZxemExSVFORzJ6LTJrX1ZJM1pRUElkZUlEUWkwa0tYS0tCdFVfYzBWaGVPU3BZc2hCZ1dEZ0tHOFZOU3JLZURCem1XazRLSVJmMHRsaFpnQnZNMXJFOGZvLWJ6eGMwaGNPWHR1QTQzX3lqTk03ZHdtLWZVdWtURTFCZ1p6cE1jdjB0NEI2LVAyb3ZzbjQ4?oc=5",
-    "rank": 28
+    "rank": 29
    },
    {
     "headline": "بُعد بين أبعاد في عملية استهداف السعودية - aawsat.com",
@@ -2811,7 +2820,7 @@
     "date": "03 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxOWmFVdUNYNVdvZHVwTDB1OThxOGhub2xzNzB0NUxkSDMwbEpvYldwa0VFaDdEdElrWWZSbGJDWGlQb0d4RHZfSHUwdUFzT0FCdTMzbmpoVTJzdTZxMnVEYUJpam9VdHNoS2dxVFZvdmRKcWc1SHBsZG1BOEVkZnNlSHUzZUxSZVdkTkNhU0UtT0xPa29BVVRDQTZKNmdXdjRBVlJVYm5FUnY2NHFib1lscHFWQWxhaWdleGtpVzJaZG0tMGZRbXVVWFBLTlNrbnR3VUN3X1hMY3ZKZlhKRWZuTHpuWjktZFM1cmQ0U3VYSTJxVV9MYXN6R2pJUm1yWWpPalZKdDQ5QVAzZlB1cllBV1F3VlhmdEpNWkZuQ3BNaDZOa1dpX0g0QVFnWmY1UGVKTDc0M1FrOHhNdTJGQlZKMEZSbDVSOTRXb3pCaGU5NWt1ZDZydEFqTFZoMTM4V3JDeHRuMk43QU8wR3lvcUhidFBneUtROXlpdG03UWFUYWI2UQ?oc=5",
-    "rank": 29
+    "rank": 30
    },
    {
     "headline": "ملحق طوارئ - aawsat.com",
@@ -2820,7 +2829,7 @@
     "date": "04 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNTBOZnhhU0w3WnNSZ0l6aV9hVjJVWHA0S2pvQ1l6U3VySlQ1MnY4elFSeWp6V1MyWWY3MWNCZW14STMzcWczX1phRDNqbmZrekdOMnFOZ1VhM2EtUnp3STE5N1laeFBQMm1OUTU3M2tLbW5hWGRJT1czZHBuNDN6dkdZMmx4aEtUQlNRNDlHMmJ5eV9pM2ItbkRyX25KWlM0MU1zbWJrMW4xdngzYU9fdDJwSQ?oc=5",
-    "rank": 30
+    "rank": 31
    },
    {
     "headline": "تدمير باليستيين و4 «مسيَّرات» حوثية جنوب السعودية - aawsat.com",
@@ -2829,15 +2838,6 @@
     "date": "03 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMingRBVV95cUxONTh2bklpSkZJVHVJYWRpUzBJaTdfa1ZLVk14SE05SEF3STR1S0NDZjBmOFR5V0pmSU9BdUI2RHE0cFhkdFZ1WXZNTkRSQmgtcS10ekZCbE80TnFUQjJ1NlNua1RsUUlYa0VXa1dleUZVQjFlSzNyZzJTVlkyaXIwNF8wdlU1M0E4TENpUTFFNFVkQzJHaEdwbUpNMjJUaEJZMWhaMGoxdWVOQXdnMVNKaEs3RVFLOGJveHZucDk2MXlsd1g5a1Q3NVVWaW1MOGx6RGVobWJDX2M4S09OWE0ySlRKenRmS3RpMklURjJESll3a0xZYXFNSjc4TW1FUVR6d2xObmw4bGhrN0NHNHZHbVU4SGlkWkY2dG9EdWZDNFR4Q0F5b2YtazdibGNHSmduYnZKcktiX3RRYW8wSy1OM2Qtc3ZJT2ZyX0hKVnhmNWthQkhmSjZ3ZExBNmhZbEFBUFpUbTdXNlIzNHhJZldJMFdWcmN2QzdrdVhuWDctUzE3QlgzLXZmVHhHem50UzhsZnotLUhkV3hRVF9FZEExR0JXbHFQOW9pNGtNOTV6djNaX25QQXFCNktLSHY5aVo4cmVFVHc2bzhPbnBjYTZucVlpUkJCbW54eVZFNWxrVkZCN3lJQnY0X0NCWEF5bDQxM1NLUTZHMkM3RUE5T1Exd3MyWHd4ci1yYXdDTE0yTDNkT1QtZ1I4T09aaGJFdw?oc=5",
-    "rank": 31
-   },
-   {
-    "headline": "السعودية: قائد «فلاي دبي» ومساعده غادرا إلى الإمارات برفقة فريق أمني - aawsat.com",
-    "summary": "السعودية: قائد «فلاي دبي» ومساعده غادرا إلى الإمارات برفقة فريق أمني aawsat.com",
-    "source": "aawsat.com",
-    "date": "03 Oct 2026",
-    "tag": "sports",
-    "url": "https://news.google.com/rss/articles/CBMimgVBVV95cUxPcVZWbGNCVGRQT3dOS1IwYkc5RFlCeXY5UURDYlpiYUJ3bV9UVHlMUGh1UkhUMDU5ZDVMelczMVo2dUxjQWZxUmRuUEVnSGozeUZvOGlUMW16akVJSkIzOFFZeTZSaldmQXFyTGkzcUhSYk5ncHh4QWZZWGoxQUdWSElrck5zcUd6ZTB3aXZkOTNpbVRkMVN0ZF9ZM1N2UmVzLXpDcXRvYTEyTmNvUzN4Ym1tMkdCamNmTTlqVDVPWjFGZWVCOUNENWFBVGc5MHpYa0Eyemxyb3lSeVc2VGFWZUlsMkR6X1hmZkdKenRTREJUd2pFc1hOVUkwbWx6YmdyampwUW15RGJxSVVNODc3V3hrLWRadzRQZS01RnpJVUlhSVJjRnZza1NCVUZBVWphemhpalZwZWZTMm5oVG1paUNVd1QwOWZXb3cyVko0Zm5MYVotUHRwT2NHdzFyeGtodWU3QmxERDNTdC1YTjdSM29kNFU5ZEh5V25DQ3JnVE5PaVRHcm1zNWsyOTE3ajdTb2U1LUhtZ3VYVEZ6cUo5TVdKbUhRNXFGTFdRUlNDLUtIZWZPbU5MWER2QVhZQVdMdnd5SDRJa3ZBb2dVcjNJWktVclM2NkJIM2NrNW9HRTF2bGFaVjJ2T2hWaXBLUnNKbW9oZTZUSnFmTFZ0VnRDNXI4MzFLR0NfSnRuWUthRmV3WWh5THVkTHlPQy04ZnZUczhYYUtUOG0xb0VMcWs5elpxdkczS3praGI1OEcxYkRVQUhnb1doV1BLazdBdnFNeGM0TWUtQkRPZzU3aTdVV3ptS0lwN0diRnNpdVRvVGFUelIzNDkzNGg2ellnVGRZLVoyTDEwZnkzajZRZEpCS1l0Ukd6b1Q4M0E?oc=5",
     "rank": 32
    },
    {
@@ -2850,13 +2850,22 @@
     "rank": 33
    },
    {
+    "headline": "السعودية: قائد «فلاي دبي» ومساعده غادرا إلى الإمارات برفقة فريق أمني - aawsat.com",
+    "summary": "السعودية: قائد «فلاي دبي» ومساعده غادرا إلى الإمارات برفقة فريق أمني aawsat.com",
+    "source": "aawsat.com",
+    "date": "03 Oct 2026",
+    "tag": "sports",
+    "url": "https://news.google.com/rss/articles/CBMimgVBVV95cUxPcVZWbGNCVGRQT3dOS1IwYkc5RFlCeXY5UURDYlpiYUJ3bV9UVHlMUGh1UkhUMDU5ZDVMelczMVo2dUxjQWZxUmRuUEVnSGozeUZvOGlUMW16akVJSkIzOFFZeTZSaldmQXFyTGkzcUhSYk5ncHh4QWZZWGoxQUdWSElrck5zcUd6ZTB3aXZkOTNpbVRkMVN0ZF9ZM1N2UmVzLXpDcXRvYTEyTmNvUzN4Ym1tMkdCamNmTTlqVDVPWjFGZWVCOUNENWFBVGc5MHpYa0Eyemxyb3lSeVc2VGFWZUlsMkR6X1hmZkdKenRTREJUd2pFc1hOVUkwbWx6YmdyampwUW15RGJxSVVNODc3V3hrLWRadzRQZS01RnpJVUlhSVJjRnZza1NCVUZBVWphemhpalZwZWZTMm5oVG1paUNVd1QwOWZXb3cyVko0Zm5MYVotUHRwT2NHdzFyeGtodWU3QmxERDNTdC1YTjdSM29kNFU5ZEh5V25DQ3JnVE5PaVRHcm1zNWsyOTE3ajdTb2U1LUhtZ3VYVEZ6cUo5TVdKbUhRNXFGTFdRUlNDLUtIZWZPbU5MWER2QVhZQVdMdnd5SDRJa3ZBb2dVcjNJWktVclM2NkJIM2NrNW9HRTF2bGFaVjJ2T2hWaXBLUnNKbW9oZTZUSnFmTFZ0VnRDNXI4MzFLR0NfSnRuWUthRmV3WWh5THVkTHlPQy04ZnZUczhYYUtUOG0xb0VMcWs5elpxdkczS3praGI1OEcxYkRVQUhnb1doV1BLazdBdnFNeGM0TWUtQkRPZzU3aTdVV3ptS0lwN0diRnNpdVRvVGFUelIzNDkzNGg2ellnVGRZLVoyTDEwZnkzajZRZEpCS1l0Ukd6b1Q4M0E?oc=5",
+    "rank": 34
+   },
+   {
     "headline": "إيفان توني يحتفل بتأهل المنتخب السعودي إلى نهائي الخليج - aawsat.com",
     "summary": "إيفان توني يحتفل بتأهل المنتخب السعودي إلى نهائي الخليج aawsat.com",
     "source": "aawsat.com",
     "date": "03 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxOTUl4Qm10SElsY0V4UGIzT0RuZFE5UzFDMGR5d1RkRm1XQ2h5anVSa2FoU2dQMWphNFpsSHc2b0U1dlExRXQ4MktaX2ZKZ1dBWVgyQmdnd204NUo2S0tLTTF1UGFWVlNvckVtN2ppSDc4QnpTVHl6d3k1ekpLUzVfalA1R2dHY3EzMDZNTWxFOHJWX0ZIWHlkT3dTMmc4b2x1U3padjM1TVhNcG5Yd1MtVWxDNjRMdENPNXh1bXFrUVBuVjFUTjA1a3RDdGt1d1E2VG9pdXJydHdDb2lPYnFyYlVJVmZYZ3BnbEhVVFhscjY5aEJPdWtzM0xxRzZ6Y2RDYlEwRW9NQU1HQnVtRzRQYjhzUlRIamkwMVRFWDg2VVNHek9sdDVjeHBQR3JLZk1kMldUdlFYb1FuTHN4cVNxZHpxYndxTVdaejRBMnUycXJBc3BZdkp0T3R2VllaTU9LRzJVNWRXVHBVQkExdUFUYmprZjQxbHhzTmNyR0RqOVhKUnVNNnR1ZUwySkkzU3VPVVFQUjJhV3UtZFZoVEZ1b3lqUU1Zd1JUUl93YzhfU21LRUdiNnU0cEprZkpmNmpFTGs4bGY5eV9aUThQb0ExY1pUQzAzU2tLMUwtRjFMbEVHZnFad1V0Ynlsak9YN19wTERvZzdOUmNNOElrdnNRQnlBVFg1VW9qT0ctU0dHZGtTeWtJT0JsTnl6cEJzLWJoaklwRE9IUldTZkVsWXlTZHduS1lBZW1lb0VNcGsxSE8tdlBsMW1WeEZ4OVVXbTNYS3NPZ3MwTQ?oc=5",
-    "rank": 34
+    "rank": 35
    },
    {
     "headline": "وزير الدفاع السعودي يدعو منصور بن زايد لزيارة المملكة الثلاثاء - aawsat.com",
@@ -2865,7 +2874,7 @@
     "date": "03 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiiAVBVV95cUxPVUlsaVNwNW5SbjRwME4xUzduWGY5Y0xQSzFVYy1GX01YQXhCdHRzaG5VSmQxdk5fcWFOb2ZyZnl0U21TOW9BZ0FXOERpV2RMLTNaa3VCUVEzYmpDYklEX2w3a1lsNnRyeFdQb2RxME43LWxCWlVJOVlPdkQtcjVNaVdYVEc2N1V5X0dJb0xEdkQ0aE5XR1dzZU0zamJqWGNTN1hyVzVhVTFQZEEyQjFINldfUl9SUVpsNXl5MTY1eFZHd1Z1OWt2aE9FOWJjRHlkVjQ0eDRYWGhDRlUxc3VTR0dQeWs2eTR1Mk1tOUdMSlFrSEFkZWVwVC1BdnNtRGlXVEp0U3g1NVViQ1drV2R3ei1TbHBiSVU0djVWRW1OZHJkQmdlNkRHRmVHUnd5R0g1bUNQdTFsdENpWG5wVnhyaFh5N0U0dEFUUlJSZndKTGFGMlVPNVgtdUM2QTVPMkNYaU82TDF4bGlCRDJfVUNZTkZ4SnlvZHhxdDVCLUJwZU9hRk1waUtkamYyYnlpdUxXTnBlaXh6d0xuT1lsbUFBUmVfU3FDZjF6dzR0SWVhRzRnWExNSDRtakZ6Z1kzeWNYcDQ1NG9aRGhhaTdKbGhZZDhlbGJMSnVpLXFETjk1UklOcUIxRkx0STNRV1czZVRJeDQwVUMxNGFRdmdhbGRROTRha2J5bW9HdXRpRGllb0xBX29nS2NOekxzSVRkcVk4ZGFNcnRLRGNWdzFibnFLQ3poLVFYODUtMHpVT214T3NVaEsyYW5DVmRnR3RQU0lvOUNZb1VxbFN1WUxUMmMyaFdDVXNBRnowaFNGd0FGVVNMelphZXdkUXhYb0NDSFBLV0RORHVNZ3Q?oc=5",
-    "rank": 35
+    "rank": 36
    },
    {
     "headline": "وزير الدفاع السعودي يستعرض مع نظيره الماليزي آفاق التعاون الدفاعي - aawsat.com",
@@ -2874,7 +2883,7 @@
     "date": "03 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMioAVBVV95cUxOSmhmNmdUNHNFQk5LNm1Kc3VacDZCam43ZXhVT1lZWHY2NGl6cTlpSFp1ZFVWZXRtdlhPNndJMXJ3cWdwOGJCVWJYQk1DMWZiaDJ6OFhpUmdHa19jaVlsRWZRRWV4aUxMSGxjalVwSXVYSVM4U3lIaDZVMGEtdDI2cndiZXR0WXJ1MkNoVnRYYWkwVUNtS2JGQkE2U3ZYVWNIdWdnRU1wOVJlSE1nNmtwaG95ZDZ3T0RFTXdfMDQ5dEMyM1V4WkZ5d3RRY0JUNjNTOVhxbUFrYnNXOFpxLTJCMkV2cV82VnJxd2RmVlBNMl9ldzRydHduYXEyUjZSN3B6QUpqSHJsMFFsWnBYd2I1cFhPRFlFSmQtTUlQaXlvaWZUTmJ0djZWcXJzQTN6dmdTc0pZQ0NTOWlhSkNsemlnRlRVdnNxNnVQZjdZbk1fZ2p5ZTBzMGE1dmJvUm02OHUzRWhwdGJITVc0UXY4azlGS21fS0NjOE9zc3hod0FyQnd3VEFyQmRtUWtMc3BGeTFBVEJoQjRZaTNaTExMaXlDQ04zQW9JYnB3SHoyUjB0VFExQ0d3aHN2b3VMandWWkQ0RktrYlpMbEwtdW5oLUNrU3RTR1NJUTNvdWZ6dVY2OXhISUpkell6S1NYTE1SVVpxOXRaaFRxdGllZV9KeFhlMVJLby1EdzF0X0lZX3BGUVhBRVBLdUxRYk5WVTluZFluUDhkS3BHM2drNkZWeF91UWZEZDA3Qnc5SFpsSGVrTmVrRGRENk5sVzdOaU1oSnlxUlVBZU82N1otWWswTEZaVXJidW1GMUppNGdGLWt3TkNBcVk1aS0xa1F2bzVZcHVOdFk5Rm9DRWp1SmVlTW95MlNHTk5hV0g3Yk4tZFBCc1Y?oc=5",
-    "rank": 36
+    "rank": 37
    }
   ]
  },
@@ -3650,10 +3659,10 @@
   },
   "البرازيل": {
    "english": "Brazil",
-   "summary": "The Brazilian national football team, a perennial favourite with Gulf audiences. It is trending alongside Portugal, the Netherlands and Germany, which points to an international football window, a major draw or a ranking/results discussion rather than anything Saudi-specific.",
+   "summary": "The Brazilian national football team, a perennial topic for Saudi fans and a frequent friendly opponent for Gulf sides. Here it likely reflects a match, draw or results discussion being watched in parallel with the Gulf fixtures on the board.",
    "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-09-24T22:00:33.416920+03:00"
+   "confidence": "low",
+   "at": "2026-10-04T05:00:23.733506+03:00"
   },
   "البرتغال": {
    "english": "Portugal",
@@ -4866,13 +4875,6 @@
    "confidence": "high",
    "at": "2026-10-03T23:00:27.710844+03:00"
   },
-  "#ملعب_الانماء": {
-   "english": "#Alinma_Stadium",
-   "summary": "Refers to a Saudi football venue carrying the sponsored name of Alinma Bank, a large Riyadh-based Islamic bank that holds stadium naming rights; it is trending alongside Gulf Cup final chatter, so fans are posting about the match venue, atmosphere and ticketing. Which specific ground is branded this way is not certain from the words alone.",
-   "kind": "sport",
-   "confidence": "medium",
-   "at": "2026-10-04T00:00:28.738072+03:00"
-  },
   "#البنك_الرسمي_للكره_السعوديه": {
    "english": "#The_Official_Bank_of_Saudi_Football",
    "summary": "A sponsorship slogan hashtag, almost certainly an Alinma Bank campaign tied to its partnership with Saudi football and the national team. Trends like this are usually bank-driven marketing pushes timed to a big match, often amplified by giveaways or paid promotion.",
@@ -4890,13 +4892,6 @@
   "الصقور الخضر": {
    "english": "The Green Falcons",
    "summary": "The popular nickname for the Saudi Arabia men's national football team, taken from the green kit and the falcon as a national symbol. It spikes whenever the team plays a high-stakes match.",
-   "kind": "sport",
-   "confidence": "high",
-   "at": "2026-10-04T00:00:28.738072+03:00"
-  },
-  "المباراه النهاييه": {
-   "english": "The final match",
-   "summary": "Simply \"the final\" — fans posting before, during and after a championship decider, here clearly the Gulf Cup final involving Saudi Arabia and Qatar given the rest of the board. The spelling is colloquial rather than formal Arabic.",
    "kind": "sport",
    "confidence": "high",
    "at": "2026-10-04T00:00:28.738072+03:00"
@@ -4929,26 +4924,12 @@
    "confidence": "low",
    "at": "2026-10-04T02:00:28.959458+03:00"
   },
-  "الاخضر السعودي": {
-   "english": "The Saudi Green",
-   "summary": "A standard nickname for the Saudi Arabia men's national football team, whose kit is green and who are also called the Green Falcons (الصقور الخضر). It trends whenever the national side plays, here around the Gulf Cup (Khaleeji 27) and a Saudi–Qatar fixture.",
-   "kind": "sport",
-   "confidence": "high",
-   "at": "2026-10-04T02:00:28.959458+03:00"
-  },
   "مهدي": {
    "english": "Mahdi",
    "summary": "A common Arabic given name/surname trending alongside a block of football terms (Saudi national team, Gulf Cup, Al-Owais, Tambakti), so it most likely refers to a player being discussed during a match. Which Mahdi is meant cannot be determined from the word alone; note the name also carries a religious sense (the Mahdi, the awaited redeemer in Islamic eschatology), though the surrounding board points to sport.",
    "kind": "sport",
    "confidence": "low",
    "at": "2026-10-04T03:00:27.904154+03:00"
-  },
-  "#قاب4": {
-   "english": "#Qab4 (hashtag reading roughly \"Gab 4\" / \"Qaab 4\")",
-   "summary": "The words alone do not identify a subject; \"قاب\" is not a common standalone noun in this context and the \"4\" suggests a fourth edition, season or episode of something. Given the surrounding board is dominated by the Gulf Cup and the Saudi national team, it is most likely a sports-related hashtag or a sponsor/show tag riding the same conversation, but this is not a confident reading.",
-   "kind": "other",
-   "confidence": "low",
-   "at": "2026-10-04T03:41:26.436014+03:00"
   },
   "فوز المنتخب": {
    "english": "\"The national team's win\"",
@@ -4963,6 +4944,34 @@
    "kind": "sport",
    "confidence": "low",
    "at": "2026-10-04T03:41:26.436014+03:00"
+  },
+  "#منتخبنا": {
+   "english": "#OurNationalTeam",
+   "summary": "Generic rallying hashtag Saudi fans use for the national football team, the \"Green Falcons\". Alongside board items like #كاس_الخليج (Gulf Cup), #السعوديه_قطر (Saudi–Qatar) and فوز المنتخب (\"the national team's win\"), it points to live match-day support during a tournament or qualifier.",
+   "kind": "sport",
+   "confidence": "medium",
+   "at": "2026-10-04T05:00:23.733506+03:00"
+  },
+  "#٢٠٣٠_بلا_نقاب4": {
+   "english": "#2030_Without_Niqab (round 4)",
+   "summary": "A recurring Saudi social-campaign hashtag arguing that the face veil (niqab) should disappear by the Vision 2030 horizon; the trailing \"4\" marks a repeat wave of the same campaign. It reliably draws both supporters framing it as part of social liberalisation and conservative users pushing back, which is why it resurfaces periodically.",
+   "kind": "social",
+   "confidence": "medium",
+   "at": "2026-10-04T05:00:23.733506+03:00"
+  },
+  "الكاس الغالي": {
+   "english": "\"The Precious Cup\"",
+   "summary": "The affectionate nickname for the Arabian Gulf Cup trophy, the biennial football tournament contested by the Gulf states (Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, Oman, Iraq, Yemen). Fans use it when their team is in contention for or celebrating the title.",
+   "kind": "sport",
+   "confidence": "high",
+   "at": "2026-10-04T05:00:23.733506+03:00"
+  },
+  "بوركينا فاسو": {
+   "english": "Burkina Faso",
+   "summary": "The West African country, almost certainly referenced for its national football team (the Stallions), which Arab audiences follow during African qualifiers and tournaments. The specific fixture or reason it is trending cannot be determined from the word alone.",
+   "kind": "sport",
+   "confidence": "low",
+   "at": "2026-10-04T05:00:23.733506+03:00"
   }
  }
 }
