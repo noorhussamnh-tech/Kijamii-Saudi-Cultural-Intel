@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Sunday, 04 October 2026 · 14:00 KSA",
+ "lastUpdated": "Sunday, 04 October 2026 · 15:00 KSA",
  "days": {
   "2026-09-21": {
    "label": "Mon 21 Sep",
@@ -2162,97 +2162,97 @@
     },
     {
      "rank": 5,
-     "text": "#رحله_المليون73",
+     "text": "#ملعب_الانماء",
      "cat": "General",
      "pts": 7
     },
     {
      "rank": 6,
-     "text": "#ملعب_الانماء",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 7,
-     "text": "الخطط الرابحه",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 8,
-     "text": "المبادرات المتميزه",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 9,
      "text": "التفوق الاقتصادي",
      "cat": "Finance / Royalty",
      "pts": 6
     },
     {
-     "rank": 10,
-     "text": "التميز المالي",
+     "rank": 7,
+     "text": "تمبكتي",
      "cat": "General",
      "pts": 6
     },
     {
+     "rank": 8,
+     "text": "عيال زايد",
+     "cat": "General",
+     "pts": 6
+    },
+    {
+     "rank": 9,
+     "text": "الاعمال المزدهره",
+     "cat": "General",
+     "pts": 6
+    },
+    {
+     "rank": 10,
+     "text": "المنتخب السعودي",
+     "cat": "Football",
+     "pts": 6
+    },
+    {
      "rank": 11,
-     "text": "تمبكتي",
+     "text": "الصقور الخضر",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 12,
-     "text": "الاعمال المزدهره",
+     "text": "مختار علي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 13,
-     "text": "عيال زايد",
+     "text": "التميز المالي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 14,
-     "text": "القرارات الماليه الحكيمه",
+     "text": "ابو لطيفة",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 15,
-     "text": "المشاريع العظيمه",
-     "cat": "General",
+     "text": "المنتخب القطري",
+     "cat": "Football",
      "pts": 4
     },
     {
      "rank": 16,
-     "text": "رضا العملاء",
+     "text": "علي الامام",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 17,
-     "text": "الاعمال الناجحه",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 18,
-     "text": "المنتخب السعودي",
+     "text": "منتخب قطر",
      "cat": "Football",
      "pts": 4
     },
     {
+     "rank": 18,
+     "text": "فوز السعوديه",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 19,
-     "text": "الاعمال المتينه",
+     "text": "المباراه النهاييه",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "المبادرات الصلبه",
+     "text": "كاس الخليج",
      "cat": "General",
      "pts": 4
     }
@@ -2271,29 +2271,29 @@
      "score": 76
     },
     {
-     "text": "#رحله_المليون73",
+     "text": "#ملعب_الانماء",
      "score": 64
     },
     {
-     "text": "#ملعب_الانماء",
+     "text": "#رحله_المليون73",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (18)",
-     "items": "#السعوديه_قطر · العويس · #البنك_الرسمي_للكره_السعوديه · #٢٠٣٠_بلا_نقاب4 · #رحله_المليون73 · #ملعب_الانماء · الخطط الرابحه · المبادرات المتميزه · التميز المالي · تمبكتي"
+     "label": "General (16)",
+     "items": "#السعوديه_قطر · العويس · #البنك_الرسمي_للكره_السعوديه · #٢٠٣٠_بلا_نقاب4 · #ملعب_الانماء · تمبكتي · عيال زايد · الاعمال المزدهره · الصقور الخضر · مختار علي"
+    },
+    {
+     "icon": "⚽",
+     "label": "Football (3)",
+     "items": "المنتخب السعودي · المنتخب القطري · منتخب قطر"
     },
     {
      "icon": "💰",
      "label": "Finance / Royalty (1)",
      "items": "التفوق الاقتصادي"
-    },
-    {
-     "icon": "⚽",
-     "label": "Football (1)",
-     "items": "المنتخب السعودي"
     }
    ]
   }
@@ -2352,7 +2352,7 @@
   "نواف العقيدي": 4,
   "متعب الحربي": 4,
   "العويس": 34,
-  "المنتخب السعودي": 16,
+  "المنتخب السعودي": 18,
   "قول سعودي": 4,
   "العطور الرجاليه": 4,
   "محمد القحطاني": 4,
@@ -2377,7 +2377,7 @@
   "منتخب المجنسين": 4,
   "صربيا": 10,
   "العصب البصري": 4,
-  "عيال زايد": 8,
+  "عيال زايد": 10,
   "السيتي": 14,
   "#ايفونات_مرسول": 12,
   "النفير العام": 10,
@@ -2422,13 +2422,13 @@
   "#رحله_المليون67": 7,
   "حارس اليمن": 6,
   "اكرم عفيف": 6,
-  "منتخب قطر": 10,
+  "منتخب قطر": 14,
   "يوسف عبدالرزاق": 4,
   "الربع الخالي": 4,
   "قصر الاواني": 4,
   "أسامة هوساوي": 4,
   "القوات المسلحه اليمنيه": 4,
-  "المنتخب القطري": 8,
+  "المنتخب القطري": 12,
   "اوديغارد": 4,
   "فيجن مصنع": 4,
   "يابو الجوهره": 4,
@@ -2526,9 +2526,9 @@
   "الطيار الهندي": 4,
   "الجنه اللهم": 4,
   "#السعوديه_قطر": 26,
-  "تمبكتي": 14,
+  "تمبكتي": 16,
   "مختار": 7,
-  "ابو لطيفة": 6,
+  "ابو لطيفة": 10,
   "ناصر": 6,
   "الاشواط الاضافيه": 4,
   "ابو ندي": 4,
@@ -2539,36 +2539,33 @@
   "الشوط الاول": 4,
   "#البنك_الرسمي_للكره_السعوديه": 10,
   "#٢٠٣٠_بلا_نقاب4": 8,
-  "#رحله_المليون73": 7,
-  "#ملعب_الانماء": 6,
-  "الخطط الرابحه": 6,
-  "المبادرات المتميزه": 6,
+  "#ملعب_الانماء": 7,
   "التفوق الاقتصادي": 6,
-  "التميز المالي": 6,
-  "الاعمال المزدهره": 4,
-  "القرارات الماليه الحكيمه": 4,
-  "المشاريع العظيمه": 4,
-  "رضا العملاء": 4,
-  "الاعمال الناجحه": 4,
-  "الاعمال المتينه": 4,
-  "المبادرات الصلبه": 4
+  "الاعمال المزدهره": 6,
+  "الصقور الخضر": 4,
+  "مختار علي": 4,
+  "التميز المالي": 4,
+  "علي الامام": 4,
+  "فوز السعوديه": 4,
+  "المباراه النهاييه": 4,
+  "كاس الخليج": 4
  },
  "news": {
   "date": "04 Oct 2026",
   "domestic": [
    {
-    "headline": "Houthis claim strike on Aramco site as Yemen fighting intensifies - aljazeera.com",
-    "summary": "Houthis claim strike on Aramco site as Yemen fighting intensifies aljazeera.com",
-    "source": "aljazeera.com",
+    "headline": "Houthis claim strike on Aramco site as Yemen fighting intensifies - Al Jazeera",
+    "summary": "Houthis claim strike on Aramco site as Yemen fighting intensifies Al Jazeera",
+    "source": "Al Jazeera",
     "date": "04 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONmY5RE5ILWt6MWtRZTJBS2VXVzdQdERuNHZFbk9PVHVuZFNfTVhjdm1yTWdUSTR0Q0xlNTN2eGhOUkE2WThVcXdDZ1pEcDAtQWJWWUFQbUM2RE9pbmtCa2lfM2t2RUxxVF9kUkJxd0htRjA0aXprc0NEQWZlNHVQTWpPVDdPNDVmZ25sNXFISGhaa0MxdEJzNEQxekE1ZVRoZWFkVEZsOElNR1g1amRXRFdkZm85RnPSAbwBQVVfeXFMUHdUakUzMklBc1VSRGZwMXN1X2M1NVg3b1dmUFZ5aXUtX2tmbW84UHNSckw2TlBmS1pXdmx1VE4tclZ6cGpSSFU1WTZRRmg3c3V2N3lYME1BRmUwa0RHZS1rd1BINkowa0xrMHNReUxXdmZyRzduTkN0TTlpVWV4c0p2Um5uWHRlNG14b0MwNF8zd2JTMHppaHlnN0tHMWJJTlhKMTltOE5MN0ktQVdoNGhRekg1RmhoVVBrdGM?oc=5",
     "rank": 1
    },
    {
-    "headline": "EXCLUSIVE: Saudi Arabia quietly shelving NEOM Stadium, one of 2034 World Cup venues - reuters.com",
-    "summary": "EXCLUSIVE: Saudi Arabia quietly shelving NEOM Stadium, one of 2034 World Cup venues reuters.com",
-    "source": "reuters.com",
+    "headline": "EXCLUSIVE: Saudi Arabia quietly shelving NEOM Stadium, one of 2034 World Cup venues - Reuters",
+    "summary": "EXCLUSIVE: Saudi Arabia quietly shelving NEOM Stadium, one of 2034 World Cup venues Reuters",
+    "source": "Reuters",
     "date": "04 Oct 2026",
     "tag": "sports",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ2pRTER4OGtQS01WaGYxMkVLOWVnRVNlTGFKb1ZuQjVFT296TUhVSkNsSV9BTXItRVhlQUNUZG56OC1KS3B5WUVIWVIzZG1EUEUwbkt3Tm80NEc4dVloT0RLMkVZZlQ0WlFTRGVGeW1Va2NxdThBY1hSeHM2Wkg0S0hNcjFaa0ZBVm9QMVhodGxSRHVGVjduVmliTlhQQ3VLY2xWVnNLVnlZVzlKS0J2YXVRRWZIa3hIUWc?oc=5",
@@ -2638,12 +2635,12 @@
     "rank": 9
    },
    {
-    "headline": "Opinion | Are Saudi Arabia And UAE Reuniting Again After 10 Years? - NDTV",
-    "summary": "Opinion | Are Saudi Arabia And UAE Reuniting Again After 10 Years? NDTV",
-    "source": "NDTV",
+    "headline": "Exclusive-Saudi Arabia quietly shelving NEOM Stadium, one of 2034 World Cup venues - The Daily News | Texas' Oldest Newspaper",
+    "summary": "Exclusive-Saudi Arabia quietly shelving NEOM Stadium, one of 2034 World Cup venues The Daily News | Texas' Oldest Newspaper",
+    "source": "The Daily News | Texas' ",
     "date": "04 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVXdxWC1PVG56bkZNbVpyUW9EZ05IOXlRYjBNeGEzZnZpUkRvRi1BRk1rOFRSTmNsX2xpcG5fSnNIWEZjTFBfbFFrb3dhdWxJVW5XT3dmVXhLYXFPeDlqa3BqUm9pSzdQVW9qeWVfSThLeGlrTjRTUXFLYUdXRE91YlFmXzkzc3pPRFdfN2ZVN1hmb1F5R083Rl9DQVo?oc=5",
+    "tag": "sports",
+    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNZEtQZWd4eUJ0TmJWeXFTOXpxRmlpd0hTWlE0eTg4VmQwLVFlYmJnamtCM2xOcXg4V3pzYlNLSGNUWDljU29ySUtveE9tSzdOOFExMTJGWjZtUDltX0RUQ29GMjFqTVVQY2NKcXQ4RFNDMzBtc0dzTGQydnBSMndLM1FfXzRJT1FnZXhOVzUtWnBPdExhWGM5eE51S0ZPX3RoSVk1SlBxSnVuM1J3ZWJselJrejNaVTJOUDRVZnRxdXlRZmtRUFZnR29GOEdhdWprOWFwZ2Nnb2I5VDAyNzAzdmRBVGJzakxCVjFBYTBnbEJORVFHbVh0RU9PRXJhcjZjV3hzdnZqQQ?oc=5",
     "rank": 10
    },
    {
@@ -2739,9 +2736,9 @@
   ],
   "regional": [
    {
-    "headline": "Protecting the free world: The US and Israel must come to Saudi Arabia’s aid - jpost.com",
-    "summary": "Protecting the free world: The US and Israel must come to Saudi Arabia’s aid jpost.com",
-    "source": "jpost.com",
+    "headline": "Protecting the free world: The US and Israel must come to Saudi Arabia’s aid - The Jerusalem Post",
+    "summary": "Protecting the free world: The US and Israel must come to Saudi Arabia’s aid The Jerusalem Post",
+    "source": "The Jerusalem Post",
     "date": "04 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSdnZTc3djbXRwTlNLcnlKRlJiallydjA4dFRNb0EtQnV4OW5tRkJfRGF3bmdDWmRMcFdEWWwzRDNmNlEwcjZaUnV5UGRPY2pfb2JGeE1rYw?oc=5",
@@ -2757,21 +2754,21 @@
     "rank": 22
    },
    {
+    "headline": "Rent the Coast, Don’t Pick a Side: The Horn of Africa’s Middle East Problem - Modern Diplomacy",
+    "summary": "Rent the Coast, Don’t Pick a Side: The Horn of Africa’s Middle East Problem Modern Diplomacy",
+    "source": "Modern Diplomacy",
+    "date": "04 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQzdaZTB6RDdockJObTBLMG1yUUZCQzVkbWQ2TEZzVjlZcFAtX01DOGt5d3VZTHlwbXhaM3BhSDdMYzBMNXpuYUJudDRSVFNSSUMwWEJfZ2JsU21BaWNfNmJ4RGV6TmhkQnp2dWh3Z1RUcjFWR0Yzek5OOUNMbmJRUkhic29uS25ZSHpZOEh3R1pRQlRucEppaUxYSmV6QlJfRGtCT1A0dw?oc=5",
+    "rank": 23
+   },
+   {
     "headline": "Scoop: U.S. sent more Patriots to protect Saudi, Qatari energy sites - Axios",
     "summary": "Scoop: U.S. sent more Patriots to protect Saudi, Qatari energy sites Axios",
     "source": "Axios",
     "date": "02 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbW9nY2JyUlRwbWlIYXMzaFJ4UElELUprckxfLU9Fa2FlREtjX2I1c3BSWl9qSS1SSGg3VU44UE9KbjlUaDNDcUQ5ZExmUG9Na3dwZjczX0xjbktrWDgxdWU0UzZIbmktNzNxa0o5TWV3cUgydGRNY2tXOVlFbnpzOU9oRQ?oc=5",
-    "rank": 23
-   },
-   {
-    "headline": "Houthis claim strike on oil facilty near Riyadh, accuse Saudi forces of pounding Yemen's capital - france24.com",
-    "summary": "Houthis claim strike on oil facilty near Riyadh, accuse Saudi forces of pounding Yemen's capital france24.com",
-    "source": "france24.com",
-    "date": "03 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWXFOZ19fTnRLdFoybW8zNWJ2OTAxT2xQd3poMTVzcFpvQTFMV2Q1SnhnaHhLSUY5OXBXZGN5NXlEVWVqTGZMQkVUelZQUkZORWtONUtqNFpjTlV5cTM2Vk9YbHVZZ0lQQ3BuTy1vM2dVY2xReWgxWWR1LUY1TUtRWDlfUUFoZEFkOUdybkVFQXZJZHVMalJiNm1hX3M2a2ZYOHlVc0xPV0p1RDU2YjN1M2wtSGtvY2w1?oc=5",
     "rank": 24
    },
    {
@@ -2784,21 +2781,21 @@
     "rank": 25
    },
    {
+    "headline": "Houthis claim strike on oil facilty near Riyadh, accuse Saudi forces of pounding Yemen's capital - France 24",
+    "summary": "Houthis claim strike on oil facilty near Riyadh, accuse Saudi forces of pounding Yemen's capital France 24",
+    "source": "France 24",
+    "date": "03 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWXFOZ19fTnRLdFoybW8zNWJ2OTAxT2xQd3poMTVzcFpvQTFMV2Q1SnhnaHhLSUY5OXBXZGN5NXlEVWVqTGZMQkVUelZQUkZORWtONUtqNFpjTlV5cTM2Vk9YbHVZZ0lQQ3BuTy1vM2dVY2xReWgxWWR1LUY1TUtRWDlfUUFoZEFkOUdybkVFQXZJZHVMalJiNm1hX3M2a2ZYOHlVc0xPV0p1RDU2YjN1M2wtSGtvY2w1?oc=5",
+    "rank": 26
+   },
+   {
     "headline": "Houthis claim attack on Aramco oil facility in Saudi Arabia - Middle East Eye",
     "summary": "Houthis claim attack on Aramco oil facility in Saudi Arabia Middle East Eye",
     "source": "Middle East Eye",
     "date": "04 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRFJTWEV4QXhjZUtSZF9tU1pwWVNVemNCZGZUWFBsNmZFNjVXbjgxanN0Vnd1b18xeUp2eUtaLVpkX1FvWG1TcnRmZGg4d29nN2dGejFXX0IxdDY5M2FwaVdSSk5BYkFHMTdiTXBfYUpzb3ViTkNNdThybTJ3VWJ1dE13aHhWa20xdF9kSTFPZTZ5Nm9TNmhHQVRma3h6TzJIVVJVZk52VjhsM2pyTGxn?oc=5",
-    "rank": 26
-   },
-   {
-    "headline": "Saudi Arabia shelves 2034 World Cup venue NEOM Stadium - jpost.com",
-    "summary": "Saudi Arabia shelves 2034 World Cup venue NEOM Stadium jpost.com",
-    "source": "jpost.com",
-    "date": "04 Oct 2026",
-    "tag": "sports",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YQm1DSHdudG8yS0dadVpZcFQyWTBFeVFCTkNYXzhyODdPWmJCNWJkR3ZnVXBJbFdZR2lRNFQzZG1yTjZFOVVVUXJ1bF90d0hHV3FKTTBKRmtNOWgz?oc=5",
     "rank": 27
    },
    {
@@ -2811,13 +2808,22 @@
     "rank": 28
    },
    {
+    "headline": "إيفان توني يحتفل بتأهل المنتخب السعودي إلى نهائي الخليج - الشرق الأوسط",
+    "summary": "إيفان توني يحتفل بتأهل المنتخب السعودي إلى نهائي الخليج الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "03 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxOTUl4Qm10SElsY0V4UGIzT0RuZFE5UzFDMGR5d1RkRm1XQ2h5anVSa2FoU2dQMWphNFpsSHc2b0U1dlExRXQ4MktaX2ZKZ1dBWVgyQmdnd204NUo2S0tLTTF1UGFWVlNvckVtN2ppSDc4QnpTVHl6d3k1ekpLUzVfalA1R2dHY3EzMDZNTWxFOHJWX0ZIWHlkT3dTMmc4b2x1U3padjM1TVhNcG5Yd1MtVWxDNjRMdENPNXh1bXFrUVBuVjFUTjA1a3RDdGt1d1E2VG9pdXJydHdDb2lPYnFyYlVJVmZYZ3BnbEhVVFhscjY5aEJPdWtzM0xxRzZ6Y2RDYlEwRW9NQU1HQnVtRzRQYjhzUlRIamkwMVRFWDg2VVNHek9sdDVjeHBQR3JLZk1kMldUdlFYb1FuTHN4cVNxZHpxYndxTVdaejRBMnUycXJBc3BZdkp0T3R2VllaTU9LRzJVNWRXVHBVQkExdUFUYmprZjQxbHhzTmNyR0RqOVhKUnVNNnR1ZUwySkkzU3VPVVFQUjJhV3UtZFZoVEZ1b3lqUU1Zd1JUUl93YzhfU21LRUdiNnU0cEprZkpmNmpFTGs4bGY5eV9aUThQb0ExY1pUQzAzU2tLMUwtRjFMbEVHZnFad1V0Ynlsak9YN19wTERvZzdOUmNNOElrdnNRQnlBVFg1VW9qT0ctU0dHZGtTeWtJT0JsTnl6cEJzLWJoaklwRE9IUldTZkVsWXlTZHduS1lBZW1lb0VNcGsxSE8tdlBsMW1WeEZ4OVVXbTNYS3NPZ3MwTQ?oc=5",
+    "rank": 29
+   },
+   {
     "headline": "الأسهم السعودية تقفز 1.4 % في أول يوم لتطبيق آلية أوامر السوق الجديدة - الشرق الأوسط",
     "summary": "الأسهم السعودية تقفز 1.4 % في أول يوم لتطبيق آلية أوامر السوق الجديدة الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "04 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiuwRBVV95cUxPOHlLcDRUaXkzVGZBTUVjeldmUHNQcFhVbnozRzdLWkxSNExpa2RhNE5zQXh3a01CcXhWcWhpaGZkUThHdUs5WlNCTmRrUWdNZzNWQnFqTkFwYm9oLVJObGZfX2lha3k3TUN5a1JoT3BOWE84Z3gzTFY2ZmNrN0J4dkNXREdoMGZRdU1WR29yTGhnTDk3QTU0Wmo5RkFNdGNaYmEtTVVBTHRtSnVCQmVZck52ckpjOVFacjRIRlZaSXowckxaclkyMGRoWFRhTmVkb0ZmWlpQdWx2dUdQNFU5MDk4Uzk2Q2laa0NidU1jYVowRFhQUm8xWmFtdG9rZGJyb2JGaUlhRG1tbElFeDJpbW5mMWVHbW5aZmVSMldtcU9sRnVJaFYyZHhqV1ZYTFNBU21iNnVSZFJzcGhfbEhlb0V6UktmQU9pcXUxLWQydUVwZWlRS1RvUE9wVGl3TzRpa0p2YkotaU9oYmJVX09wY1JuMkNfVTczN3IxZnhDckRMVmgxZG93SWcyZVRIbU45WlFKN203d1ItSVlVRHpoOW00UEU1YVNKWU9vZE9DZEZFWFhfZ2NEV3BaOUROWWhWZ2p6ODhOdnotcGNiYVhQeTRHTVZ2cjlJb2JSNWpVWHlnR2VYODkxd3h2S0JsdU1CX3VvT1I1V193cUtXLWlDSXhGenZnM2ZkbXVsSjJqdWRVb1ZrU0R0OVBtVUFES1M2b1pCMHdQd0dyZW0yOXItS3NMLWhzWUJ6Y2I0?oc=5",
-    "rank": 29
+    "rank": 30
    },
    {
     "headline": "مبيعات «المراعي» تقفز إلى 1.65 مليار دولار في الربع الثالث - الشرق الأوسط",
@@ -2826,7 +2832,7 @@
     "date": "04 Oct 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMi6gNBVV95cUxPcUlRVFExVlpNdXhwaGNNVGlPYndxWGVCd0JEQ0xJSzJCMVJPLVBVSlRuWF9xMU1oVUNGYmxqZlZVWXhHWXlOQlh6WHA4ekgyRGgwWEVtanJmVElnaG0tR2JiTmlCYUZBa0ZOZHNwZUpZQUhiZmlsdjRHbk5NX3g5SERreFFGem5UcGxfMWRYUWlacVM4TUI4b2g4b2xmQkNsSzlmaWlqdGdGRUJXQ2FuMy1yMVgwb1l0UGZkLTVVc04waDVpdXM5Uk5jRHhiY0g2RVFacGdsWEJ2ckFId1RCMjQxaTEtc1J1MGYyRm9NQlRQbUZ0cUFHSkhBWUpSZ0xaODE4cGRHWUl2X2R5Qm1CQTI1TGowdUdObTViR0RVT040V1pydnkweTd5eW01bHBtYjNTM1F5eVl5SXhEemE5S1M3ajE1MVRrYXlZd0ZQeVU2LWNXOERUaDBVZFJxMTY4QmhxcS1kVmNwbU1hYUtmcGttQ3hvMUdXYUtjQXBob3FRUVRzUERBNkNsSzhXbzVUZEQ0NndBNjRoT2NUYmxrVWJtTFctZlV0Y2t4OWpZSmdrM2lYUURpWHdhd01Nd25qX0M5YkVZTTRiRTh0Y014SkhpckNIaU9UbU16U19pb3ZRbmRma29qYUln?oc=5",
-    "rank": 30
+    "rank": 31
    },
    {
     "headline": "المبطي لـ«الشرق الأوسط»: الحاجز الأخير حرمني ذهب ناغويا... وأطمح لميدالية أولمبية - الشرق الأوسط",
@@ -2835,7 +2841,7 @@
     "date": "04 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMisAVBVV95cUxPU2t4LWhuM1haY0xFZGNoYkVpeUlBdDRNVHNOZDNHSGpfVFAtVnI4Y3I5LTdMY0lYNHh0OTM1WHFGeGQ2XzN3S3lIOWVBcXdzemF4ZGVZR1gxaUxXM3M3RFhaQnhrT3dyYThqakRQcDNhTTVkdzE3cnlIdU1fRk5PeUFHVzR5ZFNBWWtzTVJ3dkVaak12X0hfNENXaWlKaFZ4WXBmVUFiNEpFQy1FWVljbVFoclhGZTBYVjlCVElWeV93OFZBUmg2SkN5NUpCWE5UUWZkbXdmbWsydUZJd0UxM1NiR3pMcVdFWkxJYVlwNWMzZXVnVkdyZS1MUnVtOWJySlpQZWp1U3RIM3l5eXFwR0NqVDdRRmJCRmoxNG9fZko5MmlUeDRMWGhNaUFJT3VmU29VVGFTR3pwRDB5ZmtUOWJfQTBBZHJfZmhUMlVYaFFGMkNYRU16Z1YwYlNlc1FrWXplZ3FfWVFlT0VXeC1nZWdmOTZITzZpa21uUWtvYURpcGxlY0t3Z1cwbW16ZldHeUFkSE1mcnNWMWJreVFFRmYwVlFveFpqOERTU21uWU90dkI0cGhHZUJ2YTc0RHlmRWhWaE9QMUJPR3hMcVl6MGlMSklXeDVXRVhOX3pkQ1lZQ2NZV3hxSFhweVZaeVpyU1RCRDlGZ1J0U2FIbl9wSkhaRjRsTnA5T3JLNk9iMzJIZzI3QnlZaHdQOFRqOE5Qd0EyWTFLZV9hTWJ4S2R3SDdUUjJ5VlVFUXE2M3RwSUNNekprSVh6ZjJkTkFDdVA2YllBNlFINHoteG5SZ2Q4M1RLOERwQV8zQWFaeVppZEcxaGRHVVFEb18tS2VxTW94QzVjc21kNlFOWHJjclVpR19RUXhwN0R3UEhCSWRVb3JVYzdITDd2T3IxUXlZdkUz?oc=5",
-    "rank": 31
+    "rank": 32
    },
    {
     "headline": "«آسياد 2026»: الدهامي يُهدي السعودية ذهبية جديدة في الفروسية... والراجحي يتوج بالفضية - الشرق الأوسط",
@@ -2844,7 +2850,16 @@
     "date": "04 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxPaC1zSUtDdTFobDVGZ2pNYTJXS0ppcnkzazdxUVVaTXJrVER5RzRWU0lRMW41NHY3NWlvQWdpaHp6ZElxTWsyRGVhSEE4OFI4ekZNYnF6d2JjQUhpY3R4YVZaOUNqRFVCUGtJMmFLSlVDRTRpREE1YWxocV8yNDBYU0F6QTN3cWlUT28yRENTYU9PZFZZb1ZOQU1yMzNFU1JpRVRWMlZiMHZueGQtQTFnQVl1Q1JBSTJKWEhLVGtlQnlXcVFOb3JpLUZieDZITThwYXRIbTh3Ti1xUUg4cTIwN1RZR0VCN0JtWGswNFh0T243YXE4SGM3SFVJVmhZcW00cUxWbkVVM2RoMHpia2w5TTBPMjFKUzFzd2FCQnI0VzBqWFpiTEJveUEteXlJWGU2NXpTcUJocUNzN2l0VU14WG9pZThlVnVUeGpVU1VJdXJrcmU4Q1pkVjdHdlg0TGwtSUwxbl94bE0yR0p6OThPWjRCWmgycXlOc0lWaEx6dEFYOE5vcS1oc0txeGkwRlJubng3WXFPZWJWNUI0ZThXb2xtWmZZa3pidVBaenVVTXhKeEgtaHF3TGhydjhtTGFZSnhVMTdTMkd5UzBaWS1JRHdKYmJYLVV4T0FtWURRRHNPeHEzdk1pd1ViUUgtYkNiaWcxSnZTMGo5bEpySzNqVE1VSm84NmgzM3h2V3RNUmtzdlFJRldYRGNyUFJjUWJXb05GYkJuR2wtWnUwdUcyTG5Kd3pGZFJXTzUwYzhNYUlTbDNPRUduSXhJZnRYeERibE14QVFEMVdDakRpekRtYU82OGNxZGc1YkxScm4ydlNZOVJfNFl1dVFqMlZtMWM3OHkxdUcyWDBDT0c0Y3c?oc=5",
-    "rank": 32
+    "rank": 33
+   },
+   {
+    "headline": "ماذا تعني آلية أوامر السوق الجديدة في «تداول» السعودية؟ - الشرق الأوسط",
+    "summary": "ماذا تعني آلية أوامر السوق الجديدة في «تداول» السعودية؟ الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "04 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi9ANBVV95cUxNU1pBVnpxSEktazR4VG9NcWszRXpmOXAtVEpxWWZ2Si1zYzZwVVozOVBxeGU5eHA4d1NDSDRSLW1XX05MRDU4U0VHTHJNUjJEU09JZXY2TVcxM2F0SEZINm1RVTZOT29PeWhLRTRVajE4cGZNVkJJSmc0OUU3V3I2QTJvNWxvQUdJZmhob3A1Tkx3ZTFxOXNCSzc5YzViRHZHRmNoNGRjRlJPZjZpbWdncHVKSzZsRzgzS21wMXVoQXFJdzIzdHBIZ0c2YndJZVE2YXJzaTdJZXJRdGhCblFiSnFjNXA0NWNJNDRwbjVnRHdoMkdHckJmaWdoeDg0bUJyQmxsbkJSWGJva085Yml6dENqUVRoWG5HWmlOWGNSSVRPZlFBS3pNZUVnYVlFaXNQV25sVG5XUHo0Z2hOb1hZNHo2RFlQdTV2YTM4YnZTSnZzWFhzR0pMQ25jelJBNHNCaXZBb3ItdlZGZldRQ0FISV9QSFBKLUYzMTJlSldCX1JwZDJoVXJ0T2E3QTZCWkhyaGw1VFhlX2FRdFZnUU1KOTdWa1hIR0pVOEZhZDJTdHNCQmZMcVBnWG9KLXp5em1SemhlMktVdFNSNTFidE5HbzNERl9xY0FSdjlRYWVFTkE0OXlaSlZ5NFRvRUppTFlpVVdvaA?oc=5",
+    "rank": 34
    },
    {
     "headline": "البريكان يشيد بالجماهير السعودية ويعدها باللقب الخليجي - الشرق الأوسط",
@@ -2853,16 +2868,7 @@
     "date": "03 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi3ARBVV95cUxNbWdubzFXSllZNFVWRjZuSDMzNWFRVkVxRUYwVnBxTV82OWY1NlV6eWxhWUtHMFF4UTBxR0NleFJyM0dKcExWT3VpdWVJRlZzWFM0cmxKRUJMWXU5OUU2M1pHUkl6R2JtSXFQRnQ0NVcyVGVQUENMMFZNU24ybGhyeHNLMzdqNFNxR2xPT3BERmNRaE0wdjF3U0xSUk01Y0IzYnVqVFl4UVY2Z3VRaDktNXpTVTJoRDVZVG9ISXpCMkxJN21UU3hHdnlNOU11TDJvV081MUYzbnpSZHZSeHV0WXNmTUltdldOWlJ6cjV5UUN3bkdPamp4aVhEQ3hEOVpvNTBhTjNVdnJralhQZTZqS29UbFhuWEdtRlR2SzA5MVdtUk52ZC15Y25id2JHQXpqYXhNSDlwY3ZGeTNSa3kxaEJpS2gxTGNmRzM1akNqdF9vamZ2YXlYVzgwQmJLRFFKcVJ1UXdrRW5la0QzUDdCTXktMTFrNG83RFZzOE9acDRRYmlOY1FEZ2lvUHBFR1NzYzFlQlp0ajRNUDViTXBSUzB0d1E5LW13Ul9uTzJmR1NUOU5acW1jRVVMcXYxMzVvdkJUREFnLVd6TmtVTzR2ZUN5dXRmdU9Cc2FlV1JyY09nUXNpT200VVZ6Mk13alQwcF81MXRhSHk1S3FKTG1HTXJFUThzOWVqUnI1bnUzUE9Vd0tFZkQyb3FHV1V1V29xTmRUbTByUVF6NTBXM1E3cHdid0FzbW53ZnFISUxfOGVNdTNkblhqRnlUQXU4ZW8tMmdybktIaEdjN1Qy?oc=5",
-    "rank": 33
-   },
-   {
-    "headline": "إيفان توني يحتفل بتأهل المنتخب السعودي إلى نهائي الخليج - الشرق الأوسط",
-    "summary": "إيفان توني يحتفل بتأهل المنتخب السعودي إلى نهائي الخليج الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "03 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxOTUl4Qm10SElsY0V4UGIzT0RuZFE5UzFDMGR5d1RkRm1XQ2h5anVSa2FoU2dQMWphNFpsSHc2b0U1dlExRXQ4MktaX2ZKZ1dBWVgyQmdnd204NUo2S0tLTTF1UGFWVlNvckVtN2ppSDc4QnpTVHl6d3k1ekpLUzVfalA1R2dHY3EzMDZNTWxFOHJWX0ZIWHlkT3dTMmc4b2x1U3padjM1TVhNcG5Yd1MtVWxDNjRMdENPNXh1bXFrUVBuVjFUTjA1a3RDdGt1d1E2VG9pdXJydHdDb2lPYnFyYlVJVmZYZ3BnbEhVVFhscjY5aEJPdWtzM0xxRzZ6Y2RDYlEwRW9NQU1HQnVtRzRQYjhzUlRIamkwMVRFWDg2VVNHek9sdDVjeHBQR3JLZk1kMldUdlFYb1FuTHN4cVNxZHpxYndxTVdaejRBMnUycXJBc3BZdkp0T3R2VllaTU9LRzJVNWRXVHBVQkExdUFUYmprZjQxbHhzTmNyR0RqOVhKUnVNNnR1ZUwySkkzU3VPVVFQUjJhV3UtZFZoVEZ1b3lqUU1Zd1JUUl93YzhfU21LRUdiNnU0cEprZkpmNmpFTGs4bGY5eV9aUThQb0ExY1pUQzAzU2tLMUwtRjFMbEVHZnFad1V0Ynlsak9YN19wTERvZzdOUmNNOElrdnNRQnlBVFg1VW9qT0ctU0dHZGtTeWtJT0JsTnl6cEJzLWJoaklwRE9IUldTZkVsWXlTZHduS1lBZW1lb0VNcGsxSE8tdlBsMW1WeEZ4OVVXbTNYS3NPZ3MwTQ?oc=5",
-    "rank": 34
+    "rank": 35
    },
    {
     "headline": "«أكوا» تعلن الإغلاق المالي لمشروع توسعة «رابغ 2» بـ2.58 مليار دولار - الشرق الأوسط",
@@ -2871,15 +2877,6 @@
     "date": "04 Oct 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxOaXFJWGdpQlNBLWl6UnVqRnRpVzZxdU5JRlNKc3oyelp1QWNSLTc4dnNTMVo1MWZSWHotQXRHcHRKa1J4dUp6UnJ6akRJM1VrVW5WX3VBVUk5UEZTQmg5ZGc5T0R4bXJpZ2xKUDVLNllnVndraldKOVlOa095b1BtZlZiN3FWYjg1N3VIMkJneXF3TFZYa244Ym9ZaUVIZmViQW9pX01zV3laRE9hMzRBVllJTHBnZDNBdXpVLXlEYXF1OWFLMnRYeFBuUGdjaGNIQWZ6ZWN5YjdrR1dfM2VHQjlOVktYeVBhcEV1QndyUXEySThzZ29LaDhha3oyNy1LQnZ3LXk2N2N5STduWUFYTkRqUHlNeXEwNXEwNnAwQlQ3enR2MWE5OGpEZ3dHbm9Kdy1iS0UzU3g3YVpoQ3laQmtpMnRFaWxYS0lNV0tCZHlNX1dfSUc1Zl9pTEFuZUo4T3VNb2VaZy12ZjQwY2UzSGlfRlFWdFAyc1NDYkx5Uk81SWpPRHhZNHVhUDVicGYxdUl4a2JWUFpBeFl1ZDh1bVJHMHNicFEyS0xZMUZUM0VwNmNjVmkybExKNE5lN2s3NHd4aHNMNUM4N0lHOXhzbFBIdzJITkNCNzdhbjE1ZFctVTR3bUI3Y2RlOEUyVzZrNkI3Wjlrb3FKQkk3MXJTZ3cyVjhCdjRidzN6WWZPWVBjTE9h?oc=5",
-    "rank": 35
-   },
-   {
-    "headline": "الخطاب السعودي... استقرار وردع وإصلاحات اقتصادية متسارعة - الشرق الأوسط",
-    "summary": "الخطاب السعودي... استقرار وردع وإصلاحات اقتصادية متسارعة الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "04 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi1ARBVV95cUxPWWx0c0VQNXc0d3cyQU43cDJzcEVZWjF5TUx2T05LWE1ERHdyeHVzTVFIYmFjbjZhYkcweUx4SkdVdmliQnRPWGRBdkRZR1I3R3JPSEZIVmQxX2h1Vkhrbi10SUJ3SlctSzJPSkxDeXJ6NU0zT1prdmhPZi01QkttTmt2ZnpiZFNwbi1pRTJmZVBuMFlVZTVfTmtJTWFiZEdMak9KZG81WU9Hc0Q1Y0o4eV9RdWoxNVU4eTVUVUVwa0FBZ0VTRVJyclMtWUphMUlIRDhYMXZBVUduUFBDRlJXUGFoaEZodnd6UjhOUkxsbERJWmpsR19Ra0ZUakFacjRZbXZGZnZSd1ZWd3ZRXzNBcDMwdFQ1QWNCT19lTm40ZWlIT3pfZzdkRXhZaUpSU2ZmSnFBTmdZb0RqYm9Ja2FHLUJHdlFlb2lMdlZvd2NRZkROV1V2eno3b0xYY3dWSzd0TEhnc0VnOXNiNHluejZTZXVwcnNVZFV0TFNPeUVSMXgybTN4V1NWN0hTOHROY2h4N1hSNnRDUWVBWXVobUU3SzdOTkRQZlFCa2tjQXJUOEh4NC1VTVpXM1FCTGIxVFB0b25jbVpuM2E2c1NCZ1BGejJVeldTeEpOazFQQjA3YUlsSE45ZUt3OXZXUmY2M1lZR2o4OUtDTTcyTVp4cEhMZlU3Z0NzZWtqWHNNZWttNHlEXy1Sc0JscXlLeXRtMFI3U0VsR3VQcmVZVnVnZjdpNnd6VDBDdlZoZmxaOGtFby1vWTZCdkNBTGJFNHdvNFd0VkRrMw?oc=5",
     "rank": 36
    }
   ]
@@ -4879,13 +4876,6 @@
    "confidence": "medium",
    "at": "2026-10-04T00:00:28.738072+03:00"
   },
-  "#رحله_المليون73": {
-   "english": "#Million_Journey73 (\"Journey of the Million\", instalment 73)",
-   "summary": "A numbered, serialised promotional hashtag — the sequential \"73\" is typical of sponsor giveaway or prize-draw campaigns on Saudi X, where users repost a branded tag for entry; it is sitting alongside Gulf Cup and \"official bank of Saudi football\" tags, suggesting a bank or telecom tie-in to the national team's run. The exact sponsor and prize cannot be determined from the words alone.",
-   "kind": "business",
-   "confidence": "low",
-   "at": "2026-10-04T00:21:25.910945+03:00"
-  },
   "#ملعب_الانماء": {
    "english": "#Alinma_Stadium",
    "summary": "Alinma Stadium is a Riyadh football ground (the Prince Faisal bin Fahd Stadium, renamed under a sponsorship deal with Alinma Bank, a major Saudi lender that also appears on this board as the 'official bank of Saudi football'). It is trending as the venue tag for a high-profile match fans are watching and posting from.",
@@ -4921,61 +4911,47 @@
    "confidence": "medium",
    "at": "2026-10-04T13:00:27.487570+03:00"
   },
-  "الخطط الرابحه": {
-   "english": "Winning plans",
-   "summary": "Promotional phrasing from the same cluster of business slogans, the sort of line used in bank, insurance or investment-product advertising. Its appearance next to a dozen near-synonyms is the signature of a bought or bot-amplified campaign.",
-   "kind": "business",
-   "confidence": "medium",
-   "at": "2026-10-04T13:00:27.487570+03:00"
+  "الصقور الخضر": {
+   "english": "The Green Falcons",
+   "summary": "The popular nickname for the Saudi Arabian men's national football team, derived from the green kit and the falcon's status as a national symbol. It trends whenever the national side plays a high-profile match.",
+   "kind": "sport",
+   "confidence": "high",
+   "at": "2026-10-04T15:00:25.470499+03:00"
   },
-  "المبادرات المتميزه": {
-   "english": "Outstanding initiatives",
-   "summary": "Corporate/institutional boilerplate trending within the same promotional block; \"initiatives\" is also standard Vision 2030 and CSR language, so it may be tied to a company publicising its programmes. Not a news story in itself.",
-   "kind": "business",
-   "confidence": "medium",
-   "at": "2026-10-04T13:00:27.487570+03:00"
+  "مختار علي": {
+   "english": "Mukhtar Ali",
+   "summary": "A personal name trending alongside Gulf Cup and Saudi-vs-Qatar chatter, most likely a footballer or match official connected to the game being discussed. Which individual is meant cannot be confirmed from the name alone.",
+   "kind": "sport",
+   "confidence": "low",
+   "at": "2026-10-04T15:00:25.470499+03:00"
   },
-  "القرارات الماليه الحكيمه": {
-   "english": "Wise financial decisions",
-   "summary": "A personal-finance advertising line — the kind used in bank savings, lending or financial-literacy campaigns — trending as one of many identical-register slogans, which indicates paid amplification.",
-   "kind": "business",
-   "confidence": "medium",
-   "at": "2026-10-04T13:00:27.487570+03:00"
+  "علي الامام": {
+   "english": "Ali Al-Imam",
+   "summary": "Another individual's name trending within the same football conversation, plausibly a player, referee or TV commentator linked to the Saudi-Qatar fixture. The specific person is not identifiable from the words alone.",
+   "kind": "sport",
+   "confidence": "low",
+   "at": "2026-10-04T15:00:25.470499+03:00"
   },
-  "المشاريع العظيمه": {
-   "english": "Great projects",
-   "summary": "Generic business-slogan phrasing from the same coordinated cluster; in a Saudi context \"projects\" evokes giga-project and Vision 2030 investment talk, which marketers borrow freely. No identifiable underlying event.",
-   "kind": "business",
-   "confidence": "medium",
-   "at": "2026-10-04T13:00:27.487570+03:00"
+  "فوز السعوديه": {
+   "english": "Saudi Arabia's win",
+   "summary": "Literally 'the victory of Saudi Arabia', posted by fans celebrating the national team winning a match. Given the surrounding trends it relates to a Gulf Cup fixture against Qatar, though the result itself cannot be confirmed here.",
+   "kind": "sport",
+   "confidence": "low",
+   "at": "2026-10-04T15:00:25.470499+03:00"
   },
-  "رضا العملاء": {
-   "english": "Customer satisfaction",
-   "summary": "A standard corporate service slogan trending alongside the other business catchphrases, consistent with a bank or telecom promoting service quality or publicising a satisfaction award. Purely promotional rather than newsworthy.",
-   "kind": "business",
+  "المباراه النهاييه": {
+   "english": "The final match",
+   "summary": "Arabic for 'the final', used by fans discussing the title-deciding game of a tournament. In this board it points to the concluding match of the Gulf Cup involving Saudi Arabia and Qatar.",
+   "kind": "sport",
    "confidence": "medium",
-   "at": "2026-10-04T13:00:27.487570+03:00"
+   "at": "2026-10-04T15:00:25.470499+03:00"
   },
-  "الاعمال الناجحه": {
-   "english": "Successful businesses",
-   "summary": "Marketing boilerplate aimed at entrepreneurs and SMEs, trending as part of the same coordinated batch of business slogans rather than on its own merits.",
-   "kind": "business",
-   "confidence": "medium",
-   "at": "2026-10-04T13:00:27.487570+03:00"
-  },
-  "الاعمال المتينه": {
-   "english": "\"Solid Businesses\" / \"Robust Enterprises\"",
-   "summary": "A generic corporate-praise phrase (\"solid/robust business\") that is trending alongside a cluster of near-identical slogans such as \"winning plans\", \"financial excellence\", \"thriving businesses\" and \"customer satisfaction\" — the hallmark of a coordinated promotional or bot-amplified keyword push rather than an organic conversation. The surrounding board, which includes a hashtag for \"the official bank of Saudi football\", suggests a bank or financial-services marketing campaign is seeding these phrases.",
-   "kind": "business",
-   "confidence": "medium",
-   "at": "2026-10-04T14:00:27.054652+03:00"
-  },
-  "المبادرات الصلبه": {
-   "english": "\"Firm Initiatives\" / \"Strong Initiatives\"",
-   "summary": "Another generic business slogan (\"firm/strong initiatives\") from the same block of trending phrases as \"distinguished initiatives\", \"great projects\" and \"wise financial decisions\", pointing to an orchestrated keyword campaign rather than a news event. Such phrase clusters in Saudi trends are typically paid or automated amplification tied to a corporate or banking sponsorship push.",
-   "kind": "business",
-   "confidence": "medium",
-   "at": "2026-10-04T14:00:27.054652+03:00"
+  "كاس الخليج": {
+   "english": "The Gulf Cup",
+   "summary": "The Arabian Gulf Cup, a long-running regional football tournament between the Gulf states (Saudi Arabia, Qatar, UAE, Kuwait, Bahrain, Oman, Iraq and Yemen) held roughly every two years. It draws heavy Saudi social media traffic, especially around knockout games and the final.",
+   "kind": "sport",
+   "confidence": "high",
+   "at": "2026-10-04T15:00:25.470499+03:00"
   }
  }
 }
