@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Tuesday, 06 October 2026 · 19:00 KSA",
+ "lastUpdated": "Tuesday, 06 October 2026 · 20:00 KSA",
  "days": {
   "2026-09-23": {
    "label": "Wed 23 Sep",
@@ -2151,19 +2151,19 @@
     },
     {
      "rank": 4,
-     "text": "#نينجا_يشجع_الاخضر",
+     "text": "#TKN247",
      "cat": "General",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "#وين_تروح_اليوم",
+     "text": "#الانماء_باي",
      "cat": "General",
      "pts": 7
     },
     {
      "rank": 6,
-     "text": "#تجوال_يضبطك",
+     "text": "#نينجا_يشجع_الاخضر",
      "cat": "General",
      "pts": 6
     },
@@ -2175,37 +2175,37 @@
     },
     {
      "rank": 8,
+     "text": "فوز المنتخب السعودي",
+     "cat": "Football",
+     "pts": 6
+    },
+    {
+     "rank": 9,
      "text": "الرييس السوري",
      "cat": "Politics / Diplomacy",
      "pts": 6
     },
     {
-     "rank": 9,
-     "text": "الإمارات",
-     "cat": "General",
-     "pts": 6
-    },
-    {
      "rank": 10,
-     "text": "فوز الامارات",
+     "text": "التمويل الشخصي",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 11,
-     "text": "رييس الجمهوريه العربيه السوريه",
+     "text": "للسعودية",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 12,
-     "text": "فوز المنتخب السعودي",
-     "cat": "Football",
+     "text": "رييس الجمهوريه العربيه السوريه",
+     "cat": "General",
      "pts": 4
     },
     {
      "rank": 13,
-     "text": "التمويل الشخصي",
+     "text": "ملعب الانماء",
      "cat": "General",
      "pts": 4
     },
@@ -2217,37 +2217,37 @@
     },
     {
      "rank": 15,
-     "text": "علي الرسول",
+     "text": "نجيب البطوله",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 16,
-     "text": "المصالح المشتركه",
+     "text": "فوز سعودي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 17,
-     "text": "للسعودية",
+     "text": "علي الرسول",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "اشرف الخلق",
+     "text": "عبدالله الخيبري",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 19,
-     "text": "وزير الطاقه",
-     "cat": "Politics / Diplomacy",
+     "text": "المنتخب اليوم",
+     "cat": "Football",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "طارق الحبيب",
+     "text": "المصالح المشتركه",
      "cat": "General",
      "pts": 4
     }
@@ -2262,15 +2262,15 @@
      "score": 88
     },
     {
-     "text": "#نينجا_يشجع_الاخضر",
+     "text": "#TKN247",
      "score": 76
     },
     {
-     "text": "#وين_تروح_اليوم",
+     "text": "#الانماء_باي",
      "score": 64
     },
     {
-     "text": "#تجوال_يضبطك",
+     "text": "#نينجا_يشجع_الاخضر",
      "score": 52
     }
    ],
@@ -2278,17 +2278,17 @@
     {
      "icon": "📌",
      "label": "General (17)",
-     "items": "#السعوديه_الامارات · #ولي_العهد · فوز السعوديه · #نينجا_يشجع_الاخضر · #وين_تروح_اليوم · #تجوال_يضبطك · كاكا · الإمارات · فوز الامارات · رييس الجمهوريه العربيه السوريه"
-    },
-    {
-     "icon": "🏛️",
-     "label": "Politics / Diplomacy (2)",
-     "items": "الرييس السوري · وزير الطاقه"
+     "items": "#السعوديه_الامارات · #ولي_العهد · فوز السعوديه · #TKN247 · #الانماء_باي · #نينجا_يشجع_الاخضر · كاكا · التمويل الشخصي · للسعودية · رييس الجمهوريه العربيه السوريه"
     },
     {
      "icon": "⚽",
-     "label": "Football (1)",
-     "items": "فوز المنتخب السعودي"
+     "label": "Football (2)",
+     "items": "فوز المنتخب السعودي · المنتخب اليوم"
+    },
+    {
+     "icon": "🏛️",
+     "label": "Politics / Diplomacy (1)",
+     "items": "الرييس السوري"
     }
    ]
   }
@@ -2510,7 +2510,7 @@
   "تحرير اليمن": 4,
   "فضل شاكر": 4,
   "ابو عابد": 4,
-  "فوز الامارات": 10,
+  "فوز الامارات": 4,
   "#فجر_اليمن": 14,
   "#كمل_طريقك": 12,
   "باب المندب": 10,
@@ -2533,35 +2533,27 @@
   "#السعوديه_الامارات": 14,
   "#ولي_العهد": 12,
   "فوز السعوديه": 10,
-  "#نينجا_يشجع_الاخضر": 8,
-  "#وين_تروح_اليوم": 7,
-  "#تجوال_يضبطك": 6,
+  "#TKN247": 8,
+  "#الانماء_باي": 7,
+  "#نينجا_يشجع_الاخضر": 6,
   "كاكا": 6,
+  "فوز المنتخب السعودي": 6,
   "الرييس السوري": 6,
-  "الإمارات": 6,
-  "رييس الجمهوريه العربيه السوريه": 4,
-  "فوز المنتخب السعودي": 4,
-  "التمويل الشخصي": 4,
-  "احمد الشرع": 4,
-  "علي الرسول": 4,
-  "المصالح المشتركه": 4,
+  "التمويل الشخصي": 6,
   "للسعودية": 4,
-  "اشرف الخلق": 4,
-  "وزير الطاقه": 4,
-  "طارق الحبيب": 4
+  "رييس الجمهوريه العربيه السوريه": 4,
+  "ملعب الانماء": 4,
+  "احمد الشرع": 4,
+  "نجيب البطوله": 4,
+  "فوز سعودي": 4,
+  "علي الرسول": 4,
+  "عبدالله الخيبري": 4,
+  "المنتخب اليوم": 4,
+  "المصالح المشتركه": 4
  },
  "news": {
   "date": "06 Oct 2026",
   "domestic": [
-   {
-    "headline": "Yemen’s Houthi Rebels Strike Two Airports in Saudi Arabia - WSJ",
-    "summary": "Yemen’s Houthi Rebels Strike Two Airports in Saudi Arabia WSJ",
-    "source": "WSJ",
-    "date": "06 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNb1V3ay1naHVaQ203NzVqdC1peEhfckdfSG9VX2dRU0lkMHNrT2tRT2tfLWtsS0dyb2pNTzVhYnhEMi1ONFc4OTlwTWlmaVVWWF84ZXdNeFBpbFNyT0ltZFJBem0ycklXZFJsSDVpcGVSSXpBUl9JWm9HWEliSEFDZ2FUN3pwLUZVSGVaME1CYWlIMmE4SVpLazNiVGcxZ2lHVjJrOUh3?oc=5",
-    "rank": 1
-   },
    {
     "headline": "Why Saudi Arabia’s Last War in Yemen Turned Into a Quagmire - The New York Times",
     "summary": "Why Saudi Arabia’s Last War in Yemen Turned Into a Quagmire The New York Times",
@@ -2569,34 +2561,70 @@
     "date": "06 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnRySEhOdmpmbVBQYjVYVldxbDd6N3BDb3JMT2pCVHBtdzRVNWZLOTZ6RENGeXMzUHN5MXJIRlduall0bGIwelRDQUVyUmZCSTlNWXdBdEpzODJubVV5bWdXQ0hLOTlacEZBMGc0M1k4NUZsbzdJeDQyUHdfcVI5WUdCY1c4NG5wSHFla0EyUG1xTUVGa1RwcUlQLWo?oc=5",
+    "rank": 1
+   },
+   {
+    "headline": "Yemen’s Houthi Rebels Strike Two Airports in Saudi Arabia - WSJ",
+    "summary": "Yemen’s Houthi Rebels Strike Two Airports in Saudi Arabia WSJ",
+    "source": "WSJ",
+    "date": "06 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNb1V3ay1naHVaQ203NzVqdC1peEhfckdfSG9VX2dRU0lkMHNrT2tRT2tfLWtsS0dyb2pNTzVhYnhEMi1ONFc4OTlwTWlmaVVWWF84ZXdNeFBpbFNyT0ltZFJBem0ycklXZFJsSDVpcGVSSXpBUl9JWm9HWEliSEFDZ2FUN3pwLUZVSGVaME1CYWlIMmE4SVpLazNiVGcxZ2lHVjJrOUh3?oc=5",
     "rank": 2
    },
    {
-    "headline": "Saudi Arabia says three wounded in attacks on airports near Yemen border - aljazeera.com",
-    "summary": "Saudi Arabia says three wounded in attacks on airports near Yemen border aljazeera.com",
-    "source": "aljazeera.com",
+    "headline": "Saudi Arabia says 2 airports were hit in renewed fighting with Houthis and other Mideast news - AP News",
+    "summary": "Saudi Arabia says 2 airports were hit in renewed fighting with Houthis and other Mideast news AP News",
+    "source": "AP News",
     "date": "06 Oct 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWHVKeVJtVklCdVVISmNIb3NVbk9kV1dRYmtMX1dxRTlWWThPNmRzTkIzUlF2WGdVYWxST3JqU3p0akJDUU9jWm84clpuSkEyMG94ZmpoNzN4MkFaa3BjcnRxWnpGSlZBdFlUZ1R2YVFpM1dWdVJqeHAwaWNnRjhzNWx1SWNDb1R1c2pILWdrQ3U4TEZiN2pYdG5HN0s1dTRDMnBKTndzVjVFa2FQSlJqVkVXSdIBuAFBVV95cUxOYW9TMV9wZEVndkZNZlhUSEtmdGYxbktLalVSY3RPOE9tVlM3U041VndUR1VRTTNla2FpYlZvbDdzRjUtM0QxNnpOWmpQdl9LbkhMZG5iM0pBOENqR2Z2eTI4dVRIWC1lV1Z0OWVxZTBLdzB5Wk1oR241bGpKenFoVDdVQmlBSUZhTXNkX09wUmJ2MW5VMG85b1dPdU1ncXN0TWoybzh0bHR2RzdwODZLdEJSb3Z1dkt4?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUEREcFpjTm9qdzNSb19SaFZQMl9aTzloS3g3QWY3bXhTR1R2anBNZFhjbElHVm1iSXFqT2RWU25jdzRkNGNZTDl5bnNGOVZyQlJNWHFBc1JqcFRGenVOZktzWVkyVHpmNEhRTEJNRXI3bkpfWW9nVlVuZUEyVmFiU0U5U2JoNnNYby13aHBXWGdCUUFHZ0JDNXFzeTRQR21abERHRW05ZVNuTW8?oc=5",
     "rank": 3
    },
    {
-    "headline": "Saudi energy minister says oil pumped through East-West pipeline reached 5.8 million barrels - Reuters",
-    "summary": "Saudi energy minister says oil pumped through East-West pipeline reached 5.8 million barrels Reuters",
-    "source": "Reuters",
+    "headline": "Saudi Arabia says three wounded in attacks on airports near Yemen border - Al Jazeera",
+    "summary": "Saudi Arabia says three wounded in attacks on airports near Yemen border Al Jazeera",
+    "source": "Al Jazeera",
     "date": "06 Oct 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOGhwS0d6Y0FFQWI2RTNHYXE1eG1RRTBWWWp2SDFrZUVMSG1EcHNwN3lpMURoaktVTHh0bEQ2eDMyUkg0ZGMzUldHV1ZTSXFYbXo0UFI2Vmk3SWU2NzdTYk9WZUlqZmpCam9uVFl1TjRST0FlY1hRSjVFVkt3TGU5NTNDczZvS2hMUldFbGRaQ2c2QlJTdUFRbUtGRmhBaUFiOFh4ZW0yR2hvUEUyNlZXQkxNZDJfNDMyVXVPX21LN0lGbWRUOGc?oc=5",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWHVKeVJtVklCdVVISmNIb3NVbk9kV1dRYmtMX1dxRTlWWThPNmRzTkIzUlF2WGdVYWxST3JqU3p0akJDUU9jWm84clpuSkEyMG94ZmpoNzN4MkFaa3BjcnRxWnpGSlZBdFlUZ1R2YVFpM1dWdVJqeHAwaWNnRjhzNWx1SWNDb1R1c2pILWdrQ3U4TEZiN2pYdG5HN0s1dTRDMnBKTndzVjVFa2FQSlJqVkVXSdIBuAFBVV95cUxOYW9TMV9wZEVndkZNZlhUSEtmdGYxbktLalVSY3RPOE9tVlM3U041VndUR1VRTTNla2FpYlZvbDdzRjUtM0QxNnpOWmpQdl9LbkhMZG5iM0pBOENqR2Z2eTI4dVRIWC1lV1Z0OWVxZTBLdzB5Wk1oR241bGpKenFoVDdVQmlBSUZhTXNkX09wUmJ2MW5VMG85b1dPdU1ncXN0TWoybzh0bHR2RzdwODZLdEJSb3Z1dkt4?oc=5",
     "rank": 4
    },
    {
-    "headline": "Saudi Arabia, Pakistan and Turkey trigger mutual defence pact over Houthis - Financial Times",
-    "summary": "Saudi Arabia, Pakistan and Turkey trigger mutual defence pact over Houthis Financial Times",
+    "headline": "Two Saudi airports targeted on Monday as fighting with Yemen's Houthis escalates - Reuters",
+    "summary": "Two Saudi airports targeted on Monday as fighting with Yemen's Houthis escalates Reuters",
+    "source": "Reuters",
+    "date": "06 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWGFEc1RqT0d3WGh1LV9WMUNxNDhDdElPXzJ1eDRDS21lcHhZWUJwYnNLOElMQmJmWm9ZYnZ5YVhSSmtsZUtGZko3ejNka3B0UUppcHJ1SVdwM0ZGa0VlWU93eWVaREp2dURzVFZmaS05N3VBWTIzcERZTGtfXzFXX1dKMGl4RDlnMENxY3Rjb1gydHl4R3BuYWwwS3NOUE9VMXFGT25JUHpCVVZRQXN6SmpJUHY3eFFQUFpsMXZ0ZGFVZ0dMOHc?oc=5",
+    "rank": 5
+   },
+   {
+    "headline": "Digital Laws and Governance Around the World: UAE, Qatar and Saudi Arabia - IAPP",
+    "summary": "Digital Laws and Governance Around the World: UAE, Qatar and Saudi Arabia IAPP",
+    "source": "IAPP",
+    "date": "06 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc0s5ZFVOcmo3aVZHUjY4WHBCY29qSmxrUU82V2dNemRZN3J5Ulc5NFpMdUZsbHZhWXlJdmpkclliaGxNR2NVaDZyX3dZbkM4WVd2ZjJkTkdNOS0wYkd2cW1WQXo1cldGR2tsekVITEdpQWxVTVoxX1BUQmE3TnA4dzJuSXFjNG1adElZUmF5RHloQlB0bjg2MW1jTXFtV3RkWUZUZVFqb0E3dw?oc=5",
+    "rank": 6
+   },
+   {
+    "headline": "Saudi Arabia launches new military offensive against the Iran-backed Houthis - NPR",
+    "summary": "Saudi Arabia launches new military offensive against the Iran-backed Houthis NPR",
+    "source": "NPR",
+    "date": "06 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdExkcW9rMGF5SHBkMXhxSXRJN1ZWeHVfeE5qTXpWUXZBNzV4alpUeGlLLTlLUlJCbjBvQU1qOVlidDRYMGFDc21MT2tyVFlBcU9Hbl9Cc2piUWRlT2JQN2E0TkNiLUwxSy00dXlMazJPRGJqUE5adlN2QzdmYng1dDNmdFl0TzNUSnpYYU5CckFfTFlUQjFSWXpKUl8wb25wYWFHVEhTT3BqR041VTN3cXVrZ3Y0ckJIbGdjeEdR?oc=5",
+    "rank": 7
+   },
+   {
+    "headline": "Saudi Arabia, Pakistan and Turkey trigger mutual defence pact - Financial Times",
+    "summary": "Saudi Arabia, Pakistan and Turkey trigger mutual defence pact Financial Times",
     "source": "Financial Times",
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT0hxVEJjckxGX2pXVTNXNHpTZFpja3U2eVA3V3VULWg4Q3dtUHpiZVlxcUNtU3N6NC1Cc281a1NyRnBCYnloNF9rNThnTkc1a3d5SVl1am0xT0g0SnNXUHE4b3M1T255NTE2TE9rS0lEeWVEQ1diZ3V2eS1jaWQwUnNRaGQ?oc=5",
-    "rank": 5
+    "rank": 8
    },
    {
     "headline": "Saudi Arabia, Pakistan, Turkey move to activate collective defense pact - The Jerusalem Post",
@@ -2605,52 +2633,16 @@
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EMGs3Ynd4d1JmUl9iZHhRNndZNW4taFdmLVc1UklSV2lFWW1ieDdoNEhzRHJ0VGxFMEZ2YXktZE1KS29tVW93RHQtcU5Sbi1BeTVTYzZpQ1BwVE1T?oc=5",
-    "rank": 6
-   },
-   {
-    "headline": "Turkey and Pakistan to send troops to Saudi Arabia under defence pact - Euronews.com",
-    "summary": "Turkey and Pakistan to send troops to Saudi Arabia under defence pact Euronews.com",
-    "source": "Euronews.com",
-    "date": "06 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa19ZWjQ1cG1RNFJ5bjRxV190YWVmb3JvYlpqR2FmTjY4SzVvRXJHeFlCQzQtQlZaR2pIbzhkcU9iZWp4Si1Tc2ozRGJ1YkZRMTd4Mjh4cjhxVl9rMW9KRG9lZ3luZFVvU0dpVjU0UHhpSlZTeThvQWdnM0cxUjc0Q3pGUE0tVTNVSGVhUmc1R0N2XzdubDJKV2Y0d0tXdmdhbU85Y1lkdE8?oc=5",
-    "rank": 7
-   },
-   {
-    "headline": "Turkey and Pakistan to Send Troops to Saudi Arabia as Yemeni Government Forces Battle Houthis - Democracy Now!",
-    "summary": "Turkey and Pakistan to Send Troops to Saudi Arabia as Yemeni Government Forces Battle Houthis Democracy Now!",
-    "source": "Democracy Now!",
-    "date": "06 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaTlKRzcyMW1oUUU3UTgwMndQak9nNW5nZkZ6MEZrdmVxLW9jZzMyTEZBaDlxRzdYZ29GZFl0WkhMLWhPQ2xCbkRlTWs2SGVMaU9WUGZWaEgtb19XZ1F3MHRkSWx6SkFWeXQ3R1FjVUhBcnBQeU5mN3pjZDAtY1QwVS05bEFWdFo0MHlLRzhoQVVFbGl6VEhtTGtKTmt1NFhEX0tZWHVjREszOE5TMDZXWW14RDNFNjF6cWY2aFdUR2tyM0dNTWJjbnRiUWhTX1UwV3dsVWFOMHJNZw?oc=5",
-    "rank": 8
-   },
-   {
-    "headline": "Yemen's Houthis say struck Riyadh airport, other Saudi sites - afp.com",
-    "summary": "Yemen's Houthis say struck Riyadh airport, other Saudi sites afp.com",
-    "source": "afp.com",
-    "date": "06 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOVdCYkZ5bXJQdnd4TmJiVm15OExKYUk5ZnVpcDNOeVVGRnVGay02aHB2TTMyMGdBczA2bnVqZVZ2NVBoM09TU3phdTJUaDVpekUySHBIbDZILUlHSHdyTXZTbkFpYldCNVpiWDBLaGwta2laWWpobzVQc0ZqaTVCWG1UYTg2MTlF?oc=5",
     "rank": 9
    },
    {
-    "headline": "Saudi Arabia says 2 airports were hit in renewed fighting with Houthis and other Mideast news - Santa Cruz Sentinel",
-    "summary": "Saudi Arabia says 2 airports were hit in renewed fighting with Houthis and other Mideast news Santa Cruz Sentinel",
-    "source": "Santa Cruz Sentinel",
+    "headline": "Saudi-Israel normalization may come, but don’t expect a warm peace - The Hill",
+    "summary": "Saudi-Israel normalization may come, but don’t expect a warm peace The Hill",
+    "source": "The Hill",
     "date": "06 Oct 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUjYyLXlnMWtldDcxV2RTRjRweTFNNERnTFk3bGdfeWpMUXZ5Z2RsQWlQbHlXczZHdTY5UzlxeUlGa0NXdGZVNWNPY3daWmo2N2paUHNXblFPbThMbVB0c2FvR3BVRnZxU2p5eDNLUjNmVE9XUHVic1pBOURVRGRrb2JoZWRTTU1BQ0N6QmZJWVB4OVVFRzc4U0dRaGY?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTXdlTXVpSnROZUlTeUptdXRxeEpRaDBnRV8zb3RjbXRaUXRld29sX29UYkVlQVk4SDhUZGwxZ2s1YnUyMnRLWjBVT2JtNFdwN095T29yM1BjeDFRZ0JwbmJmUUxPZnlBTHViSlh0am95X3BueDY0ZktDU1hZa3pKOFNMLUUtWWE1RmfSAY8BQVVfeXFMTTBDRXg3U3E1eFJIWERhcXUyYnJmeDNIcFFtbnRNUm96YmFMQ3ZjUDlrWXVVQ3hwRGhnOVZTUDV6T3Q3RUFkc3ZFcTVTc3Y0Sk83LTdSa3B2NU91MDhfOGNhRjVDOFpOTDhOdVNSWGpoVElqeHJUa1FkeFR5Z3RUaDdJaUliWTM2U0FUT3hXbDg?oc=5",
     "rank": 10
-   },
-   {
-    "headline": "البحرين تعلن دعمها الكامل للسعودية وتدين هجمات الحوثيين على المملكة - عاجل",
-    "summary": "البحرين تعلن دعمها الكامل للسعودية وتدين هجمات الحوثيين على المملكة عاجل",
-    "source": "عاجل",
-    "date": "06 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5HRUcwbjVWTTYzRkR4MklKemxmQkMtOFNBQnJoVFI1M1NuNGVYX01kRUFUa0czMzA0ZlZmUXVLQm5tcEc1Y1Z4eGpJWFJYY1Va?oc=5",
-    "rank": 11
    },
    {
     "headline": "الطيران المدني السعودي: 3 إصابات في اعتداءين على مطاري جازان ونجران - الجزيرة نت",
@@ -2659,6 +2651,15 @@
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxObFd5QkVTblc5X0RKYk9FRWF5X1lCZ0o5VVdmUnN3aE8wclR3UUZ3MDlDNnB5RnUzOG55dU04VnhmMHk1azN1NTdISTdNNzA5RV9RakRoZmlDRE9vNnRaV1p2UnNVdmI4dzFGNjlBdWhQUjVuY21XWTJZVGdOVlBaNmZfcWtGb2k2VmdNdmR1Q0FfdTNFY3ltSmlqX3hETnhMbkZrLVlzVU0ydmRXV0Mxb0JEZ0g1dGdnLXpMLVg3ckNwX282OUZ5cURGb3E4VkFvZXJjb1dpanY0WWNBREdVOExtRV9XVmM1WmREXzgxTnNScm9iMmpVM3g0Rlo4VXFVcTRycXJzdWVBY2lkRlVXdEkxMVE0N0lzcktTQ1FHWDBKejlPdDNHWTZwSnNRQW9CQVM0MUFjNnR4UUFjWThnetIBxgJBVV95cUxOb0JKM19GYUZCaUFORlJ6NlNSdXRtby1GTzNSaVZMZGFHUVRFODBGWXFHMzhUdTlNbDNmZlZpZng0N3A4ZlhvUExYbHRYYUEzajM0UzBQNk5XLWlmMy1DczJjOVNLTldZVUI4SVNLVlhEYmlfN2ZzWWFZUWwxa1ZoQ0NfT1JTTWdrZjN1WkRMTVBiVUF0NDVxSkw1NkZRUFVFZXVJcE9EZEFMa1pkTjB2MzZmcktBUUgzSTd3YzZydXloT1VGa19rc19pdncyMFF3RGVDNF8tenZVTWM2cUIweENQelhFTGlqQnVWbHRmcHhSMk5CUkU1Ty0tUWpUQnNVU2c2dUxUVllZVEVINmtBMEVpOW9oZ3plTGEtUm5UVk1NUlgtRldSeElXMDJqNlI3eFBHSGZxWWRLLWdmbEdoNE9hNmxtUQ?oc=5",
+    "rank": 11
+   },
+   {
+    "headline": "التحالف ينفذ عملية عسكرية في الحديدة \"حمايةً للملاحة\"، وأنصار الله يؤكدون \"إحكام قبضتهم\" على مكتسباتهم - BBC",
+    "summary": "التحالف ينفذ عملية عسكرية في الحديدة \"حمايةً للملاحة\"، وأنصار الله يؤكدون \"إحكام قبضتهم\" على مكتسباتهم BBC",
+    "source": "BBC",
+    "date": "06 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15VWEyMVY4VnBBVEVxaWtmeWdFdXJLb0ZtcWE1VE9sekV2RFZWNS1ZOWk5U3AwNGhzcGxSQkRhblI0QktDMUFYZkxobF9peTJXMnFFTTdKdzJTSVlRVFHSAWNBVV95cUxQeW9IdmtnWm5pd20td2k0VWpmNjA1LVF1NDlYMG0wUTBSY0VCeER5U29qZUVpWVVPUHZyT3dQdm1FRTd1V3ZabGJKR29FcnFkMklCLWh5bVRUT0hEcnAzUGVESlE?oc=5",
     "rank": 12
    },
    {
@@ -2671,12 +2672,12 @@
     "rank": 13
    },
    {
-    "headline": "التحالف ينفذ عملية عسكرية في الحديدة \"حمايةً للملاحة\"، وأنصار الله يؤكدون \"إحكام قبضتهم\" على مكتسباتهم - BBC",
-    "summary": "التحالف ينفذ عملية عسكرية في الحديدة \"حمايةً للملاحة\"، وأنصار الله يؤكدون \"إحكام قبضتهم\" على مكتسباتهم BBC",
-    "source": "BBC",
-    "date": "06 Oct 2026",
+    "headline": "هولندية توثق مجتمعات البدو في السعودية وحياة الربع الخالي - CNN Arabic",
+    "summary": "هولندية توثق مجتمعات البدو في السعودية وحياة الربع الخالي CNN Arabic",
+    "source": "CNN Arabic",
+    "date": "05 Oct 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15VWEyMVY4VnBBVEVxaWtmeWdFdXJLb0ZtcWE1VE9sekV2RFZWNS1ZOWk5U3AwNGhzcGxSQkRhblI0QktDMUFYZkxobF9peTJXMnFFTTdKdzJTSVlRVFHSAWNBVV95cUxQeW9IdmtnWm5pd20td2k0VWpmNjA1LVF1NDlYMG0wUTBSY0VCeER5U29qZUVpWVVPUHZyT3dQdm1FRTd1V3ZabGJKR29FcnFkMklCLWh5bVRUT0hEcnAzUGVESlE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSDBZME5IMW1HR29ZREN6VDBSMVh2RGYxWWxrWm44M2JFVlFpWTFFdGFxUk1meVVGa0pYdXRyTXdnOVFNWGZ5OWw5SW1laklnXy1Nc245RnBtUnFyWXhCajRnMVVqaGtTT3B2Yy1CTTlEVHUwY0FFdzUzeFUzVTdiV2pjSEE5bG1jRkoyWktFMA?oc=5",
     "rank": 14
    },
    {
@@ -2707,21 +2708,21 @@
     "rank": 17
    },
    {
-    "headline": "تشكيل السعودية والإمارات المتوقع لنهائي خليجي 27 - Kooora",
-    "summary": "تشكيل السعودية والإمارات المتوقع لنهائي خليجي 27 Kooora",
-    "source": "Kooora",
-    "date": "05 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMijARBVV95cUxPUElROUVhU21yZ2RKbTFDajlTdzRrbG5qQnluRUE3cXhkSmg5U1dMNENDbFdlME5KQ2RqRFVHYkpPWjVSRHl3dDk2TVYxM3g2NkFlU3BpeDNhNXlsSzNGVDR5eU05a2FXX0JRWTZWQVllN0ZGcUZQYzdva1A1RWtqMXpWTTR0bjg5eVh3VWtpanpiNWFHMHJKUGl1MUpQZkdIWG4xblM4WE92NmlVcXRWZkdWeUpSS3VXdXdRMWt4Y3h5ZnVCUlBPRVlGU1luT2xWcmZlZllDYW1ydUFoR1VIWFNrc1JFZDAzal9rSkx2TTZzbHdUNnZ0SktWUXpEM18yMUtGN0Vvb0ZHRGRIdW9xci11U1ZyVGM2MGJVZ3IwU1VVc0lpcFlBM3BjTHV2YmxOMk5MaldSUGQxeDhvc1JmNkliX1QwU0ZqbzlxUzVnWlZnU0tZbmxKQ3ZreDQzODJ6VDZ3dmlmcWVnNTFWOHdod3BJTXREVDdPYnE2d0VmUHhhTFNtblp6bHk3OWctS0xUdTlmS1F3WlRUekZlYlFxX1d1RUJqTlB6ZGxVLUtjazM4OVJXdUd0aUllUUcxdzhCZXcyZkE4YVV5UElicUZmOG93RmpwTXcweDF2UFBneEhkNzdwdDdkUTl5dGxTNXJzSWZrVFR2ZWtWZVdrcVpOZl9uWHhQMUVxazRpag?oc=5",
-    "rank": 18
-   },
-   {
     "headline": "استهداف مطارين في السعودية وسط تصاعد التوتر مع الحوثيين - Reuters",
     "summary": "استهداف مطارين في السعودية وسط تصاعد التوتر مع الحوثيين Reuters",
     "source": "Reuters",
     "date": "06 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE93ZUhUeUFhemVZVy1aTUU2Mm9wY0p2bHE0TElkQUVZQmp2RUMtZ3J4a2RYVTFiT3M3djJDYVBVanFQLVp3VDlJU3FNbksyZ2dEOGdRSUp4eGlCbWRDbERtNEltSURuNUQyZ2FWRDlfUjVoVmhqVTMtbDlXWQ?oc=5",
+    "rank": 18
+   },
+   {
+    "headline": "البحرين تعلن دعمها الكامل للسعودية وتدين هجمات الحوثيين على المملكة - عاجل",
+    "summary": "البحرين تعلن دعمها الكامل للسعودية وتدين هجمات الحوثيين على المملكة عاجل",
+    "source": "عاجل",
+    "date": "06 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5HRUcwbjVWTTYzRkR4MklKemxmQkMtOFNBQnJoVFI1M1NuNGVYX01kRUFUa0czMzA0ZlZmUXVLQm5tcEc1Y1Z4eGpJWFJYY1Va?oc=5",
     "rank": 19
    },
    {
@@ -2736,21 +2737,21 @@
   ],
   "regional": [
    {
-    "headline": "Saudi Arabia launches new military offensive against the Iran-backed Houthis - NPR",
-    "summary": "Saudi Arabia launches new military offensive against the Iran-backed Houthis NPR",
-    "source": "NPR",
-    "date": "06 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdExkcW9rMGF5SHBkMXhxSXRJN1ZWeHVfeE5qTXpWUXZBNzV4alpUeGlLLTlLUlJCbjBvQU1qOVlidDRYMGFDc21MT2tyVFlBcU9Hbl9Cc2piUWRlT2JQN2E0TkNiLUwxSy00dXlMazJPRGJqUE5adlN2QzdmYng1dDNmdFl0TzNUSnpYYU5CckFfTFlUQjFSWXpKUl8wb25wYWFHVEhTT3BqR041VTN3cXVrZ3Y0ckJIbGdjeEdR?oc=5",
-    "rank": 21
-   },
-   {
     "headline": "The New Red Sea Wars - Foreign Affairs",
     "summary": "The New Red Sea Wars Foreign Affairs",
     "source": "Foreign Affairs",
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9feHZmT1k4aWVZTWZlNWI3WHA4aE9Nb21MLThkUUdwX21pTW5ENEFPdV9pV2dVMm0wVWV5YUNvQUg1N24wTDI1U0xDWW1Rc296NVpoUGtTQzBFbVVPQmp0WFk5Q3hKM2NIYkFr?oc=5",
+    "rank": 21
+   },
+   {
+    "headline": "Turkey to deploy troops and air defence systems to Saudi Arabia amid Houthi attacks - Middle East Eye",
+    "summary": "Turkey to deploy troops and air defence systems to Saudi Arabia amid Houthi attacks Middle East Eye",
+    "source": "Middle East Eye",
+    "date": "06 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOd1Qxc000TklGcW9GN0N0Q2JsRXA4RjE5TzRuQnNuSlZUdUcwV3d4Z04tQUxfTjVoT29iWHJ2TnptbFdIUnZRRXc3UTlzNVN2Y1dHZzZkNml4d2JlMlRKUWpKTURVbmtqbUtoWHRtN2VjXzduZE1IY1l1YU9jV2pRaHlTSFN5MHFILWJJeFBSczdGbkUteW9ZeGRPYw?oc=5",
     "rank": 22
    },
    {
@@ -2763,31 +2764,13 @@
     "rank": 23
    },
    {
-    "headline": "Saudi Arabia, Turkey and Pakistan activate Mecca Pact amid war with Houthis - Middle East Eye",
-    "summary": "Saudi Arabia, Turkey and Pakistan activate Mecca Pact amid war with Houthis Middle East Eye",
-    "source": "Middle East Eye",
-    "date": "05 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVGxHQVkyRlM4NVF5ZW03eW8wR3IybnRxMC1rbU5mSy14dVVVZHZJNXpXQ3lsbTEtUUw0aldMYWdwZTBfRE9UNzJKcjNMSVI5NmtjQTlRRHI2U2xxZHVadjJtaFM1bGlhVGwtbmsySjBWNE41RDljY1VYYUdLUlNOcm1kaWtVQlNESzFiRmthcG04eTZwclRta3g3V0ptaUxlamQ3X1ZZZw?oc=5",
-    "rank": 24
-   },
-   {
     "headline": "Chris Murphy’s selective outrage in the Middle East - Jewish Insider",
     "summary": "Chris Murphy’s selective outrage in the Middle East Jewish Insider",
     "source": "Jewish Insider",
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU2RLWkZidHVxemhEUXFKYW96MTJ0YS05cTdKRnBkOTQ3YjZDblJZaUI1N1czLUZTdVlmaVkycHZPaW5nWVhYNnBkWUpiSGpxalFDeXBDanpHWkZyeVUtLXU3RDZkSzZ2LWVhZ1R6QzhNZDZrbEFDYzVqckFpeDJuVWhQc3g1SE5LaDU0TENwUWw0MHg1ZFE?oc=5",
-    "rank": 25
-   },
-   {
-    "headline": "Boeing Wins $14.7 Bil Missile Deal. U.S. Sends Resources To Middle East As Conflict Escalates. - Investor's Business Daily",
-    "summary": "Boeing Wins $14.7 Bil Missile Deal. U.S. Sends Resources To Middle East As Conflict Escalates. Investor's Business Daily",
-    "source": "Investor's Business Dail",
-    "date": "06 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQR3NPem5TMUVkVUllTHRVTkE2MFN4NUJkc2dLcFR3UlRoa3dsRTVZSHRYYTl0RjZ3ekR3SHRIWjMyU0pRY09JbkNTdWwtMks4cjJBV0gxcVJ1MEJsaElzZHpvZEVnQ2Y4NmhnQU1xektTbUppQU1BZXE1bElreFo1TXFBVVlnTFJaQWVaWExXN0lXNUhneG9WREFyNUV5cURucE5OR0Y2QTNPT2RuRXpWZ2lSNW4zMG1WNU1XdDFDSXpORTA?oc=5",
-    "rank": 26
+    "rank": 24
    },
    {
     "headline": "Iran Update, October 5, 2026 - Institute for the Study of War",
@@ -2796,34 +2779,34 @@
     "date": "06 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbFVvY1pjMWNhUzlsWmVTbUk2QUNHT1JHMThHRUN4a1R5Wk1HSU0yRXNmTzhIdTV0Z3k2SFlRcGxrNDVXbk1kZG5Jaks5SmwzZDY1MVZfYXRON3FfZ0FYZHZyYnpoV3laT08taFFjZWNNR2c2dHdNc1hBYXVjVUt2Z1pZOA?oc=5",
+    "rank": 25
+   },
+   {
+    "headline": "Houthis strike two airports in Saudi Arabia as Turkey and Pakistan send troops to support Riyadh - Washington Examiner",
+    "summary": "Houthis strike two airports in Saudi Arabia as Turkey and Pakistan send troops to support Riyadh Washington Examiner",
+    "source": "Washington Examiner",
+    "date": "06 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNGd0ZjJHTFFOQ0VWUWdta0ZETmtnRVJDWUQyLV9SUkk3ZVB6bzM1NkxadlpfUl9fekNDTW16LUVqaklrR0JKLW9JWVAzaFBTVDNVaU1NUDdMdjdTZmZqY3BkblVSZ01SZFktOTdDT1ZrNXFsY0plUVl3aGZCbDI3b2g4M3BnNWdEbkRYaDVFUWhoZEpTaXdvRW5iUENkSEFxT3JzTERPVkNOZEdWSC1ZOFd6TnJhVjVvbWxrdExYTTNlak1CYWE4ekJQbzhqektOVzdz?oc=5",
+    "rank": 26
+   },
+   {
+    "headline": "العرادة لـ«الشرق الأوسط»: السعودية جنّبت اليمن حرباً أهلية جديدة - الشرق الأوسط",
+    "summary": "العرادة لـ«الشرق الأوسط»: السعودية جنّبت اليمن حرباً أهلية جديدة الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "06 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiuAVBVV95cUxPVlQ2cno5ZG9FWkpaS3lEMjRobnUzdVdHWVFZdjRkaEpaU0cybWU4bXlpaVhGNkdfazhFQnRnSjFKOG5ENV82YXpCYXNGMTVlXzJkelpxdEFkbTFOVnoxbWUzUGRzT05RUDk3ck9xdkpQTGxWZWlFLTNwRFoxLTU4TWRKb0ZEN19LdUlLdWFEemxlOTdQV2YwOFJURnc4OE9qNUQ5VDVEUE0zcS1jMjB2NXo5M2hCN3VqdmFybzhFdnZxTkpYRDIzSzVPNTlETXlhU2ExSThqSklmdEJVWGN4c3ZWVjhfX1VyVkN5NmVoR0RiZDNMNWNiMFB4QXA0RGZkWFZPbXN0eVRfbkxuTmNOTFBXcnIxR1JIV3NVdS1EaTlSeGFNeXdQU0V0OGc1SVp1cVNPYmo0SVRfQkgwN01EUm0yY0xqRjA0YWEtZC1BOTBZb2VHZnZZanpKY0NCOGRsOW92UzVsUjFZMWhhVlVYdDhHOXFlR2Z4S0Z1b0ZTcS1fLWdjX2tIWUdqRXNUNnhoZmhBdXdzQkNYM21yX1RLVlc3ampUOHFlU1dycGRaWTFzcEFVQzRxR2pOSGpDb0o2ZjU4WVpCdncwanJsUmdWZV9ndm5vM3Bqb0w4Tkp0X3ZJa0ZVaVpkYnpnQXluSFhYeWYzbDNFOURVTTdVemw2Y3ZJVjZZbWYyZlVRY2JSYzg1N0tVcy05TE5wN1BsRFdzUHFDZ2RycDI3Ri16OHhmNHlQNnI0UGJ3c29mYW9aOTFfSVR0b3NLcmVjVzBwM2RST2dabVdXYTFPQ0tfY0VSUFdJZm1fem53a0x5am9HNTU0YnZKTnNjaDk1Y1Y2azlnb2RoLUl0YkY1VW4xYzBXX1hFdnBBRlNQbnhTTUVvZjdwanJvZEtEeUdubEJpaVdCS0I1YmFxWTk?oc=5",
     "rank": 27
    },
    {
-    "headline": "«سير» تراهن على بناء صناعة سيارات سعودية متكاملة - الشرق الأوسط",
-    "summary": "«سير» تراهن على بناء صناعة سيارات سعودية متكاملة الشرق الأوسط",
+    "headline": "البنك الدولي لـ«الشرق الأوسط»: انحسار صدمة «هرمز» يدفع نمو السعودية لـ7.9 % في 2027 - الشرق الأوسط",
+    "summary": "البنك الدولي لـ«الشرق الأوسط»: انحسار صدمة «هرمز» يدفع نمو السعودية لـ7.9 % في 2027 الشرق الأوسط",
     "source": "الشرق الأوسط",
-    "date": "05 Oct 2026",
-    "tag": "housing",
-    "url": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxQNWFGcV9iUEFHU2Z3cEdySDhuVEdMOU1vdHFpZk5neEpqWk5rLVZIekVxM29mNmlZam9GMDd2dldFa3lXVmRsdjA2eElFMFBpc3lmUUNXd2lLVjZuSmFNQzRqa0pYRE9SWnkzN1hhUllZT1AxVmo5ZWFRVTNTcU41b2VIbHJLaDRlanYtNWNVN2RMQlpGRnhueDB5RDItMUQ3YnFGS3p6X0h0SUJQVjZQcTd3Z1F0NkxWYzFxWUUtSHExNDN1RTRodkMtT0YwcDQ1THdkakdDV1h6ZVVnNFZLamtyY0FfaEZxRG56QmlWeVNqSDJUYWZURWpDVmstb04xYnczLV85eWc3THV2QWpodm5WNnNucDQ0UlZfM3d5R2daWlpkVmVJUVRHcWNjSThNcWRWY1ZxemExSVFORzJ6LTJrX1ZJM1pRUElkZUlEUWkwa0tYS0tCdFVfYzBWaGVPU3BZc2hCZ1dEZ0tHOFZOU3JLZURCem1XazRLSVJmMHRsaFpnQnZNMXJFOGZvLWJ6eGMwaGNPWHR1QTQzX3lqTk03ZHdtLWZVdWtURTFCZ1p6cE1jdjB0NEI2LVAyb3ZzbjQ4?oc=5",
+    "date": "06 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi4gRBVV95cUxNTXFOT0hSWjUzYVRTU1RhcDNZYThMUVUzQXFBbDNTR3JkcndJNGx4MWNVUl9EUFZwdUpOd3ljMTVVTnNnZFVPZVFxZ25WNUJ1SE1wRGtvd3VReVFXSm1HenpEOWc4T2JmXy1zanVWd0U5cFVMN1pvZkVabmxSVG44aFZ2V2daQVBabU1kajFfVWxhM2d0MzhTanE4OFpTbDZrc1FYSlNoalN1Z1pzbkc5Y3J2NmMzX3NOUkdxdk14XzI3elFyTjZTcW5HUHhIZHJZUUJiZ0hwVEJaZVpadVpLbF90YTQ3UXB3LW9BaFZ2VUdBMHFxbzQ2cDRSQzBTS1U0QUNYdTJ1NjJBMFRQdVZsN3dhMTJCS0wyMVhXNW9rMTY2b3d2dnNkR1ZuVkVGVHVWNlFubDJQdWpwSzY2Zk01cE5HVzlZRU5OV1JaR3JXNXp1SEd1UV9XRnU2NFpXbEEtY1dDdS1QYUhjU1hhdzFwYUF2RTZXQU1KcEZlSTFMSFBfc0pWV2stblNYdy1sNy1XSHVVeUdBTFBQYVZiZ25yZXFMckdOU2VldjhkdS1MalVXSmlfcVRGdzJtN25NcHlSMkhNdlozRmJ6OU5rb3d0UlREQnY3RGo3WF84Y1d1OWZ2eGxuWHhYaE1wYVlXWGxVVnVaY3Jna1RuTVpZQVoxWDlNeTRnUndQZGhKYndnd29EQlJhS1d3UXR5MkltbG1TM1haTE1QclBCcFkwc0pqeFJTeTZfazVEVERmTXl6TmM4d2V0RWs5OVltdlVZelNkV2NQTS1UQlUteXN4Y2FRV213?oc=5",
     "rank": 28
-   },
-   {
-    "headline": "«سال» السعودية توسع خياراتها اللوجستية مع تغير خريطة التجارة العالمية - الشرق الأوسط",
-    "summary": "«سال» السعودية توسع خياراتها اللوجستية مع تغير خريطة التجارة العالمية الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "06 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi3gRBVV95cUxQQTJEajU5S0JwQmZ5a2piOFg1cVh4Y0tFUTZLVlRGc0ZSZ1VWYlhqOFM0bjluOUFXeTFKcS16dzk4LWk3V2FQWVRQbTdueHhOaFJjS1YzT2NDOF9DY0NUdGZnWXY2TVBRR3BwNTlOZVFXejMwMmxseTVHOVVPcVBzRjlLYlNwLXluOUxqUkJEYUJGeFc5VmJxUmowR19CeHphS2hNcHZkY0F1eGExbEZGQTl0QTlxN0hpX214VXA1WHFmcjljNnZMbXYzUUp6NmZYNzZ0bzBUOFAwZ01uT081TGZ1d2NCX0kwY1Bla2s5aFhWbDBDdTk2WndoWk1JT1BZWXhSYkxxYWx6eHp6OUlPTjVpbXE2OFpfYU5JSWJaX21ESThOdDR5TE5RU0owcXFEb19NV2VSeHNpZUpiTlJjSzlBMGxWd0ZEN2dxcXNGanNZMHdlNzdDRERnSTI5bk1Cd3YyRThaN29ac3dwdkdqZndZNjlwUGRSNkN3OWlFbnFONVVibElLQXlPSFlFSjhnYkRrVmNjRmUzZHJUbDVwNFdTYWdva0dPOGJCMFNFQnlfVlU5akpfc0ZPdE5kbEk0SjhrOWpBTHcwMEY3N19UV1NoM3FHWmxPUFl4ZzhkdTA3NWVDUXZ5bmh6Ykh2QmpZTTFwNl9LRll0ZjR4SDBYcUdBTWlsd3gtdk9veHFHZ1Naa0VHS01ZX3B4cWFfRVVsV08zbU1jeFpfRFFHQlZnT1NBemZTVldIMExVZEZHUXNtZEt1U21RV1pXajlETzViUVFZN2dTWHc5WkZUZlE?oc=5",
-    "rank": 29
-   },
-   {
-    "headline": "الأسهم السعودية تقفز 1.4 % في أول يوم لتطبيق آلية أوامر السوق الجديدة - الشرق الأوسط",
-    "summary": "الأسهم السعودية تقفز 1.4 % في أول يوم لتطبيق آلية أوامر السوق الجديدة الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "06 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiuwRBVV95cUxPOHlLcDRUaXkzVGZBTUVjeldmUHNQcFhVbnozRzdLWkxSNExpa2RhNE5zQXh3a01CcXhWcWhpaGZkUThHdUs5WlNCTmRrUWdNZzNWQnFqTkFwYm9oLVJObGZfX2lha3k3TUN5a1JoT3BOWE84Z3gzTFY2ZmNrN0J4dkNXREdoMGZRdU1WR29yTGhnTDk3QTU0Wmo5RkFNdGNaYmEtTVVBTHRtSnVCQmVZck52ckpjOVFacjRIRlZaSXowckxaclkyMGRoWFRhTmVkb0ZmWlpQdWx2dUdQNFU5MDk4Uzk2Q2laa0NidU1jYVowRFhQUm8xWmFtdG9rZGJyb2JGaUlhRG1tbElFeDJpbW5mMWVHbW5aZmVSMldtcU9sRnVJaFYyZHhqV1ZYTFNBU21iNnVSZFJzcGhfbEhlb0V6UktmQU9pcXUxLWQydUVwZWlRS1RvUE9wVGl3TzRpa0p2YkotaU9oYmJVX09wY1JuMkNfVTczN3IxZnhDckRMVmgxZG93SWcyZVRIbU45WlFKN203d1ItSVlVRHpoOW00UEU1YVNKWU9vZE9DZEZFWFhfZ2NEV3BaOUROWWhWZ2p6ODhOdnotcGNiYVhQeTRHTVZ2cjlJb2JSNWpVWHlnR2VYODkxd3h2S0JsdU1CX3VvT1I1V193cUtXLWlDSXhGenZnM2ZkbXVsSjJqdWRVb1ZrU0R0OVBtVUFES1M2b1pCMHdQd0dyZW0yOXItS3NMLWhzWUJ6Y2I0?oc=5",
-    "rank": 30
    },
    {
     "headline": "السعودية تشهد نمواً في تسجيل براءات الاختراع بأكثر من 5 آلاف طلب خلال 2026 - الشرق الأوسط",
@@ -2832,6 +2815,24 @@
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxQZTN3ZGNJOTdmOEJzR1FfLWRhaVpGXzBHdl9jaVcwN2I2ZjJTYmtaQndrOTZVaWJUWndTODgxazhCdHdkLU5OYzc5UHVxMUQwTWxUQkplaTh3MnlRZUh4QjhHbVo3RWZYLUY3SmcySWt1MzZMSWUwdWFjYWRJdThOd04tVkVFbGNVY2c3NzQ0d2hRemlvTDN0UzV6S1I1VWk2OFlqQlNJSW5kQjNWbnB5WGpFVkI2YS00cUNsTDlsa2gtTEgwNWVOam9pN3dVeHhzbHJobTRxOGE1eVVfQUo0bUVhcGp6cmF4YlRfUjRjV1ZBM00yQ01CUWZRajZUdHIyVDdveTZtdXMwQXMzX2pxWTc2dVRRT2FZU1NUTVRieXJvcHIzZzBUUGFId3h6Z19NNXF2V1ZTYldtS3VqSzNSelVrQzE2QXdtRUFDZnVybjRwU0JuYl9aZmpLR2gyZHlEUVMyYXhkZmMzZG01Zk4zbWJ5YWxSUnFPRWo5Nk1sZE0zMDRRZFVGVjh0ZTlIQWFvTFVuMjZEUFlaZkE4cG5HZEFrZDctSnhDVC1FeHhWeU9Ja0hJelQ2UFRPUXR1eVc4YVJhQXg3Q01GN1hlV1BRakotVWdub0JGSURYd1VMQjhuR0hJejlNeXFGS0lWa0h6SFBvTGl2S1NVMjF4SFQtbXlwVkNhWVpjUmNfa3haUVBTM3FSS1JpWVZhclRKVjA0dnZfZjZXYWJoN1YtdUMteExxd1plb3kwRF80cmJQNEVibjUzaldIdXlSdDkwMWhyM3padDlvbk1wRmcteUdHQlluOGEzaXdISVBhWjdFME9UdUk?oc=5",
+    "rank": 29
+   },
+   {
+    "headline": "«سال» السعودية توسع خياراتها اللوجستية مع تغير خريطة التجارة العالمية - الشرق الأوسط",
+    "summary": "«سال» السعودية توسع خياراتها اللوجستية مع تغير خريطة التجارة العالمية الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "06 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi3gRBVV95cUxQQTJEajU5S0JwQmZ5a2piOFg1cVh4Y0tFUTZLVlRGc0ZSZ1VWYlhqOFM0bjluOUFXeTFKcS16dzk4LWk3V2FQWVRQbTdueHhOaFJjS1YzT2NDOF9DY0NUdGZnWXY2TVBRR3BwNTlOZVFXejMwMmxseTVHOVVPcVBzRjlLYlNwLXluOUxqUkJEYUJGeFc5VmJxUmowR19CeHphS2hNcHZkY0F1eGExbEZGQTl0QTlxN0hpX214VXA1WHFmcjljNnZMbXYzUUp6NmZYNzZ0bzBUOFAwZ01uT081TGZ1d2NCX0kwY1Bla2s5aFhWbDBDdTk2WndoWk1JT1BZWXhSYkxxYWx6eHp6OUlPTjVpbXE2OFpfYU5JSWJaX21ESThOdDR5TE5RU0owcXFEb19NV2VSeHNpZUpiTlJjSzlBMGxWd0ZEN2dxcXNGanNZMHdlNzdDRERnSTI5bk1Cd3YyRThaN29ac3dwdkdqZndZNjlwUGRSNkN3OWlFbnFONVVibElLQXlPSFlFSjhnYkRrVmNjRmUzZHJUbDVwNFdTYWdva0dPOGJCMFNFQnlfVlU5akpfc0ZPdE5kbEk0SjhrOWpBTHcwMEY3N19UV1NoM3FHWmxPUFl4ZzhkdTA3NWVDUXZ5bmh6Ykh2QmpZTTFwNl9LRll0ZjR4SDBYcUdBTWlsd3gtdk9veHFHZ1Naa0VHS01ZX3B4cWFfRVVsV08zbU1jeFpfRFFHQlZnT1NBemZTVldIMExVZEZHUXNtZEt1U21RV1pXajlETzViUVFZN2dTWHc5WkZUZlE?oc=5",
+    "rank": 30
+   },
+   {
+    "headline": "الأسهم السعودية تقفز 1.4 % في أول يوم لتطبيق آلية أوامر السوق الجديدة - الشرق الأوسط",
+    "summary": "الأسهم السعودية تقفز 1.4 % في أول يوم لتطبيق آلية أوامر السوق الجديدة الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "06 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiuwRBVV95cUxPOHlLcDRUaXkzVGZBTUVjeldmUHNQcFhVbnozRzdLWkxSNExpa2RhNE5zQXh3a01CcXhWcWhpaGZkUThHdUs5WlNCTmRrUWdNZzNWQnFqTkFwYm9oLVJObGZfX2lha3k3TUN5a1JoT3BOWE84Z3gzTFY2ZmNrN0J4dkNXREdoMGZRdU1WR29yTGhnTDk3QTU0Wmo5RkFNdGNaYmEtTVVBTHRtSnVCQmVZck52ckpjOVFacjRIRlZaSXowckxaclkyMGRoWFRhTmVkb0ZmWlpQdWx2dUdQNFU5MDk4Uzk2Q2laa0NidU1jYVowRFhQUm8xWmFtdG9rZGJyb2JGaUlhRG1tbElFeDJpbW5mMWVHbW5aZmVSMldtcU9sRnVJaFYyZHhqV1ZYTFNBU21iNnVSZFJzcGhfbEhlb0V6UktmQU9pcXUxLWQydUVwZWlRS1RvUE9wVGl3TzRpa0p2YkotaU9oYmJVX09wY1JuMkNfVTczN3IxZnhDckRMVmgxZG93SWcyZVRIbU45WlFKN203d1ItSVlVRHpoOW00UEU1YVNKWU9vZE9DZEZFWFhfZ2NEV3BaOUROWWhWZ2p6ODhOdnotcGNiYVhQeTRHTVZ2cjlJb2JSNWpVWHlnR2VYODkxd3h2S0JsdU1CX3VvT1I1V193cUtXLWlDSXhGenZnM2ZkbXVsSjJqdWRVb1ZrU0R0OVBtVUFES1M2b1pCMHdQd0dyZW0yOXItS3NMLWhzWUJ6Y2I0?oc=5",
     "rank": 31
    },
    {
@@ -2844,49 +2845,40 @@
     "rank": 32
    },
    {
-    "headline": "ولي العهد السعودي يستقبل الرئيس السوري في الرياض - الشرق الأوسط",
-    "summary": "ولي العهد السعودي يستقبل الرئيس السوري في الرياض الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "06 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMirgRBVV95cUxQblY4SjliclQ2em5Nc3hFYmR5R1E1QWlFLTJ1N2pBdVBwbVFFY2c5VzJMdXBXenI3dzA0M19mVERYQy1MQmNoTWtzOFQ3RDc2TUxpclN4T3I0R3ZRaWdIRkZtc0dJYXBnUDFnMUN6WmpOc0lUOWF3M1NUSkNRMHNwMktwM1JJaGs2ck11ZTFEQld3T0ZmZHRyZVlyVHozczJ6UFkxcktpbTQzd1NIZDlwTVMzanhVNDMtVzFiRU5MR2RKc3JGNXRDa1hUMjhWRDJSREk3b2x6ODA5RnFGY1dHMVhiS090SUhwVk9KTEdlTnhvRkJjZE1ITkJTUWJjQUNIQ0Zvd2dCT3VNWkRSdFRyTzJNMGtzT1FyLWtkMmg3Wk5KbU1QTzdodUtBb1d4NUZYeUp4Y05PeDNURTUyanp6ek5Ed3JIWXVuWU1KaFNuZ293RFV6bmhYRTI5dWgzQ1U4V2lYSU10X2xPTHZQbHJiNlNkU3FiRXZmbHIzRVFBX2IzSkpCLWFSRlhsVjZmaUdtZDF1b1Q1WGhqNlhZZG5wVm0wVkxWMFAyVGI1WU1DOENzWncwLWJNeEJ5WlVxZ2M5YWxveTVhMUtwUU1zbXJXMUJJbEx0MWk1aUdHT3pybzd4b3hHbnppVVhGRjRqY25LaHY3WVJ6NHRGYmtmVjJWMHlNUXFzaFFRZnh5OUFvcVE3T2VCVkt4Z3JoNnNUZUxuZzNSamU2MlFic0Y0N2c?oc=5",
-    "rank": 33
-   },
-   {
-    "headline": "منتخب السعودية للشابات يعسكر في عمّان - الشرق الأوسط",
-    "summary": "منتخب السعودية للشابات يعسكر في عمّان الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "05 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxOQzNQcEN6bmxYZ3ZNYXhXdzdqT3UyeHZrWnkwVUQwUUpJUzhDOUlhU3A2eHJDN2xMaWRLdGtMUWcyMlh4WlNMb2phZ082aEZkT2lwLU44SDA1NktUeTJFcWZ2YTctenJ1MXdHbmlxQ1hUNk1sQlk0T1VSaWNYajI3Y0xTX2piYkVzUVZXdmVYRDFhVERTalpjRTV6eVZrRWJmQXJWQkd1akl5RGRBNEJNbEpRZzhpYmVoMEVJRm85bGNhUVFRUnE0clNqNUNnZXVERk1CbDZ6akhFMFhlYW1DdUZxdnNKM016bV9TaUVkd0I2LWtjdmtKVm0tSGlfSnN1OE9jNVI0dktSWEpDSHJOZ2cwUzM1M1JpMC1GZDNKbDBMVXBid1lCZmd0czQ4QmRYTlI1cncyektQQ0J2b3BSNk1DOXlhcnhmZ0FJVERHUTRraG9rZTdlR05zQko4NGVYdWZOYXkyek1MODZNZU5nZjNJOEtKTFpfQVFQNnZkeXd5WW5hNlJDNDBiU0JmR0pPMWtscW9ZWHQ5UGY4N09SOE5acFhfMGc2VjJ0T0hUUmhkYV8zNlVWOUNKQkEwS1FmMmFBTXFtTVpMaVdseDdJMUdjV3dTdGNqRkVB?oc=5",
-    "rank": 34
-   },
-   {
-    "headline": "الأسهم السعودية ترتفع بدعم تعافي الصادرات النفطية وتراجع رهانات رفع الفائدة الأميركية - الشرق الأوسط",
-    "summary": "الأسهم السعودية ترتفع بدعم تعافي الصادرات النفطية وتراجع رهانات رفع الفائدة الأميركية الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "06 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMilwVBVV95cUxOSVlMS19GUTB4dWRFN0xwQ3d3M1NsZHdnLThFX2N6RWNqc2tWVEJPTkZSTFJoZUh0STNLSDNNR3lVSHVGYUozSkFmMGp2TGZLNW9VTm12VWQ3MEk3MjZQNmV6SE1qVFhlekdNbUR0V3Z4M3BvQ3pENXJHY3VSdE5BV0RWVkNVOVFXNUpqaFg3MFhQLUdDcVFHSDRmUTBUcWxjaGNNTDBIbFdveDJWdy1QMGhWaldOcEVXbkMxbFZ3S3ZWUkF1ZHNwVG9BYkpiRGVRcV9uVXZGYkZ2aDRsUFExSjgtMEx4dVZQUlRYdVNfUmJBRE5OYS1KQlEyVjZZOS1rU25hVnljS3BJZm5xX3FkQkQ0dWNSdE05UUxSOFVLMHYtdmxaWUhkLTkySUpHWnEyMTNnNFRTVGNXSWM1RktvS0lpaVYwdDVrdG5JNEdVMDM1M3JIY1dYeHUySnpHcGF1dHZHLW81dmdkNy1oWjFCb3A4OGNZNEUwUWZQbzg2ckFHV0ZoNzNTNFdoQk0wX3ZpQ19qRWlUcHVUX01YZ0dGQVVkVkVqOG84dE94bngzQjlMeDk5QUFMSE9ORnZtVkhVQWM1cTFySnYtdnJoV0w3UFh6MXkwWXFOclZ4d3RxbGJOWV9QQUxPUTYxak9PQ1Bnd2s4UWtPaVNNa09OWFFES1ZxcGducW5xb1Y2NE1wdzdTeUlFT2ZVV1R6TlVQQTZVWHhEX0dLWEwwdTBaOTB4NmhOV1k1Q3p4NmcyVW82WW41MXl6azlfcHdGbEEtbHduVUE0bmxfWlZMMGItOV85N2M1QjZzV0tLbHFoSGdkR0kwSlpDbXdtN3M2TXJBaTZpQm94c0E4T1RCRWtYalVfeGszTXJ4NEE?oc=5",
-    "rank": 35
-   },
-   {
     "headline": "مصر تجدد دعمها الكامل لأمن السعودية واستقرارها - الشرق الأوسط",
     "summary": "مصر تجدد دعمها الكامل لأمن السعودية واستقرارها الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMixgRBVV95cUxOLWwyNUFKQ2drbDBlTjFBN0piY1JpNUZ3T1JzM1hyZmYwTU1fVGJQZ01DRGtMWld2czY2dk1hTXhFdnFROGlzMFJLVW5weURKOXlqZk52ZWZ1THlaNkpLQ2JRc0hUa1RKbHV2VncwMEE4VGdUT1lKY0h5UGxqdGtlZ3VPWjRSSU0xOWRpNG5yMnBWeWtkeGNTSnBKT1NIUy1UUmMtaUthLUt0SW45SlEzZXRHLVVVSUpOVnZ4ZEhTODhXLU03ZXFudUUzdXd5aHJQRjlXdTFsSWgtQVMxV21pV0tqQVJ1c29NQndsVEJVRzA3Q1VsTTUxS0UxZ2lwNDFXQ1pDTzFBdmFZRzZHdWN2czBQNDJUbkcwYXZQTnFHNEVRem9reFZiVVhJWVZvdnpqZnNWbWxDTkdYc3FzaGJTTXRoTTZqTXk1eEtPOExUOU1KTHZaV0hELWxwZ05heWxTZ2pkbFFhQzdzVFlCSDVNSXd1V2NxVDNXZ0YxUEhONHA3bksxNWc3bmVSQjZMVkpXMk51Rktfb2VVSlZaRjcxYm5SeEkzM0JRbzdPclo5OUQzemp0NTUzSHY0X1lsblpDNlB6bHVyWi1ZM3Y1Uk9YZmpFS2o4TXdqQ292X0JZVUZ5MGcxN3RDRHo2N3FyblhRcVpaUVlsNXRIdmdWY3BLem1JZHJtcFdWZlhDcUt0OXVWMTZoY2FQNGRabmxpSmE2OUJUb2JfMTNUcFFvNHhOVkZod1N0V2x3d2lIY0hkQUZUMUZSSWc?oc=5",
-    "rank": 36
+    "rank": 33
    },
    {
-    "headline": "السوق السعودية ترتفع 1.1 % بدعم الأسهم القيادية - الشرق الأوسط",
-    "summary": "السوق السعودية ترتفع 1.1 % بدعم الأسهم القيادية الشرق الأوسط",
+    "headline": "السعودية تؤكد دعمها «الحكومة الشرعية» لإنهاء الانقلاب في اليمن - الشرق الأوسط",
+    "summary": "السعودية تؤكد دعمها «الحكومة الشرعية» لإنهاء الانقلاب في اليمن الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "06 Oct 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMirANBVV95cUxQM2ZxM3A3TjRXSFJSQU9EbjhYeHhoUDd5cnNPbms1SWE3b2J5c1ZRTXBvSnBoUEduYjNGbUZQM2hHd2ZIYWRLNFFoczhrRHhFLVl3Y0N4OXhxbE9idkN6Q2RsTG56V015M29ZNTBvRDhrdUZSek01SHhjVE4wT1BBN2tZemVkRlBiT2Q2RVFVc1N3Q1dVdnBUamVQYmZEaVlndnQtNDkzX1JGX0lybVp2bU5mVnFLTmd1NlR2aEY0dnZvRl9ObVVkNFQ0WmlsaUltTHQ5eHhJekNNdXR4ZUF5bW9vVFZYeTBweDB2QUUtWU5wT2QwM2c3cVl2VWY4YndzeS14WVBzYndXU0lxWjNiZFdMUHpxR21UOXYzOUlIWE92QkwzSkt5VWs2eXZaS2xtMkVRektYc09KM3NBbGhHbGx1RnVnVm5ZMGtjTEZkUnB5eGlKVDJTRG41eEREdW9VRUtYWkxxWFI3ZTVGU0luNmhyakFIT09sMnl0cHZ4ZTdncHlCRDdpSTFBYl9rT3V4TkRkdWFoWU82UkcwMlBCcEFHc3NpM0t2djNfQg?oc=5",
-    "rank": 37
+    "url": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxPQmQzbnJxOEpZdWNwRjAxU0F3MnRSQXdzTHgtbnVyU0dzVWR2TE9BZ1l3cWVQX1g5TTBDZW9uS2xFd1YxcmtjRzhhSG1sX3RzX1RETUFZYVFyekdKQkdfV3RZM2xhN2lqZXRzejlRM28zVWlEek9oYVN3RTVGNkVpVTRNWml6eUo2NVNmT3BWcHBfbi1uNmo3WlFGOFpYU2ZicGxNLWI2czBTMzB5NDJ3b0lpcnJRS1RJOVVpZG9EcnhGWml0ZnRlWTlVaEhRWGNMa04zS0ZuVnZ4Z0FCYUdlVmlBQkV0SlA2OUN1NjdsZGxWTlhHWm01N3ZNOXctS0hDb3h1SGpuMmFVNEdOY1VoMkRsWXQ1VHBYNHBGWGVoVkVDZU1QRktnTmJ2SVBnV3pEXzlPVEMzR2pGQk45STJGRUljS3JpLUFlLVAxMnJuR21ZRzdPRXN4MHB3VVFmeHdMdXVFbG9SQzhSa1pPa3BYTnNZM01yb281QVdlSUk2em1xVk1ZWGVpVEtqdUlOamgyckpsNDdISUkwVWJ3NU8tUGViZHNhREpvZG01dzBxbzQzUHI0UThKTmZ3NVZjRUExTHNHQ2pOZmMtemZVTWlmQVhPZkVEYzNKb3AxdVZWaGR2Z3VDVVhZeU42Tmk2S3hBOVgyN0tkVlY1cFZjVWZWcl8wLXNOSHN2Njk1cjU5aHJWNEJrRi13YXhsRmxFZVc2bW56VlN4YVpDTzA3WnRsYV9hVHNBUXJ5NXJNS243THJhU0g1eUFjVUNwbEk3MnVENUZETnY2YzEtUDhaaWhVMldQY0N0Z3RpbDQ2cTZ5QVJFd0VuLU5RanVjYklKNmM?oc=5",
+    "rank": 34
+   },
+   {
+    "headline": "«موديز»: ضبط الإنفاق يعزز التعافي المالي للسعودية في 2027 - الشرق الأوسط",
+    "summary": "«موديز»: ضبط الإنفاق يعزز التعافي المالي للسعودية في 2027 الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "06 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxNSjczVF9LdXNyQkM4NmZMX3NHb1JnRFZ2ZGVvQlBQbkNaUnNNYm12a3dDcUlqZHg2UDBleUpjS1l1Qm4tdURoRm1ZTFRrUUlubEI0ZDJKaDV3T2hvbUp1cFRhc1ZmejNEM2dvbHRnb0pGM1VwNWNscDVidGtkUFUxVG5JSGZKd1FkQ1FacGo3VWdoR1ZnUTlmOFpUTUJkY2lnSUtOZWZyRU03U3REcXpoZVU3ejVvRXNUdTd5T0lnSTA3YlE0SGdwOVZadHNxdTF0a0pNMEhxMmdYODB2YjVxZlh2QndXZEJtNVltLXhDNk0xVFAtZ2J5d2tTVVV3M2EzZ1BZZzJQMzFnTXVsY1RFcEgwLU9ZN1BrOXVIdGxaQzY0eW9lTWVUYUpWa0lzVXVMOGNMaWZUakUtbGNOQ0txaTdHeTFuQkJqMUlrSkVHZ2E3OWhDMTlTYWotMy05WDN1YjY3cmJxZ3dXWnBxN1QxbW5RcEZaSWF4cExZUkhpWU1YQTdfYUxIMno3VkNOSEw2dVlEMnZJX1g2NkduNU1aeHFDUjNWMU13RUdUNzdkZFZNU0MwQkFkMEZWR2MyVFdhVF9QN2l0ZnJ2bkE4X2VuVXhGLV9vRm9sZkx1cnFJX0RtQQ?oc=5",
+    "rank": 35
+   },
+   {
+    "headline": "«الطيران المدني السعودي»: إصابة 3 أشخاص في استهداف مطارَي جازان ونجران - الشرق الأوسط",
+    "summary": "«الطيران المدني السعودي»: إصابة 3 أشخاص في استهداف مطارَي جازان ونجران الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "06 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiowVBVV95cUxPRzNRaUhMbG9vUjFPUkpvLXlDOWlFVzh3Z2dkOXhpRTRlUXBaZHRRNUlvZU9aZnVHV0pPMEx1WXdYbWZfeUNaZmwxckFaVFlKMEUwcHVxSl9OcXZTUzh1NDNHS3VzVGoxRU5uM0FPRlJueFVucW5EbE5DNkhySFhQcVR6T1hjczlGZE9wWDNuWEhnMHBYWF9QbS01azVxaWFMcnhmRlA2UnloX0VvVnZSc01DZC1uSlFTaUtaMWQwNUh5NnJ5S2xfbEhZY2gwQ0Q5ZjVVUGF5eTU2RVVESTI5R2pUejBZSEhnYnhqcTJnN1pYMzRjMGI2X1dLazQ0RnJ6YmNhT2tZbng4ajY0YUlZOGdySDV4UGp4bW1wRHhibU1TOHVrS0dZNi1HNmNYSTd2bkR3aTgxVDg0ODI2b1hBck9DaUhqb28yT1V5bXdlTnAzLWF4T3NEanRDQTM5OVNQWTluR3lWM3gydlgyQ0RocjlMNVNzLU16UGNOejU5Rjgtc1ktLWF6Rk1XbEd5czQyb0RMSXcydzdiMHEySHpwOUV4bW9La3l1d1R0RzhxdzlZLUx2aWViWDVKMEZnOTQ5Mmo1Vlh1RVREV05RNVQ1U1oyNDlLSGRqejlZWmd5MGxYYndlUEcxd3U4WW50d1JhTVgxdlpETHBiZHVpUkxDdmFXWW13b0VDYW9rWnRKY2FZMHJYbnlXVUFncVpyUTBCc3FnSTRJYjZMZUc1M1U2VEVmY0VmYkhlRmdxRHYwRDBWLVVZOGVUSW9Cekx6dXVNQ1Vfd19XVFlfc2JtWG5pZC1vVnBrZmNMVW5PZkp5RENoSnhHbkQ1b3NRQjZlOGVRYkthTnF0VUwtYXk5b2JKZUdtRk5fOFh1YjJwMzAyZmVBVXM?oc=5",
+    "rank": 36
    }
   ]
  },
