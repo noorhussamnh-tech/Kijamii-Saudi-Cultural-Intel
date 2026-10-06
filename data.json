@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Tuesday, 06 October 2026 · 20:00 KSA",
+ "lastUpdated": "Tuesday, 06 October 2026 · 20:14 KSA",
  "days": {
   "2026-09-23": {
    "label": "Wed 23 Sep",
@@ -2139,55 +2139,55 @@
     },
     {
      "rank": 2,
-     "text": "#ولي_العهد",
+     "text": "الخيبري",
      "cat": "General",
      "pts": 12
     },
     {
      "rank": 3,
-     "text": "فوز السعوديه",
+     "text": "#التا_للخدمات_العقاريه1",
      "cat": "General",
      "pts": 10
     },
     {
      "rank": 4,
-     "text": "#TKN247",
-     "cat": "General",
+     "text": "#مزاد_فرص_الخام_للمستثمرين1",
+     "cat": "Finance / Royalty",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "#الانماء_باي",
+     "text": "فوز السعوديه",
      "cat": "General",
      "pts": 7
     },
     {
      "rank": 6,
-     "text": "#نينجا_يشجع_الاخضر",
+     "text": "#مجلس_الوزراء",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 7,
-     "text": "كاكا",
+     "text": "#ولي_العهد",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 8,
-     "text": "فوز المنتخب السعودي",
-     "cat": "Football",
+     "text": "Oki Home",
+     "cat": "General",
      "pts": 6
     },
     {
      "rank": 9,
-     "text": "الرييس السوري",
-     "cat": "Politics / Diplomacy",
+     "text": "سعود كريري",
+     "cat": "General",
      "pts": 6
     },
     {
      "rank": 10,
-     "text": "التمويل الشخصي",
+     "text": "خالد عيسى",
      "cat": "General",
      "pts": 6
     },
@@ -2199,55 +2199,55 @@
     },
     {
      "rank": 12,
-     "text": "رييس الجمهوريه العربيه السوريه",
+     "text": "Memchip",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 13,
-     "text": "ملعب الانماء",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 14,
-     "text": "احمد الشرع",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 15,
-     "text": "نجيب البطوله",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 16,
      "text": "فوز سعودي",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 14,
+     "text": "الرييس السوري",
+     "cat": "Politics / Diplomacy",
+     "pts": 4
+    },
+    {
+     "rank": 15,
+     "text": "كاكا",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 16,
+     "text": "نجيب البطوله",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 17,
-     "text": "علي الرسول",
+     "text": "ملعب الانماء",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "عبدالله الخيبري",
+     "text": "التمويل الشخصي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 19,
-     "text": "المنتخب اليوم",
-     "cat": "Football",
+     "text": "الروح الكاس",
+     "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "المصالح المشتركه",
+     "text": "احمد الشرع",
      "cat": "General",
      "pts": 4
     }
@@ -2258,32 +2258,32 @@
      "score": 100
     },
     {
-     "text": "#ولي_العهد",
+     "text": "#التا_للخدمات_العقاريه1",
      "score": 88
     },
     {
-     "text": "#TKN247",
+     "text": "#مزاد_فرص_الخام_للمستثمرين1",
      "score": 76
     },
     {
-     "text": "#الانماء_باي",
+     "text": "#مجلس_الوزراء",
      "score": 64
     },
     {
-     "text": "#نينجا_يشجع_الاخضر",
+     "text": "#ولي_العهد",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (17)",
-     "items": "#السعوديه_الامارات · #ولي_العهد · فوز السعوديه · #TKN247 · #الانماء_باي · #نينجا_يشجع_الاخضر · كاكا · التمويل الشخصي · للسعودية · رييس الجمهوريه العربيه السوريه"
+     "label": "General (18)",
+     "items": "#السعوديه_الامارات · الخيبري · #التا_للخدمات_العقاريه1 · فوز السعوديه · #مجلس_الوزراء · #ولي_العهد · Oki Home · سعود كريري · خالد عيسى · للسعودية"
     },
     {
-     "icon": "⚽",
-     "label": "Football (2)",
-     "items": "فوز المنتخب السعودي · المنتخب اليوم"
+     "icon": "💰",
+     "label": "Finance / Royalty (1)",
+     "items": "#مزاد_فرص_الخام_للمستثمرين1"
     },
     {
      "icon": "🏛️",
@@ -2329,7 +2329,7 @@
   "المنتخب اليمني": 10,
   "القهوه السعوديه": 4,
   "البرازيل": 4,
-  "خالد عيسى": 4,
+  "خالد عيسى": 10,
   "منتخب المجنسين": 4,
   "صربيا": 10,
   "العصب البصري": 4,
@@ -2417,7 +2417,7 @@
   "زكريا": 6,
   "القحطاني": 12,
   "عبدالله السالم": 6,
-  "الخيبري": 4,
+  "الخيبري": 16,
   "#الناس_والليل300": 4,
   "يونس محمود": 4,
   "#سبحان_الله": 4,
@@ -2514,7 +2514,7 @@
   "#فجر_اليمن": 14,
   "#كمل_طريقك": 12,
   "باب المندب": 10,
-  "#مزاد_فرص_الخام_للمستثمرين1": 8,
+  "#مزاد_فرص_الخام_للمستثمرين1": 16,
   "#رحله_المليون75": 7,
   "احمد السلطان": 6,
   "عبدالرحمن اللحجي": 6,
@@ -2531,25 +2531,22 @@
   "عبدالله الصبان": 4,
   "درع الوطن": 4,
   "#السعوديه_الامارات": 14,
-  "#ولي_العهد": 12,
-  "فوز السعوديه": 10,
-  "#TKN247": 8,
-  "#الانماء_باي": 7,
-  "#نينجا_يشجع_الاخضر": 6,
-  "كاكا": 6,
-  "فوز المنتخب السعودي": 6,
-  "الرييس السوري": 6,
-  "التمويل الشخصي": 6,
+  "#التا_للخدمات_العقاريه1": 10,
+  "فوز السعوديه": 7,
+  "#مجلس_الوزراء": 6,
+  "#ولي_العهد": 6,
+  "Oki Home": 6,
+  "سعود كريري": 6,
   "للسعودية": 4,
-  "رييس الجمهوريه العربيه السوريه": 4,
-  "ملعب الانماء": 4,
-  "احمد الشرع": 4,
-  "نجيب البطوله": 4,
+  "Memchip": 4,
   "فوز سعودي": 4,
-  "علي الرسول": 4,
-  "عبدالله الخيبري": 4,
-  "المنتخب اليوم": 4,
-  "المصالح المشتركه": 4
+  "الرييس السوري": 4,
+  "كاكا": 4,
+  "نجيب البطوله": 4,
+  "ملعب الانماء": 4,
+  "التمويل الشخصي": 4,
+  "الروح الكاس": 4,
+  "احمد الشرع": 4
  },
  "news": {
   "date": "06 Oct 2026",
@@ -2573,21 +2570,21 @@
     "rank": 2
    },
    {
-    "headline": "Saudi Arabia says 2 airports were hit in renewed fighting with Houthis and other Mideast news - AP News",
-    "summary": "Saudi Arabia says 2 airports were hit in renewed fighting with Houthis and other Mideast news AP News",
-    "source": "AP News",
-    "date": "06 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUEREcFpjTm9qdzNSb19SaFZQMl9aTzloS3g3QWY3bXhTR1R2anBNZFhjbElHVm1iSXFqT2RWU25jdzRkNGNZTDl5bnNGOVZyQlJNWHFBc1JqcFRGenVOZktzWVkyVHpmNEhRTEJNRXI3bkpfWW9nVlVuZUEyVmFiU0U5U2JoNnNYby13aHBXWGdCUUFHZ0JDNXFzeTRQR21abERHRW05ZVNuTW8?oc=5",
-    "rank": 3
-   },
-   {
     "headline": "Saudi Arabia says three wounded in attacks on airports near Yemen border - Al Jazeera",
     "summary": "Saudi Arabia says three wounded in attacks on airports near Yemen border Al Jazeera",
     "source": "Al Jazeera",
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWHVKeVJtVklCdVVISmNIb3NVbk9kV1dRYmtMX1dxRTlWWThPNmRzTkIzUlF2WGdVYWxST3JqU3p0akJDUU9jWm84clpuSkEyMG94ZmpoNzN4MkFaa3BjcnRxWnpGSlZBdFlUZ1R2YVFpM1dWdVJqeHAwaWNnRjhzNWx1SWNDb1R1c2pILWdrQ3U4TEZiN2pYdG5HN0s1dTRDMnBKTndzVjVFa2FQSlJqVkVXSdIBuAFBVV95cUxOYW9TMV9wZEVndkZNZlhUSEtmdGYxbktLalVSY3RPOE9tVlM3U041VndUR1VRTTNla2FpYlZvbDdzRjUtM0QxNnpOWmpQdl9LbkhMZG5iM0pBOENqR2Z2eTI4dVRIWC1lV1Z0OWVxZTBLdzB5Wk1oR241bGpKenFoVDdVQmlBSUZhTXNkX09wUmJ2MW5VMG85b1dPdU1ncXN0TWoybzh0bHR2RzdwODZLdEJSb3Z1dkt4?oc=5",
+    "rank": 3
+   },
+   {
+    "headline": "Saudi Arabia says 2 airports were hit in renewed fighting with Houthis and other Mideast news - AP News",
+    "summary": "Saudi Arabia says 2 airports were hit in renewed fighting with Houthis and other Mideast news AP News",
+    "source": "AP News",
+    "date": "06 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUEREcFpjTm9qdzNSb19SaFZQMl9aTzloS3g3QWY3bXhTR1R2anBNZFhjbElHVm1iSXFqT2RWU25jdzRkNGNZTDl5bnNGOVZyQlJNWHFBc1JqcFRGenVOZktzWVkyVHpmNEhRTEJNRXI3bkpfWW9nVlVuZUEyVmFiU0U5U2JoNnNYby13aHBXWGdCUUFHZ0JDNXFzeTRQR21abERHRW05ZVNuTW8?oc=5",
     "rank": 4
    },
    {
@@ -2746,13 +2743,22 @@
     "rank": 21
    },
    {
+    "headline": "The Battle for Hormuz Is Not the War - Middle East Institute",
+    "summary": "The Battle for Hormuz Is Not the War Middle East Institute",
+    "source": "Middle East Institute",
+    "date": "06 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5iS0pkQkVDWklaRWZuWDJFVzhEVk1fNlZadVlPWjYySjFibURwTVhQcVltSHVLOEh1Uy1aRUp6VWdSbm5qTFVLWGdjQ2pGR0pHbmMtUjNscFcxaVpQSF84SE01SVZqbm9FWXBEc2Jrd202azJpMl8w?oc=5",
+    "rank": 22
+   },
+   {
     "headline": "Turkey to deploy troops and air defence systems to Saudi Arabia amid Houthi attacks - Middle East Eye",
     "summary": "Turkey to deploy troops and air defence systems to Saudi Arabia amid Houthi attacks Middle East Eye",
     "source": "Middle East Eye",
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOd1Qxc000TklGcW9GN0N0Q2JsRXA4RjE5TzRuQnNuSlZUdUcwV3d4Z04tQUxfTjVoT29iWHJ2TnptbFdIUnZRRXc3UTlzNVN2Y1dHZzZkNml4d2JlMlRKUWpKTURVbmtqbUtoWHRtN2VjXzduZE1IY1l1YU9jV2pRaHlTSFN5MHFILWJJeFBSczdGbkUteW9ZeGRPYw?oc=5",
-    "rank": 22
+    "rank": 23
    },
    {
     "headline": "Saudi Arabia says 2 airports were hit in renewed fighting with Houthis and other Mideast news - myMotherLode.com",
@@ -2761,7 +2767,7 @@
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMGh5M3VVQUJPWl82emZ6OUNpRjQtZWZFUjU0RlplR1NBdzNRaVEyd0d2RGZ2cTNHWThIRmZ3Zk5NdHA1LUJwRkp4OTJFNFBMNmI0YXZLTnBoejZlT25zTVJZMGE5X0d5UzFZdmcxT2hGVHhVNDI4eG41NkdPMWN6S1FSYUsxSkp1c1huYmd1Ry1kOFB5Z2pRVkY2cDdYT242d1Z5cWZNUDhxbEdpaUNUeGJYTHhMQk9ZaDZPWlpTYVZpOEFXaE53MUFWdHFxaGNCUjFkdEU0Ti1HMWZyQWpjV3FBMNIB6AFBVV95cUxPZE9QTjltd3JHZEtzNnZyTU9vVS1IdXA4Q2xyX2liVll2M2NaQnBwUjlwOVNackl6cDNTejY0MmM1TlpXSC1wSE9taXc2bFZGOG15T2tUbURqeUQ0Rjh4YktHSmtyU19hYzZlRF9tc0hjWmpYcllqcTFDMW53MDFMLUhDQnVSRndnX2FJOUFBMUpxVVlaTmFfQWo1LWpZMnpvX3gzaU1qRHM2ZzFqMkl4RXYxQmVxQ291eUowb2U0dUYtVlFEaUR2SHdBQWJwcmhvNDJtQ1BOLXRPNFNuTTdGekJQS2tlV011?oc=5",
-    "rank": 23
+    "rank": 24
    },
    {
     "headline": "Chris Murphy’s selective outrage in the Middle East - Jewish Insider",
@@ -2770,7 +2776,7 @@
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU2RLWkZidHVxemhEUXFKYW96MTJ0YS05cTdKRnBkOTQ3YjZDblJZaUI1N1czLUZTdVlmaVkycHZPaW5nWVhYNnBkWUpiSGpxalFDeXBDanpHWkZyeVUtLXU3RDZkSzZ2LWVhZ1R6QzhNZDZrbEFDYzVqckFpeDJuVWhQc3g1SE5LaDU0TENwUWw0MHg1ZFE?oc=5",
-    "rank": 24
+    "rank": 25
    },
    {
     "headline": "Iran Update, October 5, 2026 - Institute for the Study of War",
@@ -2779,15 +2785,6 @@
     "date": "06 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbFVvY1pjMWNhUzlsWmVTbUk2QUNHT1JHMThHRUN4a1R5Wk1HSU0yRXNmTzhIdTV0Z3k2SFlRcGxrNDVXbk1kZG5Jaks5SmwzZDY1MVZfYXRON3FfZ0FYZHZyYnpoV3laT08taFFjZWNNR2c2dHdNc1hBYXVjVUt2Z1pZOA?oc=5",
-    "rank": 25
-   },
-   {
-    "headline": "Houthis strike two airports in Saudi Arabia as Turkey and Pakistan send troops to support Riyadh - Washington Examiner",
-    "summary": "Houthis strike two airports in Saudi Arabia as Turkey and Pakistan send troops to support Riyadh Washington Examiner",
-    "source": "Washington Examiner",
-    "date": "06 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNGd0ZjJHTFFOQ0VWUWdta0ZETmtnRVJDWUQyLV9SUkk3ZVB6bzM1NkxadlpfUl9fekNDTW16LUVqaklrR0JKLW9JWVAzaFBTVDNVaU1NUDdMdjdTZmZqY3BkblVSZ01SZFktOTdDT1ZrNXFsY0plUVl3aGZCbDI3b2g4M3BnNWdEbkRYaDVFUWhoZEpTaXdvRW5iUENkSEFxT3JzTERPVkNOZEdWSC1ZOFd6TnJhVjVvbWxrdExYTTNlak1CYWE4ekJQbzhqektOVzdz?oc=5",
     "rank": 26
    },
    {
@@ -2809,13 +2806,31 @@
     "rank": 28
    },
    {
+    "headline": "«سير» تراهن على بناء صناعة سيارات سعودية متكاملة - الشرق الأوسط",
+    "summary": "«سير» تراهن على بناء صناعة سيارات سعودية متكاملة الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "05 Oct 2026",
+    "tag": "housing",
+    "url": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxQNWFGcV9iUEFHU2Z3cEdySDhuVEdMOU1vdHFpZk5neEpqWk5rLVZIekVxM29mNmlZam9GMDd2dldFa3lXVmRsdjA2eElFMFBpc3lmUUNXd2lLVjZuSmFNQzRqa0pYRE9SWnkzN1hhUllZT1AxVmo5ZWFRVTNTcU41b2VIbHJLaDRlanYtNWNVN2RMQlpGRnhueDB5RDItMUQ3YnFGS3p6X0h0SUJQVjZQcTd3Z1F0NkxWYzFxWUUtSHExNDN1RTRodkMtT0YwcDQ1THdkakdDV1h6ZVVnNFZLamtyY0FfaEZxRG56QmlWeVNqSDJUYWZURWpDVmstb04xYnczLV85eWc3THV2QWpodm5WNnNucDQ0UlZfM3d5R2daWlpkVmVJUVRHcWNjSThNcWRWY1ZxemExSVFORzJ6LTJrX1ZJM1pRUElkZUlEUWkwa0tYS0tCdFVfYzBWaGVPU3BZc2hCZ1dEZ0tHOFZOU3JLZURCem1XazRLSVJmMHRsaFpnQnZNMXJFOGZvLWJ6eGMwaGNPWHR1QTQzX3lqTk03ZHdtLWZVdWtURTFCZ1p6cE1jdjB0NEI2LVAyb3ZzbjQ4?oc=5",
+    "rank": 29
+   },
+   {
+    "headline": "مصادر لـ«الشرق الأوسط»: السلامي بديلا عن العطوي في الفتح - الشرق الأوسط",
+    "summary": "مصادر لـ«الشرق الأوسط»: السلامي بديلا عن العطوي في الفتح الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "06 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMixwRBVV95cUxOcW9vSmJPS1haNUJuWkVYZGwzbUxkR0NwOEJFWmlVVExqS3c4ZUF4a294aTVEWUM3S0pULUo1OXVSMnBxalZ5R3ZheEFhbFhPVWx0S3RBazlCTkhPSkkxWmdRQ2c1Q1NWY1FKZ1l6V2VEZ2pTa2xrWVEwTzVCdEtGaEktZ2ltSXRkSmtTbkJsbXhWdFRJQldDNlpCM2wyYmQtdkRJaW5wcE05SFpFLUZNVjc3Q3g4bjFTY083ZnNCTVRBQ0dmMDZnQ0p5LVg1S1VaeDJ2RXB6TWFvOHRCOWQ5bU9fbE81REo5a0VMdHFjTXRGVGdmYnREeml0ZGRYUDhkSW1mcHlURUVlSkluQ000eHM1cG1TcXZYQ3BTSUJvZVJnOXUzZ3lJQkk2VjNna0pndjQ4bXM2SkdNb1o3Rl8xalJ6TlRKSmxaVkt2Ny1zMEhORmdCWlhYVFNLbDRHaWwtdWd5Y3RzVkRSbXBnQWJnekZkdExlbjAtUmRNd3JVYzJHN1FoQXZ1cFJlUXBIbXRuRHRQLUZHZmVKWEhyaDlRMmI0WDVmQUdMMWJ5b0VLUmZxSGplS1dtNXdLU29HR3R0VE9zbjBtZWx3Ukl0bjRIa2VZeDE4NjdhT3NKSF9JM2puVXNmUjdsbEE0ZVIwTEV2ZFRhSlNySjB0Skd4bnVIa3ZsemhaSEVON0RNX2xRVV9NVGxiQTNNUjBzRXR0dU93dW5SNGc2S2M3cl9sZzNjRS1kQUc2WmIzTHdyU2pCMGh1d0tTazY0?oc=5",
+    "rank": 30
+   },
+   {
     "headline": "السعودية تشهد نمواً في تسجيل براءات الاختراع بأكثر من 5 آلاف طلب خلال 2026 - الشرق الأوسط",
     "summary": "السعودية تشهد نمواً في تسجيل براءات الاختراع بأكثر من 5 آلاف طلب خلال 2026 الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxQZTN3ZGNJOTdmOEJzR1FfLWRhaVpGXzBHdl9jaVcwN2I2ZjJTYmtaQndrOTZVaWJUWndTODgxazhCdHdkLU5OYzc5UHVxMUQwTWxUQkplaTh3MnlRZUh4QjhHbVo3RWZYLUY3SmcySWt1MzZMSWUwdWFjYWRJdThOd04tVkVFbGNVY2c3NzQ0d2hRemlvTDN0UzV6S1I1VWk2OFlqQlNJSW5kQjNWbnB5WGpFVkI2YS00cUNsTDlsa2gtTEgwNWVOam9pN3dVeHhzbHJobTRxOGE1eVVfQUo0bUVhcGp6cmF4YlRfUjRjV1ZBM00yQ01CUWZRajZUdHIyVDdveTZtdXMwQXMzX2pxWTc2dVRRT2FZU1NUTVRieXJvcHIzZzBUUGFId3h6Z19NNXF2V1ZTYldtS3VqSzNSelVrQzE2QXdtRUFDZnVybjRwU0JuYl9aZmpLR2gyZHlEUVMyYXhkZmMzZG01Zk4zbWJ5YWxSUnFPRWo5Nk1sZE0zMDRRZFVGVjh0ZTlIQWFvTFVuMjZEUFlaZkE4cG5HZEFrZDctSnhDVC1FeHhWeU9Ja0hJelQ2UFRPUXR1eVc4YVJhQXg3Q01GN1hlV1BRakotVWdub0JGSURYd1VMQjhuR0hJejlNeXFGS0lWa0h6SFBvTGl2S1NVMjF4SFQtbXlwVkNhWVpjUmNfa3haUVBTM3FSS1JpWVZhclRKVjA0dnZfZjZXYWJoN1YtdUMteExxd1plb3kwRF80cmJQNEVibjUzaldIdXlSdDkwMWhyM3padDlvbk1wRmcteUdHQlluOGEzaXdISVBhWjdFME9UdUk?oc=5",
-    "rank": 29
+    "rank": 31
    },
    {
     "headline": "«سال» السعودية توسع خياراتها اللوجستية مع تغير خريطة التجارة العالمية - الشرق الأوسط",
@@ -2824,7 +2839,7 @@
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi3gRBVV95cUxQQTJEajU5S0JwQmZ5a2piOFg1cVh4Y0tFUTZLVlRGc0ZSZ1VWYlhqOFM0bjluOUFXeTFKcS16dzk4LWk3V2FQWVRQbTdueHhOaFJjS1YzT2NDOF9DY0NUdGZnWXY2TVBRR3BwNTlOZVFXejMwMmxseTVHOVVPcVBzRjlLYlNwLXluOUxqUkJEYUJGeFc5VmJxUmowR19CeHphS2hNcHZkY0F1eGExbEZGQTl0QTlxN0hpX214VXA1WHFmcjljNnZMbXYzUUp6NmZYNzZ0bzBUOFAwZ01uT081TGZ1d2NCX0kwY1Bla2s5aFhWbDBDdTk2WndoWk1JT1BZWXhSYkxxYWx6eHp6OUlPTjVpbXE2OFpfYU5JSWJaX21ESThOdDR5TE5RU0owcXFEb19NV2VSeHNpZUpiTlJjSzlBMGxWd0ZEN2dxcXNGanNZMHdlNzdDRERnSTI5bk1Cd3YyRThaN29ac3dwdkdqZndZNjlwUGRSNkN3OWlFbnFONVVibElLQXlPSFlFSjhnYkRrVmNjRmUzZHJUbDVwNFdTYWdva0dPOGJCMFNFQnlfVlU5akpfc0ZPdE5kbEk0SjhrOWpBTHcwMEY3N19UV1NoM3FHWmxPUFl4ZzhkdTA3NWVDUXZ5bmh6Ykh2QmpZTTFwNl9LRll0ZjR4SDBYcUdBTWlsd3gtdk9veHFHZ1Naa0VHS01ZX3B4cWFfRVVsV08zbU1jeFpfRFFHQlZnT1NBemZTVldIMExVZEZHUXNtZEt1U21RV1pXajlETzViUVFZN2dTWHc5WkZUZlE?oc=5",
-    "rank": 30
+    "rank": 32
    },
    {
     "headline": "الأسهم السعودية تقفز 1.4 % في أول يوم لتطبيق آلية أوامر السوق الجديدة - الشرق الأوسط",
@@ -2833,16 +2848,7 @@
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiuwRBVV95cUxPOHlLcDRUaXkzVGZBTUVjeldmUHNQcFhVbnozRzdLWkxSNExpa2RhNE5zQXh3a01CcXhWcWhpaGZkUThHdUs5WlNCTmRrUWdNZzNWQnFqTkFwYm9oLVJObGZfX2lha3k3TUN5a1JoT3BOWE84Z3gzTFY2ZmNrN0J4dkNXREdoMGZRdU1WR29yTGhnTDk3QTU0Wmo5RkFNdGNaYmEtTVVBTHRtSnVCQmVZck52ckpjOVFacjRIRlZaSXowckxaclkyMGRoWFRhTmVkb0ZmWlpQdWx2dUdQNFU5MDk4Uzk2Q2laa0NidU1jYVowRFhQUm8xWmFtdG9rZGJyb2JGaUlhRG1tbElFeDJpbW5mMWVHbW5aZmVSMldtcU9sRnVJaFYyZHhqV1ZYTFNBU21iNnVSZFJzcGhfbEhlb0V6UktmQU9pcXUxLWQydUVwZWlRS1RvUE9wVGl3TzRpa0p2YkotaU9oYmJVX09wY1JuMkNfVTczN3IxZnhDckRMVmgxZG93SWcyZVRIbU45WlFKN203d1ItSVlVRHpoOW00UEU1YVNKWU9vZE9DZEZFWFhfZ2NEV3BaOUROWWhWZ2p6ODhOdnotcGNiYVhQeTRHTVZ2cjlJb2JSNWpVWHlnR2VYODkxd3h2S0JsdU1CX3VvT1I1V193cUtXLWlDSXhGenZnM2ZkbXVsSjJqdWRVb1ZrU0R0OVBtVUFES1M2b1pCMHdQd0dyZW0yOXItS3NMLWhzWUJ6Y2I0?oc=5",
-    "rank": 31
-   },
-   {
-    "headline": "عبدالعزيز بن سلمان: استعدنا 5.8 مليون برميل يومياً عبر خط «شرق - غرب» - الشرق الأوسط",
-    "summary": "عبدالعزيز بن سلمان: استعدنا 5.8 مليون برميل يومياً عبر خط «شرق - غرب» الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "06 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiowRBVV95cUxPMFd1Zjh2SmY3LU5NQlpkVU0wYnV2N0hjSUtjMlgzWXVHRjhaenZmT1U3NmdCUjJOblo0Q0NjYXdYMlpMdjk2c1lDYlRmeEg5RGp5Mll6ZVU4MkhyWGR6VmZLS2pjTVZpc3M0QjNnV0h2QWtWRFpGMGpHSXM2bk5FVTNfSERZb3Z4dEVqODFIY1NFUWFSVjl3TXB5NS1VS0tjQmJiYTBnSkFvZENPWGo0VkpWei02emE4QkF5ZWd2eVlscGNTRUFjMmxCTVNwcXBycHAyeElfVklhNTlmeVh1THRxSGRmYlBiaXdQeUFaSjEwUnpPZ3VhN2w4eDJvaF9FT3BqWXhoYm9jLTFHQjFXQVR4d3hyNnVpTTlyM0pucFNobFJVam9NUHNyTThQT0NEVGlFWEZxM0o1RW03MGhTbHpWRkstbXlCck4tVXRZRllOVlEtMFBWc2tWRWp5My1SWHZ4cTRXOGpDbFpOVW12ZS0zNFFCZzRFWXk5Vzdqc2F0OU5nTUlZQzYxU0pDUjhyNnZwd0RLUnROalQ0MEg5RzN2N2pXWDBUUThWakZCNF9mRkZwdU04YmN3WC1LbnhoNGlhb1BfWlh1aG9fbzZocmVYZ2hlX2Z2dUtQVGtjUEhGZHBmOEh5Q0JzRjRQeHR0cmpmaXhodmF4OHd5cGRuTGdfTGVpNUhScHlJYjJwYjdidWVIZVVWSzNjWnRCLWhSMWtn?oc=5",
-    "rank": 32
+    "rank": 33
    },
    {
     "headline": "مصر تجدد دعمها الكامل لأمن السعودية واستقرارها - الشرق الأوسط",
@@ -2851,7 +2857,16 @@
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMixgRBVV95cUxOLWwyNUFKQ2drbDBlTjFBN0piY1JpNUZ3T1JzM1hyZmYwTU1fVGJQZ01DRGtMWld2czY2dk1hTXhFdnFROGlzMFJLVW5weURKOXlqZk52ZWZ1THlaNkpLQ2JRc0hUa1RKbHV2VncwMEE4VGdUT1lKY0h5UGxqdGtlZ3VPWjRSSU0xOWRpNG5yMnBWeWtkeGNTSnBKT1NIUy1UUmMtaUthLUt0SW45SlEzZXRHLVVVSUpOVnZ4ZEhTODhXLU03ZXFudUUzdXd5aHJQRjlXdTFsSWgtQVMxV21pV0tqQVJ1c29NQndsVEJVRzA3Q1VsTTUxS0UxZ2lwNDFXQ1pDTzFBdmFZRzZHdWN2czBQNDJUbkcwYXZQTnFHNEVRem9reFZiVVhJWVZvdnpqZnNWbWxDTkdYc3FzaGJTTXRoTTZqTXk1eEtPOExUOU1KTHZaV0hELWxwZ05heWxTZ2pkbFFhQzdzVFlCSDVNSXd1V2NxVDNXZ0YxUEhONHA3bksxNWc3bmVSQjZMVkpXMk51Rktfb2VVSlZaRjcxYm5SeEkzM0JRbzdPclo5OUQzemp0NTUzSHY0X1lsblpDNlB6bHVyWi1ZM3Y1Uk9YZmpFS2o4TXdqQ292X0JZVUZ5MGcxN3RDRHo2N3FyblhRcVpaUVlsNXRIdmdWY3BLem1JZHJtcFdWZlhDcUt0OXVWMTZoY2FQNGRabmxpSmE2OUJUb2JfMTNUcFFvNHhOVkZod1N0V2x3d2lIY0hkQUZUMUZSSWc?oc=5",
-    "rank": 33
+    "rank": 34
+   },
+   {
+    "headline": "عبدالعزيز بن سلمان: استعدنا 5.8 مليون برميل يومياً عبر خط «شرق - غرب» - الشرق الأوسط",
+    "summary": "عبدالعزيز بن سلمان: استعدنا 5.8 مليون برميل يومياً عبر خط «شرق - غرب» الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "06 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiowRBVV95cUxPMFd1Zjh2SmY3LU5NQlpkVU0wYnV2N0hjSUtjMlgzWXVHRjhaenZmT1U3NmdCUjJOblo0Q0NjYXdYMlpMdjk2c1lDYlRmeEg5RGp5Mll6ZVU4MkhyWGR6VmZLS2pjTVZpc3M0QjNnV0h2QWtWRFpGMGpHSXM2bk5FVTNfSERZb3Z4dEVqODFIY1NFUWFSVjl3TXB5NS1VS0tjQmJiYTBnSkFvZENPWGo0VkpWei02emE4QkF5ZWd2eVlscGNTRUFjMmxCTVNwcXBycHAyeElfVklhNTlmeVh1THRxSGRmYlBiaXdQeUFaSjEwUnpPZ3VhN2w4eDJvaF9FT3BqWXhoYm9jLTFHQjFXQVR4d3hyNnVpTTlyM0pucFNobFJVam9NUHNyTThQT0NEVGlFWEZxM0o1RW03MGhTbHpWRkstbXlCck4tVXRZRllOVlEtMFBWc2tWRWp5My1SWHZ4cTRXOGpDbFpOVW12ZS0zNFFCZzRFWXk5Vzdqc2F0OU5nTUlZQzYxU0pDUjhyNnZwd0RLUnROalQ0MEg5RzN2N2pXWDBUUThWakZCNF9mRkZwdU04YmN3WC1LbnhoNGlhb1BfWlh1aG9fbzZocmVYZ2hlX2Z2dUtQVGtjUEhGZHBmOEh5Q0JzRjRQeHR0cmpmaXhodmF4OHd5cGRuTGdfTGVpNUhScHlJYjJwYjdidWVIZVVWSzNjWnRCLWhSMWtn?oc=5",
+    "rank": 35
    },
    {
     "headline": "السعودية تؤكد دعمها «الحكومة الشرعية» لإنهاء الانقلاب في اليمن - الشرق الأوسط",
@@ -2860,24 +2875,6 @@
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxPQmQzbnJxOEpZdWNwRjAxU0F3MnRSQXdzTHgtbnVyU0dzVWR2TE9BZ1l3cWVQX1g5TTBDZW9uS2xFd1YxcmtjRzhhSG1sX3RzX1RETUFZYVFyekdKQkdfV3RZM2xhN2lqZXRzejlRM28zVWlEek9oYVN3RTVGNkVpVTRNWml6eUo2NVNmT3BWcHBfbi1uNmo3WlFGOFpYU2ZicGxNLWI2czBTMzB5NDJ3b0lpcnJRS1RJOVVpZG9EcnhGWml0ZnRlWTlVaEhRWGNMa04zS0ZuVnZ4Z0FCYUdlVmlBQkV0SlA2OUN1NjdsZGxWTlhHWm01N3ZNOXctS0hDb3h1SGpuMmFVNEdOY1VoMkRsWXQ1VHBYNHBGWGVoVkVDZU1QRktnTmJ2SVBnV3pEXzlPVEMzR2pGQk45STJGRUljS3JpLUFlLVAxMnJuR21ZRzdPRXN4MHB3VVFmeHdMdXVFbG9SQzhSa1pPa3BYTnNZM01yb281QVdlSUk2em1xVk1ZWGVpVEtqdUlOamgyckpsNDdISUkwVWJ3NU8tUGViZHNhREpvZG01dzBxbzQzUHI0UThKTmZ3NVZjRUExTHNHQ2pOZmMtemZVTWlmQVhPZkVEYzNKb3AxdVZWaGR2Z3VDVVhZeU42Tmk2S3hBOVgyN0tkVlY1cFZjVWZWcl8wLXNOSHN2Njk1cjU5aHJWNEJrRi13YXhsRmxFZVc2bW56VlN4YVpDTzA3WnRsYV9hVHNBUXJ5NXJNS243THJhU0g1eUFjVUNwbEk3MnVENUZETnY2YzEtUDhaaWhVMldQY0N0Z3RpbDQ2cTZ5QVJFd0VuLU5RanVjYklKNmM?oc=5",
-    "rank": 34
-   },
-   {
-    "headline": "«موديز»: ضبط الإنفاق يعزز التعافي المالي للسعودية في 2027 - الشرق الأوسط",
-    "summary": "«موديز»: ضبط الإنفاق يعزز التعافي المالي للسعودية في 2027 الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "06 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxNSjczVF9LdXNyQkM4NmZMX3NHb1JnRFZ2ZGVvQlBQbkNaUnNNYm12a3dDcUlqZHg2UDBleUpjS1l1Qm4tdURoRm1ZTFRrUUlubEI0ZDJKaDV3T2hvbUp1cFRhc1ZmejNEM2dvbHRnb0pGM1VwNWNscDVidGtkUFUxVG5JSGZKd1FkQ1FacGo3VWdoR1ZnUTlmOFpUTUJkY2lnSUtOZWZyRU03U3REcXpoZVU3ejVvRXNUdTd5T0lnSTA3YlE0SGdwOVZadHNxdTF0a0pNMEhxMmdYODB2YjVxZlh2QndXZEJtNVltLXhDNk0xVFAtZ2J5d2tTVVV3M2EzZ1BZZzJQMzFnTXVsY1RFcEgwLU9ZN1BrOXVIdGxaQzY0eW9lTWVUYUpWa0lzVXVMOGNMaWZUakUtbGNOQ0txaTdHeTFuQkJqMUlrSkVHZ2E3OWhDMTlTYWotMy05WDN1YjY3cmJxZ3dXWnBxN1QxbW5RcEZaSWF4cExZUkhpWU1YQTdfYUxIMno3VkNOSEw2dVlEMnZJX1g2NkduNU1aeHFDUjNWMU13RUdUNzdkZFZNU0MwQkFkMEZWR2MyVFdhVF9QN2l0ZnJ2bkE4X2VuVXhGLV9vRm9sZkx1cnFJX0RtQQ?oc=5",
-    "rank": 35
-   },
-   {
-    "headline": "«الطيران المدني السعودي»: إصابة 3 أشخاص في استهداف مطارَي جازان ونجران - الشرق الأوسط",
-    "summary": "«الطيران المدني السعودي»: إصابة 3 أشخاص في استهداف مطارَي جازان ونجران الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "06 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiowVBVV95cUxPRzNRaUhMbG9vUjFPUkpvLXlDOWlFVzh3Z2dkOXhpRTRlUXBaZHRRNUlvZU9aZnVHV0pPMEx1WXdYbWZfeUNaZmwxckFaVFlKMEUwcHVxSl9OcXZTUzh1NDNHS3VzVGoxRU5uM0FPRlJueFVucW5EbE5DNkhySFhQcVR6T1hjczlGZE9wWDNuWEhnMHBYWF9QbS01azVxaWFMcnhmRlA2UnloX0VvVnZSc01DZC1uSlFTaUtaMWQwNUh5NnJ5S2xfbEhZY2gwQ0Q5ZjVVUGF5eTU2RVVESTI5R2pUejBZSEhnYnhqcTJnN1pYMzRjMGI2X1dLazQ0RnJ6YmNhT2tZbng4ajY0YUlZOGdySDV4UGp4bW1wRHhibU1TOHVrS0dZNi1HNmNYSTd2bkR3aTgxVDg0ODI2b1hBck9DaUhqb28yT1V5bXdlTnAzLWF4T3NEanRDQTM5OVNQWTluR3lWM3gydlgyQ0RocjlMNVNzLU16UGNOejU5Rjgtc1ktLWF6Rk1XbEd5czQyb0RMSXcydzdiMHEySHpwOUV4bW9La3l1d1R0RzhxdzlZLUx2aWViWDVKMEZnOTQ5Mmo1Vlh1RVREV05RNVQ1U1oyNDlLSGRqejlZWmd5MGxYYndlUEcxd3U4WW50d1JhTVgxdlpETHBiZHVpUkxDdmFXWW13b0VDYW9rWnRKY2FZMHJYbnlXVUFncVpyUTBCc3FnSTRJYjZMZUc1M1U2VEVmY0VmYkhlRmdxRHYwRDBWLVVZOGVUSW9Cekx6dXVNQ1Vfd19XVFlfc2JtWG5pZC1vVnBrZmNMVW5PZkp5RENoSnhHbkQ1b3NRQjZlOGVRYkthTnF0VUwtYXk5b2JKZUdtRk5fOFh1YjJwMzAyZmVBVXM?oc=5",
     "rank": 36
    }
   ]
