@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Wednesday, 07 October 2026 · 07:00 KSA",
+ "lastUpdated": "Wednesday, 07 October 2026 · 08:00 KSA",
  "days": {
   "2026-09-24": {
    "label": "Thu 24 Sep",
@@ -2123,91 +2123,91 @@
    "trends": [
     {
      "rank": 1,
-     "text": "ميسي",
+     "text": "#بلا_",
      "cat": "General",
      "pts": 14
     },
     {
      "rank": 2,
-     "text": "#بلا_",
+     "text": "ميسي",
      "cat": "General",
      "pts": 12
     },
     {
      "rank": 3,
-     "text": "شمس الارجنتين",
+     "text": "#الاخضر_بطل_الخليج",
      "cat": "General",
      "pts": 10
     },
     {
      "rank": 4,
-     "text": "#شكرا_قنوات_الكاس",
+     "text": "#خليجي٢٧",
      "cat": "General",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "#خليجي٢٧",
+     "text": "شمس الارجنتين",
      "cat": "General",
      "pts": 7
     },
     {
      "rank": 6,
-     "text": "#الاخضر_بطل_الخليج",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 7,
-     "text": "اسيست",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 8,
      "text": "#البنك_الرسمي_للكره_السعوديه",
      "cat": "General",
      "pts": 6
     },
     {
-     "rank": 9,
+     "rank": 7,
+     "text": "كره القدم",
+     "cat": "General",
+     "pts": 6
+    },
+    {
+     "rank": 8,
      "text": "كاس الخليج",
      "cat": "General",
      "pts": 6
     },
     {
+     "rank": 9,
+     "text": "#شكرا_قنوات_الكاس",
+     "cat": "General",
+     "pts": 6
+    },
+    {
      "rank": 10,
-     "text": "كاس اسيا",
+     "text": "اسيست",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 11,
-     "text": "فارس عوض",
-     "cat": "General",
+     "text": "فوز المنتخب",
+     "cat": "Football",
      "pts": 4
     },
     {
      "rank": 12,
-     "text": "الاخضر السعودي",
-     "cat": "General",
+     "text": "المنتخب السعودي",
+     "cat": "Football",
      "pts": 4
     },
     {
      "rank": 13,
-     "text": "حارس بنين",
+     "text": "كاس اسيا",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 14,
-     "text": "الشعب السعودي",
+     "text": "الاخضر السعودي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 15,
-     "text": "الصقور الخضر",
+     "text": "حارس بنين",
      "cat": "General",
      "pts": 4
     },
@@ -2219,25 +2219,25 @@
     },
     {
      "rank": 17,
-     "text": "علي الفوز",
+     "text": "فارس عوض",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "قول الاسطوره",
+     "text": "الشعب السعودي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 19,
-     "text": "تاريخ كره القدم",
+     "text": "الصقور الخضر",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "The End",
+     "text": "علي الفوز",
      "cat": "General",
      "pts": 4
     }
@@ -2248,7 +2248,7 @@
      "score": 100
     },
     {
-     "text": "#شكرا_قنوات_الكاس",
+     "text": "#الاخضر_بطل_الخليج",
      "score": 88
     },
     {
@@ -2256,19 +2256,24 @@
      "score": 76
     },
     {
-     "text": "#الاخضر_بطل_الخليج",
+     "text": "#البنك_الرسمي_للكره_السعوديه",
      "score": 64
     },
     {
-     "text": "#البنك_الرسمي_للكره_السعوديه",
+     "text": "#شكرا_قنوات_الكاس",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (19)",
-     "items": "ميسي · #بلا_ · شمس الارجنتين · #شكرا_قنوات_الكاس · #خليجي٢٧ · #الاخضر_بطل_الخليج · اسيست · #البنك_الرسمي_للكره_السعوديه · كاس الخليج · كاس اسيا"
+     "label": "General (17)",
+     "items": "#بلا_ · ميسي · #الاخضر_بطل_الخليج · #خليجي٢٧ · شمس الارجنتين · #البنك_الرسمي_للكره_السعوديه · كره القدم · كاس الخليج · #شكرا_قنوات_الكاس · اسيست"
+    },
+    {
+     "icon": "⚽",
+     "label": "Football (2)",
+     "items": "فوز المنتخب · المنتخب السعودي"
     },
     {
      "icon": "🌊",
@@ -2335,7 +2340,7 @@
   "قول الثالث": 4,
   "قول الثاني": 8,
   "قول البريكان": 4,
-  "المنتخب السعودي": 12,
+  "المنتخب السعودي": 16,
   "العمري": 10,
   "قول ثالث": 4,
   "العويس": 18,
@@ -2379,7 +2384,7 @@
   "اللعب النظيف": 12,
   "العلامه الكامله": 10,
   "عبدالله الحمدان": 8,
-  "#خليجي٢٧": 18,
+  "#خليجي٢٧": 19,
   "برا البطوله": 6,
   "نصف النهايي": 6,
   "زكريا": 6,
@@ -2511,24 +2516,23 @@
   "الهدف الاول": 4,
   "همام الاول": 4,
   "قول سعودي": 4,
-  "ميسي": 14,
-  "#بلا_": 12,
-  "شمس الارجنتين": 10,
-  "#شكرا_قنوات_الكاس": 8,
-  "#الاخضر_بطل_الخليج": 6,
-  "اسيست": 6,
+  "#بلا_": 14,
+  "ميسي": 12,
+  "#الاخضر_بطل_الخليج": 10,
+  "شمس الارجنتين": 7,
   "#البنك_الرسمي_للكره_السعوديه": 6,
+  "كره القدم": 6,
   "كاس الخليج": 6,
-  "كاس اسيا": 6,
+  "#شكرا_قنوات_الكاس": 6,
+  "اسيست": 6,
+  "فوز المنتخب": 4,
+  "كاس اسيا": 4,
   "الاخضر السعودي": 4,
   "حارس بنين": 4,
+  "رجل الامن": 4,
   "الشعب السعودي": 4,
   "الصقور الخضر": 4,
-  "رجل الامن": 4,
-  "علي الفوز": 4,
-  "قول الاسطوره": 4,
-  "تاريخ كره القدم": 4,
-  "The End": 4
+  "علي الفوز": 4
  },
  "news": {
   "date": "07 Oct 2026",
@@ -2543,21 +2547,21 @@
     "rank": 1
    },
    {
-    "headline": "Why Saudi Arabia’s Last War in Yemen Turned Into a Quagmire - The New York Times",
-    "summary": "Why Saudi Arabia’s Last War in Yemen Turned Into a Quagmire The New York Times",
-    "source": "The New York Times",
-    "date": "06 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnRySEhOdmpmbVBQYjVYVldxbDd6N3BDb3JMT2pCVHBtdzRVNWZLOTZ6RENGeXMzUHN5MXJIRlduall0bGIwelRDQUVyUmZCSTlNWXdBdEpzODJubVV5bWdXQ0hLOTlacEZBMGc0M1k4NUZsbzdJeDQyUHdfcVI5WUdCY1c4NG5wSHFla0EyUG1xTUVGa1RwcUlQLWo?oc=5",
-    "rank": 2
-   },
-   {
     "headline": "Oil rises as concerns over Houthi attacks on Saudi Arabia eclipse supply recovery - CNBC",
     "summary": "Oil rises as concerns over Houthi attacks on Saudi Arabia eclipse supply recovery CNBC",
     "source": "CNBC",
     "date": "07 Oct 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBVZkUybjVDOGh4dTlfaXBDNmZiUXlMcDBCZXVrSmtraklmdFVqZG9LVGFiS0xhY2oydGl2NlB1UDFxdmp0TmR2djc0cFFDRDZScVBzVXh3LVQ5WmI1YjVmakh3ems1el9QYXhOZmxUUWRfRHNPRVF5RmV30gF_QVVfeXFMTlBpNjJzZ2JKS0RRLTd5VGtPLWNiVkdHbEl3bEhxRk41OXQ3aWtRYVktcC04RldPYVJTWC1nNDMyOUR5SElROEMxaHIyMFF2THl0cl9KMU1McmVTbXhBd01aZ1RwcUQ2UUhVNkQyUVF2ckljdmd4VGNHTEJ0THhNSQ?oc=5",
+    "rank": 2
+   },
+   {
+    "headline": "What Will Decide Saudi Arabia’s Next Biotechnology Decade? - The Scientist",
+    "summary": "What Will Decide Saudi Arabia’s Next Biotechnology Decade? The Scientist",
+    "source": "The Scientist",
+    "date": "07 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSU1wX1Q0b2xzNmRycTlyNlZhdHVlUFNfWDBWZ2ZmeEVscjB1dU1HTS1Bc0VkdDJFb2pOQVFFcDc1c3BSa0dZQWx3SW5WcGdRRFlpNWU0MUtLblJSRzZ5R2pkTlVRdm1kbmR0emRHbUMzUnE3ZDdrMjI2TGJ3eDEwQ2FJS3JoMUZ6ZG5fWGoyOHZxYW1rVngyMw?oc=5",
     "rank": 3
    },
    {
@@ -2570,40 +2574,13 @@
     "rank": 4
    },
    {
-    "headline": "Saudi Arabia says 2 airports were hit in renewed fighting with Houthis and other Mideast news - AP News",
-    "summary": "Saudi Arabia says 2 airports were hit in renewed fighting with Houthis and other Mideast news AP News",
-    "source": "AP News",
+    "headline": "Why Saudi Arabia’s Last War in Yemen Turned Into a Quagmire - The New York Times",
+    "summary": "Why Saudi Arabia’s Last War in Yemen Turned Into a Quagmire The New York Times",
+    "source": "The New York Times",
     "date": "06 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUEREcFpjTm9qdzNSb19SaFZQMl9aTzloS3g3QWY3bXhTR1R2anBNZFhjbElHVm1iSXFqT2RWU25jdzRkNGNZTDl5bnNGOVZyQlJNWHFBc1JqcFRGenVOZktzWVkyVHpmNEhRTEJNRXI3bkpfWW9nVlVuZUEyVmFiU0U5U2JoNnNYby13aHBXWGdCUUFHZ0JDNXFzeTRQR21abERHRW05ZVNuTW8?oc=5",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnRySEhOdmpmbVBQYjVYVldxbDd6N3BDb3JMT2pCVHBtdzRVNWZLOTZ6RENGeXMzUHN5MXJIRlduall0bGIwelRDQUVyUmZCSTlNWXdBdEpzODJubVV5bWdXQ0hLOTlacEZBMGc0M1k4NUZsbzdJeDQyUHdfcVI5WUdCY1c4NG5wSHFla0EyUG1xTUVGa1RwcUlQLWo?oc=5",
     "rank": 5
-   },
-   {
-    "headline": "No to Türkiye’s deployment of troops to Saudi Arabia and the US war against Iran! - World Socialist Web Site",
-    "summary": "No to Türkiye’s deployment of troops to Saudi Arabia and the US war against Iran! World Socialist Web Site",
-    "source": "World Socialist Web Site",
-    "date": "07 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvZE9DVVB1RkhqcXdGaV93WjJRTjdNblo5NnhyQXdGUkptakR3Mk5CWG5mMS1lNXdndEJxXzNReXo4T3R5VktDcTZOVGlNMzdNdmZsdWFxTVhQZGNILWp0VXdIeUJvVmw5?oc=5",
-    "rank": 6
-   },
-   {
-    "headline": "Why Saudi Arabia Has Returned to War in Yemen - Arab Center Washington DC",
-    "summary": "Why Saudi Arabia Has Returned to War in Yemen Arab Center Washington DC",
-    "source": "Arab Center Washington D",
-    "date": "06 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRkx4RDU2VU50OVpYQlNxdVhEa3gzektLaTdYZ0pzbmdtSnRILWhoLTJqbnJmQWhsSl8tUy1HTlkwdlZrNTlfdnhGaWprbEZiNFJVZ2NzX0pTQWJIMVlIYjlCVWFfZGVSbTNLcExXaHdNNEdXbGVkQmNiV2QtSnNDaWc0QmpobWM?oc=5",
-    "rank": 7
-   },
-   {
-    "headline": "Saudi Arabia, Pakistan, Turkey move to activate collective defense pact - The Jerusalem Post",
-    "summary": "Saudi Arabia, Pakistan, Turkey move to activate collective defense pact The Jerusalem Post",
-    "source": "The Jerusalem Post",
-    "date": "06 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EMGs3Ynd4d1JmUl9iZHhRNndZNW4taFdmLVc1UklSV2lFWW1ieDdoNEhzRHJ0VGxFMEZ2YXktZE1KS29tVW93RHQtcU5Sbi1BeTVTYzZpQ1BwVE1T?oc=5",
-    "rank": 8
    },
    {
     "headline": "Saudi-led coalition says Houthi ballistic missile intercepted over southwestern Saudi Arabia - Anadolu Ajansı",
@@ -2612,43 +2589,43 @@
     "date": "06 Oct 2026",
     "tag": "security",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWThEaDIzVmtmcEZ4TEVnUkEzV1FpRlVVWmJtSko1aE9zUHdtakJwZ0ZlMHktbWptZWQtaWhodTNmQnpOeFptMU9sNzhzckREQVhzSHFWdGRDYTNiNVBVd2FlR01rZnB0XzVYWV9jUlhVM1d6d3VXeUUtLXdodmcxLS14SjBtNkJNZ0stNkpienJEc2x4WXI4NW80YWFsdGFJRFp0cEMxTWMyOWhkdlQ2ZXBOejFib3o4aWQzQ2dwTnpYRktYZnRvWllmT0dMZw?oc=5",
+    "rank": 6
+   },
+   {
+    "headline": "Saudi Arabia says 2 airports were hit in renewed fighting with Houthis and other Mideast news - AP News",
+    "summary": "Saudi Arabia says 2 airports were hit in renewed fighting with Houthis and other Mideast news AP News",
+    "source": "AP News",
+    "date": "06 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUEREcFpjTm9qdzNSb19SaFZQMl9aTzloS3g3QWY3bXhTR1R2anBNZFhjbElHVm1iSXFqT2RWU25jdzRkNGNZTDl5bnNGOVZyQlJNWHFBc1JqcFRGenVOZktzWVkyVHpmNEhRTEJNRXI3bkpfWW9nVlVuZUEyVmFiU0U5U2JoNnNYby13aHBXWGdCUUFHZ0JDNXFzeTRQR21abERHRW05ZVNuTW8?oc=5",
+    "rank": 7
+   },
+   {
+    "headline": "No to Türkiye’s deployment of troops to Saudi Arabia and the US war against Iran! - World Socialist Web Site",
+    "summary": "No to Türkiye’s deployment of troops to Saudi Arabia and the US war against Iran! World Socialist Web Site",
+    "source": "World Socialist Web Site",
+    "date": "07 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvZE9DVVB1RkhqcXdGaV93WjJRTjdNblo5NnhyQXdGUkptakR3Mk5CWG5mMS1lNXdndEJxXzNReXo4T3R5VktDcTZOVGlNMzdNdmZsdWFxTVhQZGNILWp0VXdIeUJvVmw5?oc=5",
+    "rank": 8
+   },
+   {
+    "headline": "Why Saudi Arabia Has Returned to War in Yemen - Arab Center Washington DC",
+    "summary": "Why Saudi Arabia Has Returned to War in Yemen Arab Center Washington DC",
+    "source": "Arab Center Washington D",
+    "date": "06 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRkx4RDU2VU50OVpYQlNxdVhEa3gzektLaTdYZ0pzbmdtSnRILWhoLTJqbnJmQWhsSl8tUy1HTlkwdlZrNTlfdnhGaWprbEZiNFJVZ2NzX0pTQWJIMVlIYjlCVWFfZGVSbTNLcExXaHdNNEdXbGVkQmNiV2QtSnNDaWc0QmpobWM?oc=5",
     "rank": 9
    },
    {
-    "headline": "Saudi Arabia end 22-year wait for another Gulf Cup title - Reuters",
-    "summary": "Saudi Arabia end 22-year wait for another Gulf Cup title Reuters",
-    "source": "Reuters",
+    "headline": "Saudi Arabia, Pakistan, Turkey move to activate collective defense pact - The Jerusalem Post",
+    "summary": "Saudi Arabia, Pakistan, Turkey move to activate collective defense pact The Jerusalem Post",
+    "source": "The Jerusalem Post",
     "date": "06 Oct 2026",
-    "tag": "sports",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcnFzd1g1cmtVUnZyNmpLeWtTQmFiS1pseFFDWjF0ZncwbF9aVlBoU245WE9IQ0p6RXN5ZGN3V0lJamZ1SzhkUnJTSlR1UjBfQ0c1V1VlS3NnTlRLdzRXR0xTTWZLV0V5bEhOMnVpVFE5dWZwbHltdm5XaGFIcnZyNXRjODBPeVU4VXBsMl81bHJLRC1PN0t5Q2hOaklNcVdzTElhTA?oc=5",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EMGs3Ynd4d1JmUl9iZHhRNndZNW4taFdmLVc1UklSV2lFWW1ieDdoNEhzRHJ0VGxFMEZ2YXktZE1KS29tVW93RHQtcU5Sbi1BeTVTYzZpQ1BwVE1T?oc=5",
     "rank": 10
-   },
-   {
-    "headline": "أنصار الله يقصفون أهدافاً في السعودية، والرياض تعلن تنفيذ \"عملية بحرية عسكرية\" - BBC",
-    "summary": "أنصار الله يقصفون أهدافاً في السعودية، والرياض تعلن تنفيذ \"عملية بحرية عسكرية\" BBC",
-    "source": "BBC",
-    "date": "05 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ucXVvdkhmVWluWndlQXVyUkZyYndSSVlCckJwb3Q3ZWlDc3pVa3hEbnZ0UGkwYnpObFEwVXhMMmEyUHo2clBrWWFSUE8xUFk2NHBMUE1vRUU?oc=5",
-    "rank": 11
-   },
-   {
-    "headline": "حلف مكة \"يفعل الردع الجماعي\" في مواجهة الحوثيين ويعلن نشر \"قوات وقدرات عسكرية\" في السعودية - DW.com",
-    "summary": "حلف مكة \"يفعل الردع الجماعي\" في مواجهة الحوثيين ويعلن نشر \"قوات وقدرات عسكرية\" في السعودية DW.com",
-    "source": "DW.com",
-    "date": "05 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMinwVBVV95cUxNQkU3dENfMmtJdHNhZGRPZENiWW8wS2dqamNnc2NkT1ZGSWtaZU9GT056ekRBenpSamNzYWw5U3NHSC0yVjhSazVkOUh0cXpXTnUwcjBYejJhREV0R0p3ckFyUFYta2NiMncwMUQ5WmJfZ2Z5T2pBdXJVNVBVaHZiSW14ek1aOFM1VUE0NGdZSHJycHg3LWpJVGZYV3J5YmhNdGk2NnJDZkZmano4TUVmUFhXYnJzS3ZWNVFvSG5JZE9CdENJaGkzTlpkYUZYWkNrWTZRc2hYbUlXSGhUX3lSeS10UmhWdVRjS29JZndBdU82a0otdDcwZHhDWmNaVldZWkpmNFp1ajBwZzRmM0llSUp3NFE0enBxdV9oV2FhUEk3eVFBMGdkOTdxMm1oU1R0YVpRclUzalBDYlppOUlGVjB5UVp6cnZZdk9EbWZVcDduLWhMNy0zSFB4YjJTLXZ5MnpJVllSSnlZWW1UbHhmTXptU25zSmlkTmZsYnhUODhMYWpSSkpNQlNxalozbUN3Y1ZzaXBUaUw2Wm81aXlteXJLZndSTmExaGp2TTJzWDR6dEZKOF9NbVhtQUltS1h0RGtCNy0yU3pWZ0gtRnFKU01GUG1OdXl1Nl9qelRrUWtvSTZNNl9uNWR1MWRteFJaQXZKZWdPZkNUaGF0RXNjVTlQeFVmV1VjSExpNDdUS3lKS04tRkVISG10c1dhVkh1U2VUT2wwVjZudVdvTUVpZ3RNN3dBSnVNem1pUWxEeXdDNnVfdGFMSUZ1SWsweXRjT3JxaXd1a2hjbWw0YlpSbGxnaEJGTjdQUm5zbGtDdU9QLXhlQ1NXckN3ZWNLR3Fzb21YZjZlejhpaXZDWGpOVWRJNGE5alRheEp1TzVIQQ?oc=5",
-    "rank": 12
-   },
-   {
-    "headline": "الحوثيون يعلنون استهداف مواقع في السعودية ولا تأكيد من المملكة حتى الآن - Reuters",
-    "summary": "الحوثيون يعلنون استهداف مواقع في السعودية ولا تأكيد من المملكة حتى الآن Reuters",
-    "source": "Reuters",
-    "date": "05 Oct 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11V2hsbklBNGt5T1ZiRXBtVDhqdHR3YlFOYnpMNnZ6V1VzYnRhd0xoM2NVSmYwd20xZ2htcXdSZlNieUJIdnVUV1hzRGJOSTJBUXhTZDVnbUZkdXB2YU4zdFo3VUlpSk1xZDhianJkZFI5VGlzeW1UY2R3LTdGUjA?oc=5",
-    "rank": 13
    },
    {
     "headline": "أيدت \"إنهاء الانقلاب\".. البحرين تصدر بيانًا بشأن عمليات السعودية في اليمن - CNN Arabic",
@@ -2657,25 +2634,16 @@
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYVg4Rko0WWNkLUVoSHFRWGhWMUVEYmZ2c1lKRkVDNGVockw1X2hRS18wcVBpSWZkQk5DbmgxYWlYNUlmVHpyb3BsNWVWcXZHUGZpc294TVJvV09LTkJWcTljSGpTU045amtfV0JBNjIxOHZ3clc0dFhuMEJoR2QyVnVBMDhKOGpqOE1iVkJYMml4V0NKX1E?oc=5",
-    "rank": 14
+    "rank": 11
    },
    {
-    "headline": "البحرين تعلن دعمها الكامل للسعودية وتدين هجمات الحوثيين على المملكة - عاجل",
-    "summary": "البحرين تعلن دعمها الكامل للسعودية وتدين هجمات الحوثيين على المملكة عاجل",
-    "source": "عاجل",
+    "headline": "تفاؤل يمني بقرار تصحيح أوضاع غير النظاميين في السعودية - العربية",
+    "summary": "تفاؤل يمني بقرار تصحيح أوضاع غير النظاميين في السعودية العربية",
+    "source": "العربية",
     "date": "06 Oct 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5HRUcwbjVWTTYzRkR4MklKemxmQkMtOFNBQnJoVFI1M1NuNGVYX01kRUFUa0czMzA0ZlZmUXVLQm5tcEc1Y1Z4eGpJWFJYY1Va?oc=5",
-    "rank": 15
-   },
-   {
-    "headline": "الأردن: اعتداءات الحوثي على السعودية انتهاك سافر وخرق فاضح للقانون الدولي - عكاظ",
-    "summary": "الأردن: اعتداءات الحوثي على السعودية انتهاك سافر وخرق فاضح للقانون الدولي عكاظ",
-    "source": "عكاظ",
-    "date": "06 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5MalVfcmJVLW9yM0YzWWpKbElCcUhaLU8wSGFKNjQ1bG4wM1Y4d1BRZVN3TkwyenpsWW1zVUNVWElxVXNJOEc5Qi1KOWJ5bk1jSVHSAVRBVV95cUxQOHhBbWdCaFJkaW9CRk9USm5kdkVmbTdXc1YzemFFSlFsNDRMaWI5X1FlaHI5RWZEaW8xcEZLWC1PZzdUZnZOR1FaT05xTnZVM3VDSzA?oc=5",
-    "rank": 16
+    "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxQdVRyVjFjMzFzSEFHNHJCaXhoRUxQN1VpRlhvTGRqU1VNZEFiQmJBVTYxRTNGTFBSZS01ZW9MMGxnM2RvVzNjYUxINFVxTURJTnpSTXc2WDU2ZldwZF81WHZVZ1pkSm1aUlY2eGJNeU8wVVRPZm5mSEFQUTcyRkhFVlV2NzREU1pDMXhrQjM0aDBRRV9adVk1RUVWSW1RRGxHZlNfTVBVbHJfdlhzcnJKWGxobjE2S1RfSzAyeVJaRE05d05PajhvdWlYeG12MFFsMHFmTTRRM3ZWUjJTanI2dXFNVE81NTlHLVRhVF85UlJOTl9LNW9DM1YzVFV4bENqU0VuNkNid3pjcERwTEJ6RzJ2dUE0cVpiVzVvNmRaTlFRUXFzaUR5SWR6dUVRZTFaVXBEUFhSUDRUUGowVmlpV3Z0UE5Cc0RWaDgxSW03LTRTZHFmQkVYeWdzeVBReVFCQ1hyeDQxWHZFbVBnVVZ0dnYxT0RiVDNNeWhqVkV6eDIxUEFrWXZRdmp1QVZOUkg3UFdvT29fMnhPYVVNblJWTW1NWGVBZWJlWWdYVVpId1htLWZnQlREcVdnLWQ1cUhuNmpwRlRRbjN6V2x1dkMxUmhkb2w0dkRZOWlZ0gHgA0FVX3lxTFAwV1BpemJyUE9qMHdLQ1lkSlBvLUNSSExqLXNtTmlwU0J6dXdBMmdvckRzMEx1TWMtalIyZGFBR0FkekhzMXdhSUlVdHlLdGx1Y3NIa0lkZFNCVzZlVTB0NmNFMzlLN0NTOWhZMUxpSFhQMFk2UUpYUmpQd2MtakdFbmZJS3lZUlFyOGdDOExGRTBIaVpCWVB3OTNlN1ZTUGFZcFotZi1WTWV0NFZ1cFQtLThOeFl1UXdGSTJFclFBOFAyc05JdFdPaEQwT0lwNlZMR2t5SXJDeDhfVnhLM1dub2IzcXZwRk9mYjBnQlF3Q1FZVjZoeXBrbkNfeU9Mcy1HOEdMRjdFa2JUN3VLQTVTMWdfNU9BNHc5MjEwc1pkNlR4Y1g0VjV6c3JhanBjaWtBU0xqYlNzM0JNU0xidk9sWTlQcHpqcnpxbjhhUEJlNlRzdW84V0lDRkRvczZYWktoRE5xT0hmYTVFbDAwREZZTG5IMlllNzQ3Y1ZYdXdpYXF6U1l1SVRHQTB6SGUtZUY2eFB3RXdoY3lKR0Y0cGNtcEc2MVpuQkN4bS1YdXBwLUIzY1Rkd1JqMk9Wbldzd2g0N2c5UXZBYkQ3Nl9Ybkd3aFVSbkdzTFExMnBNbWM4cg?oc=5",
+    "rank": 12
    },
    {
     "headline": "الحكومة اليمنية تُثمّن قرار المملكة تصحيح أوضاع اليمنيين غير النظاميين - صحيفة سبق الإلكترونية",
@@ -2684,7 +2652,7 @@
     "date": "05 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9oY0s5M0VESnNPUEI1MW95XzN6TzFiZ0FSa0V5ZTktNy05TFJ4OXI3TWt3RXFZM1BxYWQ3SlpRYkl1cldkdnhz?oc=5",
-    "rank": 17
+    "rank": 13
    },
    {
     "headline": "بتوجيه خادم الحرمين.. السعودية تبدأ تصحيح أوضاع اليمنيين المخالفين لأنظمة الإقامة - عكاظ",
@@ -2693,16 +2661,16 @@
     "date": "05 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1kTnZfZ1NjOFljQTY1N0lyRWFsU2lRd3dkS2ZYaThRX1dsZVNaTm1qZDhfV2R2UVZLMHpKdVpjblVJMzI3R1Qxd250UHh2RExNQ0HSAVRBVV95cUxQMEd2Z0FGWl9obHZSNDRidEk2ZVNWcUNxd1FRNWotR2p4cUNCYUVReVJhejV3LWE2dmNBQWFwcEFWOTZ1TU5ReTI3aVBPUHpjS25wVEg?oc=5",
-    "rank": 18
+    "rank": 14
    },
    {
-    "headline": "السعودية: تصحيح أوضاع اليمنيين الموجودين في المملكة بطرق غير نظامية - صحيفة الخليج",
-    "summary": "السعودية: تصحيح أوضاع اليمنيين الموجودين في المملكة بطرق غير نظامية صحيفة الخليج",
-    "source": "صحيفة الخليج",
+    "headline": "أنصار الله يقصفون أهدافاً في السعودية، والرياض تعلن تنفيذ \"عملية بحرية عسكرية\" - BBC",
+    "summary": "أنصار الله يقصفون أهدافاً في السعودية، والرياض تعلن تنفيذ \"عملية بحرية عسكرية\" BBC",
+    "source": "BBC",
     "date": "05 Oct 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMilAVBVV95cUxNNFZmZFV3T2xRcmFIZjVJQTE5SEk0Vng4NlJBSUl6bGVmN0pjZkotc1V1UHVFMVduZEJDWDVBMlJtYTVlYkpSOFlObDNBOUxYUTBqY20yakZCRExJd1ZSSTBIdy1rMjhFRmY3SzdTb0stMkxaR0VxTmxMUTdmVC1WRXpFTTB0OGxiV25CdWNJWVg5SjdKeVNxVFZfTlNRb1BDcWExSGZxdGJnTmZBdHk0cWFtOFFTMHhTZy1VZGgzWVAwMVJQak1kVHVDcnVFaHNrSU80ZEw4SUp0Wmh0QVNUdHFOMkdhU2xDQjZrX2pURF9pWTRIRGx3cGM5eTRZSkhzSTVGUWJGeEJBY2QybzZTTV9UT2tKckJYSzBJQjhoMnQ0MHlnU2hIZHRHR0JFV0o4Q29PdDgydXBNTl9pSW96cnNSQk1OXzJyU1RpbVpfbEExZzVpdHRXdThuYjFIWTNWMkx1Rm42OEF2NVVqcWZpVnhrLVJLNjNxd3AtWm96QVo4ZzVJY1BlLTZQY01XSDNWQzFhUWlCOWl3VnZiR0xXSGFsMHpjd1lmUTR6WVBQU3pfdE41SUVPWGRaZnkyS2FpWTU4aHJhaHRsalBkcTJUN0N5bHFsa0tyS0hSOVNUUEZ1ZktEXzlkbzlhMk15ZGxLRWQ3VldOXzJVVDVRcWRRVDFHSldGX1dTWkdrYml1anRFVFo1U2dYR19fYVRFZzR1MERFOXptRmFEaG9vd2t2QUVfeHJCcFJLXzNaQVhmaHBEYnUtVUlfZVZsaXlic1NDUEFWcDNRaExxU0tQMFQzUjZTRTVvSXdSaGtsQTJtNU5MS1NEc05fakd2REZaSDQ5OWluam9TTkIxMWRnYjlscElrang?oc=5",
-    "rank": 19
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ucXVvdkhmVWluWndlQXVyUkZyYndSSVlCckJwb3Q3ZWlDc3pVa3hEbnZ0UGkwYnpObFEwVXhMMmEyUHo2clBrWWFSUE8xUFk2NHBMUE1vRUU?oc=5",
+    "rank": 15
    },
    {
     "headline": "مباراة السعودية والإمارات - Kooora",
@@ -2711,6 +2679,42 @@
     "date": "06 Oct 2026",
     "tag": "sports",
     "url": "https://news.google.com/rss/articles/CBMihwVBVV95cUxQd0MtRWNDS1daWFF1UTJaM2hVR1NuN3lwcWFZZUZSWGtBZ2hySnc4M25jVER3VW1KeVZXemdJWlBXUWJTeVU2Sko2OVZLMkdZa1d4V2FMY2pzYldhb2dWVzVKdTZiQ2xWbGREMlVEMlcwMm9lTkVjdmhiNUs2M21LVVNDS0pZbDRaX0pxSmpFV0ZzaDFmemMxM01RS1ZadWc4YUItWEV4X2ZiMWd2eVltbGUtVmVGNkxvN0F6VXBIYkpNM2lCUHdyLWpzNWtVcU5wOGwzek11T0VvR2JYQ3hJTnlrM1YzcEc1Z21PdmJpejVYX05DYXFhVFh6VjdBd2llSmFJVkZYOG5BQm9ncDJNZXVySlNCdkNzOXZOSDY0TTRBZ0dwN00wakNvcEFSYk1NRmZDd0FfSjRmdUxmLWNXZTA4cW1YMmRCRU50MkJuQVZJcDBfcWZSZlJidktybHo1dUF6UGsyTzhDZTZkcWc5cHI4cHBnUlRxUG5HaVdudlU2ck05eXRlWkNuM1hmdHAtY2o1eEw0VDdJckZZRlgwRFN1MkdFM18wWGhBdWdGNHZXUEFDUHNrSFNhM0J1eXNjX0dRbjZxNVdJNUlfenRLM1NjdnZDdXhMUUUyWmpSSDZlZ1F0QWZ6NzdvSXpDMURpY2M2LUxZWndwa3hGbDc1Y29XSzItdndTdDRpYkdRYzVCM1B0SDNVR0ZURW1YNmdyM1k1NEQ5cWs3Y2p6Tm0tdVRDT2gwRDFLOGkyTEdPWl83endSTEZ3bUcxaTJVR3ZTVXpkR0hoSTNjd2hSQzBaTlQ1RS13dEx5NVJfUVlqbkVWakZ5WFZOMzhFNU5Yd1o3ZlNvRDNjcw?oc=5",
+    "rank": 16
+   },
+   {
+    "headline": "الطيران المدني السعودي: 3 إصابات في اعتداءين على مطاري جازان ونجران - الجزيرة نت",
+    "summary": "الطيران المدني السعودي: 3 إصابات في اعتداءين على مطاري جازان ونجران الجزيرة نت",
+    "source": "الجزيرة نت",
+    "date": "06 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxObFd5QkVTblc5X0RKYk9FRWF5X1lCZ0o5VVdmUnN3aE8wclR3UUZ3MDlDNnB5RnUzOG55dU04VnhmMHk1azN1NTdISTdNNzA5RV9RakRoZmlDRE9vNnRaV1p2UnNVdmI4dzFGNjlBdWhQUjVuY21XWTJZVGdOVlBaNmZfcWtGb2k2VmdNdmR1Q0FfdTNFY3ltSmlqX3hETnhMbkZrLVlzVU0ydmRXV0Mxb0JEZ0g1dGdnLXpMLVg3ckNwX282OUZ5cURGb3E4VkFvZXJjb1dpanY0WWNBREdVOExtRV9XVmM1WmREXzgxTnNScm9iMmpVM3g0Rlo4VXFVcTRycXJzdWVBY2lkRlVXdEkxMVE0N0lzcktTQ1FHWDBKejlPdDNHWTZwSnNRQW9CQVM0MUFjNnR4UUFjWThnetIBxgJBVV95cUxOb0JKM19GYUZCaUFORlJ6NlNSdXRtby1GTzNSaVZMZGFHUVRFODBGWXFHMzhUdTlNbDNmZlZpZng0N3A4ZlhvUExYbHRYYUEzajM0UzBQNk5XLWlmMy1DczJjOVNLTldZVUI4SVNLVlhEYmlfN2ZzWWFZUWwxa1ZoQ0NfT1JTTWdrZjN1WkRMTVBiVUF0NDVxSkw1NkZRUFVFZXVJcE9EZEFMa1pkTjB2MzZmcktBUUgzSTd3YzZydXloT1VGa19rc19pdncyMFF3RGVDNF8tenZVTWM2cUIweENQelhFTGlqQnVWbHRmcHhSMk5CUkU1Ty0tUWpUQnNVU2c2dUxUVllZVEVINmtBMEVpOW9oZ3plTGEtUm5UVk1NUlgtRldSeElXMDJqNlI3eFBHSGZxWWRLLWdmbEdoNE9hNmxtUQ?oc=5",
+    "rank": 17
+   },
+   {
+    "headline": "أكثر من 273 مليون عملية نقاط بيع في أسبوع بقيمة تجاوزت 16 مليار ريال - عاجل",
+    "summary": "أكثر من 273 مليون عملية نقاط بيع في أسبوع بقيمة تجاوزت 16 مليار ريال عاجل",
+    "source": "عاجل",
+    "date": "06 Oct 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBVZUZrcVFNQVdtU01UYy11dU1BTXpxVnRla3Mxa29XU1U5X3FuTTd6ZW1qVFFaNnVnS1ZvRElkUXFmVDg5c3Z3LQ?oc=5",
+    "rank": 18
+   },
+   {
+    "headline": "استهداف مطارين في السعودية وسط تصاعد التوتر مع الحوثيين - Reuters",
+    "summary": "استهداف مطارين في السعودية وسط تصاعد التوتر مع الحوثيين Reuters",
+    "source": "Reuters",
+    "date": "06 Oct 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE93ZUhUeUFhemVZVy1aTUU2Mm9wY0p2bHE0TElkQUVZQmp2RUMtZ3J4a2RYVTFiT3M3djJDYVBVanFQLVp3VDlJU3FNbksyZ2dEOGdRSUp4eGlCbWRDbERtNEltSURuNUQyZ2FWRDlfUjVoVmhqVTMtbDlXWQ?oc=5",
+    "rank": 19
+   },
+   {
+    "headline": "حلف مكة \"يفعل الردع الجماعي\" في مواجهة الحوثيين ويعلن نشر \"قوات وقدرات عسكرية\" في السعودية - DW.com",
+    "summary": "حلف مكة \"يفعل الردع الجماعي\" في مواجهة الحوثيين ويعلن نشر \"قوات وقدرات عسكرية\" في السعودية DW.com",
+    "source": "DW.com",
+    "date": "05 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMinwVBVV95cUxNQkU3dENfMmtJdHNhZGRPZENiWW8wS2dqamNnc2NkT1ZGSWtaZU9GT056ekRBenpSamNzYWw5U3NHSC0yVjhSazVkOUh0cXpXTnUwcjBYejJhREV0R0p3ckFyUFYta2NiMncwMUQ5WmJfZ2Z5T2pBdXJVNVBVaHZiSW14ek1aOFM1VUE0NGdZSHJycHg3LWpJVGZYV3J5YmhNdGk2NnJDZkZmano4TUVmUFhXYnJzS3ZWNVFvSG5JZE9CdENJaGkzTlpkYUZYWkNrWTZRc2hYbUlXSGhUX3lSeS10UmhWdVRjS29JZndBdU82a0otdDcwZHhDWmNaVldZWkpmNFp1ajBwZzRmM0llSUp3NFE0enBxdV9oV2FhUEk3eVFBMGdkOTdxMm1oU1R0YVpRclUzalBDYlppOUlGVjB5UVp6cnZZdk9EbWZVcDduLWhMNy0zSFB4YjJTLXZ5MnpJVllSSnlZWW1UbHhmTXptU25zSmlkTmZsYnhUODhMYWpSSkpNQlNxalozbUN3Y1ZzaXBUaUw2Wm81aXlteXJLZndSTmExaGp2TTJzWDR6dEZKOF9NbVhtQUltS1h0RGtCNy0yU3pWZ0gtRnFKU01GUG1OdXl1Nl9qelRrUWtvSTZNNl9uNWR1MWRteFJaQXZKZWdPZkNUaGF0RXNjVTlQeFVmV1VjSExpNDdUS3lKS04tRkVISG10c1dhVkh1U2VUT2wwVjZudVdvTUVpZ3RNN3dBSnVNem1pUWxEeXdDNnVfdGFMSUZ1SWsweXRjT3JxaXd1a2hjbWw0YlpSbGxnaEJGTjdQUm5zbGtDdU9QLXhlQ1NXckN3ZWNLR3Fzb21YZjZlejhpaXZDWGpOVWRJNGE5alRheEp1TzVIQQ?oc=5",
     "rank": 20
    }
   ],
@@ -2725,21 +2729,21 @@
     "rank": 21
    },
    {
-    "headline": "Saudi Arabia says East-West pipeline pumping 5.8 million bpd - Al Jazeera",
-    "summary": "Saudi Arabia says East-West pipeline pumping 5.8 million bpd Al Jazeera",
-    "source": "Al Jazeera",
-    "date": "06 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYjRLeXNXc0FMWm4yaWtwMllDYVFGeVA2X0JTNGdNRzNPSDhTSnRDdHNaZGwyN1hobU5yU0tkY2hWYm1KYmYwY1RDTnpBS3N1STBDMnVDN1dpSUh3RWRLUEljNDlXVmRXbXhsN0J4Qk1wd3B2ZDNuaEtNYU9tRldkMWNHQnloRkxteG9XUzNFMDRhMTI4VWNpRE0xUkEybnRVdE4w0gGoAUFVX3lxTE1uMzZmOFBPcFFwN1JHX1BUd3FuSVdUTkNiT3EwRi1MZHNlVk50SVZqXzAtZTNodlVrMmdUYVJTUWRtM3JRbHUtTFN6ckozUGZLM0dyVnBudkdXbW9KNnRHWDJLNWN0ZkRhYnBJNXc0bmFlX2NsYnBhU29yMWRMbXpzOFdOTmJtTmkwZ3JjVkFLUDFFMGxPZTdHLTdBZmcwTzRlU2FuTW0taA?oc=5",
-    "rank": 22
-   },
-   {
     "headline": "Turkey to deploy troops and air defence systems to Saudi Arabia amid Houthi attacks - Middle East Eye",
     "summary": "Turkey to deploy troops and air defence systems to Saudi Arabia amid Houthi attacks Middle East Eye",
     "source": "Middle East Eye",
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOd1Qxc000TklGcW9GN0N0Q2JsRXA4RjE5TzRuQnNuSlZUdUcwV3d4Z04tQUxfTjVoT29iWHJ2TnptbFdIUnZRRXc3UTlzNVN2Y1dHZzZkNml4d2JlMlRKUWpKTURVbmtqbUtoWHRtN2VjXzduZE1IY1l1YU9jV2pRaHlTSFN5MHFILWJJeFBSczdGbkUteW9ZeGRPYw?oc=5",
+    "rank": 22
+   },
+   {
+    "headline": "Saudi Arabia says East-West pipeline pumping 5.8 million bpd - Al Jazeera",
+    "summary": "Saudi Arabia says East-West pipeline pumping 5.8 million bpd Al Jazeera",
+    "source": "Al Jazeera",
+    "date": "06 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYjRLeXNXc0FMWm4yaWtwMllDYVFGeVA2X0JTNGdNRzNPSDhTSnRDdHNaZGwyN1hobU5yU0tkY2hWYm1KYmYwY1RDTnpBS3N1STBDMnVDN1dpSUh3RWRLUEljNDlXVmRXbXhsN0J4Qk1wd3B2ZDNuaEtNYU9tRldkMWNHQnloRkxteG9XUzNFMDRhMTI4VWNpRE0xUkEybnRVdE4w0gGoAUFVX3lxTE1uMzZmOFBPcFFwN1JHX1BUd3FuSVdUTkNiT3EwRi1MZHNlVk50SVZqXzAtZTNodlVrMmdUYVJTUWRtM3JRbHUtTFN6ckozUGZLM0dyVnBudkdXbW9KNnRHWDJLNWN0ZkRhYnBJNXc0bmFlX2NsYnBhU29yMWRMbXpzOFdOTmJtTmkwZ3JjVkFLUDFFMGxPZTdHLTdBZmcwTzRlU2FuTW0taA?oc=5",
     "rank": 23
    },
    {
@@ -2752,12 +2756,12 @@
     "rank": 24
    },
    {
-    "headline": "Shifting alliances shape Middle East security - TV7 Israel News",
-    "summary": "Shifting alliances shape Middle East security TV7 Israel News",
-    "source": "TV7 Israel News",
+    "headline": "What to know as the fighting in Yemen escalates while US-Iran tensions remain high - ABC News - Breaking News, Latest News and Videos",
+    "summary": "What to know as the fighting in Yemen escalates while US-Iran tensions remain high ABC News - Breaking News, Latest News and Videos",
+    "source": "ABC News - Breaking News",
     "date": "06 Oct 2026",
     "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QT1JpV2d5WGpWVi1FaUwzY2hua0V3VVlINUpXaHZyTnh2UnJUWGN2MHJ4cE1yNU1GaGxFWHJOVlZUSVBHMXVwNFlHSnFzUWtpZkszOUpJWl8yZWdzYzNfZ1pSR2thQkRjaURBUC1tekJuREVtWEhiY2Jn?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZEx2cEJ5SzZhX1pRWnlSM3RRUFY4WXpGbGVlbHV2ZW5ZMnV4R25KQlkybFBHdFl4TnEzQmQzQ25NMDVOSWtoNjRQVERXRXlyblllSS14R1ZCYjhfOG5aVDFhb2p4eXhPcHppVkxxcHVfV2VQZUtXaXkxR3RYY1hJeEFUOTViSGhNOXItalpiV3BQelZSNHZVeEJnVUZ1R2ZsV3E3V00zNmVLcEHSAbABQVVfeXFMTnpaMWNNNXdqSzBkbnN5cGxKa1BjYzdpcnh1MXJxR1g4TmRoV2JuU2F3QjM3ZzQyZl9WQldzS205UC04XzU0UmRqZnE1RVRnT19JZ1hzbmVEU0ZtNXNMcWEtRnF6Tjc2aUJCdXdIVWRXRVBFR0h5S1FSNFRyZnFwQ2N0dk83THF4Y08xNzB1UElHZDl5TjRYZm4xRE1yNzhNc2JUc1Vlb0pzNmxXQzctLXc?oc=5",
     "rank": 25
    },
    {
@@ -2770,13 +2774,22 @@
     "rank": 26
    },
    {
+    "headline": "«سال» السعودية توسع خياراتها اللوجستية مع تغير خريطة التجارة العالمية - الشرق الأوسط",
+    "summary": "«سال» السعودية توسع خياراتها اللوجستية مع تغير خريطة التجارة العالمية الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "07 Oct 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi3gRBVV95cUxQQTJEajU5S0JwQmZ5a2piOFg1cVh4Y0tFUTZLVlRGc0ZSZ1VWYlhqOFM0bjluOUFXeTFKcS16dzk4LWk3V2FQWVRQbTdueHhOaFJjS1YzT2NDOF9DY0NUdGZnWXY2TVBRR3BwNTlOZVFXejMwMmxseTVHOVVPcVBzRjlLYlNwLXluOUxqUkJEYUJGeFc5VmJxUmowR19CeHphS2hNcHZkY0F1eGExbEZGQTl0QTlxN0hpX214VXA1WHFmcjljNnZMbXYzUUp6NmZYNzZ0bzBUOFAwZ01uT081TGZ1d2NCX0kwY1Bla2s5aFhWbDBDdTk2WndoWk1JT1BZWXhSYkxxYWx6eHp6OUlPTjVpbXE2OFpfYU5JSWJaX21ESThOdDR5TE5RU0owcXFEb19NV2VSeHNpZUpiTlJjSzlBMGxWd0ZEN2dxcXNGanNZMHdlNzdDRERnSTI5bk1Cd3YyRThaN29ac3dwdkdqZndZNjlwUGRSNkN3OWlFbnFONVVibElLQXlPSFlFSjhnYkRrVmNjRmUzZHJUbDVwNFdTYWdva0dPOGJCMFNFQnlfVlU5akpfc0ZPdE5kbEk0SjhrOWpBTHcwMEY3N19UV1NoM3FHWmxPUFl4ZzhkdTA3NWVDUXZ5bmh6Ykh2QmpZTTFwNl9LRll0ZjR4SDBYcUdBTWlsd3gtdk9veHFHZ1Naa0VHS01ZX3B4cWFfRVVsV08zbU1jeFpfRFFHQlZnT1NBemZTVldIMExVZEZHUXNtZEt1U21RV1pXajlETzViUVFZN2dTWHc5WkZUZlE?oc=5",
+    "rank": 27
+   },
+   {
     "headline": "السعودية تستعيد تدفقات خط «شرق ــ غرب» - الشرق الأوسط",
     "summary": "السعودية تستعيد تدفقات خط «شرق ــ غرب» الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxNNkdTaFN2SDdFMTNfcWpkZDFaQnd2RUxENUJDTnFuMnRwcWpGSTJtT1VYczZzME16eTdYVDZhWHo4dEFzaUE4NzlIWTZtU2k3b0tlSXdwUHpIZGVMZUJtVXNmUjVZSmFfVUpsODhjYlo1THNFbXNuV1BtQl9JMlVjemxEeWNZTEZHaS1mOHE2dURyb192VEJVQ2Z0N0xESDFwSTdIcnhoS0d2WUtkeHM4S3lRNVoybEx3c25kekt1cHRJZkpkanQzZ0YtOXRGV1J1TzNHcDRkdWlKSTc2UnBySzZHcUt3Y2VNcTI1aGxZYnhBNzhBWGN1Z3VvbUpwZDZRZjJscUtkd2RXWTNaMzNzV2NXLUowSU43MWtVcTdwOW5kb0ZlemVNMnBNYm1ubzRYaWlib3NPM3laellTVHNfU21zc0VBZkJNU0JkOC01NTV5cTRieVcxdE95Skp5NTUzbmJkMmtaanZoOTc2YTdXcV9HdVV6M3ktNmc?oc=5",
-    "rank": 27
+    "rank": 28
    },
    {
     "headline": "بوشل لـ«الشرق الأوسط»: أجمل لحظة أن تُفرح وطنك - الشرق الأوسط",
@@ -2785,7 +2798,7 @@
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxNXy14XzFXNUhPNkljTUFONGRxSTVraTIwSHZFLWlVV1RwdDFySDROSi04QXV3eW9mZXV6dmtra0pCcFNPaU5SWnppdFF3dmJ6aWF3Qy03Mmp5QmxIT1JXQTNjM2dPNW1xVzBiR21NZlk1OTlSUWhtdUFXU3VWSXRObmxLRWxXckhTdXNtZDhnWjhobWh1MlBDd0daTXI0Y0QtVXdNQlJyRmtTY0xldTZKUF80RGtLcWx2aTJFWGdXREJIajB5YjNyaDlQbTFvLUpxUnJIVHk1MTBtX0NhRU0tTFF0NTlIbVJtb1hBMGwxeWhhakMzOHZJV0l1UXhYZUdWb3RvTEw2c2pCYmVLRkdRNjJZZmFaR0ppSy1Kel84bUtQQUNLcnZDd2pZZmFlT3FGMjVSZ1lySVNPRWE2RXhkNEladEU5RnpJUENxYTJPaU1EY1VIZVhZOURzanYyN0pOYWJjdGl2MVZzMUw1cERsX1JtLUlHem5CTUpHMkVtZ3ZySERkdWNvd21SSXF3ZHlkTHVTSTR6TUplSUo3R3hZcEtUWlRHaG54NHhMc2dnUkNvM0R6QWRLQ2xVUlpwc1pkUHRULW1uc0d6R3JZT0h6R3hRWEZ3ME90bmF1cFFWQnFSTDI2WER6ck5ZdkV1TWtuWnBxRUM2TE5MNnNEMkE?oc=5",
-    "rank": 28
+    "rank": 29
    },
    {
     "headline": "البريكان لـ«الشرق الأوسط»: البطولة كانت صعبة… لكننا سهّلناها - الشرق الأوسط",
@@ -2794,7 +2807,7 @@
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi8gRBVV95cUxOZjFCUlBFNjQ4dUxRVVp1VFQ2bGxtVzMxMW4zb0s3b0pXOTFldWNoVk5hX3EzVElna205dG1nd05zd0VmZ3AwOHhZc0xLbUhBU2V4M0dfY1AyN211Rm5LWFdiVW9xUHctbnRvcVRLVXd0WmtMb1phdnphUVdJZ0dXYVJ1cjZBby1JcUpRZkJ6dDZRWTQ4SnVrY2lyZ1kzaENXbE04X292VTF2LWFYYlM1MUVKNGZtMHo5ZkxvR0dwTDNpekZWRVR6d2RURFB6VExvQm1oTkp1cy1wT2dUOVkzNjhSNEhST25Dc01aN0c4ZDZRclpKU0pFakk2VWJJOGJNbTRvS0J3cHZfdlExZ0x1X0J2YkQ0OXBRX000a1dUXzd0N0JuaXkyWW9JdlhzRU03MHU3X2JxQldTY3dfMDFRdy1nUDREQi1NOS13NjJOUUk3MktNSHN4LUF2NVptT0VnOXRNaWRkd2F0VU1ESlFYUWxKWXhBX0FaTzA5dVd2OWtUVG1sNl9EWUtySEVGTXpILXU3S3MxSHYxUnZpeVYyZE5QUjVxMlJrNXBvUmk3YU9nbkVfczROQkhtOU1vRVUyZzhib0RNSy1DS3ZzeGMwRzd6bHNOdlZOOWN6VGdPZHlYZU1fU0lYdlV2NGxtSVk3RV9QbWsyVS1HSkc3Y0UydE5qTVp2UVFiTVlocXlVX0xZX1FBR04tZWQ3LUtaRXdzdlJvVkpERTdQQzJKdTBnd0ctTkhZMlM2UlhwbE02aUFyS0lyQ0NLT1FVa29RYnNJU21oR3BWNUdWY25WYk9sdS1mOHdtRFpuazRxdjhVRGtkQQ?oc=5",
-    "rank": 29
+    "rank": 30
    },
    {
     "headline": "«سير» تراهن على بناء صناعة سيارات سعودية متكاملة - الشرق الأوسط",
@@ -2803,7 +2816,7 @@
     "date": "05 Oct 2026",
     "tag": "housing",
     "url": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxQNWFGcV9iUEFHU2Z3cEdySDhuVEdMOU1vdHFpZk5neEpqWk5rLVZIekVxM29mNmlZam9GMDd2dldFa3lXVmRsdjA2eElFMFBpc3lmUUNXd2lLVjZuSmFNQzRqa0pYRE9SWnkzN1hhUllZT1AxVmo5ZWFRVTNTcU41b2VIbHJLaDRlanYtNWNVN2RMQlpGRnhueDB5RDItMUQ3YnFGS3p6X0h0SUJQVjZQcTd3Z1F0NkxWYzFxWUUtSHExNDN1RTRodkMtT0YwcDQ1THdkakdDV1h6ZVVnNFZLamtyY0FfaEZxRG56QmlWeVNqSDJUYWZURWpDVmstb04xYnczLV85eWc3THV2QWpodm5WNnNucDQ0UlZfM3d5R2daWlpkVmVJUVRHcWNjSThNcWRWY1ZxemExSVFORzJ6LTJrX1ZJM1pRUElkZUlEUWkwa0tYS0tCdFVfYzBWaGVPU3BZc2hCZ1dEZ0tHOFZOU3JLZURCem1XazRLSVJmMHRsaFpnQnZNMXJFOGZvLWJ6eGMwaGNPWHR1QTQzX3lqTk03ZHdtLWZVdWtURTFCZ1p6cE1jdjB0NEI2LVAyb3ZzbjQ4?oc=5",
-    "rank": 30
+    "rank": 31
    },
    {
     "headline": "الرزيزاء لـ«الشرق الأوسط»: روح الأخضر منحتنا كأس الخليج… ومستقبل دونيس بيد «الفنيين» - الشرق الأوسط",
@@ -2812,7 +2825,7 @@
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMitAVBVV95cUxPQVBkM1BnZHJ1XzgzN3NXZ01uRHIzVks2cFBkZVJRcVIzdDhTVEVwNDk1ckZMZk5RRjl4SGY2dl9XYmtPUjJhNjNZVURKTzMwY19oSnRQekRLZTY1c3hkdFZHd2hRaWR1WEhPcXpCaUV4cGttZ3cyS3czaHVNUWR0VnB4SzdsNnNmN0xYVHNIN0FvWnhvUEV6cldfcUdzTkk4cUg5VXl5RVNDcWg2eWpURWtha1RVQ1hVUUZuWVh1QnlsRW5sQk5FaUdvNkJ1eURJZndmWE52bHpBdDViMS1JVGZ2b2t3SFF3cTBjblVRbl80UzE5MVc3bmVZalVoclNNVEowLS1YX20yTkNOaU9ZWDdtVnpDRVhkUTg3VldFTk15cmdlTlJjOTI0VHg1MDZZdDJlbjEyZ1ZwUGQ4Mzk1bWxTSm1xY1BjczVnZllDUXZFbkpZa0VpX2pURW10N2VQMUU4NzVROHoyWUtwVGt6R05USjBZXzRYLWdsMVlmYW1PdjVsUG0xbXlEZ3dsS2tBeXlaTVc4X185MWdIeHppc1ZsT3dCNzVjRHJSWDdmQlhoeDNCSFEzUmpCNzhIdnotUDdrQV80RmwxODQ2aG0wQXBrMUdrekpqZzlXM3RhNk4tLVlHeFFKb1ZMM1d6VW9nTnV3NjU4dW9kSnB4T05saXZLdVVGYm91b0lsM25KbDJZa1hzSnJidldsbnhjQkRyWDVRQUFZZ0NUaE54S19FODJRZHlrcTVfbDM0ZS1YSVU1aVRYNF9YQ2Y0ZU5yOVU5TlU4S043bFp4dUJRdHhKWjY2dDQyMTlIOXhURHZIUktod0lYMVh3NTFGaGVWMXY3RzZHVE9ORHZLb1NKS1p4Yk0xdWNiaHpTTjFtN2todzdSei1nZzdta3ZVTVpsMkZ4bzF1cw?oc=5",
-    "rank": 31
+    "rank": 32
    },
    {
     "headline": "بعد 23 عاماً... السعودية تعانق «كأس الخليج» - الشرق الأوسط",
@@ -2821,24 +2834,15 @@
     "date": "06 Oct 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxPMEs0aFJ6OXlSUVRONW1NdUlYSFpRVHhXSFdsZDFfb3N3WlpIMGlycGlmWUV1S1ZnRE95Q2ZRQmQ5dGVyclozOVBOWEdqNkhURFh5Mkp4X1hQTG02N1QtWV92N0VPemFPZ0JFeVhBejNhZXRCOGFwZDNoWGR2MmlvaDRJYTdKMUNEME42dzhWY1JTWjZ5dV9POUlsZGNSVXZoU1Zra29TQy1fTm4taS14UktuM0xjUkJLU1NERnk1ZW1ybUxHUkJ6cVYxY2tkLUJYY0pmNGFfUW14YWxTYXFoc3R2TEY3SzNXNHN4eWFiS1FzX3NqVEQyVFlEaG9ZS3pqWTJNNFJyWXdCa1V3ai1ENkNhN0Y1cHc5V2kyb3drN0dmX3R6QnRSVHR6ZGo2dzJBSkVFZ2dpY0ZZNHdQRmtBVnNlOWIwVHlvZnI2ZlloRjlzQjNINTJqV3UwbkhLYkRHWGdDWTMxSU1ieGxQUjhuNzF5QUs2X0xkbHhROFZicENjazUzb1BpdGhqNmoxNUdHNTNMMGFfWmtoeEhiSy1GMzJjaUgyb3E0VDc0N2dWdVcyazZIbXFEcmtrMXZFM3QwMXowTGpqbw?oc=5",
-    "rank": 32
-   },
-   {
-    "headline": "«سيسكو» لـ«الشرق الأوسط»: الذكاء الاصطناعي يعزز قيمة الشبكات اللاسلكية في السعودية رغم التعقيد - الشرق الأوسط",
-    "summary": "«سيسكو» لـ«الشرق الأوسط»: الذكاء الاصطناعي يعزز قيمة الشبكات اللاسلكية في السعودية رغم التعقيد الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "06 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiyAVBVV95cUxQUFFhakp2am9aVk9jdnRCeE1pTXU0WmdHOHk5Z1ltcEQ4Qy1LSHpUY3R0U2U1cGNLeTdmN0FTOFZhRldlZjNlZDM1b182ZjZwVTZNVTN6R0Z6Xzc0R2VpSlJudF9tV0VpMVJmaXhBSnhPSTVkWl9OdGZUbmVoR2FZaWFkaWxrRU9DX2h6SjI2eWVkLWdsMkx6V2VmMkxYd1cwV3lwUmhDVlZXQmx0cDQyNGpGaU1XRlNSZFNaUGJERVkyUjJQTW9qVUNVS1A5LVlvc3pHbFZFSDhPQ2ZzZnlaSXlQQXlHOUQtQzZTbzdScE9yZ1JKZF9sMmo0a2RiM3FFUUg2LUN5QzhubEYyczJkRURIMWFQZVg0cFFxcS1rdTdEdzZfMXF6RXJpQjluS1hBOVlNRVh5bXVpQXVFVjdYRzhqY1YyeFZUMEZ4LWtLLTJ3WTJXaHRMb3NWa00wdDBUTzlYMzhMU2FTenZkZUpmZWktX1JfRk1NRXdMajRyV29OWE10anNSSjhrc240MWVKMFptazhkN3M5R2dBZG51a1owWE01azltamgwTEk3aGc2RW9OMENRZUp1cGdRUk9tZVBRbGVTMTluWUhUM0tleW1IeFlvYTBaa3BnbWFSaVUtejUtZW5VVHl3N0g0bkFSX1BLVl9jLXpRU0VNT0IwRzdHX2gxY1BHckdfT2I1YWlZaGdXZWVMbDdlNC1fQWhtODBHdVRWX21pMEE5UlpsbEFCQkJ0bk82SlEtMWJTSmJPTXFPLUNNWGVQOHkyMEo4QmtCempUelZ5cmtoeHVhTm54N2N3LXpEdVpZSWU5azJhSFBkU04wMUNnV2JqelFuX251dlRnVG1iX2Z5dm1vNHdqaTYxbEZoUUtIOERKd25tUkRSRWptczBxRmhvRzZMak1MNEhqdElTTzNtbUFVcy1NakRsQWt1?oc=5",
     "rank": 33
    },
    {
-    "headline": "تدمير باليستيين و4 «مسيَّرات» حوثية جنوب السعودية - الشرق الأوسط",
-    "summary": "تدمير باليستيين و4 «مسيَّرات» حوثية جنوب السعودية الشرق الأوسط",
+    "headline": "مصادر لـ«الشرق الأوسط»: السلامي بديلا عن العطوي في الفتح - الشرق الأوسط",
+    "summary": "مصادر لـ«الشرق الأوسط»: السلامي بديلا عن العطوي في الفتح الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "06 Oct 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMingRBVV95cUxONTh2bklpSkZJVHVJYWRpUzBJaTdfa1ZLVk14SE05SEF3STR1S0NDZjBmOFR5V0pmSU9BdUI2RHE0cFhkdFZ1WXZNTkRSQmgtcS10ekZCbE80TnFUQjJ1NlNua1RsUUlYa0VXa1dleUZVQjFlSzNyZzJTVlkyaXIwNF8wdlU1M0E4TENpUTFFNFVkQzJHaEdwbUpNMjJUaEJZMWhaMGoxdWVOQXdnMVNKaEs3RVFLOGJveHZucDk2MXlsd1g5a1Q3NVVWaW1MOGx6RGVobWJDX2M4S09OWE0ySlRKenRmS3RpMklURjJESll3a0xZYXFNSjc4TW1FUVR6d2xObmw4bGhrN0NHNHZHbVU4SGlkWkY2dG9EdWZDNFR4Q0F5b2YtazdibGNHSmduYnZKcktiX3RRYW8wSy1OM2Qtc3ZJT2ZyX0hKVnhmNWthQkhmSjZ3ZExBNmhZbEFBUFpUbTdXNlIzNHhJZldJMFdWcmN2QzdrdVhuWDctUzE3QlgzLXZmVHhHem50UzhsZnotLUhkV3hRVF9FZEExR0JXbHFQOW9pNGtNOTV6djNaX25QQXFCNktLSHY5aVo4cmVFVHc2bzhPbnBjYTZucVlpUkJCbW54eVZFNWxrVkZCN3lJQnY0X0NCWEF5bDQxM1NLUTZHMkM3RUE5T1Exd3MyWHd4ci1yYXdDTE0yTDNkT1QtZ1I4T09aaGJFdw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMixwRBVV95cUxOcW9vSmJPS1haNUJuWkVYZGwzbUxkR0NwOEJFWmlVVExqS3c4ZUF4a294aTVEWUM3S0pULUo1OXVSMnBxalZ5R3ZheEFhbFhPVWx0S3RBazlCTkhPSkkxWmdRQ2c1Q1NWY1FKZ1l6V2VEZ2pTa2xrWVEwTzVCdEtGaEktZ2ltSXRkSmtTbkJsbXhWdFRJQldDNlpCM2wyYmQtdkRJaW5wcE05SFpFLUZNVjc3Q3g4bjFTY083ZnNCTVRBQ0dmMDZnQ0p5LVg1S1VaeDJ2RXB6TWFvOHRCOWQ5bU9fbE81REo5a0VMdHFjTXRGVGdmYnREeml0ZGRYUDhkSW1mcHlURUVlSkluQ000eHM1cG1TcXZYQ3BTSUJvZVJnOXUzZ3lJQkk2VjNna0pndjQ4bXM2SkdNb1o3Rl8xalJ6TlRKSmxaVkt2Ny1zMEhORmdCWlhYVFNLbDRHaWwtdWd5Y3RzVkRSbXBnQWJnekZkdExlbjAtUmRNd3JVYzJHN1FoQXZ1cFJlUXBIbXRuRHRQLUZHZmVKWEhyaDlRMmI0WDVmQUdMMWJ5b0VLUmZxSGplS1dtNXdLU29HR3R0VE9zbjBtZWx3Ukl0bjRIa2VZeDE4NjdhT3NKSF9JM2puVXNmUjdsbEE0ZVIwTEV2ZFRhSlNySjB0Skd4bnVIa3ZsemhaSEVON0RNX2xRVV9NVGxiQTNNUjBzRXR0dU93dW5SNGc2S2M3cl9sZzNjRS1kQUc2WmIzTHdyU2pCMGh1d0tTazY0?oc=5",
     "rank": 34
    },
    {
