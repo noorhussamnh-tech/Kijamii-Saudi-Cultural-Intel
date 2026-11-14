@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Saturday, 14 November 2026 · 13:40 KSA",
+ "lastUpdated": "Saturday, 14 November 2026 · 20:10 KSA",
  "days": {
   "2026-10-03": {
    "label": "Sat 03 Oct",
@@ -2120,19 +2120,19 @@
     },
     {
      "rank": 3,
-     "text": "#يوم_28_نوفمبر",
+     "text": "#يوم_الجمعه",
      "cat": "General",
      "pts": 10
     },
     {
      "rank": 4,
-     "text": "#يوم_الجمعه",
+     "text": "#يوم_28_نوفمبر",
      "cat": "General",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "#بوح_المشاعرᅠ",
+     "text": "#النفسيه_محتاجه_القهوه",
      "cat": "General",
      "pts": 7
     },
@@ -2144,85 +2144,85 @@
     },
     {
      "rank": 7,
-     "text": "بن كعب الاسلمي",
+     "text": "البرازيل",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 8,
-     "text": "الرحلات الجويه",
+     "text": "اليوم السبت",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 9,
-     "text": "علي النبي",
-     "cat": "General",
-     "pts": 6
-    },
-    {
-     "rank": 10,
      "text": "المطارات الامريكيه",
      "cat": "General",
      "pts": 6
     },
     {
+     "rank": 10,
+     "text": "اليابان",
+     "cat": "General",
+     "pts": 6
+    },
+    {
      "rank": 11,
-     "text": "اليوم السبت",
+     "text": "الرحلات الجويه",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 12,
-     "text": "نور مابين الجمعتين",
+     "text": "بن كعب الاسلمي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 13,
-     "text": "التحديث الجديد",
+     "text": "نور مابين الجمعتين",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 14,
-     "text": "المنتج الناقص",
+     "text": "علي النبي",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 15,
-     "text": "جبال السروات",
+     "text": "المنتج الناقص",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 16,
-     "text": "مروان الصحفي",
+     "text": "التحديث الجديد",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 17,
-     "text": "هولندا",
+     "text": "ربيعة بن كعب",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 18,
-     "text": "الحركه الجويه",
+     "text": "جبال السروات",
      "cat": "General",
      "pts": 4
     },
     {
      "rank": 19,
-     "text": "فيصل الجفن",
-     "cat": "Culture / Society",
+     "text": "العمري",
+     "cat": "General",
      "pts": 4
     },
     {
      "rank": 20,
-     "text": "العمري",
+     "text": "هولندا",
      "cat": "General",
      "pts": 4
     }
@@ -2237,28 +2237,23 @@
      "score": 88
     },
     {
-     "text": "#يوم_28_نوفمبر",
+     "text": "#يوم_الجمعه",
      "score": 76
     },
     {
-     "text": "#يوم_الجمعه",
+     "text": "#يوم_28_نوفمبر",
      "score": 64
     },
     {
-     "text": "#بوح_المشاعرᅠ",
+     "text": "#النفسيه_محتاجه_القهوه",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (19)",
-     "items": "#٢٠٣٠_بلا_نقاب45 · #السعوديه_كوريا_الجنوبيه · #يوم_28_نوفمبر · #يوم_الجمعه · #بوح_المشاعرᅠ · محمد · بن كعب الاسلمي · الرحلات الجويه · علي النبي · المطارات الامريكيه"
-    },
-    {
-     "icon": "🎭",
-     "label": "Culture / Society (1)",
-     "items": "فيصل الجفن"
+     "label": "General (20)",
+     "items": "#٢٠٣٠_بلا_نقاب45 · #السعوديه_كوريا_الجنوبيه · #يوم_الجمعه · #يوم_28_نوفمبر · #النفسيه_محتاجه_القهوه · محمد · البرازيل · اليوم السبت · المطارات الامريكيه · اليابان"
     }
    ]
   }
@@ -2357,7 +2352,7 @@
   "النشيد الوطني السعودي": 4,
   "دوار السعاده": 4,
   "مطار عدن الدولي": 4,
-  "#يوم_الجمعه": 22,
+  "#يوم_الجمعه": 24,
   "محمد": 18,
   "#٢٠٣٠_بلا_نقاب37": 10,
   "رونالدو": 8,
@@ -2365,7 +2360,7 @@
   "بيت الشاورما": 6,
   "#الحوثي_يستهدف_مكه": 6,
   "#الصلاه_علي_النبي_تفرج_الهم": 6,
-  "علي النبي": 12,
+  "علي النبي": 10,
   "البرتغال": 6,
   "جيسوس": 4,
   "المسيليم": 4,
@@ -2514,18 +2509,18 @@
   "نجران": 4,
   "جنات النعيم": 4,
   "#٢٠٣٠_بلا_نقاب45": 14,
-  "#يوم_28_نوفمبر": 10,
-  "#بوح_المشاعرᅠ": 7,
-  "بن كعب الاسلمي": 6,
-  "الرحلات الجويه": 6,
+  "#يوم_28_نوفمبر": 8,
+  "#النفسيه_محتاجه_القهوه": 7,
+  "البرازيل": 6,
+  "اليوم السبت": 6,
   "المطارات الامريكيه": 6,
-  "اليوم السبت": 4,
+  "اليابان": 6,
+  "الرحلات الجويه": 4,
+  "بن كعب الاسلمي": 4,
   "نور مابين الجمعتين": 4,
   "التحديث الجديد": 4,
-  "مروان الصحفي": 4,
-  "هولندا": 4,
-  "الحركه الجويه": 4,
-  "فيصل الجفن": 4
+  "ربيعة بن كعب": 4,
+  "هولندا": 4
  },
  "news": {
   "date": "14 Nov 2026",
@@ -2540,40 +2535,31 @@
     "rank": 1
    },
    {
+    "headline": "US warns Americans in Saudi Arabia over threat of Houthi attacks - Anadolu Ajansı",
+    "summary": "US warns Americans in Saudi Arabia over threat of Houthi attacks Anadolu Ajansı",
+    "source": "Anadolu Ajansı",
+    "date": "14 Nov 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRnRHUGszcWMwdURHUGhPcmE3bkpmdW94RGdRT0JmbHhVN1gyQlA3OTVHQ19OUWVrSFlUbjBpcDFveTYxejBLVmp0LXBDTGs4UTBua2RORGhNdkV2NllxZzVadWJrdzlxUDdrZlhpb18wbVhNUzI5RlMtVm5leVE5ZDlqQXg0UEplbWxNYW8wczZoMlg5QmRtVFdFMWpBS2d3SnJPeQ?oc=5",
+    "rank": 2
+   },
+   {
+    "headline": "125,000-year-old poisoned stone points found beside an ancient lake in the Saudi Arabian desert - Archaeology News Online Magazine",
+    "summary": "125,000-year-old poisoned stone points found beside an ancient lake in the Saudi Arabian desert Archaeology News Online Magazine",
+    "source": "Archaeology News Online ",
+    "date": "14 Nov 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVDFKd2JOaEQxRHVVTXVKRVdiXzJGdjl0WHZSc1daTFRGaEVjNUtjRVZ0ME9pTTBCX0ZzZ2hVNGIyQ1dYd1ZLY0J5Yll4WUhaNmxWNHpiOEg3UHNkQmlWTGdLRGN1MkdGUlJLYnQtd254ZDZhTFJ5bjJQM0t5MGNxQWh5SkhubUFGRDQ0TXd3?oc=5",
+    "rank": 3
+   },
+   {
     "headline": "Trump says Saudi Arabia is 'disintegrating' - Middle East Eye",
     "summary": "Trump says Saudi Arabia is 'disintegrating' Middle East Eye",
     "source": "Middle East Eye",
     "date": "13 Nov 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5QMTFPSGdFTU1jWVN3aFJUekVmTkgxZWdnakZDS0FkbW13bHowUW5IbXRwSXVxem5OQkE3eVVqaF9ETU9JanVTNGZsQzktVmFmS2ZaS3Z2cFhmVjU3TndiX3NoZFY2Z1l6cVFxMmhhcGtoNkF3dkQ1RHVVTF83Zw?oc=5",
-    "rank": 2
-   },
-   {
-    "headline": "Saudi Arabia vs South Korea: Friendlies stats & head-to-head - BBC",
-    "summary": "Saudi Arabia vs South Korea: Friendlies stats & head-to-head BBC",
-    "source": "BBC",
-    "date": "14 Nov 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DU2xOLTRxNUtSZ1BtQmhNNlltTy1lTllKaTNHc0F1OW5NT0puWDdPWkJXWGlTZjZ5VGRPZGkxemtSR1o5dWlHMVhIcHdlM0tVWkc1QWxEOU5Dc2VhS2NuTk9Tbw?oc=5",
-    "rank": 3
-   },
-   {
-    "headline": "Rosen Presses Ambassador Nominee on Normalization of Relations Between Saudi Arabia and Israel - Senate.gov",
-    "summary": "Rosen Presses Ambassador Nominee on Normalization of Relations Between Saudi Arabia and Israel Senate.gov",
-    "source": "Senate.gov",
-    "date": "13 Nov 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTXFlTzRIYUdzd1dmY1EwdkRlS0pvY1pVZkFjT3A2SGZQeC1DMm12THoxNzE1bUZWSVF0MnJGU2pEMl9Ya3NOQV9EUk1NWEFvczlfVF81U0hGcHoxS1k1c3JyTWwzV1kxQ1pVUURHV3J1cWNZNWhsR0NYazFlQXlFR1FJckJPTFBiWGtNbGJTTDlYZ2tOMm9jRnFSeEw3NnltMFBPalJ2Z1Z2RzZsVFJaY1o1LThidGpDd2NOUmxaSnhRSGE4LUxjWUNENkljVGRF?oc=5",
     "rank": 4
-   },
-   {
-    "headline": "Saudi Arabia under US pressure to persuade Pakistan and Turkey to shut Iran's trade routes and border crossings as Egypt calls for dialogue - Business Insider Africa",
-    "summary": "Saudi Arabia under US pressure to persuade Pakistan and Turkey to shut Iran's trade routes and border crossings as Egypt calls for dialogue Business Insider Africa",
-    "source": "Business Insider Africa",
-    "date": "13 Nov 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRXpjYnFSbjY2VEFlcGpxWE1DTGpfLWNIcVhFREJvdWNESFBackkzNmRFSUN6WjZZcGhWQkQ2ME1DeDRKVzJBS2FOUGYyVXVUQ1NGOTh4ZHRCblFNX2F6WkRqZXV4Tk8wbFVkS09STzNOd2pzRzMzTkx3dW5lSWlDU1U3YnlaSEpCbGo1dzltMXRrcVI1S1NOZ0xPMU1NSFBYWTJ6bDQtUnVxdlgtTzZoZ1M3VWFiYXBOcXJORU40M2o0UmtQQkQ5RDFyd2htc2hXX08tdmpR?oc=5",
-    "rank": 5
    },
    {
     "headline": "Humain raises $667m for AI buildout in Saudi Arabia - Data Center Dynamics",
@@ -2582,7 +2568,34 @@
     "date": "14 Nov 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeWdkMTJqbGJZc1N4dE1nMUsyT2Fva2VNNTZWZzVFS2RCalhnaHdWRGY1dzBKemhySDM2WVI0MWFOemR0RVJkeUxxc3ZnZlRqMjQ3QTNGTGRvMGFlY1k1QVI3SmFYaWllU1Vxd0xTTDVkVWxlT2NHbXZrbE9naWpoR0pYaGZ0dUFuQlFtNm9hZ0M4b0JFWjhNNXJ3?oc=5",
+    "rank": 5
+   },
+   {
+    "headline": "Syria’s support for Yemen and Saudi Arabia - Arab News",
+    "summary": "Syria’s support for Yemen and Saudi Arabia Arab News",
+    "source": "Arab News",
+    "date": "14 Nov 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWnFNZjV1aFpGcHl1c091YlJTLXJBbWQzX3d3dnJhMTZNVlhJZmxRWXc4MlpwNjlab2RiMEloZ1k0c1Z3RUNrMzZoemtvaVFzdzVfblVoQ2tYbmpOeHVBT21vZjlvdDlDbC0yQVYybDQ5Z0NIaGZYWl9LbkNpVmJrb3lEMHZzWjVFX1E?oc=5",
     "rank": 6
+   },
+   {
+    "headline": "Rosen Presses Ambassador Nominee on Normalization of Relations Between Saudi Arabia and Israel - Senate.gov",
+    "summary": "Rosen Presses Ambassador Nominee on Normalization of Relations Between Saudi Arabia and Israel Senate.gov",
+    "source": "Senate.gov",
+    "date": "13 Nov 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTXFlTzRIYUdzd1dmY1EwdkRlS0pvY1pVZkFjT3A2SGZQeC1DMm12THoxNzE1bUZWSVF0MnJGU2pEMl9Ya3NOQV9EUk1NWEFvczlfVF81U0hGcHoxS1k1c3JyTWwzV1kxQ1pVUURHV3J1cWNZNWhsR0NYazFlQXlFR1FJckJPTFBiWGtNbGJTTDlYZ2tOMm9jRnFSeEw3NnltMFBPalJ2Z1Z2RzZsVFJaY1o1LThidGpDd2NOUmxaSnhRSGE4LUxjWUNENkljVGRF?oc=5",
+    "rank": 7
+   },
+   {
+    "headline": "Missiles Over the Financial District: The Houthi Campaign Against Saudi Arabia - Modern Diplomacy",
+    "summary": "Missiles Over the Financial District: The Houthi Campaign Against Saudi Arabia Modern Diplomacy",
+    "source": "Modern Diplomacy",
+    "date": "14 Nov 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb3RXV3dXNkNZcS1NT2RmeWNmRHNFc2J3Z2RPWnBsWXRxc2FHS2p2R0djUGZGZnlIRE9iNUdjOGFiQmdDTWNNc1E2RTlrN2xtZTJ2WC1iRVFrejhCVjdZUDJEaG5VMkZyeWU4YWhDaF9TQ21oT3F6SUJ6ZmFhRDlVendXcWV0VWZ1UUtBS1BWZE5SUnBPc1hlcE90TldKRDFrU2pjSW1LT1RmUXlkUGhuaG1Rei02dFE?oc=5",
+    "rank": 8
    },
    {
     "headline": "South Korea Ends 21-Year Unbeaten Streak with Loss to Saudi Arabia - 조선일보",
@@ -2591,16 +2604,7 @@
     "date": "14 Nov 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLUV5SnFwNW9KWGQ5NmFwdTNaSml5SjdxaEMwTnJiLXdIQ3FoZkZxVVZTY0YtQzZjZWlnMGFKaVNXMVNJUFVsLURPZWx4dkFTUWhGdy1TSmw1Snk3NHg4UlhyR0prR2h3bWRxeVN4N1J4TnRwbC1wY3JIMGVIVjRiemRHR0p6MDlY?oc=5",
-    "rank": 7
-   },
-   {
-    "headline": "Middle East latest: IRGC says two oil tankers caught fire after hitting sea mines in Hormuz - The National",
-    "summary": "Middle East latest: IRGC says two oil tankers caught fire after hitting sea mines in Hormuz The National",
-    "source": "The National",
-    "date": "14 Nov 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSXFoNFFYdTBqTjZjZ3pBRTk4bm9QWkRnRUstbndsQV8wd1dhX281Y1hhblZCNjdJT2dZWGZXZWZBWGZTWDBZNXg0bVc1a1hGbjNSWHFNb2FveFY3VjhXRy1ZRU1CVWFUa3B4aGtNdjVwZU5WTmR2VkhHNmJHYjZ1VGg5dXpYWG5JWmVuSExGQ3MwLUE?oc=5",
-    "rank": 8
+    "rank": 9
    },
    {
     "headline": "Poison Arrowheads In Saudi Arabia Reveal How Humans Survived At A Desert Oasis 125,000 Years Ago - IFLScience",
@@ -2609,15 +2613,6 @@
     "date": "14 Nov 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWXd5Z0M0UWpCcjAzSkFTWUY2dXFmSklCWnFHNjFseS12elNaS1QwcEgwbEJ6MEJuUkNnOUF6ZHBvRTliZ0hqTmw3QXJUNjFSc3lwQjJKUWZ0WllCanhDZURJcGxsWkRpbEx6cElQQUU1aGhObDlmQTVxRE0ySmFralBkSkFQQ0tRSUFSdjVvckU4QWlhRTVGNzg1ajNFTG1fYkdoRk1lNGZNNFNKZUhMOGdNaVVKeHk0T3pnWVhHNE9aMVRsNS1r?oc=5",
-    "rank": 9
-   },
-   {
-    "headline": "Tel Aviv flight drops thousands of feet after pilot stabbed in alleged terror attack - ABC News - Breaking News, Latest News and Videos",
-    "summary": "Tel Aviv flight drops thousands of feet after pilot stabbed in alleged terror attack ABC News - Breaking News, Latest News and Videos",
-    "source": "ABC News - Breaking News",
-    "date": "13 Nov 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZkdKU25NUFppS1h1OVBib2FDRTRrbmRGUk90MU9TM01zVzZUeEFrOTZ2RGFleGxJd2JQakhYTExYRGZYSUpTUXlVWkJlTExBVUJVSjlycVpGWThMaWNBYWFGajg5QlgyRVFRWjRKMmQ3RVJvTTJ1Y3lVeVByMjlTZzMtR0RSN1RiclpVTDR0d2hzajFPOVlEOEd6SjI2U3BSa3EwcWJlMnHSAa4BQVVfeXFMUF9sbEVqZ2c0MW9lMkRJaTBOa0UtdVFMR3pyNWJoNVE1SDJVWDlYM0xDbTFNMWFHdlNldXJVVHV5OUxWU1lRcXd1RFdpVmVkUjl4dFJ6WHQ2Ynl2SjRDSVhfNG5WSks0am5XMUZFNlJWUGJnbUFDNlRlYWQteG5xLWpEdWt5MWpNS0VTX3JHc3hlOFAtQkZaS2VtX2NnRjVnZlJjNDRWOXlOamR6a2RB?oc=5",
     "rank": 10
    },
    {
@@ -2630,22 +2625,13 @@
     "rank": 11
    },
    {
-    "headline": "الداخلية: تنفيذ حكم القتل تعزيرًا بحق مدانين بالانضمام لتنظيم إرهابي واستهداف رجال الأمن - Howl.Link",
-    "summary": "الداخلية: تنفيذ حكم القتل تعزيرًا بحق مدانين بالانضمام لتنظيم إرهابي واستهداف رجال الأمن Howl.Link",
-    "source": "Howl.Link",
+    "headline": "السعودية تدعم تطوير جودة التعليم في موريتانيا - عكاظ",
+    "summary": "السعودية تدعم تطوير جودة التعليم في موريتانيا عكاظ",
+    "source": "عكاظ",
     "date": "14 Nov 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBkeDR4SWJGdDJYdWdQQWFhbEV6UkQxakhfWldPTzc4OFd3NFRYdVdmT1ZmMm4xM0ZwOVRr?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KakpMQlJoa25vUnRJU183RDBvUW9sODZTQWtYQW81Z2VHWUk2U2Y1SG0tNGNkNk1zeW1PZW9kTkl5QVAwOThqRVBYeEZtSFBFZEHSAVRBVV95cUxOZGdJZHdmQWQ5ZVNjcEYyT0NiOGZBYWpNTl9tUElFYThuWTNrU2t6TDhCTXZ3Wkhyalp6MzRjaEh0Vk9wcDhHaG9FWW9oQTZjdUFPb00?oc=5",
     "rank": 12
-   },
-   {
-    "headline": "معالي الأمين العام لمجلس التعاون يؤكد خلال إحاطته أمام مجلس الأمن الدولي، رفض دول المجلس أي مساس بأمنها وسيادتها وسلامة أراضيها، ويشدد على أن الاعتداءات التي تتعرض لها تنتهك القانون الدولي وتهدد السلم والأمن الدوليين - الأمانة العامة لمجلس التعاون لدول الخليج العربية",
-    "summary": "معالي الأمين العام لمجلس التعاون يؤكد خلال إحاطته أمام مجلس الأمن الدولي، رفض دول المجلس أي مساس بأمنها وسيادتها وسلامة أراضيها، ويشدد على أن الاعتداءات التي تتعرض لها تنتهك القانون الدولي وتهدد السلم والأمن الدوليين الأمانة العامة لمجلس التعاون لدول الخليج ال",
-    "source": "الأمانة العامة لمجلس الت",
-    "date": "13 Nov 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8tR0l3eWxPVkhLMW9Wa3ZfTHoxcmVhRHRqLWV1ODZkX2NNR3doME1LbkFaVmR6dkg3ZC03d1FIc213eXlubHZEaDBnYWg2SVl0SGFJMGtnQjUyek9nWEpvbk9Cdmt0Skc0U1RZTWhGZlNsbXpwSVlpYUs4Vjc?oc=5",
-    "rank": 13
    },
    {
     "headline": "الأمين العام للمنظمة يدين الاعتداءات الحوثية الارهابيه المتكررة على المملكة العربية السعودية - Organisation of Islamic Cooperation — OIC",
@@ -2654,24 +2640,33 @@
     "date": "12 Nov 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE15SjZ3Z1VrRVlyV1UzYk01c1kxUkdJcEJ5Wm05aXdjZzgyMHBnUFBLSWlGWENkck5xRnYxLURoMlMwUHUwVGN4bGxmRXE?oc=5",
+    "rank": 13
+   },
+   {
+    "headline": "السعودية تضبط 11 ألف مخالف للأنظمة الأمنية في أسبوع - العربية",
+    "summary": "السعودية تضبط 11 ألف مخالف للأنظمة الأمنية في أسبوع العربية",
+    "source": "العربية",
+    "date": "14 Nov 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMitANBVV95cUxQVDNBMkJSOW5XMjN5YlVFQXRPZUxjbk5lQ1NNekJTalZDbGFCbkVEeFplYU50WkljTVZzeXluMEdtUi1WTjdITVVwWXdDcDZHaGdBenpVcng4Y2pxeG5XaW1LaDBJX2tBZTZ1MWpoX0V5UzkzbC1wT2hFT3VCZ3dTUHpWbEJSWmVJY25WcFpBQ2hnUmZsZDM5OFRZUWdEOW5wS0xKNkJFb081ZFhBRGRzYXRvYUQzdGV6UnJReldCeUkzb3VFYm9jeWxMaHY5bDFrUEJkOEZXZnhNWVNjNjNiQWZ4ZTZaVFhiYTFlTmQ1WVFMdnJKNWlfZDF4Rzl4OS12V2VOdmJKS2czcG05bmxhS19BVGhqOFhyNEtTUVRZZWVDU0ZBNnpfaHlkVjBjQlAzcHhRTk1GTUJvSllPQmhvOUtKNTJ6LS1QSjAzb3BXM0ZqRThBOW9aRDBXMnRXelc2RHdwYWdPVWxhU19wczdfY3VoREt0NnAzSzJHRnF2SkRHYmFidlJCQ01OZ0RhS183MnVRT09DZlFpZ2hJejBFZGpPOWdiaUhneEk1U3RRdG5fWHhZ0gG6A0FVX3lxTE5NLXVWTkYxQUUxWXFwb003WURqelU2NjFqd3BxZVFCN1BoN0RmamcxZWVlMGZqeXFrS0ZoZ09WRjFmUXVQQVJQdmVfRXU2Zm4wbjk5dHgzSnBtNVc3X2VTZldrR1ZSUW9Pdm1iVWpvMjZMOV9YSGRwR3ZVWFVDVHlvbFJGSFNkNzNmZEpDT2RIVTg2R3VLVEUxRXlfYlRQcTNldnNOYTdIRUhKY3FQN29ZSm83emkzQmkxRU13dmVLZjlfd3ZsdUlkUUlibC1IRjlZYXMteWlkTk4yczdRYXQzNjYwOEVsaWc0a0pEaGRBZnpJb250dUllc0oyTHVqbHZFRzZWZXUyQkU3OGFMcTJTdEFyVTItUloyU1NyNnp0Tm90Vm5Iem5pdHFwUnppeTY3Umx5Q3p6WkswajF5OFI4bG9YVkVtVTAydFRjZFZ2OHZ4VUhHa1NtUFhOYi16Wmd0TC15a1pmTW9rN2ZncWszVi1oRnVMNldtWlBjbWk1clZneUF4cTlZY3c5ZmZxM05GM1FLUHo1X3RhVlJwMFMtS2VoSFQ1SEpqWDJwNGVEU2h5cndYY3pfaXc?oc=5",
     "rank": 14
    },
    {
-    "headline": "اقتصادي / بمنحة من المملكة العربية السعودية.. يشهد الصندوق السعودي للتنمية مراسم توقيع عقود تنفيذ جسر البسيتين في البحرين - وكالة الأنباء السعودية",
-    "summary": "اقتصادي / بمنحة من المملكة العربية السعودية.. يشهد الصندوق السعودي للتنمية مراسم توقيع عقود تنفيذ جسر البسيتين في البحرين وكالة الأنباء السعودية",
-    "source": "وكالة الأنباء السعودية",
-    "date": "12 Nov 2026",
+    "headline": "211 إعداما في السعودية منذ بداية 2026.. تنفيذ حكم جديد بحق مواطنين اثنين - مونت كارلو الدولية",
+    "summary": "211 إعداما في السعودية منذ بداية 2026.. تنفيذ حكم جديد بحق مواطنين اثنين مونت كارلو الدولية",
+    "source": "مونت كارلو الدولية",
+    "date": "14 Nov 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5GNlBIT2dySmtGa1hvbzNpTmJmUVdTTlVyWTRCenMtNE9DY0hTZ19FWUQzNENpbFVyQTVJNmhXSWJtQlp5RFE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi2gRBVV95cUxPZTVKbEdrTnpSSFJ3UlJldnFkR0lneE01UVlheWVjSFNya0lkRERHUTVsN3RCc21SNXNuQ09Xall5QjQ0dXdFZmo4VlNCR0hNRW5hcWE2YWFGaVpfTjlVeklseGlkaDZEaEJVbjNiOUdxM0dTTHBfaVpQenJMem8waTQ5NUNtS1F2NnNpc0FUV0ZsYVZwYU1fWV90czZkcDgtUkpodm1aU2tiaEtraHBpOVRTMjNpeW9IVVpRRnpUVnNTdENzY1V0N2p2c294RzZTWFBGaWJNSUNEZTJELTd4Mk1tX25jd3diby16QTJxWmsybzl0d0w1WFg3SDVmMFNEdlR3UWN6cE1zdDdHZk1VRzFyRVNKQ015ei00eHdmN1ZoeldYSV9rbFdHVGkyRTdWOVZ0THJ6TkRvT0lXWnRMY2l2MDVKcTFIMTVITUpPTnJBNVFmQU12aEE4Y1dqdUlfb3AzTWlsMWplUGF3NjdHaGpkVHpnNEg2RkhPSUs2WWRHTTFCSHhKb19YMVp4QlduMEpyZFltZFFiWXpzTDJDSE5nVmtoYnZiOTVVWlhaV2VyTGRzTVVoYjZCY05sb0VtYXoxd19hTVpGT19sM1NCRFJreVB5SGFBTnVsY1NEVzd0LVVTTWFGTVZvOEN2SWtGd25KcUZzeFpUcy1ETS1udm1CQWQwVk92c0lBNldjVHY1YzhUXzZaaHhZekNLeG02YnBMNkhpSVlHRy12OV9aNkZvcTFjR05td2RuS3FoRzZyOGd0YjZDeVVCZzFUbjZ5TTJaOHE5TjZWZw?oc=5",
     "rank": 15
    },
    {
-    "headline": "البرلمان العربي يرحب بقرار مجلس الأمن المطالب بوقف اعتداءات الحوثي وتمديد العقوبات - عاجل",
-    "summary": "البرلمان العربي يرحب بقرار مجلس الأمن المطالب بوقف اعتداءات الحوثي وتمديد العقوبات عاجل",
+    "headline": "المملكة تعزز قدراتها البشرية والتقنية استعدادًا لعصر الذكاء الاصطناعي العام - عاجل",
+    "summary": "المملكة تعزز قدراتها البشرية والتقنية استعدادًا لعصر الذكاء الاصطناعي العام عاجل",
     "source": "عاجل",
     "date": "14 Nov 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9KYndaRDdZR1RNWWZZbWR3c3BobURqeFRDaVVlMUc1NTVSUFFLZmgwajB0ZHdRenBQRU1aX0tMdmYwOG1JZnpMTnNPS0ZoZ19i?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBHXzB0dE9weTVXU0RtanpLeXRQR1hacU1scFZ4eUx5Nm00NmhWUFVvbmxRNC0yaEZleWJDeXR5c1BhWUNEaWc?oc=5",
     "rank": 16
    },
    {
@@ -2684,21 +2679,21 @@
     "rank": 17
    },
    {
-    "headline": "\"لدينا وجود عسكري\" في السعودية.. هل تقترب مصر من خط المواجهة الحوثيين؟ - DW.com",
-    "summary": "\"لدينا وجود عسكري\" في السعودية.. هل تقترب مصر من خط المواجهة الحوثيين؟ DW.com",
-    "source": "DW.com",
-    "date": "13 Nov 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMihwRBVV95cUxOQThjMjhsVkN1Ql9VSHhReGlhY0tVNWFIT1BNRmwxME0yN1ZIZkY1aVBqMTNUY1NHekdjVXNQZFpqRy0zVXFWYzY3WXhtV29fNkJxU2lET1lkZ2NvbVc2Q1QxYVh6ODhxWThJMHpjR0FhTXFqcnZKWEJoSHh2T3lkQU1iRVJWemlPZE0td0RiODF4S0hwOFZGdHNNTHhyYlE1a2NUZWRSQzY3ajRRZUhsbVZyRTZjQ2VIUnZHU3JzZWY4YmhXNm1tS2lsZTg3VVJrLVhteFF3ZTBTbS02UXh2bC15MHlIU3dWaU9nYlk1ME9NdnkyYzZ1bFZKaHZxTEk2X2lMVk9SMU9UOTFIdWY5OGVaV2pWZVBMSTl6dHIyVXBzTWN4VUU3RVZzOTBSdGR3S3VjaER4VU1VRW9NV2tIRkNQM3Jqc3YtTHF2RkdOd29FRUw2X3RoaFBHVmdqSHJkWm8xbVpYZnlNTC01c2Y1bEo1Y2pCVnFVMk1YdWFXWFYtaGh3TFcwOWFKVElTMVc1ZEg3YWFrVkFrWTd0NkxfdFpUMzUwa1BBekYzNDR2MWQ2RW01b2RvaVk3Zzc0Q3V3aWpFQjRlY0xSbTUxeVFVS1FZZTE1eVAtMmFEd3pyT1g3emltSDhNSlRFaWlCa0lTS0NQN2ZFZlRvT1NYTlplSjN6eFE5XzjSAYcEQVVfeXFMT09RdjJKR19rY3AxVkM5Vy03b0xieGdObUJSZUowcnIzX1Z1S1V6cmp1OHZocDJlb0pGaXRlclR2UUU1NkZMMUJYR0cwMHJqbTlQWWVmN01sSU5SOGZhWUs3T1NzVHBUandoZk5PZFBSemJxNTRVV2JWV3Y4LVZhRHQ2Qi1iUGR1aDlEelJDSFAwblRWRzJScG4yMUZsMXVFWEZ2M0ZyclAxR1htMDV1T0tnNmN6b2xlSVdLMXdxY3phN2xsUjhxRnZ4UC1lUlpkMURYa01IR0E0VFFrZGxfbXczc1R3Sm1DaDQwYlpGeUNNV1J6RTAxZ0liQ1ZvRzZFRkJGNmFDUVFpYzVZMmtkRkxuRnhoWnhxcVd4OEQ2c2RVY2JJNFJ5ek9JTXc5TWpTVzhHN3dFc1J3MlZfa2RzaG9RTDMtSzNwNTA5ejhMbXlBUUgtbUsxRmNtT3U2V2pHU3ZpWFJnbHUyRkpwb3hoaFVzS3F0VlpkNEVwZUlGTGRaWUFQTmFCdFRScUJ3RElvZnBrcXJUWWJZVkZxcHJZXzlENHdMSzdzQzY5Sk1KOXVLTUVBbVpHaXZKSkVuZzZGSmRaR3VicXFETVhJWHJibkJ1cnlFRVNoTWxXRk9JbDFzS3FVR2pucjd1dWMwazZqdU9kVndTOTVxdndYRS12WjdLS21CVFo4?oc=5",
+    "headline": "مستشفى الهلال.. لاعب يعود بعد 9 شهور وغموض موقف سالم الدوسري - Kooora",
+    "summary": "مستشفى الهلال.. لاعب يعود بعد 9 شهور وغموض موقف سالم الدوسري Kooora",
+    "source": "Kooora",
+    "date": "14 Nov 2026",
+    "tag": "sports",
+    "url": "https://news.google.com/rss/articles/CBMiugRBVV95cUxQa0wxeHY4SDhXT2JBTFY1bi1jd2djTUFEZ1Mxa0NFalJiTEZpbDVkVVByOFJreXdlbjFRRklmVnl3UUVTQkJFMkRpTmJQeVQ3TDlILUZaQXZ2SmFkeWFKM01WTURpQ3pLd0pZUlVsaFYzbFNSSTlOOTN6LU9wZ1dBRFZuOWJzN3NLRXNwaU9YR1lidms0RzdKNTRJNTQxRjItQzVIR0xWcFZaRUlPaU5hS1FRWHI2cGp6WnZjWFhERlItX01Fd0xVMUlabjFhenZqZ2dsdjAzaHNwZ2lLVHlqNjZEdmN1cGtMaG10anlYNnlkamJPdkxWYXBxZDRVZG4xQ2pNVnQyTmJWMlBCb3pSd2tCbnZ5WG54b2Q2aUwxcEQyekhrRXNWeUwycnhZT2RlRk5XSnN3Ykh4VUVvYlNDQkZFMC1OTmFqLVdtX1g0OHp4Q0tyZFQxNzdGbFk0TDJtTzJfNmRES0lKTEdTQWVoUTVsNnF0YldXcmdiQ3MteFFWenlIb0FWOU9NLVdYVDhZWWQ3QjFEc1B2dXFxSHBBMGhoZ2hvNGV2X0RCUEQtTmtadDNlNzNndTk0bEEwUjBiZGRMV3FYTEF1dUJJbVAwQ3pNcF8tTWdZdjVlcFNNZEJYRUlqOWRFUzRXUkpnUnhITXUtVC1RLUdQbUNfMFY4aDJQWXBqWXI5S2hmeEpwQkVETVE3NkRndWp0UGlJd3g2b3k2M21NUU0zZVFuMDVJZy1CamdZZ3RyZUE?oc=5",
     "rank": 18
    },
    {
-    "headline": "مفتي مقدونيا الشمالية يدين الاعتداءات الحوثية الإرهابية على السعودية - عكاظ",
-    "summary": "مفتي مقدونيا الشمالية يدين الاعتداءات الحوثية الإرهابية على السعودية عكاظ",
-    "source": "عكاظ",
-    "date": "13 Nov 2026",
+    "headline": "اقتصادي / بمنحة من المملكة العربية السعودية.. يشهد الصندوق السعودي للتنمية مراسم توقيع عقود تنفيذ جسر البسيتين في البحرين - وكالة الأنباء السعودية",
+    "summary": "اقتصادي / بمنحة من المملكة العربية السعودية.. يشهد الصندوق السعودي للتنمية مراسم توقيع عقود تنفيذ جسر البسيتين في البحرين وكالة الأنباء السعودية",
+    "source": "وكالة الأنباء السعودية",
+    "date": "12 Nov 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95eGFwMm9EQ3VEYUptMUZPT2JreDJUQ3F6ZnduQmFPV29VR3h2V1Jpd1h2dnZzZ3JDeGtCSVVpdUhvXzRkRGpESk9iV2xlTy1FTkE0ZFNPZjZ2ZXMzNGxR0gFUQVVfeXFMT1lxcTBveVdhVF9kUUd0YkJBQ2ZBdndDNFItNFh4NGZIazktZVlsQnJRM0QxZ25jN1BVRWQyNURCS01nUWc5UEJVMC1SazFJMmZJRlZO?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5GNlBIT2dySmtGa1hvbzNpTmJmUVdTTlVyWTRCenMtNE9DY0hTZ19FWUQzNENpbFVyQTVJNmhXSWJtQlp5RFE?oc=5",
     "rank": 19
    },
    {
@@ -2713,13 +2708,22 @@
   ],
   "regional": [
    {
-    "headline": "Yemen’s Long War, Saudi Arabia’s Security Dilemma, and the Shifting Middle East - The Media Line",
-    "summary": "Yemen’s Long War, Saudi Arabia’s Security Dilemma, and the Shifting Middle East The Media Line",
-    "source": "The Media Line",
-    "date": "13 Nov 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa0JqQ3k0WGk0NVoxbHRNTHBTeDZxaVkyYmdzdGptNVB2MUVjb3lmcG1OTXRrWGs0U016Vi0tWTU5UmdYbk5IWHJfSTV0UEpEUkZvM0s1WjkwT3E1NFVfMzdGb3pyZ0J3cmhGWXMzVWJnSmpTTVh0MU1VcUJUcFZBamRua0kyOFVWSGUtQ243M2lITElJbmRRS3ZhNTNTenJJcXJTbFZiU0hJVFl1SHl5MnVB?oc=5",
+    "headline": "Middle East monarchies brace for Trump corruption scrutiny after blue wave - The Washington Post",
+    "summary": "Middle East monarchies brace for Trump corruption scrutiny after blue wave The Washington Post",
+    "source": "The Washington Post",
+    "date": "14 Nov 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdUZYekFGSlJsOEhmVU5FR1pWdUd5UTgxblZOd1Zid2dXZmMzc1pFVk1JUVZnZU9pa3JaTGFNaE1IaHgyTEJZMjY0SFlBelRvT0pEVGlPMEk3cy05NC1ZU0cxT2o5dzRWaThHSUtnMkd0dG9FZlZ0S3FzMFdPMTB3YktuNjVtV05LRThlNjBPYlEtV3o3M050QnJ5MjJfS0dDS1ZZRWJB?oc=5",
     "rank": 21
+   },
+   {
+    "headline": "Alternative Routes for Middle East Oil and Gas Due to Hormuz Disruption - EnergyNow.com",
+    "summary": "Alternative Routes for Middle East Oil and Gas Due to Hormuz Disruption EnergyNow.com",
+    "source": "EnergyNow.com",
+    "date": "13 Nov 2026",
+    "tag": "economy",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNE1fMzFiSjhrOFpJV21kajdMYkJEd20zcGM4Sm0yREpWU09IZnBwX0VyUk9LTWlHYWhDYXZCOS04eng0d1lPdVlKX2pZUjFwYzAwZkM4NWlDazVaSUFfRHlLaTczenpiZTdrb0lXd09XZTRiWHpNVGYxcDRjaHhoZ3JvcVFtb1VZM29raVc4RE9kUXBZWVdkbmktRU5FbV9hb1Fweg?oc=5",
+    "rank": 22
    },
    {
     "headline": "Middle East - The Latest News on Mobility and Travel Considerations - Fragomen",
@@ -2728,7 +2732,7 @@
     "date": "12 Nov 2026",
     "tag": "tourism",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSjhPcWpBZDBjeWFsUldTV0NRNEZ0R1dLeW1nWk5pc090S0lPUVZteXpFalBCTHdSRnZMWGpGalRaSk5uY2RXV1Vkb0VCb2duN0FEVmZ6X1JXSm1JeWZuNk51UkFjNVVzZVpESzVGODhCZzY4bk43ZHl3LXFzXzlBQXBB?oc=5",
-    "rank": 22
+    "rank": 23
    },
    {
     "headline": "WHO DON: Middle East respiratory syndrome coronavirus - Qatar - Avian Flu Diary",
@@ -2737,7 +2741,25 @@
     "date": "14 Nov 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaXVYMWEtUEt4VEhKX0hzenpmcTFjQ0IzT21hRHViVHVsUzVJcE5MczJsTGh1cVZYTVMwb2ZjbUpYQm5hZG15U3duVzl3YUJBMjllNUZ5YnFxcDByUDU5RDlFMkwwVm1TQ2pVLUtoeXROeU9kLXMtSDRtY0JfQ3BSOA?oc=5",
-    "rank": 23
+    "rank": 24
+   },
+   {
+    "headline": "Yemen’s Long War, Saudi Arabia’s Security Dilemma, and the Shifting Middle East - The Media Line",
+    "summary": "Yemen’s Long War, Saudi Arabia’s Security Dilemma, and the Shifting Middle East The Media Line",
+    "source": "The Media Line",
+    "date": "13 Nov 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa0JqQ3k0WGk0NVoxbHRNTHBTeDZxaVkyYmdzdGptNVB2MUVjb3lmcG1OTXRrWGs0U016Vi0tWTU5UmdYbk5IWHJfSTV0UEpEUkZvM0s1WjkwT3E1NFVfMzdGb3pyZ0J3cmhGWXMzVWJnSmpTTVh0MU1VcUJUcFZBamRua0kyOFVWSGUtQ243M2lITElJbmRRS3ZhNTNTenJJcXJTbFZiU0hJVFl1SHl5MnVB?oc=5",
+    "rank": 25
+   },
+   {
+    "headline": "Airlines extend Middle East flight suspensions amid renewed attacks on Saudi Arabia - ITIJ",
+    "summary": "Airlines extend Middle East flight suspensions amid renewed attacks on Saudi Arabia ITIJ",
+    "source": "ITIJ",
+    "date": "13 Nov 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeUZPZmpYYUQ5anhFb045dnhwNXc0SFdQSXlwZHhPcERIWEk3UVFfNTBIMkF4LW1vQmdqZHdKX3cxSVpkaGtZWWJ0M1VxaEFsZ212di1lT0NrT29fbmdKcXNtMU1veXh4NXhpVnBLTVd2d2c4bEFBdTZGbDVpUVlrUC1FbG9zSU1OdmsxZzlDckh3Z3phLTdNMThZTWV6TF9CN1RMQ3VnR2o0LXN5N05fczJkZw?oc=5",
+    "rank": 26
    },
    {
     "headline": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline - Reuters",
@@ -2746,34 +2768,43 @@
     "date": "12 Nov 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOHNyWUhKaHR2QmJXUjJ6S0xNdDZnZmpKRzJQak9SWVc3cmttUGVfbk13NzBZclpqNnp5N1JFc0JYakw2Wl9hV3BYdm1mMnJQR3BKRFI2Zzh3cVRhTFFxejBSVWtTMkt2WTRGRUxFSkVocF83aFlIOU10Vk11d29TRERPcnFVWHRJYktFOUlGU0x4c0Q0UWVtT3JkUE91ZVNPQ09NTnhaMGxJajZxQnkwWTFvTzN4WnNpMTBYalNZOHFZdnUtX1VHeUVR?oc=5",
-    "rank": 24
+    "rank": 27
    },
    {
-    "headline": "Arab Parliament launches action plan to counter Houthi attacks on Saudi Arabia - Middle East Online",
-    "summary": "Arab Parliament launches action plan to counter Houthi attacks on Saudi Arabia Middle East Online",
-    "source": "Middle East Online",
+    "headline": "Analysis: How much firepower do Yemen’s Houthis still possess? - Arab News",
+    "summary": "Analysis: How much firepower do Yemen’s Houthis still possess? Arab News",
+    "source": "Arab News",
     "date": "14 Nov 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNU1NlbEsxZUdfb0xTMnllbTFQbjl5V3FKZ2pkS0dodzNKaDU0Q3BYNDNvTnlnaFN3d1N1MDFaU0dJdGpSYmdzZzBBMllLdEFzN2NXVFE1SHlxc3dSaVFBTkZ2UzVTOTJkTVVYX2JqZTlMa2V4RzFaVUdTbjZaRzBKRDlJMzdOcEVZeVNDbmdWWTNiSzcwQkdIcHJtVTdxR1B1VTBhTE9zNXlZZw?oc=5",
-    "rank": 25
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZU1kWGlwcUdWWHZpeXNJVmdVUWE4ekIyVkgyM0xjbkpfb080VEg0aV9HVEx1STBUcTFrTTRDb1phVktSbldIcGQxaDVyWnBmT2VwaWRjT3NwTDdQSkJiM1R0MGN6RWNUbnJMdVRyUGYxbTVUS2d6QjRKM3IwYzZqeEg1c0IzSmZoSlF6c0UxZG54VXJFSkhDbWNJa05OV3A3UDJKV3lXNA?oc=5",
+    "rank": 28
    },
    {
-    "headline": "PERSPECTIVE: Oil Prices Unlikely to Fall as Houthi Attacks Threaten Saudi Export Routes, Middle East Expert Warns - EnergyNow.com",
-    "summary": "PERSPECTIVE: Oil Prices Unlikely to Fall as Houthi Attacks Threaten Saudi Export Routes, Middle East Expert Warns EnergyNow.com",
-    "source": "EnergyNow.com",
-    "date": "13 Nov 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYno4ZG1kRXdsN1E5STFFZHFnZHZENl9helRxQ2JzT0F1dlQyYks1cTRsM1RwM29PaGF3WlJ6VDd3cm5WcWlmQldKMlpKdlNHR2RLMG9CYXBLdEFQRzA4YmRQUWVUTVluMEhLSVpyU09id3VYeGp3Ni1qMlVGY20zdjZkQnRKN3dzcFRGMkRIRGw4YjI0clUwaFNfMXFRQU9EUk1DSVljZ0VtcFFCYW9mR2ZmQXBkeldBYTU1RUxVREFPRDNLNHlmRFVn?oc=5",
-    "rank": 26
+    "headline": "السعودية والأزمات... ثلاثة قرون من استقلال القرار والتمسك بالسيادة - الشرق الأوسط",
+    "summary": "السعودية والأزمات... ثلاثة قرون من استقلال القرار والتمسك بالسيادة الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "14 Nov 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMilwVBVV95cUxNN3psdTFabjAwSElRSjFkNEVJYlV6UTBTNGhSNElBYlNmNXZUbWJ2TVR5a2NlRGZva0d6Vng2LWRoVmlRSko5bDdDdTZDdk5uNGl3Y2NYZzlpOU5aQzRtM0JtU0tEWlBMbkNXNzh1Q05rM0JDanZ5UmdPNHpZeVEtVVNPTGVQbHZWQ2R6V296T2hZZDJSR2VPOXgwZWtXM2xYaThlbGpqNEM3ZXZKN2tNSXZQTUpCNVRBZ1lHaWdTLTFYWGwzYk44eWI5Zm4tV2RuZUNOLUM2a0ZlQWJGb0dWRTUyN2lUZ3NYQkZYbFVYY3FHZDJITUZQRmYzbWhCbm1vU1liMF9qT1BLNG9mbUVLSnNfaHFyRTJvQzRfUUN3ZUNOSk9XeGZXSDlrWjhxYjhfUXlFUzZVejBpWS1aRWtlN0NKajRQWjZVOFZqWndqZUE5eEFKX05hRHBodnRUWDBIcUhPQUpIUGh5cmlDczAtTjdoQU9VaXNRVjBBWVRiaDBSUlJrb3VGRGZtalhSWWpCOXZrX1Z2NDdmT3NCMnRsRlU4QmNzTzZMNzU0dURZcXFoSHJNMG5DaHVXbGNpNHEzb1FaeDlVLUtwdkpxWkZjVXlfdG5jNVNzMXlSTDZFaGpQWFR5M1lUV0NvQzRSUjBnME5VV2kyMzNQb0UzTS1lUnlfRGVfUHNDYXlQMGpPazlYYjJIOXJ1ZG9rbEZ1SWUwSHo2eTQ5dG85cVY5dWxBdjhFMjM5SndnRVE2T0wxaFQ5VEtqTUNiYmhzZmwyNlFFbkRjYXNNWHlDaDJLOXd0TWxyR19xT05HMjh6b1VKdFVlOWRBTmpHRjBuU3oxd2lNakYyb0RnVXV4emxORE96dmRER0xYY2c?oc=5",
+    "rank": 29
    },
    {
-    "headline": "Iran Update, November 12, 2026 - Institute for the Study of War",
-    "summary": "Iran Update, November 12, 2026 Institute for the Study of War",
-    "source": "Institute for the Study ",
-    "date": "13 Nov 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdHcyZlo4SkRZcEItV1JzVnRmZDdSTGJTTkRLNzJ4WldhZFlKVUtzc0xOOVlnOE00QjVsR3hkRjZsOGlJemJqLUpJdjItRUFjc0tvbTVPdE10M3VqRXdxYVR2ck5vWHZZTVB6UkczZVR5bnBPdVgxZllUbUIzYWIxcVNZcTRBUQ?oc=5",
-    "rank": 27
+    "headline": "شركات النقل السعودية تنمو 21 %... واضطرابات التجارة تعيد رسم الفرص - الشرق الأوسط",
+    "summary": "شركات النقل السعودية تنمو 21 %... واضطرابات التجارة تعيد رسم الفرص الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "14 Nov 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMioARBVV95cUxNNjRObkp2UHZvLVBwaUtfMHRaUHZTRk9Kc0lBVHpqMURLUzJyZXBCWnM0UWFnNmtRQlZzZ2dEb2RIY0psc0N0UUYtWFZvMS0weGc2c2ktTV92ZVNYUV9lc09LNl9YeEEtQ3FpdUpja09JcnExLWdTYlJ0S2xpb2FMVzBqNzhhRDdUOEtKU1R2ejIwdE5qbkxfRVlvcndIX1lwdVdmQzRTZ01DM0cybWtOVk16eDRUTWZYdi1MQlZVQTJoWXNESlZwelV1OFJHY2Z1eEVGSGdGMjBVM08zM05id2JnZjFRRllnY09TYlhCWEhiT0I4dTFILURGVEtUNy1QQkozYTIxUU56MjJ4MXFSU1Vnd3hTTzF2RzdsNm9STmNDTG5JeE5aQVNCN0xCWlVhd2JZYjBxUUtyZGlCcC04d192ZFpIeEZRNmdZMFZTRlhhR1NXTzEtS2NSZFRzWUFvb2EtSkJZNjc4OWpIR2ZiMXVaNk1sTzhaa1FQZkxXYkZ6MlRDUGc2LUVCaVp4bUtmVFZxOFE0bVVTbDFpOVBJN2J2TUUxVURxVmtBVXo0bXc2MDg0Qm1TS1Fkb1VmQ2IzMTVpR2ZhWUwwMHBmWV9VRDl0MHRDRTZHVFdvZDFWVThaVWhsT0FDSGVHZTVSd0pZazZ1VWRVdjNtbXZPUE5MdE4xaWltdGNhVzZrampxcXhKbkJXSmdMY1daMEx5VFRy?oc=5",
+    "rank": 30
+   },
+   {
+    "headline": "مصر تدعم الإجراءات التي تتخذها السعودية لحماية أمنها - الشرق الأوسط",
+    "summary": "مصر تدعم الإجراءات التي تتخذها السعودية لحماية أمنها الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "14 Nov 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi7wRBVV95cUxPeUJCZzV4ejAzN2ZNMnI0R291SmhPbXo2TlZFN1h4Q3hucklPMXVhRjJuS0FtTmZ6T2tlMmdURERlREFsT1lPdWFoOGFMSlBxbWtJVkVDUkZPWUtUMy1DWkZFN0NHU2I1UHcwMGJvak1rZ1FWanVIam9kQV9EUkFQMlQyRXhRa2hZbWNLYUI5UElpQURZUHJmd215YnJwdF9vYVRRekxvOTdvRUJRdGJ5Q3owejdDbUhZRHlIYVdMVXNwR3F5NEZWRzFKSUxZMER6RVRoVk41WFBVMVphM0o4RFFEeUIwZWhyWmVXVnV2bXpYTnNsTUJIS2JTUmdqeXBTTXFSbndaLXNnZWFoZUh2MzZxY1h6N1hYbW1CVnZUREJRSnlydW5JZTgxZ1QyM1B2T1lqd24yQlpDejhhMzFmU1Jic05iVzBVRjVqLVIxQW9wSVlQSDNLdTBnc2ZGMy1Nd1A1cmJ6UlRVa0ZSc3VFa0ZJd0FjYzN2bzFZYzZiNXY5T0wyMkR2a0VBZzU0NmlqYWlnaXFEeDlvWG0wWGJ3UnNKYU5uanpLb09JcGp6T1pqMkxIcmZEMW45WEtNNnBuYTZpWW9WWlVKTDZDYXFMdVZKZ1BLdXMzdXBjMVB5elJmNnI5cmdWRDA0M0xPYnVlLWtyWXB0ZGRVNlRucG54SEYxVjhhNG5LRldkMXFtNF82NzlWeERfQ1kxNGNTT0VHd3hmUU5qc0lRbUxObUxmcUp6NThVSTNpbmYxU243dm9FQVd2djY4bG1rRl9SUnpyY2JmWkx4dkoxWnBwNVpNa20yaVQyVndlY0FDRXotaw?oc=5",
+    "rank": 31
    },
    {
     "headline": "مصادر لـ«الشرق الأوسط»: «المؤجلة» ستقام في 20 و21 نوفمبر - الشرق الأوسط",
@@ -2782,7 +2813,7 @@
     "date": "13 Nov 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMinARBVV95cUxQTDZwazA3dzJLNWhfclBpdENYaUJiUFpvNDl1Rks2RUFUME5OWjlCc2g5bWIzWEZhN0ZOZUtUSmZjU0dWSXJ3dzhTd0lMRjBPNWpXVW40TEFFVk9VT0ROQ2xFczNuMFdtbXhuYkROUEhyWXdOOXpPa1ZBUFRjQm1HaUluMVptZ0FmRVhaQ0xveWQ4THdTMnJHdVlXR1d6WUdTeHBmNEQzalVBTEZMWEVhX29KVjQwOGJwdHFBdFVVdWFPcGdzMWdOckh6VXNUSGZLU2VtaUg2elpQelhuUzFTdGJMWVRTVzNYN2VNVWV5bFUtVkxqYjRPSWJXQXhMczIzODZ6WENkMDJlUE42Z3hnLVV4WVN2TVhjblh1bHBpMnQ5WlQ3OFo0cG81eWFTelRpRWVXcUROQnFTbzl5U1J2VFRQdGtxNkRIVC10OGhRV1JTZGRQOVRULU51NnFPQ3Eyakc2S2RPMVBidWNqcWprdjFhSkM1T3kyTHQ0bTcySURIamkxeXdYWEUtc2U1R2dHTk01TmM0a3Q5bjNEeEpJTC03UUplcGx2eWZZZnBXdms2ckNvWDUzRXgtQjFQN09kSVJoTDU5cDE0T1NTNThrSVJ2bXJ1QjUyb0htUlB3QmxlN0xQeGFRb0NZM0VlZ0duYTdkLXNMNUxndy1jaVVvV3hJdUN5Z05mVVY1VlNCVF9uelMtNU1YUk55Wmg?oc=5",
-    "rank": 28
+    "rank": 32
    },
    {
     "headline": "الجيش الباكستاني لـ«الشرق الأوسط»: التزامنا بأمن السعودية لا يقبل المساومة - الشرق الأوسط",
@@ -2791,25 +2822,7 @@
     "date": "13 Nov 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMijwVBVV95cUxNRnRLbTJkdVVYM0hpMXBCeEVDR2NmdUJ4bWEyN3ZwX1l5YzFlRXdtSXAyZkgyX2ZZOEtDYjZDNHl0MU82SVFRTnJUZ2haNWl4TkxRWHBQMW0wWGhFM01PSmwwRGg3Q3lvZ2tLUkM2QURiM1BXTm95bVYwbU9mcEYwV21jU1Q4Q241X3J4T1h4VjRXdnF5NmM3V21BY0ZUczZjMjYxa0Z4NkdRZHg5V2ZVaE5ZLUtIRWtCMlNreXQzYlNLY1luQ2FSaEk2ck5OUUlsVlFCZFBaZmFsMUx6czBiOTZraDdHSXZqVk05Tk1TQVNFOEFTSmUxNWZNSUJtenBMRFdyT3QxRUNyQVJiaHhiV2VjSGtsNXRqQllvckkzc1ROeXB0Wm50a2RrbVVETUdTZUV3ek9CckV2RHlXZHYwMWI5QTItaGV6bjd5bG9PNE9kbFptbzdKNmlWLW01cExjM3NmTkpyRVNWdVhsTzJrT0NuSVVRQ18zOTJkRUhRaDVhd1kyUDFMZkVQekYyTkRFblBGQU9fb2VQNWtFZWFsRUpzTDNWcURjT1JyLVg5blQzTlEwQWNrUVpBdjJPT3lkU1MzdTBvMEVDdERmSk9tOGlRcUNmUTFLTncxTkJnUHl0NzNJMHdtVWxad0RpdWRXcnllNGxUVk9zYWhNYXBTM3FkU0lKTlltTFZHMnhCS3Izc0pyVmJfOFVwMWs3aDItUERoYTVSajlnRTE0dzlXcHhuS1dnME1wOWVscG1LU3p3b2Nhdk95T0R0NEZ6ZzVGVEFSV2ZJSDljNDZjQ1FsUTVNYXdSVzVUYjVrZXRSSmpYSEpiU0ExRnZmRV9heFV3TXVRSGNyamRIV0N3aXVr?oc=5",
-    "rank": 29
-   },
-   {
-    "headline": "جيش الخليج... وروحه - الشرق الأوسط",
-    "summary": "جيش الخليج... وروحه الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "14 Nov 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUU5LREc0RDdCZFM4RDBpYmVaUk9xdG5yT3ZLSXc5X3IyclRZd1BmbllIMVdtWklRUGNQVkZVUnBEcV92RkVUNXpsV2U0X1lGQkZhSS1lUHBVREJPc3FlM0U2RFpac1lfNTZqN1Z2MWlUSmRQZ1plZGQzOTg3V3NvYWl1ZHdsTU5vcElZYmt1ODhMZDFZNk9LU21kT3FISktGMF9Ja0tvOVQwOVR0N2d2LWYxUW1ONmJoMVcyRTBvUjJGc0xlX2dFNmNRbVFBbzV6U3hUd081cGpGVThs?oc=5",
-    "rank": 30
-   },
-   {
-    "headline": "«هيوماين» تطلق برنامجاً لتطوير مهارات الذكاء الاصطناعي التطبيقية في السعودية - الشرق الأوسط",
-    "summary": "«هيوماين» تطلق برنامجاً لتطوير مهارات الذكاء الاصطناعي التطبيقية في السعودية الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "14 Nov 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMingVBVV95cUxQNDM2WkUxV3pTR09yMG1DYjAtYmFiUnJ6TVRBWHByYWVqZWZxYVY2WUMwRDk0Uk5MLVBtQlNfS0VrbEh4LU9DQzVzSDJBNldyX01SWDJ0MWM1UmhOa0hGTlNaaThvQjJKZFdyZTVWellQZUNmdzhqQzB0WmpQaWJ3RDN4WFl2aHNtOEV6RXZ1dE5XVVc1TzJWd2hvRjVaSW9pR0w5aDdCYjdkX1lBeEFub0xVanZaZFc1UC1NemhhVzFDVzh5SEJsZ1Y2WlhjOTJGcnVyb0x5QXlwazcxXzVGVXdXd1hYVkFvMG4xTURjXzhWeHZwd1NqSXdFWlphQ09rZktaa1RSZFJtQ2l3MVlybkpkYlF5bWFRWWlSaWhsTW4ydUVLdDJRREFLOHBzaC02d3VSOFU0bmRRTzF5UEJLTnJJR3MzWG8wdUJwTlBGdFM3ZVhoVHpual9MU1VKUDlOR3VNYmRmX3Z3NGlOaEI2QldjV182M2twSUs1bkItYzVoeHNPT2R6S3dOREs1RnUtdm5HUVRxTTBtX1BpVkFhLUVpWW9VcjE2MzJueUZNbndBU1VfTW0yVm1QNjI5UFhiQTVTUmZQYnpYdHc3Qm1iTzdmQjJROWowQUlMeUIwSkgybm9FbnM2WUhISkZBeFdLbjZHTm9vSlRnczdVcUFLLWZkRkhOM3JWVVV1ZnE0Q29NVWVJVno4SV83LXJOOU9kamV5NkFsbTdoX3ZSQzVheTdxQVB4ZUExejZyVWR0X0UxZWZqX25DY25HY2dwdXhrQ3ljeUxJdGVaYVZtNXBkMlZ5Y09pa1hQR1NxTDhMblU5TmFWNkpiNjZxVERQbjQtM0wxOW55dXJHS2Y1T0h6dHJ6NG1GN3JmdTBldm1R?oc=5",
-    "rank": 31
+    "rank": 33
    },
    {
     "headline": "منحة سعودية بـ250 مليون دولار لتنفيذ جسر البسيتين في البحرين - الشرق الأوسط",
@@ -2818,52 +2831,43 @@
     "date": "14 Nov 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMikgRBVV95cUxOT0U5MHd4WGZCY3FJcTFqd0NxTmU4YnBRc0ZfaEFmTTZnc3JiNnB3OEV1a1pqd09GMnVIeE5lb0FGWnQ5blR6bkVBTk9pVlluOEMyYlhuYWhvakk2NmdsUGFpTVVCRC13cDI0NXVPV0d2M1dycmVmSWJCMUdGaDlhak9hdDB3clZ3R1JpTWsycGFTYlV4alpNTDVvSGxfV0NDbVB0UXhiZmhUbklZZnlacmMyM2FQYzlHZkpPVERBYm9tRHIxZWtadGpjOE5iWjd1ZWFfNDU3czhZRmFUc1VfU1JuS1RGRFV1WEVPVURvOTgycGtXOFJRWEdoLTNSZTk0NUdmeUpEWTJPV09NTDh3eTNkODlzbWZZRXBkVzVORGJwNG80c0hpQVB3UG1sV0tWM05rQVlPekNob3NGd2RwdXZ4ZTRPMS1kRjVWanpydDlQVmMwZHdlaGRJbHhXYXJXOFo4bTZac0JUMV9KNnR6dnEyeF9ieWpYZlJ1RzdUZnlkMndYLWR1RGVkQXlrc3ZOdVh0bVZwOXplV2FVRHFLQzNXZThRQngwcTM1eV94bjhLa0RqcWJIZ2IxT2RtNEJUbzM0c3BHTjV6Q2EtcXFwY3VNTXRqY0lyeUFVVXlHeE9abUY5Y1pocEM1NFBaSGRDWW94aFRVME5lbkw5dnotclVKdk8wVThnQnRyeWFkcGFGZw?oc=5",
-    "rank": 32
-   },
-   {
-    "headline": "دعم سوريا اليمنَ والسعودية - الشرق الأوسط",
-    "summary": "دعم سوريا اليمنَ والسعودية الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "14 Nov 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNaVhVeWN4NkcxYnRhYmU5Zmo3eWl1bndXOEN3bnhTUHVWdEZmMmh3bjhOVURMQmxFZEpaNWkxUFV3TzZLUnhxZUpPMGNyNkdTM0NKN2RQVFpVSFgwcEl3TUNYZUo5ZzNxNGdLUVlkTDJWZm5fUWlVTWRPWXdnMkQxQ0UwSnAzMDBEYVhMei04Z3ZTNW95czBaSC1qa1ZHNk9zV2dTZ25IaGpWaXk1dE1ELXlpNXlWaEN0X2tBSnhZM3ZMYUdxQkhGUFZoSVpBSHJWbUpmdzFCMlJNVE01a3RxeUpNWXJmOGFqV3RxOXhqLVVQMDVlWW94RWFPejQ4d05EejBkaEVQOE43WV9PU0pxQlVfamFUXzduT2U0QWhKVEYzWG9UalE?oc=5",
-    "rank": 33
-   },
-   {
-    "headline": "مجلس الأمن الدولي يؤكد حق السعودية في الدفاع عن نفسها - الشرق الأوسط",
-    "summary": "مجلس الأمن الدولي يؤكد حق السعودية في الدفاع عن نفسها الشرق الأوسط",
-    "source": "الشرق الأوسط",
-    "date": "13 Nov 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiwARBVV95cUxQNlpTNUNtN1lLV2NnTTJBUkl3YTczdUstWjY5WGMwNk1BQkktc2FORk9MUUNUSlJwenlZbXc4Vm1YOElHRlM5a1lNZTRKYUlhMlcweVZkN3FvUkNoVkQ5Qk1FNW8tS1o1bDFSNTdscmM3Y3JOV2NQdGVPOVdjUzNZQWhyVWNxRXJrVi1DQWhLY1B4M2lNSm1rSlFqbkNoV1h5Q1ZjVmtLcndvZnZmV0d3RlV6T2pPQXFfWEFhWjRpeUtwSGVPaExPRXEyNGd0ZlFaZ1hQc3piWTRPUVZ3d1pLejMzVndGQXZxM3RyVjhJQWRYUk1ndFByWnJaUnp1dlJxd2FDb1laX0pHQ1doQ2U1RGtoa1BhZXU5VXVDSGNfSGk5TXh2RGpUTEZRa2I0aEhUV3BCRHVfaTRGOEtKUmhtNUdLYnZwZWJYVDhqUUhJZlZJTmhOZk9zRDY5cDFzQlRSZ1pFeTU4MHoyQ0ZfSEVJQld0bXA4amhkazIyR1B0a2toUmRuZUdvZnhyS050LUMyMnBjM01YSU4yTUQyUzBlYUY1ZEdUTW5PSXZlZjEtamJCSEc3WWRwMGU0SGZtQ2NpUDVKLUpkdHdRSHZ4dmIzRkdZTG5zZlB0MkV3U25lNmpkVWI0azJtWE82cUprWDB2am5ZbEF2bEV6MS14R0QydFFrVHhyUl9iWE80ZlhTUFF6OXBQZkRtclRzVm90eDhPYjdicU5NVHh6UkJqQTVOenA1Skh4cFY0VjlNTFlsNUg?oc=5",
     "rank": 34
    },
    {
-    "headline": "«سامي» السعودية تبحث توطين 95 نظاماً ومكوناً دفاعياً مع شركات تركية - الشرق الأوسط",
-    "summary": "«سامي» السعودية تبحث توطين 95 نظاماً ومكوناً دفاعياً مع شركات تركية الشرق الأوسط",
+    "headline": "السعودية و17 دولة عربية وإسلامية تدين استهداف «مجمع ناصر الطبي» في غزة - الشرق الأوسط",
+    "summary": "السعودية و17 دولة عربية وإسلامية تدين استهداف «مجمع ناصر الطبي» في غزة الشرق الأوسط",
     "source": "الشرق الأوسط",
-    "date": "13 Nov 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMijAVBVV95cUxPdm1LZE9rMnFtZ3VnNmo1MWNSM3NwMk03OFBPemhuX1dTWDVoMG9vRXU4THJ2TW4wRS1rUENvbjFqNXN4Qm85MjhsY3VIRzdzR3hDOHYyalBkRER1cUl1RHdjWm90T0lYQ1dVRzNrSjB5RjlPNTdMZ3k1Z3pkSEU5V3BueFQ4TnFJRjZWaUF5VXhNYTV5blIxM2JLLTBEWDEyc0haWS04Wk5QVFZjRGk5aGNEa0xoemV3Rmk4dVRvNzk0ZWpKOEx2NS1ySS1kNHRHaXpVM0ZPMlg2NDl5V2N3WXJQOW9VLWFQWHJLajZJMmdXbWVkWFJ5VEdQX1psT0dzTXZ0bjNZWXozdHhYVy12NmNmUTZCTGFUUjZVazQyZlVDRnoyQlE4ckt1Mk1HdUJfTDliTVI3cEMwVTlrdGpnZ2lBa1h2RmRVLUdBYU1QRTdJWlFCckZVT1hQYU1fSVFQVzB2UFNDcFF5am1vODBVckwtUUR6YjJfVnpsYVBRNTBiZi1GbmprQjRMQmZyRzlNNjRYSWl5NDZkc0dRU1FyMFRpbVpnTFkyNHlkNW1MTmUzcTk3TlpYRjNUc3ROSWRrc2xNVHpyNzdKQ0I0V3NNVkE1MUszX3A4SUhWNjN6Zko5NUlLTmVlV2o1MVVSVDVKZF8tTzFHTUpOLV9wTzdvSXJ4Q05tVDN0OG1wY2o2SVoyTFd3QS1RMEhaVEpGRHZHNTBLTTlNelZ3YUtxQUZRNnUyRmMzZV9zaUVHU3JZTDNDdWpGa2Z1Y0l3U0JfUGU0OWFZZ04wVmFCZVZ0MWVWNjFhTGwtckJrcWI2bUNHUGpfMTB5WkRRR2U0MTg4RWV4X2xNTjFkb0tfR2ph?oc=5",
+    "date": "14 Nov 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMingVBVV95cUxNRjM3aGotRkxvQjd2QTlCVjNBMHVia2VUTlZ0bEtXNTFtZ1V2R0xWUXBfRTN4VnFrSW5QejluakxVSTdYZldnWWpzeWUyUGktdFpvQ1BQVEJONFVnZkh4NXh6bnpsOEhyTndhTW5LckQyNHhIQWtRV3hZOWNkTjB2YXEyYVlXUWZUa3BYaHJvd3B6WVR5N2JrMzItTjRoS3dheTEwMkZlZ1RqRW91SjNwdW5GUzNiSFBVVUE5Q0FZdXg0N2Fkc2sxLXI4dEZPd3ZRMWlNY0JzT2VQaHJhdlhVQTJBd3NZQ29na3RraXNXc0c2VDFtRGxBWTg4VkxzMnkyWkwzV0ZGUVhuWnNyWWk3T0FLajAyNEgzcGl4MmYwVHRHcmlPbTFtS2VfUWdTZDZ6TksyNEhKYVdyNGE1dXZEZXUyM2pBWTNBLU9rTjZpb01VZHRDRFA2ZE0wU0ViTTVqMXp2Qk1TVVRzWGVITEU1dHI5R2luTzYySGtHRGJnc1VmN20xR09mY0FFYkw5NUpNT0NUd3puQkJzZFF0N0JPckVoeVlDN0RLU2hDVC1WbTZPRV94N041UV8wVmZDMXp2QlJ2d2NheFQ5c2EyU25IcF9KaXBDcDNPc2gxZlk3YlEtY1U5SzBVWEVmWmxtcnFFZEcyMVFmeXBlTV9wVzJXaS1CcldLSFVmRDFGYTlvcGJOQm1mSjZyMjFXX3NNN0Iyb2Zlb1pjUnhnNE5hUEpQdVg0bFREa2VIalgwVXI1Snlia3VHV3ZRSXgyTmRxOE9EbERieXhDYzZBMkxCMWNQRHVzcHAyOWY4aG9iMEhneUh1aGstZEE3YU1LODdkN1Ixd1I1RDgxVXQ1VmtGVGU5QldrQ0M0TDIzWEpobm13?oc=5",
     "rank": 35
    },
    {
-    "headline": "السعودية تستهدف رفع جودة الاستثمارات وتعزيز دورها مركزاً عالمياً لرؤوس الأموال - الشرق الأوسط",
-    "summary": "السعودية تستهدف رفع جودة الاستثمارات وتعزيز دورها مركزاً عالمياً لرؤوس الأموال الشرق الأوسط",
+    "headline": "723 ضربة ضد الحوثيين... وتدمير مسيّرتين في الرياض وجنوب السعودية - الشرق الأوسط",
+    "summary": "723 ضربة ضد الحوثيين... وتدمير مسيّرتين في الرياض وجنوب السعودية الشرق الأوسط",
     "source": "الشرق الأوسط",
-    "date": "13 Nov 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMirwVBVV95cUxOZUNEeEpIV3lJN0lfLTl1OU9rRmMxc1RQUWFTSGFZNVg1Z282OWJQaGZOT21LajVRcVFSNHNTVXI5ZnJmeFA5akkwR3U1Ql9FQ0hwZmJ1NkNsWlhaRUMxVkpacWtKblBhQUE4VDVyLUFoVmhKZmRRMFBKTE9JWlNmeDItWFUwUHRfUnBTZ3hrLVNCRWhXQ1hoUGZGRUt4bHV4dVRLUGszM3Vxemdvb3pMZTdJQ3Y0VU04VFJQZW0yOEhULUdBU0pBWnktWFdkQjNZam5vRU1NSFh1LTFKMFFZS1UyTUNnb0dDS3Ztb3YyXzdNeTVYVlhJLUFNWUNIRUtZSUlGekgzaGtrZ2NfYnN2Ny1qSUhibXZGQ0ZhbzFfM0VEUGxQYTczXzJvY1hpb19YcEtEUG81N0VDT2F6eGcwZnZZbzZITG5xUTJqTFVsUi1vakNSMktNTFQyNHpVTm0zampZUDNOYThqMVV1SVE0d2lWQkIybTlrOFFlZzBBTFJmMUhtU1Y1WGhZWHlOeWNGSnVTTE4wVjViNDVTbjVwcnkzUndTR3BYVi1Lbko0akhRVTlKV2JaZ2MxbmJFaUNJX1RwVENkakIwN25Fd2tDTnZKY1N2UjI2RlJmVXNMME5OWERmZkxoeUw3dmFPMHhPYmNiYUV0LTd3UE5VQmlLdWNmdmR0Z25uXy1KcnlOQTJmMXFVZVhZUnVsY2UwNW1HTEc4T2hWejNVMUxzMHYtdjlud0Z6eG9qSlFBOF91dlhBZWF6TS1Oa19scGhXZ1RIOUhpQ3AzYlAyZXYtbEtoMlpvcC1ZeUY1OVBNbkxxUVNBZTlsbG5YVXBMZjJVcGdSeGFGWTZ5M3VnS01EY3lGR0duWGRIM1NVclZuN0ZIbHhyQ0h2UmZiSWx2VFNQQms?oc=5",
+    "date": "14 Nov 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiuwRBVV95cUxNT2llTDhYam9wTjJqaXN5ZVdtY0VUcWhTaUVnQmtnaTlJMU5JMlptRTFsVzVvNFgtLXZQVmtuZTQyR181UlhSZFQ4QXNPendGQi1PQkNTajZONGJnNnc3ZkJsUGRYb0VuRzd2RWZTcFhrQWprM3FYNnZuTGZ1ZHZpM2RLNEk5TU1oRUpzWTVCU0xVaTJxODl5R0ZsdGM3UHNuNFVJRU94bTI0LXJGbU9KZjlsNTlFdERrd2RWZ0NoWmlzYmlMcFNJVjZkVWNhNzd4eHBIZW0xZVVEYk00UVhLUlhzZ1ZJVzBzQ0UwOV8wclUzZElrVzE0aDRCQkQwZmhrT2p5WFdlcENNdHhEbjFKcEhWN0lVUHk3QjBrdW1kczgyWHZxWEllcFZ4NVQ4akNLT084bzJ6QTk3c1NaSkhrbjNUZ0tUek9CWmRfdUw2T0s0QThEb0FxelN4a2M4NXJCeldNTERJSGxoc3JlMVBIamdzQ052OWZ4SVc4NUFaakU0VU9SQnBzXzUwWk1XaHF3SHhDeENYSGlBal9mdTZTQXVidTBUSFU1TFVMOGxBUVFETXJWTXJ5N2tmMkprNzF5Z2RuWXhIaV8zNmtlTHdubG1CZ2s2XzdxaUtjMWNQNzN3QnVCWmU3WlZtYUhnQVN0S2VIbkNmRUk5ejllQTRjOGJxcGxOMi1rQ2ZnekpRVWgzcUVCTldYanVoajg2ZlNHWlNoZFdBQ3Z5eks2SG9Rd2YwcVNYRDExaXNv?oc=5",
     "rank": 36
    },
    {
-    "headline": "لماذا يركز دونيس على مهارة الاستحواذ في تدريبات الأخضر؟ - الشرق الأوسط",
-    "summary": "لماذا يركز دونيس على مهارة الاستحواذ في تدريبات الأخضر؟ الشرق الأوسط",
+    "headline": "ابتكارات سعودية تيسّر رحلة ضيوف الرحمن الإيمانية - الشرق الأوسط",
+    "summary": "ابتكارات سعودية تيسّر رحلة ضيوف الرحمن الإيمانية الشرق الأوسط",
     "source": "الشرق الأوسط",
-    "date": "13 Nov 2026",
+    "date": "14 Nov 2026",
     "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxNMjFibGplZXBidVZzQXpiY185eU9Ud3p4UURoaUwtM3ZZakItREp0YkZLdTlRaTBFU0hodU51M005SjR5TWZmWmVsYnhycG1HX2FHQXU0UFUwZ3BZVXhOdVBPTVo4TngxQlh0TXFONmZPR2dsekthOVhmYmRSajl6MjM2dmxIRlB4YlVQS3lOaUsxN3BpMEpzY2l2RjBhQWRDT2FwX3V1SlYzdlpjUXBPWUVEWnI2X0VpQXpLVWtNUnlHdDN2S21HOENkOWVjNmtKSWV2YlRkOERsMl9Md2hIamp1QjJZQkZoS3NCTnBET3dEb0dOdW93dUlHdy03ajhvV2VlQ2hUVFgxN29TXzhwczJvSUhsR1NXS1dxdElXUHpPQWVZMHI2M3QtVEpkV2FuczBpY3YzMFROM3BJQ192MDFUeUd3T3JNcFpJeDJBaG5VZ1dXOG1UN2JMX28waXpEZUZOLTl4Tlp1S0QxbEY0UWxUZ2NTd0FRLWx2bnhFcUNKZ0ZNRlUtWi1JWmlyQk45U2w2YWdKTHd1c2JpV0RLTWhUODh6U25wMTRlRTVCR3VzUFowU3pmdDk5ekFvRUx2eGRjSU5ieHc1QTlOWmhZUm1ZZU5yUXAzUGw3TjU1UnkwZmRBU0dDaGlLTjdRanhkS1ZCRHd2RkVPZHkzTDg2elU3dGZpUjRGV3ppSERZZ2pXS08wUTVRODczWlYwaUN4X09pZV9UTkUydzlfc2tkb2x3YWtjSEpZR1dhci1IS3dzS2p3cUZUUnJUbWVxNDF1M0xrZFUxOA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxOVjNtLS1uRmpITkRGTEJaOTN4WUZ3NWxQMHRqcjVGNTh5d3FHMk1EZFBId0txekI0Qm54cHZMNmQ2UlBHZWY0R2hxMjhveE5sTXlVSV9EUU9rVl9ubG1Qa3dvQW5HMlZkZjdxSXhDYWhZNGFvckZxVFZJZjZGYjllREJBamR4dVFkYmJYVVhZRnUwdlFWZHFjdjNpM1dEeGRyRGZwcndVZEVEeHhVaEFPU1Z3Sm5wS2p2by1OeURhVmtObE9CZjUxdGNKZ0VrbmJMRExtNXFTWEJSSmxybHZwZlcybHJGdjRWWTNLa0ZOZ0RVbjZqTTdRRzJRX2xuYm9qcWYySFBQSFZZTkdlcUNrbmlTak1uQ0tFcWlfcTBlTE5EUG10dDhHaVdEU3UzY0pOZzZwMUM5VUxGbnp5eW5CcUVmQ3k5SUZGaXNoYVlka2JCZk9CcHU1d0FQT3NzcFRmUWhOdVktUGFNUl9aZjN6NXk3U2RKeHZIaHN5d0JGLUNoODBkZE5qalMyeFNJTGlpS292QjZyZkY4NnkzQUVqcmdaenBsNnlQMUhDaGZLdm1fSXNMXzFaRVpaOWphOE5KbGVhTXFLNmN0QklPN0ZFdFJlZ1BSeEFBRjMzeDN1UlVHQl9Gb2dfNVhJcUNtcndJVWZN?oc=5",
     "rank": 37
+   },
+   {
+    "headline": "جيش الخليج... وروحه - الشرق الأوسط",
+    "summary": "جيش الخليج... وروحه الشرق الأوسط",
+    "source": "الشرق الأوسط",
+    "date": "14 Nov 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUU5LREc0RDdCZFM4RDBpYmVaUk9xdG5yT3ZLSXc5X3IyclRZd1BmbllIMVdtWklRUGNQVkZVUnBEcV92RkVUNXpsV2U0X1lGQkZhSS1lUHBVREJPc3FlM0U2RFpac1lfNTZqN1Z2MWlUSmRQZ1plZGQzOTg3V3NvYWl1ZHdsTU5vcElZYmt1ODhMZDFZNk9LU21kT3FISktGMF9Ja0tvOVQwOVR0N2d2LWYxUW1ONmJoMVcyRTBvUjJGc0xlX2dFNmNRbVFBbzV6U3hUd081cGpGVThs?oc=5",
+    "rank": 38
    }
   ]
  },
@@ -2974,7 +2978,7 @@
  },
  "_apify": {
   "google": "2026-11-14T01:41:08.511775+03:00",
-  "tiktok:tried": "2026-11-14T13:40:36.321201+03:00"
+  "tiktok:tried": "2026-11-14T20:10:47.784331+03:00"
  },
  "google": {
   "date": "14 Nov 2026",
