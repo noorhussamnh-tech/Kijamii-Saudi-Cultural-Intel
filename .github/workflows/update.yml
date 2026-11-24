@@ -32,6 +32,7 @@ jobs:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           APIFY_TIKTOK_ACTOR: ${{ vars.APIFY_TIKTOK_ACTOR }}
           APIFY_GOOGLE_ACTOR: ${{ vars.APIFY_GOOGLE_ACTOR }}
+          TIKTOK_DIRECT_HOURS: ${{ vars.TIKTOK_DIRECT_HOURS }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Commit data

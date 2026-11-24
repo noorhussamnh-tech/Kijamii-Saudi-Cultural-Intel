@@ -802,6 +802,83 @@ def fetch_apify_tiktok():
     return items
 
 
+# ── TikTok Creative Center (direct) ───────────────────────────────────────────
+# In Nov 2026 TikTok moved Creative Center to ads.tiktok.com/creative/creativeCenter
+# and retired creative_radar_api. The new page loads its hashtag table from this
+# endpoint with a plain JSON body — no login, no signature. Logged out, TikTok
+# serves the top 3 hashtags per period (totalCount: 3, hasMore: false); we take
+# what the public page shows for the 7- and 30-day views and do not page past it.
+TIKTOK_CC_URL = "https://ads.tiktok.com/CreativeOne/KnowledgeAPI/GetHashtagList"
+TIKTOK_CC_PERIODS = (7, 30)
+# Free, but there is no point re-pulling every hour: views tick up constantly and
+# each tick would otherwise be a commit. Tune with the TIKTOK_DIRECT_HOURS variable.
+TIKTOK_DIRECT_H = float(os.environ.get("TIKTOK_DIRECT_HOURS") or "6")
+
+
+def _cc_trend(curve):
+    """Read TikTok's 0-100 popularity curve: still climbing, at peak, or fading."""
+    vals = [float(p.get("value") or 0) for p in (curve or []) if isinstance(p, dict)]
+    if len(vals) < 2:
+        return "rising"
+    last, prev, peak = vals[-1], vals[-2], max(vals)
+    if last >= prev and last >= 0.9 * peak:
+        return "rising"
+    if last >= 0.7 * peak:
+        return "peaked"
+    return "declining"
+
+
+def fetch_tiktok_cc_direct():
+    """Saudi trending hashtags straight from the public TikTok Creative Center."""
+    items, seen = [], set()
+    for period in TIKTOK_CC_PERIODS:
+        hdrs = dict(UA)
+        hdrs.update({
+            "Content-Type": "application/json",
+            "Accept": "application/json, text/plain, */*",
+            "agw-js-conv": "str",
+            "Referer": ("https://ads.tiktok.com/creative/creativeCenter/trends/hashtag"
+                        f"?region=SA&period={period}"),
+        })
+        body = json.dumps({"timeRange": period, "countryCode": "SA",
+                           "page": 1, "limit": 20}).encode()
+        try:
+            req = urllib.request.Request(TIKTOK_CC_URL, data=body, headers=hdrs, method="POST")
+            with urllib.request.urlopen(req, timeout=30) as r:
+                raw = json.loads(r.read().decode("utf-8", "ignore") or "{}")
+        except Exception as e:
+            print(f"  TikTok CC direct ({period}d) miss: {type(e).__name__}: {str(e)[:80]}",
+                  file=sys.stderr)
+            continue
+        status = (raw.get("BaseResp") or {}).get("StatusCode")
+        rows = raw.get("items") or []
+        if status not in (0, None) or not rows:
+            print(f"  TikTok CC direct ({period}d): status {status}, {len(rows)} rows — "
+                  f"{str(raw.get('BaseResp'))[:120]}", file=sys.stderr)
+            continue
+        for it in rows:
+            bare = str(it.get("hashtagName") or "").strip().lstrip("#")
+            if not bare or bare in seen:
+                continue
+            if is_spam(bare) or bare.lower() in TIKTOK_GENERIC:
+                continue
+            seen.add(bare)
+            name = "#" + bare
+            items.append({
+                "rank":   len(items) + 1,
+                "text":   name,
+                "posts":  _humanize(it.get("publishCnt") or 0),
+                "views":  _humanize(it.get("vv") or 0),
+                "trend":  _cc_trend(it.get("popularityCurve")),
+                "period": f"{period}d",
+                "cat":    categorize(name),
+                "source": "cc",
+            })
+        print(f"  TikTok CC direct ({period}d): {len(rows)} rows")
+    print(f"  TikTok CC direct: {len(items)} Saudi hashtags")
+    return items
+
+
 def fetch_apify_google():
     """Saudi Google trending searches via Apify."""
     # mode/geo is the input both automation-lab and scrapesage document.
@@ -1022,35 +1099,15 @@ def scrape_tiktok_sa(x_trends):
     """
     Saudi social-media trending topics for the TikTok tab.
     Source priority:
-      1. TikTok Ads Creative Center (real TikTok data, undocumented – may break)
+      1. (retired — see fetch_tiktok_cc_direct)
       2. Google Trends Saudi Arabia RSS (official, very stable, Arabic-first)
       3. Arabic-script X trends (already scraped, zero extra cost)
     Quality gates: Arabic script required, TIKTOK_GENERIC blocklist, no spam.
     """
     results = []
 
-    # ── Source 1: TikTok Creative Center ──────────────────────────────────────
-    try:
-        url = ("https://ads.tiktok.com/creative_radar_api/v1/popular_trend/hashtag/list"
-               "?page=1&limit=50&period=7&country_code=SA&sort_by=popular")
-        raw = json.loads(get(url, timeout=25))
-        lst = (raw.get("data") or {}).get("list") or []
-        for item in lst:
-            tag = (item.get("hashtag_name") or "").strip()
-            cnt = item.get("publish_cnt") or 0
-            if not tag:
-                continue
-            tag_norm = "#" + tag if not tag.startswith("#") else tag
-            low = tag_norm.lstrip("#").lower()
-            if low in TIKTOK_GENERIC or cnt < 200:
-                continue
-            if not ARABIC.search(tag_norm) or is_spam(tag_norm):
-                continue
-            results.append({"text": tag_norm, "count": cnt,
-                            "cat": categorize(tag_norm), "source": "cc"})
-        print(f"  TikTok CC: {len(results)} SA Arabic trends")
-    except Exception as e:
-        print(f"  TikTok CC miss: {type(e).__name__}: {str(e)[:70]}", file=sys.stderr)
+    # Source 1 used to be creative_radar_api, which TikTok retired in Nov 2026.
+    # Its replacement, fetch_tiktok_cc_direct(), already ran earlier in main().
 
     # ── Source 2: Google Trends SA (stable fallback) ───────────────────────────
     if len(results) < 6:
@@ -1118,12 +1175,25 @@ def main():
     scored = (days.get(DAY_KEY) or days[max(days)])["trends"]
 
     # TikTok source order:
-    #   1. Apify (runs on Apify's infrastructure — TikTok doesn't block it)
-    #   2. tiktok_cc.json, hand-pasted from Creative Center
-    #   3. the direct scraper (usually blocked from GitHub Actions)
+    #   1. Creative Center direct (free; TikTok's new public endpoint)
+    #   2. Apify (paid; only if the direct pull failed — the clockworks actor
+    #      returned empty datasets after TikTok's Nov 2026 Creative Center move)
+    #   3. tiktok_cc.json, hand-pasted from Creative Center
+    #   4. the old direct scraper (usually blocked from GitHub Actions)
     have_tiktok = len((data.get("tiktok") or {}).get("items") or []) >= 5
     got_tiktok = False
-    if apify_due(data, "tiktok"):
+    direct_age = _hours_since(data, "tiktok_direct")
+    if direct_age is not None and direct_age < TIKTOK_DIRECT_H:
+        print(f"  TikTok CC direct: last pull {direct_age:.1f}h ago — keeping it")
+        got_tiktok = True
+    else:
+        direct_items = fetch_tiktok_cc_direct()
+        if direct_items:
+            data["tiktok"] = {"date": NEWS_DATE, "items": direct_items}
+            data.setdefault("_apify", {})["tiktok_direct"] = NOW.isoformat()
+            got_tiktok = True
+
+    if not got_tiktok and apify_due(data, "tiktok"):
         apify_mark_attempt(data, "tiktok")
         tiktok_items = fetch_apify_tiktok()
         if tiktok_items:

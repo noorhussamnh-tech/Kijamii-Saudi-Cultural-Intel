@@ -11,11 +11,21 @@ and Google Trends — published as a static site on GitHub Pages.
 |---|---|---|
 | X/Twitter trends + hashtags | getdaytrends.com | **Hourly** |
 | Domestic & regional news | Google News RSS, Arab News, Al Arabiya, SPA, Okaz, Asharq Al-Awsat | **Hourly** |
-| TikTok tab | Apify (`clockworks~tiktok-trends-scraper`) → `tiktok_cc.json` → direct scrape | ~Daily (paid, throttled) |
+| TikTok tab | TikTok Creative Center (direct, free) → Apify (`clockworks~tiktok-trends-scraper`) → `tiktok_cc.json` | Every ~6h (`TIKTOK_DIRECT_HOURS`) |
 | Google tab | Apify (`automation-lab~google-trends-scraper`) → `google_manual.json` → pytrends | ~Daily (paid, throttled) |
 
 `.github/workflows/update.yml` is the **only** live configuration. It runs
 `update_trends.py`, commits `data.json` when it changed, and redeploys Pages.
+
+### TikTok source (changed Nov 2026)
+
+TikTok moved Creative Center to `ads.tiktok.com/creative/creativeCenter/trends`
+and retired the old `creative_radar_api`. After that the Apify actor kept
+"succeeding" with an empty dataset, and the tab silently showed the 27 Aug paste.
+The tab now reads the new public endpoint directly. Logged out, TikTok shows the
+**top 3 hashtags per period**, so the tab carries up to 6 (7-day + 30-day views).
+Apify is only called if the direct pull fails. The page flags any TikTok data
+older than 2 days, whatever the source.
 
 ### Why the TikTok and Google tabs are slower
 
@@ -50,6 +60,7 @@ Set under **Settings → Secrets and variables → Actions**.
 | `APIFY_TOKEN` | secret | — | Enables the TikTok/Google Apify pulls. Without it the script still runs on its fallbacks. |
 | `APIFY_MAX_AGE_HOURS` | variable | `20` | Reuse a successful Apify pull for this long. Lower = fresher TikTok/Google, higher cost. |
 | `APIFY_RETRY_HOURS` | variable | `6` | Back-off after a *failed* Apify pull, so a broken source cannot burn a run every hour. |
+| `TIKTOK_DIRECT_HOURS` | variable | `6` | How often to re-pull TikTok Creative Center directly (free). |
 | `APIFY_TIKTOK_ACTOR` | variable | `clockworks~tiktok-trends-scraper` | Swap in a different actor. |
 | `APIFY_GOOGLE_ACTOR` | variable | `automation-lab~google-trends-scraper` | Swap in a different actor. |
 

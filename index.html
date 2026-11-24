@@ -232,7 +232,7 @@ tr.hidden{display:none}
 .tiktok-rank{width:32px;height:32px;border-radius:50%;background:var(--surface2);display:flex;align-items:center;justify-content:center;font-size:0.8rem;font-weight:800;color:var(--muted);flex-shrink:0}
 .tiktok-rank.r1{background:#ffd700;color:#000}.tiktok-rank.r2{background:#c0c0c0;color:#000}.tiktok-rank.r3{background:#cd7f32;color:#fff}
 .tiktok-body{flex:1}
-.tiktok-tag{font-size:1rem;font-weight:800;direction:rtl;text-align:right;margin-bottom:4px;color:var(--text)}
+.tiktok-tag{font-size:1rem;font-weight:800;direction:rtl;unicode-bidi:plaintext;text-align:right;margin-bottom:4px;color:var(--text)}
 .tiktok-count{font-size:0.75rem;color:var(--accent2-ink);font-weight:700;margin-bottom:6px;text-align:right}
 .tiktok-meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
 .tiktok-source{font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;color:var(--muted);padding:2px 7px;border-radius:4px;background:var(--surface2)}
@@ -409,7 +409,7 @@ tr.hidden{display:none}
 
 <!-- TIKTOK PANEL -->
 <div class="panel" id="panel-tiktok">
-  <div class="date-banner" style="margin-bottom:16px">Saudi TikTok trends · <strong id="tiktok-date"></strong> · Arabic-first quality filter · Updated daily</div>
+  <div class="date-banner" style="margin-bottom:16px">Saudi TikTok trends · <strong id="tiktok-date"></strong> · TikTok Creative Center, top hashtags (7 &amp; 30 days) · Refreshed every ~6h</div>
   <div class="sec-label">🎵 Trending on Saudi TikTok</div>
   <div class="tiktok-grid" id="tiktok-grid"></div>
 </div><!-- /panel-tiktok -->
@@ -960,10 +960,16 @@ function renderTiktokPanel() {
     return;
   }
 
+  // Work out the age from the data's own date, so ANY source that stops
+  // refreshing is flagged — not only the hand-pasted file.
   var staleDays = tiktok.stale_days || 0;
+  var parsed = Date.parse(tiktok.date || "");
+  if (!isNaN(parsed)) {
+    staleDays = Math.max(staleDays, Math.floor((Date.now() - parsed) / 86400000));
+  }
   if (dateEl) {
-    dateEl.innerHTML = tiktok.date + (staleDays > 0
-      ? ' <span class="stale-warn">⚠ ' + staleDays + ' days old — refresh tiktok_cc.json</span>'
+    dateEl.innerHTML = tiktok.date + (staleDays >= 2
+      ? ' <span class="stale-warn">⚠ ' + staleDays + ' days old — TikTok source not refreshing</span>'
       : '');
   }
 
@@ -983,6 +989,7 @@ function renderTiktokPanel() {
         : item.count + " posts";
     }
     var viewsStr = item.views ? item.views + " views" : "";
+    if (item.period) viewsStr += (viewsStr ? " · " : "") + "top in " + item.period.replace("d", " days");
     var trendCls = item.trend || "stable";
     var trendIcon = item.trend ? (TREND_ICON[item.trend] || "") : "";
     var cat = (item.cat || "general").toLowerCase().replace(/ \/ /g,"-").replace(/ /g,"-");
