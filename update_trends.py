@@ -3,6 +3,7 @@
 import json, os, re, sys, time, urllib.request, urllib.error, urllib.parse, xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from html import unescape
+from email.utils import parsedate_to_datetime
 
 # pytrends is optional — install via: pip install pytrends --break-system-packages
 try:
@@ -51,6 +52,10 @@ TIKTOK_GENERIC = {
 }
 
 CATS = [
+    # Before Football: Saudi Google carries many South Asian cricket searches,
+    # and " vs " would otherwise file them all under Football.
+    ("Cricket", ["cricket","wicket","innings","t20","odi ","ipl","test match","century",
+                 "fifty","bowler","batter","كريكيت"]),
     ("Football", ["الاتحاد","الهلال","النصر","الاهلي","الحزم","برشلونة","ريال","ليفربول",
                   "تشيلسي","روما","نيوكاسل","فولهام","الدوري","مباراة","هدف","لاعب",
                   "سانشيز","الونسو","بيدرو","اربيلوا","مارتينيلي","بالمر","رافينها",
@@ -813,6 +818,30 @@ TIKTOK_CC_PERIODS = (7, 30)
 # Free, but there is no point re-pulling every hour: views tick up constantly and
 # each tick would otherwise be a commit. Tune with the TIKTOK_DIRECT_HOURS variable.
 TIKTOK_DIRECT_H = float(os.environ.get("TIKTOK_DIRECT_HOURS") or "6")
+# Quality gate for the logged-out list, which carries campaign and spam tags
+# (e.g. a 4.9K-post tag led by a 36-follower account). A hashtag must show real
+# volume, real reach per post, and at least one established creator.
+TIKTOK_MIN_POSTS = int(os.environ.get("TIKTOK_MIN_POSTS") or "3000")
+TIKTOK_MIN_VIEWS_PER_POST = int(os.environ.get("TIKTOK_MIN_VIEWS_PER_POST") or "2000")
+TIKTOK_MIN_CREATOR_FOLLOWERS = int(os.environ.get("TIKTOK_MIN_CREATOR_FOLLOWERS") or "10000")
+
+
+TIKTOK_DROPPED = set()   # filled by fetch_tiktok_cc_direct, purged from history
+
+
+def tiktok_quality_reason(it):
+    """None if the hashtag looks like genuine Saudi activity, else why not."""
+    posts = _to_int(it.get("publishCnt") or 0)
+    views = _to_int(it.get("vv") or 0)
+    top = max([_to_int(c.get("followedCnt") or 0) for c in (it.get("topCreators") or [])
+               if isinstance(c, dict)] or [0])
+    if posts < TIKTOK_MIN_POSTS:
+        return f"only {posts} posts"
+    if posts and views / posts < TIKTOK_MIN_VIEWS_PER_POST:
+        return f"{views // max(posts, 1)} views/post"
+    if top < TIKTOK_MIN_CREATOR_FOLLOWERS:
+        return f"biggest creator has {top} followers"
+    return None
 
 
 # TikTok's own top-level industry labels (read from the Creative Center bundle).
@@ -874,6 +903,7 @@ def update_tiktok_history(data, items):
             "trend":     it.get("trend", ""),
             "period":    it.get("period", h.get("period", "")),
             "cat":       it.get("cat") or categorize(tag),
+            "source":    it.get("source", "cc"),
         })
         hist[tag] = h
     cutoff = (NOW - timedelta(days=TIKTOK_HISTORY_DAYS)).strftime("%Y-%m-%d")
@@ -939,6 +969,11 @@ def fetch_tiktok_cc_direct():
                 continue
             if is_spam(bare) or bare.lower() in TIKTOK_GENERIC:
                 continue
+            why = tiktok_quality_reason(it)
+            if why:
+                print(f"  TikTok CC direct: dropped #{bare} — {why}")
+                TIKTOK_DROPPED.add("#" + bare)
+                continue
             seen.add(bare)
             name = "#" + bare
             items.append({
@@ -955,6 +990,172 @@ def fetch_tiktok_cc_direct():
         print(f"  TikTok CC direct ({period}d): {len(rows)} rows")
     print(f"  TikTok CC direct: {len(items)} Saudi hashtags")
     return items
+
+
+# ── Google Trends official RSS ────────────────────────────────────────────────
+# Google's own "Trending now" feed for Saudi Arabia. Free, no key, and each trend
+# carries the news story Google linked it to — that headline is what makes a
+# term like "الرواتب" readable and checkable. ~10 newest trends per pull, so we
+# accumulate a rolling window to give the tab breadth.
+GOOGLE_RSS_URL = "https://trends.google.com/trending/rss?geo=SA"
+GOOGLE_NS = {"ht": "https://trends.google.com/trending/rss"}
+GOOGLE_WINDOW_H = int(os.environ.get("GOOGLE_WINDOW_HOURS") or "24")
+
+
+def fetch_google_rss():
+    """Saudi trending searches from Google's official RSS, newest first."""
+    try:
+        root = ET.fromstring(get(GOOGLE_RSS_URL, timeout=30))
+    except Exception as e:
+        print(f"  Google RSS miss: {type(e).__name__}: {str(e)[:80]}", file=sys.stderr)
+        return []
+    items = []
+    for it in root.iter("item"):
+        term = (it.findtext("title") or "").strip()
+        if not term or is_spam(term):
+            continue
+        traffic = _to_int(it.findtext("ht:approx_traffic", namespaces=GOOGLE_NS) or "")
+        try:
+            started = parsedate_to_datetime(it.findtext("pubDate") or "").astimezone(RIYADH)
+        except Exception:
+            started = NOW
+        news = None
+        for n in it.findall("ht:news_item", GOOGLE_NS):
+            title = unescape(n.findtext("ht:news_item_title", namespaces=GOOGLE_NS) or "").strip()
+            if title:
+                news = {"title": title,
+                        "url": (n.findtext("ht:news_item_url", namespaces=GOOGLE_NS) or "").strip(),
+                        "source": (n.findtext("ht:news_item_source", namespaces=GOOGLE_NS) or "").strip()}
+                break
+        items.append({
+            "text": term, "count": traffic, "started": started.isoformat(),
+            "lang": tiktok_lang(term) if not re.search("[\u0980-\u09FF\u0900-\u097F]", term) else "other",
+            "cat": categorize(term + " " + (news or {}).get("title", "")),
+            "news": news, "source": "google",
+        })
+    print(f"  Google RSS: {len(items)} Saudi trends")
+    return items
+
+
+def update_google_history(data, items):
+    """Keep every trend Google listed for Saudi in the last GOOGLE_WINDOW_H hours."""
+    hist = data.setdefault("google_history", {})
+    for it in items:
+        h = hist.get(it["text"]) or {"first_seen": NOW.isoformat()}
+        h.update(it)
+        h["last_seen"] = NOW.isoformat()
+        h["peak"] = max(it.get("count", 0), h.get("peak", 0))
+        hist[it["text"]] = h
+    cutoff = NOW - timedelta(hours=GOOGLE_WINDOW_H)
+    for k in [k for k, h in hist.items()
+              if datetime.fromisoformat(h.get("started") or h["last_seen"]) < cutoff]:
+        del hist[k]
+    rows = sorted(hist.values(), key=lambda h: (-h.get("peak", 0), h.get("started", "")))
+    out = []
+    for i, h in enumerate(rows[:40], 1):
+        r = {k: v for k, v in h.items() if k not in ("first_seen", "last_seen")}
+        r["rank"], r["count"] = i, h.get("peak", 0)
+        out.append(r)
+    return out
+
+
+# ── TikTok weekly upload ──────────────────────────────────────────────────────
+# Logged in (free TikTok for Business account), Creative Center shows the full
+# Saudi top-100 hashtags. Someone exports it weekly and uploads it to the repo as
+# tiktok_upload.csv; the next run folds it in. See README → "Weekly TikTok upload".
+TIKTOK_UPLOAD = "tiktok_upload.csv"
+TIKTOK_UPLOAD_FRESH_DAYS = 7
+_NUM = re.compile(r"^\s*\d[\d,]*(\.\d+)?\s*[KMB]?\s*$", re.I)
+
+
+def _upload_rows(path):
+    import csv
+    raw = open(path, encoding="utf-8-sig", errors="ignore").read()
+    try:
+        dialect = csv.Sniffer().sniff(raw[:4000], delimiters=",;\t")
+    except csv.Error:
+        dialect = csv.excel
+    return [[c.strip() for c in row] for row in csv.reader(raw.splitlines(), dialect)]
+
+
+def parse_tiktok_upload(path):
+    """Hashtags from a Creative Center export, clean CSV or a pasted table."""
+    rows = [r for r in _upload_rows(path) if any(r)]
+    if not rows:
+        return []
+    industries = {v.lower(): v for v in TIKTOK_INDUSTRY.values()}
+    found = []
+
+    head = [c.lower() for c in rows[0]]
+    col = lambda *keys: next((i for i, h in enumerate(head) if any(k in h for k in keys)), None)
+    c_tag, c_posts, c_views, c_ind = col("hashtag", "tag"), col("post"), col("view"), col("industr")
+    if c_tag is not None:
+        # Clean CSV with a header row.
+        for r in rows[1:]:
+            get_ = lambda i: r[i] if i is not None and i < len(r) else ""
+            if get_(c_tag):
+                found.append({"tag": get_(c_tag), "posts": get_(c_posts),
+                              "views": get_(c_views), "industry": get_(c_ind)})
+    else:
+        # A table copied off the page: read it as one stream. Each "#tag" starts
+        # a new hashtag; the next two numbers are its posts and views.
+        cur = None
+        for tok in (c for r in rows for c in r if c):
+            if tok.startswith("#"):
+                cur = {"tag": tok, "posts": "", "views": "", "industry": ""}
+                found.append(cur)
+            elif cur is None:
+                continue
+            elif tok.lower() in industries:
+                cur["industry"] = industries[tok.lower()]
+            elif _NUM.match(tok):
+                if re.fullmatch(r"\d+", tok.strip()) and int(tok) <= 100:
+                    continue          # a rank number, not a count
+                if not cur["posts"]:
+                    cur["posts"] = tok
+                elif not cur["views"]:
+                    cur["views"] = tok
+
+    items, seen = [], set()
+    for f in found:
+        bare = f["tag"].strip().lstrip("#").strip()
+        if not bare or bare in seen or is_spam(bare) or bare.lower() in TIKTOK_GENERIC:
+            continue
+        seen.add(bare)
+        name = "#" + bare
+        cat = categorize(name)
+        if cat == "General" and f["industry"]:
+            cat = industries.get(f["industry"].lower(), f["industry"])
+        items.append({"rank": len(items) + 1, "text": name,
+                      "posts": _humanize(f["posts"]) if f["posts"] else "",
+                      "views": _humanize(f["views"]) if f["views"] else "",
+                      "trend": "", "lang": tiktok_lang(name), "cat": cat,
+                      "source": "export"})
+    return items
+
+
+def ingest_tiktok_upload(data):
+    """Fold a newly uploaded export in once (tracked by content hash)."""
+    if not os.path.exists(TIKTOK_UPLOAD):
+        return
+    import hashlib
+    digest = hashlib.sha1(open(TIKTOK_UPLOAD, "rb").read()).hexdigest()
+    marks = data.setdefault("_apify", {})
+    if marks.get("tiktok_upload_hash") == digest:
+        return
+    try:
+        items = parse_tiktok_upload(TIKTOK_UPLOAD)
+    except Exception as e:
+        print(f"  {TIKTOK_UPLOAD}: could not read — {type(e).__name__}: {e}", file=sys.stderr)
+        return
+    marks["tiktok_upload_hash"] = digest
+    if not items:
+        print(f"  {TIKTOK_UPLOAD}: no hashtags found — check the file format", file=sys.stderr)
+        return
+    data["tiktok_export"] = {"date": NEWS_DATE, "day": DAY_KEY, "items": items}
+    update_tiktok_history(data, items)
+    print(f"  {TIKTOK_UPLOAD}: {len(items)} hashtags imported "
+          f"({sum(i['lang'] == 'ar' for i in items)} Arabic)")
 
 
 def fetch_apify_google():
@@ -1270,6 +1471,11 @@ def main():
             data["tiktok"] = {"date": NEWS_DATE, "items": direct_items}
             data.setdefault("_apify", {})["tiktok_direct"] = NOW.isoformat()
             update_tiktok_history(data, direct_items)
+    # A tag the quality gate rejects also leaves the 14-day list, unless it came
+    # from the curated weekly upload.
+    for tag in TIKTOK_DROPPED:
+        if (data.get("tiktok_history") or {}).get(tag, {}).get("source") != "export":
+            (data.get("tiktok_history") or {}).pop(tag, None)
             got_tiktok = True
 
     if not got_tiktok and apify_due(data, "tiktok"):
@@ -1298,14 +1504,22 @@ def main():
             elif "tiktok" not in data:
                 data["tiktok"] = {"date": NEWS_DATE, "items": []}
 
+    ingest_tiktok_upload(data)
+
     # First run after the history was introduced: seed it from today's pull.
     if "tiktok_history" not in data and (data.get("tiktok") or {}).get("date") == NEWS_DATE:
         update_tiktok_history(data, data["tiktok"].get("items"))
 
-    # Google source order: Apify → hand-pasted google_manual.json → direct scrape
+    # Google source order: official RSS (free, with news context) → Apify (paid)
+    # → hand-pasted google_manual.json → direct scrape
     have_google = len((data.get("google") or {}).get("items") or []) >= 5
     got_google = False
-    if apify_due(data, "google"):
+    rss = fetch_google_rss()
+    if rss:
+        data["google"] = {"date": NEWS_DATE, "source": "rss",
+                          "items": update_google_history(data, rss)}
+        got_google = True
+    if not got_google and apify_due(data, "google"):
         apify_mark_attempt(data, "google")
         google_items = fetch_apify_google()
         if google_items:
@@ -1313,7 +1527,7 @@ def main():
             apify_mark(data, "google")
             got_google = True
 
-    if not got_google and not apify_fresh(data, "google"):
+    if not got_google and not apify_fresh(data, "google") and data.get("google", {}).get("source") != "rss":
         gm_data = read_manual_json("google_manual.json", "google")   # local, free
         if gm_data:
             data["google"] = gm_data

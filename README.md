@@ -11,8 +11,8 @@ and Google Trends — published as a static site on GitHub Pages.
 |---|---|---|
 | X/Twitter trends + hashtags | getdaytrends.com | **Hourly** |
 | Domestic & regional news | Google News RSS, Arab News, Al Arabiya, SPA, Okaz, Asharq Al-Awsat | **Hourly** |
-| TikTok tab | TikTok Creative Center (direct, free) → Apify (`clockworks~tiktok-trends-scraper`) → `tiktok_cc.json` | Every ~6h (`TIKTOK_DIRECT_HOURS`) |
-| Google tab | Apify (`automation-lab~google-trends-scraper`) → `google_manual.json` → pytrends | ~Daily (paid, throttled) |
+| TikTok tab | Weekly upload `tiktok_upload.csv` (full top-100) + TikTok Creative Center direct (free, quality-filtered) → Apify → `tiktok_cc.json` | Every ~6h + weekly upload |
+| Google tab | Google Trends official RSS (free, with linked news story) → Apify → `google_manual.json` → pytrends | **Hourly**, 24h rolling window |
 
 `.github/workflows/update.yml` is the **only** live configuration. It runs
 `update_trends.py`, commits `data.json` when it changed, and redeploys Pages.
@@ -58,6 +58,45 @@ curl -X POST https://api.github.com/repos/noorhussamnh-tech/Kijamii-Saudi-Cultur
   -H "Accept: application/vnd.github+json" \
   -d '{"event_type":"refresh"}'
 ```
+
+## Weekly TikTok upload (owner: ________ · every Sunday · ~5 min)
+
+The automatic TikTok feed only sees the top 3 hashtags TikTok shows logged-out
+visitors, and is quality-filtered. The credible full list needs a login:
+
+1. Sign in at **ads.tiktok.com → Creative Center → Trends → Hashtags**
+   (a free TikTok for Business account is enough).
+2. Set **Region: Saudi Arabia** and **Last 7 days**. Click **View more** until
+   the list reaches 100.
+3. Select the whole table, copy it, and paste it into a blank Google Sheet
+   (or Excel). Don't tidy it — the importer handles the messy paste.
+   A clean sheet with columns `Rank, Hashtag, Industry, Posts, Views` also works.
+4. **File → Download → CSV**. Rename the file to exactly `tiktok_upload.csv`.
+5. On GitHub: repo → **Add file → Upload files** → drop it in → **Commit**
+   (it replaces last week's).
+
+The next hourly run imports it. On the TikTok tab those hashtags show as
+**Weekly top #N**, and the note under the buttons shows the upload date. After
+7 days the note says **⚠ due for a new upload** — that is the reminder.
+If the run log says `no hashtags found`, the file isn't in a format the importer
+can read; send it to whoever maintains this repo.
+
+### Quality gate on the automatic feed
+
+A hashtag from the logged-out feed is shown only if it has at least
+`TIKTOK_MIN_POSTS` posts (3,000), `TIKTOK_MIN_VIEWS_PER_POST` views per post
+(2,000), and a top creator with `TIKTOK_MIN_CREATOR_FOLLOWERS` followers (10,000).
+Each is a repo variable, so it can be tuned without code changes. Dropped tags
+are listed in the run log and removed from the 14-day list.
+
+## Google tab
+
+Reads Google's official *Trending now* RSS for Saudi Arabia every hour and keeps
+the last 24 hours (`GOOGLE_WINDOW_HOURS`). Each trend carries the news story
+Google linked to it, so every entry can be checked. Saudi Google also reflects
+the large expat population (cricket, Bangladeshi and Indian news); the
+**Arabic** view shows local conversation only. Apify is used only if the RSS is
+unreachable.
 
 ## Configuration
 

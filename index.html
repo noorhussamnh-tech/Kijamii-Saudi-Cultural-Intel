@@ -241,6 +241,8 @@ tr.hidden{display:none}
 .tiktok-note{font-size:0.75rem;color:var(--muted);margin:-4px 0 12px;line-height:1.6}
 .tiktok-now{font-size:0.65rem;font-weight:800;text-transform:uppercase;letter-spacing:0.8px;color:#fff;background:var(--accent);padding:2px 7px;border-radius:4px}
 .tiktok-seen{font-size:0.65rem;font-weight:700;color:var(--muted);padding:2px 7px;border-radius:4px;border:1px solid var(--border)}
+.google-news{font-size:0.74rem;color:var(--muted);margin:2px 0 6px;line-height:1.5;unicode-bidi:plaintext;text-align:right}
+.google-news a{color:inherit;text-decoration:underline;text-decoration-color:var(--border)}
 .tiktok-empty{color:var(--muted);font-size:0.85rem;padding:36px 20px;text-align:center;line-height:1.9}
 .stale-warn{color:var(--accent2-ink);font-size:0.76rem;font-weight:700}
 
@@ -276,8 +278,8 @@ tr.hidden{display:none}
 .google-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;display:flex;gap:14px;align-items:center}
 .google-rank{width:32px;height:32px;border-radius:50%;background:var(--surface2);display:flex;align-items:center;justify-content:center;font-size:0.8rem;font-weight:800;color:var(--muted);flex-shrink:0}
 .google-rank.r1{background:#ffd700;color:#000}.google-rank.r2{background:#c0c0c0;color:#000}.google-rank.r3{background:#cd7f32;color:#fff}
-.google-body{flex:1}
-.google-term{font-size:0.95rem;font-weight:800;direction:rtl;text-align:right;margin-bottom:4px;color:var(--text)}
+.google-body{flex:1;min-width:0}
+.google-term{font-size:0.95rem;font-weight:800;direction:rtl;text-align:right;margin-bottom:4px;color:var(--text);overflow-wrap:anywhere}
 .google-volume{font-size:0.75rem;color:var(--accent2-ink);font-weight:700;text-align:right;margin-bottom:4px}
 .google-empty{color:var(--muted);font-size:0.85rem;padding:36px 20px;text-align:center;line-height:1.9}
 </style>
@@ -423,8 +425,10 @@ tr.hidden{display:none}
 
 <!-- GOOGLE TRENDS PANEL -->
 <div class="panel" id="panel-google">
-  <div class="date-banner" style="margin-bottom:16px">Saudi Google searches · <strong id="google-date"></strong> · Top trending topics · Updated daily</div>
-  <div class="sec-label">📈 Trending on Saudi Google</div>
+  <div class="date-banner" style="margin-bottom:16px">Saudi Google searches 🇸🇦 · <strong id="google-date"></strong> · Google Trends official feed · Saudi Arabia only · last 24 hours · refreshed hourly</div>
+  <div class="log-filter" id="google-filter"></div>
+  <div class="sec-label" id="google-label">📈 Trending on Saudi Google</div>
+  <div class="tiktok-note" id="google-note"></div>
   <div class="google-grid" id="google-grid"></div>
 </div><!-- /panel-google -->
 
@@ -447,9 +451,9 @@ tr.hidden{display:none}
 // ── DATA ──────────────────────────────────────────────────────────────────────
 var PASSWORD = "Kculturalintelligence268%";
 
-var DAYS = {}, CUMUL = {}, TODAY_NEWS = {}, TODAY_TIKTOK = {}, TODAY_GOOGLE = {}, TIKTOK_HISTORY = {};
-var TIKTOK_VIEW = "all";
-try { TIKTOK_VIEW = localStorage.getItem("tiktokView") || "all"; } catch (e) {}
+var DAYS = {}, CUMUL = {}, TODAY_NEWS = {}, TODAY_TIKTOK = {}, TODAY_GOOGLE = {}, TIKTOK_HISTORY = {}, TIKTOK_EXPORT = {};
+var TIKTOK_VIEW = "all", GOOGLE_VIEW = "all";
+try { TIKTOK_VIEW = localStorage.getItem("tiktokView") || "all"; GOOGLE_VIEW = localStorage.getItem("googleView") || "all"; } catch (e) {}
 
 // ── STATE ────────────────────────────────────────────────────────────────────
 var activeMode   = "trends";
@@ -605,7 +609,7 @@ function loadData(keepView) {
     .then(function(d) {
       DAYS = d.days; CUMUL = d.cumul; TODAY_NEWS = d.news;
       TODAY_TIKTOK = d.tiktok || {}; TODAY_GOOGLE = d.google || {};
-      TIKTOK_HISTORY = d.tiktok_history || {};
+      TIKTOK_HISTORY = d.tiktok_history || {}; TIKTOK_EXPORT = d.tiktok_export || {};
       BRIEFS = d.briefs || {};
       dayKeys = Object.keys(DAYS).sort();
 
@@ -972,18 +976,27 @@ function tiktokRows() {
     if (it.source === "x" && !(it.count > 0) && !(it.posts && it.posts !== "0")) return;
     current[it.text] = {item: it, pos: i};
   });
+  var exportFresh = TIKTOK_EXPORT.day &&
+    (Date.now() - new Date(TIKTOK_EXPORT.day + "T12:00:00")) < 7 * 86400000;
+  if (exportFresh) {
+    (TIKTOK_EXPORT.items || []).forEach(function(it, i) {
+      if (!current[it.text]) current[it.text] = {item: it, pos: 100 + i};
+    });
+  }
   var rows = {};
   Object.keys(TIKTOK_HISTORY).forEach(function(tag) {
     var h = TIKTOK_HISTORY[tag];
     rows[tag] = {text: tag, lang: h.lang || tkLang(tag), posts: h.posts, views: h.views,
                  views_n: h.views_n || 0, trend: h.trend, period: h.period, cat: h.cat,
-                 last_seen: h.last_seen, days: (h.days || []).length, now: false, pos: 999};
+                 last_seen: h.last_seen, days: (h.days || []).length, now: false, pos: 999,
+                 source: h.source};
   });
   Object.keys(current).forEach(function(tag) {
     var it = current[tag].item, r = rows[tag] || {text: tag, days: 1};
     r.lang = it.lang || tkLang(tag); r.posts = it.posts || r.posts; r.views = it.views || r.views;
     r.trend = it.trend || r.trend; r.period = it.period || r.period; r.cat = it.cat || r.cat;
     r.count = it.count; r.source = it.source; r.now = true; r.pos = current[tag].pos;
+    r.exportRank = it.source === "export" ? it.rank : null;
     rows[tag] = r;
   });
   return Object.keys(rows).map(function(k){ return rows[k]; }).sort(function(a, b) {
@@ -1047,8 +1060,12 @@ function renderTiktokPanel() {
 
   var items = view.key === "all" ? all : all.filter(function(r){ return r.lang === view.key; });
   var nowCount = items.filter(function(r){ return r.now; }).length;
-  noteEl.textContent = nowCount + " trending in the latest pull · " + (items.length - nowCount)
-    + " seen earlier in the last 14 days. TikTok shows the top 3 Saudi hashtags per 7- and 30-day window to logged-out visitors, so the list builds up over time.";
+  var expDay = TIKTOK_EXPORT.day;
+  var expNote = expDay
+    ? "Weekly full list uploaded " + tkShortDate(expDay) + (Date.now() - new Date(expDay + "T12:00:00") > 7 * 86400000 ? " — ⚠ due for a new upload." : ".")
+    : "Weekly full list not uploaded yet — showing the automatic feed only.";
+  noteEl.textContent = nowCount + " current · " + (items.length - nowCount)
+    + " seen earlier in the last 14 days. Automatic feed is quality-filtered (min. posts, reach per post, established creators). " + expNote;
 
   if (items.length === 0) {
     grid.innerHTML = '<div class="tiktok-empty">No ' + (view.key === "ar" ? "Arabic" : "English")
@@ -1060,7 +1077,8 @@ function renderTiktokPanel() {
   grid.innerHTML = items.map(function(item, i) {
     var rank = i + 1;
     var rc = rank===1?"r1":rank===2?"r2":rank===3?"r3":"";
-    var srcLabel = item.source==="google" ? "Google Trends" : item.source==="x" ? "X Trends" : "Creative Center";
+    var srcLabel = item.source==="google" ? "Google Trends" : item.source==="x" ? "X Trends"
+      : item.source==="export" ? "Creative Center · full list" : "Creative Center";
     var postsStr = "";
     if (item.posts) {
       postsStr = item.posts + " posts";
@@ -1074,7 +1092,9 @@ function renderTiktokPanel() {
     var trendIcon = item.now && item.trend ? (TREND_ICON[item.trend] || "") : "";
     var catName = item.cat || "General";
     var cat = catName.toLowerCase().replace(/ \/ /g,"-").replace(/[^a-z0-9]+/g,"-");
-    var status = item.now
+    var status = item.now && item.exportRank
+      ? '<span class="tiktok-now">Weekly top #' + item.exportRank + '</span>'
+      : item.now
       ? '<span class="tiktok-now">Trending now</span>'
       : '<span class="tiktok-seen">Last seen ' + tkShortDate(item.last_seen) + '</span>';
     var daysBadge = item.days > 1 ? '<span class="tiktok-seen">On ' + item.days + ' days</span>' : '';
@@ -1098,42 +1118,94 @@ function renderTiktokPanel() {
   }).join("");
 }
 
+function gAgo(iso) {
+  var t = Date.parse(iso || ""); if (isNaN(t)) return "";
+  var h = Math.floor((Date.now() - t) / 3600000);
+  return h < 1 ? "started < 1h ago" : h < 48 ? "started " + h + "h ago" : "started " + Math.floor(h / 24) + "d ago";
+}
+
 function renderGooglePanel() {
-  var google = TODAY_GOOGLE;
+  var google = TODAY_GOOGLE || {};
   var grid = document.getElementById("google-grid");
   var dateEl = document.getElementById("google-date");
-  if (!google || !google.items || google.items.length === 0) {
+  var filterEl = document.getElementById("google-filter");
+  var labelEl = document.getElementById("google-label");
+  var noteEl = document.getElementById("google-note");
+  var all = (google.items || []).map(function(it) {
+    if (!it.lang) it.lang = tkLang(it.text || "");
+    return it;
+  });
+  if (all.length === 0) {
     if (dateEl) dateEl.textContent = "no data";
+    filterEl.innerHTML = ""; noteEl.textContent = "";
     grid.innerHTML = '<div class="google-empty">'
       + '<strong style="color:#f5a623">Google Trends is not returning data.</strong><br>'
-      + 'Google blocks trend requests coming from GitHub’s servers, so this tab can go empty.<br>'
-      + 'The updater now tries three different Google sources in turn — if all three are blocked, '
-      + 'this message stays until the next successful run.'
+      + 'The tab reads Google’s official Saudi trending feed every hour. If this persists, '
+      + 'check the latest "Saudi Trends Update" run in GitHub Actions.'
       + '</div>';
     return;
   }
-  if (dateEl) dateEl.textContent = google.date;
-  grid.innerHTML = google.items.map(function(item, i) {
+  var age = Math.floor((Date.now() - Date.parse(google.date || "")) / 86400000);
+  if (dateEl) dateEl.innerHTML = tkEsc(google.date || "") + (age >= 2
+    ? ' <span class="stale-warn">⚠ ' + age + ' days old — Google source not refreshing</span>' : '');
+
+  var VIEWS = [
+    {key:"all", label:"All · 24h", title:"📈 Everything trending on Saudi Google"},
+    {key:"ar",  label:"Arabic",    title:"📈 Arabic searches trending in Saudi"},
+    {key:"en",  label:"English",   title:"📈 English searches trending in Saudi"}
+  ];
+  var counts = {all: all.length, ar: 0, en: 0};
+  all.forEach(function(r){ if (counts[r.lang] !== undefined) counts[r.lang]++; });
+  filterEl.innerHTML = '<span class="log-filter-label">Show</span>' + VIEWS.map(function(v) {
+    return '<button class="filter-btn' + (GOOGLE_VIEW === v.key ? ' on' : '') + '" data-gview="' + v.key + '">'
+      + v.label + ' (' + counts[v.key] + ')</button>';
+  }).join("");
+  Array.prototype.forEach.call(filterEl.querySelectorAll("[data-gview]"), function(btn) {
+    btn.addEventListener("click", function() {
+      GOOGLE_VIEW = btn.getAttribute("data-gview");
+      try { localStorage.setItem("googleView", GOOGLE_VIEW); } catch (e) {}
+      renderGooglePanel();
+    });
+  });
+  var view = VIEWS.filter(function(v){ return v.key === GOOGLE_VIEW; })[0] || VIEWS[0];
+  labelEl.textContent = view.title;
+  var items = view.key === "all" ? all : all.filter(function(r){ return r.lang === view.key; });
+  noteEl.textContent = google.source === "rss"
+    ? "Ranked by Google’s approximate search volume. Each trend shows the news story Google links it to. Saudi Google also reflects the large expat population — use the Arabic view for local conversation."
+    : "Backup source in use (Google’s official feed was unreachable on the last run).";
+  if (items.length === 0) {
+    grid.innerHTML = '<div class="google-empty">No ' + (view.key === "ar" ? "Arabic" : "English")
+      + ' searches trending in Saudi in the last 24 hours.</div>';
+    return;
+  }
+  grid.innerHTML = items.map(function(item, i) {
     var rank = i + 1;
     var rc = rank===1?"r1":rank===2?"r2":rank===3?"r3":"";
     var vol = "";
     if (item.count > 0) {
-      vol = item.count >= 1000000
-        ? (item.count/1000000).toFixed(1)+"M searches"
-        : item.count >= 1000
-        ? Math.round(item.count/1000)+"K searches"
-        : item.count+" searches";
+      vol = (item.count >= 1000000 ? (item.count/1000000).toFixed(1)+"M"
+        : item.count >= 1000 ? Math.round(item.count/1000)+"K" : item.count) + "+ searches";
     }
-    var cat = (item.cat || "general").toLowerCase().replace(/ \/ /g,"-").replace(/ /g,"-");
-    var srcLbl = item.source === "gnews" ? "Google News SA" : "Google Trends";
+    var ago = gAgo(item.started);
+    var catName = item.cat || "General";
+    var cat = catName.toLowerCase().replace(/ \/ /g,"-").replace(/[^a-z0-9]+/g,"-");
+    var news = item.news && item.news.title
+      ? '<div class="google-news">📰 ' + (item.news.url && /^https?:\/\//.test(item.news.url)
+          ? '<a href="' + tkEsc(item.news.url) + '" target="_blank" rel="noopener">' + tkEsc(item.news.title) + '</a>'
+          : tkEsc(item.news.title))
+        + (item.news.source ? ' — ' + tkEsc(item.news.source) : '') + '</div>'
+      : '';
+    var langBadge = '<span class="tiktok-source">' + (item.lang === "ar" ? "Arabic" : item.lang === "en" ? "English" : "Other") + '</span>';
     return '<div class="google-card">' +
       '<div class="google-rank '+rc+'">'+rank+'</div>' +
       '<div class="google-body">' +
-        '<div class="google-term">'+item.text+'</div>' +
-        (vol ? '<div class="google-volume">'+vol+'</div>' : '') +
+        '<div class="google-term" style="unicode-bidi:plaintext">'+tkEsc(item.text)+'</div>' +
+        ((vol || ago) ? '<div class="google-volume">'+vol+(vol && ago ? ' · ' : '')+ago+'</div>' : '') +
+        news +
         '<div class="tiktok-meta">' +
-          '<span class="news-tag '+cat+'">'+item.cat+'</span>' +
-          '<span class="tiktok-source">'+srcLbl+'</span>' +
+          '<span class="news-tag '+cat+'">'+tkEsc(catName)+'</span>' +
+          (view.key === "all" ? langBadge : '') +
+          '<span class="tiktok-source">'+(google.source === "rss" ? "Google Trends (official)" : "Google Trends")+'</span>' +
         '</div>' +
       '</div>' +
     '</div>';
