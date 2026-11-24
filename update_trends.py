@@ -1158,6 +1158,47 @@ def ingest_tiktok_upload(data):
           f"({sum(i['lang'] == 'ar' for i in items)} Arabic)")
 
 
+# ── Editorial block list ──────────────────────────────────────────────────────
+# blocklist.txt: terms the team never wants on the TikTok or Google tabs, however
+# they arrive (automatic feed, Apify, weekly upload) and including the history.
+BLOCKLIST_PATH = "blocklist.txt"
+
+
+def _norm_term(t):
+    return re.sub(r"[\s_#]+", "_", str(t or "").strip().lower()).strip("_")
+
+
+def load_blocklist():
+    try:
+        lines = open(BLOCKLIST_PATH, encoding="utf-8").read().splitlines()
+    except FileNotFoundError:
+        return []
+    return [_norm_term(l) for l in lines if l.strip() and not l.strip().startswith("//")]
+
+
+def apply_blocklist(data):
+    blocked = load_blocklist()
+    if not blocked:
+        return
+    hit = lambda term: any(b and b in _norm_term(term) for b in blocked)
+    removed = set()
+    for key in ("tiktok", "tiktok_export", "google"):
+        sec = data.get(key) or {}
+        if isinstance(sec.get("items"), list):
+            keep = [i for i in sec["items"] if not hit(i.get("text"))]
+            removed |= {i.get("text") for i in sec["items"] if hit(i.get("text"))}
+            for n, i in enumerate(keep, 1):
+                i["rank"] = n
+            sec["items"] = keep
+    for key in ("tiktok_history", "google_history"):
+        hist = data.get(key) or {}
+        for t in [t for t in hist if hit(t)]:
+            removed.add(t)
+            del hist[t]
+    if removed:
+        print(f"  Block list: removed {len(removed)} — {', '.join(sorted(removed))}")
+
+
 def fetch_apify_google():
     """Saudi Google trending searches via Apify."""
     # mode/geo is the input both automation-lab and scrapesage document.
@@ -1538,6 +1579,8 @@ def main():
                 data["google"] = {"date": NEWS_DATE, "items": scraped}
             elif "google" not in data:
                 data["google"] = {"date": NEWS_DATE, "items": []}
+
+    apply_blocklist(data)
 
     dom = fetch_news_bilingual(DOMESTIC_EN, DOMESTIC_AR, EN_QUOTA, AR_QUOTA, "domestic")
     reg = fetch_news_bilingual(REGIONAL_EN, REGIONAL_AR, EN_QUOTA, AR_QUOTA, "regional")

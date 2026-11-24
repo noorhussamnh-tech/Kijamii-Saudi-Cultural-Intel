@@ -98,6 +98,14 @@ the large expat population (cricket, Bangladeshi and Indian news); the
 **Arabic** view shows local conversation only. Apify is used only if the RSS is
 unreachable.
 
+## Block list
+
+`blocklist.txt` holds terms that must never appear on the TikTok or Google tabs
+— e.g. off-topic or brand-unsafe tags. One term per line; it blocks anything
+that *contains* it (ignoring `#`, spaces/underscores and case), from every
+source and from the 14-day history. To remove something: open `blocklist.txt`
+on GitHub → ✏️ edit → add a line → **Commit**. It disappears on the next run.
+
 ## Configuration
 
 Set under **Settings → Secrets and variables → Actions**.
