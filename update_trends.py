@@ -856,6 +856,16 @@ def fetch_tiktok_cc_direct():
             print(f"  TikTok CC direct ({period}d): status {status}, {len(rows)} rows — "
                   f"{str(raw.get('BaseResp'))[:120]}", file=sys.stderr)
             continue
+        # Saudi only. TikTok tags each hashtag's top creators with their country;
+        # if none of them are Saudi, the endpoint ignored countryCode (e.g. fell
+        # back to its US default) and the whole batch is thrown away.
+        creator_countries = {str(c.get("countryCode") or "").upper()
+                             for it in rows for c in (it.get("topCreators") or [])
+                             if isinstance(c, dict)}
+        if creator_countries and "SA" not in creator_countries:
+            print(f"  TikTok CC direct ({period}d): response is not Saudi "
+                  f"(creators from {sorted(creator_countries)}) — discarded", file=sys.stderr)
+            continue
         for it in rows:
             bare = str(it.get("hashtagName") or "").strip().lstrip("#")
             if not bare or bare in seen:
