@@ -1,5 +1,5 @@
 {
- "lastUpdated": "Tuesday, 24 November 2026 · 19:57 KSA",
+ "lastUpdated": "Tuesday, 24 November 2026 · 20:04 KSA",
  "days": {
   "2026-11-11": {
    "label": "Wed 11 Nov",
@@ -2096,103 +2096,103 @@
     },
     {
      "rank": 4,
-     "text": "#مجلس_الوزراء",
+     "text": "القادسية",
      "cat": "General",
      "pts": 8
     },
     {
      "rank": 5,
-     "text": "#المود_وش_يطلب",
-     "cat": "General",
+     "text": "#ثلوثيه_الرومانسيه",
+     "cat": "Football",
      "pts": 7
     },
     {
      "rank": 6,
-     "text": "الميزانيه العامه",
-     "cat": "General",
+     "text": "#النصر_السد",
+     "cat": "Football",
      "pts": 6
     },
     {
      "rank": 7,
-     "text": "#ولي_العهد",
+     "text": "#جوايز_الرومنسيه",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 8,
-     "text": "العام المالي",
+     "text": "الميزانيه العامه",
      "cat": "General",
      "pts": 6
     },
     {
      "rank": 9,
+     "text": "العام المالي",
+     "cat": "General",
+     "pts": 6
+    },
+    {
+     "rank": 10,
      "text": "وزير الماليه",
      "cat": "Politics / Diplomacy",
      "pts": 6
     },
     {
-     "rank": 10,
-     "text": "التحكيم الرياضيه",
-     "cat": "General",
-     "pts": 6
-    },
-    {
      "rank": 11,
-     "text": "الجنسيه النيباليه",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 12,
-     "text": "الاتحاد الافريقي",
-     "cat": "Football",
-     "pts": 4
-    },
-    {
-     "rank": 13,
      "text": "بدر البدور",
      "cat": "General",
      "pts": 4
     },
     {
-     "rank": 14,
-     "text": "الجنسيه الهنديه",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 15,
-     "text": "بان كيك",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 16,
-     "text": "موقع الهجوم",
-     "cat": "Security",
-     "pts": 4
-    },
-    {
-     "rank": 17,
-     "text": "محمد الجدعان",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 18,
-     "text": "ماتيلدا كيك",
-     "cat": "General",
-     "pts": 4
-    },
-    {
-     "rank": 19,
+     "rank": 12,
      "text": "القمر اليوم",
      "cat": "General",
      "pts": 4
     },
     {
+     "rank": 13,
+     "text": "شباب الاهلي",
+     "cat": "Football",
+     "pts": 4
+    },
+    {
+     "rank": 14,
+     "text": "الاتحاد الافريقي",
+     "cat": "Football",
+     "pts": 4
+    },
+    {
+     "rank": 15,
+     "text": "التحكيم الرياضيه",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 16,
+     "text": "محمد الجدعان",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 17,
+     "text": "الجنسيه النيباليه",
+     "cat": "General",
+     "pts": 4
+    },
+    {
+     "rank": 18,
+     "text": "الهجوم الارهابي",
+     "cat": "Security",
+     "pts": 4
+    },
+    {
+     "rank": 19,
+     "text": "بان كيك",
+     "cat": "General",
+     "pts": 4
+    },
+    {
      "rank": 20,
-     "text": "مهد الذهب",
+     "text": "الجنسيه الهنديه",
      "cat": "General",
      "pts": 4
     }
@@ -2207,23 +2207,28 @@
      "score": 88
     },
     {
-     "text": "#مجلس_الوزراء",
+     "text": "#ثلوثيه_الرومانسيه",
      "score": 76
     },
     {
-     "text": "#المود_وش_يطلب",
+     "text": "#النصر_السد",
      "score": 64
     },
     {
-     "text": "#ولي_العهد",
+     "text": "#جوايز_الرومنسيه",
      "score": 52
     }
    ],
    "signals": [
     {
      "icon": "📌",
-     "label": "General (17)",
-     "items": "#ميزانيه_السعوديه2027 · المركز المالي · #الدخيل_للعود · #مجلس_الوزراء · #المود_وش_يطلب · الميزانيه العامه · #ولي_العهد · العام المالي · التحكيم الرياضيه · الجنسيه النيباليه"
+     "label": "General (14)",
+     "items": "#ميزانيه_السعوديه2027 · المركز المالي · #الدخيل_للعود · القادسية · #جوايز_الرومنسيه · الميزانيه العامه · العام المالي · بدر البدور · القمر اليوم · التحكيم الرياضيه"
+    },
+    {
+     "icon": "⚽",
+     "label": "Football (4)",
+     "items": "#ثلوثيه_الرومانسيه · #النصر_السد · شباب الاهلي · الاتحاد الافريقي"
     },
     {
      "icon": "🏛️",
@@ -2231,14 +2236,9 @@
      "items": "وزير الماليه"
     },
     {
-     "icon": "⚽",
-     "label": "Football (1)",
-     "items": "الاتحاد الافريقي"
-    },
-    {
      "icon": "🌊",
      "label": "Security (1)",
-     "items": "موقع الهجوم"
+     "items": "الهجوم الارهابي"
     }
    ]
   }
@@ -2478,23 +2478,23 @@
   "#ميزانيه_السعوديه2027": 14,
   "المركز المالي": 12,
   "#الدخيل_للعود": 10,
-  "#مجلس_الوزراء": 8,
-  "#المود_وش_يطلب": 7,
+  "القادسية": 8,
+  "#ثلوثيه_الرومانسيه": 7,
+  "#النصر_السد": 6,
+  "#جوايز_الرومنسيه": 6,
   "الميزانيه العامه": 6,
-  "#ولي_العهد": 6,
   "العام المالي": 6,
   "وزير الماليه": 6,
-  "التحكيم الرياضيه": 6,
-  "الجنسيه النيباليه": 4,
-  "الاتحاد الافريقي": 4,
   "بدر البدور": 4,
-  "الجنسيه الهنديه": 4,
-  "بان كيك": 4,
-  "موقع الهجوم": 4,
-  "محمد الجدعان": 4,
-  "ماتيلدا كيك": 4,
   "القمر اليوم": 4,
-  "مهد الذهب": 4
+  "شباب الاهلي": 4,
+  "الاتحاد الافريقي": 4,
+  "التحكيم الرياضيه": 4,
+  "محمد الجدعان": 4,
+  "الجنسيه النيباليه": 4,
+  "الهجوم الارهابي": 4,
+  "بان كيك": 4,
+  "الجنسيه الهنديه": 4
  },
  "news": {
   "date": "24 Nov 2026",
@@ -2509,12 +2509,12 @@
     "rank": 1
    },
    {
-    "headline": "Watch: Houthi advance toward Aden threatens maritime security, increases pressure on Saudi Arabia - The Jerusalem Post",
-    "summary": "Watch: Houthi advance toward Aden threatens maritime security, increases pressure on Saudi Arabia The Jerusalem Post",
-    "source": "The Jerusalem Post",
+    "headline": "Yemen’s Houthis Take Second Swipe at Tallest Tower in Saudi Capital - WSJ",
+    "summary": "Yemen’s Houthis Take Second Swipe at Tallest Tower in Saudi Capital WSJ",
+    "source": "WSJ",
     "date": "24 Nov 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5fWjBub3c3REU3MmhsN3h1RTRyM1Q3M05PSnRUaG0yM2dzQ0NwalBYYWNBeXJSTWtLWGo3WlFReXpIMXZQY3hlX1hBWU9hLXFKa0tlVExEM1cwLUk3?oc=5",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdjZVLVU3RnVMWXdvYUpUUkdTcVVCTjVvdkR1NG12eUNYalM5bTJVbVFndmFEZ2d1UGhUeEROM2lMcTRuMHBQQmh6amtpaWJIc0k1aHdBMEZvRUNEUndCYWJZZnIxS0x0OFNuRmgxMl90VEZKVVVwZVB2d0swTmpyQjdaejluSXRVeGNrVEMzU21zMkhIT21uSWNvM0cza1RYdkFDeW9OdVNIdGhtcW1PRTJmUQ?oc=5",
     "rank": 2
    },
    {
@@ -2527,12 +2527,12 @@
     "rank": 3
    },
    {
-    "headline": "Saudi Arabia said Duke agreed to build a ‘center of excellence’ in the kingdom. Duke says it has no such plans - The Duke Chronicle",
-    "summary": "Saudi Arabia said Duke agreed to build a ‘center of excellence’ in the kingdom. Duke says it has no such plans The Duke Chronicle",
-    "source": "The Duke Chronicle",
+    "headline": "Watch: Houthi advance toward Aden threatens maritime security, increases pressure on Saudi Arabia - The Jerusalem Post",
+    "summary": "Watch: Houthi advance toward Aden threatens maritime security, increases pressure on Saudi Arabia The Jerusalem Post",
+    "source": "The Jerusalem Post",
     "date": "24 Nov 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdVlVRWNBYmNYTWpHU1kxdTdvb1dQR1lnODFXb055b1ItQ3piOFVwajNwT3NSQXF1ZkV5bG1VU2cyUjExa2lZVk1wMDBqZnJNRVdwaktHMXhmZERHVkJ1R2p2MXRFaDdJRzdISUxnd1V6NUNtWEJEVFhpMXlsazFSaDRMUTFKSDZrMnNqM3pVU1RIVHlFelBZeTRtZERIYmcwTW1xYlkyNnhRUDVLY2lXVUFWQXVyd1dLOVUxcnd5VzRvd3I2dWlKblA1c0Z2WDlHbzFUYnZMVzlabTlWV0RsY01oMVgtVVpXekJ6ck9MTVgwZmJlcEE?oc=5",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5fWjBub3c3REU3MmhsN3h1RTRyM1Q3M05PSnRUaG0yM2dzQ0NwalBYYWNBeXJSTWtLWGo3WlFReXpIMXZQY3hlX1hBWU9hLXFKa0tlVExEM1cwLUk3?oc=5",
     "rank": 4
    },
    {
@@ -2554,12 +2554,12 @@
     "rank": 6
    },
    {
-    "headline": "What is Saudi Arabia's plan to break the Houthi war machine? - Tomorrow's Affairs",
-    "summary": "What is Saudi Arabia's plan to break the Houthi war machine? Tomorrow's Affairs",
-    "source": "Tomorrow's Affairs",
+    "headline": "Saudi Arabia said Duke agreed to build a ‘center of excellence’ in the kingdom. Duke says it has no such plans - The Duke Chronicle",
+    "summary": "Saudi Arabia said Duke agreed to build a ‘center of excellence’ in the kingdom. Duke says it has no such plans The Duke Chronicle",
+    "source": "The Duke Chronicle",
     "date": "24 Nov 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYjNvM0JoRG84QzhBSWIwNGpGbnlXVUtHVUJkeUw0eER5NmVleGpZZW5kOTZpV0E5SEJaRXJlLWE1b0hubmRVbUg4R3ZoeTRnQzlqVk01cEh6WlpfR01NWGdhMkhGN19JRUtTQTFGT2VCQVdmWDBnVndsbE5xZlVuSDZMQ1BGRWNlQUlxR3JrdHlfdw?oc=5",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdVlVRWNBYmNYTWpHU1kxdTdvb1dQR1lnODFXb055b1ItQ3piOFVwajNwT3NSQXF1ZkV5bG1VU2cyUjExa2lZVk1wMDBqZnJNRVdwaktHMXhmZERHVkJ1R2p2MXRFaDdJRzdISUxnd1V6NUNtWEJEVFhpMXlsazFSaDRMUTFKSDZrMnNqM3pVU1RIVHlFelBZeTRtZERIYmcwTW1xYlkyNnhRUDVLY2lXVUFWQXVyd1dLOVUxcnd5VzRvd3I2dWlKblA1c0Z2WDlHbzFUYnZMVzlabTlWV0RsY01oMVgtVVpXekJ6ck9MTVgwZmJlcEE?oc=5",
     "rank": 7
    },
    {
@@ -2581,21 +2581,21 @@
     "rank": 9
    },
    {
-    "headline": "Yemen’s Houthis Take Second Swipe at Tallest Tower in Saudi Capital - WSJ",
-    "summary": "Yemen’s Houthis Take Second Swipe at Tallest Tower in Saudi Capital WSJ",
-    "source": "WSJ",
+    "headline": "Houthi attack on Riyadh’s PIF Tower injures 11 - Financial Times",
+    "summary": "Houthi attack on Riyadh’s PIF Tower injures 11 Financial Times",
+    "source": "Financial Times",
     "date": "24 Nov 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdjZVLVU3RnVMWXdvYUpUUkdTcVVCTjVvdkR1NG12eUNYalM5bTJVbVFndmFEZ2d1UGhUeEROM2lMcTRuMHBQQmh6amtpaWJIc0k1aHdBMEZvRUNEUndCYWJZZnIxS0x0OFNuRmgxMl90VEZKVVVwZVB2d0swTmpyQjdaejluSXRVeGNrVEMzU21zMkhIT21uSWNvM0cza1RYdkFDeW9OdVNIdGhtcW1PRTJmUQ?oc=5",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRUoyYnRtNnd0OXpFV2M3VjdGZ0dqdnk0dFp0NmVFMkoxTnAxU28wWXdKZVRRREJEN1Zra1ZpaUE1NmR5eXVjT1hTMTR1SDhNbnpDU0lPMHg2a2c4SjZHUmVrQjRzcE9YTHFfYS0xZ3dwcVdQQno1UHNmb0FUWEs2UjdGQUw?oc=5",
     "rank": 10
    },
    {
-    "headline": "خلال 95 عاما.. المملكة اجتازت الاختبار مرتين والحوثي لن يحكم - الجزيرة نت",
-    "summary": "خلال 95 عاما.. المملكة اجتازت الاختبار مرتين والحوثي لن يحكم الجزيرة نت",
-    "source": "الجزيرة نت",
-    "date": "24 Nov 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPZWtIMURMZVVBTXh2N2I2X1NBUXRYSXZYUGNZeUtuTTlKU0szZFU3b3dBRmpDMFdvcTUxbG5fRG5FaDVoWFFqbXEtRUtDSWxmZU1ZMXFhNk94VmZVOTZYZWV6TWlQa0J3bnVyd0Z6Q2gtdEhTMDdmakVkckt5a2tWUzdsY3huZVQzWUpIRFRyc0FYNEZDeW1ObUwwQmRFRTFlc2FzdFBIV3p1dXo4ZXhYZUwxV1c0MkhHb1FKYTM4dU1tQUdiYlVtY255X05BY1FOSkx1UXBWM2NBZWxmejBKcXY4RTVDMVVocDQ4ZThBX2ZXX0U2b2lweUkwNnNuVUdiNExZa3dwMHdTVk4wVU5wdEx3cmhsVTlZWWl5aEtwcElQLVNDNWFBWXItZnNFYXFYcUZlbm1pWEt2T25yUWNVZThJYTZVWHBjQ2xn?oc=5",
+    "headline": "التحالف السعودي يؤكد اعتراض صاروخ بالستي والحوثيون يعلنون استهداف مصفاة رابغ - DW.com",
+    "summary": "التحالف السعودي يؤكد اعتراض صاروخ بالستي والحوثيون يعلنون استهداف مصفاة رابغ DW.com",
+    "source": "DW.com",
+    "date": "19 Nov 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiuARBVV95cUxNd29yTU05bUlEcG9iajZCUFd0ZkdyZEdJS0tZYjF2Nmd4ZDJNYWtleURPOVdaTE1FRTY1S0wwbmtkQmFYQUxPTFZjY0JDMDNUOEo5U2NlbG02YkRKbU9MemJILWdCUWNabE5kY3FOc0l2SVBkaVRUSTU3U01IeTlBeVh6ZW1hUDNyR2plVTZDUlNnZ25WbEcxMDNFemdJWF9LNkUyWHB5bXlHTkhWY1pXak1DWFYxYzZkWk9ucmRCOWZONDhiOW5iNEtNRVpzakRmX1FkWjRRbVV6MXdPTjVYOUJBcVk4a3d6dVkzWUhuYmJ5TGxFMVlPS1ZRZTRvckpJSWhvMV9KclJDdFhGaFFpZ1dNbmhTOWF3OFZveXpQVTB6cHdMeW04MXNTWkU2OEZZZExyaTRXcFUxQV82aGVKUko2bnhQNTNmY1ZHOUhhOVp3NDE1WjNEZ1JjWURNU3JIRnhLZ0pFbFplUGtYdXdHLXRKVXdVMnpnOWl6TGFiSEd6RDZGNG5ONGg4S2cwaTBUSzNXWEVGaTVOYlNXZG4wazVmbzdLS2pQaWZVS0dmQ3RRRmowazlOQXFQTGJXY1pkYTNWODBoTXpldGRtTnVDODdmT0U0MjQ5YlMzektyV0VpcTRtSkxvTW9mRHlTLW5UOXdyS3FCM2c4OTVRa0dBUnlhTzU1Mnk2V04yRFFSOFdoaTlTZ1diaTFZejJqTVFPU2hZV1RGNmNGbi1oRWlFZUc4N0VkYk9y?oc=5",
     "rank": 11
    },
    {
@@ -2617,22 +2617,40 @@
     "rank": 13
    },
    {
-    "headline": "أنصار الله يقصفون أهدافاً في السعودية، والرياض تعلن تنفيذ \"عملية بحرية عسكرية\" - BBC",
-    "summary": "أنصار الله يقصفون أهدافاً في السعودية، والرياض تعلن تنفيذ \"عملية بحرية عسكرية\" BBC",
-    "source": "BBC",
-    "date": "05 Oct 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ucXVvdkhmVWluWndlQXVyUkZyYndSSVlCckJwb3Q3ZWlDc3pVa3hEbnZ0UGkwYnpObFEwVXhMMmEyUHo2clBrWWFSUE8xUFk2NHBMUE1vRUU?oc=5",
-    "rank": 14
-   },
-   {
     "headline": "إكسيد تواصل تعزيز حضورها في المملكة العربية السعودية وتدشّن أكبر صالة عرض لسياراتها بالعالم في الرياض - صحيفة سبق الإلكترونية",
     "summary": "إكسيد تواصل تعزيز حضورها في المملكة العربية السعودية وتدشّن أكبر صالة عرض لسياراتها بالعالم في الرياض صحيفة سبق الإلكترونية",
     "source": "صحيفة سبق الإلكترونية",
     "date": "24 Nov 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBKQndTZGlhSUd5MVY1S2o2cEtROV9xdjI1OFNJV2o4Q1RZWHFGNHlIdTFMdmlUWDdDR25XRDNtaE15VXI2OG9R?oc=5",
+    "rank": 14
+   },
+   {
+    "headline": "خلال 95 عاما.. المملكة اجتازت الاختبار مرتين والحوثي لن يحكم - الجزيرة نت",
+    "summary": "خلال 95 عاما.. المملكة اجتازت الاختبار مرتين والحوثي لن يحكم الجزيرة نت",
+    "source": "الجزيرة نت",
+    "date": "24 Nov 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPZWtIMURMZVVBTXh2N2I2X1NBUXRYSXZYUGNZeUtuTTlKU0szZFU3b3dBRmpDMFdvcTUxbG5fRG5FaDVoWFFqbXEtRUtDSWxmZU1ZMXFhNk94VmZVOTZYZWV6TWlQa0J3bnVyd0Z6Q2gtdEhTMDdmakVkckt5a2tWUzdsY3huZVQzWUpIRFRyc0FYNEZDeW1ObUwwQmRFRTFlc2FzdFBIV3p1dXo4ZXhYZUwxV1c0MkhHb1FKYTM4dU1tQUdiYlVtY255X05BY1FOSkx1UXBWM2NBZWxmejBKcXY4RTVDMVVocDQ4ZThBX2ZXX0U2b2lweUkwNnNuVUdiNExZa3dwMHdTVk4wVU5wdEx3cmhsVTlZWWl5aEtwcElQLVNDNWFBWXItZnNFYXFYcUZlbm1pWEt2T25yUWNVZThJYTZVWHBjQ2xn?oc=5",
     "rank": 15
+   },
+   {
+    "headline": "السعودية تعلن اعتراض صاروخ باليستي حوثي وإصابة ستة أشخاص في غارة على صنعاء - BBC",
+    "summary": "السعودية تعلن اعتراض صاروخ باليستي حوثي وإصابة ستة أشخاص في غارة على صنعاء BBC",
+    "source": "BBC",
+    "date": "22 Nov 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1Wd2Vaa0pfVExBUmozUEtqWEdYUHkwTDV3TzJ5NjlpVV9rUDJhY0d5VTZSaUctdHVnLWdMZWlPNXBFZ2JkdjY2Vjd0Y09MRlpCODhWMVZSMDFwX3Z1a0HSAWNBVV95cUxPd1dCYlAzWUxBTmd3YU5VQl9mRXNCZGNZckYwYnNMZjJOajM5UjJUTTVaNkhZeXZVX3NWUC00cHFlb1owMGZIZkpLaXdxRDN3X1RfNHU3TmptVzl1UlIyc1R6UUk?oc=5",
+    "rank": 16
+   },
+   {
+    "headline": "كيف تنظر المملكة العربية السعودية لكلمة الرئيس عون؟ - annahar.com",
+    "summary": "كيف تنظر المملكة العربية السعودية لكلمة الرئيس عون؟ annahar.com",
+    "source": "annahar.com",
+    "date": "23 Nov 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxQSDhrNEU0RWZqcWFLbHVUX3ByLTFrTEF3d0pZd0NiVktwVDMwZFhwMHZxcmk2b3pHeDdqMmNSS1h1QlNCUGNOdkdQdmljOUJtdk8xRTh1aTdlMU9qYVBjdi11elZQemluVTJhSkRranFtcXBjb0lwbFlqTWJ1Z0tybHNzaHhFOVZDNjF3LWtrbmtMUlotWGhZUVJKbmhlckFWWTB4Sm4zQlNIc2lJOTFPNFl4WTlvbkJRd3dqU0liX0dDSmZKTmMwNjAxMFVPdmJoeWVZUm9xcHlYVFBYS2ZZVHpOeE9kcXhycVY0WXNmQXRXSl9KNUZOVzB6NmxiN1hOUlBwd1hrUXFDVXRCaGhTbS1BRXFnZlZHejdMQm8zczFmbW1zM016TXdCY3FvWU5TZy1veUllX0RKY1hpLTNXUzRsajhQdFhDZDNsYjZzVFJDZHM2blE1c2ZSNGctVzRIMm9yblB2dG9lN29sa0llZWNUdXZaM1lNZjNEMnRRYzZ2c3JtMXlfanpMa0NnWDhDZjJ0QWhZbl9qX1pPLTc0VDc2aHo0SzFmN3lPUWRVV1dTUQ?oc=5",
+    "rank": 17
    },
    {
     "headline": "ميزانية السعودية : الدين العام للمملكة العربية السعودية يتخطى 1.73 تريليون ريال ويصل لهذا المستوى في 2027 - صحيفة مال",
@@ -2641,7 +2659,7 @@
     "date": "24 Nov 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOR3IwWkVpX3ROb0R6VFZ1TTlwbHc4djJlZHRhVjFlMGJ5bTVzeGl6VEp4d0VZbG5GcHFGTXJLc0pkbUxhMENMbWotcG9PNW9NSTgzMXJaZ3hxTXB1bnhuRkVLU2paajhVU3poWXh2YlJ1UzhFOUtGcW02MUszVEt1X0Ywa0czd1loQWtXZEUzWXgzTFdGQng4Z09xakR6ZnEtckxNbkVYdFFubkpEMDJsaXc3czNTV21YTzdxVHJTTy1yVktzZzladmFrUTRNMWZVT2RLVTYtNjE0S3FGV3BLMG5LOXJTUm9zRl9j?oc=5",
-    "rank": 16
+    "rank": 18
    },
    {
     "headline": "مباشر — الأخبار المالية والأسواق والرؤى الاستثمارية - Mubasher",
@@ -2650,7 +2668,7 @@
     "date": "24 Nov 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMi_whBVV95cUxNU0hVejR4YnRKbE8tWVBTSWVYLVNfMFJVVWdJMURKMnV6WENLMVJ1VTJPdlNMd1ZwWXZ5ZzZRZ3dLR3BYMm1PVm1KMmYxSTh4aE9BZ2w0SzZZVGhja21TNG13STNWS3VJb01USDU3OW5jbTZWQU1JX2FkNnVoWk12TnJOWEVUMnZtdmw5dlliNXhTTUtOc0t3dTRLSVdmYzVob0RTc05Bb0V4bENtbFNsdDY5RXhGVjhQdmpOLUJ1ZmgzSk5iZXVUd3JMbXBmNi0yNTRiNVgtem55c1hRVHNZZjdGcmN0OGtyMFJSYmRwbHVUU1VSZ1F2cHBlcnZTUHZ3MkhPQi0xWnRSaVNjMzR3MWJ5cGFqMjFYRnRxa29qMUFYVTNaRVJWTHBaX25PY3B1OXZySHByX2FiR2NKVml1QjZLWG02M1NQbVQ2UmFOVzNiU1MzV21PcWdmSkx1VWlWcnEtU01oRU52dEtfZG5rQ3ZyaURrSUFtVEE1WFkteGNFaVI0U24tRkVmdnRZZDI0VU9ud21vSTQyZzR2aUEzR21nd3RSTXVaZFhNd0NlRFBPeXZtUjMzcHM4Sll6bk44R0Vnb3hVMktYRHhBTmdvTFRfWWE0WlRmcW5aOE1QYk9TcGJiVy11Wjc5bDRTOFdWMDZXTU85UDlOY0RHVjVfVVNpTjBZczBDSndHdFVBNDVSMDJzWjRqTDlESEw0NDRocWhXcmpyR0RqS3VDZDgxcldHbzlHUkQxc1UwTE9nOGh3R08wOWNfZG1rSVZTanlHUDNQVFNycUxKOVFNcGFLMkg3VjF0TmxGS2tYclpmTEkzbHJMXy0zTUNESEZtNlN4V0VsZ0lxbHhGekJvMFY2X1NNOXczNXZSZ1RYdVRPSlVqaVRfX0toeHdHWGRsTnRrSXp5eTJvcmRYUi1hSHBPY29VWkJtUUlDaDlhSmpfR2VZU1FialVBZ0lkZVQtdjU5cTZ0cVNyYTdubTZDZnpva3l3MV9SNFREMjRtdExrWUd5NVUwUWx0c2NZcERvQUJ6QnNGaHp1RW5FZWxwLVZmT0ZheXI4dEltWlVualprTDI2ejNOTmV1enJLd0pzV0JYQnA3ZVpsSFVVdFJNYlJYcm5RQ3FiTEw1OWU4WTZrR0I0bnAzTmh6VkZtaGNoV3VoSEZ5a0pncHdyN2tpX1FYMEpPTGJLcmE0MWpYalRreFlla2JZWG04WlNvN05HbzNfejBYa0hoVmJHcVdyVk9nRjlGX2U3dTdEempJa1QyaDBEQzQ4MnZmbGJPc0s0em1maUtVLThkTHBFV3dERGJWNkp3aHBCMUk1NTB1NWNqNGxCUDVlN1JqejdZb0ZmWVdUQjhueVFNSGJkcnpZMkE4NUhxRU4xVDFhbHVabDd0TnJ0NV9RRzRjeldSMTk2QlZJMGRuM3ZKNXdlSmFaVmtHaFNwRnJBYVNJcWpUOUhNckVISWh2Snh6ckFRbTBlYXUzei14N2VZazFTTktKYnpNcFZ3UnlKYlhpVWF1Y2dvWQ?oc=5",
-    "rank": 17
+    "rank": 19
    },
    {
     "headline": "البيرو تشيد بجهود المملكة في نشر قيم الوسطية والاعتدال - عكاظ",
@@ -2659,24 +2677,6 @@
     "date": "24 Nov 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Ja0tMOTJTTEtTd0JPSExZUDhZbHlGcFR5Z0E0MkM3UnQ2OFV3dXlRNjVmM3RQMlJreG5KYVJ2ZEQ4M0JTMUJNZE5CeEtBZHRjTnfSAVRBVV95cUxOSUpDWktyNEp5bFBvN1VjZnpMVlBKdkVIWEIxdUMwU2tkUTN1a0JBejA1N1R2ek95WWtYSEpWUVlpNEl2bHc0emZyYUNjZUVJdno2VU0?oc=5",
-    "rank": 18
-   },
-   {
-    "headline": "السعودية: هجوم حوثي على برج المركز المالي في الرياض - صحيفة الخليج",
-    "summary": "السعودية: هجوم حوثي على برج المركز المالي في الرياض صحيفة الخليج",
-    "source": "صحيفة الخليج",
-    "date": "24 Nov 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMimwRBVV95cUxQVndLOEpRMTByUW5HQmpNZlh2dGRfTEFuVVBhdTA5TDk4TTRsTUZsMVJuLWhCQm9UZDZ3WVhTZFI0OWRJS1JCR1ROX0ZQTFdJWGlSdUpramE5VUd5Q2FDTENHejFheWl6UjR3MFhYRXFBLW9teVBPRXg0LS1jZDZlbEJQWGtnSlIwUng3bkNkbUlqRmYzeXJYMGkxS1VuTXFfZzdnRlgya3U3WlcwNXhFblRBZHJ3WDVMWjF6UzVSRWE5d2ZQUkM0ZW9ZVFAyUXoyR1h6bFo4VkJsYjNNVEZMb3lsOVMyZW1FZzVBT0Nvb2tWQXdNSnM0bzlBb2lHSjVEbmFyYXVNdHB5ak5LSkM0TnJobE5NQy1sSE91a1A2S0NBeTZSTjZpR1lNMDdKeWdSS3VMbDhzMjRnMVFYTjJSNlI0Q2dhRElZN3BJdFI0a0UxR1V0UkkwNzdXaVl3UFJoS3BVZ0FKRUZzVHNoVTdhMk1PVDFMZldBOXpkWk5rNmxZWEsyZ0lPLVNMNTlQSVVrb2o5N09ENXlqcUhhQmpjQ3dYVm56a0dDV3BfOUNmUEg5V2F0SnlsWEFINjNBTjUyVndMVEc3SG04UWpwWXJTTEdQTTc2UTVzRmN6WDNTWW5UUXV5akpmNHdxeXVCSHdGZEV5bjZYUU96eWMzR1BPamlXWUZfUENXT1Q3cGtDbVgydTRka20tbzJjZw?oc=5",
-    "rank": 19
-   },
-   {
-    "headline": "السعودية تتوقع عجزا في ميزانية 2027 يفوق 190 مليار ريال - الجزيرة نت",
-    "summary": "السعودية تتوقع عجزا في ميزانية 2027 يفوق 190 مليار ريال الجزيرة نت",
-    "source": "الجزيرة نت",
-    "date": "24 Nov 2026",
-    "tag": "economy",
-    "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNeEpQYTlmdGpfZHRUclBfcldjNnlUMmVHYy0yY1JZUkUtR0hpLXJGOVlhYTNjZWN0c0pCQkVvdUs5LTdmOVV5MXBYT0xTQTF4RmhKYTRQcUdOMUo5cFBuSk1jSzRPXzlKMmw0X3lUWG8yUnVmeGR4OVBHQTkyQkpiTVEzS3V2T3pOYlh2T2lhcHY2emU4U2ZhQ2xJUXdnZXBiN3ZMZkFjSXZDWF9hbmhpMXV6YzZnbFU5NWdaVWFucG9NRTJzVUJ5SmdvZjdtbFh3dFRTa3VrUnlXZ2R3Y25zb2JBXzFWcGlfd3dweGNjZWswel9sd0xHS19PUXdjOWFHVVpvUU1kT3pySmYyT21Yc0plNXFqSjQ3RjdVeENHVm1yYUlrV3pscVp1YVY2STF5WDZYU0FPYjhPczhMVGdLcWVjZU1HaEgwTm1CTXZuS2VWc3VXLTQyaXVUcklTdw?oc=5",
     "rank": 20
    }
   ],
@@ -2700,13 +2700,31 @@
     "rank": 22
    },
    {
+    "headline": "Shafaq News..Saudi-led coalition reports attack on Riyadh financial district - شفق نيوز",
+    "summary": "Shafaq News..Saudi-led coalition reports attack on Riyadh financial district شفق نيوز",
+    "source": "شفق نيوز",
+    "date": "24 Nov 2026",
+    "tag": "security",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdmdjRlZjczh2akItSkd4N1lkVTEwdS11dGNHLVBIR09NenczMWhrTmVBRFpzaTdrc0tRM3RMMjNPT0hqSTRQMy03WUM3cXJyZEFBT0x1Mmxac2hLaE9nMm1udkE4N2dmd0xhdXdqMHBKbE9wcmI0VWFGb0h0QmdidnlpMDg0R1ZuVlQ5dFlEVnRzWFd0RDctR2JrNi1Vdw?oc=5",
+    "rank": 23
+   },
+   {
+    "headline": "PERFECT GAME ANNOUNCES MIDDLE EAST EXPANSION TO DUBAI, SAUDI ARABIA AND SURROUNDING COUNTRIES - StreetInsider",
+    "summary": "PERFECT GAME ANNOUNCES MIDDLE EAST EXPANSION TO DUBAI, SAUDI ARABIA AND SURROUNDING COUNTRIES StreetInsider",
+    "source": "StreetInsider",
+    "date": "24 Nov 2026",
+    "tag": "politics",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPeTB3X2ZCUmhYVU94c1YxT3otZ2pwTDVxZlAzN1VoMVhKSmo0T0NqcHMxVjFhWS1xa01ueE9BRmZvaXdQUF9OUmJ1UFhQVGdScWhGWVU2UkZ3MzZVX0dvbkpIZnl2TF9qSDJOeDg2ZHM5d0VMOG1zeGlKeFoxQzRJMHBTeDV3dThURFYzbDZ4MlpITGVrOUR3YkpOblYzbUY3ZExJbGhTTWRuTDI2cFRpSEV4Y0xoMmYwS3BBSjUxOE1VdkRoTV9nNXZ2NzJuZEFzV3Noa1lHemppdm9yZ0taZnI0cmNWSUVEekE?oc=5",
+    "rank": 24
+   },
+   {
     "headline": "Perfect Game announces Middle East expansion to Saudi Arabia, UAE, surrounding countries - Arab News",
     "summary": "Perfect Game announces Middle East expansion to Saudi Arabia, UAE, surrounding countries Arab News",
     "source": "Arab News",
     "date": "24 Nov 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVURxd3pOdnotODlaSmlyM2hrOFdSUkJhRTR0QnVZRjR5U01DOVdMeGczZ1lMMkUzYWk0REI0Q09JTE8xQ2pkNmVsY0lBZ0VPQ3NoT0I0UklybW5NYzlQelpMQlMxeWVCLVF2ZlkwNThzbnZ4bW0wUldDalRWbndCZDg4eFM4RHRkbVYzMTVGbUxpOV9TTGUzX0UtYjJmWU0tUzNZSmxtdEFxRGtSWGJhQkNBR1VVcnpNRjl3Wm1KR1NLQWM?oc=5",
-    "rank": 23
+    "rank": 25
    },
    {
     "headline": "UK invokes ‘British values’ in latest Houthi sanctions, makes no mention of ally Saudi Arabia - Middle East Eye",
@@ -2715,16 +2733,7 @@
     "date": "24 Nov 2026",
     "tag": "politics",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbkNLaHJDU1ZyNUVqVUxwdHpTMVcyV2tOVjNmSDZ6cUhMU3VXam1xNXcyZ2JnTkd5VFRpMUtIMGVLNjFzb0NXQTI4VU9paDlKekdoTG83OUFEOGRTNG16YnpXZEU4amFPQk55ZE12Q2RFaVhKV3Q5Y2doa2pfaEZpa3o5ZDFFLUhiSFdjYURJNlBMelBjWnpuTzBWNHF6d2lqQnFweTEzSm03LXpUY0FENFpITUNWUUNlbG5zMWJJUVl4STBPRzg0?oc=5",
-    "rank": 24
-   },
-   {
-    "headline": "Shafaq News..Saudi-led coalition reports attack on Riyadh financial district - شفق نيوز",
-    "summary": "Shafaq News..Saudi-led coalition reports attack on Riyadh financial district شفق نيوز",
-    "source": "شفق نيوز",
-    "date": "24 Nov 2026",
-    "tag": "security",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdmdjRlZjczh2akItSkd4N1lkVTEwdS11dGNHLVBIR09NenczMWhrTmVBRFpzaTdrc0tRM3RMMjNPT0hqSTRQMy03WUM3cXJyZEFBT0x1Mmxac2hLaE9nMm1udkE4N2dmd0xhdXdqMHBKbE9wcmI0VWFGb0h0QmdidnlpMDg0R1ZuVlQ5dFlEVnRzWFd0RDctR2JrNi1Vdw?oc=5",
-    "rank": 25
+    "rank": 26
    },
    {
     "headline": "Oil Majors’ Output in the Middle East - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com",
@@ -2733,24 +2742,15 @@
     "date": "23 Nov 2026",
     "tag": "economy",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxeFpxWkNNYlVBb1pyTDBwaHFjaFdDbTFtaXV4RFRyYzc1NVg4cy1xbjNvTHM5Q25UWEM4NXpnTXE5a3lGYV9fRHhzZUQyTlJ1blRtN291Smw2RTkzZzMyRkFndWJGS3Ffc1lkRkZNOGZGS3NYUkE?oc=5",
-    "rank": 26
-   },
-   {
-    "headline": "Saudi crown prince highlights East-West pipeline's role in securing global energy supplies - Anadolu Ajansı",
-    "summary": "Saudi crown prince highlights East-West pipeline's role in securing global energy supplies Anadolu Ajansı",
-    "source": "Anadolu Ajansı",
-    "date": "24 Nov 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVWFwTFQzS2N5UVF6aHZGLWNORWliZ0tRUmQyY2ZaM3NDTTBTbENBY3l6QVIydjBoaFRfOTdYTU1ndG9Ydm16c1U2X3RCRHQtbTFaNEFJQTBfUFBSeHotSVZfM3R0NThzOG1kQktsajJQUUtoMjYwSW1ITkVGbWdjdjhfZHlPNU5CUWJKWjNrS1RwZ0M4N2VOUzFvcllqaXFQMk9RM1VJZ3VUd3E2OFJJUkh0RDFrcnNrdy16MnRaRS1KU1d0MjJuT1J3?oc=5",
     "rank": 27
    },
    {
-    "headline": "مصدَّات السعودية السيادية تُحيِّد «صدمات الممرات» - الشرق الأوسط",
-    "summary": "مصدَّات السعودية السيادية تُحيِّد «صدمات الممرات» الشرق الأوسط",
+    "headline": "«سير» تراهن على بناء صناعة سيارات سعودية متكاملة - الشرق الأوسط",
+    "summary": "«سير» تراهن على بناء صناعة سيارات سعودية متكاملة الشرق الأوسط",
     "source": "الشرق الأوسط",
     "date": "24 Nov 2026",
-    "tag": "politics",
-    "url": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxQWVVzR2FhemoyNHUxdk5hUzJTX3l1YVdOYVhLdllJZFFub05JdDdocGU4dTRXUlRlTmhOOEtpT3pNVVV3SUhZMDlSZU15Z2pXNGM1MkN5bW91OGlZY2cwNVpJSDZ3VTZ4amkxLW5xT1Q3OURjTFpBZG5DVloxZDUzSjJFaVdQZTc0OHIyMUd1THZYRElmRV9NR2cxTUtFWGpiM0V6WmRMQW9KRzlRcFNTTlpmR3VCSVN3cF8xa05mc1pKSGZyY05QMzQ5Qms5Y1hKblRBREdxTHBEZEtSejNKOXBpS1ZyUDBSU1RnY2xBc0x2N1NZTV9HcXVyaVR2NHpjREY2NmNXekFpVWIxNkhvSjhSQWNTdmxlTGpiRmk2VUljaXBDaUdkYnJ5RVRQWGwzbzdHNmhTVkxSWVp3MXlXbWZtbFJTd0ctTzJEdEwzR0VxWkJfRm83U1dMZlk4MENpX1VoaktUdGtEUzJCa0d0ZWx1RVFzblFzZFR2ZTA2Wm9wZkx4bVFaMlo4cFBqeUJfOEpHNnMtZ0FSSzg2S2RWRjdKazh1RGRRcU5qdkx1ajN5eFFuSmhUVF9RNG1lYnE3cU5JVVdZSzFiWWg0bGJCTmZLdEl0WlRP?oc=5",
+    "tag": "housing",
+    "url": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxQNWFGcV9iUEFHU2Z3cEdySDhuVEdMOU1vdHFpZk5neEpqWk5rLVZIekVxM29mNmlZam9GMDd2dldFa3lXVmRsdjA2eElFMFBpc3lmUUNXd2lLVjZuSmFNQzRqa0pYRE9SWnkzN1hhUllZT1AxVmo5ZWFRVTNTcU41b2VIbHJLaDRlanYtNWNVN2RMQlpGRnhueDB5RDItMUQ3YnFGS3p6X0h0SUJQVjZQcTd3Z1F0NkxWYzFxWUUtSHExNDN1RTRodkMtT0YwcDQ1THdkakdDV1h6ZVVnNFZLamtyY0FfaEZxRG56QmlWeVNqSDJUYWZURWpDVmstb04xYnczLV85eWc3THV2QWpodm5WNnNucDQ0UlZfM3d5R2daWlpkVmVJUVRHcWNjSThNcWRWY1ZxemExSVFORzJ6LTJrX1ZJM1pRUElkZUlEUWkwa0tYS0tCdFVfYzBWaGVPU3BZc2hCZ1dEZ0tHOFZOU3JLZURCem1XazRLSVJmMHRsaFpnQnZNMXJFOGZvLWJ6eGMwaGNPWHR1QTQzX3lqTk03ZHdtLWZVdWtURTFCZ1p6cE1jdjB0NEI2LVAyb3ZzbjQ4?oc=5",
     "rank": 28
    },
    {
@@ -2908,126 +2908,157 @@
  },
  "google": {
   "date": "24 Nov 2026",
+  "source": "rss",
   "items": [
    {
-    "text": "pakistan a vs nepal",
+    "text": "شباب الأهلي ضد القادسية",
     "count": 10000,
+    "started": "2026-11-24T18:10:00+03:00",
+    "lang": "ar",
     "cat": "Football",
-    "source": "google"
+    "news": {
+     "title": "رياضي / دوري أبطال آسيا للنخبة.. القادسية يحل ضيفًا على شباب الأهلي في مواجهة مرتقبة",
+     "url": "https://www.spa.gov.sa/N2734464",
+     "source": "وكالة الأنباء السعودية"
+    },
+    "source": "google",
+    "peak": 10000,
+    "rank": 1
    },
    {
-    "text": "australia vs england",
-    "count": 20000,
-    "cat": "Football",
-    "source": "google"
+    "text": "مركز الملك عبد الله المالي",
+    "count": 10000,
+    "started": "2026-11-24T18:50:00+03:00",
+    "lang": "ar",
+    "cat": "Politics / Diplomacy",
+    "news": {
+     "title": "السعودية.. \"التحالف\" يعلن تعرض أحد أبراج المركز المالي في الرياض لهجوم \"إرهابي\"",
+     "url": "https://arabic.cnn.com/middle-east/article/2026/11/24/saudi-arabia-coalition-announces-financial-district-in-riyadh",
+     "source": "CNN Arabic"
+    },
+    "source": "google",
+    "peak": 10000,
+    "rank": 2
    },
    {
-    "text": "الاتحاد ضد باختاكور",
-    "count": 100000,
-    "cat": "Football",
-    "source": "google"
-   },
-   {
-    "text": "سعود بن عبد العزيز بن ناصر بن عبد العزيز آل سعود",
-    "count": 20000,
-    "cat": "General",
-    "source": "google"
-   },
-   {
-    "text": "uae vs india a",
-    "count": 20000,
-    "cat": "Football",
-    "source": "google"
-   },
-   {
-    "text": "الشمال ضد الأهلي",
-    "count": 50000,
-    "cat": "General",
-    "source": "google"
-   },
-   {
-    "text": "honor",
+    "text": "marco jansen",
     "count": 5000,
-    "cat": "General",
-    "source": "google"
+    "started": "2026-11-24T18:50:00+03:00",
+    "lang": "en",
+    "cat": "Cricket",
+    "news": {
+     "title": "De Zorzi fifty extends South Africa's advantage",
+     "url": "https://www.cricinfo.com/series/bangladesh-in-south-africa-2026-27-1525637/south-africa-vs-bangladesh-2nd-test-1525663/match-report",
+     "source": "Cricinfo"
+    },
+    "source": "google",
+    "peak": 5000,
+    "rank": 3
    },
    {
-    "text": "ساند",
+    "text": "shabab alahli vs al qadsiah",
     "count": 2000,
-    "cat": "General",
-    "source": "google"
-   },
-   {
-    "text": "marques ackerman",
-    "count": 20000,
-    "cat": "General",
-    "source": "google"
-   },
-   {
-    "text": "ترتيب الدوري المصري",
-    "count": 20000,
+    "started": "2026-11-24T18:20:00+03:00",
+    "lang": "en",
     "cat": "Football",
-    "source": "google"
+    "news": {
+     "title": "AFC Champions League Elite: Al-Qadsiah Faces Shabab Al-Ahli in Anticipated Clash",
+     "url": "https://www.spa.gov.sa/en/N2734489",
+     "source": "وكالة الأنباء السعودية"
+    },
+    "source": "google",
+    "peak": 2000,
+    "rank": 4
    },
    {
-    "text": "نيفتشي فرغانة ضد الهلال",
-    "count": 100000,
+    "text": "بيرلا حرب",
+    "count": 500,
+    "started": "2026-11-24T19:00:00+03:00",
+    "lang": "ar",
+    "cat": "General",
+    "news": {
+     "title": "حضارة مصر في مسابقة ملكة جمال الكون 2026... إطلالة سونيا جرجس تتصدر التفاعل",
+     "url": "https://www.alarabiya.net/arab-and-world/egypt/2026/11/23/%D8%A8%D8%A7%D8%AC%D9%86%D8%AD%D8%A9-%D8%AD%D9%88%D8%B1%D8%B3-%D9%88%D8%AA%D8%A7%D8%AC-%D8%AD%D8%AA%D8%AD%D9%88%D8%B1-%D8%B3%D9%88%D9%86%D9%8A%D8%A7-%D8%AC%D8%B1%D8%AC%D8%B3-%D8%AA%D8%B3%D8%AA%D9%84%D9%87%D9%85-%D8%A7%D9%84%D8%AD%D8%B6%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D8%A9-%D9%85%D9%84%D9%83%D8%A9-%D8%AC%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D9%83%D9%88%D9%86-",
+     "source": "العربية"
+    },
+    "source": "google",
+    "peak": 500,
+    "rank": 5
+   },
+   {
+    "text": "বিমান বাংলাদেশ এয়ারলাইন্স",
+    "count": 200,
+    "started": "2026-11-24T18:50:00+03:00",
+    "lang": "other",
+    "cat": "General",
+    "news": {
+     "title": "সৌদির বিমানবন্দরে বিধিনিষেধে প্রভাবিত ১৯৮ ফ্লাইট",
+     "url": "https://www.ajkerpatrika.com/business/ajpsfvn8edfr3",
+     "source": "Ajker Patrika"
+    },
+    "source": "google",
+    "peak": 200,
+    "rank": 6
+   },
+   {
+    "text": "الرواتب",
+    "count": 200,
+    "started": "2026-11-24T19:10:00+03:00",
+    "lang": "ar",
+    "cat": "General",
+    "news": {
+     "title": "الجدعان: إدراج دعم المواطنين ضمن الراتب يعزز قدرتهم على الاقتراض البنكي",
+     "url": "https://sabq.org/article/7NspNxy",
+     "source": "صحيفة سبق الإلكترونية"
+    },
+    "source": "google",
+    "peak": 200,
+    "rank": 7
+   },
+   {
+    "text": "سموحة ضد البنك الاهلي",
+    "count": 100,
+    "started": "2026-11-24T19:00:00+03:00",
+    "lang": "ar",
     "cat": "Football",
-    "source": "google"
+    "news": {
+     "title": "سموحة يواجه البنك الأهلي.. وزد يخشى مفاجآت أبو قير للأسمدة",
+     "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=24112026&id=b4592ab8-66cf-43e6-9d08-86aef95f5938",
+     "source": "بوابة الشروق"
+    },
+    "source": "google",
+    "peak": 100,
+    "rank": 8
    },
    {
-    "text": "النادي الأهلي",
-    "count": 20000,
-    "cat": "General",
-    "source": "google"
+    "text": "ابطال اوروبا",
+    "count": 100,
+    "started": "2026-11-24T19:20:00+03:00",
+    "lang": "ar",
+    "cat": "Football",
+    "news": {
+     "title": "إصابة في الفخذ تبعد إندريك عن ريال مدريد",
+     "url": "https://www.alarabiya.net/sport/2026/11/23/%D8%A7%D8%B5%D8%A7%D8%A8%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%81%D8%AE%D8%B0-%D8%AA%D8%A8%D8%B9%D8%AF-%D8%A7%D9%86%D8%AF%D8%B1%D9%8A%D9%83-%D8%B9%D9%86-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF",
+     "source": "العربية"
+    },
+    "source": "google",
+    "peak": 100,
+    "rank": 9
    },
    {
-    "text": "shamyl hussain",
-    "count": 1000,
+    "text": "sheikh hasina",
+    "count": 100,
+    "started": "2026-11-24T19:30:00+03:00",
+    "lang": "en",
     "cat": "General",
-    "source": "google"
-   },
-   {
-    "text": "محمد أنور السادات",
-    "count": 2000,
-    "cat": "General",
-    "source": "google"
-   },
-   {
-    "text": "محافظة لحج",
-    "count": 1000,
-    "cat": "General",
-    "source": "google"
-   },
-   {
-    "text": "أوكرانيا",
-    "count": 1000,
-    "cat": "General",
-    "source": "google"
-   },
-   {
-    "text": "جامعة",
-    "count": 2000,
-    "cat": "General",
-    "source": "google"
-   },
-   {
-    "text": "زيتون",
-    "count": 2000,
-    "cat": "General",
-    "source": "google"
-   },
-   {
-    "text": "مرض",
-    "count": 500,
-    "cat": "General",
-    "source": "google"
-   },
-   {
-    "text": "vaibhav sooryavanshi",
-    "count": 500,
-    "cat": "General",
-    "source": "google"
+    "news": {
+     "title": "Sheikh Hasina plans to return to Bangladesh from exile on December 16",
+     "url": "https://www.aljazeera.com/news/2026/11/24/sheikh-hasina-plans-to-return-to-bangladesh-from-exile-on-december-16",
+     "source": "Al Jazeera"
+    },
+    "source": "google",
+    "peak": 100,
+    "rank": 10
    }
   ]
  },
@@ -3205,6 +3236,168 @@
    "trend": "peaked",
    "period": "30d",
    "cat": "General"
+  }
+ },
+ "google_history": {
+  "sheikh hasina": {
+   "first_seen": "2026-11-24T20:04:34.535821+03:00",
+   "text": "sheikh hasina",
+   "count": 100,
+   "started": "2026-11-24T19:30:00+03:00",
+   "lang": "en",
+   "cat": "General",
+   "news": {
+    "title": "Sheikh Hasina plans to return to Bangladesh from exile on December 16",
+    "url": "https://www.aljazeera.com/news/2026/11/24/sheikh-hasina-plans-to-return-to-bangladesh-from-exile-on-december-16",
+    "source": "Al Jazeera"
+   },
+   "source": "google",
+   "last_seen": "2026-11-24T20:04:34.535821+03:00",
+   "peak": 100
+  },
+  "ابطال اوروبا": {
+   "first_seen": "2026-11-24T20:04:34.535821+03:00",
+   "text": "ابطال اوروبا",
+   "count": 100,
+   "started": "2026-11-24T19:20:00+03:00",
+   "lang": "ar",
+   "cat": "Football",
+   "news": {
+    "title": "إصابة في الفخذ تبعد إندريك عن ريال مدريد",
+    "url": "https://www.alarabiya.net/sport/2026/11/23/%D8%A7%D8%B5%D8%A7%D8%A8%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%81%D8%AE%D8%B0-%D8%AA%D8%A8%D8%B9%D8%AF-%D8%A7%D9%86%D8%AF%D8%B1%D9%8A%D9%83-%D8%B9%D9%86-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF",
+    "source": "العربية"
+   },
+   "source": "google",
+   "last_seen": "2026-11-24T20:04:34.535821+03:00",
+   "peak": 100
+  },
+  "الرواتب": {
+   "first_seen": "2026-11-24T20:04:34.535821+03:00",
+   "text": "الرواتب",
+   "count": 200,
+   "started": "2026-11-24T19:10:00+03:00",
+   "lang": "ar",
+   "cat": "General",
+   "news": {
+    "title": "الجدعان: إدراج دعم المواطنين ضمن الراتب يعزز قدرتهم على الاقتراض البنكي",
+    "url": "https://sabq.org/article/7NspNxy",
+    "source": "صحيفة سبق الإلكترونية"
+   },
+   "source": "google",
+   "last_seen": "2026-11-24T20:04:34.535821+03:00",
+   "peak": 200
+  },
+  "سموحة ضد البنك الاهلي": {
+   "first_seen": "2026-11-24T20:04:34.535821+03:00",
+   "text": "سموحة ضد البنك الاهلي",
+   "count": 100,
+   "started": "2026-11-24T19:00:00+03:00",
+   "lang": "ar",
+   "cat": "Football",
+   "news": {
+    "title": "سموحة يواجه البنك الأهلي.. وزد يخشى مفاجآت أبو قير للأسمدة",
+    "url": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=24112026&id=b4592ab8-66cf-43e6-9d08-86aef95f5938",
+    "source": "بوابة الشروق"
+   },
+   "source": "google",
+   "last_seen": "2026-11-24T20:04:34.535821+03:00",
+   "peak": 100
+  },
+  "بيرلا حرب": {
+   "first_seen": "2026-11-24T20:04:34.535821+03:00",
+   "text": "بيرلا حرب",
+   "count": 500,
+   "started": "2026-11-24T19:00:00+03:00",
+   "lang": "ar",
+   "cat": "General",
+   "news": {
+    "title": "حضارة مصر في مسابقة ملكة جمال الكون 2026... إطلالة سونيا جرجس تتصدر التفاعل",
+    "url": "https://www.alarabiya.net/arab-and-world/egypt/2026/11/23/%D8%A8%D8%A7%D8%AC%D9%86%D8%AD%D8%A9-%D8%AD%D9%88%D8%B1%D8%B3-%D9%88%D8%AA%D8%A7%D8%AC-%D8%AD%D8%AA%D8%AD%D9%88%D8%B1-%D8%B3%D9%88%D9%86%D9%8A%D8%A7-%D8%AC%D8%B1%D8%AC%D8%B3-%D8%AA%D8%B3%D8%AA%D9%84%D9%87%D9%85-%D8%A7%D9%84%D8%AD%D8%B6%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D8%A9-%D9%85%D9%84%D9%83%D8%A9-%D8%AC%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D9%83%D9%88%D9%86-",
+    "source": "العربية"
+   },
+   "source": "google",
+   "last_seen": "2026-11-24T20:04:34.535821+03:00",
+   "peak": 500
+  },
+  "مركز الملك عبد الله المالي": {
+   "first_seen": "2026-11-24T20:04:34.535821+03:00",
+   "text": "مركز الملك عبد الله المالي",
+   "count": 10000,
+   "started": "2026-11-24T18:50:00+03:00",
+   "lang": "ar",
+   "cat": "Politics / Diplomacy",
+   "news": {
+    "title": "السعودية.. \"التحالف\" يعلن تعرض أحد أبراج المركز المالي في الرياض لهجوم \"إرهابي\"",
+    "url": "https://arabic.cnn.com/middle-east/article/2026/11/24/saudi-arabia-coalition-announces-financial-district-in-riyadh",
+    "source": "CNN Arabic"
+   },
+   "source": "google",
+   "last_seen": "2026-11-24T20:04:34.535821+03:00",
+   "peak": 10000
+  },
+  "বিমান বাংলাদেশ এয়ারলাইন্স": {
+   "first_seen": "2026-11-24T20:04:34.535821+03:00",
+   "text": "বিমান বাংলাদেশ এয়ারলাইন্স",
+   "count": 200,
+   "started": "2026-11-24T18:50:00+03:00",
+   "lang": "other",
+   "cat": "General",
+   "news": {
+    "title": "সৌদির বিমানবন্দরে বিধিনিষেধে প্রভাবিত ১৯৮ ফ্লাইট",
+    "url": "https://www.ajkerpatrika.com/business/ajpsfvn8edfr3",
+    "source": "Ajker Patrika"
+   },
+   "source": "google",
+   "last_seen": "2026-11-24T20:04:34.535821+03:00",
+   "peak": 200
+  },
+  "marco jansen": {
+   "first_seen": "2026-11-24T20:04:34.535821+03:00",
+   "text": "marco jansen",
+   "count": 5000,
+   "started": "2026-11-24T18:50:00+03:00",
+   "lang": "en",
+   "cat": "Cricket",
+   "news": {
+    "title": "De Zorzi fifty extends South Africa's advantage",
+    "url": "https://www.cricinfo.com/series/bangladesh-in-south-africa-2026-27-1525637/south-africa-vs-bangladesh-2nd-test-1525663/match-report",
+    "source": "Cricinfo"
+   },
+   "source": "google",
+   "last_seen": "2026-11-24T20:04:34.535821+03:00",
+   "peak": 5000
+  },
+  "shabab alahli vs al qadsiah": {
+   "first_seen": "2026-11-24T20:04:34.535821+03:00",
+   "text": "shabab alahli vs al qadsiah",
+   "count": 2000,
+   "started": "2026-11-24T18:20:00+03:00",
+   "lang": "en",
+   "cat": "Football",
+   "news": {
+    "title": "AFC Champions League Elite: Al-Qadsiah Faces Shabab Al-Ahli in Anticipated Clash",
+    "url": "https://www.spa.gov.sa/en/N2734489",
+    "source": "وكالة الأنباء السعودية"
+   },
+   "source": "google",
+   "last_seen": "2026-11-24T20:04:34.535821+03:00",
+   "peak": 2000
+  },
+  "شباب الأهلي ضد القادسية": {
+   "first_seen": "2026-11-24T20:04:34.535821+03:00",
+   "text": "شباب الأهلي ضد القادسية",
+   "count": 10000,
+   "started": "2026-11-24T18:10:00+03:00",
+   "lang": "ar",
+   "cat": "Football",
+   "news": {
+    "title": "رياضي / دوري أبطال آسيا للنخبة.. القادسية يحل ضيفًا على شباب الأهلي في مواجهة مرتقبة",
+    "url": "https://www.spa.gov.sa/N2734464",
+    "source": "وكالة الأنباء السعودية"
+   },
+   "source": "google",
+   "last_seen": "2026-11-24T20:04:34.535821+03:00",
+   "peak": 10000
   }
  }
 }
