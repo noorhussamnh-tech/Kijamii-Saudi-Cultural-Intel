@@ -117,6 +117,8 @@ body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,san
 .nav{width:100%;margin-bottom:20px;background:var(--nav-bg);padding:4px 0}
 .nav-inner{display:table;width:100%;border-spacing:8px 0}
 .nav-tab{display:table-cell;width:20%;padding:14px 8px;text-align:center;font-size:1rem;font-weight:800;border-radius:10px;cursor:pointer;border:2px solid var(--nav-tab-border);background:var(--nav-tab-bg);color:var(--nav-tab-text);font-family:inherit}
+/* Phones: five tabs don't fit, so the bar scrolls inside itself, not the page */
+@media (max-width:600px){.nav{overflow-x:auto;-webkit-overflow-scrolling:touch}.nav-inner{display:flex;gap:8px;width:max-content;padding:0 16px;border-spacing:0}.nav-tab{display:block;width:auto;white-space:nowrap;padding:12px 14px;font-size:0.9rem}}
 .nav-tab.on{background:var(--accent);border-color:var(--accent);color:#fff}
 
 /* PANELS */
@@ -231,11 +233,14 @@ tr.hidden{display:none}
 .tiktok-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;display:flex;gap:14px;align-items:center}
 .tiktok-rank{width:32px;height:32px;border-radius:50%;background:var(--surface2);display:flex;align-items:center;justify-content:center;font-size:0.8rem;font-weight:800;color:var(--muted);flex-shrink:0}
 .tiktok-rank.r1{background:#ffd700;color:#000}.tiktok-rank.r2{background:#c0c0c0;color:#000}.tiktok-rank.r3{background:#cd7f32;color:#fff}
-.tiktok-body{flex:1}
-.tiktok-tag{font-size:1rem;font-weight:800;direction:rtl;unicode-bidi:plaintext;text-align:right;margin-bottom:4px;color:var(--text)}
+.tiktok-body{flex:1;min-width:0}
+.tiktok-tag{font-size:1rem;font-weight:800;direction:rtl;unicode-bidi:plaintext;text-align:right;margin-bottom:4px;color:var(--text);overflow-wrap:anywhere}
 .tiktok-count{font-size:0.75rem;color:var(--accent2-ink);font-weight:700;margin-bottom:6px;text-align:right}
 .tiktok-meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
 .tiktok-source{font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;color:var(--muted);padding:2px 7px;border-radius:4px;background:var(--surface2)}
+.tiktok-note{font-size:0.75rem;color:var(--muted);margin:-4px 0 12px;line-height:1.6}
+.tiktok-now{font-size:0.65rem;font-weight:800;text-transform:uppercase;letter-spacing:0.8px;color:#fff;background:var(--accent);padding:2px 7px;border-radius:4px}
+.tiktok-seen{font-size:0.65rem;font-weight:700;color:var(--muted);padding:2px 7px;border-radius:4px;border:1px solid var(--border)}
 .tiktok-empty{color:var(--muted);font-size:0.85rem;padding:36px 20px;text-align:center;line-height:1.9}
 .stale-warn{color:var(--accent2-ink);font-size:0.76rem;font-weight:700}
 
@@ -409,8 +414,10 @@ tr.hidden{display:none}
 
 <!-- TIKTOK PANEL -->
 <div class="panel" id="panel-tiktok">
-  <div class="date-banner" style="margin-bottom:16px">Saudi TikTok trends · <strong id="tiktok-date"></strong> · TikTok Creative Center, top hashtags (7 &amp; 30 days) · Refreshed every ~6h</div>
-  <div class="sec-label">🎵 Trending on Saudi TikTok</div>
+  <div class="date-banner" style="margin-bottom:16px">Saudi TikTok trends 🇸🇦 · latest pull <strong id="tiktok-date"></strong> · TikTok Creative Center · Saudi Arabia only · refreshed every ~6h</div>
+  <div class="log-filter" id="tiktok-filter"></div>
+  <div class="sec-label" id="tiktok-label">🎵 Trending on Saudi TikTok</div>
+  <div class="tiktok-note" id="tiktok-note"></div>
   <div class="tiktok-grid" id="tiktok-grid"></div>
 </div><!-- /panel-tiktok -->
 
@@ -440,7 +447,9 @@ tr.hidden{display:none}
 // ── DATA ──────────────────────────────────────────────────────────────────────
 var PASSWORD = "Kculturalintelligence268%";
 
-var DAYS = {}, CUMUL = {}, TODAY_NEWS = {}, TODAY_TIKTOK = {}, TODAY_GOOGLE = {};
+var DAYS = {}, CUMUL = {}, TODAY_NEWS = {}, TODAY_TIKTOK = {}, TODAY_GOOGLE = {}, TIKTOK_HISTORY = {};
+var TIKTOK_VIEW = "all";
+try { TIKTOK_VIEW = localStorage.getItem("tiktokView") || "all"; } catch (e) {}
 
 // ── STATE ────────────────────────────────────────────────────────────────────
 var activeMode   = "trends";
@@ -596,6 +605,7 @@ function loadData(keepView) {
     .then(function(d) {
       DAYS = d.days; CUMUL = d.cumul; TODAY_NEWS = d.news;
       TODAY_TIKTOK = d.tiktok || {}; TODAY_GOOGLE = d.google || {};
+      TIKTOK_HISTORY = d.tiktok_history || {};
       BRIEFS = d.briefs || {};
       dayKeys = Object.keys(DAYS).sort();
 
@@ -937,72 +947,150 @@ function renderNewsPanel() {
   applyNewsScope();
 }
 
+function tkEsc(v) {
+  return String(v == null ? "" : v).replace(/[&<>"']/g, function(c) {
+    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
+  });
+}
+
+function tkLang(tag) {
+  if (/[؀-ۿ]/.test(tag)) return "ar";
+  if (/[A-Za-z]/.test(tag)) return "en";
+  return "other";
+}
+
+function tkShortDate(key) {
+  var d = new Date(key + "T12:00:00");
+  return isNaN(d) ? key : d.toLocaleDateString("en-GB", {day:"numeric", month:"short"});
+}
+
+// One list for all three views. Each hashtag seen in the last 14 days appears
+// once; the ones in the latest pull are flagged "Trending now" and sorted first.
+function tiktokRows() {
+  var current = {};
+  (TODAY_TIKTOK.items || []).forEach(function(it, i) {
+    if (it.source === "x" && !(it.count > 0) && !(it.posts && it.posts !== "0")) return;
+    current[it.text] = {item: it, pos: i};
+  });
+  var rows = {};
+  Object.keys(TIKTOK_HISTORY).forEach(function(tag) {
+    var h = TIKTOK_HISTORY[tag];
+    rows[tag] = {text: tag, lang: h.lang || tkLang(tag), posts: h.posts, views: h.views,
+                 views_n: h.views_n || 0, trend: h.trend, period: h.period, cat: h.cat,
+                 last_seen: h.last_seen, days: (h.days || []).length, now: false, pos: 999};
+  });
+  Object.keys(current).forEach(function(tag) {
+    var it = current[tag].item, r = rows[tag] || {text: tag, days: 1};
+    r.lang = it.lang || tkLang(tag); r.posts = it.posts || r.posts; r.views = it.views || r.views;
+    r.trend = it.trend || r.trend; r.period = it.period || r.period; r.cat = it.cat || r.cat;
+    r.count = it.count; r.source = it.source; r.now = true; r.pos = current[tag].pos;
+    rows[tag] = r;
+  });
+  return Object.keys(rows).map(function(k){ return rows[k]; }).sort(function(a, b) {
+    if (a.now !== b.now) return a.now ? -1 : 1;
+    if (a.now) return a.pos - b.pos;
+    if (a.last_seen !== b.last_seen) return a.last_seen < b.last_seen ? 1 : -1;
+    return (b.views_n || 0) - (a.views_n || 0);
+  });
+}
+
 function renderTiktokPanel() {
-  var tiktok = TODAY_TIKTOK;
+  var tiktok = TODAY_TIKTOK || {};
   var grid = document.getElementById("tiktok-grid");
   var dateEl = document.getElementById("tiktok-date");
+  var filterEl = document.getElementById("tiktok-filter");
+  var labelEl = document.getElementById("tiktok-label");
+  var noteEl = document.getElementById("tiktok-note");
+  var all = tiktokRows();
 
-  // Filter out pure X-trend fallback items (source "x" with no engagement numbers) —
-  // those are Twitter/X trends, not TikTok data, and must not show in this tab.
-  var items = (tiktok.items || []).filter(function(item) {
-    return item.source !== "x" || (item.count && item.count > 0) || (item.posts && item.posts !== "0");
-  });
-
-  if (!tiktok || items.length === 0) {
+  if (all.length === 0) {
     if (dateEl) dateEl.textContent = "no data";
+    filterEl.innerHTML = ""; noteEl.textContent = "";
     grid.innerHTML = '<div class="tiktok-empty">'
-      + '<strong style="color:#f5a623">No real TikTok data available right now.</strong><br>'
-      + 'TikTok blocks automated scraping from GitHub’s servers, so this tab is fed by '
-      + '<strong>tiktok_cc.json</strong> in the repo.<br>'
-      + 'To refresh: open TikTok Creative Center → Trending → Hashtags → Saudi Arabia, '
-      + 'paste the results into <strong>tiktok_cc.json</strong>, set the date to today, and commit.'
+      + '<strong style="color:#f5a623">No Saudi TikTok data available right now.</strong><br>'
+      + 'The tab reads TikTok Creative Center (Saudi Arabia) every ~6 hours. If this persists, '
+      + 'check the latest "Saudi Trends Update" run in GitHub Actions.'
       + '</div>';
     return;
   }
 
-  // Work out the age from the data's own date, so ANY source that stops
-  // refreshing is flagged — not only the hand-pasted file.
+  // Age from the data's own date, so ANY source that stops refreshing is flagged.
   var staleDays = tiktok.stale_days || 0;
   var parsed = Date.parse(tiktok.date || "");
-  if (!isNaN(parsed)) {
-    staleDays = Math.max(staleDays, Math.floor((Date.now() - parsed) / 86400000));
-  }
+  if (!isNaN(parsed)) staleDays = Math.max(staleDays, Math.floor((Date.now() - parsed) / 86400000));
   if (dateEl) {
-    dateEl.innerHTML = tiktok.date + (staleDays >= 2
+    dateEl.innerHTML = tkEsc(tiktok.date || "") + (staleDays >= 2
       ? ' <span class="stale-warn">⚠ ' + staleDays + ' days old — TikTok source not refreshing</span>'
       : '');
+  }
+
+  var VIEWS = [
+    {key:"all", label:"All · 14 days", title:"🎵 All Saudi TikTok hashtags — last 14 days"},
+    {key:"ar",  label:"Arabic",  title:"🎵 Arabic hashtags trending in Saudi"},
+    {key:"en",  label:"English", title:"🎵 English hashtags trending in Saudi"}
+  ];
+  var counts = {all: all.length, ar: 0, en: 0};
+  all.forEach(function(r){ if (counts[r.lang] !== undefined) counts[r.lang]++; });
+  filterEl.innerHTML = '<span class="log-filter-label">Show</span>' + VIEWS.map(function(v) {
+    return '<button class="filter-btn' + (TIKTOK_VIEW === v.key ? ' on' : '') + '" data-tkview="' + v.key + '">'
+      + v.label + ' (' + counts[v.key] + ')</button>';
+  }).join("");
+  Array.prototype.forEach.call(filterEl.querySelectorAll("[data-tkview]"), function(btn) {
+    btn.addEventListener("click", function() {
+      TIKTOK_VIEW = btn.getAttribute("data-tkview");
+      try { localStorage.setItem("tiktokView", TIKTOK_VIEW); } catch (e) {}
+      renderTiktokPanel();
+    });
+  });
+  var view = VIEWS.filter(function(v){ return v.key === TIKTOK_VIEW; })[0] || VIEWS[0];
+  labelEl.textContent = view.title;
+
+  var items = view.key === "all" ? all : all.filter(function(r){ return r.lang === view.key; });
+  var nowCount = items.filter(function(r){ return r.now; }).length;
+  noteEl.textContent = nowCount + " trending in the latest pull · " + (items.length - nowCount)
+    + " seen earlier in the last 14 days. TikTok shows the top 3 Saudi hashtags per 7- and 30-day window to logged-out visitors, so the list builds up over time.";
+
+  if (items.length === 0) {
+    grid.innerHTML = '<div class="tiktok-empty">No ' + (view.key === "ar" ? "Arabic" : "English")
+      + ' hashtags in the Saudi top lists over the last 14 days yet.<br>This fills in as new pulls arrive every ~6 hours.</div>';
+    return;
   }
 
   var TREND_ICON = {rising:"↑", peaked:"▲", stable:"→", declining:"↓"};
   grid.innerHTML = items.map(function(item, i) {
     var rank = i + 1;
     var rc = rank===1?"r1":rank===2?"r2":rank===3?"r3":"";
-    var srcLabel = item.source==="cc" ? "Creative Center" : item.source==="google" ? "Google Trends" : "X Trends";
+    var srcLabel = item.source==="google" ? "Google Trends" : item.source==="x" ? "X Trends" : "Creative Center";
     var postsStr = "";
     if (item.posts) {
       postsStr = item.posts + " posts";
     } else if (item.count > 0) {
-      postsStr = item.count >= 1000000
-        ? (item.count/1000000).toFixed(1) + "M posts"
-        : item.count >= 1000
-        ? Math.round(item.count/1000) + "K posts"
-        : item.count + " posts";
+      postsStr = item.count >= 1000000 ? (item.count/1000000).toFixed(1) + "M posts"
+        : item.count >= 1000 ? Math.round(item.count/1000) + "K posts" : item.count + " posts";
     }
     var viewsStr = item.views ? item.views + " views" : "";
-    if (item.period) viewsStr += (viewsStr ? " · " : "") + "top in " + item.period.replace("d", " days");
+    if (item.period) viewsStr += (viewsStr ? " · " : "") + "top in " + String(item.period).replace("d", " days");
     var trendCls = item.trend || "stable";
-    var trendIcon = item.trend ? (TREND_ICON[item.trend] || "") : "";
-    var cat = (item.cat || "general").toLowerCase().replace(/ \/ /g,"-").replace(/ /g,"-");
+    var trendIcon = item.now && item.trend ? (TREND_ICON[item.trend] || "") : "";
+    var catName = item.cat || "General";
+    var cat = catName.toLowerCase().replace(/ \/ /g,"-").replace(/[^a-z0-9]+/g,"-");
+    var status = item.now
+      ? '<span class="tiktok-now">Trending now</span>'
+      : '<span class="tiktok-seen">Last seen ' + tkShortDate(item.last_seen) + '</span>';
+    var daysBadge = item.days > 1 ? '<span class="tiktok-seen">On ' + item.days + ' days</span>' : '';
+    var langBadge = '<span class="tiktok-source">' + (item.lang === "ar" ? "Arabic" : item.lang === "en" ? "English" : "Other") + '</span>';
     return '<div class="tiktok-card">' +
       '<div class="tiktok-rank '+rc+'">'+rank+'</div>' +
       '<div class="tiktok-body">' +
         '<div class="tiktok-tag">' +
           (trendIcon ? '<span class="tiktok-trend '+trendCls+'">'+trendIcon+'</span>' : '') +
-          item.text +
+          tkEsc(item.text) +
         '</div>' +
-        (postsStr ? '<div class="tiktok-count">'+postsStr+(viewsStr?" · "+viewsStr:"")+'</div>' : '') +
+        ((postsStr || viewsStr) ? '<div class="tiktok-count">'+tkEsc(postsStr)+(postsStr && viewsStr ? " · " : "")+tkEsc(viewsStr)+'</div>' : '') +
         '<div class="tiktok-meta">' +
-          '<span class="news-tag '+cat+'">'+item.cat+'</span>' +
+          status + daysBadge +
+          '<span class="news-tag '+cat+'">'+tkEsc(catName)+'</span>' +
+          (view.key === "all" ? langBadge : '') +
           '<span class="tiktok-source">'+srcLabel+'</span>' +
         '</div>' +
       '</div>' +

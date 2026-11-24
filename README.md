@@ -27,6 +27,14 @@ The tab now reads the new public endpoint directly. Logged out, TikTok shows the
 Apify is only called if the direct pull fails. The page flags any TikTok data
 older than 2 days, whatever the source.
 
+The tab has three views — **All · 14 days**, **Arabic**, **English** — built
+from `tiktok_history` in `data.json`: every Saudi hashtag seen in the last 14
+days (first/last seen, days on the list, latest posts/views). Hashtags in the
+latest pull are marked *Trending now*. Language is by script: Arabic letters →
+Arabic, Latin letters → English. Categories fall back to TikTok's own industry
+labels when our keyword categoriser has no match. All data is `countryCode: SA`;
+a batch whose top creators aren't Saudi is discarded.
+
 ### Why the TikTok and Google tabs are slower
 
 Those two sources cost money per pull, so they sit behind a reuse window
@@ -92,7 +100,7 @@ python3 -m http.server 8000     # then open http://localhost:8000/index.html
 ```
 .github/workflows/update.yml   the live workflow — the only one GitHub runs
 update_trends.py               scraper + scorer; writes data.json
-data.json                      the site's entire dataset (14-day rolling window)
+data.json                      the site's entire dataset (14-day rolling window, incl. tiktok_history)
 index.html                     the whole front end, no build step
 tiktok_cc.json                 hand-pasted TikTok Creative Center fallback
 scripts/                       standalone helper; its nested workflow file is NOT run

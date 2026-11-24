@@ -815,6 +815,73 @@ TIKTOK_CC_PERIODS = (7, 30)
 TIKTOK_DIRECT_H = float(os.environ.get("TIKTOK_DIRECT_HOURS") or "6")
 
 
+# TikTok's own top-level industry labels (read from the Creative Center bundle).
+# Used when our keyword categoriser can only say "General".
+TIKTOK_INDUSTRY = {
+    "10": "Education", "11": "Vehicle & Transportation", "12": "Baby, Kids & Maternity",
+    "13": "Financial Services", "14": "Beauty & Personal Care", "15": "Tech & Electronics",
+    "16": "Appliances", "17": "Travel", "18": "Household Products", "19": "Pets",
+    "20": "Apps", "21": "Home Improvement", "22": "Apparel & Accessories",
+    "23": "News & Entertainment", "24": "Business Services", "25": "Games",
+    "26": "Life Services", "27": "Food & Beverage", "28": "Sports & Outdoor",
+    "29": "Health", "30": "E-Commerce (Non-app)",
+}
+LATIN = re.compile("[A-Za-z]")
+# Accumulate every Saudi hashtag seen for this long. Logged out, TikTok gives
+# ~6 a pull; the history is what makes Arabic-only / English-only views usable.
+TIKTOK_HISTORY_DAYS = 14
+
+
+def tiktok_lang(tag):
+    """'ar' if the hashtag has Arabic script, 'en' if Latin, else 'other'."""
+    if ARABIC.search(tag):
+        return "ar"
+    if LATIN.search(tag):
+        return "en"
+    return "other"
+
+
+def _tiktok_cat(name, industry_ids):
+    cat = categorize(name)
+    if cat != "General":
+        return cat
+    for iid in industry_ids or []:
+        label = TIKTOK_INDUSTRY.get(str(iid)[:2])
+        if label:
+            return label
+    return cat
+
+
+def update_tiktok_history(data, items):
+    """Fold this pull into the 14-day rolling record of Saudi TikTok hashtags."""
+    hist = data.setdefault("tiktok_history", {})
+    for it in items or []:
+        tag = it.get("text")
+        if not tag:
+            continue
+        h = hist.get(tag) or {"text": tag, "first_seen": DAY_KEY, "days": []}
+        if DAY_KEY not in h["days"]:
+            h["days"].append(DAY_KEY)
+        views_n = _to_int(it.get("views") or 0)
+        h.update({
+            "last_seen": DAY_KEY,
+            "lang":      tiktok_lang(tag),
+            "posts":     it.get("posts", ""),
+            "views":     it.get("views", ""),
+            "views_n":   views_n,
+            "peak_views": max(views_n, h.get("peak_views", 0)),
+            "best_rank": min(int(it.get("rank") or 99), h.get("best_rank", 99)),
+            "trend":     it.get("trend", ""),
+            "period":    it.get("period", h.get("period", "")),
+            "cat":       it.get("cat") or categorize(tag),
+        })
+        hist[tag] = h
+    cutoff = (NOW - timedelta(days=TIKTOK_HISTORY_DAYS)).strftime("%Y-%m-%d")
+    for tag in [t for t, h in hist.items() if h.get("last_seen", "") < cutoff]:
+        del hist[tag]
+    return hist
+
+
 def _cc_trend(curve):
     """Read TikTok's 0-100 popularity curve: still climbing, at peak, or fading."""
     vals = [float(p.get("value") or 0) for p in (curve or []) if isinstance(p, dict)]
@@ -881,7 +948,8 @@ def fetch_tiktok_cc_direct():
                 "views":  _humanize(it.get("vv") or 0),
                 "trend":  _cc_trend(it.get("popularityCurve")),
                 "period": f"{period}d",
-                "cat":    categorize(name),
+                "lang":   tiktok_lang(name),
+                "cat":    _tiktok_cat(name, it.get("industryIDs")),
                 "source": "cc",
             })
         print(f"  TikTok CC direct ({period}d): {len(rows)} rows")
@@ -1201,6 +1269,7 @@ def main():
         if direct_items:
             data["tiktok"] = {"date": NEWS_DATE, "items": direct_items}
             data.setdefault("_apify", {})["tiktok_direct"] = NOW.isoformat()
+            update_tiktok_history(data, direct_items)
             got_tiktok = True
 
     if not got_tiktok and apify_due(data, "tiktok"):
@@ -1209,6 +1278,7 @@ def main():
         if tiktok_items:
             data["tiktok"] = {"date": NEWS_DATE, "items": tiktok_items}
             apify_mark(data, "tiktok")
+            update_tiktok_history(data, tiktok_items)
             got_tiktok = True
 
     if not got_tiktok and not apify_fresh(data, "tiktok"):
@@ -1227,6 +1297,10 @@ def main():
                 data["tiktok"] = {"date": NEWS_DATE, "items": scraped}
             elif "tiktok" not in data:
                 data["tiktok"] = {"date": NEWS_DATE, "items": []}
+
+    # First run after the history was introduced: seed it from today's pull.
+    if "tiktok_history" not in data and (data.get("tiktok") or {}).get("date") == NEWS_DATE:
+        update_tiktok_history(data, data["tiktok"].get("items"))
 
     # Google source order: Apify → hand-pasted google_manual.json → direct scrape
     have_google = len((data.get("google") or {}).get("items") or []) >= 5
